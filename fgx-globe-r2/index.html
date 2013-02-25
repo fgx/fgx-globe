@@ -1,7 +1,7 @@
 ﻿<!doctype html>
 <html lang='en'>
 <head>
-<title></title>
+<title>fgx globe r2</title>
 <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
 </head>
@@ -23,12 +23,10 @@
 	var renderer, scene, camera, controls, light, stats;
 	var geometry, material, mesh;
 	var clock = new THREE.Clock();
-	
+
 	var headsUp;
 	var mouse = { x: -1, y: -1 };
 	projector = new THREE.Projector();	
-	
-	var globe;
 	
 	var Shaders = {
 		'earth' : {
@@ -58,21 +56,21 @@
 		},
 	};	
 
-	var stars;
-	
 	var info, baseText, updateText = '', scalesText = '';
 	var startTime, file, data, string;
-	var updates = 0;
+	
 	var fileName = 'http://crossfeed.fgx.ch/data';
 	
 	var objects = [];
-	var planeScale = 10
+	var updates = 0;
+	var planeScale = 10;
 	var altitudeScale = 10;
 	
 	init();
 	animate();
   
 	function init() {
+// Three.js stuff	
 		if ( ! Detector.webgl ) {
 			renderer = new THREE.CanvasRenderer( { antialias: true } );
 		} else {
@@ -97,10 +95,10 @@
 		window.addEventListener( 'resize', onWindowResize, false );
 		document.addEventListener( 'mousemove', onDocumentMouseMove, false );
 
-//  User stuff
+//  HTML stuff
 		document.body.style.cssText = 'background-color: #000; color: #fff; font: 600 12pt monospace; margin: 0; overflow: hidden; text-align: center';
 
-		var css = document.createElement('style')
+		var css = document.createElement('style');
 		css.innerHTML = 'a { color: #f8f; text-decoration: none;}' +
 			'input[type=range] { -webkit-appearance: none; background-color: silver; height:20px; opacity: 0.5; width: 80px;}' +
 			'input[type="range"]::-webkit-slider-thumb {-webkit-appearance: none; background-color: #666; opacity: 0.5; width: 10px; height: 26px; }' ;
@@ -111,18 +109,20 @@
 		document.body.appendChild( info );
 		info.style.cssText = 'top: 0px; padding: 5px; position: absolute; width: 100%';
 
+		baseText = '<p>data globe - fgx globe - r1 - flight data courtesy of ' +
+		'<a href="http://www.fgx.ch/" title="add-ons hosted in Switzerland for FlightGear - FOSS flight simulator" target="_blank">FGX</a>\'s ' +
+		'<a href="http://crossfeed.fgx.ch/data" title="near real-time data feed" target="_blank">Crossfeed</a></p>' +				
+		'</p>';
+		info.innerHTML = baseText; 
+
+// pop-up html		
 		headsUp = document.createElement( 'div' );
 		document.body.appendChild( headsUp );
 		headsUp.style.cssText = 'background-color: #ddd; border-radius: 8px; display: none; left: 50px; opacity: 0.85; padding: 5px 5px 10px 5px; ' +
 			'position: absolute; text-align: left;';	
-		headsUp.innerHTML = '<h1>Stuff</h1>';
-		
-		baseText = '<p>data globe - fgx globe - r1 - flight data courtesy of ' +
-		'<a href="http://www.fgx.ch/" title="add-ons hosted in Switzerland for FlightGear - FOSS flight simulator" target="_blank">FGX</a>\'s ' +
-		'<a href="http://crossfeed.fgx.ch/data" title="near real-time data feed" target="_blank">Crossfeed</a></p>' +				
-		'<p>Sizes and altitudes: exaggerated. Headings: broken.</p>';
-		info.innerHTML = baseText; 
-		
+		headsUp.innerHTML = '<h1>flight data</h1>';		
+
+// Hello, World!		
 		geometry = new THREE.SphereGeometry( 50, 50, 50 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationY( Math.PI) );
 
@@ -130,7 +130,7 @@
 		uniforms = {
 			time: { type: "f", value: 1.0 },
 			resolution: { type: "v2", value: new THREE.Vector2() },
-			texture: { type: "t", value: THREE.ImageUtils.loadTexture( "world.jpg" ) }
+			texture: { type: "t", value: THREE.ImageUtils.loadTexture( "../textures/world.jpg" ) }
 		};
 		
 		if ( Detector.webgl ) {
@@ -140,13 +140,14 @@
 				  fragmentShader: shader.fragmentShader
 			});			
 		} else {
-			var texture = THREE.ImageUtils.loadTexture( "world.jpg" );
+			var texture = THREE.ImageUtils.loadTexture( "../textures/world.jpg" );
 			material = new THREE.MeshBasicMaterial( { map: texture, shading: THREE.SmoothShading } );
 		}
 
-		globe = new THREE.Mesh( geometry, material );
+		var globe = new THREE.Mesh( geometry, material );
 		scene.add( globe );
-		
+
+// Stars. Not my code. Seems complicated to me, but it works		
 		var radius = 80;
 		
 		var i, r = radius, starsGeometry = [ new THREE.Geometry(), new THREE.Geometry() ];
@@ -178,6 +179,8 @@
 			new THREE.ParticleBasicMaterial( { color: 0xffffff, size: 1, sizeAttenuation: false } ) // 0x1a1a1a
 		];
 
+		var stars;
+		
 		for ( i = 10; i < 30; i ++ ) {
 			stars = new THREE.ParticleSystem( starsGeometry[ i % 2 ], starsMaterials[ i % 6 ] );
 			stars.rotation.x = Math.random() * 6;
@@ -190,27 +193,38 @@
 			scene.add( stars );
 		}	
 		
-// pole for the poles		
-		geometry = new THREE.CylinderGeometry( 1, 1, 120 );
+// a pole for the poles		
+		geometry = new THREE.CylinderGeometry( 1, 1, 130 );
 		material = new THREE.MeshBasicMaterial( {color: 0xcccccc } );
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.position.set(0, 0, 0);
 		scene.add(mesh);
 		
+// Lining the Equator
+		var count = 100, theta = 0;
+		var delta = 2 * Math.PI / count;
+		
+		geometry = new THREE.Geometry();
+		material = new THREE.LineBasicMaterial( { color: 0xffffff, opacity: 0.5 } );
+		
+		for (var i = 0; i < count; i++) {
+			geometry.vertices.push( v( 55 * cos(theta), 0, 55 * sin(theta) ) );
+			geometry.vertices.push( v( 65 * cos(theta), 0, 65 * sin(theta) ) );
+			theta += delta;
+		}
+		mesh = new THREE.Line( geometry, material, THREE.LinePieces );
+        scene.add( mesh );
+
+//OK, let's get some data flying here,,,		
 		requestFile(fileName);
 	}
 	
-	function updateScale( p, a ) {
-		planeScale = p;
-		altitudeScale = a;
-		scalesText = 'Plane scale: <input type="range" min="1" max="10" onchange="updateScale(this.value, ' + altitudeScale + '); processFlightsData();" step="1" value="' + planeScale + '" > ' +
-			'Altitude scale: <input type="range" min="1" max="10" onchange="updateScale(' + planeScale + ', this.value); processFlightsData();" step="1" value="' + altitudeScale + '" ><br>' +
-			'</p>';
-		info.innerHTML = baseText + updateText + scalesText;
-	}
+	function v(x,y,z){ return new THREE.Vector3(x,y,z); }
+	function cos(a){return Math.cos(a);} function sin(a){return Math.sin(a);}
 	
 	var lastTime = clock.getElapsedTime();;
 	
+// this does the heavy lifting
 	function animate() {
 		requestAnimationFrame( animate );
 		controls.update();
@@ -222,15 +236,7 @@
 		}
 	}
 
-	function onWindowResize() {
-		windowHalfX = window.innerWidth / 2;
-		windowHalfY = window.innerHeight / 2;
-		camera.aspect = window.innerWidth / window.innerHeight;
-		camera.updateProjectionMatrix();
-		renderer.setSize( window.innerWidth, window.innerHeight );
-		time = clock.getElapsedTime();
-	}
-	
+// 	Crossfeed: we want your data
 	function requestFile( fname ) {
 		startTime = new Date();
 		file = new XMLHttpRequest();
@@ -238,7 +244,8 @@
 		file.onreadystatechange = callbackFile;
 		file.send(null);
 	}
-	
+
+// Crossfeed: thanks for sending. Message received.	
 	function callbackFile() {
 		if (file.readyState == 4) {
 			string = file.responseText;
@@ -248,77 +255,67 @@
 			// console.log('waiting...');
 		}
 	}	
-	
+
+// The checklist of things we need	
 	var OBJ = OBJ || {};
 
 	OBJ.planeId = function () {
 		this.alt_ft = [];
 		this.callsign = null;
-		this.dist_nm = [];
-		this.hdg = [];
+		this.dist_nm = null;
+		this.hdg = null;
 		this.lat = [];
 		this.lon = [];
 		this.model = null;
+		this.spd_kts  = null;
+		
 		this.obj = new THREE.Object3D();
-		this.placard = new THREE.Object3D;
-		this.spd_kts = [];
 		this.skywriting = new THREE.Object3D();
+		this.update = 0;
 	}
 	
 	var planes = {};	
-	var flight, plane;
+	var planeCount = 0;
+	var flight, plane;	
 
-	
 	function processFlightsData() {
 		var flights = data.flights;
 		for (var i = 0, l = flights.length; i < l; i++) {
 // console.log( flights[i].callsign );
 			flight = flights[i];	
-			
 			if ( planes[flight.callsign] == undefined) {
 				planes[flight.callsign]  = new OBJ.planeId();			
 				plane = planes[flight.callsign];
-				
-				plane.alt_ft.push(flight.alt_ft);
 				plane.callsign = flight.callsign;
-				plane.dist_nm = flight.dist_nm
-				plane.hdg.push(flight.hdg);
 				plane.model = flight.model;
-				plane.lat.push(flight.lat);
-				plane.lon.push(flight.lon);
-				plane.spd_kts = flight.spd_kts;
 				makePlane( plane );
-				// plane.obj.scale.set( planeScale, planeScale, planeScale);
-				plane.obj.scale.set( planeScale * 0.01, planeScale * 0.01, planeScale * 0.01  );
-				scene.add( plane.obj );	
-				
-				updatePlane( plane );	
+				scene.add( plane.obj );		
 			} else {
 				plane = planes[flight.callsign];
-				plane.alt_ft.push(flight.alt_ft);
-				plane.dist_nm = flight.dist_nm
-				plane.hdg.push(flight.hdg);
-				plane.lat.push(flight.lat);
-				plane.lon.push(flight.lon);		
-				plane.obj.scale.set( planeScale * 0.01, planeScale * 0.01, planeScale * 0.01  );
-				plane.spd_kts = flight.spd_kts;
-				updatePlane( plane );
-			}			
+			}	
+			plane.alt_ft.push(flight.alt_ft);
+			plane.dist_nm = flight.dist_nm
+			plane.hdg = flight.hdg;
+			plane.lat.push(flight.lat);
+			plane.lon.push(flight.lon);		
+			plane.spd_kts = flight.spd_kts;
+			
+			plane.obj.scale.set( planeScale * 0.01, planeScale * 0.01, planeScale * 0.01  );
+			plane.update = 1,
+			updatePlane( plane );
 		}
 		updates++;
-		updateText = '<p>Update: ' + new Date() + ' ~ flights: ' + (flights.length - 1) + ' ~ updates: ' + updates + '</p>';
-		
-		updateScale( planeScale, altitudeScale );
-		
+		updateText = '<p>Update: ' + new Date() + ' ~ flying: ' + (flights.length - 1) + ' ~ updates: ' + updates + ' ~ flown: ' + planeCount +
+		 '</p>';
+		updateScale( planeScale, altitudeScale ); 
+		mothball();  // delete planes no longer on crossfeed
 		info.innerHTML = baseText + updateText + scalesText;
 	}	
 
-	function v(x,y,z){ return new THREE.Vector3(x,y,z); }
-	function cos(a){return Math.cos(a);} function sin(a){return Math.sin(a);}
-	
-	var ribbon;
+	var ribbon; // skywriting
 	
 	function updatePlane( plane ) {
+// new position and heading	
 		var pi = Math.PI, d2r = Math.PI / 180;
 		var po = plane.obj, plat = plane.lat, plon = plane.lon, i = plat.length - 1;
 		var r = 51 + plane.alt_ft[i] * 0.00005 * altitudeScale;		
@@ -329,13 +326,15 @@
 		);
 
 		po.lookAt( new THREE.Vector3(0,0,0) );
-		po.rotation.z = plane.hdg[i] * Math.PI / 180;
-		
+		po.rotation.z = plane.hdg * Math.PI / 180;
+
+// Update the placard		
 		plane.obj.children[7].material = canvasText( plane.callsign, 'H:' + plane.hdg[i], 'A:' + plane.alt_ft[i], 'La:' + plane.lat[i], 'Lo:' + plane.lon[i], { color: '#ff00ff', height: 105,  width: 150 }); 
 
-// ugliness		
-		if ( plane.alt_ft[i] <= 1 ) {
-			console.log(plane);
+// Change color if not moving 
+// ugliness. eventually each plane will have one material...	
+		if ( plane.spd_kts <= 1 ) {
+// console.log(plane);
 			for (var i = 0, l = plane.obj.children.length; i < 7; i++) {
 				plane.obj.children[i].material = new THREE.MeshBasicMaterial( {color: 0xcccccc } );
 			} 
@@ -344,12 +343,13 @@
 				plane.obj.children[i].material = new THREE.MeshNormalMaterial( );
 			}
 		}
-/*		
+
+// Skywriting		
 		material = new THREE.MeshBasicMaterial( { color: 0xffffff, side: THREE.DoubleSide } );
 		var ribbonGeo = new THREE.Geometry();
 
-		// think about saving the positions...
 		for ( var i = 0, l = plat.length; i < l; i++ ) {
+			r = 51 + plane.alt_ft[i] * 0.00005 * altitudeScale;
 			vector = v( 
 				r * cos( plat[i] * d2r ) * cos( pi - plon[i] * d2r), 
 				r * sin( plat[i] * d2r ) - 1,
@@ -365,8 +365,7 @@
 		}	
 		scene.remove( plane.skywriting );		
 		plane.skywriting = new THREE.Ribbon(ribbonGeo, material);
-		scene.add( plane.skywriting );
-*/				
+		scene.add( plane.skywriting );				
 	}
 
 	function makePlane( plane ) {	
@@ -378,6 +377,7 @@
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.plane = plane;
 		objects.push(mesh);
+		
 		p.add( mesh );
 		
 		// wing
@@ -408,6 +408,7 @@
 		geometry = new THREE.CubeGeometry( 20, 8, 6 );
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.position.set( 15, 0, -8);
+		mesh.plane = plane;
 		objects.push(mesh);
 		p.add( mesh );	
 
@@ -415,6 +416,7 @@
 		geometry = new THREE.CubeGeometry( 2, 30, 3 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( Math.PI / 4 ) );
 		mesh = new THREE.Mesh( geometry, material );
+		mesh.plane = plane;
 		mesh.position.set( 52, 0, 0);
 		objects.push(mesh);
 		p.add( mesh );
@@ -424,6 +426,7 @@
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( - Math.PI / 4 ) );
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.position.set( 52, 0, 0);
+		mesh.plane = plane;
 		objects.push(mesh);
 		p.add( mesh );
 		
@@ -431,16 +434,42 @@
 		geometry = new THREE.PlaneGeometry( 150, 105, 1, 1 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( -Math.PI / 2 ) );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationZ( Math.PI ) );
-		material = canvasText( plane.callsign, 'H:' + plane.hdg[0], 'A:' + plane.alt_ft[0], 'La:' + plane.lat[0], 'Lo:' + plane.lon[0], { color: '#ff00ff', height: 105,  width: 150 }); 
+		material = canvasText( plane.callsign, 'H:' + plane.hdg, 'A:' + plane.alt_ft[0], 'La:' + plane.lat[0], 'Lo:' + plane.lon[0], { color: '#ff00ff', height: 105,  width: 150 }); 
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.position.set( 0, 0, -80);
 		mesh.plane = plane;
 		objects.push(mesh);
 		p.add( mesh );
-		
-		// p.rotation.z = plane.hdg[0] * Math.PI / 180;
-}
+	}
+
+// What size do you want?	
+// silly me. updates should be made in the menu itself. but someyimes I get confused as to how/when inputs get updated. So in a function  for the moment...	
+	function updateScale( p, a ) {
+		planeScale = p;
+		altitudeScale = a;
+		scalesText = 'Plane scale: <input type="range" min="1" max="10" onchange="updateScale(this.value, ' + altitudeScale + '); processFlightsData();" step="1" value="' + planeScale + '" > ' +
+			'Altitude scale: <input type="range" min="1" max="10" onchange="updateScale(' + planeScale + ', this.value); processFlightsData();" step="1" value="' + altitudeScale + '" ><br>' +
+			'</p>';
+	}
+
+// Let's see who needs ditching...
 	
+	function mothball() {
+		planeCount = 0;
+		for (var plane in planes) {
+			var p = planes[plane];
+			if ( p.update == 0 ) {
+// console.log( 'Mothballed: ', p, p.update );
+				scene.remove( p.obj );
+				scene.remove( p.skywriting );
+			} else {
+				p.update = 0;
+			}
+			planeCount++;
+		}	
+	}	
+	
+// placards drawn here	
 	function canvasText ( text1, text2, text3, text4, text5, parameters ) {
 // console.log(parameters, text1, text2);
 		var canvas = document.createElement("canvas");
@@ -471,10 +500,19 @@
 		return new THREE.MeshBasicMaterial( { map: map, opacity: 0.8, side: THREE.DoubleSide, transparent: true } );
 	}	
 	
+	function onWindowResize() {
+		windowHalfX = window.innerWidth / 2;
+		windowHalfY = window.innerHeight / 2;
+		camera.aspect = window.innerWidth / window.innerHeight;
+		camera.updateProjectionMatrix();
+		renderer.setSize( window.innerWidth, window.innerHeight );
+		time = clock.getElapsedTime();
+	}	
+	
 	var interescts, intersected;
 	
 	function onDocumentMouseMove( event ) {
-		// event.preventDefault();
+// event.preventDefault();
 		mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
 		mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
 		
@@ -491,12 +529,11 @@
 			headsUp.style.bottom = 10 + 0.5 * window.innerHeight + mouse.y * 0.5 * window.innerHeight+ 'px';
 			headsUp.style.display = 'block';
 			var p = intersected.plane;
-			var i = p.hdg.length - 1;
 			headsUp.innerHTML =  'Callsign: ' + p.callsign + '<br>Model: ' + p.model + '<br>Distance: ' + p.dist_nm + '<br>Speed: ' + p.spd_kts;
 		} else {
 			headsUp.style.display = 'none';
 		}
-	}	
+	}
 </script>
 </body>
 </html>
