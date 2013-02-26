@@ -1,24 +1,87 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
 <title>data globes</title>
 <meta charset='utf-8'>
-<meta name='author' content='Theo Armour'>
 </head>
 <body>
-<script type='text/javascript'>
-	document.body.style.font = 'bold 12pt monospace';
-	var info = document.createElement( 'div' );
-	document.body.appendChild( info );
-	info.innerHTML='<h1>data globes</h1>' +
-		'<p><i>data viz using spherical coordinates</i></p>' +
-		
-		'<p>Visualizing data from <a href="http://www.fgx.ch/" title="add-ons hosted in Switzerland for FlightGear - FOSS flight simulator" target="_blank">FGX</a>\'s ' +
-		'<a href="http://crossfeed.fgx.ch/data" title="near real-time data feed" target="_blank">Crossfeed</a></p>' +	
-		'<p><a href="http://jaanga.github.com/data-globes/fgx-globe-r1/fgx-globe-r1.html" >fgx globe - r1</a></p>' +
-		'</p>';
-		
+<script src='http://mrdoob.github.com/three.js/build/three.min.js'></script>
+<script>
+	var camera, scene, renderer;
+	var geometry, material, mesh;
 
+	init();
+	animate();
+
+	function init() {
+	
+		document.body.style.cssText = 'font: 600 12pt monospace; max-width: 900px; margin: 0 auto; text-align: center';
+		
+		var info = document.createElement( 'div' );
+		document.body.appendChild( info );
+		info.style.cssText = 'text-align: left;';
+		info.innerHTML='<h1>Data Globes</h1>' +
+			'<p><i>Non-trivial big-data vizualization using spherical coordinates: is it possible?</i></p>' +
+			
+			'<h2>Code, Wiki, links and More...</h2>' +
+			
+			'<p><a href="https://github.com/jaanga/data-globes" >github.com/jaanga/data-globes</a></p>' +
+			
+			'<h2><a href="http://jaanga.github.com/data-globes/fgx-globe-r2/" >FGX Globe R2</a></h2>' +
+			
+			'<p>2013-02-25 ~ Fixed bugs, added comments, streamlined the code and added new features. What more could you ask for?</p>' +
+				
+			'<p>Some of the highlights of the release are that planes not being updated by CrossFeed are being \'mothballed\' and removed from the flight view. ' +
+			
+			'The display now now tells you how many planes are currently flying and have flown in the current session. ' +	
+			
+			'There is a pretty new Equator indicator. ' +
+			
+			'The skywriting feature is now back in operation. And, propellers are back where they should be - on the front of the plane. ' +
+			
+			'</p>' +
+			
+			'<h2><a href="http://jaanga.github.com/data-globes/fgx-globe-r1/fgx-globe-r1.html" >FGX Globe R1</a></h2>' +
+			'<p>2013-02-23 ~ This was the first release after being renamed and moved over from being <a href="http://jaanga.github.com/urdacha/globe-demos/globe04-lookat/globe04-lookat.html" >Data Globe #4</a> at ' +
+			'<a href="http://jaanga.github.com/urdacha/">Urdacha</a>. ' +
+			
+			'<p>FGX Globe acquires data from <a href="http://www.fgx.ch/" target="_blank">FGX</a>, ' +
+			
+			'a special effects group hosted in Switzerland. FGX builds add-ons for <a href="http://www.flightgear.org/">FlightGear</a> - the popular FOSS flight simulator. ' +
+
+			'FGX Globe talks to FGX\'s <a href="http://crossfeed.fgx.ch/data" target="_blank">Crossfeed</a> near real-time data feed which shows all the Internet-connected FlightGear planes currently in the air.</p>' +	
+			
+			'The release adds headings being updated, plane and alitutude scaling, North and South Poles, inactive planes being grayed as well as a number of code clean-ups. ' +
+			
+			'</p>';
+		
+		
+		camera = new THREE.PerspectiveCamera( 75, 1, 1, 1000 );
+		camera.position.z = 350;
+
+		scene = new THREE.Scene();
+
+		geometry = new THREE.IcosahedronGeometry( 200, parseInt( Math.random() * 5 ) );
+		material = new THREE.MeshBasicMaterial( { color: 0xffffff * Math.random(), wireframe: true, wireframeLinewidth: parseInt( Math.random() * 8) } );
+
+		mesh = new THREE.Mesh( geometry, material );
+		scene.add( mesh );
+
+		renderer = new THREE.CanvasRenderer();
+		renderer.setSize( 300, 300 );
+		renderer.domElement.style.cssText = 'border: solid red 0px; right: 0; position: absolute; top: 0;';
+
+		document.body.appendChild( renderer.domElement );
+	}
+
+	function animate() {
+		requestAnimationFrame( animate );
+
+		mesh.rotation.x = Date.now() * 0.00002;
+		mesh.rotation.y = Date.now() * 0.0002;
+
+		renderer.render( scene, camera );
+	}
 </script>
 </body>
 </html>
