@@ -329,7 +329,7 @@
 		po.rotation.z = plane.hdg * Math.PI / 180;
 
 // Update the placard		
-		plane.obj.children[7].material = canvasText( plane.callsign, 'H:' + plane.hdg[i], 'A:' + plane.alt_ft[i], 'La:' + plane.lat[i], 'Lo:' + plane.lon[i], { color: '#ff00ff', height: 105,  width: 150 }); 
+		plane.obj.children[7].material = canvasText( plane.callsign, 'H:' + plane.hdg, 'A:' + plane.alt_ft[i], 'La:' + plane.lat[i], 'Lo:' + plane.lon[i], { color: '#ff00ff', height: 105,  width: 150 }); 
 
 // Change color if not moving 
 // ugliness. eventually each plane will have one material...	
