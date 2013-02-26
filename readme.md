@@ -20,7 +20,7 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 
 ## Change log
 
-2013-02-25 ~ Theo  
+2013-02-25 ~ R2 ~ Theo  
 Started Change Log in GitHub Read Me  
 Created folders for textures & fgx-globe r2 & populated fgx-globe-r2  
 OBJ.planeId.hdg & dist_nm: no longer arrays, now single values  
@@ -31,4 +31,12 @@ Added 'mothball' function - to remove non-active planes from the scene
 Updated text to show the count of 'flying' and 'flown'  
 Added an Equator  
 Added back skywriting  
+
+2013-02-25 ~ R1 ~ Theo  
+* simplified object management
+* globe has diameter of 100 units
+* planes have heading - but I think they are off by 90 degrees or 270 or something but I have not taken the time to track this down yet.
+* sliders allow you to set plane scale and altitude scale
+* planes with an altitude of 0, are grayed.
+* moving the cursor over a plane cause a 'heads-up' display to appear which displays model name and the remaining data from the feed not shown on the placard
 
