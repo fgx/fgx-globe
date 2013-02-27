@@ -20,6 +20,11 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 
 ## Change log
 
+2013-02-27 ~ Theo
+* Updated public home page regarding dev version, new code 
+* default camera position is set by laitude, longitude and radius using new update position function
+* Started adding API with access via query string 
+
 *2013-02-26 ~ Theo
 * Rejigged placard and heads-up distrubition of info
 * Added display of thumbnails to heads-up where model thumbnails exist.

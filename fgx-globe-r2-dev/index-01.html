@@ -63,69 +63,30 @@
 	
 	var objects = [];
 	var updates = 0;
-	var planeScale;
-	var altitudeScale;
-	var dynamicDamping;
-	var refreshRate;
+	var planeScale = 10;
+	var altitudeScale = 10;
 	
 	init();
 	animate();
   
 	function init() {
-// detect WebGL	
+// Three.js stuff	
 		if ( ! Detector.webgl ) {
 			renderer = new THREE.CanvasRenderer( { antialias: true } );
 		} else {
 			renderer = new THREE.WebGLRenderer( { antialias: true } );
 		}
-		
-// Process query string
-
-		var args = document.location.search.substring(1).split('&');
-		var vars = {};
-		for ( var i = 0, arg, kvp; i < args.length; i++) { // kvp = key value pair
-			arg = unescape(args[i]);
-			if (arg.indexOf('=') == -1) {
-				vars[arg.trim()] = true;
-			} else {
-				kvp = arg.split('=');
-				vars[kvp[0].trim()] = kvp[1].trim();
-			}
-		}
-		var camLat = vars['lat'] !== undefined ? vars['lat'] : 40;
-		var camLon = vars['lon'] !== undefined ? vars['lon'] : -35;
-		var camRad = vars['rad'] !== undefined ? vars['rad'] : 180;
-		
-		planeScale = vars['ps'] !== undefined ? vars['ps'] : 10;
-		altitudeScale = vars['as'] !== undefined ? vars['as'] : 10;
-		dynamicDamping = vars['dd'] !== undefined ? vars['dd'] : 0.2;
-		
-		refreshRate = vars['rr'] !== undefined ? vars['rr'] : 10;
-/*		
-		var background = vars['background'] !== undefined ? vars['background'] : 'ffffff';
-		// var css = vars['css'] !== undefined ? vars['css'] : 'font-family: monospace; margin: 0; overflow: hidden; padding: 0;';
-		var css = vars['css'] !== undefined ? vars['css'] : 'font-family: monospace; margin: 0; overflow: hidden; padding: 0; ';
-		
-		var equation = vars['equation'] !== undefined ? vars['equation'] : 'x^2 + y^2 - z^2 - 70';
-		var height = vars['height'] !== undefined && vars['height'] > 0 ? vars['height'] : window.innerHeight;
-		var html = vars['html'] !== undefined ? vars['html'] : 'x<sup>2</sup>+y<sup>2</sup>-z<sup>2</sup>-70' ; 		
-*/	
-
-// Three.js stuff	
 		renderer.setSize( window.innerWidth, window.innerHeight );
 		document.body.appendChild( renderer.domElement );
 
 		scene = new THREE.Scene();
 
 		camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 10000 );
-		// camera.position.set( -100, 120, -120);
-		updatePosition( camera, camLat, camLon, camRad )
+		camera.position.set( -100, 120, -120);
 
 		controls = new THREE.TrackballControls( camera, renderer.domElement );
 		controls.minDistance = 50;
 		controls.maxDistance = 250;
-		controls.dynamicDampingFactor = dynamicDamping; // 0.2;
-		
 
 		stats = new Stats();
 		stats.domElement.style.cssText = 'position: absolute; top: 0px; zIndex: 100; ';
@@ -146,13 +107,13 @@
 
 		info = document.createElement( 'div' );
 		document.body.appendChild( info );
-		info.style.cssText = 'top: 0px; margin: 0 0 0 100px; padding: 5px; position: absolute; width: 100%';
+		info.style.cssText = 'top: 0px; padding: 5px; position: absolute; width: 100%';
 
 		baseText = '<p>data globe - fgx globe - r2 - flight data courtesy of ' +
 		'<a href="http://www.fgx.ch/" title="add-ons hosted in Switzerland for FlightGear - FOSS flight simulator" target="_blank">FGX</a>\'s ' +
 		'<a href="http://crossfeed.fgx.ch/data" title="near real-time data feed" target="_blank">Crossfeed</a></p>' +				
 		'</p>';
-		info.innerHTML = baseText; 		
+		info.innerHTML = baseText; 
 
 // pop-up html		
 		headsUp = document.createElement( 'div' );
@@ -160,7 +121,6 @@
 		headsUp.style.cssText = 'background-color: #888; border-radius: 8px; display: none; left: 50px; opacity: 0.85; padding: 5px 5px 10px 5px; ' +
 			'position: absolute; text-align: left;';	
 		headsUp.innerHTML = '<h1>flight data</h1>';		
-		
 
 // Hello, World!		
 		geometry = new THREE.SphereGeometry( 50, 50, 50 );
@@ -259,7 +219,8 @@
 		requestFile(fileName);
 	}
 	
-
+	function v(x,y,z){ return new THREE.Vector3(x,y,z); }
+	function cos(a){return Math.cos(a);} function sin(a){return Math.sin(a);}
 	
 	var lastTime = clock.getElapsedTime();;
 	
@@ -269,7 +230,7 @@
 		controls.update();
 		renderer.render( scene, camera );
 		stats.update();
-		if ( clock.getElapsedTime() - lastTime > refreshRate ){
+		if ( clock.getElapsedTime() - lastTime > 10 ){
 			lastTime = clock.getElapsedTime();
 			requestFile(fileName);
 		}
@@ -368,36 +329,25 @@
 
 	var ribbon; // skywriting
 	
-	function v(x,y,z){ return new THREE.Vector3(x,y,z); }
-	function cos(a){return Math.cos(a);} function sin(a){return Math.sin(a);}
-	
-	function updatePosition( obj, lat, lon, rad ) {
-		var pi = Math.PI, d2r = Math.PI / 180;	
-		obj.position.set(
-			rad * cos( lat * d2r ) * cos( pi - lon * d2r), 
-			rad * sin( lat * d2r ),
-			rad * cos( lat * d2r ) * sin( pi - lon * d2r)
-		);	
-	}
-	
 	function updatePlane( plane ) {
 // new position and heading	
 		var pi = Math.PI, d2r = Math.PI / 180;
 		var po = plane.obj, plat = plane.lat, plon = plane.lon, i = plat.length - 1;
-		var rad = 51 + plane.alt_ft[i] * 0.00005 * altitudeScale;	
-		updatePosition( po, plat[i], plon[i], rad );
-/*		
+		var r = 51 + plane.alt_ft[i] * 0.00005 * altitudeScale;		
 		po.position.set(
 			r * cos( plat[i] * d2r ) * cos( pi - plon[i] * d2r), 
 			r * sin( plat[i] * d2r ),
 			r * cos( plat[i] * d2r ) * sin( pi - plon[i] * d2r)
 		);
-*/
+
 		po.lookAt( new THREE.Vector3(0,0,0) );
 		po.rotation.z = plane.hdg * Math.PI / 180;
 
 // Update the placard		
-		po.children[7].material = canvasText( plane.callsign, plane.extractName(), { color: '#ff00ff', height: 50,  width: 150 }); 
+		// plane.obj.children[7].material = canvasText( plane.callsign, 'H:' + plane.hdg, 'A:' + plane.alt_ft[i], 'La:' + plane.lat[i], 'Lo:' + plane.lon[i], { color: '#ff00ff', height: 105,  width: 150 }); 
+		//var lio = plane.model.lastIndexOf('/') + 1;
+		// var modelName = plane.model.substr( lio ).replace(/.xml/i,'');
+		po.children[7].material = canvasText( plane.callsign, plane.extractName(), { color: '#ff00ff', height: 105,  width: 150 }); 
 		
 // Change color if not moving 
 // ugliness. eventually each plane will have one material...	
@@ -559,6 +509,9 @@
 		context.textAlign = "left";
 		context.fillText(text1, 5, 20);
 		context.fillText(text2, 5, 40);
+		// context.fillText(text3, 5, 60);
+		// context.fillText(text4, 5, 80);
+		// context.fillText(text5, 5, 100);
 		
 		map = new THREE.Texture( canvas );
 		map.needsUpdate = true;
@@ -622,6 +575,7 @@
 					console.log('catch: ', err);
 				}
 			}
+			
 			loadImg();
 			*/
 			
