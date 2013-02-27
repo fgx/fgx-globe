@@ -20,17 +20,21 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 
 ## Change log
 
+*2013-02-26 ~ Theo
+* Rejigged placard and heads-up distrubition of info
+* Added display of thumbnails to heads-up where model thumbnails exist.
+
 2013-02-25 ~ R2 ~ Theo  
-Started Change Log in GitHub Read Me  
-Created folders for textures & fgx-globe r2 & populated fgx-globe-r2  
-OBJ.planeId.hdg & dist_nm: no longer arrays, now single values  
-Addeded OBJ.planeId.update  
-Moved propellers back into correct location r1 + r2  
-Cleaned up processFlightsData()  
-Added 'mothball' function - to remove non-active planes from the scene  
-Updated text to show the count of 'flying' and 'flown'  
-Added an Equator  
-Added back skywriting  
+* Started Change Log in GitHub Read Me  
+* Created folders for textures & fgx-globe r2 & populated fgx-globe-r2  
+* OBJ.planeId.hdg & dist_nm: no longer arrays, now single values  
+* Addeded OBJ.planeId.update  
+* Moved propellers back into correct location r1 + r2  
+* Cleaned up processFlightsData()  
+* Added 'mothball' function - to remove non-active planes from the scene  
+* Updated text to show the count of 'flying' and 'flown'  
+* Added an Equator  
+* Added back skywriting  
 
 2013-02-25 ~ R1 ~ Theo  
 * simplified object management
