@@ -401,7 +401,7 @@
 		
 // Change color if not moving 
 // ugliness. eventually each plane will have one material...	
-		if ( plane.spd_kts <= 1 ) {
+		if ( plane.spd_kts <= 10 ) {
 // console.log(plane);
 			for (var i = 0, l = plane.obj.children.length; i < 7; i++) {
 				po.children[i].material = new THREE.MeshBasicMaterial( {color: 0xcccccc } );
