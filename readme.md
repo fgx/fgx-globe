@@ -23,7 +23,7 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 2013-02-28 ~ Theo
 * Started & completed process of putting variables in a name space. Thanks to Pete for the push...
 * mothball: looks for latest update number otherwise delete...
-* Added GoSFO and GoWorld ~ wormholes into parallel worlds.
+* Added GoSFO and GoWorld ~ wormholes into parallel worlds
 
 2013-02-27 ~ Theo
 * Updated public home page regarding dev version, new code 
