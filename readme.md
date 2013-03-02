@@ -22,6 +22,7 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 
 2013-03-02 ~ Theo
 * cookbook: added 'find-nearby.html'
+* cookbook: added 'globe-circumscribe.html'
 
 2013-03-02 ~ Theo
 * Wiki: worked on mission statement 
