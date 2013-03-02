@@ -20,6 +20,12 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 
 ## Change log
 
+2013-03-02 ~ Theo
+* cookbook: added 'find-nearby.html'
+
+2013-03-02 ~ Theo
+* Wiki: worked on mission statement 
+
 2013-02-28 ~ Theo
 * Started & completed process of putting variables in a name space. Thanks to Pete for the push...
 * mothball: looks for latest update number otherwise delete...
