@@ -1,4 +1,4 @@
-Data Globes
+FGx Globe
 ===========
 
 2013-02-25 ~ just getting off the ground...
