@@ -1,0 +1,201 @@
+﻿<!doctype html>
+<html lang='en'>
+<head>
+<title></title>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+</head>
+<body>
+
+<script src='http://mrdoob.github.com/three.js/examples/js/Detector.js'></script>
+<script src='http://mrdoob.github.com/three.js/build/three.min.js'></script>
+<script src='http://mrdoob.github.com/three.js/examples/js/controls/TrackballControls.js'></script>
+<script src='http://mrdoob.github.com/three.js/examples/js/libs/stats.min.js'></script>
+<!--
+<script src='../../three.js/examples/js/Detector.js'></script>
+<script src='../../three.js/build/three.min.js'></script>
+<script src='../../three.js/examples/js/controls/TrackballControls.js'></script>
+<script src='../../three.js/examples/js/libs/stats.min.js'></script>
+-->
+<script>
+	if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
+
+	var renderer, scene, camera, controls, light, stats;
+	var geometry, material, mesh, info, htm;
+	var sphere, cube, plane, texture;
+
+	var startTime = new Date();
+	var data;
+	var objects;
+	var cubes = [];
+	var nearby = 25;
+
+	init();
+	animate();
+
+	function init() {
+		if ( ! Detector.webgl ) {
+			renderer = new THREE.CanvasRenderer( { antialias: true } );
+		} else {
+			renderer = new THREE.WebGLRenderer( { antialias: true } );
+		}
+		renderer.setSize( window.innerWidth, window.innerHeight );
+		renderer.shadowMapEnabled = true;
+		document.body.appendChild( renderer.domElement );
+		scene = new THREE.Scene();
+
+		camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 1000 );
+		camera.position.set(-100, 100, 100);
+		controls = new THREE.TrackballControls( camera, renderer.domElement );
+
+		light = new THREE.SpotLight( 0xffffff );
+		light.position.set( 200, 400, 200 );
+
+		light.castShadow = true;
+
+		light.shadowMapWidth = 1024;
+		light.shadowMapHeight = 1024;
+
+		light.shadowCameraNear = 50;
+		light.shadowCameraFar = 1000;
+		light.shadowCameraFov = 20;
+
+		scene.add( light );
+
+		stats = new Stats();
+		stats.domElement.style.cssText = 'position: absolute; top: 0px; zIndex: 100; ';
+		document.body.appendChild( stats.domElement );
+
+		window.addEventListener( 'resize', onWindowResize, false );
+		document.addEventListener( 'mouseup', onDocumentMouseUp, false );
+
+
+	//  User stuff
+
+		var css = document.createElement('style')
+		css.innerHTML = 'body {background-color: transparent; font: 600 12pt monospace; margin: 0; overflow: hidden; text-align: center; }' +
+			'a { color: #f00; text-decoration: none;}  ' +
+			'input[type=range] { -webkit-appearance: none; background-color: silver; height:20px; opacity: 0.5; width: 80px;}' +
+			'input[type="range"]::-webkit-slider-thumb {-webkit-appearance: none; background-color: #666; opacity: 0.5; width: 10px; height: 26px; }'  +
+			'button { -webkit-appearance: none; background-color: silver; font: 600 12pt monospace; height:25px; opacity: 0.5;) ' ;
+		document.body.appendChild( css );
+
+		material = new THREE.MeshBasicMaterial( {color: Math.random() * 0xffffff, side: THREE.DoubleSide } );
+		geometry = new THREE.PlaneGeometry( 100, 100, 1, 1 );
+		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( - Math.PI / 2 ) );
+		plane = new THREE.Mesh( geometry, material );
+		plane.position.set( 0, -60, 0 );
+		plane.receiveShadow = true;
+		scene.add( plane );
+
+		geometry = new THREE.SphereGeometry( 5 );
+		material = new THREE.MeshNormalMaterial();
+		sphere = new THREE.Mesh( geometry, material );
+		sphere.nearby = nearby;
+		sphere.castShadow = true;
+		scene.add( sphere );
+		
+		geometry = new THREE.SphereGeometry( 50, 50, 50 );
+		material = new THREE.MeshNormalMaterial( { opacity: 0.5, transparent: true });
+		var globe = new THREE.Mesh( geometry, material );
+		// sphere.nearby = nearby;
+		// sphere.castShadow = true;
+		scene.add( globe );		
+
+		info = document.createElement( 'div' );
+		document.body.appendChild( info );
+		info.style.cssText = 'margin 0 0 0 100px: auto; position: absolute; top: 0px; width: 100% ';
+		htm = '<p>Open Geoff\'s file and find nearby. Be very, very patient with your computer.</p>' +
+			'<p>X:<input type="range" id="spin" min="-50" max="50" onchange="sphere.position.x=this.value;" step="5" value="' + sphere.position.x + '" > ' +
+			'Y:<input type="range" id="spin" min="-50" max="50" onchange="sphere.position.y=this.value;" step="5" value="' + sphere.position.y + '" > ' +
+			'Z:<input type="range" id="spin" min="-50" max="50" onchange="sphere.position.z=this.value;" step="5" value="' + sphere.position.z + '" > ' +
+			'Nearby: ' +
+			'<input type="range" id="spin" min="-0" max="50" onchange="sphere.nearby=this.value;" step="1" value="' + sphere.nearby + '" > ' +
+			// '<button onclick="loadCSV(\'airports850.csv\')" >open Geoff\'s CSV</button> ' +
+			'</p>';
+
+		info.innerHTML = htm;
+		
+		loadCSV('airports850.csv');
+	}
+
+	function loadCSV( fname ) {
+		xmlhttp = new XMLHttpRequest();
+		xmlhttp.open( 'GET', fname, true );
+		xmlhttp.onreadystatechange = callback;
+		xmlhttp.send( null );
+	}
+	
+	var callbackCount = 0;
+	
+	function callback() {
+		if ( xmlhttp.readyState == 4  ) {
+			var dataLines = xmlhttp.responseText;
+			dataLines = dataLines.split(/\r\n|\n/);
+			var dataLength = dataLines.length;
+			var separator = ',';
+			data = [];
+			for ( var i = 0; i < dataLength; i++ ) {
+				data.push( dataLines[i].split( separator ) );
+			}
+		} else {
+			callbackCount++;
+			console.log('waiting...');
+			info.innerHTML = htm + ' Responses: ' + callbackCount;
+		}
+	}
+
+	function v(x,y,z){ return new THREE.Vector3(x,y,z); }
+	function cos(a){return Math.cos(a);} function sin(a){return Math.sin(a);}
+
+	function calcPosition( lat, lon, rad ) {
+		var pi = Math.PI, d2r = Math.PI / 180;
+		return  v(
+			rad * cos( lat * d2r ) * cos( pi - lon * d2r),
+			rad * sin( lat * d2r ),
+			rad * cos( lat * d2r ) * sin( pi - lon * d2r)
+		);
+	}
+
+	function animate() {
+		requestAnimationFrame( animate );
+		controls.update();
+		renderer.render( scene, camera );
+		stats.update();
+	}
+
+	function onWindowResize() {
+		windowHalfX = window.innerWidth / 2;
+		windowHalfY = window.innerHeight / 2;
+		camera.aspect = window.innerWidth / window.innerHeight;
+		camera.updateProjectionMatrix();
+		renderer.setSize( window.innerWidth, window.innerHeight );
+	}
+
+	function onDocumentMouseUp( e ) {
+		if ( data == undefined ) return;
+		if ( objects != undefined ) {
+			scene.remove( objects );
+		}	
+		objects = new THREE.Object3D();
+		geometry = new THREE.CubeGeometry( 1, 1, 1);
+		material = new THREE.MeshNormalMaterial();
+		var ap, position, distance, cnt = 0;
+		for (var i = 0, len = data.length; i < len; i++) {
+			ap = data[i];
+			position =  calcPosition( ap[2], ap[3], 50 );
+			distance = position.distanceTo( sphere.position );
+			if ( distance < sphere.nearby ) {	
+				cube = new THREE.Mesh( geometry, material );
+				cube.position = position;
+				objects.add( cube );
+				cnt++;
+			}
+		}
+		scene.add( objects );
+		info.innerHTML = htm + ' Nearby: ' + cnt;
+	}
+
+</script>
+</body>
+</html>

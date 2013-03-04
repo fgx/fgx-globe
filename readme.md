@@ -20,6 +20,13 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 
 ## Change log
 
+2013-03-04 ~ Theo
+* cookbook: added 'open-geoff-file-show-only-nearby.html'
+
+2013-03-03 ~ Theo
+* cookbook: added 'open-geoff-file-and-display.html'
+* cookbook: added 'open-geoff-file-and-find-nearby.html'
+
 2013-03-02 ~ Theo
 * cookbook: added 'find-nearby.html'
 * cookbook: added 'globe-circumscribe.html'
