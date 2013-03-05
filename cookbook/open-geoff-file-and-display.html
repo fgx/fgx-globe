@@ -138,6 +138,7 @@
 			ap = data[i];
 			cube = new THREE.Mesh( geometry, material );
 			cube.position = calcPosition( ap[2], ap[3], 50 );
+			cube.ap = ap;
 			objects.add( cube );			
 		}
 		scene.add( objects );

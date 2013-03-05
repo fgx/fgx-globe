@@ -20,6 +20,15 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 
 ## Change log
 
+2013-03-05 ~ Theo
+* cookbook: added open-geoff-file-head-ups-only-nearby.html
+- Shows details of nearest of 27,000 airports
+* cookbook: added globe-circumscribe-airports.html
+- ditto with nicer UI
+* cookbook: added globe-circumscribe-airports-2k-only
+- what does a globe with 2,134 airports look like? Crowded.
+
+
 2013-03-04 ~ Theo
 * cookbook: added 'open-geoff-file-show-only-nearby.html'
 
