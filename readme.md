@@ -20,6 +20,11 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 
 ## Change log
 
+2013-03-06 ~ Theo
+* added aptinfo folder with navaid data for 2,123 airports
+* cookbook: added globe-circumscribe-airports-2k-json.html 
+- not fully working
+
 2013-03-05 ~ Theo
 * cookbook: added open-geoff-file-head-ups-only-nearby.html
 - Shows details of nearest of 27,000 airports
