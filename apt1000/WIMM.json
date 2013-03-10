@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WIMM","name":"Medan/polonia","lat":3.558057,"lon":98.6717155,"rwys":1,"ils":1,"index":4560741,"path":"e090n00/e098n03"
+,"runways":[
+{"len_m":2898,"wid_m":45.11,"hdg":46,"surf":"Asphalt","rwy1":"05","lat1":3.54907500,"lon1":98.66221700,"rwy2":"23","lat2":3.56703900,"lon2":98.68121400}
+]
+,"radios":[
+{"type":"ATIS","freq":126.8,"desc":"MEDAN ATIS"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.7,"desc":"MEDAN APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":3.56806900,"lon":98.68311400,"rng_nm":18,"alt_fmsl":90,"hdg":47.68,"id":"IMDN","rwy":"05","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":3.55226400,"lon":98.66695000,"rng_nm":10,"alt_fmsl":90,"id":"IMDN","rwy":"05","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":3.50108900,"lon":98.61225300,"rng_nm":0,"alt_fmsl":90,"id":"----","rwy":"05","desc":"OM"},
+{"type":"MM","freq":0,"lat":3.54370600,"lon":98.65621100,"rng_nm":0,"alt_fmsl":90,"id":"----","rwy":"05","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":7.1,"dist_nm":0.6,"freq":375,"lat":3.56843900,"lon":98.67300600,"rng_nm":50,"alt_fmsl":90,"id":"ON","desc":"MEDAN NDB"},
+{"type":"VOR","hdg_t":230.2,"dist_nm":4.9,"freq":113,"lat":3.50455000,"lon":98.60775000,"rng_nm":130,"alt_fmsl":175,"id":"MDN","desc":"MEDAN VOR-DME"},
+{"type":"NDB","hdg_t":252.9,"dist_nm":86.1,"freq":230,"lat":3.13333300,"lon":97.30000000,"rng_nm":50,"alt_fmsl":13,"id":"TP","desc":"TAPAK TUAN NDB"},
+{"type":"NDB","hdg_t":173.7,"dist_nm":120.3,"freq":215,"lat":1.55500000,"lon":98.89027800,"rng_nm":50,"alt_fmsl":33,"id":"SK","desc":"PINANG SORE NDB"},
+{"type":"VOR","hdg_t":173.7,"dist_nm":120.4,"freq":114.3,"lat":1.55226700,"lon":98.89145000,"rng_nm":130,"alt_fmsl":43,"id":"SIX","desc":"PINANG SORE VOR-DME"},
+{"type":"NDB","hdg_t":316.7,"dist_nm":123.9,"freq":222,"lat":5.06833300,"lon":97.25305600,"rng_nm":50,"alt_fmsl":28,"id":"LS","desc":"LHOK SUKON NDB"},
+{"type":"NDB","hdg_t":160.5,"dist_nm":136.7,"freq":233,"lat":1.39833900,"lon":99.42896700,"rng_nm":50,"alt_fmsl":935,"id":"AG","desc":"AEK GODANG NDB"},
+{"type":"VOR","hdg_t":42.7,"dist_nm":140.1,"freq":116.2,"lat":5.27963900,"lon":100.26038900,"rng_nm":25,"alt_fmsl":11,"id":"VPG","desc":"PENANG VOR-DME"},
+{"type":"NDB","hdg_t":79.3,"dist_nm":143.2,"freq":315,"lat":3.99666700,"lon":101.02000000,"rng_nm":50,"alt_fmsl":0,"id":"TA","desc":"TELOK INTAN NDB"},
+{"type":"NDB","hdg_t":314,"dist_nm":143.4,"freq":335,"lat":5.22666700,"lon":96.95027800,"rng_nm":60,"alt_fmsl":90,"id":"LW","desc":"MALIKUS SALEH NDB"}
+]
+}

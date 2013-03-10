@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OIKB","name":"Bandar Abbass Intl","lat":27.21831575,"lon":56.377852,"rwys":2,"ils":1,"index":3874121,"path":"e050n20/e056n27"
+,"runways":[
+{"len_m":3660,"wid_m":45.11,"hdg":27,"surf":"Asphalt","rwy1":"03R","lat1":27.20316900,"lon1":56.37035600,"rwy2":"21L","lat2":27.23239700,"lon2":56.38756900},
+{"len_m":3456,"wid_m":29.87,"hdg":27,"surf":"Asphalt","rwy1":"03L","lat1":27.20504700,"lon1":56.36861400,"rwy2":"21R","lat2":27.23265000,"lon2":56.38486900}
+]
+,"radios":[
+{"type":"ATIS","freq":128.65,"desc":"ATIS"},
+{"type":"TWR","freq":121.9,"desc":"TWR"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":124.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":27.19952800,"lon":56.36788900,"rng_nm":18,"alt_fmsl":3,"hdg":208.03,"id":"IBND","rwy":"21L","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":27.23058300,"lon":56.38505600,"rng_nm":10,"alt_fmsl":12,"id":"IBND","rwy":"21L","desc":"GS","gs":2.98},
+{"type":"DME","freq":109.9,"lat":27.23058300,"lon":56.38505600,"rng_nm":18,"alt_fmsl":12,"id":"IBND","rwy":"21L","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":114.9,"dist_nm":0.1,"freq":113.1,"lat":27.21697200,"lon":56.38108300,"rng_nm":130,"alt_fmsl":16,"id":"BND","desc":"BANDAR ABBASS TACAN"},
+{"type":"NDB","hdg_t":262.7,"dist_nm":0.9,"freq":250,"lat":27.21630600,"lon":56.36008300,"rng_nm":150,"alt_fmsl":49,"id":"BND","desc":"BANDAR ABBASS NDB"},
+{"type":"VOR","hdg_t":204.9,"dist_nm":1.4,"freq":117.2,"lat":27.19705600,"lon":56.36677800,"rng_nm":130,"alt_fmsl":16,"id":"BND","desc":"BANDAR ABBASS VOR-DME"},
+{"type":"NDB","hdg_t":222.8,"dist_nm":37.1,"freq":233,"lat":26.76308300,"lon":55.90766700,"rng_nm":25,"alt_fmsl":31,"id":"KHM","desc":"DAYRESTAN NDB-DME"},
+{"type":"SDME","hdg_t":222.8,"dist_nm":37.1,"freq":117.1,"lat":26.76308300,"lon":55.90766700,"rng_nm":25,"alt_fmsl":31,"id":"KHM","desc":"DAYRESTAN NDB-DME"},
+{"type":"NDB","hdg_t":243.7,"dist_nm":90.9,"freq":408,"lat":26.53761100,"lon":54.86119400,"rng_nm":75,"alt_fmsl":15,"id":"LEN","desc":"BANDAR LENGEH NDB"},
+{"type":"VOR","hdg_t":243.8,"dist_nm":91.5,"freq":114.8,"lat":26.53613900,"lon":54.85116700,"rng_nm":130,"alt_fmsl":62,"id":"LEN","desc":"BANDAR LENGEH VOR-DME"},
+{"type":"VOR","hdg_t":193.5,"dist_nm":100.2,"freq":113.6,"lat":25.58843100,"lon":55.94632500,"rng_nm":200,"alt_fmsl":149,"id":"RAV","desc":"RAS AL KHAIMAH VOR-DME"},
+{"type":"VOR","hdg_t":285,"dist_nm":108.2,"freq":117.9,"lat":27.67516700,"lon":54.41519400,"rng_nm":130,"alt_fmsl":2619,"id":"LAR","desc":"LAR VOR-DME"},
+{"type":"NDB","hdg_t":222.5,"dist_nm":108.3,"freq":285,"lat":25.87780600,"lon":55.02294400,"rng_nm":25,"alt_fmsl":23,"id":"ABM","desc":"ABUMUSA ISLAND NDB"}
+]
+}

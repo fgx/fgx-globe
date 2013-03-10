@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SCDA","name":"Diego Aracena Intl","lat":-20.53522777,"lon":-70.18127917,"rwys":1,"ils":1,"index":1790302,"path":"w080s30/w071s21"
+,"runways":[
+{"len_m":3352,"wid_m":45.11,"hdg":182,"surf":"Asphalt","rwy1":"18","lat1":-20.52010833,"lon1":-70.18046944,"rwy2":"36","lat2":-20.55034722,"lon2":-70.18208889}
+]
+,"radios":[
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.9,"desc":"IQUIQUE TWR"},
+{"type":"APP","freq":122.7,"desc":"IQUIQUE APP"},
+{"type":"APP","freq":124.9,"desc":"IQUIQUE APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":-20.55305600,"lon":-70.18222200,"rng_nm":18,"alt_fmsl":174,"hdg":182.85,"id":"IIQQ","rwy":"18","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":-20.52277800,"lon":-70.17944400,"rng_nm":10,"alt_fmsl":105,"id":"IIQQ","rwy":"18","desc":"GS","gs":3.2},
+{"type":"DME","freq":109.9,"lat":-20.52277800,"lon":-70.18333300,"rng_nm":18,"alt_fmsl":105,"id":"IIQQ","rwy":"18","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":2.9,"dist_nm":1.3,"freq":298,"lat":-20.51303100,"lon":-70.18007500,"rng_nm":100,"alt_fmsl":0,"id":"R","desc":"DIEGO ARACENA NDB"},
+{"type":"NDB","hdg_t":183,"dist_nm":2.1,"freq":368,"lat":-20.57111100,"lon":-70.18333300,"rng_nm":80,"alt_fmsl":0,"id":"UCU","desc":"IQUIQUE NDB"},
+{"type":"VOR","hdg_t":2.9,"dist_nm":9.6,"freq":113.3,"lat":-20.37472200,"lon":-70.17250000,"rng_nm":130,"alt_fmsl":261,"id":"IQQ","desc":"IQUIQUE VOR-DME"},
+{"type":"NDB","hdg_t":98.7,"dist_nm":84.8,"freq":278,"lat":-20.74388900,"lon":-68.68944400,"rng_nm":25,"alt_fmsl":0,"id":"COP","desc":"COPOSA NDB"},
+{"type":"NDB","hdg_t":99.9,"dist_nm":85.7,"freq":327,"lat":-20.77555600,"lon":-68.67888900,"rng_nm":25,"alt_fmsl":0,"id":"NES","desc":"COPOSA NDB"},
+{"type":"VOR","hdg_t":175.8,"dist_nm":96.2,"freq":114.5,"lat":-22.14000000,"lon":-70.05500000,"rng_nm":130,"alt_fmsl":3475,"id":"TOC","desc":"TOCOPILLA VOR"},
+{"type":"NDB","hdg_t":355.8,"dist_nm":129.6,"freq":305,"lat":-18.37166700,"lon":-70.34722200,"rng_nm":25,"alt_fmsl":0,"id":"R","desc":"ARICA NDB"},
+{"type":"VOR","hdg_t":355.8,"dist_nm":129.7,"freq":116.5,"lat":-18.36944400,"lon":-70.34638900,"rng_nm":130,"alt_fmsl":88,"id":"ARI","desc":"ARICA VOR-DME"},
+{"type":"NDB","hdg_t":148.8,"dist_nm":137.1,"freq":215,"lat":-22.49361100,"lon":-68.90305600,"rng_nm":100,"alt_fmsl":7606,"id":"CFL","desc":"CALAMA NDB"},
+{"type":"VOR","hdg_t":148.3,"dist_nm":138.2,"freq":116.3,"lat":-22.50027800,"lon":-68.87694400,"rng_nm":130,"alt_fmsl":7692,"id":"LOA","desc":"CALAMA VOR-DME"}
+]
+}

@@ -1,0 +1,38 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EYVI","name":"Vilnius Intl","lat":54.6341665,"lon":25.28579609,"rwys":1,"ils":2,"index":3367977,"path":"e020n50/e025n54"
+,"runways":[
+{"len_m":2505,"wid_m":49.99,"hdg":21,"surf":"Asphalt","rwy1":"02","lat1":54.62372880,"lon1":25.27854667,"rwy2":"20","lat2":54.64460419,"lon2":25.29304551}
+]
+,"radios":[
+{"type":"ATIS","freq":125.8,"desc":"ATIS"},
+{"type":"TWR","freq":118.2,"desc":"TWR"},
+{"type":"APP","freq":120.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":54.64849400,"lon":25.29572500,"rng_nm":18,"alt_fmsl":646,"hdg":21.88,"id":"IAV","rwy":"02","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.1,"lat":54.61649700,"lon":25.27355000,"rng_nm":18,"alt_fmsl":646,"hdg":201.87,"id":"IBK","rwy":"20","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":54.62665600,"lon":25.28274400,"rng_nm":10,"alt_fmsl":646,"id":"IAV","rwy":"02","desc":"GS","gs":2.67},
+{"type":"GS","freq":109.1,"lat":54.64140000,"lon":25.29282800,"rng_nm":10,"alt_fmsl":646,"id":"IBK","rwy":"20","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":54.61600600,"lon":25.27323300,"rng_nm":0,"alt_fmsl":646,"id":"----","rwy":"02","desc":"MM"},
+{"type":"MM","freq":0,"lat":54.68160300,"lon":25.31870600,"rng_nm":0,"alt_fmsl":646,"id":"----","rwy":"20","desc":"MM"},
+{"type":"DME","freq":109.1,"lat":54.64140000,"lon":25.29282500,"rng_nm":18,"alt_fmsl":651,"id":"IBK","rwy":"20","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":67.4,"dist_nm":0.2,"freq":113.8,"lat":54.63605600,"lon":25.29363100,"rng_nm":50,"alt_fmsl":635,"id":"VNO","desc":"VILNIUS VOR-DME"},
+{"type":"NDB","hdg_t":21.8,"dist_nm":3,"freq":385,"lat":54.68160300,"lon":25.31870600,"rng_nm":25,"alt_fmsl":0,"id":"AVN","desc":"VILNIUS NDB"},
+{"type":"NDB","hdg_t":296.7,"dist_nm":45,"freq":343,"lat":54.96575600,"lon":24.12191900,"rng_nm":50,"alt_fmsl":0,"id":"KUS","desc":"KAUNAS NDB"},
+{"type":"VOR","hdg_t":295.2,"dist_nm":46.6,"freq":114.4,"lat":54.95980300,"lon":24.06531700,"rng_nm":50,"alt_fmsl":256,"id":"KNA","desc":"KAUNAS VOR-DME"},
+{"type":"NDB","hdg_t":130.9,"dist_nm":68,"freq":355,"lat":53.88333300,"lon":26.73333300,"rng_nm":81,"alt_fmsl":0,"id":"KI","desc":"IVENETS NDB"},
+{"type":"NDB","hdg_t":216.8,"dist_nm":73.4,"freq":985,"lat":53.65033100,"lon":24.05136000,"rng_nm":80,"alt_fmsl":416,"id":"GP","desc":"GRODNO NDB"},
+{"type":"NDB","hdg_t":336.4,"dist_nm":74.1,"freq":515,"lat":55.76111100,"lon":24.41111100,"rng_nm":25,"alt_fmsl":0,"id":"PA","desc":"PAJUOSTIS NDB"},
+{"type":"NDB","hdg_t":214.2,"dist_nm":78.1,"freq":452,"lat":53.55398500,"lon":24.05620700,"rng_nm":80,"alt_fmsl":403,"id":"WF","desc":"GRODNO NDB"},
+{"type":"NDB","hdg_t":119.1,"dist_nm":88.9,"freq":321,"lat":53.89333300,"lon":27.47333300,"rng_nm":80,"alt_fmsl":0,"id":"GK","desc":"MINSK-1 NDB"},
+{"type":"VOR","hdg_t":248.9,"dist_nm":90.3,"freq":117.7,"lat":54.06966700,"lon":22.90025300,"rng_nm":130,"alt_fmsl":591,"id":"SUW","desc":"SUWALKI VOR-DME"},
+{"type":"VOR","hdg_t":30.5,"dist_nm":92.2,"freq":114.1,"lat":55.94732200,"lon":26.67554200,"rng_nm":50,"alt_fmsl":400,"id":"DGP","desc":"DAUGAVPILS VOR-DME"},
+{"type":"NDB","hdg_t":120.5,"dist_nm":93.6,"freq":458,"lat":53.82000000,"lon":27.55333300,"rng_nm":50,"alt_fmsl":0,"id":"QM","desc":"MACHULISHCHI NDB"},
+{"type":"NDB","hdg_t":119.4,"dist_nm":94.7,"freq":321,"lat":53.83666700,"lon":27.60666700,"rng_nm":80,"alt_fmsl":0,"id":"NE","desc":"MINSK-1 NDB"},
+{"type":"NDB","hdg_t":122.8,"dist_nm":98.4,"freq":458,"lat":53.72333300,"lon":27.60666700,"rng_nm":50,"alt_fmsl":0,"id":"WN","desc":"MACHULISHCHI NDB"},
+{"type":"VOR","hdg_t":320.1,"dist_nm":98.5,"freq":115.2,"lat":55.87902500,"lon":23.41641900,"rng_nm":130,"alt_fmsl":472,"id":"SAU","desc":"SIAULIAI VOR-DME"},
+{"type":"SDME","hdg_t":320.2,"dist_nm":99.4,"freq":116.3,"lat":55.89045000,"lon":23.40238300,"rng_nm":40,"alt_fmsl":469,"id":"SQQ","desc":"SIAULIAI TACAN"}
+]
+}

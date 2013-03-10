@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SVMG","name":"Del Caribe Intl Gen Santiago Marino","lat":10.91293925,"lon":-63.9675145,"rwys":2,"ils":1,"index":1907000,"path":"w070n10/w064n10"
+,"runways":[
+{"len_m":3200,"wid_m":45.72,"hdg":78,"surf":"Asphalt","rwy1":"09","lat1":10.90934800,"lon1":-63.98093700,"rwy2":"27","lat2":10.91516700,"lon2":-63.95226200},
+{"len_m":3035,"wid_m":30.48,"hdg":78,"surf":"Asphalt","rwy1":"09L","lat1":10.91086400,"lon1":-63.98202800,"rwy2":"27R","lat2":10.91637800,"lon2":-63.95483100}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.6,"desc":"TWR"},
+{"type":"APP","freq":119.9,"desc":"MARGARITA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":10.91585300,"lon":-63.95104400,"rng_nm":18,"alt_fmsl":74,"hdg":77.51,"id":"MTA","rwy":"09","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":10.90918100,"lon":-63.97754700,"rng_nm":10,"alt_fmsl":74,"id":"MTA","rwy":"09","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":10.89591900,"lon":-64.04717500,"rng_nm":0,"alt_fmsl":74,"id":"----","rwy":"09","desc":"OM"},
+{"type":"MM","freq":0,"lat":10.90793600,"lon":-63.98914400,"rng_nm":0,"alt_fmsl":74,"id":"----","rwy":"09","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":42.1,"dist_nm":0.3,"freq":114.1,"lat":10.91769444,"lon":-63.96316667,"rng_nm":130,"alt_fmsl":115,"id":"MTA","desc":"MARGARITA VOR-DME"},
+{"type":"NDB","hdg_t":54.3,"dist_nm":0.7,"freq":206,"lat":10.92058300,"lon":-63.95672200,"rng_nm":50,"alt_fmsl":74,"id":"MTA","desc":"MARGARITA NDB"},
+{"type":"NDB","hdg_t":257.8,"dist_nm":4.8,"freq":218,"lat":10.89591900,"lon":-64.04717500,"rng_nm":50,"alt_fmsl":0,"id":"MT","desc":"GILES NDB"},
+{"type":"VOR","hdg_t":199.9,"dist_nm":29.7,"freq":113.3,"lat":10.44480556,"lon":-64.13922222,"rng_nm":130,"alt_fmsl":52,"id":"CUM","desc":"CUMANA VOR-DME"},
+{"type":"NDB","hdg_t":109.9,"dist_nm":44.4,"freq":270,"lat":10.65830556,"lon":-63.25947222,"rng_nm":50,"alt_fmsl":0,"id":"CUP","desc":"CARUPANO NDB"},
+{"type":"VOR","hdg_t":222.9,"dist_nm":64,"freq":115.9,"lat":10.12786111,"lon":-64.70511111,"rng_nm":130,"alt_fmsl":3,"id":"BNA","desc":"BARCELONA VORTAC"},
+{"type":"NDB","hdg_t":181.5,"dist_nm":72.2,"freq":330,"lat":9.70363889,"lon":-63.99977778,"rng_nm":50,"alt_fmsl":0,"id":"URC","desc":"URICA NDB"},
+{"type":"NDB","hdg_t":145.2,"dist_nm":84.2,"freq":230,"lat":9.75336100,"lon":-63.15672200,"rng_nm":190,"alt_fmsl":213,"id":"MUN","desc":"MATURIN NDB"},
+{"type":"VOR","hdg_t":145.3,"dist_nm":84.8,"freq":115.3,"lat":9.74344444,"lon":-63.15316667,"rng_nm":130,"alt_fmsl":220,"id":"MUN","desc":"MATURIN VOR-DME"},
+{"type":"NDB","hdg_t":101.6,"dist_nm":99.9,"freq":370,"lat":10.57116700,"lon":-62.31088900,"rng_nm":25,"alt_fmsl":59,"id":"GUI","desc":"GUIRIA NDB"}
+]
+}

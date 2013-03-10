@@ -1,0 +1,36 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HKJK","name":"Nairobi Jomo Kanyatta Intl","lat":-1.31761912,"lon":36.92941014,"rwys":1,"ils":1,"index":3544623,"path":"e030s10/e036s02"
+,"runways":[
+{"len_m":4021,"wid_m":45.11,"hdg":54,"surf":"Asphalt","rwy1":"06","lat1":-1.32774140,"lon1":36.91612339,"rwy2":"24","lat2":-1.30640484,"lon2":36.94539085}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":11,"wid_m":11.89,"hdg":36,"surf":"Concrete","lat1":-1.31816512,"lon1":36.92806316}
+]
+,"radios":[
+{"type":"ATIS","freq":126.2,"desc":"ATIS"},
+{"type":"TWR","freq":118.7,"desc":"TWR"},
+{"type":"APP","freq":119.7,"desc":"APP"},
+{"type":"APP","freq":122.3,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-1.30246900,"lon":36.95071400,"rng_nm":18,"alt_fmsl":5278,"hdg":53.84,"id":"INL","rwy":"06","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-1.32463300,"lon":36.91829200,"rng_nm":10,"alt_fmsl":5343,"id":"INL","rwy":"06","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-1.36590000,"lon":36.86407200,"rng_nm":0,"alt_fmsl":5278,"id":"----","rwy":"06","desc":"OM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":54.6,"dist_nm":1.8,"freq":113.1,"lat":-1.29990300,"lon":36.95422800,"rng_nm":200,"alt_fmsl":5280,"id":"NV","desc":"NAIROBI VOR-DME"},
+{"type":"NDB","hdg_t":190,"dist_nm":3.5,"freq":379,"lat":-1.37608300,"lon":36.91914200,"rng_nm":300,"alt_fmsl":0,"id":"AL","desc":"EMBAKASI NDB"},
+{"type":"NDB","hdg_t":310.3,"dist_nm":4.8,"freq":256,"lat":-1.26504700,"lon":36.86793300,"rng_nm":50,"alt_fmsl":5336,"id":"EA","desc":"EASTLEIGH NDB"},
+{"type":"NDB","hdg_t":233.7,"dist_nm":4.8,"freq":278,"lat":-1.36590000,"lon":36.86407200,"rng_nm":25,"alt_fmsl":0,"id":"NO","desc":"NAIROBI NDB"},
+{"type":"NDB","hdg_t":153.5,"dist_nm":12.3,"freq":329,"lat":-1.50216400,"lon":37.02070000,"rng_nm":50,"alt_fmsl":0,"id":"TH","desc":"ATHI RIVER NDB"},
+{"type":"VOR","hdg_t":153.5,"dist_nm":12.3,"freq":115.5,"lat":-1.50343900,"lon":37.02122500,"rng_nm":25,"alt_fmsl":0,"id":"TV","desc":"ATHI RIVER VOR"},
+{"type":"NDB","hdg_t":256,"dist_nm":18,"freq":315,"lat":-1.39038100,"lon":36.63785800,"rng_nm":50,"alt_fmsl":0,"id":"GG","desc":"NGONG NDB"},
+{"type":"VOR","hdg_t":254.9,"dist_nm":18.1,"freq":115.9,"lat":-1.39659200,"lon":36.63794200,"rng_nm":200,"alt_fmsl":7834,"id":"GV","desc":"NGONG VOR-DME"},
+{"type":"NDB","hdg_t":4.4,"dist_nm":55.7,"freq":388,"lat":-0.38600000,"lon":37.00083300,"rng_nm":50,"alt_fmsl":0,"id":"NY","desc":"NYERI NDB"},
+{"type":"NDB","hdg_t":60.4,"dist_nm":58.2,"freq":304,"lat":-0.83602800,"lon":37.77308300,"rng_nm":50,"alt_fmsl":0,"id":"SF","desc":"SEVEN FORKS NDB"},
+{"type":"NDB","hdg_t":281.1,"dist_nm":66,"freq":368,"lat":-1.10263300,"lon":35.85079800,"rng_nm":200,"alt_fmsl":0,"id":"NK","desc":"NAROK NDB"},
+{"type":"NDB","hdg_t":3.2,"dist_nm":74.6,"freq":306,"lat":-0.06936100,"lon":37.00083300,"rng_nm":50,"alt_fmsl":0,"id":"NYK","desc":"NANYUKI NDB"},
+{"type":"NDB","hdg_t":322.4,"dist_nm":76.2,"freq":358,"lat":-0.30474400,"lon":36.15534700,"rng_nm":50,"alt_fmsl":6200,"id":"NU","desc":"NAKURU NDB"},
+{"type":"VOR","hdg_t":322.3,"dist_nm":76.3,"freq":115.1,"lat":-0.30475000,"lon":36.15338900,"rng_nm":200,"alt_fmsl":6286,"id":"NAK","desc":"NAKURU VOR-DME"}
+]
+}

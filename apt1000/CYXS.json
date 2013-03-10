@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYXS","name":"Prince George","lat":53.8892631666667,"lon":-122.673850166667,"rwys":3,"ils":2,"index":943097,"path":"w130n50/w123n53"
+,"runways":[
+{"len_m":2256,"wid_m":45.72,"hdg":169,"surf":"Asphalt","rwy1":"15","lat1":53.90027500,"lon1":-122.67056100,"rwy2":"33","lat2":53.88032800,"lon2":-122.66445300},
+{"len_m":1714,"wid_m":45.72,"hdg":79,"surf":"Asphalt","rwy1":"06","lat1":53.88575000,"lon1":-122.69313900,"rwy2":"24","lat2":53.88866400,"lon2":-122.66753900},
+{"len_m":1148,"wid_m":22.86,"hdg":30,"surf":"Asphalt","rwy1":"01","lat1":53.88585600,"lon1":-122.67820300,"rwy2":"19","lat2":53.89470600,"lon2":-122.66920600}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.3,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":53.87889900,"lon":-122.66401700,"rng_nm":18,"alt_fmsl":2195,"hdg":169.84,"id":"IXS","rwy":"15","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.5,"lat":53.87889900,"lon":-122.66401700,"rng_nm":18,"alt_fmsl":2195,"hdg":169.84,"id":"IXS","rwy":"33","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":53.89559900,"lon":-122.67039500,"rng_nm":10,"alt_fmsl":2215,"id":"IXS","rwy":"15","desc":"GS","gs":3},
+{"type":"GS","freq":109.5,"lat":53.89559900,"lon":-122.67039500,"rng_nm":10,"alt_fmsl":2215,"id":"IXS","rwy":"33","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":169.1,"dist_nm":3.7,"freq":272,"lat":53.82825000,"lon":-122.65402778,"rng_nm":50,"alt_fmsl":0,"id":"XS","desc":"PRINCE GEORGE NDB"},
+{"type":"NDB","hdg_t":353,"dist_nm":4.7,"freq":260,"lat":53.96750000,"lon":-122.69000000,"rng_nm":25,"alt_fmsl":0,"id":"ZXS","desc":"NORTHWOOD NDB"},
+{"type":"VOR","hdg_t":87.6,"dist_nm":7.7,"freq":112.3,"lat":53.89430556,"lon":-122.45647222,"rng_nm":130,"alt_fmsl":4078,"id":"YXS","desc":"PRINCE GEORGE VOR-DME"},
+{"type":"NDB","hdg_t":173,"dist_nm":56.2,"freq":359,"lat":52.96063889,"lon":-122.48611111,"rng_nm":50,"alt_fmsl":0,"id":"YQZ","desc":"QUESNEL NDB"},
+{"type":"NDB","hdg_t":349.4,"dist_nm":86.6,"freq":284,"lat":55.30500000,"lon":-123.13750000,"rng_nm":50,"alt_fmsl":0,"id":"2U","desc":"MACKENZIE NDB"},
+{"type":"NDB","hdg_t":40.9,"dist_nm":91.4,"freq":346,"lat":55.02611100,"lon":-120.93611100,"rng_nm":50,"alt_fmsl":3075,"id":"N9","desc":"TUMBLER NDB"},
+{"type":"VOR","hdg_t":169.3,"dist_nm":100.9,"freq":113.6,"lat":52.23711111,"lon":-122.16886111,"rng_nm":130,"alt_fmsl":3662,"id":"YWL","desc":"WILLIAMS LAKE VOR-DME"},
+{"type":"NDB","hdg_t":166.1,"dist_nm":108.3,"freq":385,"lat":52.13666667,"lon":-121.97333333,"rng_nm":50,"alt_fmsl":0,"id":"WL","desc":"WILLIAMS LAKE NDB"},
+{"type":"NDB","hdg_t":19.5,"dist_nm":115.4,"freq":210,"lat":55.69444444,"lon":-121.53750000,"rng_nm":50,"alt_fmsl":0,"id":"F6","desc":"CHETWYND NDB"},
+{"type":"NDB","hdg_t":225.9,"dist_nm":128.1,"freq":200,"lat":52.38058333,"lon":-125.18036111,"rng_nm":50,"alt_fmsl":0,"id":"UAB","desc":"ANAHIM LAKE NDB"}
+]
+}

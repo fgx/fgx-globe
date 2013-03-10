@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PAOM","name":"Nome","lat":64.51222725,"lon":-165.44506175,"rwys":2,"ils":1,"index":239265,"path":"w170n60/w166n64"
+,"runways":[
+{"len_m":1828,"wid_m":45.72,"hdg":109,"surf":"Asphalt","rwy1":"10","lat1":64.51430300,"lon1":-165.46801700,"rwy2":"28","lat2":64.50875800,"lon2":-165.43218900},
+{"len_m":1699,"wid_m":45.72,"hdg":41,"surf":"Asphalt","rwy1":"03","lat1":64.50723100,"lon1":-165.45178300,"rwy2":"21","lat2":64.51861700,"lon2":-165.42825800}
+]
+,"radios":[
+{"type":"ATIS","freq":119.92,"desc":"ASOS"},
+{"type":"ATIS","freq":119.92,"desc":"ATIS"},
+{"type":"CTAF","freq":123.6,"desc":"CTAF"}
+]
+,"ils":[
+{"type":"ILS","freq":108.7,"lat":64.51551100,"lon":-165.47582200,"rng_nm":18,"alt_fmsl":37,"hdg":289.76,"id":"IOME","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.7,"lat":64.50886400,"lon":-165.43944200,"rng_nm":10,"alt_fmsl":15,"id":"IOME","rwy":"28","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":64.48479200,"lon":-165.27673900,"rng_nm":0,"alt_fmsl":37,"id":"----","rwy":"28","desc":"OM"},
+{"type":"MM","freq":0,"lat":64.50598300,"lon":-165.41425600,"rng_nm":0,"alt_fmsl":37,"id":"----","rwy":"28","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":83.1,"dist_nm":0.3,"freq":208,"lat":64.51283333,"lon":-165.43341667,"rng_nm":50,"alt_fmsl":0,"id":"OYN","desc":"GOLD NDB"},
+{"type":"NDB","hdg_t":107.2,"dist_nm":3.5,"freq":529,"lat":64.49458333,"lon":-165.31400000,"rng_nm":50,"alt_fmsl":0,"id":"FDV","desc":"FORT DAVIS NDB"},
+{"type":"VOR","hdg_t":108,"dist_nm":5.2,"freq":115,"lat":64.48511111,"lon":-165.25316667,"rng_nm":130,"alt_fmsl":100,"id":"OME","desc":"NOME VOR-DME"},
+{"type":"VOR","hdg_t":81.2,"dist_nm":87.9,"freq":116.3,"lat":64.69652778,"lon":-162.07127778,"rng_nm":40,"alt_fmsl":15,"id":"MOS","desc":"MOSES POINT VOR-DME"},
+{"type":"NDB","hdg_t":81.2,"dist_nm":88,"freq":263,"lat":64.69552778,"lon":-162.06372222,"rng_nm":50,"alt_fmsl":0,"id":"OAY","desc":"NORTON BAY NDB"},
+{"type":"NDB","hdg_t":316.1,"dist_nm":89.2,"freq":347,"lat":65.56202778,"lon":-167.92413889,"rng_nm":50,"alt_fmsl":0,"id":"TNC","desc":"TIN CITY NDB"},
+{"type":"NDB","hdg_t":352,"dist_nm":106.2,"freq":365,"lat":66.25816667,"lon":-166.05250000,"rng_nm":50,"alt_fmsl":0,"id":"SHH","desc":"SHISHMAREF NDB"},
+{"type":"VOR","hdg_t":165.7,"dist_nm":107,"freq":117.8,"lat":62.78458333,"lon":-164.48755556,"rng_nm":130,"alt_fmsl":11,"id":"ENM","desc":"EMMONAK VOR-DME"},
+{"type":"NDB","hdg_t":75,"dist_nm":113.2,"freq":299,"lat":64.93641667,"lon":-161.15513889,"rng_nm":50,"alt_fmsl":0,"id":"KKA","desc":"KOYUK NDB"},
+{"type":"NDB","hdg_t":104.5,"dist_nm":126.7,"freq":382,"lat":63.90772222,"lon":-160.81194444,"rng_nm":50,"alt_fmsl":0,"id":"JNR","desc":"NORTH RIVER NDB"}
+]
+}

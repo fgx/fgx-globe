@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VAAH","name":"Ahmedabad","lat":23.077196,"lon":72.634632,"rwys":1,"ils":1,"index":4136002,"path":"e070n20/e072n23"
+,"runways":[
+{"len_m":3488,"wid_m":45.72,"hdg":44,"surf":"Asphalt","rwy1":"05","lat1":23.06600300,"lon1":72.62265300,"rwy2":"23","lat2":23.08838900,"lon2":72.64661100}
+]
+,"radios":[
+{"type":"ATIS","freq":126.8,"desc":"ATIS"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.8,"desc":"RDR"},
+{"type":"APP","freq":123.75,"desc":"RDR"},
+{"type":"APP","freq":119.6,"desc":"APP"},
+{"type":"APP","freq":118.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":23.06386100,"lon":72.62022200,"rng_nm":18,"alt_fmsl":180,"hdg":224.70,"id":"AHD","rwy":"23","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":23.08736100,"lon":72.64360000,"rng_nm":10,"alt_fmsl":186,"id":"AHD","rwy":"23","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":23.14138900,"lon":72.69966700,"rng_nm":0,"alt_fmsl":180,"id":"----","rwy":"23","desc":"OM"},
+{"type":"DME","freq":110.3,"lat":23.08736100,"lon":72.64360000,"rng_nm":18,"alt_fmsl":180,"id":"AHD","rwy":"23","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":240.8,"dist_nm":0.6,"freq":113.1,"lat":23.07219700,"lon":72.62495300,"rng_nm":130,"alt_fmsl":184,"id":"AAE","desc":"AHMEDABAD VOR-DME"},
+{"type":"NDB","hdg_t":43.1,"dist_nm":5.2,"freq":215,"lat":23.14138900,"lon":72.69966700,"rng_nm":75,"alt_fmsl":0,"id":"AH","desc":"AHMEDABAD NDB"},
+{"type":"NDB","hdg_t":144.2,"dist_nm":54.6,"freq":304,"lat":22.33476700,"lon":73.20932200,"rng_nm":50,"alt_fmsl":0,"id":"QZ","desc":"VADODARA NDB"},
+{"type":"VOR","hdg_t":143.5,"dist_nm":55.2,"freq":117.3,"lat":22.33283300,"lon":73.22513900,"rng_nm":130,"alt_fmsl":123,"id":"QQZ","desc":"VADODARA VOR-DME"},
+{"type":"NDB","hdg_t":197.9,"dist_nm":82.8,"freq":243,"lat":21.75856400,"lon":72.17668600,"rng_nm":50,"alt_fmsl":0,"id":"BV","desc":"BHAVNAGAR NDB"},
+{"type":"VOR","hdg_t":197.4,"dist_nm":83.1,"freq":114.1,"lat":21.75008300,"lon":72.18891700,"rng_nm":130,"alt_fmsl":20,"id":"BVR","desc":"BHAVNAGAR VOR-DME"},
+{"type":"NDB","hdg_t":246.2,"dist_nm":112.3,"freq":329,"lat":22.31087200,"lon":70.78631400,"rng_nm":50,"alt_fmsl":0,"id":"RK","desc":"RAJKOT NDB"},
+{"type":"VOR","hdg_t":246.4,"dist_nm":112.6,"freq":115.4,"lat":22.31309400,"lon":70.77825800,"rng_nm":130,"alt_fmsl":440,"id":"RKT","desc":"RAJKOT VOR-DME"},
+{"type":"VOR","hdg_t":36.7,"dist_nm":114.9,"freq":115.9,"lat":24.61288900,"lon":73.89088900,"rng_nm":130,"alt_fmsl":1670,"id":"UUD","desc":"UDAIPUR VOR-DME"},
+{"type":"NDB","hdg_t":37.7,"dist_nm":117.1,"freq":384,"lat":24.62150800,"lon":73.94560000,"rng_nm":50,"alt_fmsl":0,"id":"LU","desc":"UDAIPUR NDB"}
+]
+}

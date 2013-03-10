@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RPMR","name":"Tambler","lat":6.0581235,"lon":125.096199,"rwys":1,"ils":1,"index":5003264,"path":"e120n00/e125n06"
+,"runways":[
+{"len_m":3227,"wid_m":45.11,"hdg":173,"surf":"Concrete","rwy1":"17","lat1":6.07260800,"lon1":125.09443100,"rwy2":"35","lat2":6.04363900,"lon2":125.09796700}
+]
+,"radios":[
+{"type":"TWR","freq":118.4,"desc":"TWR"},
+{"type":"APP","freq":119.1,"desc":"APP"},
+{"type":"APP","freq":118.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":6.04153611,"lon":125.09825556,"rng_nm":18,"alt_fmsl":498,"hdg":173.00,"id":"IGSA","rwy":"17","desc":"ILS-cat-II"},
+{"type":"GS","freq":109.5,"lat":6.06935000,"lon":125.09373900,"rng_nm":10,"alt_fmsl":498,"id":"IGSA","rwy":"17","desc":"GS","gs":3.05},
+{"type":"DME","freq":109.5,"lat":6.06935000,"lon":125.09373900,"rng_nm":18,"alt_fmsl":498,"id":"IGSA","rwy":"17","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":347.1,"dist_nm":1,"freq":114.5,"lat":6.07567200,"lon":125.09218600,"rng_nm":40,"alt_fmsl":550,"id":"GSA","desc":"TAMBLER VOR-DME"},
+{"type":"VOR","hdg_t":27.4,"dist_nm":72.2,"freq":112.1,"lat":7.13125000,"lon":125.65397222,"rng_nm":130,"alt_fmsl":96,"id":"DAO","desc":"DAVAO VOR-DME"},
+{"type":"NDB","hdg_t":27.1,"dist_nm":72.4,"freq":364,"lat":7.13715000,"lon":125.64997500,"rng_nm":50,"alt_fmsl":96,"id":"DAO","desc":"DAVAO NDB"},
+{"type":"VOR","hdg_t":321.3,"dist_nm":84.6,"freq":113.7,"lat":7.16548100,"lon":124.20973100,"rng_nm":50,"alt_fmsl":189,"id":"COT","desc":"COTABATO VOR-DME"},
+{"type":"NDB","hdg_t":317.6,"dist_nm":143,"freq":242,"lat":7.82710000,"lon":123.47973300,"rng_nm":75,"alt_fmsl":5,"id":"PN","desc":"PAGADIAN NDB"},
+{"type":"VOR","hdg_t":348.3,"dist_nm":143.7,"freq":113.3,"lat":8.41568600,"lon":124.60915300,"rng_nm":50,"alt_fmsl":601,"id":"CGO","desc":"CAGAYAN DE ORO VOR-DME"},
+{"type":"NDB","hdg_t":169.6,"dist_nm":144,"freq":400,"lat":3.68416700,"lon":125.52611100,"rng_nm":60,"alt_fmsl":16,"id":"TA","desc":"TAHUNA NDB"},
+{"type":"NDB","hdg_t":142.2,"dist_nm":154.7,"freq":215,"lat":4.00666700,"lon":126.67666700,"rng_nm":60,"alt_fmsl":3,"id":"MG","desc":"MELANGGUANE NDB"},
+{"type":"VOR","hdg_t":7.6,"dist_nm":174.5,"freq":112.5,"lat":8.95534700,"lon":125.48640300,"rng_nm":40,"alt_fmsl":141,"id":"BN","desc":"BUTUAN VOR-DME"},
+{"type":"NDB","hdg_t":325.5,"dist_nm":184.3,"freq":389,"lat":8.60056500,"lon":123.34306100,"rng_nm":50,"alt_fmsl":12,"id":"DI","desc":"DIPOLOG NDB"}
+]
+}

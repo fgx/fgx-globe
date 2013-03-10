@@ -1,0 +1,51 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"BIKF","name":"Keflavik Nas","lat":63.980706355,"lon":-22.6154590675,"rwys":2,"ils":4,"index":2582136,"path":"w030n60/w023n63"
+,"runways":[
+{"len_m":3106,"wid_m":60.05,"hdg":179,"surf":"Asphalt","rwy1":"02","lat1":63.99190347,"lon1":-22.60514785,"rwy2":"20","lat2":63.96403664,"lon2":-22.60481526},
+{"len_m":3206,"wid_m":60.05,"hdg":89,"surf":"Asphalt","rwy1":"11","lat1":63.98502949,"lon1":-22.65623906,"rwy2":"29","lat2":63.98502949,"lon2":-22.59074442}
+]
+,"helipads":[
+{"rwy1":"H19","len_m":35,"wid_m":35.05,"hdg":-22,"surf":"Asphalt","lat1":63.98375180,"lon1":-22.58960171},
+{"rwy1":"H20","len_m":49,"wid_m":49.99,"hdg":-22,"surf":"Concrete","lat1":63.97607407,"lon1":-22.64376126}
+]
+,"radios":[
+{"type":"ATIS","freq":128.3,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"TWR","freq":131.9,"desc":"AIR GND"},
+{"type":"APP","freq":119.3,"desc":"APP"},
+{"type":"DEP","freq":119.3,"desc":"DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.3,"lat":63.99333333,"lon":-22.60544444,"rng_nm":18,"alt_fmsl":163,"hdg":0.02,"id":"IKN","rwy":"02","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.5,"lat":63.98505556,"lon":-22.58375000,"rng_nm":18,"alt_fmsl":171,"hdg":89.97,"id":"IKF","rwy":"11","desc":"ILS-cat-II"},
+{"type":"ILS","freq":110.3,"lat":63.96313889,"lon":-22.60544444,"rng_nm":18,"alt_fmsl":137,"hdg":180.02,"id":"IKO","rwy":"20","desc":"ILS-cat-II"},
+{"type":"ILS","freq":108.5,"lat":63.98502778,"lon":-22.66172222,"rng_nm":18,"alt_fmsl":111,"hdg":270.02,"id":"IKW","rwy":"29","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.3,"lat":63.96708333,"lon":-22.60344444,"rng_nm":10,"alt_fmsl":180,"id":"IKN","rwy":"02","desc":"GS","gs":3},
+{"type":"GS","freq":109.5,"lat":63.98641667,"lon":-22.64833333,"rng_nm":10,"alt_fmsl":150,"id":"IKF","rwy":"11","desc":"GS","gs":3},
+{"type":"GS","freq":110.3,"lat":63.98913889,"lon":-22.60233333,"rng_nm":10,"alt_fmsl":199,"id":"IKO","rwy":"20","desc":"GS","gs":3},
+{"type":"GS","freq":108.5,"lat":63.98613889,"lon":-22.59905556,"rng_nm":10,"alt_fmsl":214,"id":"IKW","rwy":"29","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":63.98508333,"lon":-22.73211111,"rng_nm":0,"alt_fmsl":171,"id":"----","rwy":"11","desc":"OM"},
+{"type":"MM","freq":0,"lat":63.98502778,"lon":-22.67686111,"rng_nm":0,"alt_fmsl":171,"id":"----","rwy":"11","desc":"MM"},
+{"type":"IM","freq":0,"lat":63.98502778,"lon":-22.66213889,"rng_nm":0,"alt_fmsl":171,"id":"----","rwy":"11","desc":"IM"},
+{"type":"DME","freq":111.3,"lat":63.96708333,"lon":-22.60344444,"rng_nm":18,"alt_fmsl":180,"id":"IKN","rwy":"02","desc":"DME-ILS"},
+{"type":"DME","freq":110.3,"lat":63.98913889,"lon":-22.60233333,"rng_nm":18,"alt_fmsl":199,"id":"IKO","rwy":"20","desc":"DME-ILS"},
+{"type":"DME","freq":108.5,"lat":63.98613889,"lon":-22.59905556,"rng_nm":18,"alt_fmsl":214,"id":"IKW","rwy":"29","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":3.9,"dist_nm":0.3,"freq":112,"lat":63.98680556,"lon":-22.61450000,"rng_nm":20,"alt_fmsl":174,"id":"KEF","desc":"KEFLAVIK VORTAC"},
+{"type":"NDB","hdg_t":274.8,"dist_nm":3,"freq":392,"lat":63.98502778,"lon":-22.73161111,"rng_nm":100,"alt_fmsl":0,"id":"KF","desc":"KEFLAVIK NDB"},
+{"type":"NDB","hdg_t":56.1,"dist_nm":18.5,"freq":355,"lat":64.15147222,"lon":-22.02883333,"rng_nm":100,"alt_fmsl":0,"id":"RK","desc":"REYKJAVIK NDB"},
+{"type":"NDB","hdg_t":61.5,"dist_nm":19.5,"freq":370,"lat":64.13388889,"lon":-21.96172222,"rng_nm":15,"alt_fmsl":0,"id":"NS","desc":"NES NDB"},
+{"type":"SDME","hdg_t":63.1,"dist_nm":20.1,"freq":109.1,"lat":64.13013889,"lon":-21.93269444,"rng_nm":25,"alt_fmsl":146,"id":"IRE","desc":"REYKJAVIK DME"},
+{"type":"NDB","hdg_t":59.9,"dist_nm":20.4,"freq":319,"lat":64.14955556,"lon":-21.94155556,"rng_nm":15,"alt_fmsl":0,"id":"GF","desc":"GROF NDB"},
+{"type":"NDB","hdg_t":74.4,"dist_nm":23,"freq":335,"lat":64.08111111,"lon":-21.77072222,"rng_nm":100,"alt_fmsl":0,"id":"EL","desc":"ELLIDAVATN NDB"},
+{"type":"NDB","hdg_t":40.6,"dist_nm":25.8,"freq":379,"lat":64.30544444,"lon":-21.97127778,"rng_nm":25,"alt_fmsl":0,"id":"SA","desc":"SKAGI NDB"},
+{"type":"NDB","hdg_t":93.5,"dist_nm":41.9,"freq":397,"lat":63.92888889,"lon":-21.03416667,"rng_nm":25,"alt_fmsl":0,"id":"SE","desc":"SELFOSS NDB"},
+{"type":"NDB","hdg_t":39.5,"dist_nm":53.8,"freq":325,"lat":64.66416667,"lon":-21.28638889,"rng_nm":50,"alt_fmsl":0,"id":"RH","desc":"REYKHOLT NDB"},
+{"type":"NDB","hdg_t":331.3,"dist_nm":64.2,"freq":330,"lat":64.91277778,"lon":-23.82000000,"rng_nm":25,"alt_fmsl":0,"id":"RF","desc":"RIF NDB"},
+{"type":"NDB","hdg_t":117.2,"dist_nm":70.7,"freq":345,"lat":63.42425000,"lon":-20.28194444,"rng_nm":15,"alt_fmsl":0,"id":"HL","desc":"HELGAFELL NDB"},
+{"type":"SDME","hdg_t":117.2,"dist_nm":71,"freq":110.7,"lat":63.42013889,"lon":-20.27216667,"rng_nm":25,"alt_fmsl":616,"id":"HL","desc":"HELGAFELL DME"},
+{"type":"NDB","hdg_t":118.3,"dist_nm":71.3,"freq":375,"lat":63.39958333,"lon":-20.28830556,"rng_nm":150,"alt_fmsl":0,"id":"VM","desc":"VESTMANNAEYJAR NDB"}
+]
+}

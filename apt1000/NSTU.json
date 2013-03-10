@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"NSTU","name":"Pago Pago","lat":-14.33005963,"lon":-170.71024401,"rwys":2,"ils":1,"index":152298,"path":"w180s20/w171s15"
+,"runways":[
+{"len_m":3048,"wid_m":46.02,"hdg":60,"surf":"Asphalt","rwy1":"05","lat1":-14.34052764,"lon1":-170.72526723,"rwy2":"23","lat2":-14.32681586,"lon2":-170.70075467},
+{"len_m":1191,"wid_m":29.87,"hdg":89,"surf":"Asphalt","rwy1":"08","lat1":-14.32645432,"lon1":-170.71300155,"rwy2":"26","lat2":-14.32644070,"lon2":-170.70195260}
+]
+,"radios":[
+{"type":"CTAF","freq":122.9,"desc":"CTAF"},
+{"type":"CTAF","freq":118.3,"desc":"UNICOM"},
+{"type":"APP","freq":126.9,"desc":"FALEOLO APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-14.32743900,"lon":-170.70358300,"rng_nm":18,"alt_fmsl":9,"hdg":58.08,"id":"ITUT","rwy":"05","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-14.33696100,"lon":-170.72088600,"rng_nm":10,"alt_fmsl":28,"id":"ITUT","rwy":"05","desc":"GS","gs":3.25},
+{"type":"MM","freq":0,"lat":-14.34336100,"lon":-170.73036100,"rng_nm":0,"alt_fmsl":9,"id":"----","rwy":"05","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":-14.32711900,"lon":-170.70408600,"rng_nm":18,"alt_fmsl":9,"id":"ITUT","rwy":"05","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":144.4,"dist_nm":0.1,"freq":112.5,"lat":-14.33266667,"lon":-170.70833333,"rng_nm":130,"alt_fmsl":31,"id":"TUT","desc":"PAGO PAGO VORTAC"},
+{"type":"NDB","hdg_t":256.8,"dist_nm":0.5,"freq":403,"lat":-14.33216667,"lon":-170.71950000,"rng_nm":75,"alt_fmsl":0,"id":"TUT","desc":"PAGO PAGO NDB"},
+{"type":"NDB","hdg_t":237.8,"dist_nm":2.6,"freq":242,"lat":-14.35383333,"lon":-170.74900000,"rng_nm":50,"alt_fmsl":0,"id":"LOG","desc":"LOGOTALA HILL NDB"},
+{"type":"VOR","hdg_t":291.8,"dist_nm":80.4,"freq":113.9,"lat":-13.82433333,"lon":-171.98900000,"rng_nm":130,"alt_fmsl":58,"id":"FA","desc":"FALEOLO VOR-DME"},
+{"type":"NDB","hdg_t":291.2,"dist_nm":82.9,"freq":270,"lat":-13.82283333,"lon":-172.03350000,"rng_nm":50,"alt_fmsl":0,"id":"FA","desc":"FALEOLO NDB"},
+{"type":"NDB","hdg_t":240.7,"dist_nm":204.1,"freq":361,"lat":-15.97833333,"lon":-173.79166667,"rng_nm":50,"alt_fmsl":0,"id":"TP","desc":"NIUATOPUTAPU NDB"},
+{"type":"NDB","hdg_t":170.9,"dist_nm":287.1,"freq":345,"lat":-19.07363889,"lon":-169.91713889,"rng_nm":50,"alt_fmsl":0,"id":"NU","desc":"NIUE NDB"},
+{"type":"SDME","hdg_t":170.8,"dist_nm":288.3,"freq":112.7,"lat":-19.09283333,"lon":-169.90425000,"rng_nm":250,"alt_fmsl":311,"id":"NU","desc":"NIUE DME"},
+{"type":"NDB","hdg_t":347.7,"dist_nm":315.2,"freq":394,"lat":-9.16950000,"lon":-171.83200000,"rng_nm":150,"alt_fmsl":0,"id":"NK","desc":"NUKUNONU NDB"},
+{"type":"NDB","hdg_t":216,"dist_nm":316.1,"freq":400,"lat":-18.58550000,"lon":-173.96966667,"rng_nm":50,"alt_fmsl":0,"id":"TV","desc":"VAVAU NDB"}
+]
+}

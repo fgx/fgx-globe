@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OYSN","name":"Sanaa Intl","lat":15.4762585,"lon":44.219739,"rwys":1,"ils":1,"index":3676761,"path":"e040n10/e044n15"
+,"runways":[
+{"len_m":3256,"wid_m":45.11,"hdg":179,"surf":"Asphalt","rwy1":"18","lat1":15.49097500,"lon1":44.21964200,"rwy2":"36","lat2":15.46154200,"lon2":44.21983600}
+]
+,"radios":[
+{"type":"GND","freq":121.6,"desc":"GND"},
+{"type":"TWR","freq":118.9,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.9,"lat":15.45866700,"lon":44.21986100,"rng_nm":18,"alt_fmsl":7216,"hdg":179.63,"id":"ISAN","rwy":"18","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.9,"lat":15.48844400,"lon":44.21852800,"rng_nm":10,"alt_fmsl":7216,"id":"ISAN","rwy":"18","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":15.49952800,"lon":44.21961100,"rng_nm":0,"alt_fmsl":7216,"id":"----","rwy":"18","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":179.3,"dist_nm":1.3,"freq":375,"lat":15.45333300,"lon":44.22000000,"rng_nm":75,"alt_fmsl":7237,"id":"SA","desc":"SANAA NDB"},
+{"type":"VOR","hdg_t":1.9,"dist_nm":1.4,"freq":116.1,"lat":15.50000000,"lon":44.22055600,"rng_nm":130,"alt_fmsl":7237,"id":"SAA","desc":"SANAA VOR-DME"},
+{"type":"NDB","hdg_t":180.7,"dist_nm":4.9,"freq":395,"lat":15.39266700,"lon":44.21866700,"rng_nm":75,"alt_fmsl":7238,"id":"SAH","desc":"SANAA NDB"},
+{"type":"NDB","hdg_t":90.2,"dist_nm":64.2,"freq":271,"lat":15.46833300,"lon":45.32833300,"rng_nm":75,"alt_fmsl":0,"id":"MRB","desc":"MARIB NDB"},
+{"type":"VOR","hdg_t":239.7,"dist_nm":82.9,"freq":114.2,"lat":14.77361100,"lon":42.98805600,"rng_nm":130,"alt_fmsl":41,"id":"HDH","desc":"HODEIDAH VOR-DME"},
+{"type":"NDB","hdg_t":239.5,"dist_nm":84,"freq":368,"lat":14.76016700,"lon":42.97316700,"rng_nm":25,"alt_fmsl":41,"id":"HD","desc":"HODEIDAH NDB"},
+{"type":"NDB","hdg_t":342.3,"dist_nm":93.4,"freq":267,"lat":16.96666700,"lon":43.72777800,"rng_nm":75,"alt_fmsl":0,"id":"SYE","desc":"SAADAH NDB"},
+{"type":"VOR","hdg_t":182.5,"dist_nm":106.3,"freq":113.6,"lat":13.69708300,"lon":44.13833300,"rng_nm":130,"alt_fmsl":4600,"id":"TAZ","desc":"TAIZ VOR-DME"},
+{"type":"NDB","hdg_t":182.5,"dist_nm":106.8,"freq":385,"lat":13.68888900,"lon":44.13750000,"rng_nm":75,"alt_fmsl":4600,"id":"TZ","desc":"TAIZ NDB"},
+{"type":"VOR","hdg_t":312.2,"dist_nm":127.6,"freq":117.7,"lat":16.90766700,"lon":42.57758300,"rng_nm":130,"alt_fmsl":14,"id":"GIZ","desc":"JAZAN VORTAC"}
+]
+}

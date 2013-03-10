@@ -1,0 +1,38 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"YPTN","name":"Tindal (military)","lat":-14.5208406666667,"lon":132.381993,"rwys":1,"ils":1,"index":5116635,"path":"e130s20/e132s15"
+,"runways":[
+{"len_m":2742,"wid_m":45.11,"hdg":138,"surf":"Asphalt","rwy1":"14","lat1":-14.51219500,"lon1":132.36884400,"rwy2":"32","lat2":-14.53087500,"lon2":132.38556600}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":11,"wid_m":11.89,"hdg":132,"surf":"Transparent","lat1":-14.52064800,"lon1":132.38461100},
+{"rwy1":"H2","len_m":11,"wid_m":11.89,"hdg":132,"surf":"Transparent","lat1":-14.52033900,"lon1":132.38416300}
+]
+,"radios":[
+{"type":"CTAF","freq":122.6,"desc":"BRISBANE CENTRE MULT"},
+{"type":"CTAF","freq":119.7,"desc":"TINDAL MULT"},
+{"type":"CLD","freq":128.1,"desc":"TINDAL (MILITARY) CLD"},
+{"type":"GND","freq":135.85,"desc":"TINDAL GND"},
+{"type":"TWR","freq":119.7,"desc":"TINDAL TWR"},
+{"type":"APP","freq":125.8,"desc":"TINDAL TRAFFIC APP"},
+{"type":"APP","freq":121.9,"desc":"TINDAL APP"},
+{"type":"APP","freq":130.1,"desc":"TINDAL APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":-14.53294700,"lon":132.38749400,"rng_nm":18,"alt_fmsl":443,"hdg":138.97,"id":"ITN","rwy":"14","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":-14.51527800,"lon":132.36944400,"rng_nm":10,"alt_fmsl":443,"id":"ITN","rwy":"14","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-14.46270000,"lon":132.32460800,"rng_nm":0,"alt_fmsl":443,"id":"----","rwy":"14","desc":"OM"},
+{"type":"MM","freq":0,"lat":-14.50500600,"lon":132.36247200,"rng_nm":0,"alt_fmsl":443,"id":"----","rwy":"14","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":278.9,"dist_nm":0.6,"freq":112.3,"lat":-14.51916700,"lon":132.37111100,"rng_nm":130,"alt_fmsl":443,"id":"TN","desc":"TINDAL VOR"},
+{"type":"SDME","hdg_t":248.8,"dist_nm":0.6,"freq":112.3,"lat":-14.52472200,"lon":132.37166700,"rng_nm":25,"alt_fmsl":443,"id":"TDL","desc":"TINDAL TACAN"},
+{"type":"NDB","hdg_t":283.3,"dist_nm":1.2,"freq":356,"lat":-14.51583300,"lon":132.36027800,"rng_nm":85,"alt_fmsl":0,"id":"TN","desc":"TINDAL NDB"},
+{"type":"NDB","hdg_t":95.3,"dist_nm":137.6,"freq":233,"lat":-14.72500000,"lon":134.73861100,"rng_nm":80,"alt_fmsl":45,"id":"NGU","desc":"NGUKURR NDB"},
+{"type":"NDB","hdg_t":215.1,"dist_nm":137.9,"freq":377,"lat":-16.40472200,"lon":131.00666700,"rng_nm":85,"alt_fmsl":291,"id":"VRD","desc":"VICTORIA RIVER DOWNS NDB"},
+{"type":"NDB","hdg_t":327.2,"dist_nm":145.4,"freq":257,"lat":-12.46888900,"lon":131.04305600,"rng_nm":30,"alt_fmsl":0,"id":"HWS","desc":"HOWARD SPRINGS NDB"},
+{"type":"NDB","hdg_t":326.1,"dist_nm":149.9,"freq":344,"lat":-12.43138900,"lon":130.96138900,"rng_nm":85,"alt_fmsl":105,"id":"DN","desc":"DARWIN NDB"},
+{"type":"VOR","hdg_t":325.2,"dist_nm":152.1,"freq":112.6,"lat":-12.42333333,"lon":130.90638889,"rng_nm":130,"alt_fmsl":127,"id":"DN","desc":"DARWIN VOR-DME"},
+{"type":"SDME","hdg_t":324.9,"dist_nm":153.3,"freq":113.7,"lat":-12.41373300,"lon":130.88325800,"rng_nm":25,"alt_fmsl":105,"id":"DAR","desc":"DARWIN TACAN"},
+{"type":"NDB","hdg_t":324.5,"dist_nm":154.5,"freq":308,"lat":-12.40666700,"lon":130.85694400,"rng_nm":50,"alt_fmsl":0,"id":"BGT","desc":"BAGOT NDB"}
+]
+}

@@ -1,0 +1,51 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EGPH","name":"Edinburgh","lat":55.94868539,"lon":-3.359718065,"rwys":2,"ils":2,"index":2892922,"path":"w010n50/w004n55"
+,"runways":[
+{"len_m":2556,"wid_m":43.89,"hdg":58,"surf":"Asphalt","rwy1":"06","lat1":55.94399712,"lon1":-3.39014534,"rwy2":"24","lat2":55.95586954,"lon2":-3.35511664},
+{"len_m":1796,"wid_m":46.02,"hdg":118,"surf":"Asphalt","rwy1":"12","lat1":55.95130286,"lon1":-3.35942460,"rwy2":"30","lat2":55.94357204,"lon2":-3.33418567}
+]
+,"radios":[
+{"type":"ATIS","freq":131.35,"desc":"Edinburgh Information"},
+{"type":"GND","freq":121.75,"desc":"Edinburgh Ground"},
+{"type":"TWR","freq":118.7,"desc":"Edinburgh Tower"},
+{"type":"APP","freq":121.2,"desc":"Edinburgh Approach"}
+]
+,"ils":[
+{"type":"ILS","freq":108.9,"lat":55.95711100,"lon":-3.35144400,"rng_nm":18,"alt_fmsl":110,"hdg":58.83,"id":"IVG","rwy":"06","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.9,"lat":55.94144200,"lon":-3.39767200,"rng_nm":18,"alt_fmsl":110,"hdg":238.79,"id":"ITH","rwy":"24","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.9,"lat":55.94790800,"lon":-3.38315000,"rng_nm":10,"alt_fmsl":135,"id":"IVG","rwy":"06","desc":"GS","gs":3},
+{"type":"GS","freq":108.9,"lat":55.95462500,"lon":-3.36359400,"rng_nm":10,"alt_fmsl":135,"id":"ITH","rwy":"24","desc":"GS","gs":3},
+{"type":"DME","freq":108.9,"lat":55.95173100,"lon":-3.37299200,"rng_nm":18,"alt_fmsl":123,"id":"IVG","rwy":"06","desc":"DME-ILS"},
+{"type":"DME","freq":108.9,"lat":55.95173100,"lon":-3.37299200,"rng_nm":18,"alt_fmsl":123,"id":"ITH","rwy":"24","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":54.9,"dist_nm":3.1,"freq":341,"lat":55.97840000,"lon":-3.28412200,"rng_nm":35,"alt_fmsl":0,"id":"EDN","desc":"EDINBURGH NDB"},
+{"type":"NDB","hdg_t":241.5,"dist_nm":5.4,"freq":368,"lat":55.90515300,"lon":-3.50251100,"rng_nm":25,"alt_fmsl":0,"id":"UW","desc":"EDINBURGH NDB"},
+{"type":"NDB","hdg_t":274.7,"dist_nm":20.8,"freq":374,"lat":55.97555600,"lon":-3.97472200,"rng_nm":25,"alt_fmsl":370,"id":"CBN","desc":"CUMBERNAULD NDB"},
+{"type":"SDME","hdg_t":274.6,"dist_nm":21.3,"freq":117.55,"lat":55.97555600,"lon":-3.99111100,"rng_nm":25,"alt_fmsl":354,"id":"CBN","desc":"CUMBERNAULD DME"},
+{"type":"VOR","hdg_t":179.4,"dist_nm":27,"freq":113.8,"lat":55.49916700,"lon":-3.35277800,"rng_nm":130,"alt_fmsl":2786,"id":"TLA","desc":"TALLA VOR-DME"},
+{"type":"VOR","hdg_t":359.4,"dist_nm":29.6,"freq":110.4,"lat":56.44250000,"lon":-3.36861100,"rng_nm":80,"alt_fmsl":0,"id":"PTH","desc":"PERTH VOR"},
+{"type":"SDME","hdg_t":32.9,"dist_nm":30.4,"freq":110.5,"lat":56.37281400,"lon":-2.86366900,"rng_nm":130,"alt_fmsl":72,"id":"LUK","desc":"LEUCHARS TACAN"},
+{"type":"NDB","hdg_t":14.9,"dist_nm":31.5,"freq":394,"lat":56.45506700,"lon":-3.11492500,"rng_nm":25,"alt_fmsl":0,"id":"DND","desc":"DUNDEE NDB"},
+{"type":"NDB","hdg_t":262.9,"dist_nm":36.5,"freq":331,"lat":55.86976900,"lon":-4.43363100,"rng_nm":25,"alt_fmsl":26,"id":"GLW","desc":"GLASGOW NDB"},
+{"type":"VOR","hdg_t":263.1,"dist_nm":36.9,"freq":115.4,"lat":55.87050300,"lon":-4.44572500,"rng_nm":130,"alt_fmsl":37,"id":"GOW","desc":"GLASGOW VOR-DME"},
+{"type":"VOR","hdg_t":93.1,"dist_nm":39,"freq":112.5,"lat":55.90750000,"lon":-2.20638900,"rng_nm":50,"alt_fmsl":760,"id":"SAB","desc":"ST. ABBS VOR-DME"},
+{"type":"NDB","hdg_t":237.7,"dist_nm":49.1,"freq":355,"lat":55.50608900,"lon":-4.57725300,"rng_nm":15,"alt_fmsl":0,"id":"PIK","desc":"PRESTWICK NDB"},
+{"type":"NDB","hdg_t":242,"dist_nm":50.9,"freq":426,"lat":55.54435300,"lon":-4.68155300,"rng_nm":30,"alt_fmsl":0,"id":"PW","desc":"PRESTWICK NDB"},
+{"type":"NDB","hdg_t":211,"dist_nm":53.9,"freq":399,"lat":55.17750000,"lon":-4.16861100,"rng_nm":35,"alt_fmsl":0,"id":"NGY","desc":"NEW GALLOWAY NDB"},
+{"type":"VOR","hdg_t":232.3,"dist_nm":61.6,"freq":117.5,"lat":55.31333300,"lon":-4.78388900,"rng_nm":130,"alt_fmsl":600,"id":"TRN","desc":"TURNBERRY VOR-DME"},
+{"type":"VOR","hdg_t":179.4,"dist_nm":73.7,"freq":115.2,"lat":54.72194400,"lon":-3.34055600,"rng_nm":130,"alt_fmsl":700,"id":"DCS","desc":"DEAN CROSS VOR-DME"},
+{"type":"NDB","hdg_t":295,"dist_nm":75,"freq":404,"lat":56.45970154,"lon":-5.40251684,"rng_nm":50,"alt_fmsl":20,"id":"OBN","desc":"North Connel NDB"},
+{"type":"NDB","hdg_t":23.5,"dist_nm":78.2,"freq":336,"lat":57.13833300,"lon":-2.40472200,"rng_nm":15,"alt_fmsl":0,"id":"AQ","desc":"ABERDEEN NDB"},
+{"type":"VOR","hdg_t":133.2,"dist_nm":78.7,"freq":114.25,"lat":55.03844700,"lon":-1.69836900,"rng_nm":200,"alt_fmsl":274,"id":"NEW","desc":"NEWCASTLE VOR-DME"},
+{"type":"NDB","hdg_t":31,"dist_nm":79.6,"freq":348,"lat":57.07751400,"lon":-2.10570000,"rng_nm":25,"alt_fmsl":0,"id":"ATF","desc":"ABERDEEN/DYCE NDB"},
+{"type":"NDB","hdg_t":131.9,"dist_nm":79.6,"freq":352,"lat":55.05038300,"lon":-1.64268300,"rng_nm":25,"alt_fmsl":0,"id":"NT","desc":"NEWCASTLE NDB"},
+{"type":"VOR","hdg_t":249.1,"dist_nm":83.7,"freq":116,"lat":55.43000000,"lon":-5.65027800,"rng_nm":150,"alt_fmsl":95,"id":"MAC","desc":"MACHRIHANISH VOR-DME"},
+{"type":"NDB","hdg_t":249.6,"dist_nm":84.8,"freq":380,"lat":55.43563100,"lon":-5.68807200,"rng_nm":15,"alt_fmsl":44,"id":"CBL","desc":"CAMPBELTOWN NDB"},
+{"type":"VOR","hdg_t":23.3,"dist_nm":89.5,"freq":114.3,"lat":57.31055600,"lon":-2.26722200,"rng_nm":200,"alt_fmsl":600,"id":"ADN","desc":"ABERDEEN VOR-DME"},
+{"type":"NDB","hdg_t":346.9,"dist_nm":98.4,"freq":328,"lat":57.54150800,"lon":-4.04596700,"rng_nm":50,"alt_fmsl":0,"id":"IVR","desc":"INVERNESS NDB"},
+{"type":"VOR","hdg_t":347,"dist_nm":98.4,"freq":109.2,"lat":57.54262500,"lon":-4.04154200,"rng_nm":40,"alt_fmsl":58,"id":"INS","desc":"INVERNESS VOR-DME"},
+{"type":"NDB","hdg_t":261.9,"dist_nm":99.1,"freq":395,"lat":55.68286400,"lon":-6.24947800,"rng_nm":20,"alt_fmsl":58,"id":"LAY","desc":"ISLAY NDB"},
+{"type":"SDME","hdg_t":261.9,"dist_nm":99.1,"freq":109.95,"lat":55.68296700,"lon":-6.24941400,"rng_nm":25,"alt_fmsl":70,"id":"ISY","desc":"ISLAY DME"}
+]
+}

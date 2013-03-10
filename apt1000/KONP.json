@@ -1,0 +1,38 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KONP","name":"Newport Muni","lat":44.580776065,"lon":-124.05750008,"rwys":2,"ils":1,"index":909731,"path":"w130n40/w125n44"
+,"runways":[
+{"len_m":927,"wid_m":22.86,"hdg":37,"surf":"Asphalt","rwy1":"02","lat1":44.57874363,"lon1":-124.05966106,"rwy2":"20","lat2":44.58536938,"lon2":-124.05256307},
+{"len_m":1655,"wid_m":46.02,"hdg":177,"surf":"Asphalt","rwy1":"16","lat1":44.58693825,"lon1":-124.05937017,"rwy2":"34","lat2":44.57205300,"lon2":-124.05840600}
+]
+,"radios":[
+{"type":"ATIS","freq":133.9,"desc":"AWOS 3"},
+{"type":"CTAF","freq":122.8,"desc":"CTAF/UNICOM"}
+]
+,"ils":[
+{"type":"ILS","freq":111.5,"lat":44.57125000,"lon":-124.05836100,"rng_nm":18,"alt_fmsl":160,"hdg":177.38,"id":"IONP","rwy":"16","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.5,"lat":44.58381900,"lon":-124.05773600,"rng_nm":10,"alt_fmsl":138,"id":"IONP","rwy":"16","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":44.67600000,"lon":-124.06533300,"rng_nm":0,"alt_fmsl":160,"id":"----","rwy":"16","desc":"OM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":202.1,"dist_nm":0.3,"freq":117.1,"lat":44.57536111,"lon":-124.06058333,"rng_nm":130,"alt_fmsl":147,"id":"ONP","desc":"NEWPORT VORTAC"},
+{"type":"NDB","hdg_t":356.7,"dist_nm":5.7,"freq":350,"lat":44.67600000,"lon":-124.06511111,"rng_nm":50,"alt_fmsl":0,"id":"ON","desc":"AGGET NDB"},
+{"type":"VOR","hdg_t":98.1,"dist_nm":33.1,"freq":115.4,"lat":44.49958333,"lon":-123.29366667,"rng_nm":130,"alt_fmsl":241,"id":"CVO","desc":"CORVALLIS VOR-DME"},
+{"type":"NDB","hdg_t":86.3,"dist_nm":33.7,"freq":225,"lat":44.61358333,"lon":-123.27066667,"rng_nm":50,"alt_fmsl":0,"id":"LWG","desc":"LEWISBURG NDB"},
+{"type":"VOR","hdg_t":127.2,"dist_nm":45.3,"freq":112.9,"lat":44.12088889,"lon":-123.22283333,"rng_nm":130,"alt_fmsl":364,"id":"EUG","desc":"EUGENE VORTAC"},
+{"type":"NDB","hdg_t":70.9,"dist_nm":49.9,"freq":266,"lat":44.84744444,"lon":-122.95102778,"rng_nm":50,"alt_fmsl":0,"id":"SL","desc":"TURNO NDB"},
+{"type":"NDB","hdg_t":47.3,"dist_nm":59.2,"freq":383,"lat":45.24613100,"lon":-123.02973600,"rng_nm":50,"alt_fmsl":159,"id":"MM","desc":"MINNE NDB"},
+{"type":"VOR","hdg_t":44.3,"dist_nm":65.2,"freq":117.4,"lat":45.35322222,"lon":-122.97816667,"rng_nm":130,"alt_fmsl":1440,"id":"UBG","desc":"NEWBERG VOR-DME"},
+{"type":"NDB","hdg_t":52,"dist_nm":69.1,"freq":366,"lat":45.28339200,"lon":-122.77036400,"rng_nm":25,"alt_fmsl":157,"id":"PLV","desc":"PRAHL NDB"},
+{"type":"VOR","hdg_t":183.9,"dist_nm":70,"freq":112.1,"lat":43.41550000,"lon":-124.16852778,"rng_nm":40,"alt_fmsl":707,"id":"OTH","desc":"NORTH BEND VORTAC"},
+{"type":"NDB","hdg_t":188.8,"dist_nm":72,"freq":378,"lat":43.39444444,"lon":-124.31027778,"rng_nm":50,"alt_fmsl":0,"id":"OT","desc":"EMIRE NDB"},
+{"type":"NDB","hdg_t":33.9,"dist_nm":76.2,"freq":356,"lat":45.63027778,"lon":-123.04580556,"rng_nm":50,"alt_fmsl":0,"id":"PND","desc":"BANKS NDB"},
+{"type":"NDB","hdg_t":159.1,"dist_nm":86.2,"freq":400,"lat":43.23525000,"lon":-123.35802778,"rng_nm":50,"alt_fmsl":0,"id":"RBG","desc":"ROSEBURG NDB"},
+{"type":"SDME","hdg_t":44.9,"dist_nm":86.2,"freq":109.2,"lat":45.58863100,"lon":-122.61125300,"rng_nm":130,"alt_fmsl":22,"id":"CBU","desc":"COLUMBIA TACAN"},
+{"type":"VOR","hdg_t":44.9,"dist_nm":86.6,"freq":111.8,"lat":45.59369444,"lon":-122.60627778,"rng_nm":40,"alt_fmsl":23,"id":"PDX","desc":"PORTLAND VOR-DME"},
+{"type":"NDB","hdg_t":49,"dist_nm":89,"freq":332,"lat":45.54105556,"lon":-122.46233333,"rng_nm":50,"alt_fmsl":0,"id":"LBH","desc":"LAKER (LOM/NDB) NDB"},
+{"type":"VOR","hdg_t":159.7,"dist_nm":89.3,"freq":108.2,"lat":43.18241667,"lon":-123.35225000,"rng_nm":40,"alt_fmsl":1320,"id":"RBG","desc":"ROSEBURG VOR-DME"},
+{"type":"VOR","hdg_t":41.1,"dist_nm":93.6,"freq":116.6,"lat":45.74780556,"lon":-122.59152778,"rng_nm":130,"alt_fmsl":253,"id":"BTG","desc":"BATTLEGROUND VORTAC"},
+{"type":"VOR","hdg_t":4.4,"dist_nm":95.1,"freq":114,"lat":46.16169444,"lon":-123.88036111,"rng_nm":40,"alt_fmsl":10,"id":"AST","desc":"ASTORIA VOR-DME"},
+{"type":"NDB","hdg_t":11.8,"dist_nm":95.6,"freq":201,"lat":46.13952778,"lon":-123.58730556,"rng_nm":50,"alt_fmsl":0,"id":"PEN","desc":"KARPEN NDB"}
+]
+}

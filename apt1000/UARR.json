@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UARR","name":"Uralsk","lat":51.1508805,"lon":51.5414585,"rwys":1,"ils":1,"index":3793738,"path":"e050n50/e051n51"
+,"runways":[
+{"len_m":2399,"wid_m":42.06,"hdg":51,"surf":"Concrete","rwy1":"04","lat1":51.14423600,"lon1":51.52795300,"rwy2":"22","lat2":51.15752500,"lon2":51.55496400}
+]
+,"radios":[
+{"type":"TWR","freq":119.7,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":51.13972200,"lon":51.52083300,"rng_nm":18,"alt_fmsl":125,"hdg":230.24,"id":"IUR","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":51.15416700,"lon":51.55416700,"rng_nm":10,"alt_fmsl":125,"id":"IUR","rwy":"22","desc":"GS","gs":2.4},
+{"type":"OM","freq":0,"lat":51.17888900,"lon":51.60027800,"rng_nm":0,"alt_fmsl":125,"id":"----","rwy":"22","desc":"OM"},
+{"type":"MM","freq":0,"lat":51.16388900,"lon":51.57027800,"rng_nm":0,"alt_fmsl":125,"id":"----","rwy":"22","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":184.4,"dist_nm":0.3,"freq":114.2,"lat":51.14583300,"lon":51.54083300,"rng_nm":50,"alt_fmsl":121,"id":"URL","desc":"URALSK VOR-DME"},
+{"type":"NDB","hdg_t":230,"dist_nm":1,"freq":214,"lat":51.13972200,"lon":51.52027800,"rng_nm":50,"alt_fmsl":0,"id":"S","desc":"URALSK NDB"},
+{"type":"NDB","hdg_t":54.3,"dist_nm":1.3,"freq":214,"lat":51.16388900,"lon":51.57027800,"rng_nm":50,"alt_fmsl":0,"id":"U","desc":"URALSK NDB"},
+{"type":"NDB","hdg_t":231.1,"dist_nm":2.6,"freq":442,"lat":51.12305600,"lon":51.48666700,"rng_nm":50,"alt_fmsl":0,"id":"SK","desc":"URALSK NDB"},
+{"type":"NDB","hdg_t":52.8,"dist_nm":2.7,"freq":442,"lat":51.17888900,"lon":51.60027800,"rng_nm":50,"alt_fmsl":0,"id":"UR","desc":"URALSK NDB"},
+{"type":"NDB","hdg_t":326.3,"dist_nm":102.9,"freq":460,"lat":52.56666700,"lon":49.98333300,"rng_nm":80,"alt_fmsl":0,"id":"GB","desc":"VOLCHANKA NDB"},
+{"type":"NDB","hdg_t":56.4,"dist_nm":122.8,"freq":730,"lat":52.25000000,"lon":54.31666700,"rng_nm":80,"alt_fmsl":0,"id":"PO","desc":"PRETORIA NDB"},
+{"type":"NDB","hdg_t":342.6,"dist_nm":133.5,"freq":190,"lat":53.26666700,"lon":50.43333300,"rng_nm":80,"alt_fmsl":0,"id":"ND","desc":"SMYSHLYAYEVKA NDB"},
+{"type":"NDB","hdg_t":289.1,"dist_nm":147.2,"freq":375,"lat":51.89666700,"lon":47.79666700,"rng_nm":50,"alt_fmsl":0,"id":"BW","desc":"BALAKOVO NDB"},
+{"type":"NDB","hdg_t":341,"dist_nm":147.2,"freq":287,"lat":53.46166700,"lon":50.20500000,"rng_nm":80,"alt_fmsl":0,"id":"AZ","desc":"SAMARA NDB"}
+]
+}

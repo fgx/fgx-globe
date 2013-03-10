@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ZUXC","name":"Qingshan","lat":27.989083,"lon":102.184361,"rwys":1,"ils":1,"index":4627832,"path":"e100n20/e102n27"
+,"runways":[
+{"len_m":3599,"wid_m":49.99,"hdg":178,"surf":"Concrete","rwy1":"18","lat1":28.00531900,"lon1":102.18385000,"rwy2":"36","lat2":27.97284700,"lon2":102.18487200}
+]
+,"radios":[
+{"type":"TWR","freq":130,"desc":"XICHANG TWR"},
+{"type":"TWR","freq":118.2,"desc":"XICHANG TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":28.00739400,"lon":102.18379700,"rng_nm":18,"alt_fmsl":5112,"hdg":358.43,"id":"IGO","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":27.97565300,"lon":102.18393600,"rng_nm":10,"alt_fmsl":5112,"id":"IGO","rwy":"36","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":27.91926900,"lon":102.18623100,"rng_nm":0,"alt_fmsl":5112,"id":"----","rwy":"36","desc":"OM"},
+{"type":"MM","freq":0,"lat":27.95912500,"lon":102.18521900,"rng_nm":0,"alt_fmsl":5112,"id":"----","rwy":"36","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":337.2,"dist_nm":0.6,"freq":114.2,"lat":27.99833300,"lon":102.18000000,"rng_nm":130,"alt_fmsl":5121,"id":"XIC","desc":"XICHANG VOR-DME"},
+{"type":"NDB","hdg_t":184.2,"dist_nm":15.1,"freq":319,"lat":27.73666700,"lon":102.16333300,"rng_nm":50,"alt_fmsl":0,"id":"SB","desc":"HEXI NDB"},
+{"type":"NDB","hdg_t":236.1,"dist_nm":121.4,"freq":330,"lat":26.84738350,"lon":100.30455017,"rng_nm":50,"alt_fmsl":8209,"id":"ZPN3","desc":"ZPLJ3 NDB"},
+{"type":"VOR","hdg_t":233.2,"dist_nm":130.1,"freq":113.15,"lat":26.67513275,"lon":100.24253082,"rng_nm":50,"alt_fmsl":7325,"id":"ZPLJ","desc":"ZPLJ VOR-DME"},
+{"type":"NDB","hdg_t":120.6,"dist_nm":130.7,"freq":285,"lat":26.86000000,"lon":104.28166700,"rng_nm":50,"alt_fmsl":0,"id":"HX","desc":"WEINING NDB"},
+{"type":"VOR","hdg_t":68.3,"dist_nm":134.5,"freq":116.5,"lat":28.79833300,"lon":104.55666700,"rng_nm":130,"alt_fmsl":937,"id":"YBN","desc":"YIBIN VOR-DME"},
+{"type":"NDB","hdg_t":230.6,"dist_nm":139.6,"freq":315,"lat":26.49533272,"lon":100.17704773,"rng_nm":30,"alt_fmsl":7311,"id":"ZPND","desc":"ZPLJ1 NDB"},
+{"type":"NDB","hdg_t":225.7,"dist_nm":150,"freq":325,"lat":26.22596741,"lon":100.19110107,"rng_nm":50,"alt_fmsl":7071,"id":"ZPN2","desc":"ZPLJ2 NDB"},
+{"type":"NDB","hdg_t":43.3,"dist_nm":160.8,"freq":352,"lat":29.92833300,"lon":104.30166700,"rng_nm":50,"alt_fmsl":0,"id":"VW","desc":"FUJIACHANG NDB"},
+{"type":"VOR","hdg_t":43.3,"dist_nm":161,"freq":113.9,"lat":29.92833300,"lon":104.30500000,"rng_nm":130,"alt_fmsl":1527,"id":"FJC","desc":"FUJIACHANG VOR-DME"}
+]
+}

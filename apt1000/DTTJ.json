@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DTTJ","name":"Djerba Zarzis","lat":33.8754475,"lon":10.777153,"rwys":1,"ils":1,"index":3120891,"path":"e010n30/e010n33"
+,"runways":[
+{"len_m":3112,"wid_m":45.11,"hdg":88,"surf":"Asphalt","rwy1":"09","lat1":33.87503100,"lon1":10.76034200,"rwy2":"27","lat2":33.87586400,"lon2":10.79396400}
+]
+,"radios":[
+{"type":"TWR","freq":118.15,"desc":"DJERBA AIRPORT TWR"},
+{"type":"APP","freq":120.3,"desc":"DJERBA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":33.87591700,"lon":10.79619400,"rng_nm":18,"alt_fmsl":18,"hdg":88.31,"id":"JAZ","rwy":"09","desc":"ILS-cat-II"},
+{"type":"GS","freq":109.5,"lat":33.87619400,"lon":10.76352800,"rng_nm":10,"alt_fmsl":18,"id":"JAZ","rwy":"09","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":33.87475000,"lon":10.74897200,"rng_nm":0,"alt_fmsl":18,"id":"----","rwy":"09","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":304.4,"dist_nm":0.2,"freq":371,"lat":33.87802800,"lon":10.77263900,"rng_nm":50,"alt_fmsl":0,"id":"JER","desc":"ZARZIS NDB"},
+{"type":"VOR","hdg_t":290.3,"dist_nm":0.3,"freq":112.2,"lat":33.87722200,"lon":10.77141100,"rng_nm":130,"alt_fmsl":33,"id":"JBA","desc":"DJERBA VOR-DME"},
+{"type":"VOR","hdg_t":258.9,"dist_nm":43.6,"freq":115.4,"lat":33.73219400,"lon":9.92019400,"rng_nm":130,"alt_fmsl":413,"id":"GAB","desc":"GABES VOR-DME"},
+{"type":"VOR","hdg_t":355,"dist_nm":50.5,"freq":114,"lat":34.71611400,"lon":10.68889200,"rng_nm":130,"alt_fmsl":85,"id":"SFX","desc":"SFAX VOR"},
+{"type":"NDB","hdg_t":26.6,"dist_nm":58.2,"freq":308,"lat":34.74333300,"lon":11.30611100,"rng_nm":100,"alt_fmsl":0,"id":"KR","desc":"EL ATTAYA NDB"},
+{"type":"NDB","hdg_t":130.8,"dist_nm":82.5,"freq":432,"lat":32.96666700,"lon":12.01388900,"rng_nm":20,"alt_fmsl":0,"id":"ZAR","desc":"ZWARA NDB"},
+{"type":"VOR","hdg_t":306.9,"dist_nm":99.4,"freq":115.3,"lat":34.86333300,"lon":9.16777800,"rng_nm":130,"alt_fmsl":0,"id":"BAN","desc":"SIDI BEN AOUN VOR"},
+{"type":"VOR","hdg_t":289.1,"dist_nm":102.5,"freq":109,"lat":34.42063900,"lon":8.82408300,"rng_nm":25,"alt_fmsl":1066,"id":"GAF","desc":"GAFSA VOR-DME"},
+{"type":"VOR","hdg_t":359.2,"dist_nm":112.5,"freq":113.1,"lat":35.75491700,"lon":10.74805600,"rng_nm":130,"alt_fmsl":32,"id":"MON","desc":"MONASTIR VOR-DME"},
+{"type":"VOR","hdg_t":124.4,"dist_nm":114.6,"freq":117.7,"lat":32.77861100,"lon":12.64638900,"rng_nm":130,"alt_fmsl":56,"id":"ZAW","desc":"ZAWIA VOR-DME"}
+]
+}

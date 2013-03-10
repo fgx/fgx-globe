@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EFKU","name":"Kuopio","lat":63.00694525,"lon":27.79869925,"rwys":2,"ils":1,"index":3401281,"path":"e020n60/e027n63"
+,"runways":[
+{"len_m":2799,"wid_m":60.05,"hdg":157,"surf":"Asphalt","rwy1":"15","lat1":63.01808100,"lon1":27.78764400,"rwy2":"33","lat2":62.99492800,"lon2":27.80907500},
+{"len_m":1499,"wid_m":45.11,"hdg":67,"surf":"Asphalt","rwy1":"06","lat1":63.00480000,"lon1":27.78537200,"rwy2":"24","lat2":63.00997200,"lon2":27.81270600}
+]
+,"radios":[
+{"type":"TWR","freq":119.7,"desc":"TWR"},
+{"type":"TWR","freq":120.15,"desc":"TWR"},
+{"type":"APP","freq":130.6,"desc":"APP"},
+{"type":"APP","freq":119.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":63.03258300,"lon":27.77420300,"rng_nm":18,"alt_fmsl":323,"hdg":337.19,"id":"KU","rwy":"33","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":62.99831400,"lon":27.80845800,"rng_nm":10,"alt_fmsl":323,"id":"KU","rwy":"33","desc":"GS","gs":3},
+{"type":"DME","freq":110.3,"lat":62.99831400,"lon":27.80845800,"rng_nm":18,"alt_fmsl":323,"id":"KU","rwy":"33","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":165.7,"dist_nm":1.6,"freq":113,"lat":62.97976900,"lon":27.81384400,"rng_nm":25,"alt_fmsl":481,"id":"VEH","desc":"VEHKAA VOR-DME"},
+{"type":"NDB","hdg_t":156.8,"dist_nm":5.5,"freq":310,"lat":62.92246700,"lon":27.87795300,"rng_nm":30,"alt_fmsl":0,"id":"KUR","desc":"KURKI NDB"},
+{"type":"NDB","hdg_t":180.6,"dist_nm":47,"freq":370,"lat":62.22511100,"lon":27.78045000,"rng_nm":25,"alt_fmsl":0,"id":"JR","desc":"JULIETT-ROMEO NDB"},
+{"type":"NDB","hdg_t":112,"dist_nm":49.9,"freq":325,"lat":62.68605800,"lon":29.47208300,"rng_nm":30,"alt_fmsl":0,"id":"JOE","desc":"JOENSUU NDB"},
+{"type":"VOR","hdg_t":111.8,"dist_nm":54,"freq":115.7,"lat":62.66049700,"lon":29.61052500,"rng_nm":50,"alt_fmsl":413,"id":"JNS","desc":"JOSIE VOR-DME"},
+{"type":"NDB","hdg_t":111.5,"dist_nm":58.3,"freq":401,"lat":62.63782500,"lon":29.75746400,"rng_nm":30,"alt_fmsl":0,"id":"JP","desc":"JULIETT-PAPA NDB"},
+{"type":"VOR","hdg_t":240.5,"dist_nm":69.6,"freq":112.3,"lat":62.42078600,"lon":25.62334200,"rng_nm":50,"alt_fmsl":696,"id":"LNE","desc":"LUONET VOR-DME"},
+{"type":"VOR","hdg_t":153.4,"dist_nm":70.6,"freq":117.9,"lat":61.95268100,"lon":28.91406100,"rng_nm":25,"alt_fmsl":343,"id":"SVL","desc":"LINNA VOR-DME"},
+{"type":"NDB","hdg_t":354.7,"dist_nm":76.5,"freq":337,"lat":64.27306100,"lon":27.52986700,"rng_nm":30,"alt_fmsl":483,"id":"KAJ","desc":"KAJAANI NDB"},
+{"type":"VOR","hdg_t":357.2,"dist_nm":76.8,"freq":114.9,"lat":64.28253600,"lon":27.65577500,"rng_nm":130,"alt_fmsl":447,"id":"KNI","desc":"KAINUU VOR-DME"}
+]
+}

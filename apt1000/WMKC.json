@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WMKC","name":"Kota Bahru Sultan Ismail Petra","lat":6.1668515,"lon":102.293014,"rwys":1,"ils":1,"index":4626442,"path":"e100n00/e102n06"
+,"runways":[
+{"len_m":2128,"wid_m":45.72,"hdg":99,"surf":"Asphalt","rwy1":"10","lat1":6.16846700,"lon1":102.28353600,"rwy2":"28","lat2":6.16523600,"lon2":102.30249200}
+]
+,"radios":[
+{"type":"GND","freq":121.6,"desc":"KOTA BHARU GND"},
+{"type":"TWR","freq":122.5,"desc":"KOTA BHARU TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":6.16483300,"lon":102.30516700,"rng_nm":18,"alt_fmsl":16,"hdg":99.59,"id":"IKB","rwy":"10","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":6.16675000,"lon":102.28733300,"rng_nm":10,"alt_fmsl":16,"id":"IKB","rwy":"10","desc":"GS","gs":3},
+{"type":"DME","freq":109.3,"lat":6.16675000,"lon":102.28733300,"rng_nm":18,"alt_fmsl":16,"id":"IKB","rwy":"10","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":99.2,"dist_nm":1.2,"freq":112.3,"lat":6.16341700,"lon":102.31419400,"rng_nm":25,"alt_fmsl":16,"id":"VKB","desc":"KOTA BHARU VOR-DME"},
+{"type":"NDB","hdg_t":282,"dist_nm":2.3,"freq":240,"lat":6.17500000,"lon":102.25500000,"rng_nm":50,"alt_fmsl":0,"id":"KB","desc":"KOTA BHARU NDB"},
+{"type":"VOR","hdg_t":153.2,"dist_nm":24.6,"freq":116.6,"lat":5.79731900,"lon":102.47864200,"rng_nm":25,"alt_fmsl":40,"id":"VGK","desc":"GONG KEDAK VORTAC"},
+{"type":"NDB","hdg_t":151.8,"dist_nm":24.9,"freq":520,"lat":5.79805600,"lon":102.49027800,"rng_nm":50,"alt_fmsl":0,"id":"GK","desc":"GONG KEDAK NDB"},
+{"type":"NDB","hdg_t":303.1,"dist_nm":38.8,"freq":383,"lat":6.52239200,"lon":101.74854200,"rng_nm":50,"alt_fmsl":0,"id":"NT","desc":"NARATHIWAT NDB"},
+{"type":"VOR","hdg_t":303.3,"dist_nm":39.1,"freq":116.3,"lat":6.52728900,"lon":101.74513300,"rng_nm":50,"alt_fmsl":18,"id":"NTW","desc":"NARATHIWAT VOR-DME"},
+{"type":"VOR","hdg_t":133.8,"dist_nm":67.2,"freq":115.4,"lat":5.38583300,"lon":103.10333300,"rng_nm":130,"alt_fmsl":19,"id":"VKT","desc":"KUALA TERENGGANU VOR-DME"},
+{"type":"NDB","hdg_t":133.8,"dist_nm":67.5,"freq":312,"lat":5.38300000,"lon":103.10666700,"rng_nm":50,"alt_fmsl":19,"id":"TU","desc":"KUALA TERENGGANU NDB"},
+{"type":"NDB","hdg_t":298.5,"dist_nm":77.8,"freq":201,"lat":6.78845800,"lon":101.14791900,"rng_nm":50,"alt_fmsl":0,"id":"PT","desc":"PATTANI NDB"},
+{"type":"VOR","hdg_t":270.6,"dist_nm":113.3,"freq":113.6,"lat":6.18566700,"lon":100.39700000,"rng_nm":130,"alt_fmsl":15,"id":"VAS","desc":"ALOR STAR VOR-DME"}
+]
+}

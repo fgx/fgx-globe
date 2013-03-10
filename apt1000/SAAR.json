@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SAAR","name":"Rosario (islas Malvinas)","lat":-32.90347198,"lon":-60.78463498,"rwys":1,"ils":1,"index":1953344,"path":"w070s40/w061s33"
+,"runways":[
+{"len_m":3002,"wid_m":45.11,"hdg":10,"surf":"Concrete","rwy1":"02","lat1":-32.91676746,"lon1":-60.78765063,"rwy2":"20","lat2":-32.89017649,"lon2":-60.78161933}
+]
+,"radios":[
+{"type":"TWR","freq":118.7,"desc":"CT"},
+{"type":"APP","freq":118.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":-32.91926575,"lon":-60.78820038,"rng_nm":18,"alt_fmsl":87,"hdg":190.75,"id":"RO","rwy":"20","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":-32.89311100,"lon":-60.78097200,"rng_nm":10,"alt_fmsl":138,"id":"RO","rwy":"20","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":-32.88236100,"lon":-60.77972200,"rng_nm":0,"alt_fmsl":87,"id":"----","rwy":"20","desc":"MM"},
+{"type":"DME","freq":109.9,"lat":-32.89311100,"lon":-60.78097200,"rng_nm":18,"alt_fmsl":138,"id":"RO","rwy":"20","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":119.1,"dist_nm":0.1,"freq":117.3,"lat":-32.90500000,"lon":-60.78138900,"rng_nm":175,"alt_fmsl":80,"id":"ROS","desc":"ROSARIO VOR-DME"},
+{"type":"SDME","hdg_t":16.6,"dist_nm":0.6,"freq":109.9,"lat":-32.89311100,"lon":-60.78097200,"rng_nm":18,"alt_fmsl":138,"id":"RO","desc":"SAAR 20 DME"},
+{"type":"NDB","hdg_t":11.1,"dist_nm":1.2,"freq":305,"lat":-32.88236100,"lon":-60.77972200,"rng_nm":25,"alt_fmsl":85,"id":"F","desc":"ROSARIO NDB"},
+{"type":"NDB","hdg_t":357.4,"dist_nm":67.2,"freq":262,"lat":-31.78085000,"lon":-60.84305600,"rng_nm":25,"alt_fmsl":56,"id":"OV","desc":"SAUCE VIEJO NDB"},
+{"type":"VOR","hdg_t":13.1,"dist_nm":67.3,"freq":116.8,"lat":-31.80833300,"lon":-60.48472200,"rng_nm":175,"alt_fmsl":243,"id":"PAR","desc":"PARANA VOR-DME"},
+{"type":"NDB","hdg_t":358.4,"dist_nm":70.1,"freq":282,"lat":-31.73227500,"lon":-60.82109400,"rng_nm":25,"alt_fmsl":56,"id":"V","desc":"SAUCE VIEJO NDB"},
+{"type":"VOR","hdg_t":280.1,"dist_nm":70.7,"freq":114.7,"lat":-32.68777800,"lon":-62.16083300,"rng_nm":185,"alt_fmsl":361,"id":"MJZ","desc":"MARCOS JUAREZ VOR"},
+{"type":"NDB","hdg_t":359.1,"dist_nm":71.3,"freq":405,"lat":-31.71166700,"lon":-60.80638900,"rng_nm":230,"alt_fmsl":56,"id":"SVO","desc":"SAUCE VIEJO NDB"},
+{"type":"NDB","hdg_t":184.3,"dist_nm":97.6,"freq":345,"lat":-34.52833300,"lon":-60.93500000,"rng_nm":25,"alt_fmsl":0,"id":"N","desc":"JUNIN NDB"},
+{"type":"VOR","hdg_t":184.3,"dist_nm":98.3,"freq":116.1,"lat":-34.54111100,"lon":-60.93388900,"rng_nm":185,"alt_fmsl":269,"id":"NIN","desc":"JUNIN VOR"},
+{"type":"NDB","hdg_t":184.2,"dist_nm":98.9,"freq":220,"lat":-34.55111100,"lon":-60.93388900,"rng_nm":189,"alt_fmsl":269,"id":"NIN","desc":"JUNIN NDB"}
+]
+}

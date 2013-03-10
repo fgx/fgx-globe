@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"USRK","name":"Kogalym","lat":62.190417,"lon":74.5338025,"rwys":1,"ils":2,"index":4171273,"path":"e070n60/e074n62"
+,"runways":[
+{"len_m":2508,"wid_m":42.06,"hdg":189,"surf":"Concrete","rwy1":"17","lat1":62.20150300,"lon1":74.53795800,"rwy2":"35","lat2":62.17933100,"lon2":74.52964700}
+]
+,"radios":[
+{"type":"ATIS","freq":123.4,"desc":"ATIS"},
+{"type":"TWR","freq":119.4,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":108.5,"lat":62.17166700,"lon":74.52833300,"rng_nm":18,"alt_fmsl":220,"hdg":188.56,"id":"IKG","rwy":"17","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.5,"lat":62.20833300,"lon":74.54166700,"rng_nm":18,"alt_fmsl":220,"hdg":10.95,"id":"IOL","rwy":"35","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.5,"lat":62.19833300,"lon":74.54000000,"rng_nm":10,"alt_fmsl":220,"id":"IKG","rwy":"17","desc":"GS","gs":3},
+{"type":"GS","freq":109.5,"lat":62.18000000,"lon":74.53333300,"rng_nm":10,"alt_fmsl":220,"id":"IOL","rwy":"35","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":62.24666700,"lon":74.55500000,"rng_nm":0,"alt_fmsl":220,"id":"----","rwy":"17","desc":"OM"},
+{"type":"OM","freq":0,"lat":62.14500000,"lon":74.51833300,"rng_nm":0,"alt_fmsl":220,"id":"----","rwy":"35","desc":"OM"},
+{"type":"MM","freq":0,"lat":62.21000000,"lon":74.54333300,"rng_nm":0,"alt_fmsl":220,"id":"----","rwy":"17","desc":"MM"},
+{"type":"MM","freq":0,"lat":62.17166700,"lon":74.52833600,"rng_nm":0,"alt_fmsl":220,"id":"----","rwy":"35","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":189,"dist_nm":2.7,"freq":490,"lat":62.14500000,"lon":74.51833300,"rng_nm":80,"alt_fmsl":0,"id":"OL","desc":"KOGALYM NDB"},
+{"type":"NDB","hdg_t":9.9,"dist_nm":3.4,"freq":490,"lat":62.24666700,"lon":74.55500000,"rng_nm":80,"alt_fmsl":0,"id":"KG","desc":"KOGALYM NDB"},
+{"type":"NDB","hdg_t":210.3,"dist_nm":58.7,"freq":325,"lat":61.34333300,"lon":73.50666700,"rng_nm":80,"alt_fmsl":0,"id":"AM","desc":"SURGUT NDB"},
+{"type":"NDB","hdg_t":215.1,"dist_nm":61.9,"freq":325,"lat":61.34333300,"lon":73.30000000,"rng_nm":80,"alt_fmsl":0,"id":"GK","desc":"SURGUT NDB"},
+{"type":"NDB","hdg_t":18.4,"dist_nm":63.1,"freq":615,"lat":63.18333300,"lon":75.27000000,"rng_nm":80,"alt_fmsl":0,"id":"ZE","desc":"NOYARSK NDB"},
+{"type":"NDB","hdg_t":92.3,"dist_nm":78.3,"freq":433,"lat":62.10833300,"lon":77.31166700,"rng_nm":80,"alt_fmsl":0,"id":"RN","desc":"RADUZHNY NDB"},
+{"type":"NDB","hdg_t":89.2,"dist_nm":78.8,"freq":880,"lat":62.18000000,"lon":77.33833300,"rng_nm":80,"alt_fmsl":0,"id":"UG","desc":"RADUZHNY NDB"},
+{"type":"NDB","hdg_t":140.5,"dist_nm":92.8,"freq":450,"lat":60.98500000,"lon":76.55333300,"rng_nm":80,"alt_fmsl":0,"id":"NZ","desc":"NIZHNEVARTOVSK NDB"},
+{"type":"VOR","hdg_t":142.6,"dist_nm":93.3,"freq":112.3,"lat":60.94333300,"lon":76.46833300,"rng_nm":130,"alt_fmsl":-144,"id":"NJC","desc":"NIZHNEVARTOVSK VOR-DME"},
+{"type":"NDB","hdg_t":144.1,"dist_nm":93.9,"freq":450,"lat":60.91166700,"lon":76.41500000,"rng_nm":80,"alt_fmsl":0,"id":"JH","desc":"NIZHNEVARTOVSK NDB"}
+]
+}

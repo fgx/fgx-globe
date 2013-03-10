@@ -1,0 +1,48 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UGTB","name":"Tbilisi","lat":41.6685815,"lon":44.95364375,"rwys":2,"ils":2,"index":3678443,"path":"e040n40/e044n41"
+,"runways":[
+{"len_m":3000,"wid_m":44.81,"hdg":136,"surf":"Concrete","rwy1":"13R","lat1":41.67781700,"lon1":44.94011400,"rwy2":"31L","lat2":41.65820600,"lon2":44.96488600},
+{"len_m":2503,"wid_m":59.74,"hdg":133,"surf":"Asphalt","rwy1":"13L","lat1":41.67691400,"lon1":44.94389200,"rwy2":"31R","lat2":41.66138900,"lon2":44.96568300}
+]
+,"radios":[
+{"type":"ATIS","freq":132.8,"desc":"ATIS"},
+{"type":"GND","freq":119,"desc":"GND"},
+{"type":"TWR","freq":128,"desc":"TWR"},
+{"type":"APP","freq":127.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":41.65733300,"lon":44.96597200,"rng_nm":18,"alt_fmsl":1624,"hdg":136.69,"id":"IVP","rwy":"13R","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.9,"lat":41.67911100,"lon":44.93847200,"rng_nm":18,"alt_fmsl":1624,"hdg":316.65,"id":"INA","rwy":"31L","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":41.67520300,"lon":44.94166700,"rng_nm":10,"alt_fmsl":1657,"id":"IVP","rwy":"13R","desc":"GS","gs":3},
+{"type":"GS","freq":108.9,"lat":41.65902800,"lon":44.96136100,"rng_nm":10,"alt_fmsl":1624,"id":"INA","rwy":"31L","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":41.71305600,"lon":44.89550000,"rng_nm":0,"alt_fmsl":1624,"id":"----","rwy":"13R","desc":"OM"},
+{"type":"OM","freq":0,"lat":41.63272200,"lon":44.99711100,"rng_nm":0,"alt_fmsl":1624,"id":"----","rwy":"31L","desc":"OM"},
+{"type":"MM","freq":0,"lat":41.68277800,"lon":44.93369400,"rng_nm":0,"alt_fmsl":1624,"id":"----","rwy":"13R","desc":"MM"},
+{"type":"MM","freq":0,"lat":41.65066700,"lon":44.97441700,"rng_nm":0,"alt_fmsl":1624,"id":"----","rwy":"31L","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":313.5,"dist_nm":1.2,"freq":923,"lat":41.68277800,"lon":44.93369400,"rng_nm":50,"alt_fmsl":1673,"id":"V","desc":"LOCHINI NDB"},
+{"type":"NDB","hdg_t":138.9,"dist_nm":1.4,"freq":435,"lat":41.65066700,"lon":44.97441700,"rng_nm":50,"alt_fmsl":0,"id":"N","desc":"TBILISI NDB"},
+{"type":"VOR","hdg_t":139.1,"dist_nm":1.4,"freq":113.7,"lat":41.65055600,"lon":44.97444400,"rng_nm":130,"alt_fmsl":1600,"id":"TBS","desc":"TBILISI VOR-DME"},
+{"type":"NDB","hdg_t":137.7,"dist_nm":2.9,"freq":211,"lat":41.63272200,"lon":44.99711100,"rng_nm":50,"alt_fmsl":0,"id":"NA","desc":"TBILISI NDB"},
+{"type":"NDB","hdg_t":315.6,"dist_nm":3.7,"freq":697,"lat":41.71305600,"lon":44.89550000,"rng_nm":50,"alt_fmsl":0,"id":"VP","desc":"TBILISI NDB"},
+{"type":"NDB","hdg_t":310.6,"dist_nm":22.9,"freq":520,"lat":41.91666700,"lon":44.56555600,"rng_nm":50,"alt_fmsl":0,"id":"DF","desc":"MUKHRANI NDB"},
+{"type":"NDB","hdg_t":299.8,"dist_nm":42.3,"freq":462,"lat":42.01666700,"lon":44.13222200,"rng_nm":50,"alt_fmsl":0,"id":"OZ","desc":"GORI NDB"},
+{"type":"NDB","hdg_t":215.6,"dist_nm":46.5,"freq":602,"lat":41.03613900,"lon":44.35618900,"rng_nm":50,"alt_fmsl":0,"id":"ST","desc":"STEPANAVAN NDB"},
+{"type":"NDB","hdg_t":92.3,"dist_nm":47.8,"freq":342,"lat":41.63055600,"lon":46.01555600,"rng_nm":50,"alt_fmsl":0,"id":"TO","desc":"TSNORI NDB"},
+{"type":"NDB","hdg_t":294.3,"dist_nm":63.9,"freq":353,"lat":42.10000000,"lon":43.64888900,"rng_nm":50,"alt_fmsl":0,"id":"BT","desc":"ALI NDB"},
+{"type":"NDB","hdg_t":179.9,"dist_nm":68,"freq":490,"lat":40.53426400,"lon":44.95476400,"rng_nm":60,"alt_fmsl":0,"id":"SVN","desc":"SEVAN NDB"},
+{"type":"VOR","hdg_t":222,"dist_nm":75.3,"freq":113.4,"lat":40.72941100,"lon":43.84723900,"rng_nm":60,"alt_fmsl":5090,"id":"GRM","desc":"GYUMRI VOR-DME"},
+{"type":"NDB","hdg_t":222,"dist_nm":75.4,"freq":325,"lat":40.72879700,"lon":43.84690800,"rng_nm":50,"alt_fmsl":0,"id":"GM","desc":"GYUMRI NDB"},
+{"type":"NDB","hdg_t":131.8,"dist_nm":80.4,"freq":486,"lat":40.76666700,"lon":46.26900000,"rng_nm":80,"alt_fmsl":0,"id":"ZW","desc":"GANJA NDB"},
+{"type":"NDB","hdg_t":131.6,"dist_nm":84.6,"freq":985,"lat":40.72166700,"lon":46.33833300,"rng_nm":25,"alt_fmsl":0,"id":"K","desc":"GANJA NDB"},
+{"type":"NDB","hdg_t":131.5,"dist_nm":86.9,"freq":486,"lat":40.69833300,"lon":46.38000000,"rng_nm":50,"alt_fmsl":0,"id":"KM","desc":"GANJA NDB"},
+{"type":"NDB","hdg_t":134.7,"dist_nm":88.8,"freq":1359,"lat":40.61666700,"lon":46.33333300,"rng_nm":200,"alt_fmsl":0,"id":"MO","desc":"KHANLAR NDB"},
+{"type":"NDB","hdg_t":212.4,"dist_nm":90.8,"freq":442,"lat":40.38553600,"lon":43.89114400,"rng_nm":50,"alt_fmsl":0,"id":"TLN","desc":"TALIN NDB"},
+{"type":"NDB","hdg_t":193.3,"dist_nm":93.7,"freq":496,"lat":40.14592500,"lon":44.48245000,"rng_nm":25,"alt_fmsl":0,"id":"ER","desc":"YEREVAN NDB"},
+{"type":"NDB","hdg_t":348.8,"dist_nm":94.5,"freq":1050,"lat":43.21500000,"lon":44.53833300,"rng_nm":80,"alt_fmsl":0,"id":"CH","desc":"VLADIKAVKAZ NDB"},
+{"type":"VOR","hdg_t":196.5,"dist_nm":95,"freq":112.3,"lat":40.14718600,"lon":44.36696100,"rng_nm":200,"alt_fmsl":2824,"id":"ZVR","desc":"YEREVAN VOR-DME"},
+{"type":"NDB","hdg_t":196.6,"dist_nm":95.1,"freq":805,"lat":40.14705800,"lon":44.36228100,"rng_nm":30,"alt_fmsl":0,"id":"Z","desc":"YEREVAN NDB"},
+{"type":"NDB","hdg_t":197.5,"dist_nm":95.5,"freq":395,"lat":40.14696900,"lon":44.32821700,"rng_nm":70,"alt_fmsl":0,"id":"ZR","desc":"YEREVAN NDB"}
+]
+}

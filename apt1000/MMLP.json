@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MMLP","name":"General Manuel Marquez De Leon Intl","lat":24.0726945,"lon":-110.3624735,"rwys":1,"ils":1,"index":1137794,"path":"w120n20/w111n24"
+,"runways":[
+{"len_m":2501,"wid_m":45.11,"hdg":187,"surf":"Concrete","rwy1":"18","lat1":24.08389200,"lon1":-110.36087800,"rwy2":"36","lat2":24.06149700,"lon2":-110.36406900}
+]
+,"radios":[
+{"type":"ATIS","freq":127.9,"desc":"ATIS"},
+{"type":"TWR","freq":118.1,"desc":"LA PAZ TWR"},
+{"type":"APP","freq":120.6,"desc":"LA PAZ APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":24.05940600,"lon":-110.36506400,"rng_nm":18,"alt_fmsl":69,"hdg":188.87,"id":"ILAP","rwy":"18","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":24.08124400,"lon":-110.36204200,"rng_nm":10,"alt_fmsl":69,"id":"ILAP","rwy":"18","desc":"GS","gs":3},
+{"type":"DME","freq":110.5,"lat":24.08124400,"lon":-110.36204200,"rng_nm":18,"alt_fmsl":69,"id":"ILAP","rwy":"18","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":15.1,"dist_nm":0.7,"freq":112.3,"lat":24.08560300,"lon":-110.35866100,"rng_nm":130,"alt_fmsl":69,"id":"LAP","desc":"LA PAZ VOR-DME"},
+{"type":"VOR","hdg_t":147.3,"dist_nm":65.7,"freq":114,"lat":23.14616100,"lon":-109.72153900,"rng_nm":130,"alt_fmsl":374,"id":"SJD","desc":"CABOS VOR-DME"},
+{"type":"VOR","hdg_t":35.9,"dist_nm":119.3,"freq":115.5,"lat":25.68261100,"lon":-109.07158100,"rng_nm":130,"alt_fmsl":16,"id":"LMM","desc":"MOCHIS VOR-DME"},
+{"type":"VOR","hdg_t":334.9,"dist_nm":126.1,"freq":113.2,"lat":25.98065600,"lon":-111.34952800,"rng_nm":130,"alt_fmsl":34,"id":"LTO","desc":"LORETO VOR-DME"},
+{"type":"VOR","hdg_t":74.7,"dist_nm":163.3,"freq":112.2,"lat":24.76442800,"lon":-107.47727500,"rng_nm":130,"alt_fmsl":108,"id":"CUL","desc":"CULIACAN VOR-DME"},
+{"type":"NDB","hdg_t":34.4,"dist_nm":192.8,"freq":214,"lat":26.71640800,"lon":-108.33049200,"rng_nm":50,"alt_fmsl":794,"id":"CHX","desc":"CHOIX NDB"},
+{"type":"VOR","hdg_t":8,"dist_nm":200.7,"freq":115.1,"lat":27.39475800,"lon":-109.83728300,"rng_nm":130,"alt_fmsl":205,"id":"CEN","desc":"OBREGON VOR-DME"},
+{"type":"VOR","hdg_t":332.4,"dist_nm":220.4,"freq":112.6,"lat":27.32826700,"lon":-112.27029200,"rng_nm":130,"alt_fmsl":625,"id":"SRL","desc":"ROSALIA VOR-DME"},
+{"type":"VOR","hdg_t":102.7,"dist_nm":231.9,"freq":114.9,"lat":23.16052200,"lon":-106.27096400,"rng_nm":130,"alt_fmsl":38,"id":"MZT","desc":"MAZATLAN VOR-DME"},
+{"type":"NDB","hdg_t":352.6,"dist_nm":234.2,"freq":368,"lat":27.95576100,"lon":-110.92905300,"rng_nm":50,"alt_fmsl":59,"id":"GYM","desc":"GUAYMAS NDB"}
+]
+}

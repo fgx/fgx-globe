@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HELX","name":"Luxor Intl","lat":25.671086,"lon":32.706403,"rwys":1,"ils":1,"index":3480810,"path":"e030n20/e032n25"
+,"runways":[
+{"len_m":3000,"wid_m":45.11,"hdg":22,"surf":"Asphalt","rwy1":"02","lat1":25.65858300,"lon1":32.70066700,"rwy2":"20","lat2":25.68358900,"lon2":32.71213900}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"TWR","freq":119.9,"desc":"TWR"},
+{"type":"APP","freq":124.3,"desc":"RADAR"},
+{"type":"APP","freq":118.1,"desc":"RADAR"}
+]
+,"ils":[
+{"type":"ILS","freq":111.1,"lat":25.65610600,"lon":32.69956100,"rng_nm":18,"alt_fmsl":303,"hdg":202.41,"id":"XIL","rwy":"20","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.1,"lat":25.68066700,"lon":32.71226100,"rng_nm":10,"alt_fmsl":326,"id":"XIL","rwy":"20","desc":"GS","gs":3},
+{"type":"DME","freq":111.1,"lat":25.68066700,"lon":32.71226100,"rng_nm":18,"alt_fmsl":326,"id":"XIL","rwy":"20","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":22.9,"dist_nm":4.3,"freq":364,"lat":25.73788900,"lon":32.73763900,"rng_nm":75,"alt_fmsl":284,"id":"LO","desc":"LUXOR NDB"},
+{"type":"VOR","hdg_t":35.7,"dist_nm":5.7,"freq":114.4,"lat":25.74938900,"lon":32.76858300,"rng_nm":150,"alt_fmsl":332,"id":"LXR","desc":"LUXOR VOR-DME"},
+{"type":"VOR","hdg_t":92.5,"dist_nm":100.9,"freq":115.5,"lat":25.58277800,"lon":34.56555600,"rng_nm":25,"alt_fmsl":265,"id":"MAK","desc":"MARSA ALAM VOR-DME"},
+{"type":"VOR","hdg_t":176.5,"dist_nm":101.8,"freq":112.3,"lat":23.97178300,"lon":32.81695800,"rng_nm":150,"alt_fmsl":668,"id":"ASN","desc":"ASWAN VOR-DME"},
+{"type":"VOR","hdg_t":32.8,"dist_nm":107.5,"freq":116.5,"lat":27.17775800,"lon":33.79639400,"rng_nm":150,"alt_fmsl":98,"id":"HGD","desc":"HURGHADA VOR-DME"},
+{"type":"VOR","hdg_t":263.8,"dist_nm":115.5,"freq":113.8,"lat":25.44838600,"lon":30.59079200,"rng_nm":150,"alt_fmsl":137,"id":"KHG","desc":"EL KHARGA VOR-DME"},
+{"type":"VOR","hdg_t":312.4,"dist_nm":121.4,"freq":117.7,"lat":27.03122200,"lon":31.03250000,"rng_nm":200,"alt_fmsl":850,"id":"AST","desc":"ASYUT VOR-DME"},
+{"type":"NDB","hdg_t":32.7,"dist_nm":164.2,"freq":335,"lat":27.97000000,"lon":34.38027800,"rng_nm":100,"alt_fmsl":210,"id":"SKH","desc":"SHARM EL SHEIKH NDB"},
+{"type":"VOR","hdg_t":32.9,"dist_nm":166.6,"freq":114.2,"lat":27.99805600,"lon":34.41333300,"rng_nm":200,"alt_fmsl":130,"id":"SHM","desc":"SHARM EL SHEIKH VOR-DME"},
+{"type":"NDB","hdg_t":21.5,"dist_nm":194.2,"freq":262,"lat":28.68436100,"lon":34.05994400,"rng_nm":150,"alt_fmsl":4440,"id":"CAT","desc":"ST CATHERINE NDB"}
+]
+}

@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WMKD","name":"Kuantan Aero","lat":3.7756595,"lon":103.209057,"rwys":1,"ils":1,"index":4642673,"path":"e100n00/e103n03"
+,"runways":[
+{"len_m":2804,"wid_m":45.72,"hdg":183,"surf":"Asphalt","rwy1":"18","lat1":3.78831900,"lon1":103.20975300,"rwy2":"36","lat2":3.76300000,"lon2":103.20836100}
+]
+,"radios":[
+{"type":"ATIS","freq":127.5,"desc":"ATIS"},
+{"type":"GND","freq":120.4,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":118.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":3.79144400,"lon":103.20833300,"rng_nm":18,"alt_fmsl":58,"hdg":359.94,"id":"IKN","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":3.76477800,"lon":103.20666700,"rng_nm":10,"alt_fmsl":54,"id":"IKN","rwy":"36","desc":"GS","gs":3},
+{"type":"DME","freq":109.5,"lat":3.76477800,"lon":103.20666700,"rng_nm":18,"alt_fmsl":58,"id":"IKN","rwy":"36","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":61.8,"dist_nm":0,"freq":113.7,"lat":3.77616700,"lon":103.21000000,"rng_nm":130,"alt_fmsl":58,"id":"VKN","desc":"KUANTAN VORTAC"},
+{"type":"NDB","hdg_t":151.2,"dist_nm":26.7,"freq":282,"lat":3.38305600,"lon":103.42333300,"rng_nm":50,"alt_fmsl":0,"id":"PK","desc":"PEKAN NDB"},
+{"type":"VOR","hdg_t":15.5,"dist_nm":47.8,"freq":117.1,"lat":4.54805600,"lon":103.42330600,"rng_nm":130,"alt_fmsl":20,"id":"VKE","desc":"KERTEH VOR-DME"},
+{"type":"VOR","hdg_t":133.9,"dist_nm":74.3,"freq":114,"lat":2.91094400,"lon":104.10100000,"rng_nm":130,"alt_fmsl":89,"id":"VPT","desc":"PULAU TIOMAN VOR-DME"},
+{"type":"VOR","hdg_t":154.3,"dist_nm":91.8,"freq":116.8,"lat":2.38833300,"lon":103.87166700,"rng_nm":130,"alt_fmsl":10,"id":"VMR","desc":"MERSING VOR-DME"},
+{"type":"NDB","hdg_t":356.3,"dist_nm":96.1,"freq":312,"lat":5.38300000,"lon":103.10666700,"rng_nm":50,"alt_fmsl":19,"id":"TU","desc":"KUALA TERENGGANU NDB"},
+{"type":"VOR","hdg_t":356.2,"dist_nm":96.3,"freq":115.4,"lat":5.38583300,"lon":103.10333300,"rng_nm":130,"alt_fmsl":19,"id":"VKT","desc":"KUALA TERENGGANU VOR-DME"},
+{"type":"NDB","hdg_t":244.4,"dist_nm":105.6,"freq":255,"lat":3.01138900,"lon":101.62022200,"rng_nm":50,"alt_fmsl":0,"id":"KL","desc":"KAYELL NDB"},
+{"type":"NDB","hdg_t":247.3,"dist_nm":106.3,"freq":355,"lat":3.08813900,"lon":101.57355600,"rng_nm":50,"alt_fmsl":0,"id":"SM","desc":"KUALA LUMPUR NDB"},
+{"type":"NDB","hdg_t":212.5,"dist_nm":106.8,"freq":298,"lat":2.26655600,"lon":102.25347200,"rng_nm":25,"alt_fmsl":0,"id":"AM","desc":"MALACCA NDB"}
+]
+}

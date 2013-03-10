@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HLLT","name":"Tripoli Intl","lat":32.6656585,"lon":13.15335625,"rwys":2,"ils":1,"index":3169960,"path":"e010n30/e013n32"
+,"runways":[
+{"len_m":3602,"wid_m":44.20,"hdg":88,"surf":"Asphalt","rwy1":"09","lat1":32.66309200,"lon1":13.12875800,"rwy2":"27","lat2":32.66366700,"lon2":13.16715800},
+{"len_m":2635,"wid_m":44.20,"hdg":177,"surf":"Asphalt","rwy1":"18","lat1":32.67980600,"lon1":13.15809200,"rwy2":"36","lat2":32.65606900,"lon2":13.15941700}
+]
+,"radios":[
+{"type":"GND","freq":120.1,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"TWR","freq":123,"desc":"AFIS"},
+{"type":"APP","freq":124,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":32.66305000,"lon":13.12620000,"rng_nm":18,"alt_fmsl":263,"hdg":268.98,"id":"IWT","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":32.66388900,"lon":13.16416700,"rng_nm":10,"alt_fmsl":263,"id":"IWT","rwy":"27","desc":"GS","gs":2.5},
+{"type":"OM","freq":0,"lat":32.66488224,"lon":13.24831529,"rng_nm":0,"alt_fmsl":263,"id":"----","rwy":"27","desc":"OM"},
+{"type":"MM","freq":0,"lat":32.66378556,"lon":13.17507578,"rng_nm":0,"alt_fmsl":263,"id":"----","rwy":"27","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":149.4,"dist_nm":0.2,"freq":114.5,"lat":32.66250000,"lon":13.15555600,"rng_nm":150,"alt_fmsl":263,"id":"TPI","desc":"TRIPOLI VOR-DME"},
+{"type":"NDB","hdg_t":95.8,"dist_nm":1.1,"freq":365,"lat":32.66378556,"lon":13.17507578,"rng_nm":25,"alt_fmsl":0,"id":"G","desc":"Tripoli NDB"},
+{"type":"NDB","hdg_t":90.5,"dist_nm":4.8,"freq":390,"lat":32.66488224,"lon":13.24831529,"rng_nm":15,"alt_fmsl":0,"id":"PE","desc":"Gazala LOM"},
+{"type":"VOR","hdg_t":176.1,"dist_nm":12.1,"freq":115.1,"lat":32.46277800,"lon":13.16944400,"rng_nm":130,"alt_fmsl":470,"id":"ABU","desc":"ABU ARGUB VOR-DME"},
+{"type":"VOR","hdg_t":23.6,"dist_nm":14.8,"freq":113.4,"lat":32.89277800,"lon":13.27111100,"rng_nm":200,"alt_fmsl":36,"id":"MTG","desc":"MITIGA VOR"},
+{"type":"NDB","hdg_t":295.4,"dist_nm":18.2,"freq":328,"lat":32.79583300,"lon":12.82777800,"rng_nm":20,"alt_fmsl":0,"id":"TRO","desc":"JODAY NDB"},
+{"type":"VOR","hdg_t":284.9,"dist_nm":26.5,"freq":117.7,"lat":32.77861100,"lon":12.64638900,"rng_nm":130,"alt_fmsl":56,"id":"ZAW","desc":"ZAWIA VOR-DME"},
+{"type":"NDB","hdg_t":127.1,"dist_nm":29.5,"freq":314,"lat":32.36666700,"lon":13.61666700,"rng_nm":50,"alt_fmsl":0,"id":"KDR","desc":"KADRA NDB"},
+{"type":"NDB","hdg_t":287.6,"dist_nm":60.3,"freq":432,"lat":32.96666700,"lon":12.01388900,"rng_nm":20,"alt_fmsl":0,"id":"ZAR","desc":"ZWARA NDB"},
+{"type":"VOR","hdg_t":140.2,"dist_nm":68.5,"freq":115.9,"lat":31.78251900,"lon":14.00943100,"rng_nm":130,"alt_fmsl":890,"id":"WLD","desc":"BENI WALID VOR-DME"},
+{"type":"NDB","hdg_t":141.5,"dist_nm":71,"freq":265,"lat":31.73333300,"lon":14.01666700,"rng_nm":150,"alt_fmsl":0,"id":"WLD","desc":"BENI WALID NDB"},
+{"type":"NDB","hdg_t":187.2,"dist_nm":73.5,"freq":378,"lat":31.44611100,"lon":12.97361100,"rng_nm":150,"alt_fmsl":0,"id":"IZD","desc":"MIZDA NDB"},
+{"type":"VOR","hdg_t":101.6,"dist_nm":99.3,"freq":117.1,"lat":32.31666700,"lon":15.06666700,"rng_nm":130,"alt_fmsl":60,"id":"MIS","desc":"MISURATA VOR-DME"}
+]
+}

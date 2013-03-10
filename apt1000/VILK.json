@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VILK","name":"Lucknow","lat":26.760593,"lon":80.8893405,"rwys":1,"ils":1,"index":4267315,"path":"e080n20/e080n26"
+,"runways":[
+{"len_m":2745,"wid_m":45.11,"hdg":89,"surf":"Asphalt","rwy1":"09","lat1":26.76041100,"lon1":80.87553900,"rwy2":"27","lat2":26.76077500,"lon2":80.90314200}
+]
+,"radios":[
+{"type":"ATIS","freq":126.8,"desc":"ATIS"},
+{"type":"TWR","freq":119.7,"desc":"TWR"},
+{"type":"TWR","freq":118.6,"desc":"TWR"},
+{"type":"APP","freq":119.6,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":26.76052800,"lon":80.87269400,"rng_nm":18,"alt_fmsl":410,"hdg":269.47,"id":"ILUC","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":26.76191700,"lon":80.89408300,"rng_nm":10,"alt_fmsl":410,"id":"ILUC","rwy":"27","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":26.76191700,"lon":80.89408300,"rng_nm":18,"alt_fmsl":410,"id":"LUC","rwy":"27","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":281.4,"dist_nm":0.4,"freq":113.1,"lat":26.76220300,"lon":80.88046900,"rng_nm":130,"alt_fmsl":400,"id":"LLK","desc":"LUCKNOW VOR-DME"},
+{"type":"NDB","hdg_t":232.2,"dist_nm":33.4,"freq":292,"lat":26.41694400,"lon":80.39830600,"rng_nm":50,"alt_fmsl":0,"id":"KA","desc":"KANPUR CHAKERI NDB"},
+{"type":"NDB","hdg_t":139.1,"dist_nm":40.2,"freq":334,"lat":26.25083300,"lon":81.37777800,"rng_nm":50,"alt_fmsl":0,"id":"FR","desc":"FURSATGANJ NDB"},
+{"type":"VOR","hdg_t":310.5,"dist_nm":86.4,"freq":115.8,"lat":27.69432200,"lon":79.65561900,"rng_nm":130,"alt_fmsl":472,"id":"JAL","desc":"JALALABAD VOR-DME"},
+{"type":"NDB","hdg_t":150.3,"dist_nm":88.8,"freq":328,"lat":25.46705300,"lon":81.69815300,"rng_nm":50,"alt_fmsl":0,"id":"AP","desc":"ALLAHABAD NDB"},
+{"type":"NDB","hdg_t":26.9,"dist_nm":89.8,"freq":330,"lat":28.09805600,"lon":81.65583300,"rng_nm":25,"alt_fmsl":50,"id":"NPJ","desc":"NEPALGUNJ NDB"},
+{"type":"VOR","hdg_t":26.6,"dist_nm":89.9,"freq":115.1,"lat":28.10138900,"lon":81.65083300,"rng_nm":130,"alt_fmsl":540,"id":"NGJ","desc":"NEPALGUNJ VOR-DME"},
+{"type":"NDB","hdg_t":42.4,"dist_nm":110.1,"freq":363,"lat":28.11166700,"lon":82.29166700,"rng_nm":25,"alt_fmsl":2077,"id":"DNG","desc":"DANG NDB"},
+{"type":"NDB","hdg_t":19.7,"dist_nm":116.3,"freq":387,"lat":28.58777800,"lon":81.63500000,"rng_nm":25,"alt_fmsl":0,"id":"SKT","desc":"SURKHET NDB"},
+{"type":"NDB","hdg_t":352.2,"dist_nm":120.3,"freq":253,"lat":28.75250000,"lon":80.58222200,"rng_nm":25,"alt_fmsl":653,"id":"DHI","desc":"DHANGADHI NDB"}
+]
+}

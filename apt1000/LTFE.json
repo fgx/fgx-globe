@@ -1,0 +1,55 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LTFE","name":"Milas Bodrum","lat":37.2511155,"lon":27.66535,"rwys":1,"ils":2,"index":3399634,"path":"e020n30/e027n37"
+,"runways":[
+{"len_m":2988,"wid_m":45.11,"hdg":106,"surf":"Concrete","rwy1":"11","lat1":37.25496700,"lon1":27.64921400,"rwy2":"29","lat2":37.24726400,"lon2":27.68148600}
+]
+,"radios":[
+{"type":"ATIS","freq":128.5,"desc":"ATIS"},
+{"type":"GND","freq":121.95,"desc":"GND"},
+{"type":"TWR","freq":124.2,"desc":"TWR"},
+{"type":"TWR","freq":120.5,"desc":"TWR"},
+{"type":"APP","freq":119.5,"desc":"MENDERES APP"},
+{"type":"APP","freq":128.7,"desc":"MENDERES APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":37.24651900,"lon":27.68473900,"rng_nm":18,"alt_fmsl":21,"hdg":106.64,"id":"IBDR","rwy":"11","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.1,"lat":37.25563100,"lon":27.64643100,"rng_nm":18,"alt_fmsl":21,"hdg":286.68,"id":"IGML","rwy":"29","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":37.25536900,"lon":27.65320600,"rng_nm":10,"alt_fmsl":21,"id":"IBDR","rwy":"11","desc":"GS","gs":3.3},
+{"type":"GS","freq":109.1,"lat":37.24935000,"lon":27.67851400,"rng_nm":10,"alt_fmsl":21,"id":"IGML","rwy":"29","desc":"GS","gs":3.9},
+{"type":"OM","freq":0,"lat":37.27677800,"lon":27.55388900,"rng_nm":0,"alt_fmsl":21,"id":"----","rwy":"11","desc":"OM"},
+{"type":"OM","freq":0,"lat":37.22888900,"lon":27.75888900,"rng_nm":0,"alt_fmsl":21,"id":"----","rwy":"29","desc":"OM"},
+{"type":"MM","freq":0,"lat":37.25766400,"lon":27.63787800,"rng_nm":0,"alt_fmsl":21,"id":"----","rwy":"11","desc":"MM"},
+{"type":"MM","freq":0,"lat":37.24451700,"lon":27.69308300,"rng_nm":0,"alt_fmsl":21,"id":"----","rwy":"29","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":53.9,"dist_nm":0.2,"freq":389,"lat":37.25333300,"lon":27.66916700,"rng_nm":25,"alt_fmsl":0,"id":"BDR","desc":"MILAS BODRUM NDB"},
+{"type":"VOR","hdg_t":53.9,"dist_nm":0.2,"freq":116.7,"lat":37.25333300,"lon":27.66916700,"rng_nm":50,"alt_fmsl":33,"id":"BDR","desc":"MILAS BODRUM VOR-DME"},
+{"type":"VOR","hdg_t":285.3,"dist_nm":5.6,"freq":113.9,"lat":37.27611100,"lon":27.55111100,"rng_nm":40,"alt_fmsl":164,"id":"GML","desc":"KIYIKISLACIK VOR-DME"},
+{"type":"NDB","hdg_t":225.4,"dist_nm":38.8,"freq":311,"lat":36.79527800,"lon":27.09111100,"rng_nm":25,"alt_fmsl":0,"id":"KOS","desc":"KOS NDB"},
+{"type":"VOR","hdg_t":225.1,"dist_nm":39,"freq":109,"lat":36.79055600,"lon":27.09111100,"rng_nm":25,"alt_fmsl":410,"id":"KOS","desc":"KOS VOR-DME"},
+{"type":"NDB","hdg_t":306.2,"dist_nm":44.2,"freq":375,"lat":37.68527800,"lon":26.91660600,"rng_nm":80,"alt_fmsl":0,"id":"SMO","desc":"SAMOS NDB"},
+{"type":"NDB","hdg_t":339.7,"dist_nm":44.6,"freq":424,"lat":37.94944400,"lon":27.33916700,"rng_nm":50,"alt_fmsl":10,"id":"SEL","desc":"EFES NDB"},
+{"type":"VOR","hdg_t":306,"dist_nm":44.6,"freq":111.6,"lat":37.68662500,"lon":26.90707800,"rng_nm":130,"alt_fmsl":30,"id":"SAM","desc":"SAMOS VOR-DME"},
+{"type":"NDB","hdg_t":156.2,"dist_nm":54.4,"freq":339,"lat":36.41833300,"lon":28.11805600,"rng_nm":25,"alt_fmsl":0,"id":"ROS","desc":"RODOS NDB"},
+{"type":"VOR","hdg_t":159.1,"dist_nm":54.5,"freq":108.6,"lat":36.40010500,"lon":28.06532600,"rng_nm":40,"alt_fmsl":19,"id":"PAR","desc":"PARADISI VOR-DME"},
+{"type":"VOR","hdg_t":159.6,"dist_nm":58.1,"freq":115.8,"lat":36.34111100,"lon":28.08250000,"rng_nm":130,"alt_fmsl":1553,"id":"RDS","desc":"RODOS VOR-DME"},
+{"type":"SDME","hdg_t":159.6,"dist_nm":58.1,"freq":117.4,"lat":36.34111100,"lon":28.08250000,"rng_nm":130,"alt_fmsl":17,"id":"ROD","desc":"RODOS TACAN"},
+{"type":"NDB","hdg_t":338,"dist_nm":61.3,"freq":405,"lat":38.20000000,"lon":27.18000000,"rng_nm":25,"alt_fmsl":0,"id":"ME","desc":"MENDERES NDB"},
+{"type":"SDME","hdg_t":120.5,"dist_nm":62.9,"freq":115.3,"lat":36.71283900,"lon":28.78894200,"rng_nm":25,"alt_fmsl":55,"id":"DAL","desc":"DALAMAN TACAN"},
+{"type":"NDB","hdg_t":121.7,"dist_nm":63.3,"freq":346,"lat":36.68955300,"lon":28.78192800,"rng_nm":25,"alt_fmsl":20,"id":"DAL","desc":"DALAMAN NDB"},
+{"type":"VOR","hdg_t":121.7,"dist_nm":63.3,"freq":114.7,"lat":36.68955300,"lon":28.78192800,"rng_nm":130,"alt_fmsl":33,"id":"DAL","desc":"DALAMAN VOR-DME"},
+{"type":"NDB","hdg_t":338.6,"dist_nm":65.4,"freq":315,"lat":38.26666700,"lon":27.16166700,"rng_nm":25,"alt_fmsl":0,"id":"EN","desc":"MENDERES NDB"},
+{"type":"VOR","hdg_t":339.1,"dist_nm":67,"freq":117.9,"lat":38.29611100,"lon":27.15916700,"rng_nm":40,"alt_fmsl":407,"id":"MEN","desc":"MENDERES VOR-DME"},
+{"type":"SDME","hdg_t":339.1,"dist_nm":67.2,"freq":115.1,"lat":38.29833300,"lon":27.15805600,"rng_nm":40,"alt_fmsl":412,"id":"MEN","desc":"MENDERES TACAN"},
+{"type":"NDB","hdg_t":292.7,"dist_nm":68.1,"freq":322,"lat":37.68289900,"lon":26.34555300,"rng_nm":25,"alt_fmsl":80,"id":"IKA","desc":"IKARIA NDB"},
+{"type":"NDB","hdg_t":244.3,"dist_nm":69,"freq":422,"lat":36.74538200,"lon":26.37528300,"rng_nm":25,"alt_fmsl":0,"id":"KHZ","desc":"ASTYPALAIA NDB"},
+{"type":"VOR","hdg_t":334,"dist_nm":71.1,"freq":113.7,"lat":38.31722200,"lon":27.00722200,"rng_nm":130,"alt_fmsl":3304,"id":"IMR","desc":"IZMIR VOR-DME"},
+{"type":"NDB","hdg_t":340.7,"dist_nm":73.8,"freq":330,"lat":38.41361100,"lon":27.14833300,"rng_nm":70,"alt_fmsl":0,"id":"KAD","desc":"KADIFEKALE NDB"},
+{"type":"SDME","hdg_t":337.5,"dist_nm":80.8,"freq":113.6,"lat":38.49494700,"lon":27.00905600,"rng_nm":25,"alt_fmsl":52,"id":"CIG","desc":"CIGLI TACAN"},
+{"type":"SDME","hdg_t":336.7,"dist_nm":82.5,"freq":116.8,"lat":38.51398900,"lon":26.97383600,"rng_nm":25,"alt_fmsl":22,"id":"KLC","desc":"KAKLIC TACAN"},
+{"type":"NDB","hdg_t":338.3,"dist_nm":82.6,"freq":363,"lat":38.53083300,"lon":27.01722200,"rng_nm":75,"alt_fmsl":17,"id":"CIG","desc":"CIGLI NDB"},
+{"type":"SDME","hdg_t":4.6,"dist_nm":94.3,"freq":110.2,"lat":38.81950600,"lon":27.82723300,"rng_nm":25,"alt_fmsl":285,"id":"AKI","desc":"AKHISAR TACAN"},
+{"type":"NDB","hdg_t":312.4,"dist_nm":97.4,"freq":299,"lat":38.33972200,"lon":26.14194400,"rng_nm":80,"alt_fmsl":18,"id":"HIO","desc":"CHIOS NDB"},
+{"type":"VOR","hdg_t":312.7,"dist_nm":97.8,"freq":110.8,"lat":38.34944400,"lon":26.14277800,"rng_nm":40,"alt_fmsl":18,"id":"HOS","desc":"CHIOS VOR-DME"}
+]
+}

@@ -1,0 +1,41 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"USSS","name":"Koltsovo","lat":56.74310775,"lon":60.802727,"rwys":2,"ils":3,"index":3941547,"path":"e060n50/e060n56"
+,"runways":[
+{"len_m":3015,"wid_m":53.04,"hdg":94,"surf":"Concrete","rwy1":"08R","lat1":56.74240600,"lon1":60.77906100,"rwy2":"26L","lat2":56.74046700,"lon2":60.82820800},
+{"len_m":2498,"wid_m":45.11,"hdg":90,"surf":"Asphalt","rwy1":"08L","lat1":56.74480800,"lon1":60.78140000,"rwy2":"26R","lat2":56.74475000,"lon2":60.82223900}
+]
+,"radios":[
+{"type":"ATIS","freq":127.8,"desc":"ATIS"},
+{"type":"GND","freq":119,"desc":"GND"},
+{"type":"TWR","freq":120,"desc":"TWR"},
+{"type":"APP","freq":125.9,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":56.74000000,"lon":60.84166700,"rng_nm":18,"alt_fmsl":764,"hdg":94.03,"id":"IEL","rwy":"08R","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.5,"lat":56.74166700,"lon":60.77333300,"rng_nm":18,"alt_fmsl":764,"hdg":272.26,"id":"IED","rwy":"26L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.5,"lat":56.74500000,"lon":60.77000000,"rng_nm":18,"alt_fmsl":764,"hdg":270.48,"id":"IKU","rwy":"26R","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":56.74000000,"lon":60.78500000,"rng_nm":10,"alt_fmsl":764,"id":"IEL","rwy":"08R","desc":"GS","gs":2.7},
+{"type":"GS","freq":109.5,"lat":56.73833300,"lon":60.82000000,"rng_nm":10,"alt_fmsl":764,"id":"IED","rwy":"26L","desc":"GS","gs":2.8},
+{"type":"GS","freq":110.5,"lat":56.74333300,"lon":60.81833300,"rng_nm":10,"alt_fmsl":764,"id":"IKU","rwy":"26R","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":56.74500000,"lon":60.71833300,"rng_nm":0,"alt_fmsl":764,"id":"----","rwy":"08R","desc":"OM"},
+{"type":"OM","freq":0,"lat":56.73666700,"lon":60.91000000,"rng_nm":0,"alt_fmsl":764,"id":"----","rwy":"26L","desc":"OM"},
+{"type":"OM","freq":0,"lat":56.74500000,"lon":60.89166700,"rng_nm":0,"alt_fmsl":764,"id":"----","rwy":"26R","desc":"OM"},
+{"type":"MM","freq":0,"lat":56.74333300,"lon":60.76666700,"rng_nm":0,"alt_fmsl":764,"id":"----","rwy":"08R","desc":"MM"},
+{"type":"MM","freq":0,"lat":56.74000000,"lon":60.84333300,"rng_nm":0,"alt_fmsl":764,"id":"----","rwy":"26L","desc":"MM"},
+{"type":"MM","freq":0,"lat":56.74500000,"lon":60.84000000,"rng_nm":0,"alt_fmsl":764,"id":"----","rwy":"26R","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":272.3,"dist_nm":2.7,"freq":786,"lat":56.74500000,"lon":60.71833300,"rng_nm":80,"alt_fmsl":0,"id":"EL","desc":"YEKATERINBURG NDB"},
+{"type":"NDB","hdg_t":272.4,"dist_nm":2.7,"freq":370,"lat":56.74500000,"lon":60.72000000,"rng_nm":80,"alt_fmsl":0,"id":"KQ","desc":"YEKATERINBURG NDB"},
+{"type":"NDB","hdg_t":87.7,"dist_nm":2.9,"freq":370,"lat":56.74500000,"lon":60.89166700,"rng_nm":80,"alt_fmsl":0,"id":"KU","desc":"YEKATERINBURG NDB"},
+{"type":"NDB","hdg_t":96.1,"dist_nm":3.5,"freq":786,"lat":56.73666700,"lon":60.91000000,"rng_nm":80,"alt_fmsl":0,"id":"ED","desc":"YEKATERINBURG NDB"},
+{"type":"NDB","hdg_t":45.3,"dist_nm":50.9,"freq":187,"lat":57.33333300,"lon":61.91666700,"rng_nm":80,"alt_fmsl":0,"id":"AR","desc":"ARTEMOVSKY NDB"},
+{"type":"NDB","hdg_t":277.1,"dist_nm":57.6,"freq":435,"lat":56.85000000,"lon":59.06666700,"rng_nm":80,"alt_fmsl":0,"id":"BI","desc":"BISERT NDB"},
+{"type":"NDB","hdg_t":253,"dist_nm":58.1,"freq":825,"lat":56.45000000,"lon":59.13333300,"rng_nm":80,"alt_fmsl":0,"id":"MH","desc":"MIKHAYLOVSK NDB"},
+{"type":"NDB","hdg_t":224.8,"dist_nm":58.2,"freq":350,"lat":56.05000000,"lon":59.58333300,"rng_nm":80,"alt_fmsl":0,"id":"NZ","desc":"NYAZEPETROVSK NDB"},
+{"type":"NDB","hdg_t":148,"dist_nm":59.4,"freq":579,"lat":55.90000000,"lon":61.73333300,"rng_nm":80,"alt_fmsl":0,"id":"TH","desc":"TAKHTALYM NDB"},
+{"type":"NDB","hdg_t":166,"dist_nm":88.2,"freq":452,"lat":55.31666700,"lon":61.42166700,"rng_nm":80,"alt_fmsl":0,"id":"LB","desc":"CHELYABINSK NDB"},
+{"type":"VOR","hdg_t":164,"dist_nm":89.6,"freq":113.3,"lat":55.30666700,"lon":61.52000000,"rng_nm":130,"alt_fmsl":771,"id":"LBN","desc":"CHELYABINSK VOR-DME"},
+{"type":"NDB","hdg_t":162.7,"dist_nm":91,"freq":412,"lat":55.29333300,"lon":61.58833300,"rng_nm":80,"alt_fmsl":0,"id":"KS","desc":"CHELYABINSK NDB"}
+]
+}

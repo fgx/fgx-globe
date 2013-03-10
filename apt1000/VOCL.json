@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VOCL","name":"Calicut","lat":11.1368405,"lon":75.9553,"rwys":1,"ils":1,"index":4184399,"path":"e070n10/e075n11"
+,"runways":[
+{"len_m":2862,"wid_m":45.72,"hdg":100,"surf":"Asphalt","rwy1":"10","lat1":11.13930600,"lon1":75.94243900,"rwy2":"28","lat2":11.13437500,"lon2":75.96816100}
+]
+,"radios":[
+{"type":"ATIS","freq":127,"desc":"ATIS"},
+{"type":"TWR","freq":122.95,"desc":"TWR"},
+{"type":"TWR","freq":123.35,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":11.13694400,"lon":75.94222200,"rng_nm":18,"alt_fmsl":311,"hdg":275.76,"id":"ICAC","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":11.13388900,"lon":75.96694400,"rng_nm":10,"alt_fmsl":320,"id":"ICAC","rwy":"28","desc":"GS","gs":3.2},
+{"type":"DME","freq":109.5,"lat":11.13388900,"lon":75.96694400,"rng_nm":18,"alt_fmsl":342,"id":"ICAC","rwy":"28","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":194.7,"dist_nm":0.1,"freq":116.5,"lat":11.13514700,"lon":75.95484700,"rng_nm":130,"alt_fmsl":331,"id":"CLC","desc":"CALICUT VOR-DME"},
+{"type":"NDB","hdg_t":308.1,"dist_nm":0.5,"freq":303,"lat":11.14269200,"lon":75.94776400,"rng_nm":75,"alt_fmsl":0,"id":"CL","desc":"CALICUT NDB"},
+{"type":"VOR","hdg_t":157.2,"dist_nm":63.8,"freq":113.5,"lat":10.15050000,"lon":76.37258300,"rng_nm":130,"alt_fmsl":49,"id":"CIA","desc":"COCHIN INTL VOR-DME"},
+{"type":"NDB","hdg_t":95.8,"dist_nm":64.7,"freq":354,"lat":11.02377800,"lon":77.04722200,"rng_nm":75,"alt_fmsl":0,"id":"CB","desc":"COIMBATORE NDB"},
+{"type":"VOR","hdg_t":95.3,"dist_nm":64.7,"freq":112.9,"lat":11.03377800,"lon":77.04805600,"rng_nm":130,"alt_fmsl":1319,"id":"CCB","desc":"COIMBATORE VOR-DME"},
+{"type":"NDB","hdg_t":152,"dist_nm":66.7,"freq":217,"lat":10.14944400,"lon":76.48416700,"rng_nm":25,"alt_fmsl":0,"id":"CI","desc":"COCHIN INTL NDB"},
+{"type":"NDB","hdg_t":163.6,"dist_nm":68.1,"freq":268,"lat":10.04078600,"lon":76.27897800,"rng_nm":25,"alt_fmsl":0,"id":"CA","desc":"COCHIN INTL NDB"},
+{"type":"NDB","hdg_t":164.5,"dist_nm":72.6,"freq":325,"lat":9.96384700,"lon":76.28203300,"rng_nm":50,"alt_fmsl":0,"id":"CC","desc":"COCHIN NDB"},
+{"type":"VOR","hdg_t":165.2,"dist_nm":73.6,"freq":114.6,"lat":9.94468300,"lon":76.27286700,"rng_nm":130,"alt_fmsl":8,"id":"CCN","desc":"COCHIN VOR-DME"},
+{"type":"VOR","hdg_t":144.8,"dist_nm":74.5,"freq":117.3,"lat":10.11527800,"lon":76.68166700,"rng_nm":130,"alt_fmsl":28,"id":"CIB","desc":"COCHIN INTL VOR-DME"}
+]
+}

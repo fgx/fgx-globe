@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KGCN","name":"Grand Canyon National Park","lat":35.95236908,"lon":-112.14691944,"rwys":1,"ils":1,"index":1105787,"path":"w120n30/w113n35"
+,"runways":[
+{"len_m":2744,"wid_m":46.02,"hdg":40,"surf":"Asphalt","rwy1":"03","lat1":35.94299254,"lon1":-112.15683335,"rwy2":"21","lat2":35.96174562,"lon2":-112.13700553}
+]
+,"radios":[
+{"type":"ATIS","freq":124.3,"desc":"ASOS"},
+{"type":"CTAF","freq":119,"desc":"CTAF"},
+{"type":"CTAF","freq":122.95,"desc":"UNICOM"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":119,"desc":"CANYON TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":108.9,"lat":35.96380800,"lon":-112.13486400,"rng_nm":18,"alt_fmsl":6609,"hdg":40.52,"id":"IGCN","rwy":"03","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.9,"lat":35.94568600,"lon":-112.15547800,"rng_nm":10,"alt_fmsl":6535,"id":"IGCN","rwy":"03","desc":"GS","gs":3},
+{"type":"DME","freq":108.9,"lat":35.96425300,"lon":-112.13550600,"rng_nm":18,"alt_fmsl":6609,"id":"IGCN","rwy":"03","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":5,"dist_nm":0.4,"freq":113.1,"lat":35.96033333,"lon":-112.14605556,"rng_nm":40,"alt_fmsl":6670,"id":"GCN","desc":"GRAND CANYON VOR-DME"},
+{"type":"VOR","hdg_t":76.4,"dist_nm":43.8,"freq":113.5,"lat":36.12133333,"lon":-111.26958333,"rng_nm":130,"alt_fmsl":5045,"id":"TBC","desc":"TUBA CITY VORTAC"},
+{"type":"VOR","hdg_t":154.2,"dist_nm":53.5,"freq":113.85,"lat":35.14719444,"lon":-111.67416667,"rng_nm":130,"alt_fmsl":7026,"id":"FLG","desc":"FLAGSTAFF VOR-DME"},
+{"type":"NDB","hdg_t":154.2,"dist_nm":53.8,"freq":379,"lat":35.14187400,"lon":-111.67071600,"rng_nm":25,"alt_fmsl":6994,"id":"PUU","desc":"PULLIAM NDB"},
+{"type":"VOR","hdg_t":29.7,"dist_nm":67.7,"freq":117.6,"lat":36.93105556,"lon":-111.44744444,"rng_nm":40,"alt_fmsl":4277,"id":"PGA","desc":"PAGE VOR-DME"},
+{"type":"VOR","hdg_t":254.3,"dist_nm":70.9,"freq":112,"lat":35.62472222,"lon":-113.54447222,"rng_nm":130,"alt_fmsl":4760,"id":"PGS","desc":"PEACH SPRINGS VORTAC"},
+{"type":"NDB","hdg_t":325.6,"dist_nm":73.3,"freq":403,"lat":36.96005556,"lon":-113.00916667,"rng_nm":50,"alt_fmsl":0,"id":"AZC","desc":"COLORADO CITY NDB"},
+{"type":"VOR","hdg_t":192.4,"dist_nm":76.6,"freq":114.1,"lat":34.70255556,"lon":-112.48036111,"rng_nm":130,"alt_fmsl":4963,"id":"DRK","desc":"DRAKE VORTAC"},
+{"type":"VOR","hdg_t":128.4,"dist_nm":85,"freq":112.6,"lat":35.06161111,"lon":-110.79502778,"rng_nm":130,"alt_fmsl":4910,"id":"INW","desc":"WINSLOW VORTAC"},
+{"type":"VOR","hdg_t":314.3,"dist_nm":92,"freq":108.6,"lat":37.01761111,"lon":-113.51788889,"rng_nm":40,"alt_fmsl":2848,"id":"UTI","desc":"ST GEORGE VOR-DME"},
+{"type":"VOR","hdg_t":245.1,"dist_nm":96.7,"freq":108.8,"lat":35.26052778,"lon":-113.93408333,"rng_nm":40,"alt_fmsl":3410,"id":"IGM","desc":"KINGMAN VOR-DME"}
+]
+}

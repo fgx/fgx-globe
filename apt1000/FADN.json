@@ -1,0 +1,37 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"FADN","name":"Durban Intl","lat":-29.970087,"lon":30.95052,"rwys":1,"ils":2,"index":3444483,"path":"e030s30/e030s30"
+,"runways":[
+{"len_m":2438,"wid_m":60.05,"hdg":36,"surf":"Asphalt","rwy1":"06","lat1":-29.97893287,"lon1":30.94301634,"rwy2":"24","lat2":-29.96124113,"lon2":30.95802366}
+]
+,"radios":[
+{"type":"ATIS","freq":127,"desc":"ATIS"},
+{"type":"TWR","freq":118.7,"desc":"TWR"},
+{"type":"APP","freq":119.9,"desc":"APP"},
+{"type":"APP","freq":119.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.7,"lat":-29.96035000,"lon":30.95879000,"rng_nm":18,"alt_fmsl":33,"hdg":36.32,"id":"DAI","rwy":"06","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":-29.98056000,"lon":30.94165000,"rng_nm":18,"alt_fmsl":33,"hdg":216.29,"id":"DNI","rwy":"24","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.7,"lat":-29.97623633,"lon":30.94412504,"rng_nm":10,"alt_fmsl":33,"id":"DAI","rwy":"06","desc":"GS","gs":3},
+{"type":"GS","freq":110.3,"lat":-29.96402200,"lon":30.95639400,"rng_nm":10,"alt_fmsl":33,"id":"DNI","rwy":"24","desc":"GS","gs":3},
+{"type":"DME","freq":111.7,"lat":-29.97713900,"lon":30.94561100,"rng_nm":18,"alt_fmsl":18,"id":"DA","rwy":"06","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":164.2,"dist_nm":0.1,"freq":112.5,"lat":-29.97215600,"lon":30.95119200,"rng_nm":100,"alt_fmsl":21,"id":"DNV","desc":"DURBAN VORTAC"},
+{"type":"NDB","hdg_t":215,"dist_nm":4,"freq":393,"lat":-30.02557200,"lon":30.90585000,"rng_nm":50,"alt_fmsl":0,"id":"DU","desc":"DURBAN NDB"},
+{"type":"NDB","hdg_t":36.2,"dist_nm":4.3,"freq":210,"lat":-29.91083900,"lon":31.00029900,"rng_nm":200,"alt_fmsl":0,"id":"DN","desc":"Durban NDB"},
+{"type":"NDB","hdg_t":301,"dist_nm":30.5,"freq":257,"lat":-29.70563300,"lon":30.44946100,"rng_nm":50,"alt_fmsl":0,"id":"PZ","desc":"PIETERMARITZBURG NDB"},
+{"type":"NDB","hdg_t":303,"dist_nm":33.7,"freq":407,"lat":-29.66127800,"lon":30.40976700,"rng_nm":50,"alt_fmsl":2425,"id":"PU","desc":"PIETERMARITZBURG NDB"},
+{"type":"VOR","hdg_t":303.7,"dist_nm":34.5,"freq":117.9,"lat":-29.64781400,"lon":30.40035600,"rng_nm":100,"alt_fmsl":2425,"id":"PMV","desc":"PIETERMARITZBURG VOR-DME"},
+{"type":"NDB","hdg_t":313,"dist_nm":35.9,"freq":442,"lat":-29.55961100,"lon":30.44872800,"rng_nm":50,"alt_fmsl":0,"id":"ORI","desc":"PIETERMARITZBURG NDB"},
+{"type":"NDB","hdg_t":306.4,"dist_nm":36.1,"freq":280,"lat":-29.61021700,"lon":30.39500300,"rng_nm":50,"alt_fmsl":0,"id":"OBI","desc":"PIETERMARITZBURG NDB"},
+{"type":"NDB","hdg_t":338.7,"dist_nm":53.9,"freq":282,"lat":-29.12965800,"lon":30.57830800,"rng_nm":50,"alt_fmsl":0,"id":"GT","desc":"GREYTOWN NDB"},
+{"type":"VOR","hdg_t":339.2,"dist_nm":54.1,"freq":113.5,"lat":-29.12354400,"lon":30.58617200,"rng_nm":100,"alt_fmsl":3531,"id":"GYV","desc":"GREYTOWN VOR"},
+{"type":"NDB","hdg_t":340.5,"dist_nm":54.8,"freq":252,"lat":-29.10538900,"lon":30.60343300,"rng_nm":50,"alt_fmsl":0,"id":"GWN","desc":"GREYTOWN NDB"},
+{"type":"NDB","hdg_t":210.9,"dist_nm":58.3,"freq":485,"lat":-30.80416700,"lon":30.36944400,"rng_nm":100,"alt_fmsl":0,"id":"UR","desc":"MARGATE NDB"},
+{"type":"NDB","hdg_t":39.4,"dist_nm":93.4,"freq":337,"lat":-28.76017200,"lon":32.07730800,"rng_nm":50,"alt_fmsl":30,"id":"RB","desc":"RICHARDS BAY NDB"},
+{"type":"VOR","hdg_t":39.4,"dist_nm":94.8,"freq":113,"lat":-28.74068300,"lon":32.09354200,"rng_nm":50,"alt_fmsl":93,"id":"RBV","desc":"RICHARDS BAY VOR-DME"},
+{"type":"NDB","hdg_t":39.2,"dist_nm":98.9,"freq":465,"lat":-28.68477800,"lon":32.13590800,"rng_nm":50,"alt_fmsl":146,"id":"RI","desc":"RICHARDS BAY NDB"},
+{"type":"NDB","hdg_t":13.6,"dist_nm":99.7,"freq":422,"lat":-28.34886100,"lon":31.39447200,"rng_nm":50,"alt_fmsl":0,"id":"UL","desc":"ULUNDI NDB"}
+]
+}

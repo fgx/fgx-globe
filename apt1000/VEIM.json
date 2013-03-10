@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VEIM","name":"Imphal","lat":24.7599515,"lon":93.896699,"rwys":1,"ils":1,"index":4480179,"path":"e090n20/e093n24"
+,"runways":[
+{"len_m":2743,"wid_m":45.11,"hdg":34,"surf":"Asphalt","rwy1":"04","lat1":24.74976400,"lon1":93.88899200,"rwy2":"22","lat2":24.77013900,"lon2":93.90440600}
+]
+,"radios":[
+{"type":"TWR","freq":123.5,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":24.77233300,"lon":93.90686100,"rng_nm":18,"alt_fmsl":2540,"hdg":35.72,"id":"IPH","rwy":"04","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":24.75102800,"lon":93.89208300,"rng_nm":10,"alt_fmsl":2540,"id":"IPH","rwy":"04","desc":"GS","gs":3.5},
+{"type":"MM","freq":0,"lat":24.73955600,"lon":93.88188900,"rng_nm":0,"alt_fmsl":2540,"id":"----","rwy":"04","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":24.75102800,"lon":93.89208300,"rng_nm":18,"alt_fmsl":2540,"id":"IPH","rwy":"04","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":255.5,"dist_nm":0.4,"freq":289,"lat":24.75816400,"lon":93.88909700,"rng_nm":50,"alt_fmsl":0,"id":"IM","desc":"IMPHAL NDB"},
+{"type":"VOR","hdg_t":42.4,"dist_nm":0.6,"freq":115.9,"lat":24.76760800,"lon":93.90437200,"rng_nm":25,"alt_fmsl":2536,"id":"IIM","desc":"IMPHAL VOR-DME"},
+{"type":"NDB","hdg_t":281,"dist_nm":50.5,"freq":351,"lat":24.91979700,"lon":92.98753600,"rng_nm":50,"alt_fmsl":0,"id":"KU","desc":"SILCHAR NDB"},
+{"type":"VOR","hdg_t":280.5,"dist_nm":51,"freq":115.7,"lat":24.91368600,"lon":92.97753900,"rng_nm":130,"alt_fmsl":353,"id":"KKU","desc":"SILCHAR VOR-DME"},
+{"type":"NDB","hdg_t":81.5,"dist_nm":56,"freq":255,"lat":24.89472200,"lon":94.91333300,"rng_nm":50,"alt_fmsl":0,"id":"HL","desc":"HOMMALINN NDB"},
+{"type":"VOR","hdg_t":354.6,"dist_nm":67.3,"freq":114.5,"lat":25.88084700,"lon":93.78157800,"rng_nm":130,"alt_fmsl":472,"id":"DMR","desc":"DIMAPUR VOR-DME"},
+{"type":"NDB","hdg_t":354,"dist_nm":67.5,"freq":422,"lat":25.88390300,"lon":93.76768900,"rng_nm":50,"alt_fmsl":0,"id":"MR","desc":"DIMAPUR NDB"},
+{"type":"NDB","hdg_t":224.8,"dist_nm":85.4,"freq":366,"lat":23.74294700,"lon":92.80286700,"rng_nm":50,"alt_fmsl":0,"id":"AZ","desc":"AIZAWL NDB"},
+{"type":"NDB","hdg_t":231.8,"dist_nm":89,"freq":344,"lat":23.83487800,"lon":92.62260800,"rng_nm":50,"alt_fmsl":0,"id":"LP","desc":"LENGPUI NDB"},
+{"type":"VOR","hdg_t":231.6,"dist_nm":89.1,"freq":114.2,"lat":23.82972200,"lon":92.62594400,"rng_nm":130,"alt_fmsl":1372,"id":"LLP","desc":"LENGPUI VOR-DME"},
+{"type":"NDB","hdg_t":174.6,"dist_nm":94.4,"freq":225,"lat":23.18747200,"lon":94.05494400,"rng_nm":40,"alt_fmsl":0,"id":"KL","desc":"KALAY NDB"}
+]
+}

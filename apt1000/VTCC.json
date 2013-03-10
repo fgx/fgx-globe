@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VTCC","name":"Chiang Mai Intl","lat":18.7668455,"lon":98.962643,"rwys":1,"ils":1,"index":4561719,"path":"e090n10/e098n18"
+,"runways":[
+{"len_m":3105,"wid_m":45.11,"hdg":180,"surf":"Asphalt","rwy1":"18","lat1":18.78087200,"lon1":98.96270000,"rwy2":"36","lat2":18.75281900,"lon2":98.96258600}
+]
+,"radios":[
+{"type":"ATIS","freq":127.2,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":129.6,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":18.78574700,"lon":98.96227500,"rng_nm":18,"alt_fmsl":1035,"hdg":359.49,"id":"ICMA","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":18.75600800,"lon":98.96170600,"rng_nm":10,"alt_fmsl":1005,"id":"ICMA","rwy":"36","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":18.78574700,"lon":98.96227500,"rng_nm":18,"alt_fmsl":1035,"id":"ICMA","rwy":"36","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":241,"dist_nm":0,"freq":116.9,"lat":18.76611900,"lon":98.96126400,"rng_nm":50,"alt_fmsl":1043,"id":"CMA","desc":"CHIANG MAI VOR-DME"},
+{"type":"SDME","hdg_t":42.2,"dist_nm":0.3,"freq":116.2,"lat":18.77123600,"lon":98.96683200,"rng_nm":50,"alt_fmsl":1035,"id":"CHM","desc":"CHIANG MAI TACAN"},
+{"type":"NDB","hdg_t":148.2,"dist_nm":0.4,"freq":255,"lat":18.75981100,"lon":98.96721100,"rng_nm":50,"alt_fmsl":1035,"id":"CGM","desc":"CHIANG MAI NDB"},
+{"type":"VOR","hdg_t":133.4,"dist_nm":42.4,"freq":114.7,"lat":18.27687500,"lon":99.50240000,"rng_nm":50,"alt_fmsl":809,"id":"LPN","desc":"LAMPANG VOR-DME"},
+{"type":"NDB","hdg_t":133.1,"dist_nm":42.6,"freq":395,"lat":18.27802200,"lon":99.50746700,"rng_nm":50,"alt_fmsl":809,"id":"LP","desc":"LAMPANG NDB"},
+{"type":"NDB","hdg_t":299.6,"dist_nm":64.5,"freq":384,"lat":19.29884400,"lon":97.97516400,"rng_nm":50,"alt_fmsl":929,"id":"MH","desc":"MAE HONG SON NDB"},
+{"type":"VOR","hdg_t":299.1,"dist_nm":68.2,"freq":115.5,"lat":19.31964700,"lon":97.91208300,"rng_nm":50,"alt_fmsl":929,"id":"MHS","desc":"MAE HONG SON VOR-DME"},
+{"type":"NDB","hdg_t":118.9,"dist_nm":78.2,"freq":340,"lat":18.12948300,"lon":100.16136400,"rng_nm":50,"alt_fmsl":0,"id":"PR","desc":"PHRAE NDB"},
+{"type":"VOR","hdg_t":118.6,"dist_nm":78.3,"freq":111.8,"lat":18.13410600,"lon":100.16620800,"rng_nm":130,"alt_fmsl":538,"id":"PAE","desc":"PHRAE VOR-DME"},
+{"type":"VOR","hdg_t":36.3,"dist_nm":87.8,"freq":116.5,"lat":19.94823600,"lon":99.88336700,"rng_nm":40,"alt_fmsl":1295,"id":"CTR","desc":"CHIANG RAI VOR-DME"},
+{"type":"NDB","hdg_t":36,"dist_nm":88.3,"freq":277,"lat":19.95974200,"lon":99.88308100,"rng_nm":50,"alt_fmsl":0,"id":"CT","desc":"CHIANG RAI NDB"},
+{"type":"NDB","hdg_t":244.4,"dist_nm":96,"freq":280,"lat":18.06791700,"lon":97.44633300,"rng_nm":40,"alt_fmsl":0,"id":"PP","desc":"HPAPUN NDB"}
+]
+}

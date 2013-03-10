@@ -1,0 +1,60 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SKBO","name":"Bogota - El Dorado Intl","lat":4.7015945,"lon":-74.1469465,"rwys":2,"ils":2,"index":1726382,"path":"w080n00/w075n04"
+,"runways":[
+{"len_m":3798,"wid_m":45.11,"hdg":127,"surf":"Asphalt","rwy1":"13L","lat1":4.71338600,"lon1":-74.15206100,"rwy2":"31R","lat2":4.69270000,"lon2":-74.12472800},
+{"len_m":3802,"wid_m":45.11,"hdg":127,"surf":"Asphalt","rwy1":"13R","lat1":4.71050300,"lon1":-74.16917500,"rwy2":"31L","lat2":4.68978900,"lon2":-74.14182200}
+]
+,"radios":[
+{"type":"TWR","freq":126.9,"desc":"BOGOTA FIS"},
+{"type":"APP","freq":119.5,"desc":"BOGOTA APP"},
+{"type":"APP","freq":119.65,"desc":"BOGOTA APP"},
+{"type":"APP","freq":121.3,"desc":"BOGOTA APP"},
+{"type":"APP","freq":119.05,"desc":"BOGOTA APP"},
+{"type":"DEP","freq":119.5,"desc":"BOGOTA DEP"},
+{"type":"DEP","freq":119.65,"desc":"BOGOTA DEP"},
+{"type":"DEP","freq":121.3,"desc":"BOGOTA DEP"},
+{"type":"DEP","freq":119.05,"desc":"BOGOTA DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.3,"lat":4.69115300,"lon":-74.12268100,"rng_nm":18,"alt_fmsl":8355,"hdg":127.21,"id":"IEDR","rwy":"13L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.7,"lat":4.68770300,"lon":-74.13906900,"rng_nm":18,"alt_fmsl":8355,"hdg":127.23,"id":"IADO","rwy":"13R","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.3,"lat":4.71249400,"lon":-74.14918100,"rng_nm":10,"alt_fmsl":8357,"id":"IEDR","rwy":"13L","desc":"GS","gs":3},
+{"type":"GS","freq":110.7,"lat":4.70810600,"lon":-74.16760600,"rng_nm":10,"alt_fmsl":8361,"id":"IADO","rwy":"13R","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":4.76507800,"lon":-74.22048100,"rng_nm":0,"alt_fmsl":8355,"id":"----","rwy":"13L","desc":"OM"},
+{"type":"MM","freq":0,"lat":4.71913300,"lon":-74.15965800,"rng_nm":0,"alt_fmsl":8355,"id":"----","rwy":"13L","desc":"MM"},
+{"type":"MM","freq":0,"lat":4.71621400,"lon":-74.17671900,"rng_nm":0,"alt_fmsl":8355,"id":"----","rwy":"13R","desc":"MM"},
+{"type":"IM","freq":0,"lat":4.71271400,"lon":-74.17201700,"rng_nm":0,"alt_fmsl":8355,"id":"----","rwy":"13R","desc":"IM"},
+{"type":"DME","freq":111.3,"lat":4.71249400,"lon":-74.14918100,"rng_nm":18,"alt_fmsl":8361,"id":"IEDR","rwy":"13L","desc":"DME-ILS"},
+{"type":"DME","freq":110.7,"lat":4.70810600,"lon":-74.16760600,"rng_nm":18,"alt_fmsl":8361,"id":"IADO","rwy":"13R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":323.9,"dist_nm":1.2,"freq":264,"lat":4.71913300,"lon":-74.15965800,"rng_nm":25,"alt_fmsl":8355,"id":"DR","desc":"DELTA ROMEO NDB"},
+{"type":"NDB","hdg_t":119.7,"dist_nm":3,"freq":274,"lat":4.67611100,"lon":-74.10250000,"rng_nm":25,"alt_fmsl":8445,"id":"R","desc":"ROMEO NDB"},
+{"type":"NDB","hdg_t":180.8,"dist_nm":4.3,"freq":284,"lat":4.62888889,"lon":-74.14805556,"rng_nm":50,"alt_fmsl":0,"id":"TEH","desc":"TECHO NDB"},
+{"type":"NDB","hdg_t":310.7,"dist_nm":5.8,"freq":244,"lat":4.76507800,"lon":-74.22048100,"rng_nm":25,"alt_fmsl":8552,"id":"ED","desc":"ECHO DELTA NDB"},
+{"type":"VOR","hdg_t":232,"dist_nm":9.5,"freq":108.6,"lat":4.60305600,"lon":-74.27305600,"rng_nm":150,"alt_fmsl":8069,"id":"SOA","desc":"SOACHA VOR-DME"},
+{"type":"NDB","hdg_t":309.3,"dist_nm":13.6,"freq":340,"lat":4.84611100,"lon":-74.32277800,"rng_nm":200,"alt_fmsl":9770,"id":"BOG","desc":"BOGOTA NDB"},
+{"type":"VOR","hdg_t":309.3,"dist_nm":13.6,"freq":113.9,"lat":4.84663889,"lon":-74.32355556,"rng_nm":130,"alt_fmsl":9906,"id":"BOG","desc":"BOGOTA VOR-DME"},
+{"type":"NDB","hdg_t":27.3,"dist_nm":21.1,"freq":294,"lat":5.01630556,"lon":-73.98494444,"rng_nm":50,"alt_fmsl":0,"id":"ZIP","desc":"ZIPAQUIRA NDB"},
+{"type":"VOR","hdg_t":26.9,"dist_nm":21.1,"freq":114.7,"lat":5.01805600,"lon":-73.98666700,"rng_nm":100,"alt_fmsl":8250,"id":"ZIP","desc":"ZIPAQUIRA VOR-DME"},
+{"type":"NDB","hdg_t":330.3,"dist_nm":31.8,"freq":331,"lat":5.16500000,"lon":-74.41000000,"rng_nm":25,"alt_fmsl":0,"id":"UTI","desc":"Utica NDB"},
+{"type":"NDB","hdg_t":277.5,"dist_nm":37.4,"freq":300,"lat":4.78388889,"lon":-74.76750000,"rng_nm":50,"alt_fmsl":0,"id":"ABL","desc":"AMBALEMA NDB"},
+{"type":"VOR","hdg_t":277.5,"dist_nm":37.4,"freq":112.7,"lat":4.78388889,"lon":-74.76750000,"rng_nm":130,"alt_fmsl":0,"id":"ABL","desc":"Ambalema VOR-DME"},
+{"type":"NDB","hdg_t":135.8,"dist_nm":52.1,"freq":250,"lat":4.07464400,"lon":-73.54195600,"rng_nm":50,"alt_fmsl":0,"id":"PY","desc":"APIAY NDB"},
+{"type":"VOR","hdg_t":19.1,"dist_nm":52.5,"freq":116.2,"lat":5.53222222,"lon":-73.85861111,"rng_nm":130,"alt_fmsl":9845,"id":"BUV","desc":"BUVIS VOR-DME"},
+{"type":"VOR","hdg_t":234.7,"dist_nm":52.7,"freq":117.3,"lat":4.19166667,"lon":-74.86583333,"rng_nm":130,"alt_fmsl":1063,"id":"GIR","desc":"GIRARDOT VOR-DME"},
+{"type":"NDB","hdg_t":132.8,"dist_nm":54.9,"freq":270,"lat":4.07500000,"lon":-73.47500000,"rng_nm":50,"alt_fmsl":0,"id":"AP","desc":"APIAY NDB"},
+{"type":"VOR","hdg_t":303,"dist_nm":55.4,"freq":116.1,"lat":5.20722222,"lon":-74.92416667,"rng_nm":130,"alt_fmsl":2780,"id":"MQU","desc":"MARIQUITA VOR-DME"},
+{"type":"NDB","hdg_t":129.5,"dist_nm":59.3,"freq":370,"lat":4.06833300,"lon":-73.38305600,"rng_nm":200,"alt_fmsl":950,"id":"VVC","desc":"VILLAVICENCIO NDB"},
+{"type":"VOR","hdg_t":129.5,"dist_nm":59.4,"freq":116.7,"lat":4.06694444,"lon":-73.38222222,"rng_nm":130,"alt_fmsl":1000,"id":"VVC","desc":"VILLAVICENCIO VOR-DME"},
+{"type":"NDB","hdg_t":252.5,"dist_nm":60.2,"freq":312,"lat":4.39750000,"lon":-75.10583333,"rng_nm":50,"alt_fmsl":0,"id":"IBG","desc":"IBAGUE NDB"},
+{"type":"VOR","hdg_t":252.4,"dist_nm":60.3,"freq":112,"lat":4.39646900,"lon":-75.10734700,"rng_nm":100,"alt_fmsl":2808,"id":"IBG","desc":"IBAGUE VOR-DME"},
+{"type":"NDB","hdg_t":72.4,"dist_nm":62.6,"freq":294,"lat":5.01666667,"lon":-73.14833333,"rng_nm":25,"alt_fmsl":0,"id":"ZIP","desc":"Zipaquira NDB"},
+{"type":"NDB","hdg_t":96,"dist_nm":70.4,"freq":315,"lat":4.57638889,"lon":-72.97722222,"rng_nm":50,"alt_fmsl":0,"id":"UPI","desc":"BARRANCA DE UPIA NDB"},
+{"type":"NDB","hdg_t":284.3,"dist_nm":85.4,"freq":337,"lat":5.05527800,"lon":-75.52861100,"rng_nm":200,"alt_fmsl":6920,"id":"LNA","desc":"MANIZALES NDB"},
+{"type":"NDB","hdg_t":260.8,"dist_nm":85.5,"freq":225,"lat":4.47277778,"lon":-75.55666667,"rng_nm":50,"alt_fmsl":0,"id":"EPO","desc":"EL PASO NDB"},
+{"type":"NDB","hdg_t":50.4,"dist_nm":91.5,"freq":355,"lat":5.67694444,"lon":-72.96777778,"rng_nm":50,"alt_fmsl":0,"id":"SOG","desc":"SOGAMOSO NDB"},
+{"type":"NDB","hdg_t":273.5,"dist_nm":97.8,"freq":244,"lat":4.80044400,"lon":-75.77673100,"rng_nm":100,"alt_fmsl":4416,"id":"MAT","desc":"MATECANA NDB"},
+{"type":"VOR","hdg_t":261.3,"dist_nm":98.5,"freq":111.6,"lat":4.45135300,"lon":-75.77288900,"rng_nm":25,"alt_fmsl":3990,"id":"AXM","desc":"Armenia VOR-DME"}
+]
+}

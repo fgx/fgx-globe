@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MGGT","name":"La Aurora","lat":14.583272,"lon":-90.5274735,"rwys":1,"ils":1,"index":1464867,"path":"w100n10/w091n14"
+,"runways":[
+{"len_m":2985,"wid_m":59.74,"hdg":17,"surf":"Asphalt","rwy1":"01","lat1":14.57039700,"lon1":-90.53161400,"rwy2":"19","lat2":14.59614700,"lon2":-90.52333300}
+]
+,"radios":[
+{"type":"ATIS","freq":126.5,"desc":"ATIS"},
+{"type":"CLD","freq":120.7,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":126.9,"desc":"GUATEMALA RDO"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.3,"desc":"CON"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":14.59615600,"lon":-90.52329400,"rng_nm":18,"alt_fmsl":4952,"hdg":17.36,"id":"IAAI","rwy":"01","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":14.57295100,"lon":-90.53023700,"rng_nm":10,"alt_fmsl":4952,"id":"IAAI","rwy":"01","desc":"GS","gs":3},
+{"type":"DME","freq":110.1,"lat":14.57121100,"lon":-90.53129200,"rng_nm":18,"alt_fmsl":4952,"id":"IAAI","rwy":"01","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":10.5,"dist_nm":0.4,"freq":114.5,"lat":14.59100000,"lon":-90.52600000,"rng_nm":130,"alt_fmsl":4952,"id":"AUR","desc":"LA AURORA VOR-DME"},
+{"type":"NDB","hdg_t":8,"dist_nm":20.4,"freq":375,"lat":14.92191667,"lon":-90.47797222,"rng_nm":50,"alt_fmsl":0,"id":"GUA","desc":"GUATEMALA CITY NDB"},
+{"type":"VOR","hdg_t":7.4,"dist_nm":25.6,"freq":116.1,"lat":15.00863889,"lon":-90.47033333,"rng_nm":130,"alt_fmsl":4925,"id":"RAB","desc":"RABINAL VOR-DME"},
+{"type":"NDB","hdg_t":7.5,"dist_nm":25.8,"freq":313,"lat":15.01141400,"lon":-90.46925300,"rng_nm":50,"alt_fmsl":4925,"id":"RBN","desc":"RABINAL NDB"},
+{"type":"NDB","hdg_t":197,"dist_nm":40.7,"freq":400,"lat":13.93091700,"lon":-90.73169400,"rng_nm":50,"alt_fmsl":13,"id":"IZP","desc":"IZTAPA NDB"},
+{"type":"VOR","hdg_t":206,"dist_nm":43.1,"freq":114.1,"lat":13.93430556,"lon":-90.85169444,"rng_nm":130,"alt_fmsl":29,"id":"SJO","desc":"SAN JOSE VOR-DME"},
+{"type":"NDB","hdg_t":206.6,"dist_nm":43.4,"freq":425,"lat":13.93368100,"lon":-90.86142200,"rng_nm":50,"alt_fmsl":0,"id":"SGA","desc":"SAN JOSE NDB"},
+{"type":"NDB","hdg_t":267,"dist_nm":68.1,"freq":340,"lat":14.52166700,"lon":-91.69666700,"rng_nm":50,"alt_fmsl":656,"id":"REU","desc":"RETALHULEU NDB"},
+{"type":"NDB","hdg_t":3,"dist_nm":84.2,"freq":260,"lat":15.99200000,"lon":-90.44891700,"rng_nm":50,"alt_fmsl":426,"id":"RUB","desc":"RUBELSANTO NDB"},
+{"type":"NDB","hdg_t":122.5,"dist_nm":97.7,"freq":215,"lat":13.69851700,"lon":-89.11758600,"rng_nm":50,"alt_fmsl":2025,"id":"YSX","desc":"ILOPANGO NDB"},
+{"type":"VOR","hdg_t":122.7,"dist_nm":98,"freq":116.5,"lat":13.69005556,"lon":-89.11633333,"rng_nm":130,"alt_fmsl":2021,"id":"YSV","desc":"ILOPANGO VOR-DME"}
+]
+}

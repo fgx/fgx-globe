@@ -1,0 +1,48 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"YPAD","name":"Adelaide Intl","lat":-34.94416205,"lon":138.5285998975,"rwys":2,"ils":1,"index":5213634,"path":"e130s40/e138s35"
+,"runways":[
+{"len_m":3101,"wid_m":46.02,"hdg":50,"surf":"Asphalt","rwy1":"05","lat1":-34.95852900,"lon1":138.51720042,"rwy2":"23","lat2":-34.94065900,"lon2":138.54330673},
+{"len_m":1651,"wid_m":46.02,"hdg":123,"surf":"Asphalt","rwy1":"12","lat1":-34.94117850,"lon1":138.52191000,"rwy2":"30","lat2":-34.94939000,"lon2":138.53698400}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":29,"wid_m":29.87,"hdg":138,"surf":"Concrete","lat1":-34.93518312,"lon1":138.53192488},
+{"rwy1":"H2","len_m":39,"wid_m":41.15,"hdg":138,"surf":"Concrete","lat1":-34.94658683,"lon1":138.52277413}
+]
+,"radios":[
+{"type":"ATIS","freq":134.5,"desc":"YPAD ATIS"},
+{"type":"CLD","freq":126.1,"desc":"ADELAIDE CLD"},
+{"type":"GND","freq":121.7,"desc":"ADELAIDE GND"},
+{"type":"TWR","freq":120.5,"desc":"ADELAIDE TWR"},
+{"type":"APP","freq":118.2,"desc":"ADELAIDE APP"},
+{"type":"APP","freq":123.05,"desc":"ADELAIDE APP"},
+{"type":"APP","freq":124.2,"desc":"ADELAIDE APP"},
+{"type":"APP","freq":128.6,"desc":"ADELAIDE APP"},
+{"type":"APP","freq":130.44,"desc":"ADELAIDE APP"},
+{"type":"APP","freq":125.3,"desc":"ADELAIDE APP"},
+{"type":"APP","freq":127.05,"desc":"ADELAIDE APP"},
+{"type":"DEP","freq":118.2,"desc":"ADELAIDE APPROACH DEP"},
+{"type":"DEP","freq":124.2,"desc":"ADELAIDE DEP"},
+{"type":"DEP","freq":128.6,"desc":"ADELAIDE DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":-34.95987200,"lon":138.51525500,"rng_nm":18,"alt_fmsl":20,"hdg":230.13,"id":"IAD","rwy":"23","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":-34.94373900,"lon":138.54178300,"rng_nm":10,"alt_fmsl":20,"id":"IAD","rwy":"23","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-34.89852200,"lon":138.60387500,"rng_nm":0,"alt_fmsl":20,"id":"----","rwy":"23","desc":"OM"},
+{"type":"MM","freq":0,"lat":-34.93480300,"lon":138.55173600,"rng_nm":0,"alt_fmsl":20,"id":"----","rwy":"23","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":230.8,"dist_nm":0.2,"freq":116.4,"lat":-34.94694700,"lon":138.52444400,"rng_nm":130,"alt_fmsl":32,"id":"AD","desc":"ADELAIDE VOR-DME"},
+{"type":"NDB","hdg_t":98.7,"dist_nm":0.8,"freq":362,"lat":-34.94638900,"lon":138.54611100,"rng_nm":85,"alt_fmsl":20,"id":"AD","desc":"ADELAIDE NDB"},
+{"type":"NDB","hdg_t":26.8,"dist_nm":9.6,"freq":416,"lat":-34.79972200,"lon":138.61722200,"rng_nm":35,"alt_fmsl":30,"id":"PF","desc":"PARAFIELD NDB"},
+{"type":"NDB","hdg_t":51.4,"dist_nm":10.7,"freq":377,"lat":-34.83222200,"lon":138.69888900,"rng_nm":70,"alt_fmsl":0,"id":"MBY","desc":"MODBURY NDB"},
+{"type":"SDME","hdg_t":16.1,"dist_nm":14.9,"freq":114.7,"lat":-34.70472200,"lon":138.61250000,"rng_nm":40,"alt_fmsl":85,"id":"EDN","desc":"EDINBURGH TACAN"},
+{"type":"NDB","hdg_t":19.7,"dist_nm":15,"freq":311,"lat":-34.70694400,"lon":138.63166700,"rng_nm":85,"alt_fmsl":67,"id":"EDN","desc":"EDINBURGH NDB"},
+{"type":"NDB","hdg_t":316.4,"dist_nm":43.6,"freq":398,"lat":-34.41411400,"lon":137.92316100,"rng_nm":75,"alt_fmsl":0,"id":"ARS","desc":"ARDROSSAN NDB"},
+{"type":"VOR","hdg_t":314.9,"dist_nm":44.5,"freq":115.8,"lat":-34.41653100,"lon":137.89332200,"rng_nm":130,"alt_fmsl":0,"id":"ARS","desc":"ARDROSSAN VOR"},
+{"type":"NDB","hdg_t":112.1,"dist_nm":49.7,"freq":242,"lat":-35.25333300,"lon":139.46666700,"rng_nm":65,"alt_fmsl":0,"id":"TBD","desc":"TAILEM BEND NDB"},
+{"type":"VOR","hdg_t":110.6,"dist_nm":51.5,"freq":116.6,"lat":-35.24333300,"lon":139.51027800,"rng_nm":50,"alt_fmsl":0,"id":"TBD","desc":"TAILEM BEND VOR"},
+{"type":"NDB","hdg_t":51.1,"dist_nm":52.3,"freq":257,"lat":-34.39222200,"lon":139.34972200,"rng_nm":85,"alt_fmsl":0,"id":"SFL","desc":"STONEFIELD NDB"},
+{"type":"NDB","hdg_t":138.1,"dist_nm":60,"freq":227,"lat":-35.68805600,"lon":139.34805600,"rng_nm":75,"alt_fmsl":0,"id":"LRT","desc":"LAKE ALBERT NDB"},
+{"type":"NDB","hdg_t":227,"dist_nm":67.6,"freq":215,"lat":-35.70916700,"lon":137.51416700,"rng_nm":35,"alt_fmsl":0,"id":"KSC","desc":"KINGSCOTE NDB"}
+]
+}

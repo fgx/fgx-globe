@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OITL","name":"Ardabil","lat":38.3256775,"lon":48.4243525,"rwys":1,"ils":1,"index":3743761,"path":"e040n30/e048n38"
+,"runways":[
+{"len_m":3299,"wid_m":45.11,"hdg":149,"surf":"Asphalt","rwy1":"15","lat1":38.33853600,"lon1":48.41489700,"rwy2":"33","lat2":38.31281900,"lon2":48.43380800}
+]
+,"radios":[
+{"type":"ATIS","freq":126.65,"desc":"ATIS"},
+{"type":"TWR","freq":121.9,"desc":"INFO"},
+{"type":"TWR","freq":118.15,"desc":"INFO"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":38.34188300,"lon":48.41239200,"rng_nm":18,"alt_fmsl":4315,"hdg":329.96,"id":"IARB","rwy":"33","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":38.31474400,"lon":48.43084700,"rng_nm":10,"alt_fmsl":4315,"id":"IARB","rwy":"33","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":38.31474400,"lon":48.43084700,"rng_nm":18,"alt_fmsl":4315,"id":"IARB","rwy":"33","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":305.4,"dist_nm":0.5,"freq":355,"lat":38.33072200,"lon":48.41536100,"rng_nm":25,"alt_fmsl":4315,"id":"ARB","desc":"ARDABIL NDB"},
+{"type":"VOR","hdg_t":149.8,"dist_nm":1.5,"freq":115.7,"lat":38.30305600,"lon":48.44100000,"rng_nm":130,"alt_fmsl":4315,"id":"ARB","desc":"ARDABIL VOR-DME"},
+{"type":"NDB","hdg_t":344.2,"dist_nm":78,"freq":413,"lat":39.57852800,"lon":47.96744400,"rng_nm":75,"alt_fmsl":220,"id":"PAD","desc":"PARSABADE MOGHAN NDB"},
+{"type":"NDB","hdg_t":341.1,"dist_nm":81.6,"freq":338,"lat":39.61250000,"lon":47.85472200,"rng_nm":25,"alt_fmsl":241,"id":"MM","desc":"PARSABADE MOGHAN NDB"},
+{"type":"VOR","hdg_t":136.2,"dist_nm":82.4,"freq":112.6,"lat":37.32636100,"lon":49.61577800,"rng_nm":130,"alt_fmsl":-28,"id":"RST","desc":"RASHT VOR-DME"},
+{"type":"NDB","hdg_t":136.3,"dist_nm":82.6,"freq":393,"lat":37.32080600,"lon":49.61625000,"rng_nm":75,"alt_fmsl":-40,"id":"RST","desc":"RASHT NDB"},
+{"type":"NDB","hdg_t":181.7,"dist_nm":92.9,"freq":321,"lat":36.77544400,"lon":48.36455600,"rng_nm":25,"alt_fmsl":5382,"id":"ZAJ","desc":"ZANJAN NDB"},
+{"type":"NDB","hdg_t":263.8,"dist_nm":103.9,"freq":300,"lat":38.12016700,"lon":46.24055600,"rng_nm":25,"alt_fmsl":4432,"id":"TBZ","desc":"TABRIZ NDB"},
+{"type":"VOR","hdg_t":264.5,"dist_nm":104.2,"freq":112,"lat":38.13908300,"lon":46.23088900,"rng_nm":130,"alt_fmsl":4490,"id":"TBZ","desc":"TABRIZ VORTAC"},
+{"type":"NDB","hdg_t":291.2,"dist_nm":104.3,"freq":787,"lat":38.93888900,"lon":46.34722200,"rng_nm":50,"alt_fmsl":0,"id":"MGR","desc":"MEGRI NDB"}
+]
+}

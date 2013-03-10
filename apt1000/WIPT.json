@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WIPT","name":"Minangkabau","lat":-0.7869165,"lon":100.2807955,"rwys":1,"ils":1,"index":4593226,"path":"e100s10/e100s01"
+,"runways":[
+{"len_m":2749,"wid_m":45.11,"hdg":155,"surf":"Asphalt","rwy1":"15","lat1":-0.77564700,"lon1":100.27558300,"rwy2":"33","lat2":-0.79818600,"lon2":100.28600800}
+]
+,"radios":[
+{"type":"ATIS","freq":127.25,"desc":"ATIS"},
+{"type":"TWR","freq":118.3,"desc":"MINANG TWR"},
+{"type":"APP","freq":120.4,"desc":"PADANG APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.5,"lat":-0.77320800,"lon":100.27450000,"rng_nm":18,"alt_fmsl":31,"hdg":335.26,"id":"IMKB","rwy":"33","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.5,"lat":-0.79611400,"lon":100.28389200,"rng_nm":10,"alt_fmsl":18,"id":"IMKB","rwy":"33","desc":"GS","gs":3.25},
+{"type":"MM","freq":0,"lat":-0.80607800,"lon":100.28968300,"rng_nm":0,"alt_fmsl":31,"id":"----","rwy":"33","desc":"MM"},
+{"type":"DME","freq":111.5,"lat":-0.77320800,"lon":100.27450000,"rng_nm":18,"alt_fmsl":31,"id":"IMKB","rwy":"33","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":268.1,"dist_nm":0.1,"freq":114.7,"lat":-0.78700000,"lon":100.27822200,"rng_nm":130,"alt_fmsl":16,"id":"MKB","desc":"MINANGKABAU VOR-DME"},
+{"type":"VOR","hdg_t":139,"dist_nm":6.6,"freq":116.4,"lat":-0.87110600,"lon":100.35328900,"rng_nm":130,"alt_fmsl":9,"id":"PDG","desc":"PADANG VOR-DME"},
+{"type":"NDB","hdg_t":150.9,"dist_nm":9.4,"freq":295,"lat":-0.92554700,"lon":100.35735000,"rng_nm":50,"alt_fmsl":0,"id":"OQ","desc":"PADANG NDB"},
+{"type":"NDB","hdg_t":3,"dist_nm":96.8,"freq":238,"lat":0.83333300,"lon":100.36666700,"rng_nm":50,"alt_fmsl":151,"id":"PP","desc":"PASIR PANGARAYAN NDB"},
+{"type":"VOR","hdg_t":43.9,"dist_nm":100.5,"freq":112.1,"lat":0.42558900,"lon":101.44149400,"rng_nm":130,"alt_fmsl":102,"id":"PKU","desc":"PEKANBARU VOR-DME"},
+{"type":"NDB","hdg_t":140.2,"dist_nm":101.9,"freq":201,"lat":-2.10000000,"lon":101.36666700,"rng_nm":50,"alt_fmsl":2566,"id":"KC","desc":"KERINCI NDB"},
+{"type":"NDB","hdg_t":43.2,"dist_nm":102.7,"freq":350,"lat":0.46648900,"lon":101.45316700,"rng_nm":50,"alt_fmsl":102,"id":"NW","desc":"PEKANBARU NDB"},
+{"type":"NDB","hdg_t":154.9,"dist_nm":116.2,"freq":249,"lat":-2.55000000,"lon":101.10000000,"rng_nm":50,"alt_fmsl":16,"id":"MO","desc":"MUKO MUKO NDB"},
+{"type":"NDB","hdg_t":78,"dist_nm":126.2,"freq":280,"lat":-0.34916100,"lon":102.33554400,"rng_nm":50,"alt_fmsl":61,"id":"AD","desc":"RENGAT NDB"},
+{"type":"NDB","hdg_t":338.5,"dist_nm":140.1,"freq":233,"lat":1.39833900,"lon":99.42896700,"rng_nm":50,"alt_fmsl":935,"id":"AG","desc":"AEK GODANG NDB"}
+]
+}

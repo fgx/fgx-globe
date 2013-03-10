@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"FKKD","name":"Douala","lat":4.01420775,"lon":9.71653775,"rwys":2,"ils":1,"index":3102597,"path":"e000n00/e009n04"
+,"runways":[
+{"len_m":2852,"wid_m":45.11,"hdg":116,"surf":"Asphalt","rwy1":"12","lat1":4.01186700,"lon1":9.70804400,"rwy2":"30","lat2":4.00024200,"lon2":9.73097500},
+{"len_m":2491,"wid_m":44.81,"hdg":27,"surf":"Asphalt","rwy1":"03","lat1":4.01233810,"lon1":9.70844647,"rwy2":"21","lat2":4.03238390,"lon2":9.71868553}
+]
+,"radios":[
+{"type":"TWR","freq":119.7,"desc":"DOUALA TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":4.01433900,"lon":9.70403600,"rng_nm":18,"alt_fmsl":25,"hdg":297.68,"id":"DL","rwy":"30","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.3,"lat":4.00057500,"lon":9.72781700,"rng_nm":10,"alt_fmsl":33,"id":"DL","rwy":"30","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":3.97475000,"lon":9.78361100,"rng_nm":0,"alt_fmsl":25,"id":"----","rwy":"30","desc":"OM"},
+{"type":"DME","freq":110.3,"lat":4.00057500,"lon":9.72781700,"rng_nm":18,"alt_fmsl":33,"id":"DL","rwy":"30","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":126.8,"dist_nm":2,"freq":112.9,"lat":3.99391700,"lon":9.74347200,"rng_nm":130,"alt_fmsl":39,"id":"DLA","desc":"DOUALA VOR-DME"},
+{"type":"NDB","hdg_t":120.3,"dist_nm":4.6,"freq":398,"lat":3.97475000,"lon":9.78361100,"rng_nm":50,"alt_fmsl":126,"id":"YK","desc":"DOUALA NDB"},
+{"type":"NDB","hdg_t":281.4,"dist_nm":22,"freq":270,"lat":4.08763900,"lon":9.35588900,"rng_nm":50,"alt_fmsl":210,"id":"TI","desc":"TIKO NDB"},
+{"type":"NDB","hdg_t":117.8,"dist_nm":28.5,"freq":362,"lat":3.79077800,"lon":10.13805600,"rng_nm":50,"alt_fmsl":0,"id":"DE","desc":"EDEA NDB"},
+{"type":"NDB","hdg_t":342.5,"dist_nm":29.8,"freq":284,"lat":4.49073600,"lon":9.56771400,"rng_nm":50,"alt_fmsl":0,"id":"TJJ","desc":"MBANGA NDB"},
+{"type":"NDB","hdg_t":248.8,"dist_nm":51.7,"freq":342,"lat":3.70125000,"lon":8.91219400,"rng_nm":50,"alt_fmsl":762,"id":"PA","desc":"MALABO NDB"},
+{"type":"NDB","hdg_t":256.4,"dist_nm":61.1,"freq":310,"lat":3.77427800,"lon":8.72566700,"rng_nm":25,"alt_fmsl":101,"id":"BL","desc":"MALABO NDB"},
+{"type":"VOR","hdg_t":256.2,"dist_nm":61.5,"freq":114.5,"lat":3.76822200,"lon":8.72025000,"rng_nm":130,"alt_fmsl":56,"id":"MBO","desc":"MALABO VOR-DME"},
+{"type":"NDB","hdg_t":167.6,"dist_nm":70.7,"freq":335,"lat":2.85639200,"lon":9.96959700,"rng_nm":50,"alt_fmsl":0,"id":"KB","desc":"KRIBI NDB"},
+{"type":"NDB","hdg_t":13.7,"dist_nm":88.2,"freq":308,"lat":5.45059400,"lon":10.06598600,"rng_nm":25,"alt_fmsl":0,"id":"TJS","desc":"DSCHANG NDB"},
+{"type":"NDB","hdg_t":23.5,"dist_nm":97.3,"freq":266,"lat":5.50906700,"lon":10.36724200,"rng_nm":50,"alt_fmsl":0,"id":"BO","desc":"BAFOUSSAM NDB"},
+{"type":"VOR","hdg_t":23.6,"dist_nm":97.4,"freq":116.5,"lat":5.50833300,"lon":10.36972200,"rng_nm":50,"alt_fmsl":4347,"id":"BF","desc":"BAFOUSSAM VOR-DME"},
+{"type":"VOR","hdg_t":302.9,"dist_nm":99.7,"freq":114.1,"lat":4.92187200,"lon":8.32003900,"rng_nm":130,"alt_fmsl":211,"id":"CAL","desc":"CALABAR VOR-DME"},
+{"type":"NDB","hdg_t":304.8,"dist_nm":99.8,"freq":317,"lat":4.96792100,"lon":8.34730200,"rng_nm":25,"alt_fmsl":240,"id":"CR","desc":"CALABAR NDB"}
+]
+}

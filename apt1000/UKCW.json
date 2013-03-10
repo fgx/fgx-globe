@@ -1,0 +1,43 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UKCW","name":"Luhansk Intl","lat":48.4173805,"lon":39.3741265,"rwys":1,"ils":2,"index":3596953,"path":"e030n40/e039n48"
+,"runways":[
+{"len_m":2880,"wid_m":42.67,"hdg":100,"surf":"Asphalt","rwy1":"09","lat1":48.41976700,"lon1":39.35500000,"rwy2":"27","lat2":48.41499400,"lon2":39.39325300}
+]
+,"radios":[
+{"type":"TWR","freq":120.6,"desc":"TWR"},
+{"type":"APP","freq":132,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":108.3,"lat":48.41500000,"lon":39.40055600,"rng_nm":18,"alt_fmsl":636,"hdg":98.98,"id":"ILU","rwy":"09","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.5,"lat":48.42166700,"lon":39.34777800,"rng_nm":18,"alt_fmsl":636,"hdg":282.45,"id":"ILG","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.3,"lat":48.41861100,"lon":39.36083300,"rng_nm":10,"alt_fmsl":636,"id":"ILU","rwy":"09","desc":"GS","gs":3},
+{"type":"GS","freq":109.5,"lat":48.41500000,"lon":39.39027800,"rng_nm":10,"alt_fmsl":636,"id":"ILG","rwy":"27","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":48.42486500,"lon":39.29979000,"rng_nm":0,"alt_fmsl":636,"id":"----","rwy":"09","desc":"OM"},
+{"type":"OM","freq":0,"lat":48.40903400,"lon":39.44645900,"rng_nm":0,"alt_fmsl":636,"id":"----","rwy":"27","desc":"OM"},
+{"type":"MM","freq":0,"lat":48.42208800,"lon":39.34173500,"rng_nm":0,"alt_fmsl":636,"id":"----","rwy":"09","desc":"MM"},
+{"type":"MM","freq":0,"lat":48.41403300,"lon":39.40673600,"rng_nm":0,"alt_fmsl":636,"id":"----","rwy":"27","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":282.3,"dist_nm":1.3,"freq":617,"lat":48.42208800,"lon":39.34173500,"rng_nm":25,"alt_fmsl":0,"id":"U","desc":"LUHANSK NDB"},
+{"type":"NDB","hdg_t":98.7,"dist_nm":1.3,"freq":617,"lat":48.41403300,"lon":39.40673600,"rng_nm":25,"alt_fmsl":0,"id":"G","desc":"LUHANSK NDB"},
+{"type":"NDB","hdg_t":99.8,"dist_nm":2.9,"freq":1255,"lat":48.40903400,"lon":39.44645900,"rng_nm":25,"alt_fmsl":0,"id":"LG","desc":"LUHANSK NDB"},
+{"type":"NDB","hdg_t":278.6,"dist_nm":3,"freq":1255,"lat":48.42486500,"lon":39.29979000,"rng_nm":25,"alt_fmsl":0,"id":"LU","desc":"LUHANSK NDB"},
+{"type":"NDB","hdg_t":74.6,"dist_nm":19.2,"freq":1110,"lat":48.50154100,"lon":39.84007300,"rng_nm":25,"alt_fmsl":0,"id":"DW","desc":"DAVYDO-MYKILSKE NDB"},
+{"type":"NDB","hdg_t":231.1,"dist_nm":22.4,"freq":1155,"lat":48.18152300,"lon":38.93840400,"rng_nm":75,"alt_fmsl":0,"id":"LS","desc":"KRASNYI LUCH NDB"},
+{"type":"NDB","hdg_t":137.4,"dist_nm":43.3,"freq":486,"lat":47.88333300,"lon":40.10000000,"rng_nm":80,"alt_fmsl":0,"id":"KL","desc":"KRASNY SULIN NDB"},
+{"type":"NDB","hdg_t":156.6,"dist_nm":43.5,"freq":414,"lat":47.75000000,"lon":39.80000000,"rng_nm":80,"alt_fmsl":0,"id":"SB","desc":"SAMBEK NDB"},
+{"type":"NDB","hdg_t":252.4,"dist_nm":66,"freq":390,"lat":48.07569400,"lon":37.80777800,"rng_nm":50,"alt_fmsl":0,"id":"DO","desc":"DONETSK NDB"},
+{"type":"NDB","hdg_t":252.9,"dist_nm":67.6,"freq":795,"lat":48.07555600,"lon":37.76638900,"rng_nm":25,"alt_fmsl":0,"id":"O","desc":"DONETSK NDB"},
+{"type":"VOR","hdg_t":253,"dist_nm":68.8,"freq":115,"lat":48.07178200,"lon":37.73589100,"rng_nm":130,"alt_fmsl":758,"id":"DON","desc":"DONETSK VOR-DME"},
+{"type":"NDB","hdg_t":253.4,"dist_nm":69.9,"freq":795,"lat":48.07344800,"lon":37.70672300,"rng_nm":25,"alt_fmsl":0,"id":"N","desc":"DONETSK NDB"},
+{"type":"NDB","hdg_t":163.4,"dist_nm":70.4,"freq":320,"lat":47.29166700,"lon":39.86666700,"rng_nm":80,"alt_fmsl":0,"id":"RW","desc":"ROSTOV-NA-DONU NDB"},
+{"type":"NDB","hdg_t":254.1,"dist_nm":72.3,"freq":390,"lat":48.07472200,"lon":37.64555600,"rng_nm":50,"alt_fmsl":0,"id":"DN","desc":"DONETSK NDB"},
+{"type":"NDB","hdg_t":167.2,"dist_nm":73.3,"freq":320,"lat":47.22500000,"lon":39.77000000,"rng_nm":80,"alt_fmsl":0,"id":"RN","desc":"ROSTOV-NA-DONU NDB"},
+{"type":"NDB","hdg_t":148.3,"dist_nm":77.2,"freq":1175,"lat":47.31666700,"lon":40.36666700,"rng_nm":80,"alt_fmsl":0,"id":"BA","desc":"BAGAYEVSKY NDB"},
+{"type":"NDB","hdg_t":242.5,"dist_nm":79.5,"freq":1195,"lat":47.79316500,"lon":37.63006400,"rng_nm":75,"alt_fmsl":0,"id":"DK","desc":"DOKUCHAIEVS K NDB"},
+{"type":"NDB","hdg_t":151.2,"dist_nm":83,"freq":1025,"lat":47.20000000,"lon":40.35000000,"rng_nm":80,"alt_fmsl":0,"id":"KS","desc":"KRASNY NDB"},
+{"type":"NDB","hdg_t":123.7,"dist_nm":85,"freq":1100,"lat":47.61666700,"lon":41.11666700,"rng_nm":80,"alt_fmsl":0,"id":"KA","desc":"KONSTANTINOVSK NDB"},
+{"type":"NDB","hdg_t":153.5,"dist_nm":91.4,"freq":705,"lat":47.05000000,"lon":40.36666700,"rng_nm":80,"alt_fmsl":0,"id":"MN","desc":"MANYCHSKY NDB"},
+{"type":"NDB","hdg_t":245.8,"dist_nm":95.3,"freq":815,"lat":47.74815800,"lon":37.22339400,"rng_nm":75,"alt_fmsl":0,"id":"PW","desc":"PAVLIVKA NDB"}
+]
+}

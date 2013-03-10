@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UWKE","name":"Begishevo","lat":55.563755,"lon":52.08979125,"rwys":2,"ils":1,"index":3810400,"path":"e050n50/e052n55"
+,"runways":[
+{"len_m":2489,"wid_m":42.06,"hdg":46,"surf":"Asphalt","rwy1":"04","lat1":55.55705600,"lon1":52.07809200,"rwy2":"22","lat2":55.57231400,"lon2":52.10692800},
+{"len_m":1713,"wid_m":57.91,"hdg":47,"surf":"Turf/grass","rwy1":"03","lat1":55.55759400,"lon1":52.07711700,"rwy2":"21","lat2":55.56805600,"lon2":52.09702800}
+]
+,"radios":[
+{"type":"TWR","freq":121.2,"desc":"TWR"},
+{"type":"APP","freq":129,"desc":"APP"},
+{"type":"APP","freq":127.9,"desc":"APP"},
+{"type":"APP","freq":124,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":55.55440800,"lon":52.07353100,"rng_nm":18,"alt_fmsl":643,"hdg":226.51,"id":"INK","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":55.57116700,"lon":52.10164700,"rng_nm":10,"alt_fmsl":643,"id":"INK","rwy":"22","desc":"GS","gs":2.7},
+{"type":"OM","freq":0,"lat":55.59833300,"lon":52.15833300,"rng_nm":0,"alt_fmsl":643,"id":"----","rwy":"22","desc":"OM"},
+{"type":"MM","freq":0,"lat":55.57833300,"lon":52.12166700,"rng_nm":0,"alt_fmsl":643,"id":"----","rwy":"22","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":223.2,"dist_nm":2.6,"freq":370,"lat":55.53166700,"lon":52.03666700,"rng_nm":80,"alt_fmsl":0,"id":"NA","desc":"BEGISHEVO NDB"},
+{"type":"NDB","hdg_t":48.2,"dist_nm":3.1,"freq":370,"lat":55.59833300,"lon":52.15833300,"rng_nm":80,"alt_fmsl":0,"id":"NK","desc":"BEGISHEVO NDB"},
+{"type":"NDB","hdg_t":293.7,"dist_nm":25.5,"freq":425,"lat":55.73333300,"lon":51.40000000,"rng_nm":80,"alt_fmsl":0,"id":"HJ","desc":"MAMADYSH NDB"},
+{"type":"NDB","hdg_t":242.1,"dist_nm":85.1,"freq":445,"lat":54.88333300,"lon":49.91666700,"rng_nm":80,"alt_fmsl":0,"id":"RD","desc":"BAZARNYE MATAKI NDB"},
+{"type":"NDB","hdg_t":271.6,"dist_nm":93,"freq":292,"lat":55.57833300,"lon":49.35833300,"rng_nm":25,"alt_fmsl":407,"id":"DJ","desc":"KAZAN NDB"},
+{"type":"NDB","hdg_t":271.6,"dist_nm":93,"freq":475,"lat":55.57666700,"lon":49.35666700,"rng_nm":80,"alt_fmsl":0,"id":"BL","desc":"KAZAN NDB"},
+{"type":"NDB","hdg_t":92,"dist_nm":95.7,"freq":380,"lat":55.47583300,"lon":54.89361100,"rng_nm":80,"alt_fmsl":0,"id":"DT","desc":"DYURTYULI NDB"},
+{"type":"VOR","hdg_t":272.6,"dist_nm":95.9,"freq":112.7,"lat":55.60500000,"lon":49.27166700,"rng_nm":130,"alt_fmsl":409,"id":"KZN","desc":"KAZAN VOR-DME"},
+{"type":"NDB","hdg_t":273.5,"dist_nm":98.1,"freq":475,"lat":55.63166700,"lon":49.20833300,"rng_nm":80,"alt_fmsl":0,"id":"AM","desc":"KAZAN NDB"},
+{"type":"NDB","hdg_t":273.6,"dist_nm":98.2,"freq":292,"lat":55.63500000,"lon":49.20666700,"rng_nm":50,"alt_fmsl":0,"id":"PS","desc":"KAZAN NDB"},
+{"type":"NDB","hdg_t":215.4,"dist_nm":98.5,"freq":915,"lat":54.21666700,"lon":50.46666700,"rng_nm":80,"alt_fmsl":0,"id":"UF","desc":"KOSHKI NDB"}
+]
+}

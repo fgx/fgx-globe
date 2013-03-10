@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UASS","name":"Semipalatinsk","lat":50.35037575,"lon":80.233836,"rwys":2,"ils":1,"index":4268816,"path":"e080n50/e080n50"
+,"runways":[
+{"len_m":3096,"wid_m":44.20,"hdg":83,"surf":"Concrete","rwy1":"08","lat1":50.34977500,"lon1":80.21273900,"rwy2":"26","lat2":50.35282800,"lon2":80.25598300},
+{"len_m":996,"wid_m":77.11,"hdg":23,"surf":"Concrete","rwy1":"02","lat1":50.34534200,"lon1":80.23052200,"rwy2":"20","lat2":50.35355800,"lon2":80.23610000}
+]
+,"radios":[
+{"type":"TWR","freq":128,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":50.34919400,"lon":80.20443900,"rng_nm":18,"alt_fmsl":761,"hdg":263.68,"id":"ISP","rwy":"26","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":50.35117200,"lon":80.25180600,"rng_nm":10,"alt_fmsl":761,"id":"ISP","rwy":"26","desc":"GS","gs":2.4},
+{"type":"OM","freq":0,"lat":50.35700000,"lon":80.31656100,"rng_nm":0,"alt_fmsl":761,"id":"----","rwy":"26","desc":"OM"},
+{"type":"MM","freq":0,"lat":50.35405800,"lon":80.27357800,"rng_nm":0,"alt_fmsl":761,"id":"----","rwy":"26","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":81.7,"dist_nm":1.5,"freq":850,"lat":50.35405800,"lon":80.27357800,"rng_nm":50,"alt_fmsl":0,"id":"S","desc":"SEMIPALATINSK NDB"},
+{"type":"NDB","hdg_t":82.8,"dist_nm":3.2,"freq":418,"lat":50.35700000,"lon":80.31656100,"rng_nm":50,"alt_fmsl":0,"id":"SP","desc":"SEMIPALATINSK NDB"},
+{"type":"NDB","hdg_t":100.4,"dist_nm":86.5,"freq":345,"lat":50.06762800,"lon":82.43695300,"rng_nm":50,"alt_fmsl":0,"id":"US","desc":"UST KAMENOGORSK NDB"},
+{"type":"NDB","hdg_t":100.9,"dist_nm":88,"freq":708,"lat":50.04947200,"lon":82.46995800,"rng_nm":50,"alt_fmsl":0,"id":"U","desc":"UST KAMENOGORSK NDB"},
+{"type":"NDB","hdg_t":101.7,"dist_nm":90.3,"freq":708,"lat":50.02212200,"lon":82.51951700,"rng_nm":50,"alt_fmsl":0,"id":"S","desc":"UST KAMENOGORSK NDB"},
+{"type":"NDB","hdg_t":102.1,"dist_nm":91.6,"freq":345,"lat":50.00598600,"lon":82.54870000,"rng_nm":50,"alt_fmsl":0,"id":"SI","desc":"UST KAMENOGORSK NDB"},
+{"type":"NDB","hdg_t":347.5,"dist_nm":92.3,"freq":1045,"lat":51.85000000,"lon":79.70000000,"rng_nm":80,"alt_fmsl":0,"id":"MH","desc":"MIKHAYLOVSKY NDB"},
+{"type":"NDB","hdg_t":176.5,"dist_nm":145.4,"freq":485,"lat":47.93194400,"lon":80.44916700,"rng_nm":50,"alt_fmsl":0,"id":"ZU","desc":"AYAGUZ NDB"},
+{"type":"VOR","hdg_t":176.5,"dist_nm":145.5,"freq":113.6,"lat":47.93111100,"lon":80.44972200,"rng_nm":130,"alt_fmsl":0,"id":"AGZ","desc":"AYAGUZ VOR"},
+{"type":"NDB","hdg_t":315.1,"dist_nm":162.5,"freq":440,"lat":52.22794400,"lon":77.12368900,"rng_nm":50,"alt_fmsl":0,"id":"PW","desc":"PAVLODAR NDB"}
+]
+}

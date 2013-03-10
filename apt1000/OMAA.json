@@ -1,0 +1,39 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OMAA","name":"Abu Dhabi Intl","lat":24.4330485,"lon":54.651182,"rwys":1,"ils":2,"index":3841178,"path":"e050n20/e054n24"
+,"runways":[
+{"len_m":4100,"wid_m":45.11,"hdg":127,"surf":"Asphalt","rwy1":"13","lat1":24.44438900,"lon1":54.63520600,"rwy2":"31","lat2":24.42170800,"lon2":54.66715800}
+]
+,"radios":[
+{"type":"ATIS","freq":125.1,"desc":"ATIS"},
+{"type":"TWR","freq":119.2,"desc":"TWR"},
+{"type":"TWR","freq":121.75,"desc":"TWR"},
+{"type":"APP","freq":124.4,"desc":"RDR"},
+{"type":"APP","freq":128.1,"desc":"RDR"}
+]
+,"ils":[
+{"type":"ILS","freq":108.9,"lat":24.41927800,"lon":54.67058300,"rng_nm":18,"alt_fmsl":110,"hdg":127.95,"id":"IAE","rwy":"13","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.3,"lat":24.44650000,"lon":54.63222200,"rng_nm":18,"alt_fmsl":88,"hdg":307.93,"id":"IAW","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.9,"lat":24.44363900,"lon":54.63888900,"rng_nm":10,"alt_fmsl":120,"id":"IAE","rwy":"13","desc":"GS","gs":3},
+{"type":"GS","freq":109.3,"lat":24.42405600,"lon":54.66486100,"rng_nm":10,"alt_fmsl":122,"id":"IAW","rwy":"31","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":24.45019400,"lon":54.62702800,"rng_nm":0,"alt_fmsl":110,"id":"----","rwy":"13","desc":"MM"},
+{"type":"MM","freq":0,"lat":24.41625000,"lon":54.67486100,"rng_nm":0,"alt_fmsl":88,"id":"----","rwy":"31","desc":"MM"},
+{"type":"DME","freq":108.9,"lat":24.44363900,"lon":54.63888900,"rng_nm":18,"alt_fmsl":98,"id":"IAE","rwy":"13","desc":"DME-ILS"},
+{"type":"DME","freq":109.3,"lat":24.42405600,"lon":54.66486100,"rng_nm":18,"alt_fmsl":96,"id":"IAW","rwy":"31","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":336.9,"dist_nm":0.6,"freq":113,"lat":24.44319400,"lon":54.64647200,"rng_nm":100,"alt_fmsl":68,"id":"AUH","desc":"ABU DHABI VOR-DME"},
+{"type":"VOR","hdg_t":268.1,"dist_nm":10.1,"freq":114,"lat":24.42743300,"lon":54.46521700,"rng_nm":130,"alt_fmsl":60,"id":"VAD","desc":"BATEEN VOR-DME"},
+{"type":"NDB","hdg_t":268.3,"dist_nm":10.6,"freq":392,"lat":24.42763600,"lon":54.45588300,"rng_nm":75,"alt_fmsl":0,"id":"AD","desc":"BATEEN NDB"},
+{"type":"VOR","hdg_t":207.5,"dist_nm":12.5,"freq":114.9,"lat":24.24680600,"lon":54.54540600,"rng_nm":130,"alt_fmsl":76,"id":"MA","desc":"AL DHAFRA VORTAC"},
+{"type":"NDB","hdg_t":101.7,"dist_nm":53.3,"freq":399,"lat":24.24861100,"lon":55.60427800,"rng_nm":25,"alt_fmsl":0,"id":"AIN","desc":"AL AIN NDB"},
+{"type":"VOR","hdg_t":101,"dist_nm":53.3,"freq":112.6,"lat":24.25975000,"lon":55.60636100,"rng_nm":130,"alt_fmsl":842,"id":"ALN","desc":"AL AIN VOR-DME"},
+{"type":"VOR","hdg_t":38.2,"dist_nm":62.7,"freq":115.7,"lat":25.25450800,"lon":55.36572200,"rng_nm":130,"alt_fmsl":37,"id":"DUB","desc":"DUBAI VOR-DME"},
+{"type":"VOR","hdg_t":41.2,"dist_nm":71.6,"freq":112.3,"lat":25.33015800,"lon":55.52042800,"rng_nm":200,"alt_fmsl":130,"id":"SHJ","desc":"SHARJAH VOR-DME"},
+{"type":"NDB","hdg_t":235.2,"dist_nm":85,"freq":309,"lat":23.61666700,"lon":53.38333300,"rng_nm":25,"alt_fmsl":0,"id":"BH","desc":"BUHASA NDB"},
+{"type":"NDB","hdg_t":356,"dist_nm":88.1,"freq":300,"lat":25.90341700,"lon":54.54013900,"rng_nm":75,"alt_fmsl":42,"id":"SIR","desc":"SIRRI ISLAND NDB"},
+{"type":"NDB","hdg_t":13.1,"dist_nm":88.7,"freq":285,"lat":25.87780600,"lon":55.02294400,"rng_nm":25,"alt_fmsl":23,"id":"ABM","desc":"ABUMUSA ISLAND NDB"},
+{"type":"VOR","hdg_t":355.9,"dist_nm":88.8,"freq":113.75,"lat":25.91422200,"lon":54.53650000,"rng_nm":130,"alt_fmsl":42,"id":"SIR","desc":"SIRRI ISLAND VOR-DME"},
+{"type":"NDB","hdg_t":286.8,"dist_nm":89.6,"freq":275,"lat":24.85998800,"lon":53.07927200,"rng_nm":50,"alt_fmsl":0,"id":"ZKU","desc":"ZIRKU NDB"},
+{"type":"VOR","hdg_t":45.3,"dist_nm":98.7,"freq":113.6,"lat":25.58843100,"lon":55.94632500,"rng_nm":200,"alt_fmsl":149,"id":"RAV","desc":"RAS AL KHAIMAH VOR-DME"}
+]
+}

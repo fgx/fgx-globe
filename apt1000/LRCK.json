@@ -1,0 +1,40 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LRCK","name":"Constanta - Mihail Kogalniceanu","lat":44.362114,"lon":28.488454,"rwys":1,"ils":2,"index":3416465,"path":"e020n40/e028n44"
+,"runways":[
+{"len_m":3488,"wid_m":45.11,"hdg":185,"surf":"Concrete","rwy1":"18","lat1":44.37773600,"lon1":28.49058600,"rwy2":"36","lat2":44.34649200,"lon2":28.48632200}
+]
+,"radios":[
+{"type":"ATIS","freq":118.75,"desc":"ATIS"},
+{"type":"TWR","freq":120.45,"desc":"TWR"},
+{"type":"APP","freq":122.9,"desc":"BUCURESTI RDR"},
+{"type":"APP","freq":127.35,"desc":"BUCURESTI RDR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":44.34402200,"lon":28.48598300,"rng_nm":18,"alt_fmsl":353,"hdg":185.57,"id":"ICT","rwy":"18","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":44.38166400,"lon":28.49112200,"rng_nm":18,"alt_fmsl":315,"hdg":5.57,"id":"ICK","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":44.37429700,"lon":28.49207500,"rng_nm":10,"alt_fmsl":353,"id":"ICT","rwy":"18","desc":"GS","gs":3.5},
+{"type":"GS","freq":110.3,"lat":44.34965000,"lon":28.48890000,"rng_nm":10,"alt_fmsl":315,"id":"ICK","rwy":"36","desc":"GS","gs":2.5},
+{"type":"OM","freq":0,"lat":44.43628300,"lon":28.49865800,"rng_nm":0,"alt_fmsl":353,"id":"----","rwy":"18","desc":"OM"},
+{"type":"MM","freq":0,"lat":44.38840600,"lon":28.49205800,"rng_nm":0,"alt_fmsl":353,"id":"----","rwy":"18","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":44.34965000,"lon":28.48890000,"rng_nm":18,"alt_fmsl":353,"id":"ICK","rwy":"36","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":185.4,"dist_nm":4,"freq":112.7,"lat":44.29445800,"lon":28.47952500,"rng_nm":150,"alt_fmsl":269,"id":"CND","desc":"CONSTANTA VOR-DME"},
+{"type":"NDB","hdg_t":5.6,"dist_nm":4.4,"freq":378,"lat":44.43628300,"lon":28.49865800,"rng_nm":75,"alt_fmsl":0,"id":"ZZ","desc":"CONSTANTA NDB"},
+{"type":"NDB","hdg_t":185.6,"dist_nm":4.6,"freq":325,"lat":44.28538300,"lon":28.47793100,"rng_nm":50,"alt_fmsl":233,"id":"UU","desc":"CONSTANTA NDB"},
+{"type":"NDB","hdg_t":15.5,"dist_nm":39.2,"freq":422,"lat":44.99256700,"lon":28.73636100,"rng_nm":50,"alt_fmsl":52,"id":"TLC","desc":"TULCEA NDB"},
+{"type":"NDB","hdg_t":296.4,"dist_nm":39.8,"freq":304,"lat":44.65570300,"lon":27.65471100,"rng_nm":100,"alt_fmsl":62,"id":"TND","desc":"TANDAREI NDB"},
+{"type":"VOR","hdg_t":12.3,"dist_nm":44,"freq":114.8,"lat":45.07869200,"lon":28.70950800,"rng_nm":175,"alt_fmsl":278,"id":"TLA","desc":"TULCEA VOR-DME"},
+{"type":"VOR","hdg_t":339.4,"dist_nm":67.6,"freq":108.2,"lat":45.41632500,"lon":27.92774400,"rng_nm":175,"alt_fmsl":128,"id":"GLT","desc":"GALATI VOR-DME"},
+{"type":"NDB","hdg_t":200.5,"dist_nm":72.7,"freq":526,"lat":43.22420800,"lon":27.90680600,"rng_nm":25,"alt_fmsl":0,"id":"WR","desc":"VARNA NDB"},
+{"type":"NDB","hdg_t":202.2,"dist_nm":73.2,"freq":375,"lat":43.22926400,"lon":27.85663100,"rng_nm":25,"alt_fmsl":0,"id":"R","desc":"VARNA NDB"},
+{"type":"VOR","hdg_t":203.4,"dist_nm":73.8,"freq":112.4,"lat":43.23138900,"lon":27.81722200,"rng_nm":130,"alt_fmsl":197,"id":"WRN","desc":"VARNA VOR-DME"},
+{"type":"NDB","hdg_t":204.2,"dist_nm":74,"freq":335,"lat":43.23453900,"lon":27.79651900,"rng_nm":25,"alt_fmsl":0,"id":"W","desc":"VARNA NDB"},
+{"type":"NDB","hdg_t":205.9,"dist_nm":74.6,"freq":397,"lat":43.24123600,"lon":27.74229400,"rng_nm":25,"alt_fmsl":0,"id":"WN","desc":"VARNA NDB"},
+{"type":"NDB","hdg_t":208.8,"dist_nm":75.9,"freq":350,"lat":43.25000000,"lon":27.65416700,"rng_nm":75,"alt_fmsl":0,"id":"DWN","desc":"DEVNYA NDB"},
+{"type":"VOR","hdg_t":280.1,"dist_nm":83.9,"freq":117.1,"lat":44.59156500,"lon":26.55954200,"rng_nm":80,"alt_fmsl":250,"id":"OPT","desc":"ROSIORI VOR-DME"},
+{"type":"NDB","hdg_t":276.7,"dist_nm":97.5,"freq":256,"lat":44.52963600,"lon":26.23053600,"rng_nm":25,"alt_fmsl":0,"id":"BSE","desc":"BANEASA SOUTHEAST NDB"},
+{"type":"NDB","hdg_t":278.7,"dist_nm":97.7,"freq":318,"lat":44.58800000,"lon":26.23533300,"rng_nm":50,"alt_fmsl":0,"id":"OTR","desc":"OTOPENI NDB"},
+{"type":"NDB","hdg_t":278.2,"dist_nm":98.6,"freq":349,"lat":44.57466700,"lon":26.21133300,"rng_nm":50,"alt_fmsl":0,"id":"OPE","desc":"OTOPENI NDB"}
+]
+}

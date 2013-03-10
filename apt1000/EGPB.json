@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EGPB","name":"Sumburgh","lat":59.8781342333333,"lon":-1.29109677333333,"rwys":3,"ils":1,"index":2925946,"path":"w010n50/w002n59"
+,"runways":[
+{"len_m":1502,"wid_m":45.11,"hdg":83,"surf":"Asphalt","rwy1":"09","lat1":59.88071885,"lon1":-1.30716464,"rwy2":"27","lat2":59.88222892,"lon2":-1.28051161},
+{"len_m":543,"wid_m":45.11,"hdg":53,"surf":"Asphalt","rwy1":"06","lat1":59.87476400,"lon1":-1.29047200,"rwy2":"24","lat2":59.87766900,"lon2":-1.28267800},
+{"len_m":1430,"wid_m":46.02,"hdg":143,"surf":"Asphalt","rwy1":"15","lat1":59.88186671,"lon1":-1.30048728,"rwy2":"33","lat2":59.87155791,"lon2":-1.28526710}
+]
+,"radios":[
+{"type":"ATIS","freq":125.85,"desc":"Sumburgh Information"},
+{"type":"TWR","freq":118.25,"desc":"Sumburgh Tower"},
+{"type":"APP","freq":123.15,"desc":"Sumburgh Radar"}
+]
+,"ils":[
+{"type":"ILS","freq":108.5,"lat":59.88012500,"lon":-1.30345000,"rng_nm":18,"alt_fmsl":20,"hdg":259.63,"id":"ISG","rwy":"27","desc":"ILS-cat-I"},
+{"type":"LOC","freq":108.5,"lat":59.88253600,"lon":-1.28944400,"rng_nm":18,"alt_fmsl":20,"id":"SUB","rwy":"09","desc":"LOC"},
+{"type":"GS","freq":108.5,"lat":59.88245600,"lon":-1.28921400,"rng_nm":10,"alt_fmsl":35,"id":"ISG","rwy":"27","desc":"GS","gs":3},
+{"type":"DME","freq":108.5,"lat":59.88233600,"lon":-1.29535000,"rng_nm":18,"alt_fmsl":20,"id":"SUB","rwy":"09","desc":"DME-ILS"},
+{"type":"DME","freq":108.5,"lat":59.88233600,"lon":-1.29535000,"rng_nm":18,"alt_fmsl":20,"id":"ISG","rwy":"27","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":71.2,"dist_nm":0.1,"freq":117.35,"lat":59.87888900,"lon":-1.28666700,"rng_nm":200,"alt_fmsl":19,"id":"SUM","desc":"SUMBURGH VOR-DME"},
+{"type":"NDB","hdg_t":336.1,"dist_nm":0.2,"freq":351,"lat":59.88237500,"lon":-1.29483300,"rng_nm":25,"alt_fmsl":0,"id":"SBH","desc":"SUMBURGH NDB"},
+{"type":"NDB","hdg_t":3.8,"dist_nm":18.7,"freq":376,"lat":60.18873000,"lon":-1.24926700,"rng_nm":25,"alt_fmsl":0,"id":"TL","desc":"TINGWALL NDB"},
+{"type":"NDB","hdg_t":3.6,"dist_nm":35,"freq":315,"lat":60.46018100,"lon":-1.21534200,"rng_nm":25,"alt_fmsl":0,"id":"SS","desc":"SCATSTA NDB"},
+{"type":"VOR","hdg_t":222.3,"dist_nm":73.9,"freq":108.6,"lat":58.95967200,"lon":-2.89394700,"rng_nm":25,"alt_fmsl":65,"id":"KWL","desc":"KIRKWALL VOR-DME"},
+{"type":"NDB","hdg_t":222.6,"dist_nm":74.2,"freq":395,"lat":58.95962200,"lon":-2.91158100,"rng_nm":40,"alt_fmsl":0,"id":"KW","desc":"KIRKWALL NDB"},
+{"type":"NDB","hdg_t":222.8,"dist_nm":84.9,"freq":357,"lat":58.82986100,"lon":-3.14505600,"rng_nm":20,"alt_fmsl":0,"id":"IOF","desc":"FLOTTA NDB"},
+{"type":"NDB","hdg_t":213.2,"dist_nm":102,"freq":344,"lat":58.44673100,"lon":-3.06311900,"rng_nm":40,"alt_fmsl":0,"id":"WCK","desc":"WICK NDB"},
+{"type":"VOR","hdg_t":213.9,"dist_nm":102,"freq":113.6,"lat":58.45888900,"lon":-3.10027800,"rng_nm":130,"alt_fmsl":110,"id":"WIK","desc":"WICK VOR-DME"},
+{"type":"NDB","hdg_t":51.1,"dist_nm":132.7,"freq":333,"lat":61.21472200,"lon":2.27361100,"rng_nm":50,"alt_fmsl":312,"id":"GFC","desc":"GULLFAKS NDB-DME"}
+]
+}

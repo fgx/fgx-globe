@@ -1,0 +1,39 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KMMV","name":"Mc Minnville Muni","lat":45.1943485,"lon":-123.135667255,"rwys":2,"ils":1,"index":926155,"path":"w130n40/w124n45"
+,"runways":[
+{"len_m":1651,"wid_m":46.02,"hdg":57,"surf":"Asphalt","rwy1":"04","lat1":45.19175600,"lon1":-123.14818101,"rwy2":"22","lat2":45.19980800,"lon2":-123.13051101},
+{"len_m":1425,"wid_m":46.02,"hdg":185,"surf":"Asphalt","rwy1":"17","lat1":45.19929400,"lon1":-123.13105800,"rwy2":"35","lat2":45.18653600,"lon2":-123.13291900}
+]
+,"radios":[
+{"type":"ATIS","freq":135.67,"desc":"ASOS"},
+{"type":"CTAF","freq":123,"desc":"CTAF/UNICOM"},
+{"type":"CLD","freq":118.35,"desc":"PORTLAND CLNC DEL"},
+{"type":"APP","freq":126,"desc":"PORTLAND APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.9,"lat":45.19019400,"lon":-123.15160000,"rng_nm":18,"alt_fmsl":158,"hdg":237.09,"id":"IMMV","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.9,"lat":45.19739700,"lon":-123.13315600,"rng_nm":10,"alt_fmsl":160,"id":"IMMV","rwy":"22","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":45.24613100,"lon":-123.02973600,"rng_nm":0,"alt_fmsl":158,"id":"----","rwy":"22","desc":"OM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":55.2,"dist_nm":5.4,"freq":383,"lat":45.24613100,"lon":-123.02973600,"rng_nm":50,"alt_fmsl":159,"id":"MM","desc":"MINNE NDB"},
+{"type":"VOR","hdg_t":34.9,"dist_nm":11.6,"freq":117.4,"lat":45.35322222,"lon":-122.97816667,"rng_nm":130,"alt_fmsl":1440,"id":"UBG","desc":"NEWBERG VOR-DME"},
+{"type":"NDB","hdg_t":70.8,"dist_nm":16.3,"freq":366,"lat":45.28339200,"lon":-122.77036400,"rng_nm":25,"alt_fmsl":157,"id":"PLV","desc":"PRAHL NDB"},
+{"type":"NDB","hdg_t":159.2,"dist_nm":22.2,"freq":266,"lat":44.84744444,"lon":-122.95102778,"rng_nm":50,"alt_fmsl":0,"id":"SL","desc":"TURNO NDB"},
+{"type":"NDB","hdg_t":8.2,"dist_nm":26.4,"freq":356,"lat":45.63027778,"lon":-123.04580556,"rng_nm":50,"alt_fmsl":0,"id":"PND","desc":"BANKS NDB"},
+{"type":"SDME","hdg_t":42.9,"dist_nm":32.4,"freq":109.2,"lat":45.58863100,"lon":-122.61125300,"rng_nm":130,"alt_fmsl":22,"id":"CBU","desc":"COLUMBIA TACAN"},
+{"type":"VOR","hdg_t":42.8,"dist_nm":32.7,"freq":111.8,"lat":45.59369444,"lon":-122.60627778,"rng_nm":40,"alt_fmsl":23,"id":"PDX","desc":"PORTLAND VOR-DME"},
+{"type":"NDB","hdg_t":53.6,"dist_nm":35.2,"freq":332,"lat":45.54105556,"lon":-122.46233333,"rng_nm":50,"alt_fmsl":0,"id":"LBH","desc":"LAKER (LOM/NDB) NDB"},
+{"type":"NDB","hdg_t":189.4,"dist_nm":35.3,"freq":225,"lat":44.61358333,"lon":-123.27066667,"rng_nm":50,"alt_fmsl":0,"id":"LWG","desc":"LEWISBURG NDB"},
+{"type":"VOR","hdg_t":34.4,"dist_nm":40.3,"freq":116.6,"lat":45.74780556,"lon":-122.59152778,"rng_nm":130,"alt_fmsl":253,"id":"BTG","desc":"BATTLEGROUND VORTAC"},
+{"type":"VOR","hdg_t":189.2,"dist_nm":42.2,"freq":115.4,"lat":44.49958333,"lon":-123.29366667,"rng_nm":130,"alt_fmsl":241,"id":"CVO","desc":"CORVALLIS VOR-DME"},
+{"type":"NDB","hdg_t":232.1,"dist_nm":50.3,"freq":350,"lat":44.67600000,"lon":-124.06511111,"rng_nm":50,"alt_fmsl":0,"id":"ON","desc":"AGGET NDB"},
+{"type":"VOR","hdg_t":227,"dist_nm":54.1,"freq":117.1,"lat":44.57536111,"lon":-124.06058333,"rng_nm":130,"alt_fmsl":147,"id":"ONP","desc":"NEWPORT VORTAC"},
+{"type":"NDB","hdg_t":9.1,"dist_nm":58.4,"freq":256,"lat":46.15547222,"lon":-122.91263889,"rng_nm":50,"alt_fmsl":0,"id":"LSO","desc":"KELSO NDB"},
+{"type":"NDB","hdg_t":341.6,"dist_nm":59.8,"freq":201,"lat":46.13952778,"lon":-123.58730556,"rng_nm":50,"alt_fmsl":0,"id":"PEN","desc":"KARPEN NDB"},
+{"type":"VOR","hdg_t":183.3,"dist_nm":64.5,"freq":112.9,"lat":44.12088889,"lon":-123.22283333,"rng_nm":130,"alt_fmsl":364,"id":"EUG","desc":"EUGENE VORTAC"},
+{"type":"VOR","hdg_t":331.9,"dist_nm":65.9,"freq":114,"lat":46.16169444,"lon":-123.88036111,"rng_nm":40,"alt_fmsl":10,"id":"AST","desc":"ASTORIA VOR-DME"},
+{"type":"VOR","hdg_t":69.3,"dist_nm":91.4,"freq":112.3,"lat":45.71355556,"lon":-121.10083333,"rng_nm":130,"alt_fmsl":3220,"id":"LTJ","desc":"KLICKITAT VOR-DME"},
+{"type":"VOR","hdg_t":125.1,"dist_nm":96.6,"freq":117.6,"lat":44.25275000,"lon":-121.30352778,"rng_nm":130,"alt_fmsl":4101,"id":"DSD","desc":"DESCHUTES VORTAC"}
+]
+}

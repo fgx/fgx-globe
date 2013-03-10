@@ -1,0 +1,37 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VVTS","name":"Tan Son Nhat Intl","lat":10.818749915,"lon":106.651734765,"rwys":2,"ils":2,"index":4692277,"path":"e100n10/e106n10"
+,"runways":[
+{"len_m":3846,"wid_m":45.11,"hdg":69,"surf":"Concrete","rwy1":"07R","lat1":10.81132524,"lon1":106.63685200,"rwy2":"25L","lat2":10.82377242,"lon2":106.66969319},
+{"len_m":3047,"wid_m":45.11,"hdg":69,"surf":"Asphalt","rwy1":"07L","lat1":10.81504167,"lon1":106.63717620,"rwy2":"25R","lat2":10.82486033,"lon2":106.66321766}
+]
+,"radios":[
+{"type":"ATIS","freq":128,"desc":"ATIS"},
+{"type":"GND","freq":121.6,"desc":"GND"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.7,"desc":"TWR"},
+{"type":"TWR","freq":130,"desc":"TWR"},
+{"type":"APP","freq":125.5,"desc":"APP"},
+{"type":"APP","freq":134.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":108.3,"lat":10.81048600,"lon":106.63451400,"rng_nm":18,"alt_fmsl":24,"hdg":248.96,"id":"SGN","rwy":"25L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.5,"lat":10.81393100,"lon":106.63424200,"rng_nm":18,"alt_fmsl":25,"hdg":248.99,"id":"HCM","rwy":"25R","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.3,"lat":10.82370000,"lon":106.66660300,"rng_nm":10,"alt_fmsl":49,"id":"SGN","rwy":"25L","desc":"GS","gs":3},
+{"type":"GS","freq":110.5,"lat":10.82486100,"lon":106.66012200,"rng_nm":10,"alt_fmsl":32,"id":"HCM","rwy":"25R","desc":"GS","gs":3},
+{"type":"DME","freq":108.3,"lat":10.82370000,"lon":106.66660300,"rng_nm":18,"alt_fmsl":33,"id":"SGN","rwy":"25L","desc":"DME-ILS"},
+{"type":"DME","freq":110.5,"lat":10.82486100,"lon":106.66012200,"rng_nm":18,"alt_fmsl":33,"id":"HCM","rwy":"25R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":249.1,"dist_nm":0.3,"freq":116.7,"lat":10.81643300,"lon":106.64557500,"rng_nm":143,"alt_fmsl":52,"id":"TSN","desc":"TANSONNHAT VOR-DME"},
+{"type":"NDB","hdg_t":64.7,"dist_nm":1.3,"freq":375,"lat":10.82809200,"lon":106.67175800,"rng_nm":50,"alt_fmsl":0,"id":"GV","desc":"TANSONNHAT NDB"},
+{"type":"NDB","hdg_t":72.5,"dist_nm":1.6,"freq":343,"lat":10.82690000,"lon":106.67797500,"rng_nm":50,"alt_fmsl":0,"id":"GN","desc":"TANSONNHAT NDB"},
+{"type":"NDB","hdg_t":68.1,"dist_nm":6.3,"freq":358,"lat":10.85806400,"lon":106.75112800,"rng_nm":50,"alt_fmsl":0,"id":"TD","desc":"TANSONNHAT NDB"},
+{"type":"NDB","hdg_t":69.9,"dist_nm":6.3,"freq":326,"lat":10.85491700,"lon":106.75226700,"rng_nm":50,"alt_fmsl":0,"id":"SG","desc":"TANSONNHAT NDB"},
+{"type":"NDB","hdg_t":77.1,"dist_nm":32.4,"freq":320,"lat":10.93916700,"lon":107.18833300,"rng_nm":73,"alt_fmsl":0,"id":"AC","desc":"ANLOC NDB"},
+{"type":"VOR","hdg_t":135.5,"dist_nm":37.1,"freq":114.7,"lat":10.37416700,"lon":107.09138900,"rng_nm":180,"alt_fmsl":0,"id":"VTV","desc":"VUNGTAU VOR"},
+{"type":"NDB","hdg_t":135.7,"dist_nm":37.8,"freq":235,"lat":10.36500000,"lon":107.09833300,"rng_nm":50,"alt_fmsl":0,"id":"XVL","desc":"VUNGTAU NDB"},
+{"type":"NDB","hdg_t":136.7,"dist_nm":38.8,"freq":291,"lat":10.34416700,"lon":107.10250000,"rng_nm":50,"alt_fmsl":0,"id":"VT","desc":"VUNGTAU NDB"},
+{"type":"NDB","hdg_t":231.5,"dist_nm":69.6,"freq":420,"lat":10.09138900,"lon":105.73027800,"rng_nm":50,"alt_fmsl":0,"id":"CT","desc":"CAN THO NDB"},
+{"type":"VOR","hdg_t":85.4,"dist_nm":83.9,"freq":114.1,"lat":10.92777800,"lon":108.07027800,"rng_nm":113,"alt_fmsl":31,"id":"PHT","desc":"PHANTHIET VOR-DME"}
+]
+}

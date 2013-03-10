@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UAUU","name":"Kostanay","lat":53.206667,"lon":63.550833,"rwys":1,"ils":2,"index":3990474,"path":"e060n50/e063n53"
+,"runways":[
+{"len_m":2441,"wid_m":47.85,"hdg":155,"surf":"Asphalt","rwy1":"15","lat1":53.21666700,"lon1":63.54333300,"rwy2":"33","lat2":53.19666700,"lon2":63.55833300}
+]
+,"radios":[
+{"type":"TWR","freq":129.3,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":111.7,"lat":53.18873100,"lon":63.56309200,"rng_nm":18,"alt_fmsl":595,"hdg":157.05,"id":"IKT","rwy":"15","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.7,"lat":53.22447800,"lon":63.53772800,"rng_nm":18,"alt_fmsl":595,"hdg":336.07,"id":"INA","rwy":"33","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.7,"lat":53.21446900,"lon":63.54288300,"rng_nm":10,"alt_fmsl":595,"id":"IKT","rwy":"15","desc":"GS","gs":2.4},
+{"type":"GS","freq":110.7,"lat":53.19866400,"lon":63.55410600,"rng_nm":10,"alt_fmsl":595,"id":"INA","rwy":"33","desc":"GS","gs":2.4}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":336.5,"dist_nm":2.8,"freq":512,"lat":53.25000000,"lon":63.51944400,"rng_nm":50,"alt_fmsl":594,"id":"KT","desc":"KOSTANAY NDB"},
+{"type":"NDB","hdg_t":156.6,"dist_nm":2.9,"freq":512,"lat":53.16230300,"lon":63.58264400,"rng_nm":50,"alt_fmsl":594,"id":"NA","desc":"KOSTANAY NDB"},
+{"type":"NDB","hdg_t":330,"dist_nm":86.6,"freq":1020,"lat":54.45000000,"lon":62.31666700,"rng_nm":80,"alt_fmsl":0,"id":"WW","desc":"VAGANOVO NDB"},
+{"type":"NDB","hdg_t":352.3,"dist_nm":137.1,"freq":1150,"lat":55.46666700,"lon":63.01666700,"rng_nm":80,"alt_fmsl":0,"id":"BN","desc":"BOLSHAYA NIKOLAYEVKA NDB"},
+{"type":"NDB","hdg_t":331.9,"dist_nm":143.1,"freq":412,"lat":55.29333300,"lon":61.58833300,"rng_nm":80,"alt_fmsl":0,"id":"KS","desc":"CHELYABINSK NDB"},
+{"type":"VOR","hdg_t":331.3,"dist_nm":145,"freq":113.3,"lat":55.30666700,"lon":61.52000000,"rng_nm":130,"alt_fmsl":771,"id":"LBN","desc":"CHELYABINSK VOR-DME"},
+{"type":"NDB","hdg_t":330.2,"dist_nm":147.2,"freq":452,"lat":55.31666700,"lon":61.42166700,"rng_nm":80,"alt_fmsl":0,"id":"LB","desc":"CHELYABINSK NDB"},
+{"type":"VOR","hdg_t":275.8,"dist_nm":172.9,"freq":114.1,"lat":53.40333300,"lon":58.75666700,"rng_nm":40,"alt_fmsl":1401,"id":"MGR","desc":"MAGNITOGORSK VOR-DME"},
+{"type":"NDB","hdg_t":274.6,"dist_nm":173.6,"freq":480,"lat":53.34500000,"lon":58.73333300,"rng_nm":80,"alt_fmsl":0,"id":"RF","desc":"MAGNITOGORSK NDB"},
+{"type":"NDB","hdg_t":339.3,"dist_nm":173.8,"freq":579,"lat":55.90000000,"lon":61.73333300,"rng_nm":80,"alt_fmsl":0,"id":"TH","desc":"TAKHTALYM NDB"}
+]
+}

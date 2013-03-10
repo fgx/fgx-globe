@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PASC","name":"Deadhorse","lat":70.194754,"lon":-148.46516216,"rwys":1,"ils":1,"index":518153,"path":"w150n70/w149n70"
+,"runways":[
+{"len_m":1990,"wid_m":46.02,"hdg":74,"surf":"Asphalt","rwy1":"04","lat1":70.19244722,"lon1":-148.49057672,"rwy2":"22","lat2":70.19706078,"lon2":-148.43974760}
+]
+,"radios":[
+{"type":"ATIS","freq":118.4,"desc":"ATIS"},
+{"type":"CTAF","freq":123.6,"desc":"CTAF"},
+{"type":"CTAF","freq":123,"desc":"UNICOM"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":70.19848900,"lon":-148.42401900,"rng_nm":18,"alt_fmsl":64,"hdg":75.03,"id":"ISCC","rwy":"04","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":70.19201700,"lon":-148.48105000,"rng_nm":10,"alt_fmsl":52,"id":"ISCC","rwy":"04","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":75,"dist_nm":1,"freq":113.9,"lat":70.19919444,"lon":-148.41616667,"rng_nm":130,"alt_fmsl":76,"id":"SCC","desc":"DEADHORSE VOR-DME"},
+{"type":"NDB","hdg_t":30.7,"dist_nm":1.9,"freq":376,"lat":70.22266667,"lon":-148.41619444,"rng_nm":50,"alt_fmsl":0,"id":"PVQ","desc":"PUT RIVER NDB"},
+{"type":"NDB","hdg_t":289.1,"dist_nm":25.1,"freq":290,"lat":70.32802778,"lon":-149.63533333,"rng_nm":50,"alt_fmsl":0,"id":"PYC","desc":"PITSAND NDB"},
+{"type":"NDB","hdg_t":272.3,"dist_nm":51.7,"freq":241,"lat":70.21216667,"lon":-151.00083333,"rng_nm":50,"alt_fmsl":0,"id":"UQS","desc":"NUIQSUT VILLAGE NDB"},
+{"type":"NDB","hdg_t":192.4,"dist_nm":105.6,"freq":417,"lat":68.47902778,"lon":-149.49847222,"rng_nm":50,"alt_fmsl":0,"id":"GBH","desc":"GALBRAITH LAKE NDB"},
+{"type":"NDB","hdg_t":233.7,"dist_nm":130.8,"freq":268,"lat":68.84013889,"lon":-153.31600000,"rng_nm":50,"alt_fmsl":0,"id":"ACU","desc":"EAST KUPURA NDB"},
+{"type":"NDB","hdg_t":211.1,"dist_nm":142.4,"freq":348,"lat":68.13663889,"lon":-151.74425000,"rng_nm":50,"alt_fmsl":0,"id":"AKP","desc":"ANAKTUVUK PASS NDB"},
+{"type":"NDB","hdg_t":180,"dist_nm":162.1,"freq":263,"lat":67.50238889,"lon":-148.46938889,"rng_nm":50,"alt_fmsl":0,"id":"CQR","desc":"CHANDALAR LAKE NDB"},
+{"type":"VOR","hdg_t":295.3,"dist_nm":177.6,"freq":116.2,"lat":71.27341667,"lon":-156.78811111,"rng_nm":130,"alt_fmsl":60,"id":"BRW","desc":"BARROW VOR-DME"},
+{"type":"NDB","hdg_t":295.5,"dist_nm":177.7,"freq":281,"lat":71.28230556,"lon":-156.78127778,"rng_nm":50,"alt_fmsl":0,"id":"VIR","desc":"BROWERVILLE NDB"}
+]
+}

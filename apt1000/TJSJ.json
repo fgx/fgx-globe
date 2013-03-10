@@ -1,0 +1,37 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"TJSJ","name":"San Juan - Luis Munoz Marin Intl","lat":18.43877675,"lon":-66.00201825,"rwys":2,"ils":2,"index":1858335,"path":"w070n10/w067n18"
+,"runways":[
+{"len_m":2981,"wid_m":60.96,"hdg":66,"surf":"Asphalt","rwy1":"08","lat1":18.43875600,"lon1":-66.01486400,"rwy2":"26","lat2":18.44928400,"lon2":-65.98888100},
+{"len_m":2443,"wid_m":46.02,"hdg":90,"surf":"Concrete","rwy1":"10","lat1":18.43356100,"lon1":-66.01372800,"rwy2":"28","lat2":18.43350600,"lon2":-65.99060000}
+]
+,"radios":[
+{"type":"ATIS","freq":125.8,"desc":"ATIS"},
+{"type":"CTAF","freq":123,"desc":"UNICOM"},
+{"type":"CLD","freq":126.4,"desc":"SAN JUAN CLNC DEL"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":132.05,"desc":"SAN JUAN TWR"},
+{"type":"APP","freq":120.9,"desc":"SAN JUAN APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":18.45024700,"lon":-65.98650300,"rng_nm":18,"alt_fmsl":5,"hdg":66.88,"id":"ISJU","rwy":"08","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.7,"lat":18.43349700,"lon":-65.98764700,"rng_nm":18,"alt_fmsl":9,"hdg":90.15,"id":"ICLA","rwy":"10","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":18.44084400,"lon":-66.01266100,"rng_nm":10,"alt_fmsl":9,"id":"ISJU","rwy":"08","desc":"GS","gs":3},
+{"type":"GS","freq":109.7,"lat":18.43265600,"lon":-66.01084700,"rng_nm":10,"alt_fmsl":8,"id":"ICLA","rwy":"10","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":18.40891100,"lon":-66.08955600,"rng_nm":0,"alt_fmsl":5,"id":"----","rwy":"08","desc":"OM"},
+{"type":"OM","freq":0,"lat":18.43357200,"lon":-66.08446100,"rng_nm":0,"alt_fmsl":9,"id":"----","rwy":"10","desc":"OM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":57.8,"dist_nm":0.8,"freq":114,"lat":18.44627778,"lon":-65.98950000,"rng_nm":130,"alt_fmsl":7,"id":"SJU","desc":"SAN JUAN VORTAC"},
+{"type":"NDB","hdg_t":250.3,"dist_nm":5.3,"freq":330,"lat":18.40891111,"lon":-66.08955556,"rng_nm":50,"alt_fmsl":0,"id":"SJ","desc":"PATTY NDB"},
+{"type":"NDB","hdg_t":274.3,"dist_nm":23.4,"freq":391,"lat":18.46827778,"lon":-66.41238889,"rng_nm":75,"alt_fmsl":0,"id":"DDP","desc":"DORADO NDB"},
+{"type":"SDME","hdg_t":120.8,"dist_nm":23.8,"freq":113.8,"lat":18.23376700,"lon":-65.64331900,"rng_nm":130,"alt_fmsl":275,"id":"NRR","desc":"ROOSEVELT ROADS TACAN"},
+{"type":"VOR","hdg_t":227.9,"dist_nm":39.7,"freq":109,"lat":17.99244444,"lon":-66.51916667,"rng_nm":40,"alt_fmsl":16,"id":"PSE","desc":"PONCE VOR-DME"},
+{"type":"VOR","hdg_t":94.9,"dist_nm":55.9,"freq":108.6,"lat":18.35580556,"lon":-65.02455556,"rng_nm":40,"alt_fmsl":679,"id":"STT","desc":"ST THOMAS VOR-DME"},
+{"type":"VOR","hdg_t":273.3,"dist_nm":63.1,"freq":113.5,"lat":18.49800000,"lon":-67.10836111,"rng_nm":130,"alt_fmsl":214,"id":"BQN","desc":"BORINQUEN VORTAC"},
+{"type":"VOR","hdg_t":260.7,"dist_nm":66.4,"freq":110.6,"lat":18.25644444,"lon":-67.15102778,"rng_nm":40,"alt_fmsl":18,"id":"MAZ","desc":"MAYAGUEZ VOR-DME"},
+{"type":"NDB","hdg_t":260.6,"dist_nm":66.5,"freq":254,"lat":18.25375810,"lon":-67.15248530,"rng_nm":25,"alt_fmsl":18,"id":"MAZ","desc":"MAYAGUEZ NDB"},
+{"type":"NDB","hdg_t":124.7,"dist_nm":77.9,"freq":241,"lat":17.69191700,"lon":-64.88466700,"rng_nm":25,"alt_fmsl":0,"id":"SX","desc":"PESTE NDB"},
+{"type":"NDB","hdg_t":89.4,"dist_nm":83.6,"freq":360,"lat":18.44583333,"lon":-64.53583333,"rng_nm":50,"alt_fmsl":0,"id":"BFI","desc":"TERRANCE B LETTSO NDB"},
+{"type":"VOR","hdg_t":119.3,"dist_nm":85.4,"freq":108.2,"lat":17.73444444,"lon":-64.70072222,"rng_nm":40,"alt_fmsl":850,"id":"COY","desc":"ST CROIX VOR-DME"}
+]
+}

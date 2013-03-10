@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MMUN","name":"Cancun International","lat":21.042287,"lon":-86.8733325,"rwys":2,"ils":2,"index":1530817,"path":"w090n20/w087n21"
+,"runways":[
+{"len_m":3490,"wid_m":57.91,"hdg":123,"surf":"Asphalt","rwy1":"12R","lat1":21.04529800,"lon1":-86.89098800,"rwy2":"30L","lat2":21.02780800,"lon2":-86.86304400},
+{"len_m":2787,"wid_m":45.11,"hdg":123,"surf":"Asphalt","rwy1":"12L","lat1":21.05496400,"lon1":-86.88083500,"rwy2":"30R","lat2":21.04107800,"lon2":-86.85846300}
+]
+,"radios":[
+{"type":"ATIS","freq":127.7,"desc":"ATIS"},
+{"type":"GND","freq":123.2,"desc":"Radio Ground Control"},
+{"type":"TWR","freq":118.6,"desc":"Radio Tower"},
+{"type":"APP","freq":121.1,"desc":"Radio Approach"},
+{"type":"DEP","freq":128.3,"desc":"Radio Departure Merida Center"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":21.04031801,"lon":-86.85723722,"rng_nm":18,"alt_fmsl":20,"hdg":123.63,"id":"INCP","rwy":"12L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.1,"lat":21.02647200,"lon":-86.86087200,"rng_nm":18,"alt_fmsl":20,"hdg":123.82,"id":"ICUN","rwy":"12R","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":21.05275982,"lon":-86.87887589,"rng_nm":10,"alt_fmsl":20,"id":"INCP","rwy":"12L","desc":"GS","gs":3},
+{"type":"GS","freq":111.1,"lat":21.04289200,"lon":-86.88915300,"rng_nm":10,"alt_fmsl":20,"id":"ICUN","rwy":"12R","desc":"GS","gs":3},
+{"type":"DME","freq":110.7,"lat":21.05275982,"lon":-86.87887589,"rng_nm":18,"alt_fmsl":20,"id":"INCP","rwy":"12L","desc":"DME-ILS"},
+{"type":"DME","freq":111.1,"lat":21.04289200,"lon":-86.88915300,"rng_nm":18,"alt_fmsl":20,"id":"ICUN","rwy":"12R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":101.5,"dist_nm":1,"freq":114.5,"lat":21.03868700,"lon":-86.85460400,"rng_nm":40,"alt_fmsl":19,"id":"NCP","desc":"Nichupte VOR-DME"},
+{"type":"VOR","hdg_t":141.3,"dist_nm":1.3,"freq":113.6,"lat":21.02511111,"lon":-86.85872222,"rng_nm":130,"alt_fmsl":20,"id":"CUN","desc":"CANCUN VOR-DME"},
+{"type":"VOR","hdg_t":185.7,"dist_nm":31.2,"freq":112.6,"lat":20.52205556,"lon":-86.92927778,"rng_nm":130,"alt_fmsl":15,"id":"CZM","desc":"COZUMEL VOR-DME"},
+{"type":"NDB","hdg_t":186.2,"dist_nm":31.2,"freq":330,"lat":20.52195000,"lon":-86.93393300,"rng_nm":50,"alt_fmsl":15,"id":"CZM","desc":"COZUMEL NDB"},
+{"type":"VOR","hdg_t":255.1,"dist_nm":91.6,"freq":116.5,"lat":20.64305800,"lon":-88.44823100,"rng_nm":130,"alt_fmsl":102,"id":"CZA","desc":"KAUA VOR-DME"},
+{"type":"VOR","hdg_t":268.2,"dist_nm":156.3,"freq":117.7,"lat":20.93805556,"lon":-89.65622222,"rng_nm":130,"alt_fmsl":38,"id":"MID","desc":"MERIDA VOR-DME"},
+{"type":"NDB","hdg_t":275.4,"dist_nm":159.8,"freq":280,"lat":21.27338900,"lon":-89.71361900,"rng_nm":50,"alt_fmsl":18,"id":"MPG","desc":"PROGRESO NDB"},
+{"type":"NDB","hdg_t":268.5,"dist_nm":160.2,"freq":280,"lat":20.95252778,"lon":-89.72702778,"rng_nm":50,"alt_fmsl":0,"id":"MID","desc":"MERIDA NDB"},
+{"type":"VOR","hdg_t":208.8,"dist_nm":172.4,"freq":116.3,"lat":18.50930556,"lon":-88.33366667,"rng_nm":130,"alt_fmsl":39,"id":"CTM","desc":"CHETUMAL VOR-DME"},
+{"type":"VOR","hdg_t":251.1,"dist_nm":217,"freq":116.2,"lat":19.83083333,"lon":-90.50394444,"rng_nm":130,"alt_fmsl":34,"id":"CPE","desc":"CAMPECHE VOR-DME"}
+]
+}

@@ -1,0 +1,53 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LGTS","name":"Thessalonik Makedonia","lat":40.5195215,"lon":22.97201675,"rwys":2,"ils":2,"index":3317923,"path":"e020n40/e022n40"
+,"runways":[
+{"len_m":2412,"wid_m":60.05,"hdg":166,"surf":"Asphalt","rwy1":"16","lat1":40.53027800,"lon1":22.96761100,"rwy2":"34","lat2":40.50916900,"lon2":22.97435300},
+{"len_m":2440,"wid_m":49.99,"hdg":103,"surf":"Asphalt","rwy1":"10","lat1":40.52196100,"lon1":22.95907500,"rwy2":"28","lat2":40.51667800,"lon2":22.98702800}
+]
+,"radios":[
+{"type":"ATIS","freq":127.55,"desc":"ATIS"},
+{"type":"CLD","freq":118.05,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":122.1,"desc":"TWR"},
+{"type":"APP","freq":122.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":40.51597500,"lon":22.99071400,"rng_nm":18,"alt_fmsl":19,"hdg":103.99,"id":"IMAK","rwy":"10","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":40.50666700,"lon":22.97500000,"rng_nm":18,"alt_fmsl":16,"hdg":166.62,"id":"ITSL","rwy":"16","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":40.52233300,"lon":22.96305000,"rng_nm":10,"alt_fmsl":8,"id":"IMAK","rwy":"10","desc":"GS","gs":3},
+{"type":"GS","freq":110.3,"lat":40.52694400,"lon":22.96722200,"rng_nm":10,"alt_fmsl":16,"id":"ITSL","rwy":"16","desc":"GS","gs":3},
+{"type":"DME","freq":109.5,"lat":40.52233300,"lon":22.96305000,"rng_nm":18,"alt_fmsl":8,"id":"IMAK","rwy":"10","desc":"DME-ILS"},
+{"type":"DME","freq":110.3,"lat":40.52683300,"lon":22.96725000,"rng_nm":18,"alt_fmsl":16,"id":"ITSL","rwy":"16","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":244.7,"dist_nm":0.1,"freq":110.8,"lat":40.51872500,"lon":22.96980000,"rng_nm":40,"alt_fmsl":22,"id":"MKR","desc":"MIKRA VOR-DME"},
+{"type":"SDME","hdg_t":119.6,"dist_nm":0.2,"freq":115.3,"lat":40.51750000,"lon":22.97666700,"rng_nm":25,"alt_fmsl":22,"id":"MKA","desc":"MIKRA TACAN"},
+{"type":"SDME","hdg_t":166.2,"dist_nm":3.7,"freq":117.4,"lat":40.45805600,"lon":22.99166700,"rng_nm":25,"alt_fmsl":22,"id":"MIK","desc":"MIKRA TACAN"},
+{"type":"VOR","hdg_t":166.8,"dist_nm":3.8,"freq":112.1,"lat":40.45694400,"lon":22.99111100,"rng_nm":130,"alt_fmsl":665,"id":"TSL","desc":"THESSALONIKI VOR-DME"},
+{"type":"NDB","hdg_t":346.1,"dist_nm":4.5,"freq":345,"lat":40.59360000,"lon":22.94808600,"rng_nm":80,"alt_fmsl":0,"id":"THS","desc":"THESSALONIKI NDB"},
+{"type":"NDB","hdg_t":288.9,"dist_nm":23.3,"freq":394,"lat":40.64472200,"lon":22.48916700,"rng_nm":50,"alt_fmsl":0,"id":"GDA","desc":"ALEXANDRIA NDB"},
+{"type":"NDB","hdg_t":1.4,"dist_nm":34.7,"freq":314,"lat":41.09861100,"lon":22.99166700,"rng_nm":40,"alt_fmsl":0,"id":"FIS","desc":"FISKA NDB"},
+{"type":"VOR","hdg_t":1.5,"dist_nm":34.8,"freq":116.4,"lat":41.09972200,"lon":22.99222200,"rng_nm":40,"alt_fmsl":1312,"id":"FSK","desc":"FISKA VOR-DME"},
+{"type":"NDB","hdg_t":255.4,"dist_nm":53.6,"freq":291,"lat":40.28903100,"lon":21.84200800,"rng_nm":50,"alt_fmsl":0,"id":"KZN","desc":"KOZANI NDB"},
+{"type":"VOR","hdg_t":255.2,"dist_nm":53.7,"freq":109.6,"lat":40.28513300,"lon":21.84044400,"rng_nm":25,"alt_fmsl":2055,"id":"KOZ","desc":"KOZANI VOR-DME"},
+{"type":"SDME","hdg_t":202.6,"dist_nm":56.1,"freq":109,"lat":39.65458900,"lon":22.50655500,"rng_nm":130,"alt_fmsl":241,"id":"LAR","desc":"LARISA TACAN"},
+{"type":"NDB","hdg_t":204.3,"dist_nm":57.4,"freq":362,"lat":39.64541900,"lon":22.46155400,"rng_nm":100,"alt_fmsl":0,"id":"LSA","desc":"LARISA NDB"},
+{"type":"VOR","hdg_t":188.5,"dist_nm":62.9,"freq":112.9,"lat":39.48013900,"lon":22.77156300,"rng_nm":25,"alt_fmsl":146,"id":"STV","desc":"STEFANOVIKION VOR"},
+{"type":"NDB","hdg_t":189.3,"dist_nm":64,"freq":522,"lat":39.46569500,"lon":22.74934100,"rng_nm":25,"alt_fmsl":0,"id":"STF","desc":"STEFANOVIKION NDB"},
+{"type":"NDB","hdg_t":267.2,"dist_nm":77.6,"freq":372,"lat":40.44472200,"lon":21.27944400,"rng_nm":25,"alt_fmsl":0,"id":"KSO","desc":"KASTORIA NDB"},
+{"type":"VOR","hdg_t":267.5,"dist_nm":77.7,"freq":114.5,"lat":40.45098500,"lon":21.27540700,"rng_nm":25,"alt_fmsl":2148,"id":"KAS","desc":"KASTORIA VOR-DME"},
+{"type":"NDB","hdg_t":185.8,"dist_nm":78.4,"freq":335,"lat":39.21833300,"lon":22.79944400,"rng_nm":100,"alt_fmsl":0,"id":"NAN","desc":"NEA ANCHIALOS NDB"},
+{"type":"VOR","hdg_t":186.1,"dist_nm":78.5,"freq":110.4,"lat":39.21622200,"lon":22.79192500,"rng_nm":40,"alt_fmsl":65,"id":"AGH","desc":"ANCHIALOS VOR-DME"},
+{"type":"VOR","hdg_t":72,"dist_nm":78.5,"freq":108.8,"lat":40.91184800,"lon":24.61409500,"rng_nm":130,"alt_fmsl":23,"id":"KPL","desc":"KAVALA VOR-DME"},
+{"type":"SDME","hdg_t":71.8,"dist_nm":78.6,"freq":114.3,"lat":40.91573700,"lon":24.61603900,"rng_nm":25,"alt_fmsl":18,"id":"KRP","desc":"KAVALA TACAN"},
+{"type":"SDME","hdg_t":187.7,"dist_nm":78.9,"freq":115.6,"lat":39.21388900,"lon":22.74416700,"rng_nm":25,"alt_fmsl":313,"id":"ANL","desc":"NEA ANCHIALOS TACAN"},
+{"type":"NDB","hdg_t":71.5,"dist_nm":79.5,"freq":327,"lat":40.92684800,"lon":24.63270600,"rng_nm":25,"alt_fmsl":18,"id":"KHR","desc":"CHRISOUPOLIS NDB"},
+{"type":"NDB","hdg_t":162.9,"dist_nm":84.2,"freq":326,"lat":39.17416700,"lon":23.50083300,"rng_nm":25,"alt_fmsl":0,"id":"SKC","desc":"SKIATHOS NDB"},
+{"type":"NDB","hdg_t":305.8,"dist_nm":84.8,"freq":297,"lat":41.33777800,"lon":21.44861100,"rng_nm":80,"alt_fmsl":2034,"id":"PEP","desc":"PRILEP NDB-DME"},
+{"type":"SDME","hdg_t":305.8,"dist_nm":84.8,"freq":113.75,"lat":41.33777800,"lon":21.44861100,"rng_nm":80,"alt_fmsl":2034,"id":"PEP","desc":"PRILEP NDB-DME"},
+{"type":"SDME","hdg_t":159.5,"dist_nm":85.4,"freq":108.7,"lat":39.18124900,"lon":23.61130900,"rng_nm":150,"alt_fmsl":973,"id":"SKL","desc":"SKOPELOS TACAN"},
+{"type":"VOR","hdg_t":159.4,"dist_nm":85.5,"freq":113.4,"lat":39.18083300,"lon":23.61583300,"rng_nm":150,"alt_fmsl":1218,"id":"SKP","desc":"SKOPELOS VOR-DME"},
+{"type":"VOR","hdg_t":342.8,"dist_nm":91.8,"freq":111.45,"lat":41.98083300,"lon":22.36555600,"rng_nm":50,"alt_fmsl":3891,"id":"SIN","desc":"SINKO VOR-DME"},
+{"type":"NDB","hdg_t":321.8,"dist_nm":92.9,"freq":442,"lat":41.73166700,"lon":21.69500000,"rng_nm":50,"alt_fmsl":0,"id":"BU","desc":"SKOPJE NDB"}
+]
+}

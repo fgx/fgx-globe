@@ -1,0 +1,38 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SBRF","name":"Recife Intl","lat":-8.13230807142857,"lon":-34.9224177142857,"rwys":2,"ils":1,"index":2380912,"path":"w040s10/w035s09"
+,"runways":[
+{"len_m":3006,"wid_m":45.11,"hdg":161,"surf":"Asphalt","rwy1":"18","lat1":-8.11388100,"lon1":-34.92730000,"rwy2":"36","lat2":-8.13970800,"lon2":-34.91877800},
+{"len_m":1515,"wid_m":29.87,"hdg":124,"surf":"Asphalt","rwy1":"19","lat1":-8.12516358,"lon1":-34.92862244,"rwy2":"01","lat2":-8.13283242,"lon2":-34.91722356}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":14,"wid_m":14.02,"hdg":-34,"surf":"Asphalt","lat1":-8.13426200,"lon1":-34.92212000},
+{"rwy1":"H2","len_m":14,"wid_m":14.02,"hdg":-34,"surf":"Asphalt","lat1":-8.13506600,"lon1":-34.92184600},
+{"rwy1":"H3","len_m":14,"wid_m":14.02,"hdg":-34,"surf":"Asphalt","lat1":-8.13586000,"lon1":-34.92157000},
+{"rwy1":"H4","len_m":14,"wid_m":14.02,"hdg":-34,"surf":"Asphalt","lat1":-8.13347500,"lon1":-34.92241200},
+{"rwy1":"H5","len_m":14,"wid_m":14.02,"hdg":-34,"surf":"Asphalt","lat1":-8.13170100,"lon1":-34.92301400}
+]
+,"radios":[
+{"type":"GND","freq":118.35,"desc":"RECIFE GND"},
+{"type":"TWR","freq":118.35,"desc":"RECIFE TWR"},
+{"type":"TWR","freq":125.35,"desc":"RECIFE CTR"},
+{"type":"APP","freq":119.5,"desc":"RECIFE APP"},
+{"type":"DEP","freq":119.5,"desc":"RECIFE DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-8.14250000,"lon":-34.91829400,"rng_nm":18,"alt_fmsl":33,"hdg":162.70,"id":"IRF","rwy":"18","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-8.11717800,"lon":-34.92595000,"rng_nm":10,"alt_fmsl":33,"id":"IRF","rwy":"18","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-8.03850000,"lon":-34.95200000,"rng_nm":0,"alt_fmsl":33,"id":"----","rwy":"18","desc":"OM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":228.6,"dist_nm":0.3,"freq":116.9,"lat":-8.13658600,"lon":-34.92729700,"rng_nm":200,"alt_fmsl":33,"id":"REC","desc":"RECIFE VOR-DME"},
+{"type":"NDB","hdg_t":342.5,"dist_nm":5.8,"freq":380,"lat":-8.03850000,"lon":-34.95200000,"rng_nm":40,"alt_fmsl":0,"id":"OLD","desc":"OLINDA NDB"},
+{"type":"NDB","hdg_t":274,"dist_nm":21.7,"freq":285,"lat":-8.10650000,"lon":-35.28733300,"rng_nm":100,"alt_fmsl":0,"id":"VSA","desc":"SANTO ANTAO NDB"},
+{"type":"NDB","hdg_t":358.2,"dist_nm":59.2,"freq":320,"lat":-7.14050000,"lon":-34.95250000,"rng_nm":40,"alt_fmsl":215,"id":"JPS","desc":"JOAO PESSOA NDB"},
+{"type":"NDB","hdg_t":311.7,"dist_nm":77.5,"freq":230,"lat":-7.26601400,"lon":-35.89267200,"rng_nm":60,"alt_fmsl":1777,"id":"CPG","desc":"CAMPINA GRANDE NDB"},
+{"type":"VOR","hdg_t":211.9,"dist_nm":96.9,"freq":115.1,"lat":-9.50989400,"lon":-35.78687200,"rng_nm":130,"alt_fmsl":387,"id":"MCE","desc":"ZUMBI VOR-DME"},
+{"type":"NDB","hdg_t":212.3,"dist_nm":97.6,"freq":340,"lat":-9.51166700,"lon":-35.80450000,"rng_nm":40,"alt_fmsl":387,"id":"MCO","desc":"MACEIO NDB"},
+{"type":"VOR","hdg_t":351.6,"dist_nm":134.2,"freq":114.3,"lat":-5.90832200,"lon":-35.24858300,"rng_nm":200,"alt_fmsl":169,"id":"NTL","desc":"NATAL VOR-DME"},
+{"type":"NDB","hdg_t":351.7,"dist_nm":134.6,"freq":400,"lat":-5.90000000,"lon":-35.24633300,"rng_nm":75,"alt_fmsl":169,"id":"NTL","desc":"NATAL NDB"},
+{"type":"NDB","hdg_t":347.4,"dist_nm":167.9,"freq":205,"lat":-5.38616700,"lon":-35.53100000,"rng_nm":50,"alt_fmsl":302,"id":"MXN","desc":"MAXARANGUAPE NDB"}
+]
+}

@@ -1,0 +1,68 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ZBAA","name":"Capital Intl","lat":40.080118,"lon":116.5845625,"rwys":2,"ils":4,"index":4857986,"path":"e110n40/e116n40"
+,"runways":[
+{"len_m":3784,"wid_m":60.05,"hdg":173,"surf":"Asphalt","rwy1":"18L","lat1":40.08936100,"lon1":116.59483300,"rwy2":"36R","lat2":40.05552800,"lon2":116.60016700},
+{"len_m":3196,"wid_m":49.99,"hdg":174,"surf":"Asphalt","rwy1":"18R","lat1":40.10211100,"lon1":116.56969400,"rwy2":"36L","lat2":40.07347200,"lon2":116.57355600}
+]
+,"radios":[
+{"type":"ATIS","freq":127.6,"desc":"BEIJING ATIS"},
+{"type":"CLD","freq":121.6,"desc":"BEIJING DEL"},
+{"type":"CLD","freq":121.9,"desc":"BEIJING DEL"},
+{"type":"GND","freq":121.7,"desc":"GND EAST"},
+{"type":"GND","freq":121.9,"desc":"GND WEST"},
+{"type":"TWR","freq":118.5,"desc":"BEIJING EAST TWR"},
+{"type":"TWR","freq":118.3,"desc":"BEIJING EAST TWR"},
+{"type":"TWR","freq":124.3,"desc":"BEIJING WEST TWR"},
+{"type":"APP","freq":119.6,"desc":"BEIJING APP AREA 1"},
+{"type":"APP","freq":125.05,"desc":"BEIJING APP AREA 1"},
+{"type":"APP","freq":126.1,"desc":"BEIJING APP AREA 2"},
+{"type":"APP","freq":129,"desc":"BEIJING APP AREA 2"},
+{"type":"APP","freq":120.6,"desc":"BEIJING APP AREA 3"},
+{"type":"APP","freq":119.7,"desc":"BEIJING APP AREA 4"},
+{"type":"APP","freq":127.75,"desc":"BEIJING APP AREA 5"},
+{"type":"APP","freq":126.5,"desc":"BEIJING APP AREA 5"},
+{"type":"APP","freq":121.1,"desc":"BEIJING APP AREA 6"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":40.05260600,"lon":116.60063300,"rng_nm":18,"alt_fmsl":98,"hdg":173.12,"id":"IOR","rwy":"18L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":40.06953100,"lon":116.57418600,"rng_nm":18,"alt_fmsl":107,"hdg":173.98,"id":"ILG","rwy":"18R","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.7,"lat":40.10570600,"lon":116.56911900,"rng_nm":18,"alt_fmsl":115,"hdg":353.99,"id":"IDK","rwy":"36L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.9,"lat":40.09628900,"lon":116.59372200,"rng_nm":18,"alt_fmsl":110,"hdg":353.10,"id":"IQU","rwy":"36R","desc":"ILS-cat-II"},
+{"type":"GS","freq":109.3,"lat":40.08674400,"lon":116.59722500,"rng_nm":10,"alt_fmsl":110,"id":"IOR","rwy":"18L","desc":"GS","gs":3},
+{"type":"GS","freq":110.3,"lat":40.09942200,"lon":116.57167200,"rng_nm":10,"alt_fmsl":135,"id":"ILG","rwy":"18R","desc":"GS","gs":3},
+{"type":"GS","freq":111.7,"lat":40.07643100,"lon":116.57461700,"rng_nm":10,"alt_fmsl":107,"id":"IDK","rwy":"36L","desc":"GS","gs":3},
+{"type":"GS","freq":109.9,"lat":40.05688600,"lon":116.60178100,"rng_nm":10,"alt_fmsl":98,"id":"IQU","rwy":"36R","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":40.12198600,"lon":116.58960000,"rng_nm":0,"alt_fmsl":98,"id":"----","rwy":"18L","desc":"OM"},
+{"type":"OM","freq":0,"lat":40.13929400,"lon":116.56373100,"rng_nm":0,"alt_fmsl":107,"id":"----","rwy":"18R","desc":"OM"},
+{"type":"OM","freq":0,"lat":40.03664400,"lon":116.57944700,"rng_nm":0,"alt_fmsl":115,"id":"----","rwy":"36L","desc":"OM"},
+{"type":"OM","freq":0,"lat":39.99295600,"lon":116.61017500,"rng_nm":0,"alt_fmsl":110,"id":"----","rwy":"36R","desc":"OM"},
+{"type":"MM","freq":0,"lat":40.09695800,"lon":116.59361400,"rng_nm":0,"alt_fmsl":98,"id":"----","rwy":"18L","desc":"MM"},
+{"type":"MM","freq":0,"lat":40.11180800,"lon":116.56813900,"rng_nm":0,"alt_fmsl":107,"id":"----","rwy":"18R","desc":"MM"},
+{"type":"IM","freq":0,"lat":40.05284700,"lon":116.60059700,"rng_nm":0,"alt_fmsl":110,"id":"----","rwy":"36R","desc":"IM"},
+{"type":"DME","freq":110.3,"lat":40.09942200,"lon":116.57167200,"rng_nm":18,"alt_fmsl":135,"id":"ILG","rwy":"18R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":22.4,"dist_nm":1,"freq":430,"lat":40.09695800,"lon":116.59361400,"rng_nm":75,"alt_fmsl":0,"id":"O","desc":"CAPITAL NDB"},
+{"type":"VOR","hdg_t":158.4,"dist_nm":1.9,"freq":114.7,"lat":40.05000000,"lon":116.60000000,"rng_nm":130,"alt_fmsl":30,"id":"PEK","desc":"BEIJING VOR-DME"},
+{"type":"NDB","hdg_t":338.3,"dist_nm":2,"freq":287,"lat":40.11180800,"lon":116.56813900,"rng_nm":50,"alt_fmsl":0,"id":"L","desc":"BEIJING NDB"},
+{"type":"VOR","hdg_t":282.8,"dist_nm":5.8,"freq":117.2,"lat":40.10166700,"lon":116.46166700,"rng_nm":130,"alt_fmsl":17,"id":"SZY","desc":"SHAZIYING VOR-DME"},
+{"type":"NDB","hdg_t":285.3,"dist_nm":10.2,"freq":555,"lat":40.12500000,"lon":116.37000000,"rng_nm":50,"alt_fmsl":0,"id":"CU","desc":"SHAHE NDB"},
+{"type":"NDB","hdg_t":349,"dist_nm":12.4,"freq":380,"lat":40.28333300,"lon":116.53333300,"rng_nm":50,"alt_fmsl":170,"id":"OB","desc":"HUAIROU NDB"},
+{"type":"NDB","hdg_t":120.8,"dist_nm":15.1,"freq":395,"lat":39.95000000,"lon":116.86666700,"rng_nm":50,"alt_fmsl":0,"id":"WF","desc":"XILIUHETUN NDB"},
+{"type":"VOR","hdg_t":26.6,"dist_nm":16.7,"freq":113.6,"lat":40.33000000,"lon":116.74833300,"rng_nm":130,"alt_fmsl":127,"id":"HUR","desc":"HUAIROU VOR-DME"},
+{"type":"NDB","hdg_t":226.5,"dist_nm":31,"freq":475,"lat":39.72333300,"lon":116.09833300,"rng_nm":50,"alt_fmsl":170,"id":"JR","desc":"LIANGXIANG NDB"},
+{"type":"NDB","hdg_t":263.4,"dist_nm":36.4,"freq":422,"lat":40.00833300,"lon":115.80000000,"rng_nm":50,"alt_fmsl":0,"id":"CD","desc":"QINGBAIKOU NDB"},
+{"type":"NDB","hdg_t":3.2,"dist_nm":39.2,"freq":514,"lat":40.73333300,"lon":116.63333300,"rng_nm":50,"alt_fmsl":0,"id":"YV","desc":"TANGHEKOU NDB"},
+{"type":"NDB","hdg_t":34.4,"dist_nm":40.2,"freq":215,"lat":40.63333300,"lon":117.08333300,"rng_nm":50,"alt_fmsl":0,"id":"LR","desc":"GUBEIKOU NDB"},
+{"type":"NDB","hdg_t":162.5,"dist_nm":48.9,"freq":280,"lat":39.30000000,"lon":116.90000000,"rng_nm":50,"alt_fmsl":0,"id":"VM","desc":"SHIGEZHUANG NDB"},
+{"type":"NDB","hdg_t":180.6,"dist_nm":53.2,"freq":489,"lat":39.19166700,"lon":116.57166700,"rng_nm":25,"alt_fmsl":100,"id":"YK","desc":"DAWANGZHUANG NDB"},
+{"type":"VOR","hdg_t":180.6,"dist_nm":53.2,"freq":112.7,"lat":39.19166700,"lon":116.57166700,"rng_nm":130,"alt_fmsl":100,"id":"VYK","desc":"DAWANGZHUANG VOR-DME"},
+{"type":"NDB","hdg_t":290.8,"dist_nm":53.6,"freq":360,"lat":40.39333300,"lon":115.49166700,"rng_nm":50,"alt_fmsl":0,"id":"KM","desc":"HUAILAI NDB"},
+{"type":"NDB","hdg_t":147.8,"dist_nm":64.2,"freq":452,"lat":39.17044200,"lon":117.31713900,"rng_nm":75,"alt_fmsl":10,"id":"JS","desc":"TIANJIN NDB"},
+{"type":"NDB","hdg_t":196.2,"dist_nm":64.6,"freq":403,"lat":39.04333300,"lon":116.19833300,"rng_nm":50,"alt_fmsl":250,"id":"JB","desc":"ZANGANGZHEN NDB"},
+{"type":"NDB","hdg_t":147.9,"dist_nm":65.8,"freq":517,"lat":39.14623100,"lon":117.33255800,"rng_nm":75,"alt_fmsl":10,"id":"J","desc":"TIANJIN NDB"},
+{"type":"VOR","hdg_t":148.1,"dist_nm":68.5,"freq":112.1,"lat":39.10666700,"lon":117.35833300,"rng_nm":130,"alt_fmsl":10,"id":"TAJ","desc":"TIANJIN VOR-DME"},
+{"type":"NDB","hdg_t":1.5,"dist_nm":69.3,"freq":374,"lat":41.23666700,"lon":116.62666700,"rng_nm":50,"alt_fmsl":0,"id":"GM","desc":"FENGNING NDB"},
+{"type":"NDB","hdg_t":148.3,"dist_nm":70.7,"freq":339,"lat":39.07333300,"lon":117.37833300,"rng_nm":50,"alt_fmsl":13,"id":"CG","desc":"TIANJIN NDB"}
+]
+}

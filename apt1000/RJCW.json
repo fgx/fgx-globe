@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RJCW","name":"Wakkanai","lat":45.404111,"lon":141.800926,"rwys":1,"ils":1,"index":5267931,"path":"e140n40/e141n45"
+,"runways":[
+{"len_m":2000,"wid_m":45.72,"hdg":68,"surf":"Asphalt","rwy1":"08","lat1":45.40087200,"lon1":141.78900800,"rwy2":"26","lat2":45.40735000,"lon2":141.81284400}
+]
+,"radios":[
+{"type":"TWR","freq":126.2,"desc":"RDO"},
+{"type":"TWR","freq":118.3,"desc":"RDO"}
+]
+,"ils":[
+{"type":"ILS","freq":111.1,"lat":45.40811700,"lon":141.81566900,"rng_nm":18,"alt_fmsl":30,"hdg":68.85,"id":"IWK","rwy":"08","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.1,"lat":45.40088600,"lon":141.79330800,"rng_nm":10,"alt_fmsl":54,"id":"IWK","rwy":"08","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":45.37925600,"lon":141.70969700,"rng_nm":0,"alt_fmsl":30,"id":"----","rwy":"08","desc":"OM"},
+{"type":"MM","freq":0,"lat":45.39783600,"lon":141.77783100,"rng_nm":0,"alt_fmsl":30,"id":"----","rwy":"08","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":45.6,"dist_nm":0.2,"freq":115.3,"lat":45.40735800,"lon":141.80564700,"rng_nm":100,"alt_fmsl":49,"id":"WKE","desc":"WAKKANAI VOR-DME"},
+{"type":"VOR","hdg_t":250.1,"dist_nm":27.6,"freq":114.6,"lat":45.24566100,"lon":141.18676700,"rng_nm":100,"alt_fmsl":113,"id":"RSE","desc":"RISHIRI VOR-DME"},
+{"type":"VOR","hdg_t":275.2,"dist_nm":32.3,"freq":116.2,"lat":45.45111100,"lon":141.03896400,"rng_nm":100,"alt_fmsl":217,"id":"RBE","desc":"REBUN VOR-DME"},
+{"type":"NDB","hdg_t":23.6,"dist_nm":93.8,"freq":505,"lat":46.83333300,"lon":142.71333300,"rng_nm":80,"alt_fmsl":0,"id":"SL","desc":"YUZHNO-SAKHALINSK NDB"},
+{"type":"VOR","hdg_t":133.5,"dist_nm":94.7,"freq":112.9,"lat":44.30527778,"lon":143.39508333,"rng_nm":130,"alt_fmsl":159,"id":"MVE","desc":"MONBETSU VOR-DME"},
+{"type":"NDB","hdg_t":22.2,"dist_nm":99.5,"freq":505,"lat":46.93666700,"lon":142.71666700,"rng_nm":80,"alt_fmsl":0,"id":"PI","desc":"YUZHNO-SAKHALINSK NDB"},
+{"type":"VOR","hdg_t":164.6,"dist_nm":107.9,"freq":113.5,"lat":43.66727778,"lon":142.45686111,"rng_nm":130,"alt_fmsl":769,"id":"AWE","desc":"ASAHIKAWA VOR-DME"},
+{"type":"NDB","hdg_t":19.4,"dist_nm":118.7,"freq":260,"lat":47.26666700,"lon":142.76666700,"rng_nm":80,"alt_fmsl":0,"id":"PW","desc":"SOKOL NDB"},
+{"type":"VOR","hdg_t":189.2,"dist_nm":135.4,"freq":113.9,"lat":43.17464200,"lon":141.30238300,"rng_nm":100,"alt_fmsl":87,"id":"SPE","desc":"SAPPORO VOR-DME"},
+{"type":"NDB","hdg_t":188.9,"dist_nm":135.7,"freq":357,"lat":43.16875600,"lon":141.32066900,"rng_nm":50,"alt_fmsl":0,"id":"SP","desc":"SAPPORO NDB"}
+]
+}

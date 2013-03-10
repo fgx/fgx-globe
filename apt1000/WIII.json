@@ -1,0 +1,48 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WIII","name":"Jakarta Sukarno-hatta Intl","lat":-6.125743,"lon":106.65640475,"rwys":2,"ils":4,"index":4691189,"path":"e100s10/e106s07"
+,"runways":[
+{"len_m":3664,"wid_m":60.05,"hdg":68,"surf":"Concrete","rwy1":"07R","lat1":-6.14260300,"lon1":106.64355800,"rwy2":"25L","lat2":-6.13032500,"lon2":106.67431100},
+{"len_m":3603,"wid_m":60.05,"hdg":68,"surf":"Concrete","rwy1":"07L","lat1":-6.12105800,"lon1":106.63875600,"rwy2":"25R","lat2":-6.10898600,"lon2":106.66899400}
+]
+,"radios":[
+{"type":"ATIS","freq":126.85,"desc":"ATIS"},
+{"type":"CLD","freq":121.95,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.75,"desc":"GND"},
+{"type":"GND","freq":121.6,"desc":"GND"},
+{"type":"TWR","freq":129.8,"desc":"PABELOKAN INFO"},
+{"type":"TWR","freq":118.2,"desc":"TWR"},
+{"type":"TWR","freq":118.75,"desc":"TWR"},
+{"type":"APP","freq":119.75,"desc":"JAKARTA APP"},
+{"type":"APP","freq":127.95,"desc":"JAKARTA APP"},
+{"type":"APP","freq":127.9,"desc":"JAKARTA APP"},
+{"type":"APP","freq":125.45,"desc":"JAKARTA ARR"},
+{"type":"APP","freq":135.9,"desc":"JAKARTA ARR"}
+]
+,"ils":[
+{"type":"ILS","freq":111.5,"lat":-6.10811400,"lon":106.67119700,"rng_nm":18,"alt_fmsl":21,"hdg":68.13,"id":"ICHL","rwy":"07L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.5,"lat":-6.12936400,"lon":106.67673600,"rng_nm":18,"alt_fmsl":27,"hdg":68.13,"id":"ICHR","rwy":"07R","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.1,"lat":-6.14356900,"lon":106.64114400,"rng_nm":18,"alt_fmsl":34,"hdg":248.12,"id":"ICGL","rwy":"25L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.9,"lat":-6.12200800,"lon":106.63636400,"rng_nm":18,"alt_fmsl":29,"hdg":248.13,"id":"ICGR","rwy":"25R","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.5,"lat":-6.11878100,"lon":106.64086100,"rng_nm":10,"alt_fmsl":29,"id":"ICHL","rwy":"07L","desc":"GS","gs":3},
+{"type":"GS","freq":110.5,"lat":-6.14270800,"lon":106.64646100,"rng_nm":10,"alt_fmsl":34,"id":"ICHR","rwy":"07R","desc":"GS","gs":3},
+{"type":"GS","freq":111.1,"lat":-6.13243600,"lon":106.67220800,"rng_nm":10,"alt_fmsl":27,"id":"ICGL","rwy":"25L","desc":"GS","gs":3},
+{"type":"GS","freq":110.9,"lat":-6.10878100,"lon":106.66591400,"rng_nm":10,"alt_fmsl":21,"id":"ICGR","rwy":"25R","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":-6.12452200,"lon":106.63003300,"rng_nm":0,"alt_fmsl":21,"id":"----","rwy":"07L","desc":"MM"},
+{"type":"MM","freq":0,"lat":-6.14612800,"lon":106.63476900,"rng_nm":0,"alt_fmsl":27,"id":"----","rwy":"07R","desc":"MM"},
+{"type":"MM","freq":0,"lat":-6.12686100,"lon":106.68302200,"rng_nm":0,"alt_fmsl":34,"id":"----","rwy":"25L","desc":"MM"},
+{"type":"MM","freq":0,"lat":-6.10547200,"lon":106.67781900,"rng_nm":0,"alt_fmsl":29,"id":"----","rwy":"25R","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":243.8,"dist_nm":8.4,"freq":113.6,"lat":-6.18788900,"lon":106.52995000,"rng_nm":130,"alt_fmsl":31,"id":"CKG","desc":"CENGKARENG VOR-DME"},
+{"type":"VOR","hdg_t":203.8,"dist_nm":10.8,"freq":115.8,"lat":-6.29247500,"lon":106.58256900,"rng_nm":130,"alt_fmsl":151,"id":"BTO","desc":"BUDIARTO VOR-DME"},
+{"type":"NDB","hdg_t":208.1,"dist_nm":11.1,"freq":400,"lat":-6.29023300,"lon":106.56848100,"rng_nm":50,"alt_fmsl":151,"id":"TN","desc":"TANGERANG NDB"},
+{"type":"NDB","hdg_t":153.4,"dist_nm":14.9,"freq":225,"lat":-6.35000000,"lon":106.76833300,"rng_nm":50,"alt_fmsl":200,"id":"CB","desc":"PONDOK CABE NDB"},
+{"type":"VOR","hdg_t":122.3,"dist_nm":16.3,"freq":113.3,"lat":-6.27193900,"lon":106.88697500,"rng_nm":130,"alt_fmsl":84,"id":"HLM","desc":"HALIM PERDANAKUSUMA VOR-DME"},
+{"type":"NDB","hdg_t":100,"dist_nm":23.2,"freq":215,"lat":-6.19396100,"lon":107.04002500,"rng_nm":50,"alt_fmsl":84,"id":"AL","desc":"HALIM PERDANAKUSUMA NDB"},
+{"type":"VOR","hdg_t":66.5,"dist_nm":24.7,"freq":114.6,"lat":-5.96119400,"lon":107.03552200,"rng_nm":130,"alt_fmsl":-1,"id":"DKI","desc":"JAKARTA VOR-DME"},
+{"type":"NDB","hdg_t":166.5,"dist_nm":25.3,"freq":399,"lat":-6.53833300,"lon":106.75527800,"rng_nm":50,"alt_fmsl":538,"id":"AS","desc":"ATANG SENJAYA NDB"},
+{"type":"NDB","hdg_t":119,"dist_nm":54.2,"freq":250,"lat":-6.56666700,"lon":107.45000000,"rng_nm":50,"alt_fmsl":0,"id":"PW","desc":"PURWAKARTA NDB"},
+{"type":"VOR","hdg_t":131.5,"dist_nm":68.2,"freq":117,"lat":-6.88207800,"lon":107.51233900,"rng_nm":130,"alt_fmsl":2576,"id":"BND","desc":"BANDUNG VOR-DME"},
+{"type":"NDB","hdg_t":128.8,"dist_nm":75.9,"freq":300,"lat":-6.92341700,"lon":107.64791700,"rng_nm":50,"alt_fmsl":0,"id":"OY","desc":"BANDUNG NDB"}
+]
+}

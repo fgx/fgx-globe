@@ -1,0 +1,37 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LEAL","name":"Alicante","lat":38.282169,"lon":-0.558157,"rwys":1,"ils":1,"index":2940945,"path":"w010n30/w001n38"
+,"runways":[
+{"len_m":2992,"wid_m":45.11,"hdg":100,"surf":"Asphalt","rwy1":"10","lat1":38.28451902,"lon1":-0.57499796,"rwy2":"28","lat2":38.27981898,"lon2":-0.54131604}
+]
+,"radios":[
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.15,"desc":"TWR"},
+{"type":"APP","freq":124.75,"desc":"VALENCIA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":38.27932500,"lon":-0.53781100,"rng_nm":18,"alt_fmsl":44,"hdg":100.10,"id":"IAT","rwy":"10","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":38.28290800,"lon":-0.57131100,"rng_nm":10,"alt_fmsl":157,"id":"IAT","rwy":"10","desc":"GS","gs":3},
+{"type":"DME","freq":110.3,"lat":38.28290800,"lon":-0.57131100,"rng_nm":18,"alt_fmsl":157,"id":"IAT","rwy":"10","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":214.1,"dist_nm":1,"freq":113.8,"lat":38.26828100,"lon":-0.57011400,"rng_nm":130,"alt_fmsl":166,"id":"ALT","desc":"ALICANTE VOR-DME"},
+{"type":"VOR","hdg_t":280,"dist_nm":1.3,"freq":114.65,"lat":38.28613600,"lon":-0.58660000,"rng_nm":130,"alt_fmsl":192,"id":"ATE","desc":"ALICANTE VOR-DME"},
+{"type":"NDB","hdg_t":279.8,"dist_nm":4.8,"freq":330,"lat":38.29611000,"lon":-0.66000000,"rng_nm":50,"alt_fmsl":142,"id":"AI","desc":"Alicante NDB"},
+{"type":"VOR","hdg_t":201.9,"dist_nm":32.4,"freq":113,"lat":37.77977800,"lon":-0.81277800,"rng_nm":90,"alt_fmsl":11,"id":"VSJ","desc":"MURCIA/SAN JAVIER VOR-DME"},
+{"type":"NDB","hdg_t":202.4,"dist_nm":33.7,"freq":370,"lat":37.76183300,"lon":-0.82905600,"rng_nm":15,"alt_fmsl":11,"id":"O","desc":"MURCIA/SAN JAVIER NDB"},
+{"type":"SDME","hdg_t":238.2,"dist_nm":37.4,"freq":116.6,"lat":37.95111100,"lon":-1.22916700,"rng_nm":40,"alt_fmsl":243,"id":"TRL","desc":"ALCANTARILLA TACAN"},
+{"type":"NDB","hdg_t":238.1,"dist_nm":37.5,"freq":345,"lat":37.94991700,"lon":-1.23041700,"rng_nm":25,"alt_fmsl":245,"id":"ATR","desc":"ALCANTARILLA NDB"},
+{"type":"NDB","hdg_t":206.5,"dist_nm":40.5,"freq":381,"lat":37.67630600,"lon":-0.93927800,"rng_nm":40,"alt_fmsl":0,"id":"LCZ","desc":"MURCIA/SAN JAVIER NDB"},
+{"type":"NDB","hdg_t":8,"dist_nm":69.9,"freq":340,"lat":39.43742500,"lon":-0.34646100,"rng_nm":50,"alt_fmsl":0,"id":"PND","desc":"VALENCIA NDB"},
+{"type":"NDB","hdg_t":3.7,"dist_nm":71.9,"freq":400,"lat":39.47967800,"lon":-0.45617800,"rng_nm":15,"alt_fmsl":0,"id":"B","desc":"VALENCIA NDB"},
+{"type":"VOR","hdg_t":2.7,"dist_nm":72.2,"freq":116.1,"lat":39.48564700,"lon":-0.48304400,"rng_nm":130,"alt_fmsl":200,"id":"VLC","desc":"VALENCIA VOR-DME"},
+{"type":"NDB","hdg_t":300.8,"dist_nm":78.4,"freq":321,"lat":38.94408300,"lon":-1.99766700,"rng_nm":50,"alt_fmsl":0,"id":"ABT","desc":"ALBACETE NDB"},
+{"type":"VOR","hdg_t":300.7,"dist_nm":78.6,"freq":115.8,"lat":38.94380600,"lon":-2.00266700,"rng_nm":130,"alt_fmsl":2277,"id":"VAB","desc":"ALBACETE VOR-DME"},
+{"type":"NDB","hdg_t":2.8,"dist_nm":80.4,"freq":386,"lat":39.62300000,"lon":-0.47208300,"rng_nm":50,"alt_fmsl":0,"id":"EBT","desc":"VALENCIA NDB"},
+{"type":"VOR","hdg_t":273.7,"dist_nm":84.8,"freq":115.2,"lat":38.36077800,"lon":-2.35275300,"rng_nm":130,"alt_fmsl":4793,"id":"YES","desc":"YESTE VOR-DME"},
+{"type":"NDB","hdg_t":11,"dist_nm":85,"freq":356,"lat":39.67418300,"lon":-0.20780600,"rng_nm":50,"alt_fmsl":0,"id":"SGO","desc":"SAGUNTO NDB"},
+{"type":"VOR","hdg_t":346.9,"dist_nm":87.7,"freq":117.55,"lat":39.70716900,"lon":-0.98631700,"rng_nm":130,"alt_fmsl":1839,"id":"CLS","desc":"CALLES VOR-DME"},
+{"type":"VOR","hdg_t":68.1,"dist_nm":97.1,"freq":117.8,"lat":38.86834400,"lon":1.36591400,"rng_nm":25,"alt_fmsl":30,"id":"IBA","desc":"IBIZA VOR-DME"},
+{"type":"NDB","hdg_t":68,"dist_nm":98.9,"freq":335,"lat":38.88375000,"lon":1.39945800,"rng_nm":25,"alt_fmsl":0,"id":"Z","desc":"IBIZA NDB"}
+]
+}

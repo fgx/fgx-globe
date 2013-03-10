@@ -1,0 +1,35 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYXE","name":"Saskatoon J G Diefenbaker Intl","lat":52.1726799433333,"lon":-106.69557717,"rwys":2,"ils":1,"index":1205129,"path":"w110n50/w107n52"
+,"runways":[
+{"len_m":2528,"wid_m":46.02,"hdg":100,"surf":"Asphalt","rwy1":"09","lat1":52.17852194,"lon1":-106.71808950,"rwy2":"27","lat2":52.17418483,"lon2":-106.68181292},
+{"len_m":1891,"wid_m":46.02,"hdg":161,"surf":"Asphalt","rwy1":"15","lat1":52.17898468,"lon1":-106.70569157,"rwy2":"33","lat2":52.16290854,"lon2":-106.69670748}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":7,"wid_m":7.01,"hdg":-106,"surf":"Asphalt","lat1":52.17073984,"lon1":-106.68558078}
+]
+,"radios":[
+{"type":"ATIS","freq":128.4,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"APP","freq":119.9,"desc":"APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":52.17344100,"lon":-106.67577800,"rng_nm":18,"alt_fmsl":1636,"hdg":101.00,"id":"IST","rwy":"09","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":52.17914700,"lon":-106.71348100,"rng_nm":10,"alt_fmsl":1653,"id":"IST","rwy":"09","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":299.7,"dist_nm":1,"freq":116.2,"lat":52.18116667,"lon":-106.71977778,"rng_nm":130,"alt_fmsl":1700,"id":"YXE","desc":"SASKATOON VORTAC"},
+{"type":"NDB","hdg_t":283.2,"dist_nm":4.4,"freq":257,"lat":52.18975000,"lon":-106.81380556,"rng_nm":50,"alt_fmsl":0,"id":"XE","desc":"SASKATOON NDB"},
+{"type":"NDB","hdg_t":338,"dist_nm":4.4,"freq":397,"lat":52.24166700,"lon":-106.74083300,"rng_nm":50,"alt_fmsl":0,"id":"ZSS","desc":"YELLOWHEAD NDB"},
+{"type":"NDB","hdg_t":98.5,"dist_nm":4.5,"freq":356,"lat":52.16138900,"lon":-106.57444400,"rng_nm":25,"alt_fmsl":0,"id":"ZXE","desc":"BARNES NDB"},
+{"type":"NDB","hdg_t":164,"dist_nm":4.5,"freq":201,"lat":52.10000000,"lon":-106.66194400,"rng_nm":25,"alt_fmsl":0,"id":"ZSK","desc":"MOONLAKE NDB"},
+{"type":"NDB","hdg_t":89.2,"dist_nm":58,"freq":277,"lat":52.17416700,"lon":-105.12416700,"rng_nm":50,"alt_fmsl":1865,"id":"V2","desc":"HUMBOLDT NDB"},
+{"type":"NDB","hdg_t":27.2,"dist_nm":70.8,"freq":347,"lat":53.21805556,"lon":-105.79527778,"rng_nm":50,"alt_fmsl":0,"id":"PA","desc":"PRINCE ALBERT NDB"},
+{"type":"NDB","hdg_t":302.8,"dist_nm":71,"freq":302,"lat":52.80375000,"lon":-108.33511111,"rng_nm":50,"alt_fmsl":0,"id":"QW","desc":"NORTH BATTLEFORD NDB"},
+{"type":"VOR","hdg_t":30.5,"dist_nm":73.1,"freq":113,"lat":53.21641667,"lon":-105.66647222,"rng_nm":130,"alt_fmsl":1414,"id":"YPA","desc":"PRINCE ALBERT VOR-DME"},
+{"type":"NDB","hdg_t":33.3,"dist_nm":75.5,"freq":372,"lat":53.21722200,"lon":-105.54444400,"rng_nm":25,"alt_fmsl":0,"id":"ZPA","desc":"GLASS NDB"},
+{"type":"NDB","hdg_t":102,"dist_nm":80.8,"freq":368,"lat":51.87305556,"lon":-104.56972222,"rng_nm":50,"alt_fmsl":0,"id":"VX","desc":"DAFOE NDB"},
+{"type":"NDB","hdg_t":58,"dist_nm":80.9,"freq":391,"lat":52.87138900,"lon":-104.80638900,"rng_nm":25,"alt_fmsl":0,"id":"D5","desc":"MELFORT NDB"},
+{"type":"NDB","hdg_t":200,"dist_nm":84.9,"freq":212,"lat":50.84213889,"lon":-107.46016667,"rng_nm":50,"alt_fmsl":0,"id":"BY","desc":"BEECHY NDB"}
+]
+}

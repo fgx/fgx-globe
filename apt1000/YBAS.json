@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"YBAS","name":"Alice Springs","lat":-23.80289901,"lon":133.894931703333,"rwys":2,"ils":1,"index":5132427,"path":"e130s30/e133s24"
+,"runways":[
+{"len_m":2437,"wid_m":45.11,"hdg":120,"surf":"Asphalt","rwy1":"12","lat1":-23.80100776,"lon1":133.89338018,"rwy2":"30","lat2":-23.81209674,"lon2":133.91403865},
+{"len_m":1131,"wid_m":17.98,"hdg":178,"surf":"Asphalt","rwy1":"17","lat1":-23.79724350,"lon1":133.88655900,"rwy2":"35","lat2":-23.80745850,"lon2":133.88690301}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":14,"wid_m":14.94,"hdg":133,"surf":"Transparent","lat1":-23.79979378,"lon1":133.89435468}
+]
+,"radios":[
+{"type":"CTAF","freq":118.3,"desc":"ALICE SPRINGS MULT"},
+{"type":"TWR","freq":118.3,"desc":"ALICE SPRINGS TWR"},
+{"type":"TWR","freq":119.8,"desc":"MELBOURNE CNTR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":-23.81555600,"lon":133.92027800,"rng_nm":18,"alt_fmsl":1789,"hdg":120.58,"id":"IAS","rwy":"12","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":-23.80388900,"lon":133.89500000,"rng_nm":10,"alt_fmsl":1789,"id":"IAS","rwy":"12","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-23.76729200,"lon":133.83057200,"rng_nm":0,"alt_fmsl":1789,"id":"----","rwy":"12","desc":"OM"},
+{"type":"MM","freq":0,"lat":-23.79555800,"lon":133.88316900,"rng_nm":0,"alt_fmsl":1789,"id":"----","rwy":"12","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":303,"dist_nm":1,"freq":115.9,"lat":-23.79288900,"lon":133.87820300,"rng_nm":50,"alt_fmsl":1857,"id":"AS","desc":"ALICE SPRINGS VOR-DME"},
+{"type":"NDB","hdg_t":321.7,"dist_nm":1.9,"freq":335,"lat":-23.77793900,"lon":133.87352500,"rng_nm":90,"alt_fmsl":0,"id":"AS","desc":"ALICE SPRINGS NDB"},
+{"type":"NDB","hdg_t":300.6,"dist_nm":6.7,"freq":352,"lat":-23.74500000,"lon":133.78888900,"rng_nm":35,"alt_fmsl":0,"id":"TPB","desc":"TEMPLE BAR NDB"},
+{"type":"NDB","hdg_t":119.9,"dist_nm":8.5,"freq":372,"lat":-23.87423300,"lon":134.02983600,"rng_nm":35,"alt_fmsl":0,"id":"WAY","desc":"WALLABY NDB"},
+{"type":"NDB","hdg_t":300.3,"dist_nm":9.5,"freq":362,"lat":-23.72222200,"lon":133.74555600,"rng_nm":35,"alt_fmsl":0,"id":"SPG","desc":"SIMPSONS GAP NDB"},
+{"type":"NDB","hdg_t":68.1,"dist_nm":134.2,"freq":203,"lat":-22.94916700,"lon":136.14500000,"rng_nm":40,"alt_fmsl":0,"id":"JVS","desc":"JERVOIS NDB"},
+{"type":"SDME","hdg_t":242.2,"dist_nm":179.5,"freq":117.1,"lat":-25.17138900,"lon":130.97472200,"rng_nm":100,"alt_fmsl":1636,"id":"AYE","desc":"AYERS ROCK NDB-DME"},
+{"type":"NDB","hdg_t":242.2,"dist_nm":179.5,"freq":233,"lat":-25.17277800,"lon":130.97472200,"rng_nm":100,"alt_fmsl":1636,"id":"AYE","desc":"AYERS ROCK NDB-DME"},
+{"type":"NDB","hdg_t":159.8,"dist_nm":239.5,"freq":308,"lat":-27.55472200,"lon":135.44166700,"rng_nm":85,"alt_fmsl":0,"id":"OOD","desc":"OODNADATTA NDB"},
+{"type":"NDB","hdg_t":3.6,"dist_nm":249.1,"freq":272,"lat":-19.64416700,"lon":134.17527800,"rng_nm":85,"alt_fmsl":1236,"id":"TNK","desc":"TENNANT CREEK NDB"}
+]
+}

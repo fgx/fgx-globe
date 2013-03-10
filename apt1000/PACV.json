@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PACV","name":"Cordova-smith","lat":60.4906935,"lon":-145.477301,"rwys":2,"ils":1,"index":566682,"path":"w150n60/w146n60"
+,"runways":[
+{"len_m":2285,"wid_m":46.02,"hdg":114,"surf":"Asphalt","rwy1":"09","lat1":60.49675300,"lon1":-145.49682700,"rwy2":"27","lat2":60.48833700,"lon2":-145.45891100},
+{"len_m":578,"wid_m":9.14,"hdg":180,"surf":"Gravel","rwy1":"16","lat1":60.49143900,"lon1":-145.47668600,"rwy2":"34","lat2":60.48624500,"lon2":-145.47678000}
+]
+,"radios":[
+{"type":"ATIS","freq":135.65,"desc":"ASOS"},
+{"type":"ATIS","freq":122.2,"desc":"JUNEAU FSS"},
+{"type":"ATIS","freq":123.6,"desc":"JUNEAU FSS"},
+{"type":"CTAF","freq":123.6,"desc":"JUNEAU CTAF"},
+{"type":"TWR","freq":119.3,"desc":"ANCHORAGE CNTR"},
+{"type":"TWR","freq":133.6,"desc":"ANCHORAGE CNTR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":60.49736900,"lon":-145.49973300,"rng_nm":18,"alt_fmsl":32,"hdg":294.17,"id":"ICDV","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":60.48878600,"lon":-145.46444200,"rng_nm":10,"alt_fmsl":39,"id":"ICDV","rwy":"27","desc":"GS","gs":3},
+{"type":"DME","freq":110.7,"lat":60.49807800,"lon":-145.49952500,"rng_nm":18,"alt_fmsl":51,"id":"ICDV","rwy":"27","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":9.9,"dist_nm":0.4,"freq":404,"lat":60.49875000,"lon":-145.47444444,"rng_nm":50,"alt_fmsl":0,"id":"GCR","desc":"GLACIER RIVER NDB"},
+{"type":"NDB","hdg_t":269.3,"dist_nm":32.9,"freq":233,"lat":60.47983333,"lon":-146.58744444,"rng_nm":50,"alt_fmsl":0,"id":"ALJ","desc":"ORCA BAY NDB"},
+{"type":"VOR","hdg_t":269.4,"dist_nm":33.3,"freq":116.7,"lat":60.48094444,"lon":-146.59933333,"rng_nm":130,"alt_fmsl":47,"id":"JOH","desc":"JOHNSTONE POINT VOR-DME"},
+{"type":"NDB","hdg_t":326.3,"dist_nm":45.9,"freq":524,"lat":61.12422222,"lon":-146.35222222,"rng_nm":50,"alt_fmsl":0,"id":"MNL","desc":"MINERAL CREEK NDB"},
+{"type":"VOR","hdg_t":202.6,"dist_nm":69.4,"freq":115.3,"lat":59.42180556,"lon":-146.35002778,"rng_nm":130,"alt_fmsl":121,"id":"MDO","desc":"MIDDLETON ISLAND VOR-DME"},
+{"type":"NDB","hdg_t":103.9,"dist_nm":92.5,"freq":209,"lat":60.08616667,"lon":-142.48875000,"rng_nm":50,"alt_fmsl":0,"id":"CYT","desc":"YAKATAGA NDB"},
+{"type":"VOR","hdg_t":0.4,"dist_nm":100,"freq":115.6,"lat":62.15375000,"lon":-145.44736111,"rng_nm":130,"alt_fmsl":1549,"id":"GKN","desc":"GULKANA VOR-DME"},
+{"type":"NDB","hdg_t":0.1,"dist_nm":102.5,"freq":248,"lat":62.19555556,"lon":-145.46772222,"rng_nm":50,"alt_fmsl":0,"id":"GLA","desc":"GLENNALLEN NDB"},
+{"type":"SDME","hdg_t":291.9,"dist_nm":133.9,"freq":113.4,"lat":61.25500600,"lon":-149.76915000,"rng_nm":130,"alt_fmsl":360,"id":"EDF","desc":"ELMENDORF TACAN"},
+{"type":"SDME","hdg_t":289.2,"dist_nm":137.3,"freq":111.3,"lat":61.16981900,"lon":-149.94239800,"rng_nm":90,"alt_fmsl":140,"id":"MTGN","desc":"Anchorage MLS 6L DME"}
+]
+}

@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SARI","name":"Cataratas Del Iguazu","lat":-25.7372795,"lon":-54.4734445,"rwys":1,"ils":1,"index":2052114,"path":"w060s30/w055s26"
+,"runways":[
+{"len_m":3300,"wid_m":45.11,"hdg":114,"surf":"Asphalt","rwy1":"13","lat1":-25.73104200,"lon1":-54.48837800,"rwy2":"31","lat2":-25.74351700,"lon2":-54.45851100}
+]
+,"radios":[
+{"type":"TWR","freq":120.7,"desc":"TWR/APP"},
+{"type":"TWR","freq":118.3,"desc":"TWR/APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.9,"lat":-25.73031100,"lon":-54.49012200,"rng_nm":18,"alt_fmsl":920,"hdg":294.89,"id":"IG","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.9,"lat":-25.74308900,"lon":-54.46235300,"rng_nm":10,"alt_fmsl":958,"id":"IG","rwy":"31","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":-25.74806700,"lon":-54.44769700,"rng_nm":0,"alt_fmsl":920,"id":"----","rwy":"31","desc":"MM"},
+{"type":"DME","freq":110.9,"lat":-25.74308300,"lon":-54.46258300,"rng_nm":18,"alt_fmsl":958,"id":"IG","rwy":"31","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":284,"dist_nm":0.6,"freq":114.1,"lat":-25.73449700,"lon":-54.48571100,"rng_nm":176,"alt_fmsl":935,"id":"IGU","desc":"CATARATAS DEL IGUAZU VOR-DME"},
+{"type":"NDB","hdg_t":114.7,"dist_nm":1.5,"freq":310,"lat":-25.74805600,"lon":-54.44766700,"rng_nm":25,"alt_fmsl":916,"id":"Z","desc":"CATARATAS DEL IGAUZU NDB"},
+{"type":"NDB","hdg_t":350.2,"dist_nm":9.2,"freq":395,"lat":-25.58416700,"lon":-54.50250000,"rng_nm":25,"alt_fmsl":0,"id":"QQ","desc":"IGUACU NDB"},
+{"type":"VOR","hdg_t":349.9,"dist_nm":9.3,"freq":112.1,"lat":-25.58333300,"lon":-54.50350000,"rng_nm":200,"alt_fmsl":787,"id":"FOZ","desc":"FOZ VOR-DME"},
+{"type":"NDB","hdg_t":336.8,"dist_nm":13.4,"freq":410,"lat":-25.53116700,"lon":-54.57050000,"rng_nm":150,"alt_fmsl":0,"id":"FOZ","desc":"FOZ NDB"},
+{"type":"NDB","hdg_t":337.7,"dist_nm":21.2,"freq":225,"lat":-25.40861100,"lon":-54.62166700,"rng_nm":30,"alt_fmsl":762,"id":"ITU","desc":"ITAIPU NDB"},
+{"type":"NDB","hdg_t":305.8,"dist_nm":26.2,"freq":200,"lat":-25.47916700,"lon":-54.86583300,"rng_nm":200,"alt_fmsl":0,"id":"CDE","desc":"CIUDAD DEL ESTE NDB"},
+{"type":"VOR","hdg_t":308.9,"dist_nm":26.3,"freq":116.3,"lat":-25.46000000,"lon":-54.85000000,"rng_nm":130,"alt_fmsl":888,"id":"VES","desc":"CIUDAD DEL ESTE VOR-DME"},
+{"type":"NDB","hdg_t":324.5,"dist_nm":26.9,"freq":293,"lat":-25.36972200,"lon":-54.76138900,"rng_nm":25,"alt_fmsl":793,"id":"ALG","desc":"CIUDAD DEL ESTE NDB"},
+{"type":"NDB","hdg_t":50.4,"dist_nm":68.6,"freq":220,"lat":-25.00300000,"lon":-53.50316700,"rng_nm":50,"alt_fmsl":2473,"id":"CAV","desc":"CASCAVEL NDB"},
+{"type":"NDB","hdg_t":33.9,"dist_nm":75.6,"freq":385,"lat":-24.68566700,"lon":-53.69966700,"rng_nm":50,"alt_fmsl":1854,"id":"TOL","desc":"TOLEDO NDB"}
+]
+}

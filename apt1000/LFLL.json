@@ -1,0 +1,82 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LFLL","name":"Lyon Saint Exupery","lat":45.7260793166667,"lon":5.08841732666667,"rwys":2,"ils":3,"index":3039720,"path":"e000n40/e005n45"
+,"runways":[
+{"len_m":4005,"wid_m":45.11,"hdg":175,"surf":"Asphalt","rwy1":"18R","lat1":45.74659384,"lon1":5.08596244,"rwy2":"36L","lat2":45.71068847,"lon2":5.09033087},
+{"len_m":2679,"wid_m":45.11,"hdg":175,"surf":"Asphalt","rwy1":"18L","lat1":45.73499521,"lon1":5.09188409,"rwy2":"36R","lat2":45.71097123,"lon2":5.09481484}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":29,"wid_m":29.87,"hdg":5,"surf":"Asphalt","lat1":45.72661357,"lon1":5.08375586}
+]
+,"radios":[
+{"type":"ATIS","freq":126.17,"desc":"ATIS"},
+{"type":"CLD","freq":121.7,"desc":"DEL"},
+{"type":"GND","freq":121.82,"desc":"GND"},
+{"type":"TWR","freq":120.45,"desc":"TWR"},
+{"type":"APP","freq":136.07,"desc":"APP"},
+{"type":"DEP","freq":120.22,"desc":"DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.1,"lat":45.70786667,"lon":5.09516668,"rng_nm":18,"alt_fmsl":822,"hdg":175.16,"id":"LSS","rwy":"18L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.75,"lat":45.74881744,"lon":5.08570004,"rng_nm":18,"alt_fmsl":744,"hdg":355.16,"id":"SAN","rwy":"36L","desc":"ILS-cat-III"},
+{"type":"ILS","freq":111.5,"lat":45.73766708,"lon":5.09154987,"rng_nm":18,"alt_fmsl":769,"hdg":355.16,"id":"LSN","rwy":"36R","desc":"ILS-cat-III"},
+{"type":"GS","freq":109.1,"lat":45.73253250,"lon":5.09406662,"rng_nm":10,"alt_fmsl":775,"id":"LSS","rwy":"18L","desc":"GS","gs":3},
+{"type":"GS","freq":110.75,"lat":45.71419144,"lon":5.09137201,"rng_nm":10,"alt_fmsl":810,"id":"SAN","rwy":"36L","desc":"GS","gs":3},
+{"type":"GS","freq":111.5,"lat":45.71423340,"lon":5.09635019,"rng_nm":10,"alt_fmsl":812,"id":"LSN","rwy":"36R","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":45.62666702,"lon":5.09999990,"rng_nm":0,"alt_fmsl":744,"id":"----","rwy":"36L","desc":"OM"},
+{"type":"DME","freq":109.1,"lat":45.73253250,"lon":5.09407091,"rng_nm":18,"alt_fmsl":775,"id":"LSS","rwy":"18L","desc":"DME-ILS"},
+{"type":"DME","freq":110.75,"lat":45.71419144,"lon":5.09137201,"rng_nm":18,"alt_fmsl":810,"id":"SAN","rwy":"36L","desc":"DME-ILS"},
+{"type":"DME","freq":111.5,"lat":45.71424103,"lon":5.09634304,"rng_nm":18,"alt_fmsl":812,"id":"LSN","rwy":"36R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":4.4,"dist_nm":1.1,"freq":114.75,"lat":45.74552800,"lon":5.09058300,"rng_nm":140,"alt_fmsl":820,"id":"LSE","desc":"LYON SAINT EXUPERY VOR-DME"},
+{"type":"NDB","hdg_t":211.3,"dist_nm":7.7,"freq":388,"lat":45.61583328,"lon":4.99278355,"rng_nm":25,"alt_fmsl":1044,"id":"BR","desc":"Lyon Bron NDB"},
+{"type":"VOR","hdg_t":220.3,"dist_nm":13.3,"freq":108.2,"lat":45.55644400,"lon":4.88341700,"rng_nm":30,"alt_fmsl":0,"id":"VNE","desc":"VIENNE VOR"},
+{"type":"SDME","hdg_t":32.7,"dist_nm":18.7,"freq":116.3,"lat":45.98861100,"lon":5.33125000,"rng_nm":50,"alt_fmsl":801,"id":"AMU","desc":"AMBERIEU TACAN"},
+{"type":"NDB","hdg_t":331,"dist_nm":19,"freq":337,"lat":46.00388700,"lon":4.86805500,"rng_nm":50,"alt_fmsl":0,"id":"AD","desc":"AMBERIEUX NDB"},
+{"type":"VOR","hdg_t":133.8,"dist_nm":20.5,"freq":115.55,"lat":45.48897200,"lon":5.43905600,"rng_nm":80,"alt_fmsl":2165,"id":"LTP","desc":"LA TOUR DU PIN-Lyon Est VOR-DME"},
+{"type":"NDB","hdg_t":172.8,"dist_nm":22,"freq":291,"lat":45.36230000,"lon":5.15297200,"rng_nm":25,"alt_fmsl":1129,"id":"WS","desc":"Grenoble saint Geoirs NDB"},
+{"type":"NDB","hdg_t":302,"dist_nm":22.4,"freq":344,"lat":45.92361100,"lon":4.63361111,"rng_nm":25,"alt_fmsl":1089,"id":"TR","desc":"Villefranche Tarare NDB"},
+{"type":"NDB","hdg_t":148.9,"dist_nm":25.3,"freq":397,"lat":45.36389000,"lon":5.39750000,"rng_nm":25,"alt_fmsl":1384,"id":"EG","desc":"Grenoble Saint Geoirs NDB"},
+{"type":"VOR","hdg_t":71.3,"dist_nm":29.5,"freq":115.4,"lat":45.88188900,"lon":5.75730600,"rng_nm":40,"alt_fmsl":4783,"id":"CBY","desc":"CHAMBERY VOR-DME"},
+{"type":"NDB","hdg_t":16.2,"dist_nm":29.8,"freq":423,"lat":46.20388888,"lon":5.28888888,"rng_nm":25,"alt_fmsl":869,"id":"BOR","desc":"Bourg Ceyzeriat NDB"},
+{"type":"NDB","hdg_t":261.3,"dist_nm":34.2,"freq":379,"lat":45.63777777,"lon":4.28388888,"rng_nm":25,"alt_fmsl":1230,"id":"EB","desc":"Saint Etienne Boutheon NDB"},
+{"type":"NDB","hdg_t":103.1,"dist_nm":34.4,"freq":346,"lat":45.59250000,"lon":5.88361100,"rng_nm":25,"alt_fmsl":840,"id":"CH","desc":"Chambery Aix les Bains NDB"},
+{"type":"NDB","hdg_t":249.9,"dist_nm":35.4,"freq":299,"lat":45.52027800,"lon":4.29889000,"rng_nm":25,"alt_fmsl":1371,"id":"BO","desc":"Saint Etienne Boutheon NDB"},
+{"type":"NDB","hdg_t":340.1,"dist_nm":36.1,"freq":400,"lat":46.29250000,"lon":4.79361111,"rng_nm":25,"alt_fmsl":705,"id":"MO","desc":"Macon Charnay NDB"},
+{"type":"NDB","hdg_t":77.9,"dist_nm":39.9,"freq":384,"lat":45.86166666,"lon":6.02055555,"rng_nm":25,"alt_fmsl":2205,"id":"AT","desc":"Annecy Meythet NDB"},
+{"type":"VOR","hdg_t":55.1,"dist_nm":46.3,"freq":116.6,"lat":46.16369400,"lon":5.99991700,"rng_nm":80,"alt_fmsl":1415,"id":"PAS","desc":"PASSEIRY VOR-DME"},
+{"type":"NDB","hdg_t":298.1,"dist_nm":49.7,"freq":358,"lat":46.11222222,"lon":4.03694477,"rng_nm":25,"alt_fmsl":1122,"id":"RNN","desc":"Roanne Renaison NDB"},
+{"type":"VOR","hdg_t":294,"dist_nm":49.8,"freq":110.25,"lat":46.05916700,"lon":3.99927800,"rng_nm":60,"alt_fmsl":1095,"id":"ROA","desc":"ROANNE RENAISON VOR"},
+{"type":"NDB","hdg_t":186.1,"dist_nm":52.9,"freq":320,"lat":44.84900000,"lon":4.95550000,"rng_nm":30,"alt_fmsl":0,"id":"VE","desc":"CHABEUIL NDB"},
+{"type":"NDB","hdg_t":310.4,"dist_nm":52.9,"freq":430,"lat":46.29444444,"lon":4.12139222,"rng_nm":25,"alt_fmsl":1378,"id":"SN","desc":"Saint Yan NDB"},
+{"type":"VOR","hdg_t":53.6,"dist_nm":53.9,"freq":115.75,"lat":46.25391700,"lon":6.13222200,"rng_nm":50,"alt_fmsl":1377,"id":"GVA","desc":"GENEVA COINTRIN VOR-DME"},
+{"type":"NDB","hdg_t":350.3,"dist_nm":60.6,"freq":391,"lat":46.72167777,"lon":4.84305555,"rng_nm":25,"alt_fmsl":656,"id":"CC","desc":"Chalon Champforgeuil NDB"},
+{"type":"NDB","hdg_t":329.2,"dist_nm":61.2,"freq":317,"lat":46.60141700,"lon":4.33138900,"rng_nm":50,"alt_fmsl":0,"id":"MM","desc":"MONTCEAU-LES-MINES NDB"},
+{"type":"NDB","hdg_t":49.2,"dist_nm":63.3,"freq":375,"lat":46.40869400,"lon":6.24425000,"rng_nm":25,"alt_fmsl":1350,"id":"GLA","desc":"GLAND NDB"},
+{"type":"VOR","hdg_t":278.8,"dist_nm":65,"freq":117.5,"lat":45.88183400,"lon":3.55358300,"rng_nm":60,"alt_fmsl":2258,"id":"TIS","desc":"THIERS VOR-DME"},
+{"type":"SDME","hdg_t":278.8,"dist_nm":65,"freq":109,"lat":45.88183400,"lon":3.55358300,"rng_nm":195,"alt_fmsl":2000,"id":"TIS","desc":"THIERS DME"},
+{"type":"NDB","hdg_t":232.1,"dist_nm":68.6,"freq":372,"lat":45.01777777,"lon":3.81500000,"rng_nm":25,"alt_fmsl":2884,"id":"PY","desc":"Le Puy Loudes NDB"},
+{"type":"NDB","hdg_t":192.4,"dist_nm":70.5,"freq":362,"lat":44.57749900,"lon":4.73416700,"rng_nm":50,"alt_fmsl":0,"id":"MTL","desc":"MONTELIMAR NDB"},
+{"type":"VOR","hdg_t":190.6,"dist_nm":71.4,"freq":113.65,"lat":44.55494400,"lon":4.77986100,"rng_nm":100,"alt_fmsl":656,"id":"MTL","desc":"MONTELIMAR ANCONE VOR-DME"},
+{"type":"VOR","hdg_t":51.3,"dist_nm":72.1,"freq":113.9,"lat":46.46869400,"lon":6.44805600,"rng_nm":100,"alt_fmsl":1252,"id":"SPR","desc":"ST. PREX VOR-DME"},
+{"type":"NDB","hdg_t":274.3,"dist_nm":72.6,"freq":367,"lat":45.80472200,"lon":3.36161100,"rng_nm":22,"alt_fmsl":1089,"id":"CF","desc":"CLERMONT-FERRAND NDB"},
+{"type":"NDB","hdg_t":289.3,"dist_nm":74.9,"freq":403,"lat":46.12750000,"lon":3.39500000,"rng_nm":22,"alt_fmsl":816,"id":"VZ","desc":"VICHY NDB"},
+{"type":"NDB","hdg_t":6.7,"dist_nm":75.7,"freq":309,"lat":46.97972222,"lon":5.30527777,"rng_nm":25,"alt_fmsl":604,"id":"DO","desc":"Dole Tavaux NDB"},
+{"type":"SDME","hdg_t":43.6,"dist_nm":79.3,"freq":110.65,"lat":46.67611100,"lon":6.41333300,"rng_nm":80,"alt_fmsl":4244,"id":"LAP","desc":"LA PRAZ DME"},
+{"type":"VOR","hdg_t":273.3,"dist_nm":79.7,"freq":114.35,"lat":45.78747200,"lon":3.19219400,"rng_nm":100,"alt_fmsl":1093,"id":"CFA","desc":"CLERMONT FERRAND AUVERGNE VOR-DME"},
+{"type":"VOR","hdg_t":306.9,"dist_nm":82.3,"freq":109.6,"lat":46.54133300,"lon":3.49955600,"rng_nm":40,"alt_fmsl":0,"id":"MBY","desc":"MOULINS MONTBEUGNY VOR"},
+{"type":"NDB","hdg_t":202.1,"dist_nm":82.9,"freq":427,"lat":44.44222222,"lon":4.36194444,"rng_nm":25,"alt_fmsl":676,"id":"AUB","desc":"Aubenas Ardeche Meridionale NDB"},
+{"type":"NDB","hdg_t":314.6,"dist_nm":84.5,"freq":324,"lat":46.70588900,"lon":3.63086100,"rng_nm":50,"alt_fmsl":0,"id":"MOU","desc":"MOULINS NDB"},
+{"type":"VOR","hdg_t":314.6,"dist_nm":84.5,"freq":116.7,"lat":46.70677800,"lon":3.63166700,"rng_nm":80,"alt_fmsl":699,"id":"MOU","desc":"MOULINS VOR-DME"},
+{"type":"NDB","hdg_t":155.2,"dist_nm":88.6,"freq":297,"lat":44.38138888,"lon":5.95027777,"rng_nm":25,"alt_fmsl":1870,"id":"GA","desc":"Gap Tallard NDB"},
+{"type":"VOR","hdg_t":0.2,"dist_nm":92.7,"freq":111.45,"lat":47.27077800,"lon":5.09733300,"rng_nm":100,"alt_fmsl":726,"id":"DJL","desc":"DIJON-LONGVIC VOR-DME"},
+{"type":"SDME","hdg_t":0,"dist_nm":92.7,"freq":113.5,"lat":47.27194400,"lon":5.09152800,"rng_nm":50,"alt_fmsl":726,"id":"DIJ","desc":"DIJON TACAN"},
+{"type":"VOR","hdg_t":88.4,"dist_nm":94.5,"freq":109.25,"lat":45.74572200,"lon":7.33858300,"rng_nm":40,"alt_fmsl":774,"id":"SCS","desc":"AOSTA VOR-DME"},
+{"type":"NDB","hdg_t":186,"dist_nm":95.1,"freq":328,"lat":44.14836100,"lon":4.85719400,"rng_nm":80,"alt_fmsl":197,"id":"ORG","desc":"ORANGE NDB"},
+{"type":"SDME","hdg_t":185.7,"dist_nm":95.6,"freq":109.4,"lat":44.13930600,"lon":4.86605600,"rng_nm":50,"alt_fmsl":197,"id":"ORG","desc":"ORANGE TACAN"},
+{"type":"VOR","hdg_t":71.5,"dist_nm":96.6,"freq":112.15,"lat":46.21550000,"lon":7.28877800,"rng_nm":40,"alt_fmsl":1594,"id":"SIO","desc":"SION VOR-DME"},
+{"type":"VOR","hdg_t":246.6,"dist_nm":97.1,"freq":109.8,"lat":45.06647200,"lon":2.99075000,"rng_nm":25,"alt_fmsl":3222,"id":"SFC","desc":"SAINT FLOUR/COLTINES VOR"},
+{"type":"NDB","hdg_t":225.2,"dist_nm":97.8,"freq":393,"lat":44.56694444,"lon":3.46916666,"rng_nm":25,"alt_fmsl":4062,"id":"BX","desc":"Mende Brenoux NDB"},
+{"type":"NDB","hdg_t":10.4,"dist_nm":98.3,"freq":427,"lat":47.33722300,"lon":5.52444500,"rng_nm":50,"alt_fmsl":0,"id":"BRP","desc":"BROYE LES PESMES NDB"}
+]
+}

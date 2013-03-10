@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RJFY","name":"Kanoya","lat":31.367684,"lon":130.837545,"rwys":2,"ils":1,"index":5086803,"path":"e130n30/e130n31"
+,"runways":[
+{"len_m":2255,"wid_m":45.11,"hdg":79,"surf":"Concrete","rwy1":"08R","lat1":31.36489400,"lon1":130.82730000,"rwy2":"26L","lat2":31.36862800,"lon2":130.85060300},
+{"len_m":1199,"wid_m":39.93,"hdg":79,"surf":"Concrete","rwy1":"08L","lat1":31.36761400,"lon1":130.82994400,"rwy2":"26R","lat2":31.36960000,"lon2":130.84233300}
+]
+,"radios":[
+{"type":"TWR","freq":133.4,"desc":"TWR"},
+{"type":"TWR","freq":126.2,"desc":"TWR"},
+{"type":"APP","freq":126.2,"desc":"APP"},
+{"type":"APP","freq":122.15,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":31.36463900,"lon":130.82489700,"rng_nm":18,"alt_fmsl":214,"hdg":259.69,"id":"IJA","rwy":"26L","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":31.36741700,"lon":130.84767200,"rng_nm":10,"alt_fmsl":51,"id":"IJA","rwy":"26L","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":31.37019400,"lon":130.85850600,"rng_nm":0,"alt_fmsl":214,"id":"----","rwy":"26L","desc":"MM"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":232.8,"dist_nm":0.4,"freq":113.8,"lat":31.36277800,"lon":130.83000000,"rng_nm":100,"alt_fmsl":252,"id":"JAT","desc":"KANOYA TACAN"},
+{"type":"NDB","hdg_t":139.9,"dist_nm":0.8,"freq":238,"lat":31.35638900,"lon":130.84861100,"rng_nm":50,"alt_fmsl":214,"id":"JA","desc":"KANOYA NDB"},
+{"type":"VOR","hdg_t":0.8,"dist_nm":16.5,"freq":117.3,"lat":31.64388100,"lon":130.84210300,"rng_nm":100,"alt_fmsl":1499,"id":"KBE","desc":"KOKUBU VOR-DME"},
+{"type":"NDB","hdg_t":320,"dist_nm":21.6,"freq":390,"lat":31.64466400,"lon":130.56577200,"rng_nm":100,"alt_fmsl":0,"id":"HK","desc":"KAGOSHIMA NDB"},
+{"type":"VOR","hdg_t":326.5,"dist_nm":23.6,"freq":113.3,"lat":31.69722222,"lon":130.58294444,"rng_nm":130,"alt_fmsl":1909,"id":"HKC","desc":"KAGOSHIMA VOR-DME"},
+{"type":"VOR","hdg_t":347.5,"dist_nm":26.3,"freq":115.7,"lat":31.79754200,"lon":130.72610300,"rng_nm":100,"alt_fmsl":900,"id":"KGE","desc":"KAJIKI VOR-DME"},
+{"type":"VOR","hdg_t":44.9,"dist_nm":43.3,"freq":112.4,"lat":31.87872800,"lon":131.43746700,"rng_nm":100,"alt_fmsl":32,"id":"MZE","desc":"MIYAZAKI VOR-DME"},
+{"type":"VOR","hdg_t":170.1,"dist_nm":46.5,"freq":115.4,"lat":30.60215600,"lon":130.99153300,"rng_nm":40,"alt_fmsl":808,"id":"TGE","desc":"NAKATANE VOR-DME"},
+{"type":"SDME","hdg_t":36.3,"dist_nm":53,"freq":115,"lat":32.08027800,"lon":131.45361100,"rng_nm":100,"alt_fmsl":278,"id":"NHT","desc":"NYUTABARU TACAN"},
+{"type":"VOR","hdg_t":189.3,"dist_nm":59.3,"freq":115.4,"lat":30.39008600,"lon":130.65122200,"rng_nm":100,"alt_fmsl":139,"id":"KYE","desc":"KAMIYAKU VOR-DME"},
+{"type":"VOR","hdg_t":188.7,"dist_nm":59.8,"freq":117,"lat":30.37944700,"lon":130.66271700,"rng_nm":100,"alt_fmsl":190,"id":"YKE","desc":"YAKUSHIMA VOR-DME"},
+{"type":"VOR","hdg_t":332.7,"dist_nm":75.1,"freq":113.45,"lat":32.48097500,"lon":130.15961900,"rng_nm":25,"alt_fmsl":354,"id":"AKE","desc":"AMAKUSA VOR-DME"},
+{"type":"NDB","hdg_t":357.6,"dist_nm":86.1,"freq":249,"lat":32.80551400,"lon":130.76847200,"rng_nm":100,"alt_fmsl":0,"id":"KU","desc":"KUMAMOTO NDB"},
+{"type":"VOR","hdg_t":0.1,"dist_nm":87.8,"freq":112.8,"lat":32.83480300,"lon":130.84151400,"rng_nm":100,"alt_fmsl":651,"id":"KUE","desc":"KUMAMOTO VOR-DME"}
+]
+}

@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SBFL","name":"Hercillo Luz","lat":-27.67048675,"lon":-48.54718,"rwys":2,"ils":1,"index":2150289,"path":"w050s30/w049s28"
+,"runways":[
+{"len_m":2299,"wid_m":45.11,"hdg":121,"surf":"Asphalt","rwy1":"14","lat1":-27.66560000,"lon1":-48.55128100,"rwy2":"32","lat2":-27.67633600,"lon2":-48.53133600},
+{"len_m":1500,"wid_m":45.11,"hdg":11,"surf":"Concrete","rwy1":"03","lat1":-27.67663600,"lon1":-48.55458100,"rwy2":"21","lat2":-27.66337500,"lon2":-48.55152200}
+]
+,"radios":[
+{"type":"ATIS","freq":127.45,"desc":"ATIS"},
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.7,"desc":"FLORIANOPOLIS TWR"},
+{"type":"TWR","freq":122.8,"desc":"FLORIANOPOLIS TWR"},
+{"type":"APP","freq":119.65,"desc":"FLORIANOPOLIS APP"},
+{"type":"APP","freq":128.95,"desc":"FLORIANOPOLIS APP"},
+{"type":"APP","freq":129.45,"desc":"FLORIANOPOLIS APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-27.67750000,"lon":-48.52950000,"rng_nm":18,"alt_fmsl":19,"hdg":121.67,"id":"IFL","rwy":"14","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-27.66819400,"lon":-48.54875000,"rng_nm":10,"alt_fmsl":19,"id":"IFL","rwy":"14","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-27.62183300,"lon":-48.63250000,"rng_nm":0,"alt_fmsl":19,"id":"----","rwy":"14","desc":"OM"},
+{"type":"MM","freq":0,"lat":-27.66150000,"lon":-48.55916700,"rng_nm":0,"alt_fmsl":19,"id":"----","rwy":"14","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":71.3,"dist_nm":0,"freq":117.8,"lat":-27.67033300,"lon":-48.54666700,"rng_nm":200,"alt_fmsl":19,"id":"XRO","desc":"FLORIANOPOLIS VOR-DME"},
+{"type":"NDB","hdg_t":310,"dist_nm":0.8,"freq":350,"lat":-27.66150000,"lon":-48.55916700,"rng_nm":50,"alt_fmsl":0,"id":"IL","desc":"CARIANO NDB"},
+{"type":"NDB","hdg_t":115.9,"dist_nm":2.9,"freq":295,"lat":-27.69173100,"lon":-48.49809700,"rng_nm":150,"alt_fmsl":0,"id":"FLN","desc":"FLORIANOPOLIS NDB"},
+{"type":"NDB","hdg_t":302.6,"dist_nm":5.3,"freq":380,"lat":-27.62183300,"lon":-48.63250000,"rng_nm":25,"alt_fmsl":0,"id":"BKO","desc":"BOKO NDB"},
+{"type":"NDB","hdg_t":353.2,"dist_nm":47.8,"freq":235,"lat":-26.87566700,"lon":-48.65283300,"rng_nm":50,"alt_fmsl":18,"id":"NVG","desc":"NAVEGANTES NDB"},
+{"type":"NDB","hdg_t":194.1,"dist_nm":57.6,"freq":310,"lat":-28.60383300,"lon":-48.81383300,"rng_nm":85,"alt_fmsl":0,"id":"SW","desc":"SANTA MARTA NDB"},
+{"type":"NDB","hdg_t":216.2,"dist_nm":78.1,"freq":405,"lat":-28.72131100,"lon":-49.42206100,"rng_nm":50,"alt_fmsl":93,"id":"CRY","desc":"CRICIUMA NDB"},
+{"type":"NDB","hdg_t":352.9,"dist_nm":78.2,"freq":245,"lat":-26.37266700,"lon":-48.72433300,"rng_nm":25,"alt_fmsl":0,"id":"GAB","desc":"GABI NDB"},
+{"type":"VOR","hdg_t":351.1,"dist_nm":87.6,"freq":115.1,"lat":-26.22233300,"lon":-48.79800000,"rng_nm":130,"alt_fmsl":15,"id":"JNV","desc":"JOINVILLE VOR-DME"},
+{"type":"NDB","hdg_t":265.4,"dist_nm":92.3,"freq":240,"lat":-27.78250000,"lon":-50.27650000,"rng_nm":85,"alt_fmsl":3065,"id":"LJS","desc":"LAGES NDB"}
+]
+}

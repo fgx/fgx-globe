@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SBSV","name":"Salvador Bahia Deputado Luis Eduardo M","lat":-12.91099375,"lon":-38.331043,"rwys":2,"ils":1,"index":2315077,"path":"w040s20/w039s13"
+,"runways":[
+{"len_m":1523,"wid_m":45.11,"hdg":143,"surf":"Asphalt","rwy1":"17","lat1":-12.90781400,"lon1":-38.34371100,"rwy2":"35","lat2":-12.91893600,"lon2":-38.33543300},
+{"len_m":3003,"wid_m":45.11,"hdg":78,"surf":"Asphalt","rwy1":"10","lat1":-12.91134400,"lon1":-38.33606700,"rwy2":"28","lat2":-12.90588100,"lon2":-38.30896100}
+]
+,"radios":[
+{"type":"ATIS","freq":127.75,"desc":"SALVADOR ATIS"},
+{"type":"CLD","freq":121.1,"desc":"SALVADOR TRAFFIC"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.3,"desc":"SALVADOR TWR"},
+{"type":"APP","freq":120.8,"desc":"SALVADOR CON"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":-12.90533300,"lon":-38.30600000,"rng_nm":18,"alt_fmsl":29,"hdg":78.41,"id":"ISV","rwy":"10","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":-12.90966700,"lon":-38.33300000,"rng_nm":10,"alt_fmsl":29,"id":"ISV","rwy":"10","desc":"GS","gs":2.88},
+{"type":"OM","freq":0,"lat":-12.92800000,"lon":-38.42083300,"rng_nm":0,"alt_fmsl":29,"id":"----","rwy":"10","desc":"OM"},
+{"type":"MM","freq":0,"lat":-12.91316700,"lon":-38.34566700,"rng_nm":0,"alt_fmsl":29,"id":"----","rwy":"10","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":64.2,"dist_nm":0.6,"freq":116.5,"lat":-12.90641700,"lon":-38.32136400,"rng_nm":130,"alt_fmsl":63,"id":"SVD","desc":"SALVADOR VOR-DME"},
+{"type":"NDB","hdg_t":237.2,"dist_nm":0.6,"freq":275,"lat":-12.91674200,"lon":-38.34016400,"rng_nm":200,"alt_fmsl":63,"id":"SVD","desc":"SALVADOR NDB"},
+{"type":"NDB","hdg_t":261.3,"dist_nm":0.8,"freq":240,"lat":-12.91316700,"lon":-38.34566700,"rng_nm":25,"alt_fmsl":63,"id":"IV","desc":"IPITANGA NDB"},
+{"type":"NDB","hdg_t":259,"dist_nm":5.3,"freq":220,"lat":-12.92800000,"lon":-38.42083300,"rng_nm":50,"alt_fmsl":0,"id":"IS","desc":"CIMBRA NDB"},
+{"type":"NDB","hdg_t":355.6,"dist_nm":45.4,"freq":310,"lat":-12.15266700,"lon":-38.38950000,"rng_nm":50,"alt_fmsl":0,"id":"AGN","desc":"ALAGOINHAS NDB"},
+{"type":"NDB","hdg_t":199.8,"dist_nm":120.8,"freq":305,"lat":-14.81216700,"lon":-39.03666700,"rng_nm":70,"alt_fmsl":15,"id":"YLH","desc":"ILHEUS NDB"},
+{"type":"NDB","hdg_t":32.9,"dist_nm":136.6,"freq":355,"lat":-10.98810300,"lon":-37.07369400,"rng_nm":20,"alt_fmsl":26,"id":"ACJ","desc":"ARACAJU NDB"},
+{"type":"VOR","hdg_t":32.7,"dist_nm":136.7,"freq":112,"lat":-10.98191000,"lon":-37.07733100,"rng_nm":200,"alt_fmsl":26,"id":"ACJ","desc":"ARACAJU VOR-DME"},
+{"type":"NDB","hdg_t":194.8,"dist_nm":151.4,"freq":335,"lat":-15.36083300,"lon":-39.00133300,"rng_nm":50,"alt_fmsl":0,"id":"COM","desc":"COMANDATUBA NDB"},
+{"type":"NDB","hdg_t":278,"dist_nm":174.5,"freq":235,"lat":-12.48565000,"lon":-41.27562200,"rng_nm":50,"alt_fmsl":0,"id":"LEN","desc":"LENCOIS NDB"}
+]
+}

@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"YABA","name":"Albany","lat":-34.9446945,"lon":117.81110533,"rwys":2,"ils":1,"index":4869571,"path":"e110s40/e117s35"
+,"runways":[
+{"len_m":1796,"wid_m":29.87,"hdg":134,"surf":"Asphalt","rwy1":"14","lat1":-34.94016673,"lon1":117.80442621,"rwy2":"32","lat2":-34.95157227,"lon2":117.81838926},
+{"len_m":1093,"wid_m":29.87,"hdg":45,"surf":"Transparent","rwy1":"05","lat1":-34.94700323,"lon1":117.80656781,"rwy2":"23","lat2":-34.94003577,"lon2":117.81503803}
+]
+,"radios":[
+{"type":"CTAF","freq":119.6,"desc":"ACTIVATE LIGHTS ONLY MULT"},
+{"type":"CTAF","freq":126.7,"desc":"ALBANY GROUND UNIC"},
+{"type":"CTAF","freq":123.9,"desc":"MELBOURNE CENTRE MULT"},
+{"type":"TWR","freq":121.1,"desc":"ALBANY TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":-34.95250000,"lon":117.81888900,"rng_nm":18,"alt_fmsl":233,"hdg":136.13,"id":"IAB","rwy":"14","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":-34.94111100,"lon":117.80694400,"rng_nm":10,"alt_fmsl":233,"id":"IAB","rwy":"14","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":183.4,"dist_nm":0.4,"freq":240,"lat":-34.95222200,"lon":117.81055600,"rng_nm":60,"alt_fmsl":243,"id":"ABA","desc":"ALBANY NDB-DME"},
+{"type":"SDME","hdg_t":183.4,"dist_nm":0.4,"freq":109.7,"lat":-34.95222200,"lon":117.81055600,"rng_nm":60,"alt_fmsl":243,"id":"ABA","desc":"ALBANY NDB-DME"},
+{"type":"NDB","hdg_t":295.6,"dist_nm":93.2,"freq":257,"lat":-34.25805600,"lon":116.12138900,"rng_nm":35,"alt_fmsl":0,"id":"MJM","desc":"MANJIMUP NDB"},
+{"type":"NDB","hdg_t":301.3,"dist_nm":141.5,"freq":386,"lat":-33.69250000,"lon":115.39527800,"rng_nm":50,"alt_fmsl":55,"id":"BLN","desc":"BUSSELTON NDB"},
+{"type":"NDB","hdg_t":345.4,"dist_nm":148.7,"freq":233,"lat":-32.53916700,"lon":117.07444400,"rng_nm":110,"alt_fmsl":0,"id":"PIY","desc":"PINGELLY NDB"},
+{"type":"NDB","hdg_t":9.8,"dist_nm":174.5,"freq":227,"lat":-32.07166700,"lon":118.39500000,"rng_nm":80,"alt_fmsl":0,"id":"NRB","desc":"NAREMBEEN NDB"},
+{"type":"NDB","hdg_t":329.9,"dist_nm":195.6,"freq":281,"lat":-32.10277800,"lon":115.88666700,"rng_nm":30,"alt_fmsl":0,"id":"JT","desc":"JANDAKOT NDB"},
+{"type":"NDB","hdg_t":351.3,"dist_nm":200.9,"freq":293,"lat":-31.62500000,"lon":117.22388900,"rng_nm":85,"alt_fmsl":699,"id":"CUN","desc":"CUNDERDIN NDB"},
+{"type":"VOR","hdg_t":332.1,"dist_nm":202.2,"freq":113.7,"lat":-31.94500000,"lon":115.95916700,"rng_nm":130,"alt_fmsl":87,"id":"PH","desc":"PERTH VOR-DME"},
+{"type":"NDB","hdg_t":332,"dist_nm":202.8,"freq":272,"lat":-31.93750000,"lon":115.95027800,"rng_nm":60,"alt_fmsl":67,"id":"PH","desc":"PERTH NDB"}
+]
+}

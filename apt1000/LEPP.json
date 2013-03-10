@@ -1,0 +1,52 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LEPP","name":"Pamplona","lat":42.770789,"lon":-1.646875,"rwys":1,"ils":1,"index":2924849,"path":"w010n40/w002n42"
+,"runways":[
+{"len_m":2207,"wid_m":45.11,"hdg":151,"surf":"Asphalt","rwy1":"16","lat1":42.77954247,"lon1":-1.65325278,"rwy2":"34","lat2":42.76203553,"lon2":-1.64049722}
+]
+,"radios":[
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.2,"desc":"TWR"},
+{"type":"APP","freq":118.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":42.76032800,"lon":-1.63925300,"rng_nm":18,"alt_fmsl":1504,"hdg":151.86,"id":"IPN","rwy":"16","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":42.77781400,"lon":-1.65025800,"rng_nm":10,"alt_fmsl":1504,"id":"IPN","rwy":"16","desc":"GS","gs":3.4},
+{"type":"DME","freq":109.7,"lat":42.77771900,"lon":-1.65046700,"rng_nm":18,"alt_fmsl":1470,"id":"IPN","rwy":"16","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":151.6,"dist_nm":1.4,"freq":386,"lat":42.74999200,"lon":-1.63166700,"rng_nm":15,"alt_fmsl":0,"id":"NO","desc":"PAMPLONA NDB"},
+{"type":"VOR","hdg_t":227.6,"dist_nm":3.2,"freq":112.3,"lat":42.73375000,"lon":-1.70200000,"rng_nm":20,"alt_fmsl":3419,"id":"PPN","desc":"PAMPLONA VOR-DME"},
+{"type":"NDB","hdg_t":174.1,"dist_nm":3.4,"freq":422,"lat":42.71418900,"lon":-1.63904200,"rng_nm":50,"alt_fmsl":0,"id":"PAM","desc":"PAMPLONA NDB"},
+{"type":"VOR","hdg_t":187,"dist_nm":4.9,"freq":113.55,"lat":42.68838600,"lon":-1.66078300,"rng_nm":25,"alt_fmsl":1890,"id":"PAP","desc":"PAMPLONA VOR-DME"},
+{"type":"NDB","hdg_t":331.7,"dist_nm":6.5,"freq":354,"lat":42.86666489,"lon":-1.71683335,"rng_nm":15,"alt_fmsl":1468,"id":"PP","desc":"Pamplona NDB"},
+{"type":"VOR","hdg_t":346,"dist_nm":33.4,"freq":117.9,"lat":43.31119700,"lon":-1.83039200,"rng_nm":40,"alt_fmsl":804,"id":"SSN","desc":"SAN SEBASTIAN VOR-DME"},
+{"type":"NDB","hdg_t":237.3,"dist_nm":35.2,"freq":399,"lat":42.45134200,"lon":-2.31473600,"rng_nm":45,"alt_fmsl":0,"id":"EAG","desc":"LOGRONO NDB"},
+{"type":"VOR","hdg_t":238.5,"dist_nm":35.4,"freq":115.45,"lat":42.46053600,"lon":-2.32691100,"rng_nm":40,"alt_fmsl":1348,"id":"LPA","desc":"LOGRONO VOR-DME"},
+{"type":"NDB","hdg_t":349.9,"dist_nm":37.4,"freq":328,"lat":43.38627800,"lon":-1.79588600,"rng_nm":50,"alt_fmsl":433,"id":"HIG","desc":"SAN SEBASTIAN NDB-DME"},
+{"type":"SDME","hdg_t":349.9,"dist_nm":37.4,"freq":113.2,"lat":43.38628100,"lon":-1.79576900,"rng_nm":50,"alt_fmsl":433,"id":"HIG","desc":"SAN SEBASTIAN NDB-DME"},
+{"type":"VOR","hdg_t":8.1,"dist_nm":42.1,"freq":114.15,"lat":43.46663900,"lon":-1.51027800,"rng_nm":100,"alt_fmsl":276,"id":"BTZ","desc":"BIARRITZ BAYONNE ANGLET VOR-DME"},
+{"type":"NDB","hdg_t":14.1,"dist_nm":43.3,"freq":341,"lat":43.47052800,"lon":-1.40369400,"rng_nm":50,"alt_fmsl":295,"id":"BZ","desc":"BIARRITZ NDB"},
+{"type":"NDB","hdg_t":282,"dist_nm":46.5,"freq":345,"lat":42.92808900,"lon":-2.67961400,"rng_nm":25,"alt_fmsl":0,"id":"VTA","desc":"VITORIA NDB"},
+{"type":"VOR","hdg_t":278.2,"dist_nm":48,"freq":112.9,"lat":42.88063300,"lon":-2.72435000,"rng_nm":130,"alt_fmsl":1696,"id":"VFD","desc":"VITORIA VOR-DME"},
+{"type":"VOR","hdg_t":267.9,"dist_nm":53.9,"freq":116.6,"lat":42.73188300,"lon":-2.86558300,"rng_nm":130,"alt_fmsl":1903,"id":"VRA","desc":"VITORIA VOR-DME"},
+{"type":"VOR","hdg_t":251.2,"dist_nm":57.8,"freq":112.6,"lat":42.45330600,"lon":-2.88070600,"rng_nm":130,"alt_fmsl":2126,"id":"DGO","desc":"DOMINGO VOR-DME"},
+{"type":"NDB","hdg_t":25.7,"dist_nm":61.6,"freq":334,"lat":43.69555555,"lon":-1.03222222,"rng_nm":25,"alt_fmsl":82,"id":"DX","desc":"Dax Seyresse NDB"},
+{"type":"VOR","hdg_t":299.8,"dist_nm":65.1,"freq":115.9,"lat":43.30438100,"lon":-2.93587800,"rng_nm":130,"alt_fmsl":141,"id":"BLV","desc":"BILBAO VOR-DME"},
+{"type":"NDB","hdg_t":161.8,"dist_nm":65.5,"freq":389,"lat":41.73051700,"lon":-1.19331100,"rng_nm":50,"alt_fmsl":0,"id":"ZRZ","desc":"ZARAGOZA NDB"},
+{"type":"NDB","hdg_t":60.3,"dist_nm":67.6,"freq":364,"lat":43.32027777,"lon":-0.30500000,"rng_nm":25,"alt_fmsl":781,"id":"PU","desc":"Pau Pyrenees NDB"},
+{"type":"NDB","hdg_t":134.7,"dist_nm":71.3,"freq":335,"lat":41.92788100,"lon":-0.51383600,"rng_nm":50,"alt_fmsl":0,"id":"TON","desc":"TORRALBA DE ARAGON NDB"},
+{"type":"VOR","hdg_t":157.4,"dist_nm":72.1,"freq":113,"lat":41.65789200,"lon":-1.03086400,"rng_nm":50,"alt_fmsl":876,"id":"ZAR","desc":"ZARAGOZA VOR-DME"},
+{"type":"VOR","hdg_t":124.8,"dist_nm":72.3,"freq":114.55,"lat":42.07336111,"lon":-0.31880556,"rng_nm":75,"alt_fmsl":1772,"id":"HUE","desc":"HUESCA VOR-DME"},
+{"type":"NDB","hdg_t":62.9,"dist_nm":72.8,"freq":397,"lat":43.31388888,"lon":-0.16611111,"rng_nm":25,"alt_fmsl":1132,"id":"PO","desc":"Pau Pyrenees NDB"},
+{"type":"NDB","hdg_t":153.7,"dist_nm":78.2,"freq":348,"lat":41.59889700,"lon":-0.87796400,"rng_nm":50,"alt_fmsl":0,"id":"ZZA","desc":"ZARAGOZA NDB"},
+{"type":"NDB","hdg_t":66.8,"dist_nm":80.8,"freq":321,"lat":43.28838900,"lon":0.04963900,"rng_nm":50,"alt_fmsl":928,"id":"TL","desc":"TARBES NDB"},
+{"type":"VOR","hdg_t":59.1,"dist_nm":82.8,"freq":111.8,"lat":43.46666700,"lon":-0.01841700,"rng_nm":50,"alt_fmsl":964,"id":"TAN","desc":"LAHITTE VOR"},
+{"type":"VOR","hdg_t":59.2,"dist_nm":82.8,"freq":111.8,"lat":43.46666700,"lon":-0.01766700,"rng_nm":60,"alt_fmsl":980,"id":"LMB","desc":"LEMBEYE VOR"},
+{"type":"SDME","hdg_t":35.8,"dist_nm":84.6,"freq":108.7,"lat":43.90994400,"lon":-0.50438900,"rng_nm":50,"alt_fmsl":256,"id":"MDM","desc":"MONT DE MARSAN TACAN"},
+{"type":"VOR","hdg_t":66.2,"dist_nm":85.7,"freq":113.9,"lat":43.33222200,"lon":0.14575000,"rng_nm":80,"alt_fmsl":1039,"id":"TBO","desc":"TARBES VOR"},
+{"type":"VOR","hdg_t":254.7,"dist_nm":90.6,"freq":111.4,"lat":42.35496900,"lon":-3.61358300,"rng_nm":50,"alt_fmsl":2970,"id":"VIA","desc":"BURGOS VOR-DME"},
+{"type":"NDB","hdg_t":254.9,"dist_nm":91.5,"freq":357,"lat":42.35813100,"lon":-3.63538300,"rng_nm":50,"alt_fmsl":2945,"id":"BGS","desc":"BURGOS NDB"},
+{"type":"VOR","hdg_t":207.1,"dist_nm":97.2,"freq":112.8,"lat":41.32356400,"lon":-2.62979200,"rng_nm":45,"alt_fmsl":3717,"id":"BAN","desc":"BARAHONA VOR-DME"},
+{"type":"NDB","hdg_t":13.1,"dist_nm":98.2,"freq":358,"lat":44.36527777,"lon":-1.12888888,"rng_nm":25,"alt_fmsl":92,"id":"BRS","desc":"Biscarrosse Parentis NDB"}
+]
+}

@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ZWTN","name":"Hotan","lat":37.038521,"lon":79.864932,"rwys":1,"ils":1,"index":4251587,"path":"e070n30/e079n37"
+,"runways":[
+{"len_m":3168,"wid_m":49.99,"hdg":110,"surf":"Concrete","rwy1":"11","lat1":37.04350300,"lon1":79.84824700,"rwy2":"29","lat2":37.03353900,"lon2":79.88161700}
+]
+,"radios":[
+{"type":"TWR","freq":118.65,"desc":"TWR"},
+{"type":"TWR","freq":130,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":37.04444400,"lon":79.84508600,"rng_nm":18,"alt_fmsl":4672,"hdg":290.49,"id":"IRB","rwy":"29","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":37.03355800,"lon":79.87799400,"rng_nm":10,"alt_fmsl":4762,"id":"IRB","rwy":"29","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":37.02883300,"lon":79.89742200,"rng_nm":0,"alt_fmsl":4672,"id":"----","rwy":"29","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":108.9,"dist_nm":0.3,"freq":113.1,"lat":37.03666700,"lon":79.87166700,"rng_nm":130,"alt_fmsl":4685,"id":"HTN","desc":"HOTAN VOR-DME"},
+{"type":"NDB","hdg_t":304.8,"dist_nm":149.2,"freq":569,"lat":38.43333300,"lon":77.26666700,"rng_nm":25,"alt_fmsl":0,"id":"SC","desc":"SHACHE NDB"},
+{"type":"VOR","hdg_t":304.4,"dist_nm":150.1,"freq":113.3,"lat":38.42833300,"lon":77.24000000,"rng_nm":130,"alt_fmsl":4052,"id":"SCH","desc":"SHACHE VOR-DME"},
+{"type":"VOR","hdg_t":219.7,"dist_nm":177.8,"freq":115.7,"lat":34.73277800,"lon":77.56636100,"rng_nm":40,"alt_fmsl":3282,"id":"LEH","desc":"LEH VOR-DME"},
+{"type":"NDB","hdg_t":213.4,"dist_nm":205.9,"freq":1053,"lat":34.15000000,"lon":77.58333300,"rng_nm":25,"alt_fmsl":0,"id":"LA","desc":"LEH NDB"},
+{"type":"NDB","hdg_t":245.6,"dist_nm":233.5,"freq":247,"lat":35.34907100,"lon":75.53138000,"rng_nm":40,"alt_fmsl":0,"id":"SD","desc":"SKARDU NDB"},
+{"type":"VOR","hdg_t":310.8,"dist_nm":235.6,"freq":115.7,"lat":39.54666700,"lon":76.02333300,"rng_nm":130,"alt_fmsl":4564,"id":"KHG","desc":"KASHI VOR-DME"},
+{"type":"NDB","hdg_t":257.5,"dist_nm":275.7,"freq":324,"lat":35.92027800,"lon":74.33508100,"rng_nm":50,"alt_fmsl":4817,"id":"GT","desc":"GILGIT NDB"},
+{"type":"NDB","hdg_t":74.7,"dist_nm":277.6,"freq":533,"lat":38.12390137,"lon":85.52645111,"rng_nm":15,"alt_fmsl":4107,"id":"SY","desc":"QIEMO NDB"},
+{"type":"VOR","hdg_t":74.4,"dist_nm":278.4,"freq":114.3,"lat":38.14960098,"lon":85.53485107,"rng_nm":50,"alt_fmsl":4088,"id":"QIM","desc":"QIEMO VOR-DME"}
+]
+}

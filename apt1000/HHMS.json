@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HHMS","name":"Massawa Intl","lat":15.670011,"lon":39.370021,"rwys":1,"ils":1,"index":3594858,"path":"e030n10/e039n15"
+,"runways":[
+{"len_m":3496,"wid_m":45.11,"hdg":75,"surf":"Concrete","rwy1":"07","lat1":15.66593300,"lon1":39.35426700,"rwy2":"25","lat2":15.67408900,"lon2":39.38577500}
+]
+,"radios":[
+{"type":"TWR","freq":121.9,"desc":"TWR"},
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"APP","freq":123.9,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":15.67453900,"lon":39.38744400,"rng_nm":18,"alt_fmsl":194,"hdg":74.93,"id":"IMS","rwy":"07","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":15.66777800,"lon":39.35722200,"rng_nm":10,"alt_fmsl":194,"id":"IMS","rwy":"07","desc":"GS","gs":3},
+{"type":"DME","freq":110.5,"lat":15.67453900,"lon":39.38744400,"rng_nm":18,"alt_fmsl":194,"id":"IMS","rwy":"07","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":252.1,"dist_nm":1.5,"freq":230,"lat":15.66220600,"lon":39.34501900,"rng_nm":25,"alt_fmsl":0,"id":"MS","desc":"MASSAWA NDB"},
+{"type":"VOR","hdg_t":229.7,"dist_nm":35.5,"freq":113.7,"lat":15.28500000,"lon":38.90166700,"rng_nm":130,"alt_fmsl":7661,"id":"ASM","desc":"ASMARA VOR-DME"},
+{"type":"NDB","hdg_t":230.4,"dist_nm":36.4,"freq":305,"lat":15.28129400,"lon":38.88523900,"rng_nm":25,"alt_fmsl":0,"id":"AS","desc":"ASMARA NDB"},
+{"type":"NDB","hdg_t":200.8,"dist_nm":97.3,"freq":440,"lat":14.14596700,"lon":38.77633100,"rng_nm":150,"alt_fmsl":6915,"id":"AX","desc":"AXUM NDB"},
+{"type":"NDB","hdg_t":176.1,"dist_nm":131.4,"freq":256,"lat":13.47511100,"lon":39.52172200,"rng_nm":100,"alt_fmsl":7403,"id":"MK","desc":"MAKALE NDB"},
+{"type":"VOR","hdg_t":176,"dist_nm":131.5,"freq":116.6,"lat":13.47277200,"lon":39.52474700,"rng_nm":200,"alt_fmsl":7403,"id":"QHA","desc":"MAKALE VOR-DME"},
+{"type":"VOR","hdg_t":264.4,"dist_nm":177.8,"freq":114.8,"lat":15.36351700,"lon":36.31681700,"rng_nm":40,"alt_fmsl":1672,"id":"KSL","desc":"KASSALA VOR-DME"},
+{"type":"VOR","hdg_t":67.7,"dist_nm":199.3,"freq":117.7,"lat":16.90766700,"lon":42.57758300,"rng_nm":130,"alt_fmsl":14,"id":"GIZ","desc":"JAZAN VORTAC"},
+{"type":"NDB","hdg_t":104,"dist_nm":215.9,"freq":368,"lat":14.76016700,"lon":42.97316700,"rng_nm":25,"alt_fmsl":41,"id":"HD","desc":"HODEIDAH NDB"},
+{"type":"VOR","hdg_t":103.8,"dist_nm":216.6,"freq":114.2,"lat":14.77361100,"lon":42.98805600,"rng_nm":130,"alt_fmsl":41,"id":"HDH","desc":"HODEIDAH VOR-DME"}
+]
+}

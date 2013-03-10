@@ -1,0 +1,26 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UAKD","name":"Zhezkazgan","lat":47.7087555,"lon":67.7391985,"rwys":1,"ils":1,"index":4055658,"path":"e060n40/e067n47"
+,"runways":[
+{"len_m":2598,"wid_m":42.06,"hdg":51,"surf":"Concrete","rwy1":"04","lat1":47.70150800,"lon1":67.72561900,"rwy2":"22","lat2":47.71600300,"lon2":67.75277800}
+]
+,"radios":[
+{"type":"TWR","freq":127.1,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":47.69704400,"lon":67.71725000,"rng_nm":18,"alt_fmsl":1250,"hdg":231.57,"id":"IGN","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":47.71320600,"lon":67.75147200,"rng_nm":10,"alt_fmsl":1250,"id":"IGN","rwy":"22","desc":"GS","gs":2.4},
+{"type":"MM","freq":0,"lat":47.72000000,"lon":67.75666700,"rng_nm":0,"alt_fmsl":1250,"id":"----","rwy":"22","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":51.5,"dist_nm":1,"freq":113.3,"lat":47.71944400,"lon":67.75916700,"rng_nm":130,"alt_fmsl":1250,"id":"DZG","desc":"ZHEZKAZGAN VOR-DME"},
+{"type":"NDB","hdg_t":51.7,"dist_nm":2.7,"freq":435,"lat":47.73708100,"lon":67.79255300,"rng_nm":50,"alt_fmsl":0,"id":"GN","desc":"ZHEZKAZGAN NDB"},
+{"type":"NDB","hdg_t":231.7,"dist_nm":2.7,"freq":435,"lat":47.68017500,"lon":67.68558900,"rng_nm":50,"alt_fmsl":0,"id":"ZK","desc":"ZHEZKAZGAN NDB"},
+{"type":"NDB","hdg_t":349,"dist_nm":159.4,"freq":1210,"lat":50.31277800,"lon":66.95000000,"rng_nm":50,"alt_fmsl":0,"id":"UN","desc":"ARKALYK NDB"},
+{"type":"NDB","hdg_t":349.2,"dist_nm":160,"freq":518,"lat":50.32500000,"lon":66.96000000,"rng_nm":50,"alt_fmsl":0,"id":"AR","desc":"ARKALYK NDB"},
+{"type":"VOR","hdg_t":207.1,"dist_nm":201,"freq":112.7,"lat":44.70666700,"lon":65.60000000,"rng_nm":50,"alt_fmsl":213,"id":"KZO","desc":"KYZYLORDA VOR-DME"},
+{"type":"NDB","hdg_t":207,"dist_nm":201.2,"freq":486,"lat":44.70166700,"lon":65.60002800,"rng_nm":50,"alt_fmsl":0,"id":"KZ","desc":"KYZYLORDA NDB"},
+{"type":"NDB","hdg_t":207,"dist_nm":201.2,"freq":486,"lat":44.70138900,"lon":65.60000000,"rng_nm":50,"alt_fmsl":0,"id":"OR","desc":"KYZYLORDA NDB"},
+{"type":"NDB","hdg_t":305.9,"dist_nm":204.8,"freq":494,"lat":49.63333300,"lon":63.48333300,"rng_nm":50,"alt_fmsl":0,"id":"TR","desc":"TURGAY NDB"},
+{"type":"NDB","hdg_t":34.8,"dist_nm":243.6,"freq":318,"lat":50.98416700,"lon":71.40777800,"rng_nm":50,"alt_fmsl":0,"id":"MO","desc":"ASTANA NDB"}
+]
+}

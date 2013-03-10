@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SAWH","name":"Ushuaia_intl_islas Malvinas","lat":-54.84331011,"lon":-68.29489674,"rwys":1,"ils":1,"index":1820874,"path":"w070s60/w069s55"
+,"runways":[
+{"len_m":2913,"wid_m":45.11,"hdg":86,"surf":"Concrete","rwy1":"07","lat1":-54.84419918,"lon1":-68.31752377,"rwy2":"25","lat2":-54.84242103,"lon2":-68.27226971}
+]
+,"radios":[
+{"type":"TWR","freq":118.1,"desc":"USHUAIA TWR"},
+{"type":"APP","freq":118.1,"desc":"USHUAIA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.3,"lat":-54.84425000,"lon":-68.31966700,"rng_nm":18,"alt_fmsl":54,"hdg":266.19,"id":"US","rwy":"25","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.3,"lat":-54.84163900,"lon":-68.28055600,"rng_nm":10,"alt_fmsl":91,"id":"US","rwy":"25","desc":"GS","gs":3.5},
+{"type":"DME","freq":111.3,"lat":-54.84163900,"lon":-68.28055600,"rng_nm":18,"alt_fmsl":92,"id":"US","rwy":"25","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":49.6,"dist_nm":0.4,"freq":113.7,"lat":-54.83805600,"lon":-68.28416700,"rng_nm":185,"alt_fmsl":92,"id":"USU","desc":"USHUAIA VOR"},
+{"type":"VOR","hdg_t":102.7,"dist_nm":23.9,"freq":114.9,"lat":-54.92916700,"lon":-67.62000000,"rng_nm":130,"alt_fmsl":88,"id":"PWL","desc":"PUERTO WILLIAMS VOR-DME"},
+{"type":"NDB","hdg_t":16.6,"dist_nm":66.3,"freq":365,"lat":-53.78500000,"lon":-67.76083300,"rng_nm":216,"alt_fmsl":66,"id":"GRA","desc":"RIO GRANDE NDB"},
+{"type":"VOR","hdg_t":16.9,"dist_nm":67,"freq":117.3,"lat":-53.77528900,"lon":-67.74583900,"rng_nm":188,"alt_fmsl":66,"id":"GRA","desc":"RIO GRANDE VOR-DME"},
+{"type":"NDB","hdg_t":17.7,"dist_nm":67.2,"freq":265,"lat":-53.77683300,"lon":-67.72041700,"rng_nm":25,"alt_fmsl":66,"id":"P","desc":"RIO GRANDE NDB"},
+{"type":"NDB","hdg_t":321.9,"dist_nm":120.4,"freq":340,"lat":-53.24666700,"lon":-70.35222200,"rng_nm":50,"alt_fmsl":0,"id":"CFM","desc":"CAPITAN FUENTES MARTINEZ NDB"},
+{"type":"NDB","hdg_t":342.7,"dist_nm":132.1,"freq":225,"lat":-52.73805600,"lon":-69.36916700,"rng_nm":50,"alt_fmsl":0,"id":"SOM","desc":"CERRO SOMBRERO NDB"},
+{"type":"NDB","hdg_t":319.9,"dist_nm":142.4,"freq":300,"lat":-53.00055600,"lon":-70.82111100,"rng_nm":25,"alt_fmsl":0,"id":"AS","desc":"PUNTA ARENAS NDB"},
+{"type":"NDB","hdg_t":319.3,"dist_nm":142.9,"freq":270,"lat":-53.01017500,"lon":-70.86386700,"rng_nm":235,"alt_fmsl":144,"id":"NAS","desc":"PUNTA ARENAS NDB"},
+{"type":"VOR","hdg_t":319.5,"dist_nm":143,"freq":114.1,"lat":-53.00373600,"lon":-70.85368100,"rng_nm":130,"alt_fmsl":137,"id":"NAS","desc":"PUNTA ARENAS VOR-DME"}
+]
+}

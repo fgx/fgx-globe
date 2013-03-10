@@ -1,0 +1,45 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VABB","name":"Bombay Mumbai Chhatrapati Shivaji Intl","lat":19.0889785,"lon":72.86591375,"rwys":2,"ils":3,"index":4135750,"path":"e070n10/e072n19"
+,"runways":[
+{"len_m":3489,"wid_m":45.11,"hdg":89,"surf":"Asphalt","rwy1":"09","lat1":19.08842200,"lon1":72.84799200,"rwy2":"27","lat2":19.08887800,"lon2":72.88115000},
+{"len_m":2923,"wid_m":45.72,"hdg":134,"surf":"Asphalt","rwy1":"14","lat1":19.09850600,"lon1":72.85729400,"rwy2":"32","lat2":19.08010800,"lon2":72.87721900}
+]
+,"radios":[
+{"type":"ATIS","freq":126.4,"desc":"MUMBAI ATIS"},
+{"type":"CLD","freq":121.75,"desc":"MUMBAI CLR DELIVERY"},
+{"type":"CLD","freq":121.85,"desc":"MUMBAI CLR DELIVERY"},
+{"type":"GND","freq":121.9,"desc":"MUMBAI GND"},
+{"type":"GND","freq":121.75,"desc":"MUMBAI GND"},
+{"type":"TWR","freq":118.1,"desc":"MUMBAI TWR"},
+{"type":"APP","freq":119.3,"desc":"RDR"},
+{"type":"APP","freq":125.9,"desc":"RDR"},
+{"type":"APP","freq":132.6,"desc":"RDR"},
+{"type":"APP","freq":127.9,"desc":"RDR"},
+{"type":"APP","freq":127.9,"desc":"MUMBAI APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":19.08894400,"lon":72.88133300,"rng_nm":18,"alt_fmsl":34,"hdg":89.06,"id":"IBOM","rwy":"09","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.1,"lat":19.07977800,"lon":72.87766700,"rng_nm":18,"alt_fmsl":26,"hdg":134.21,"id":"IBBY","rwy":"14","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":19.08866700,"lon":72.84494400,"rng_nm":18,"alt_fmsl":13,"hdg":269.64,"id":"ISCZ","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":19.08802800,"lon":72.85200000,"rng_nm":10,"alt_fmsl":37,"id":"IBOM","rwy":"09","desc":"GS","gs":3},
+{"type":"GS","freq":110.1,"lat":19.09488900,"lon":72.86291700,"rng_nm":10,"alt_fmsl":37,"id":"IBBY","rwy":"14","desc":"GS","gs":3},
+{"type":"GS","freq":110.3,"lat":19.08783300,"lon":72.87355600,"rng_nm":10,"alt_fmsl":37,"id":"ISCZ","rwy":"27","desc":"GS","gs":3.3},
+{"type":"OM","freq":0,"lat":19.09011100,"lon":73.01761100,"rng_nm":0,"alt_fmsl":13,"id":"----","rwy":"27","desc":"OM"},
+{"type":"MM","freq":0,"lat":19.08922200,"lon":72.89494400,"rng_nm":0,"alt_fmsl":13,"id":"----","rwy":"27","desc":"MM"},
+{"type":"DME","freq":109.5,"lat":19.08894400,"lon":72.88133300,"rng_nm":18,"alt_fmsl":22,"id":"IBOM","rwy":"09","desc":"DME-ILS"},
+{"type":"DME","freq":110.1,"lat":19.09488900,"lon":72.86291700,"rng_nm":18,"alt_fmsl":37,"id":"IBBY","rwy":"14","desc":"DME-ILS"},
+{"type":"DME","freq":110.3,"lat":19.08783300,"lon":72.87355600,"rng_nm":18,"alt_fmsl":37,"id":"ISCZ","rwy":"27","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":111.7,"dist_nm":0.5,"freq":116.6,"lat":19.08538900,"lon":72.87536100,"rng_nm":130,"alt_fmsl":36,"id":"BBB","desc":"MUMBAI VOR-DME"},
+{"type":"NDB","hdg_t":116.6,"dist_nm":66.9,"freq":381,"lat":18.58426400,"lon":73.91591400,"rng_nm":75,"alt_fmsl":0,"id":"PO","desc":"PUNE NDB"},
+{"type":"VOR","hdg_t":116.8,"dist_nm":66.9,"freq":113.9,"lat":18.57974700,"lon":73.91417200,"rng_nm":40,"alt_fmsl":1942,"id":"PUN","desc":"PUNE VOR-DME"},
+{"type":"NDB","hdg_t":356.7,"dist_nm":121.3,"freq":201,"lat":21.11570600,"lon":72.74272200,"rng_nm":50,"alt_fmsl":0,"id":"SU","desc":"SURAT NDB"},
+{"type":"NDB","hdg_t":17.5,"dist_nm":130.3,"freq":358,"lat":21.16737200,"lon":73.56594700,"rng_nm":50,"alt_fmsl":0,"id":"SG","desc":"SONGARH NDB"},
+{"type":"VOR","hdg_t":71.6,"dist_nm":150.6,"freq":116.3,"lat":19.86471700,"lon":75.39404700,"rng_nm":130,"alt_fmsl":1908,"id":"AAU","desc":"AURANGABAD VOR-DME"},
+{"type":"NDB","hdg_t":71.7,"dist_nm":150.7,"freq":205,"lat":19.86055000,"lon":75.39848900,"rng_nm":50,"alt_fmsl":0,"id":"AU","desc":"AURANGABAD NDB"},
+{"type":"VOR","hdg_t":346.6,"dist_nm":163.5,"freq":114.1,"lat":21.75008300,"lon":72.18891700,"rng_nm":130,"alt_fmsl":20,"id":"BVR","desc":"BHAVNAGAR VOR-DME"},
+{"type":"NDB","hdg_t":346.4,"dist_nm":164.2,"freq":243,"lat":21.75856400,"lon":72.17668600,"rng_nm":50,"alt_fmsl":0,"id":"BV","desc":"BHAVNAGAR NDB"},
+{"type":"NDB","hdg_t":150.5,"dist_nm":166,"freq":260,"lat":16.66470300,"lon":74.28240000,"rng_nm":50,"alt_fmsl":0,"id":"KP","desc":"KOLHAPUR NDB"}
+]
+}

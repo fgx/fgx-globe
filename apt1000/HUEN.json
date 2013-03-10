@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HUEN","name":"Entebbe Intl","lat":0.04238625,"lon":32.443504,"rwys":2,"ils":1,"index":3479171,"path":"e030n00/e032n00"
+,"runways":[
+{"len_m":3658,"wid_m":45.72,"hdg":170,"surf":"Asphalt","rwy1":"17","lat1":0.05559700,"lon1":32.43593300,"rwy2":"35","lat2":0.02291400,"lon2":32.44107500},
+{"len_m":2440,"wid_m":45.72,"hdg":121,"surf":"Asphalt","rwy1":"12","lat1":0.05122800,"lon1":32.43912500,"rwy2":"30","lat2":0.03980600,"lon2":32.45788300}
+]
+,"radios":[
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":0.02129700,"lon":32.44098300,"rng_nm":18,"alt_fmsl":3754,"hdg":171.62,"id":"IEL","rwy":"17","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":0.05264700,"lon":32.43552500,"rng_nm":10,"alt_fmsl":3780,"id":"IEL","rwy":"17","desc":"GS","gs":3},
+{"type":"DME","freq":110.7,"lat":0.05258900,"lon":32.43550600,"rng_nm":18,"alt_fmsl":3780,"id":"IEL","rwy":"17","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":332.4,"dist_nm":0.7,"freq":117.5,"lat":0.05299700,"lon":32.43800300,"rng_nm":150,"alt_fmsl":3782,"id":"NN","desc":"ENTEBBE VOR-DME"},
+{"type":"NDB","hdg_t":348.8,"dist_nm":5.8,"freq":355,"lat":0.13859400,"lon":32.42468300,"rng_nm":150,"alt_fmsl":0,"id":"EM","desc":"ENTEBBE NDB"},
+{"type":"NDB","hdg_t":40.1,"dist_nm":19.8,"freq":270,"lat":0.29577500,"lon":32.65603300,"rng_nm":50,"alt_fmsl":0,"id":"PB","desc":"PORT BELL NDB"},
+{"type":"NDB","hdg_t":204.3,"dist_nm":90,"freq":300,"lat":-1.33122500,"lon":31.82571200,"rng_nm":100,"alt_fmsl":0,"id":"BK","desc":"BUKOBA NDB"},
+{"type":"NDB","hdg_t":35.2,"dist_nm":122.8,"freq":323,"lat":1.72241100,"lon":33.62300800,"rng_nm":80,"alt_fmsl":0,"id":"SO","desc":"SOROTI NDB"},
+{"type":"SDME","hdg_t":35,"dist_nm":122.8,"freq":112.5,"lat":1.72596700,"lon":33.61851900,"rng_nm":100,"alt_fmsl":3697,"id":"SV","desc":"SOROTI DME"},
+{"type":"NDB","hdg_t":138.4,"dist_nm":122.9,"freq":312,"lat":-1.49954200,"lon":33.80047700,"rng_nm":50,"alt_fmsl":3806,"id":"MU","desc":"MUSOMA NDB"},
+{"type":"VOR","hdg_t":93.4,"dist_nm":136.5,"freq":114.1,"lat":-0.09508600,"lon":34.71194700,"rng_nm":200,"alt_fmsl":3680,"id":"KIV","desc":"KISUMU VOR-DME"},
+{"type":"NDB","hdg_t":93.1,"dist_nm":138,"freq":347,"lat":-0.08451700,"lon":34.73594200,"rng_nm":60,"alt_fmsl":3724,"id":"KI","desc":"KISUMU NDB"},
+{"type":"NDB","hdg_t":273.5,"dist_nm":141.1,"freq":273,"lat":0.18833900,"lon":30.09904700,"rng_nm":50,"alt_fmsl":0,"id":"KA","desc":"KASESE NDB"}
+]
+}

@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MSLP","name":"El Salvador Intl","lat":13.445666,"lon":-89.051739,"rwys":2,"ils":1,"index":1481183,"path":"w090n10/w090n13"
+,"runways":[
+{"len_m":3203,"wid_m":45.11,"hdg":69,"surf":"Asphalt","rwy1":"07","lat1":13.43599200,"lon1":-89.06962500,"rwy2":"25","lat2":13.44590300,"lon2":-89.04183100},
+{"len_m":799,"wid_m":22.86,"hdg":180,"surf":"Asphalt","rwy1":"18","lat1":13.45400000,"lon1":-89.04775000,"rwy2":"36","lat2":13.44676900,"lon2":-89.04775000}
+]
+,"radios":[
+{"type":"ATIS","freq":127.6,"desc":"ATIS"},
+{"type":"CLD","freq":121.25,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118,"desc":"TWR"},
+{"type":"APP","freq":119.9,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":13.44691700,"lon":-89.03916700,"rng_nm":18,"alt_fmsl":71,"hdg":69.76,"id":"CUS","rwy":"07","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":13.43500000,"lon":-89.06666700,"rng_nm":10,"alt_fmsl":78,"id":"CUS","rwy":"07","desc":"GS","gs":2.5},
+{"type":"OM","freq":0,"lat":13.41208900,"lon":-89.13751900,"rng_nm":0,"alt_fmsl":71,"id":"----","rwy":"07","desc":"OM"},
+{"type":"MM","freq":0,"lat":13.43340300,"lon":-89.07619400,"rng_nm":0,"alt_fmsl":71,"id":"----","rwy":"07","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":137.6,"dist_nm":0.3,"freq":117.5,"lat":13.44138889,"lon":-89.04775000,"rng_nm":130,"alt_fmsl":115,"id":"CAT","desc":"EL SALVADOR VOR-DME"},
+{"type":"NDB","hdg_t":248.2,"dist_nm":5.4,"freq":331,"lat":13.41208900,"lon":-89.13751900,"rng_nm":50,"alt_fmsl":101,"id":"LAN","desc":"AMATECAMPO NDB"},
+{"type":"VOR","hdg_t":345.5,"dist_nm":15,"freq":116.5,"lat":13.69005556,"lon":-89.11633333,"rng_nm":130,"alt_fmsl":2021,"id":"YSV","desc":"ILOPANGO VOR-DME"},
+{"type":"NDB","hdg_t":345.7,"dist_nm":15.5,"freq":215,"lat":13.69851700,"lon":-89.11758600,"rng_nm":50,"alt_fmsl":2025,"id":"YSX","desc":"ILOPANGO NDB"},
+{"type":"VOR","hdg_t":55.7,"dist_nm":100.7,"freq":114.9,"lat":14.39194700,"lon":-87.62209700,"rng_nm":130,"alt_fmsl":2062,"id":"ESC","desc":"SOTO CANO VORTAC"},
+{"type":"NDB","hdg_t":286.6,"dist_nm":102.3,"freq":400,"lat":13.93091700,"lon":-90.73169400,"rng_nm":50,"alt_fmsl":13,"id":"IZP","desc":"IZTAPA NDB"},
+{"type":"VOR","hdg_t":285.7,"dist_nm":109.1,"freq":114.1,"lat":13.93430556,"lon":-90.85169444,"rng_nm":130,"alt_fmsl":29,"id":"SJO","desc":"SAN JOSE VOR-DME"},
+{"type":"NDB","hdg_t":285.6,"dist_nm":109.6,"freq":425,"lat":13.93368100,"lon":-90.86142200,"rng_nm":50,"alt_fmsl":0,"id":"SGA","desc":"SAN JOSE NDB"},
+{"type":"VOR","hdg_t":308.6,"dist_nm":109.8,"freq":114.5,"lat":14.59100000,"lon":-90.52600000,"rng_nm":130,"alt_fmsl":4952,"id":"AUR","desc":"LA AURORA VOR-DME"},
+{"type":"VOR","hdg_t":71.6,"dist_nm":111.9,"freq":112.3,"lat":14.02888889,"lon":-87.22916667,"rng_nm":130,"alt_fmsl":3829,"id":"TNT","desc":"TONCONTIN VOR-DME"}
+]
+}

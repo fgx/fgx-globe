@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"USDD","name":"Salekhard","lat":66.5907525,"lon":66.6110415,"rwys":1,"ils":2,"index":4040481,"path":"e060n60/e066n66"
+,"runways":[
+{"len_m":2717,"wid_m":46.02,"hdg":61,"surf":"Concrete","rwy1":"04","lat1":66.58491900,"lon1":66.58413900,"rwy2":"22","lat2":66.59658600,"lon2":66.63794400}
+]
+,"radios":[
+{"type":"TWR","freq":118.6,"desc":"START"}
+]
+,"ils":[
+{"type":"ILS","freq":111.5,"lat":66.60068900,"lon":66.65738300,"rng_nm":18,"alt_fmsl":219,"hdg":61.58,"id":"INA","rwy":"04","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.3,"lat":66.58383100,"lon":66.57890600,"rng_nm":18,"alt_fmsl":219,"hdg":241.44,"id":"IDM","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.5,"lat":66.58513100,"lon":66.59087200,"rng_nm":10,"alt_fmsl":219,"id":"INA","rwy":"04","desc":"GS","gs":3},
+{"type":"GS","freq":111.3,"lat":66.59440300,"lon":66.63387200,"rng_nm":10,"alt_fmsl":219,"id":"IDM","rwy":"22","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":66.56666700,"lon":66.50666700,"rng_nm":0,"alt_fmsl":219,"id":"----","rwy":"04","desc":"OM"},
+{"type":"OM","freq":0,"lat":66.61166700,"lon":66.70500000,"rng_nm":0,"alt_fmsl":219,"id":"----","rwy":"22","desc":"OM"},
+{"type":"MM","freq":0,"lat":66.58056900,"lon":66.55992200,"rng_nm":0,"alt_fmsl":219,"id":"----","rwy":"04","desc":"MM"},
+{"type":"MM","freq":0,"lat":66.60057000,"lon":66.65492500,"rng_nm":0,"alt_fmsl":219,"id":"----","rwy":"22","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":215.7,"dist_nm":0.1,"freq":113.3,"lat":66.58833300,"lon":66.60666700,"rng_nm":130,"alt_fmsl":218,"id":"SH","desc":"SALEKHARD VOR-DME"},
+{"type":"NDB","hdg_t":60.7,"dist_nm":2.5,"freq":315,"lat":66.61166700,"lon":66.70500000,"rng_nm":80,"alt_fmsl":0,"id":"DM","desc":"SALEKHARD NDB"},
+{"type":"NDB","hdg_t":239.9,"dist_nm":2.8,"freq":315,"lat":66.56666700,"lon":66.50666700,"rng_nm":80,"alt_fmsl":0,"id":"NA","desc":"SALEKHARD NDB"},
+{"type":"NDB","hdg_t":312.4,"dist_nm":81.9,"freq":522,"lat":67.48833300,"lon":63.99166700,"rng_nm":80,"alt_fmsl":0,"id":"DW","desc":"VORKUTA NDB"},
+{"type":"NDB","hdg_t":111.3,"dist_nm":163.3,"freq":485,"lat":65.48027800,"lon":72.70333300,"rng_nm":80,"alt_fmsl":0,"id":"PZ","desc":"NADYM NDB"},
+{"type":"NDB","hdg_t":195.4,"dist_nm":166.9,"freq":752,"lat":63.90666700,"lon":64.93833300,"rng_nm":80,"alt_fmsl":0,"id":"BB","desc":"BERYOZOVO NDB"},
+{"type":"NDB","hdg_t":51,"dist_nm":197.4,"freq":372,"lat":68.50833300,"lon":73.58000000,"rng_nm":80,"alt_fmsl":0,"id":"ZL","desc":"MYS KAMENNY NDB"},
+{"type":"NDB","hdg_t":253.6,"dist_nm":249.6,"freq":330,"lat":65.12166700,"lon":57.13000000,"rng_nm":80,"alt_fmsl":0,"id":"PM","desc":"PECHORA NDB"},
+{"type":"NDB","hdg_t":253.6,"dist_nm":249.6,"freq":330,"lat":65.12166700,"lon":57.12999700,"rng_nm":80,"alt_fmsl":0,"id":"QH","desc":"PECHORA NDB"},
+{"type":"NDB","hdg_t":1.1,"dist_nm":278.6,"freq":525,"lat":71.21666700,"lon":66.90833300,"rng_nm":80,"alt_fmsl":0,"id":"ZG","desc":"KHARASAVEY NDB"}
+]
+}

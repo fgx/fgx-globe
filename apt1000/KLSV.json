@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KLSV","name":"Nellis Afb","lat":36.2361955,"lon":-115.0342495,"rwys":2,"ils":1,"index":1056651,"path":"w120n30/w116n36"
+,"runways":[
+{"len_m":3084,"wid_m":67.06,"hdg":41,"surf":"Concrete","rwy1":"03L","lat1":36.22669062,"lon1":-115.04680613,"rwy2":"21R","lat2":36.24758138,"lon2":-115.02416387},
+{"len_m":3064,"wid_m":45.72,"hdg":41,"surf":"Concrete","rwy1":"03R","lat1":36.22487984,"lon1":-115.04425876,"rwy2":"21L","lat2":36.24563016,"lon2":-115.02176924}
+]
+,"radios":[
+{"type":"CLD","freq":120.9,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.8,"desc":"GND"},
+{"type":"TWR","freq":132.55,"desc":"TWR"},
+{"type":"APP","freq":118.12,"desc":"APP"},
+{"type":"APP","freq":124.95,"desc":"APP"},
+{"type":"DEP","freq":135.1,"desc":"DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.1,"lat":36.22223600,"lon":-115.04712200,"rng_nm":18,"alt_fmsl":1822,"hdg":221.15,"id":"IDIQ","rwy":"21L","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.1,"lat":36.24240300,"lon":-115.02300600,"rng_nm":10,"alt_fmsl":1857,"id":"IDIQ","rwy":"21L","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":213,"dist_nm":11.1,"freq":116.9,"lat":36.07969444,"lon":-115.15980556,"rng_nm":130,"alt_fmsl":2141,"id":"LAS","desc":"LAS VEGAS VORTAC"},
+{"type":"VOR","hdg_t":150,"dist_nm":16.6,"freq":116.7,"lat":35.99577778,"lon":-114.86358333,"rng_nm":130,"alt_fmsl":3650,"id":"BLD","desc":"BOULDER CITY VORTAC"},
+{"type":"VOR","hdg_t":48.6,"dist_nm":48.5,"freq":114.3,"lat":36.76927778,"lon":-114.27747222,"rng_nm":40,"alt_fmsl":2120,"id":"MMM","desc":"MORMON MESA VORTAC"},
+{"type":"VOR","hdg_t":186,"dist_nm":66.5,"freq":114.4,"lat":35.13113889,"lon":-115.17644444,"rng_nm":40,"alt_fmsl":4000,"id":"GFS","desc":"GOFFS VORTAC"},
+{"type":"VOR","hdg_t":137,"dist_nm":79.3,"freq":108.8,"lat":35.26052778,"lon":-113.93408333,"rng_nm":40,"alt_fmsl":3410,"id":"IGM","desc":"KINGMAN VOR-DME"},
+{"type":"VOR","hdg_t":116.3,"dist_nm":81.3,"freq":112,"lat":35.62472222,"lon":-113.54447222,"rng_nm":130,"alt_fmsl":4760,"id":"PGS","desc":"PEACH SPRINGS VORTAC"},
+{"type":"VOR","hdg_t":56.9,"dist_nm":86.9,"freq":108.6,"lat":37.01761111,"lon":-113.51788889,"rng_nm":40,"alt_fmsl":2848,"id":"UTI","desc":"ST GEORGE VOR-DME"},
+{"type":"VOR","hdg_t":292.7,"dist_nm":89.4,"freq":114.7,"lat":36.80058333,"lon":-116.74763889,"rng_nm":130,"alt_fmsl":2928,"id":"BTY","desc":"BEATTY VORTAC"},
+{"type":"VOR","hdg_t":162.5,"dist_nm":92.2,"freq":115.2,"lat":34.76600000,"lon":-114.47411111,"rng_nm":130,"alt_fmsl":620,"id":"EED","desc":"NEEDLES VORTAC"},
+{"type":"NDB","hdg_t":65.4,"dist_nm":107,"freq":403,"lat":36.96005556,"lon":-113.00916667,"rng_nm":50,"alt_fmsl":0,"id":"AZC","desc":"COLORADO CITY NDB"}
+]
+}

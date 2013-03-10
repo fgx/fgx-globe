@@ -1,0 +1,44 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UIII","name":"Irkutsk","lat":52.2655489433333,"lon":104.371874486667,"rwys":1,"ils":2,"index":4662161,"path":"e100n50/e104n52"
+,"runways":[
+{"len_m":3180,"wid_m":45.11,"hdg":113,"surf":"Concrete","rwy1":"12","lat1":52.27216930,"lon1":104.37435732,"rwy2":"30","lat2":52.26070543,"lon2":104.41703024}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":20,"wid_m":20.12,"hdg":104,"surf":"Concrete","lat1":52.26561007,"lon1":104.35939859},
+{"rwy1":"H2","len_m":21,"wid_m":20.12,"hdg":104,"surf":"Concrete","lat1":52.26459939,"lon1":104.36053109}
+]
+,"radios":[
+{"type":"ATIS","freq":124.85,"desc":"ATIS"},
+{"type":"ATIS","freq":126.9,"desc":"ATIS"},
+{"type":"GND","freq":121.7,"desc":"TAXIING"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":124,"desc":"APP"},
+{"type":"APP","freq":125.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.3,"lat":52.25908300,"lon":104.42333200,"rng_nm":18,"alt_fmsl":1675,"hdg":113.46,"id":"ICN","rwy":"12","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":52.27368200,"lon":104.36833200,"rng_nm":18,"alt_fmsl":1675,"hdg":293.46,"id":"IIR","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.3,"lat":52.27333300,"lon":104.38000000,"rng_nm":10,"alt_fmsl":1675,"id":"ICN","rwy":"12","desc":"GS","gs":3.3},
+{"type":"GS","freq":110.3,"lat":52.26500000,"lon":104.41166700,"rng_nm":10,"alt_fmsl":1675,"id":"IIR","rwy":"30","desc":"GS","gs":3.3},
+{"type":"OM","freq":0,"lat":52.28500000,"lon":104.32666700,"rng_nm":0,"alt_fmsl":1675,"id":"----","rwy":"12","desc":"OM"},
+{"type":"OM","freq":0,"lat":52.24833300,"lon":104.46333300,"rng_nm":0,"alt_fmsl":1675,"id":"----","rwy":"30","desc":"OM"},
+{"type":"MM","freq":0,"lat":52.27500000,"lon":104.36333300,"rng_nm":0,"alt_fmsl":1675,"id":"----","rwy":"12","desc":"MM"},
+{"type":"MM","freq":0,"lat":52.25833300,"lon":104.42666700,"rng_nm":0,"alt_fmsl":1675,"id":"----","rwy":"30","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":330.5,"dist_nm":0.6,"freq":250,"lat":52.27483400,"lon":104.36333500,"rng_nm":50,"alt_fmsl":1627,"id":"C","desc":"Irkutsk NDB"},
+{"type":"VOR","hdg_t":66.2,"dist_nm":0.6,"freq":112.3,"lat":52.27000000,"lon":104.38833300,"rng_nm":130,"alt_fmsl":1626,"id":"IRK","desc":"IRKUTSK VOR-DME"},
+{"type":"NDB","hdg_t":102.1,"dist_nm":2,"freq":250,"lat":52.25828200,"lon":104.42666600,"rng_nm":50,"alt_fmsl":1675,"id":"I","desc":"Irkutsk NDB"},
+{"type":"NDB","hdg_t":305,"dist_nm":2,"freq":514,"lat":52.28500000,"lon":104.32666700,"rng_nm":80,"alt_fmsl":0,"id":"CN","desc":"IRKUTSK NDB"},
+{"type":"NDB","hdg_t":107,"dist_nm":3.5,"freq":514,"lat":52.24833300,"lon":104.46333300,"rng_nm":80,"alt_fmsl":0,"id":"IR","desc":"IRKUTSK NDB"},
+{"type":"NDB","hdg_t":6.7,"dist_nm":29.3,"freq":699,"lat":52.75000000,"lon":104.46666700,"rng_nm":80,"alt_fmsl":0,"id":"NH","desc":"NIKOLSK NDB"},
+{"type":"NDB","hdg_t":283.6,"dist_nm":44.2,"freq":635,"lat":52.43333300,"lon":103.20000000,"rng_nm":80,"alt_fmsl":0,"id":"BD","desc":"RAZDOLYE NDB"},
+{"type":"NDB","hdg_t":323.4,"dist_nm":45.6,"freq":313,"lat":52.87414932,"lon":103.62435150,"rng_nm":112,"alt_fmsl":1329,"id":"GV","desc":"Belaya NDB"},
+{"type":"NDB","hdg_t":323.5,"dist_nm":47.1,"freq":153,"lat":52.89446640,"lon":103.60015106,"rng_nm":22,"alt_fmsl":1499,"id":"G","desc":"Belaya NDB"},
+{"type":"NDB","hdg_t":323.6,"dist_nm":50.2,"freq":153,"lat":52.93573380,"lon":103.55083466,"rng_nm":22,"alt_fmsl":1467,"id":"L","desc":"Belaya NDB"},
+{"type":"NDB","hdg_t":36.5,"dist_nm":51.4,"freq":1020,"lat":52.95000000,"lon":105.21666700,"rng_nm":80,"alt_fmsl":0,"id":"KA","desc":"OLZONY NDB"},
+{"type":"NDB","hdg_t":323.6,"dist_nm":51.7,"freq":313,"lat":52.95624924,"lon":103.52639771,"rng_nm":112,"alt_fmsl":1388,"id":"LM","desc":"Belaya NDB"},
+{"type":"NDB","hdg_t":338.2,"dist_nm":57.3,"freq":779,"lat":53.15000000,"lon":103.78333300,"rng_nm":80,"alt_fmsl":0,"id":"BQ","desc":"BOKHAN NDB"},
+{"type":"NDB","hdg_t":344.8,"dist_nm":69.6,"freq":420,"lat":53.38333300,"lon":103.86666700,"rng_nm":80,"alt_fmsl":0,"id":"CS","desc":"OSA NDB"}
+]
+}

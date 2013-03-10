@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYQT","name":"Thunder Bay","lat":48.3720355,"lon":-89.325121815,"rwys":2,"ils":1,"index":1483410,"path":"w090n40/w090n48"
+,"runways":[
+{"len_m":1896,"wid_m":60.96,"hdg":70,"surf":"Asphalt","rwy1":"07","lat1":48.37018740,"lon1":-89.33364706,"rwy2":"25","lat2":48.37586994,"lon2":-89.30951710},
+{"len_m":1620,"wid_m":60.96,"hdg":121,"surf":"Asphalt","rwy1":"12","lat1":48.37484871,"lon1":-89.33798349,"rwy2":"30","lat2":48.36723594,"lon2":-89.31933961}
+]
+,"radios":[
+{"type":"ATIS","freq":128.8,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.2,"desc":"APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":48.37639999,"lon":-89.30728149,"rng_nm":18,"alt_fmsl":653,"hdg":70.53,"id":"IQT","rwy":"07","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":48.37348175,"lon":-89.32890320,"rng_nm":10,"alt_fmsl":653,"id":"IQT","rwy":"07","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":302,"dist_nm":0.1,"freq":112.5,"lat":48.37363600,"lon":-89.32895800,"rng_nm":130,"alt_fmsl":682,"id":"UAU","desc":"MCKAY TACAN"},
+{"type":"NDB","hdg_t":70.5,"dist_nm":4.2,"freq":263,"lat":48.39583333,"lon":-89.22388889,"rng_nm":50,"alt_fmsl":0,"id":"ZQT","desc":"SUPERIOR NDB"},
+{"type":"NDB","hdg_t":250.7,"dist_nm":4.6,"freq":332,"lat":48.34666667,"lon":-89.43366667,"rng_nm":50,"alt_fmsl":0,"id":"QT","desc":"THUNDER BAY NDB"},
+{"type":"VOR","hdg_t":212.3,"dist_nm":8.4,"freq":114.1,"lat":48.25377778,"lon":-89.43730556,"rng_nm":130,"alt_fmsl":1641,"id":"YQT","desc":"THUNDER BAY VOR-DME"},
+{"type":"NDB","hdg_t":233.5,"dist_nm":53.2,"freq":358,"lat":47.84005556,"lon":-90.38558333,"rng_nm":50,"alt_fmsl":0,"id":"CKC","desc":"COOK CO NDB"},
+{"type":"VOR","hdg_t":154.4,"dist_nm":79.7,"freq":112.8,"lat":47.17025000,"lon":-88.48538889,"rng_nm":40,"alt_fmsl":1072,"id":"CMX","desc":"HOUGHTON VOR-DME"},
+{"type":"NDB","hdg_t":153.2,"dist_nm":84.1,"freq":275,"lat":47.11569444,"lon":-88.40116667,"rng_nm":50,"alt_fmsl":0,"id":"CM","desc":"GALEY NDB"},
+{"type":"NDB","hdg_t":72.7,"dist_nm":89.8,"freq":250,"lat":48.79504200,"lon":-87.16167500,"rng_nm":25,"alt_fmsl":0,"id":"YTJ","desc":"TERRACE BAY NDB"},
+{"type":"NDB","hdg_t":181,"dist_nm":91.3,"freq":375,"lat":46.85022222,"lon":-89.36513889,"rng_nm":50,"alt_fmsl":0,"id":"OGM","desc":"ONTONAGON NDB"},
+{"type":"NDB","hdg_t":287.7,"dist_nm":93.7,"freq":209,"lat":48.82519444,"lon":-91.57761111,"rng_nm":50,"alt_fmsl":0,"id":"IB","desc":"ATIKOKAN NDB"}
+]
+}

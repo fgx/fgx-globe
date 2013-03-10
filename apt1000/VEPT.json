@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VEPT","name":"Patna","lat":25.5913165,"lon":85.08799,"rwys":1,"ils":1,"index":4349152,"path":"e080n20/e085n25"
+,"runways":[
+{"len_m":1955,"wid_m":45.11,"hdg":68,"surf":"Asphalt","rwy1":"07","lat1":25.58806100,"lon1":85.07894400,"rwy2":"25","lat2":25.59457200,"lon2":85.09703600}
+]
+,"radios":[
+{"type":"TWR","freq":121.1,"desc":"TWR"},
+{"type":"TWR","freq":118.3,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":25.58652800,"lon":85.07605600,"rng_nm":18,"alt_fmsl":170,"hdg":246.96,"id":"PAT","rwy":"25","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":25.59375000,"lon":85.09269400,"rng_nm":10,"alt_fmsl":170,"id":"PAT","rwy":"25","desc":"GS","gs":3},
+{"type":"DME","freq":110.3,"lat":25.59375000,"lon":85.09269400,"rng_nm":18,"alt_fmsl":170,"id":"PAT","rwy":"25","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":117.2,"dist_nm":0.1,"freq":112.1,"lat":25.59041700,"lon":85.08991700,"rng_nm":130,"alt_fmsl":167,"id":"PPT","desc":"PATNA VOR-DME"},
+{"type":"VOR","hdg_t":188.8,"dist_nm":51.4,"freq":115,"lat":24.74188900,"lon":84.94386100,"rng_nm":130,"alt_fmsl":377,"id":"GGC","desc":"GAYA VOR-DME"},
+{"type":"NDB","hdg_t":33.6,"dist_nm":80.7,"freq":287,"lat":26.71222200,"lon":85.92166700,"rng_nm":25,"alt_fmsl":100,"id":"JKP","desc":"JANAKPUR NDB"},
+{"type":"VOR","hdg_t":356.5,"dist_nm":94.2,"freq":112.9,"lat":27.16416700,"lon":84.98222200,"rng_nm":130,"alt_fmsl":450,"id":"SMR","desc":"SIMARA VOR-DME"},
+{"type":"NDB","hdg_t":356.5,"dist_nm":94.3,"freq":246,"lat":27.16583300,"lon":84.98333300,"rng_nm":25,"alt_fmsl":70,"id":"SIM","desc":"SIMARA NDB"},
+{"type":"NDB","hdg_t":57.7,"dist_nm":105,"freq":306,"lat":26.52000000,"lon":86.73805600,"rng_nm":25,"alt_fmsl":100,"id":"RBJ","desc":"RAJBIRAJ NDB"},
+{"type":"NDB","hdg_t":307.9,"dist_nm":111.9,"freq":278,"lat":26.73362800,"lon":83.44563900,"rng_nm":50,"alt_fmsl":0,"id":"GH","desc":"GORAKHPUR NDB"},
+{"type":"VOR","hdg_t":5.2,"dist_nm":116.8,"freq":113.2,"lat":27.53555600,"lon":85.28944400,"rng_nm":130,"alt_fmsl":16,"id":"BDA","desc":"BHATTEDANDA VOR-DME"},
+{"type":"NDB","hdg_t":266.3,"dist_nm":120.9,"freq":222,"lat":25.44596100,"lon":82.86605600,"rng_nm":50,"alt_fmsl":0,"id":"BN","desc":"VARANASI NDB"},
+{"type":"VOR","hdg_t":266.5,"dist_nm":121.2,"freq":113.9,"lat":25.45401400,"lon":82.85925000,"rng_nm":130,"alt_fmsl":262,"id":"BBN","desc":"VARANASI VOR-DME"}
+]
+}

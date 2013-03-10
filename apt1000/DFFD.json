@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DFFD","name":"Ouagadougou","lat":12.352189,"lon":-1.5116055,"rwys":2,"ils":1,"index":2922899,"path":"w010n10/w002n12"
+,"runways":[
+{"len_m":3027,"wid_m":45.11,"hdg":33,"surf":"Asphalt","rwy1":"04L","lat1":12.34167800,"lon1":-1.52024700,"rwy2":"22R","lat2":12.36443900,"lon2":-1.50478600},
+{"len_m":1910,"wid_m":29.87,"hdg":35,"surf":"Gravel","rwy1":"04R","lat1":12.34428100,"lon1":-1.51578300,"rwy2":"22L","lat2":12.35835800,"lon2":-1.50560600}
+]
+,"radios":[
+{"type":"TWR","freq":120.3,"desc":"AG VOICE OUAGA RDO"},
+{"type":"TWR","freq":118.1,"desc":"OUAGA TWR"},
+{"type":"APP","freq":118.1,"desc":"OUAGA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":12.36660300,"lon":-1.50333600,"rng_nm":18,"alt_fmsl":977,"hdg":33.54,"id":"OG","rwy":"04L","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.1,"lat":12.34449200,"lon":-1.51946900,"rng_nm":10,"alt_fmsl":1054,"id":"OG","rwy":"04L","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":12.33400000,"lon":-1.52519400,"rng_nm":0,"alt_fmsl":977,"id":"----","rwy":"04L","desc":"MM"},
+{"type":"DME","freq":110.1,"lat":12.34449200,"lon":-1.51946900,"rng_nm":18,"alt_fmsl":1054,"id":"OG","rwy":"04L","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":191.5,"dist_nm":0.3,"freq":112.9,"lat":12.34627800,"lon":-1.51283300,"rng_nm":130,"alt_fmsl":1048,"id":"OG","desc":"OUAGADOUGOU VOR-DME"},
+{"type":"NDB","hdg_t":216.2,"dist_nm":1.3,"freq":333,"lat":12.33400000,"lon":-1.52519400,"rng_nm":50,"alt_fmsl":1102,"id":"OUA","desc":"OUAGADOUGOU NDB"},
+{"type":"NDB","hdg_t":40.5,"dist_nm":132.5,"freq":270,"lat":14.03400400,"lon":-0.03347300,"rng_nm":50,"alt_fmsl":0,"id":"DD","desc":"DORI NDB"},
+{"type":"VOR","hdg_t":166.6,"dist_nm":170.5,"freq":116.9,"lat":9.57349400,"lon":-0.84713900,"rng_nm":130,"alt_fmsl":553,"id":"TLE","desc":"TAMALE VOR-DME"},
+{"type":"NDB","hdg_t":166.6,"dist_nm":170.6,"freq":415,"lat":9.57166700,"lon":-0.84916700,"rng_nm":25,"alt_fmsl":0,"id":"TL","desc":"TAMALE NDB"},
+{"type":"NDB","hdg_t":247.1,"dist_nm":179,"freq":323,"lat":11.17533300,"lon":-4.31036100,"rng_nm":50,"alt_fmsl":1555,"id":"BDO","desc":"BOBO DIOULASSO NDB"},
+{"type":"NDB","hdg_t":104.6,"dist_nm":180.6,"freq":316,"lat":11.57315600,"lon":1.45678900,"rng_nm":25,"alt_fmsl":0,"id":"AY","desc":"ARLI NDB"},
+{"type":"VOR","hdg_t":246.9,"dist_nm":181.9,"freq":114.7,"lat":11.14502800,"lon":-4.35086100,"rng_nm":130,"alt_fmsl":1404,"id":"BD","desc":"BOBO DIOULASSO VOR-DME"},
+{"type":"VOR","hdg_t":311.3,"dist_nm":197.8,"freq":115.5,"lat":14.52605600,"lon":-4.06472200,"rng_nm":130,"alt_fmsl":0,"id":"MTI","desc":"MOPTI/AMBODEDJO VOR"},
+{"type":"NDB","hdg_t":310.8,"dist_nm":198.2,"freq":395,"lat":14.51100000,"lon":-4.08788900,"rng_nm":50,"alt_fmsl":0,"id":"MO","desc":"MOPTI/AMBODEDJO NDB"}
+]
+}

@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OPRN","name":"Chaklala","lat":33.616768,"lon":73.0988125,"rwys":1,"ils":1,"index":4153056,"path":"e070n30/e073n33"
+,"runways":[
+{"len_m":3293,"wid_m":45.72,"hdg":118,"surf":"Asphalt","rwy1":"12","lat1":33.62377800,"lon1":73.08317200,"rwy2":"30","lat2":33.60975800,"lon2":73.11445300}
+]
+,"radios":[
+{"type":"ATIS","freq":129.6,"desc":"ATIS"},
+{"type":"TWR","freq":119.7,"desc":"TWR"},
+{"type":"TWR","freq":125.5,"desc":"TWR"},
+{"type":"TWR","freq":123.7,"desc":"TWR"},
+{"type":"APP","freq":125.6,"desc":"CHERAT APP"},
+{"type":"APP","freq":124.9,"desc":"ISLAMABAD APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":33.62570000,"lon":73.07878300,"rng_nm":18,"alt_fmsl":1656,"hdg":298.21,"id":"IRN","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":33.61108900,"lon":73.10820600,"rng_nm":10,"alt_fmsl":1707,"id":"IRN","rwy":"30","desc":"GS","gs":3},
+{"type":"DME","freq":110.3,"lat":33.62765000,"lon":73.10745600,"rng_nm":18,"alt_fmsl":1713,"id":"IRN","rwy":"30","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":256.5,"dist_nm":0.8,"freq":344,"lat":33.61333300,"lon":73.08166700,"rng_nm":150,"alt_fmsl":0,"id":"RN","desc":"ISLAMABAD NDB"},
+{"type":"VOR","hdg_t":115.4,"dist_nm":1.5,"freq":112.1,"lat":33.60594200,"lon":73.12593600,"rng_nm":130,"alt_fmsl":1655,"id":"RN","desc":"ISLAMABAD VOR-DME"},
+{"type":"NDB","hdg_t":68.2,"dist_nm":37.6,"freq":295,"lat":33.84768100,"lon":73.79916700,"rng_nm":50,"alt_fmsl":5465,"id":"RT","desc":"RAWALAKOT NDB"},
+{"type":"NDB","hdg_t":24.9,"dist_nm":47.9,"freq":207,"lat":34.34222200,"lon":73.50672200,"rng_nm":50,"alt_fmsl":2705,"id":"MF","desc":"MUZAFFARABAD NDB"},
+{"type":"NDB","hdg_t":332.7,"dist_nm":80.4,"freq":357,"lat":34.80895000,"lon":72.35222200,"rng_nm":50,"alt_fmsl":0,"id":"SS","desc":"SAIDU SHARIF NDB"},
+{"type":"VOR","hdg_t":285.6,"dist_nm":81.9,"freq":114.3,"lat":33.97537200,"lon":71.51715600,"rng_nm":130,"alt_fmsl":1257,"id":"PS","desc":"PESHAWAR VOR-DME"},
+{"type":"NDB","hdg_t":286.3,"dist_nm":82.8,"freq":308,"lat":33.99583300,"lon":71.50444400,"rng_nm":150,"alt_fmsl":1257,"id":"PS","desc":"PESHAWAR NDB"},
+{"type":"VOR","hdg_t":73.9,"dist_nm":85.9,"freq":115.9,"lat":34.00197200,"lon":74.75458300,"rng_nm":130,"alt_fmsl":5458,"id":"SNG","desc":"SRINAGAR VOR-DME"},
+{"type":"NDB","hdg_t":74.9,"dist_nm":86.9,"freq":220,"lat":33.98281900,"lon":74.78234200,"rng_nm":50,"alt_fmsl":0,"id":"SNG","desc":"SRINAGAR NDB"},
+{"type":"NDB","hdg_t":231.2,"dist_nm":99.6,"freq":240,"lat":32.56627800,"lon":71.56616500,"rng_nm":75,"alt_fmsl":0,"id":"MI","desc":"MIANWALI NDB"}
+]
+}

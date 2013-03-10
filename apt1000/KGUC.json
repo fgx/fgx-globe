@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KGUC","name":"Gunnison Crested Butte Rgnl","lat":38.53224325,"lon":-106.93436325,"rwys":2,"ils":1,"index":1204256,"path":"w110n30/w107n38"
+,"runways":[
+{"len_m":2864,"wid_m":46.02,"hdg":73,"surf":"Asphalt","rwy1":"06","lat1":38.53243900,"lon1":-106.94508600,"rwy2":"24","lat2":38.53974200,"lon2":-106.91358100},
+{"len_m":914,"wid_m":46.02,"hdg":180,"surf":"Gravel","rwy1":"17","lat1":38.53251400,"lon1":-106.93939200,"rwy2":"35","lat2":38.52427800,"lon2":-106.93939400}
+]
+,"radios":[
+{"type":"ATIS","freq":135.07,"desc":"AWOS 3"},
+{"type":"CTAF","freq":122.7,"desc":"CTAF/UNICOM"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":38.54015476,"lon":-106.91180238,"rng_nm":18,"alt_fmsl":7678,"hdg":73.50,"id":"IGUC","rwy":"06","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":38.53400735,"lon":-106.94202292,"rng_nm":10,"alt_fmsl":7678,"id":"IGUC","rwy":"06","desc":"GS","gs":3.2}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":226,"dist_nm":6.9,"freq":114.9,"lat":38.45216667,"lon":-107.03980556,"rng_nm":130,"alt_fmsl":8730,"id":"HBU","desc":"BLUE MESA VOR-DME"},
+{"type":"VOR","hdg_t":268.3,"dist_nm":45.4,"freq":117.1,"lat":38.50644444,"lon":-107.89927778,"rng_nm":130,"alt_fmsl":5713,"id":"MTJ","desc":"MONTROSE VOR-DME"},
+{"type":"NDB","hdg_t":348.7,"dist_nm":53.7,"freq":344,"lat":39.41163889,"lon":-107.15950000,"rng_nm":50,"alt_fmsl":0,"id":"CQL","desc":"CARBONDALE NDB"},
+{"type":"VOR","hdg_t":1.9,"dist_nm":54.4,"freq":113,"lat":39.43933333,"lon":-106.89466667,"rng_nm":130,"alt_fmsl":11800,"id":"DBL","desc":"RED TABLE VOR-DME"},
+{"type":"VOR","hdg_t":357.7,"dist_nm":65.8,"freq":109.2,"lat":39.62947222,"lon":-106.99113889,"rng_nm":40,"alt_fmsl":8060,"id":"SXW","desc":"SNOW VOR-DME"},
+{"type":"NDB","hdg_t":0.7,"dist_nm":66.8,"freq":357,"lat":39.64655556,"lon":-106.91427778,"rng_nm":50,"alt_fmsl":0,"id":"EGE","desc":"EAGLE NDB"},
+{"type":"VOR","hdg_t":245.1,"dist_nm":69.1,"freq":110.2,"lat":38.04025000,"lon":-108.25858333,"rng_nm":40,"alt_fmsl":8460,"id":"ETL","desc":"CONES VOR-DME"},
+{"type":"VOR","hdg_t":328.1,"dist_nm":70.2,"freq":111.45,"lat":39.52455556,"lon":-107.73250000,"rng_nm":40,"alt_fmsl":5484,"id":"RGA","desc":"RIFLE VOR-DME"},
+{"type":"NDB","hdg_t":257.8,"dist_nm":78.9,"freq":375,"lat":38.24276800,"lon":-108.56675800,"rng_nm":25,"alt_fmsl":5936,"id":"HPL","desc":"HOPKINS NDB"},
+{"type":"NDB","hdg_t":145.6,"dist_nm":85.1,"freq":400,"lat":37.35442500,"lon":-105.93101100,"rng_nm":25,"alt_fmsl":0,"id":"VQ","desc":"BESAQ NDB"},
+{"type":"VOR","hdg_t":142.8,"dist_nm":88.5,"freq":113.9,"lat":37.34916667,"lon":-105.81552778,"rng_nm":130,"alt_fmsl":7535,"id":"ALS","desc":"ALAMOSA VORTAC"},
+{"type":"VOR","hdg_t":14.4,"dist_nm":91,"freq":113.8,"lat":40.00263889,"lon":-106.44247222,"rng_nm":130,"alt_fmsl":9370,"id":"RLG","desc":"KREMMLING VOR-DME"},
+{"type":"VOR","hdg_t":205.3,"dist_nm":91.2,"freq":108.2,"lat":37.15325000,"lon":-107.74961111,"rng_nm":40,"alt_fmsl":6660,"id":"DRO","desc":"DURANGO VOR-DME"},
+{"type":"VOR","hdg_t":290.5,"dist_nm":92.7,"freq":112.4,"lat":39.05955556,"lon":-108.79258333,"rng_nm":130,"alt_fmsl":7100,"id":"JNC","desc":"GRAND JUNCTION VOR-DME"}
+]
+}

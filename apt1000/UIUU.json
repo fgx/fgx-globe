@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UIUU","name":"Mukhino","lat":51.8108156666667,"lon":107.441022666667,"rwys":3,"ils":1,"index":4711281,"path":"e100n50/e107n51"
+,"runways":[
+{"len_m":2981,"wid_m":45.11,"hdg":78,"surf":"Concrete","rwy1":"08","lat1":51.80498300,"lon1":107.41650300,"rwy2":"26","lat2":51.81054200,"lon2":107.45878600},
+{"len_m":2042,"wid_m":103.94,"hdg":78,"surf":"Turf/grass","rwy1":"08L","lat1":51.80830000,"lon1":107.42936400,"rwy2":"26R","lat2":51.81207200,"lon2":107.45834700},
+{"len_m":1410,"wid_m":96.01,"hdg":135,"surf":"Turf/grass","rwy1":"14","lat1":51.81900000,"lon1":107.43436700,"rwy2":"32","lat2":51.80999700,"lon2":107.44876900}
+]
+,"radios":[
+{"type":"ATIS","freq":126.6,"desc":"ULAN UDE ATIS"},
+{"type":"TWR","freq":118.1,"desc":"ULAN UDE TWR"},
+{"type":"APP","freq":129.3,"desc":"ULAN UDE APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":51.80500031,"lon":107.41333008,"rng_nm":18,"alt_fmsl":1690,"hdg":258.84,"id":"IZD","rwy":"26","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":51.80950165,"lon":107.45633698,"rng_nm":10,"alt_fmsl":1690,"id":"IZD","rwy":"26","desc":"GS","gs":3.3},
+{"type":"OM","freq":0,"lat":51.81833267,"lon":107.51999664,"rng_nm":0,"alt_fmsl":1690,"id":"----","rwy":"26","desc":"OM"},
+{"type":"MM","freq":0,"lat":51.81266785,"lon":107.47566986,"rng_nm":0,"alt_fmsl":1690,"id":"----","rwy":"26","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":85,"dist_nm":1.3,"freq":169,"lat":51.81266785,"lon":107.47585297,"rng_nm":50,"alt_fmsl":1634,"id":"Z","desc":"ULAN-UDE NDB"},
+{"type":"NDB","hdg_t":81.2,"dist_nm":2.9,"freq":349,"lat":51.81833267,"lon":107.51999664,"rng_nm":80,"alt_fmsl":1641,"id":"ZD","desc":"ULAN-UDE NDB"},
+{"type":"NDB","hdg_t":77.6,"dist_nm":14.3,"freq":525,"lat":51.86116791,"lon":107.81780243,"rng_nm":112,"alt_fmsl":1672,"id":"ML","desc":"DALNIY (ULAN-UDE) NDB"},
+{"type":"NDB","hdg_t":75.2,"dist_nm":89.4,"freq":320,"lat":52.16666700,"lon":109.78333300,"rng_nm":80,"alt_fmsl":0,"id":"GR","desc":"KHORINSK NDB"},
+{"type":"NDB","hdg_t":310.8,"dist_nm":106.6,"freq":1020,"lat":52.95000000,"lon":105.21666700,"rng_nm":80,"alt_fmsl":0,"id":"KA","desc":"OLZONY NDB"},
+{"type":"NDB","hdg_t":284.5,"dist_nm":113.4,"freq":514,"lat":52.24833300,"lon":104.46333300,"rng_nm":80,"alt_fmsl":0,"id":"IR","desc":"IRKUTSK NDB"},
+{"type":"NDB","hdg_t":284.7,"dist_nm":114.8,"freq":250,"lat":52.25828200,"lon":104.42666600,"rng_nm":50,"alt_fmsl":1675,"id":"I","desc":"Irkutsk NDB"},
+{"type":"VOR","hdg_t":284.9,"dist_nm":116.4,"freq":112.3,"lat":52.27000000,"lon":104.38833300,"rng_nm":130,"alt_fmsl":1626,"id":"IRK","desc":"IRKUTSK VOR-DME"},
+{"type":"NDB","hdg_t":284.9,"dist_nm":117.3,"freq":250,"lat":52.27483400,"lon":104.36333500,"rng_nm":50,"alt_fmsl":1627,"id":"C","desc":"Irkutsk NDB"},
+{"type":"NDB","hdg_t":285,"dist_nm":118.8,"freq":514,"lat":52.28500000,"lon":104.32666700,"rng_nm":80,"alt_fmsl":0,"id":"CN","desc":"IRKUTSK NDB"}
+]
+}

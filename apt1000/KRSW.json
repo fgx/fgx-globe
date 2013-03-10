@@ -1,0 +1,55 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KRSW","name":"Southwest Florida Intl","lat":26.5361625,"lon":-81.7551525,"rwys":1,"ils":1,"index":1613088,"path":"w090n20/w082n26"
+,"runways":[
+{"len_m":3657,"wid_m":45.72,"hdg":54,"surf":"Asphalt","rwy1":"06","lat1":26.52648600,"lon1":-81.77001900,"rwy2":"24","lat2":26.54583900,"lon2":-81.74028600}
+]
+,"radios":[
+{"type":"ATIS","freq":124.65,"desc":"ATIS"},
+{"type":"CTAF","freq":122.95,"desc":"CTAF/UNICOM"},
+{"type":"CLD","freq":132.07,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":128.75,"desc":"FORT MYERS TWR"},
+{"type":"APP","freq":119.75,"desc":"FORT MYERS APP/DEP"},
+{"type":"APP","freq":125.15,"desc":"FORT MYERS APP/DEP"},
+{"type":"APP","freq":126.8,"desc":"FORT MYERS APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.5,"lat":26.54753300,"lon":-81.73768300,"rng_nm":18,"alt_fmsl":28,"hdg":53.97,"id":"IRSW","rwy":"06","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.5,"lat":26.52728900,"lon":-81.76670000,"rng_nm":10,"alt_fmsl":27,"id":"IRSW","rwy":"06","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":26.48433100,"lon":-81.83461100,"rng_nm":0,"alt_fmsl":28,"id":"----","rwy":"06","desc":"OM"},
+{"type":"MM","freq":0,"lat":26.52552200,"lon":-81.77152800,"rng_nm":0,"alt_fmsl":28,"id":"----","rwy":"06","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":251.3,"dist_nm":1.1,"freq":111.8,"lat":26.52988889,"lon":-81.77577778,"rng_nm":40,"alt_fmsl":25,"id":"RSW","desc":"LEE CO VORTAC"},
+{"type":"NDB","hdg_t":234,"dist_nm":5.2,"freq":336,"lat":26.48433333,"lon":-81.83461111,"rng_nm":50,"alt_fmsl":0,"id":"RS","desc":"MUFFE NDB"},
+{"type":"NDB","hdg_t":263.5,"dist_nm":10.5,"freq":341,"lat":26.51613889,"lon":-81.95027778,"rng_nm":50,"alt_fmsl":0,"id":"FM","desc":"CALOO NDB"},
+{"type":"VOR","hdg_t":183,"dist_nm":22.9,"freq":108.6,"lat":26.15341667,"lon":-81.77811111,"rng_nm":25,"alt_fmsl":10,"id":"CYY","desc":"CYPRESS VOR-DME"},
+{"type":"VOR","hdg_t":330.9,"dist_nm":26,"freq":110.2,"lat":26.91677778,"lon":-81.99125000,"rng_nm":25,"alt_fmsl":0,"id":"PGD","desc":"PUNTA GORDA VOR"},
+{"type":"VOR","hdg_t":48.1,"dist_nm":26.2,"freq":110.4,"lat":26.82816667,"lon":-81.39144444,"rng_nm":40,"alt_fmsl":30,"id":"LBV","desc":"LA BELLE VORTAC"},
+{"type":"NDB","hdg_t":311,"dist_nm":47.9,"freq":206,"lat":27.06144444,"lon":-82.43058333,"rng_nm":50,"alt_fmsl":0,"id":"VNC","desc":"VENICE NDB"},
+{"type":"NDB","hdg_t":134.9,"dist_nm":56.9,"freq":227,"lat":25.86183333,"lon":-81.01102778,"rng_nm":50,"alt_fmsl":0,"id":"TN","desc":"MONRY NDB"},
+{"type":"NDB","hdg_t":353.3,"dist_nm":58.6,"freq":261,"lat":27.51000000,"lon":-81.88333300,"rng_nm":25,"alt_fmsl":104,"id":"CHN","desc":"WAUCHULA NDB"},
+{"type":"VOR","hdg_t":75.2,"dist_nm":59,"freq":115.4,"lat":26.78275000,"lon":-80.69144444,"rng_nm":130,"alt_fmsl":16,"id":"PHK","desc":"PAHOKEE VORTAC"},
+{"type":"NDB","hdg_t":320.8,"dist_nm":61.2,"freq":245,"lat":27.32822222,"lon":-82.47844444,"rng_nm":50,"alt_fmsl":0,"id":"SR","desc":"RINGY NDB"},
+{"type":"VOR","hdg_t":320.4,"dist_nm":67,"freq":115.2,"lat":27.39776100,"lon":-82.55426900,"rng_nm":130,"alt_fmsl":20,"id":"SRQ","desc":"SARASOTA VORTAC"},
+{"type":"VOR","hdg_t":320.4,"dist_nm":67.7,"freq":117,"lat":27.40702778,"lon":-82.56363889,"rng_nm":130,"alt_fmsl":20,"id":"SRQ","desc":"SARASOTA VORTAC"},
+{"type":"NDB","hdg_t":73.3,"dist_nm":79.4,"freq":405,"lat":26.90897222,"lon":-80.33505556,"rng_nm":50,"alt_fmsl":0,"id":"UTX","desc":"UNITED NDB"},
+{"type":"NDB","hdg_t":104.6,"dist_nm":81.2,"freq":221,"lat":26.18563889,"lon":-80.29850000,"rng_nm":50,"alt_fmsl":0,"id":"FX","desc":"PRAIZ NDB"},
+{"type":"DME","hdg_t":77,"dist_nm":84.3,"freq":110.75,"lat":26.84356853,"lon":-80.22387209,"rng_nm":18,"alt_fmsl":22,"id":"IGHO","desc":"F45 08R DME-ILS"},
+{"type":"NDB","hdg_t":348.4,"dist_nm":85.4,"freq":227,"lat":27.93538889,"lon":-82.07580556,"rng_nm":50,"alt_fmsl":0,"id":"LA","desc":"WIREY NDB"},
+{"type":"NDB","hdg_t":128.1,"dist_nm":86.1,"freq":266,"lat":25.64166667,"lon":-80.50483333,"rng_nm":50,"alt_fmsl":0,"id":"TM","desc":"QEEZY NDB"},
+{"type":"VOR","hdg_t":119.8,"dist_nm":87.7,"freq":113.9,"lat":25.79997222,"lon":-80.34902778,"rng_nm":130,"alt_fmsl":7,"id":"DHP","desc":"DOLPHIN VORTAC"},
+{"type":"VOR","hdg_t":350.9,"dist_nm":87.8,"freq":116,"lat":27.98619444,"lon":-82.01388889,"rng_nm":130,"alt_fmsl":135,"id":"LAL","desc":"LAKELAND VORTAC"},
+{"type":"SDME","hdg_t":333,"dist_nm":89,"freq":111,"lat":27.86115300,"lon":-82.51350300,"rng_nm":40,"alt_fmsl":14,"id":"MCF","desc":"MACDILL TACAN"},
+{"type":"NDB","hdg_t":49.7,"dist_nm":89.5,"freq":338,"lat":27.49691667,"lon":-80.47427778,"rng_nm":50,"alt_fmsl":0,"id":"FJ","desc":"LUUCE NDB"},
+{"type":"NDB","hdg_t":332,"dist_nm":89.8,"freq":388,"lat":27.86119444,"lon":-82.54580556,"rng_nm":50,"alt_fmsl":0,"id":"AM","desc":"PICNY (LOM/NDB) NDB"},
+{"type":"VOR","hdg_t":107.4,"dist_nm":90.1,"freq":116.5,"lat":26.07416667,"lon":-80.16297222,"rng_nm":130,"alt_fmsl":12,"id":"FLL","desc":"FORT LAUDERDALE VOR-DME"},
+{"type":"VOR","hdg_t":84.1,"dist_nm":90.1,"freq":115.7,"lat":26.68005556,"lon":-80.08650000,"rng_nm":130,"alt_fmsl":16,"id":"PBI","desc":"PALM BEACH VORTAC"},
+{"type":"NDB","hdg_t":52.1,"dist_nm":93.3,"freq":275,"lat":27.48672222,"lon":-80.37327778,"rng_nm":50,"alt_fmsl":0,"id":"FPR","desc":"FORT PIERCE NDB"},
+{"type":"NDB","hdg_t":117.5,"dist_nm":95.3,"freq":248,"lat":25.79069444,"lon":-80.19419444,"rng_nm":50,"alt_fmsl":0,"id":"MI","desc":"KEYES NDB"},
+{"type":"VOR","hdg_t":329,"dist_nm":95.9,"freq":116.4,"lat":27.90777778,"lon":-82.68430556,"rng_nm":130,"alt_fmsl":9,"id":"PIE","desc":"ST PETERSBURG VORTAC"},
+{"type":"VOR","hdg_t":44.4,"dist_nm":96.2,"freq":117.3,"lat":27.67841667,"lon":-80.48972222,"rng_nm":130,"alt_fmsl":11,"id":"VRB","desc":"VERO BEACH VORTAC"},
+{"type":"SDME","hdg_t":129.7,"dist_nm":97.2,"freq":108.2,"lat":25.48952800,"lon":-80.37944400,"rng_nm":40,"alt_fmsl":53,"id":"HST","desc":"HOMESTEAD TACAN"},
+{"type":"VOR","hdg_t":118.1,"dist_nm":98.3,"freq":117.1,"lat":25.75188889,"lon":-80.15444444,"rng_nm":130,"alt_fmsl":12,"id":"VKZ","desc":"VIRGINIA KEY VOR-DME"}
+]
+}

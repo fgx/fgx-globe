@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LICT","name":"Trapani Birgi","lat":37.9114165,"lon":12.4879375,"rwys":1,"ils":1,"index":3153913,"path":"e010n30/e012n37"
+,"runways":[
+{"len_m":2691,"wid_m":45.11,"hdg":127,"surf":"Asphalt","rwy1":"13","lat1":37.91882200,"lon1":12.47581700,"rwy2":"31","lat2":37.90401100,"lon2":12.50005800}
+]
+,"radios":[
+{"type":"TWR","freq":122.1,"desc":"TWR"},
+{"type":"TWR","freq":119.7,"desc":"TWR"},
+{"type":"APP","freq":119.95,"desc":"APP"},
+{"type":"APP","freq":122.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.95,"lat":37.92108100,"lon":12.47211900,"rng_nm":18,"alt_fmsl":13,"hdg":307.75,"id":"TRA","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.95,"lat":37.90776900,"lon":12.49576700,"rng_nm":10,"alt_fmsl":61,"id":"TRA","rwy":"31","desc":"GS","gs":3},
+{"type":"DME","freq":110.95,"lat":37.92108100,"lon":12.47211900,"rng_nm":18,"alt_fmsl":7,"id":"TRA","rwy":"31","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":53.8,"dist_nm":0.2,"freq":317,"lat":37.91433000,"lon":12.49297100,"rng_nm":50,"alt_fmsl":23,"id":"TRP","desc":"TRAPANI NDB"},
+{"type":"VOR","hdg_t":127.2,"dist_nm":1.5,"freq":108.8,"lat":37.89608800,"lon":12.51332600,"rng_nm":80,"alt_fmsl":128,"id":"TRP","desc":"TRAPANI VORTAC"},
+{"type":"VOR","hdg_t":60.7,"dist_nm":32.1,"freq":113,"lat":38.17208400,"lon":13.07993200,"rng_nm":40,"alt_fmsl":52,"id":"PRS","desc":"PUNTA RAISI VOR-DME"},
+{"type":"VOR","hdg_t":77.1,"dist_nm":33.5,"freq":112.3,"lat":38.03388900,"lon":13.17750000,"rng_nm":200,"alt_fmsl":3868,"id":"PAL","desc":"PALERMO VOR-DME"},
+{"type":"NDB","hdg_t":77.1,"dist_nm":33.5,"freq":355,"lat":38.03416700,"lon":13.17750000,"rng_nm":150,"alt_fmsl":3822,"id":"PAL","desc":"PALERMO NDB"},
+{"type":"NDB","hdg_t":60.3,"dist_nm":33.8,"freq":329,"lat":38.18971800,"lon":13.10988800,"rng_nm":25,"alt_fmsl":25,"id":"PRS","desc":"PUNTA RAISI NDB"},
+{"type":"VOR","hdg_t":200.9,"dist_nm":70.3,"freq":116.1,"lat":36.81444000,"lon":11.96583200,"rng_nm":100,"alt_fmsl":623,"id":"PAN","desc":"PANTELLERIA VOR-DME"},
+{"type":"NDB","hdg_t":201,"dist_nm":70.5,"freq":335,"lat":36.81136300,"lon":11.96102700,"rng_nm":100,"alt_fmsl":609,"id":"PAN","desc":"PANTELLERIA NDB"},
+{"type":"VOR","hdg_t":228.1,"dist_nm":90.4,"freq":112.7,"lat":36.89555600,"lon":11.08833300,"rng_nm":150,"alt_fmsl":0,"id":"CBN","desc":"CAP BON VOR"},
+{"type":"NDB","hdg_t":104,"dist_nm":119.9,"freq":297,"lat":37.40006900,"lon":14.92110000,"rng_nm":50,"alt_fmsl":0,"id":"NSY","desc":"NAVY SIGONELLA NDB"}
+]
+}

@@ -1,0 +1,45 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LEBB","name":"Bilbao","lat":43.30171695,"lon":-2.917778745,"rwys":2,"ils":2,"index":2908496,"path":"w010n40/w003n43"
+,"runways":[
+{"len_m":2606,"wid_m":45.11,"hdg":116,"surf":"Asphalt","rwy1":"12","lat1":43.30640942,"lon1":-2.92493948,"rwy2":"30","lat2":43.29586117,"lon2":-2.89624596},
+{"len_m":2006,"wid_m":45.11,"hdg":96,"surf":"Asphalt","rwy1":"10","lat1":43.30331729,"lon1":-2.93725058,"rwy2":"28","lat2":43.30127991,"lon2":-2.91267895}
+]
+,"radios":[
+{"type":"ATIS","freq":118.82,"desc":"ATIS"},
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.5,"desc":"TWR"},
+{"type":"APP","freq":120.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.55,"lat":43.29541300,"lon":-2.89513500,"rng_nm":18,"alt_fmsl":138,"hdg":116.73,"id":"I","rwy":"12","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":43.30729200,"lon":-2.92751700,"rng_nm":18,"alt_fmsl":128,"hdg":296.66,"id":"IBL","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.55,"lat":43.30417600,"lon":-2.92236500,"rng_nm":10,"alt_fmsl":107,"id":"I","rwy":"12","desc":"GS","gs":3},
+{"type":"GS","freq":110.3,"lat":43.29787500,"lon":-2.90504200,"rng_nm":10,"alt_fmsl":144,"id":"IBL","rwy":"30","desc":"GS","gs":3.4},
+{"type":"DME","freq":110.3,"lat":43.29787500,"lon":-2.90504400,"rng_nm":18,"alt_fmsl":144,"id":"IBL","rwy":"30","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":281.4,"dist_nm":0.8,"freq":115.9,"lat":43.30438100,"lon":-2.93587800,"rng_nm":130,"alt_fmsl":141,"id":"BLV","desc":"BILBAO VOR-DME"},
+{"type":"NDB","hdg_t":154.8,"dist_nm":24.7,"freq":345,"lat":42.92808900,"lon":-2.67961400,"rng_nm":25,"alt_fmsl":0,"id":"VTA","desc":"VITORIA NDB"},
+{"type":"VOR","hdg_t":161.3,"dist_nm":26.6,"freq":112.9,"lat":42.88063300,"lon":-2.72435000,"rng_nm":130,"alt_fmsl":1696,"id":"VFD","desc":"VITORIA VOR-DME"},
+{"type":"VOR","hdg_t":176.1,"dist_nm":34.2,"freq":116.6,"lat":42.73188300,"lon":-2.86558300,"rng_nm":130,"alt_fmsl":1903,"id":"VRA","desc":"VITORIA VOR-DME"},
+{"type":"NDB","hdg_t":281.4,"dist_nm":41.5,"freq":416,"lat":43.43504400,"lon":-3.84990000,"rng_nm":25,"alt_fmsl":0,"id":"SA","desc":"SANTANDER NDB"},
+{"type":"VOR","hdg_t":281.9,"dist_nm":43.9,"freq":115.3,"lat":43.44978100,"lon":-3.90241100,"rng_nm":130,"alt_fmsl":164,"id":"SNR","desc":"SANTANDER VOR-DME"},
+{"type":"VOR","hdg_t":88.9,"dist_nm":47.6,"freq":117.9,"lat":43.31119700,"lon":-1.83039200,"rng_nm":40,"alt_fmsl":804,"id":"SSN","desc":"SAN SEBASTIAN VOR-DME"},
+{"type":"NDB","hdg_t":83.7,"dist_nm":49.3,"freq":328,"lat":43.38627800,"lon":-1.79588600,"rng_nm":50,"alt_fmsl":433,"id":"HIG","desc":"SAN SEBASTIAN NDB-DME"},
+{"type":"SDME","hdg_t":83.7,"dist_nm":49.3,"freq":113.2,"lat":43.38628100,"lon":-1.79576900,"rng_nm":50,"alt_fmsl":433,"id":"HIG","desc":"SAN SEBASTIAN NDB-DME"},
+{"type":"VOR","hdg_t":178.1,"dist_nm":50.9,"freq":112.6,"lat":42.45330600,"lon":-2.88070600,"rng_nm":130,"alt_fmsl":2126,"id":"DGO","desc":"DOMINGO VOR-DME"},
+{"type":"VOR","hdg_t":152.4,"dist_nm":56.7,"freq":115.45,"lat":42.46053600,"lon":-2.32691100,"rng_nm":40,"alt_fmsl":1348,"id":"LPA","desc":"LOGRONO VOR-DME"},
+{"type":"NDB","hdg_t":152.2,"dist_nm":57.5,"freq":399,"lat":42.45134200,"lon":-2.31473600,"rng_nm":45,"alt_fmsl":0,"id":"EAG","desc":"LOGRONO NDB"},
+{"type":"NDB","hdg_t":115.8,"dist_nm":58.8,"freq":354,"lat":42.86666489,"lon":-1.71683335,"rng_nm":15,"alt_fmsl":1468,"id":"PP","desc":"Pamplona NDB"},
+{"type":"VOR","hdg_t":80.3,"dist_nm":62.3,"freq":114.15,"lat":43.46663900,"lon":-1.51027800,"rng_nm":100,"alt_fmsl":276,"id":"BTZ","desc":"BIARRITZ BAYONNE ANGLET VOR-DME"},
+{"type":"VOR","hdg_t":122,"dist_nm":63.4,"freq":112.3,"lat":42.73375000,"lon":-1.70200000,"rng_nm":20,"alt_fmsl":3419,"id":"PPN","desc":"PAMPLONA VOR-DME"},
+{"type":"VOR","hdg_t":208.6,"dist_nm":64.5,"freq":111.4,"lat":42.35496900,"lon":-3.61358300,"rng_nm":50,"alt_fmsl":2970,"id":"VIA","desc":"BURGOS VOR-DME"},
+{"type":"NDB","hdg_t":209.4,"dist_nm":64.8,"freq":357,"lat":42.35813100,"lon":-3.63538300,"rng_nm":50,"alt_fmsl":2945,"id":"BGS","desc":"BURGOS NDB"},
+{"type":"NDB","hdg_t":119.8,"dist_nm":65.5,"freq":386,"lat":42.74999200,"lon":-1.63166700,"rng_nm":15,"alt_fmsl":0,"id":"NO","desc":"PAMPLONA NDB"},
+{"type":"NDB","hdg_t":121.6,"dist_nm":66.4,"freq":422,"lat":42.71418900,"lon":-1.63904200,"rng_nm":50,"alt_fmsl":0,"id":"PAM","desc":"PAMPLONA NDB"},
+{"type":"VOR","hdg_t":123.1,"dist_nm":66.4,"freq":113.55,"lat":42.68838600,"lon":-1.66078300,"rng_nm":25,"alt_fmsl":1890,"id":"PAP","desc":"PAMPLONA VOR-DME"},
+{"type":"NDB","hdg_t":80.7,"dist_nm":67,"freq":341,"lat":43.47052800,"lon":-1.40369400,"rng_nm":50,"alt_fmsl":295,"id":"BZ","desc":"BIARRITZ NDB"},
+{"type":"NDB","hdg_t":73.3,"dist_nm":85.6,"freq":334,"lat":43.69555555,"lon":-1.03222222,"rng_nm":25,"alt_fmsl":82,"id":"DX","desc":"Dax Seyresse NDB"},
+{"type":"VOR","hdg_t":215,"dist_nm":92.8,"freq":116.75,"lat":42.02760800,"lon":-4.10913100,"rng_nm":40,"alt_fmsl":3002,"id":"NEA","desc":"TABANERA VOR-DME"}
+]
+}

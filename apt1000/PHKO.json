@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PHKO","name":"Kona Intl At Keahole","lat":19.738767,"lon":-156.045632,"rwys":1,"ils":1,"index":383855,"path":"w160n10/w157n19"
+,"runways":[
+{"len_m":3352,"wid_m":45.72,"hdg":184,"surf":"Asphalt","rwy1":"17","lat1":19.75385600,"lon1":-156.04428900,"rwy2":"35","lat2":19.72367800,"lon2":-156.04697500}
+]
+,"radios":[
+{"type":"ATIS","freq":127.4,"desc":"ATIS"},
+{"type":"CTAF","freq":120.3,"desc":"CTAF"},
+{"type":"CLD","freq":121.9,"desc":"CLNC DEL"},
+{"type":"TWR","freq":120.3,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":19.72089400,"lon":-156.04722200,"rng_nm":18,"alt_fmsl":43,"hdg":184.79,"id":"IKOA","rwy":"17","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":19.75077200,"lon":-156.04545300,"rng_nm":10,"alt_fmsl":43,"id":"IKOA","rwy":"17","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":19.76344400,"lon":-156.04344400,"rng_nm":0,"alt_fmsl":43,"id":"----","rwy":"17","desc":"MM"},
+{"type":"DME","freq":109.7,"lat":19.72077500,"lon":-156.04784700,"rng_nm":18,"alt_fmsl":43,"id":"IKOA","rwy":"17","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":178.1,"dist_nm":1.2,"freq":112.1,"lat":19.71725000,"lon":-156.04491667,"rng_nm":130,"alt_fmsl":36,"id":"KOA","desc":"KONA VORTAC"},
+{"type":"NDB","hdg_t":86.6,"dist_nm":25.5,"freq":339,"lat":19.76336111,"lon":-155.59436111,"rng_nm":50,"alt_fmsl":0,"id":"BSF","desc":"BRADSHAW NDB"},
+{"type":"VOR","hdg_t":53.8,"dist_nm":26.3,"freq":113.3,"lat":19.99805556,"lon":-155.66986111,"rng_nm":130,"alt_fmsl":2670,"id":"MUE","desc":"KAMUELA VOR-DME"},
+{"type":"VOR","hdg_t":22.4,"dist_nm":29.8,"freq":112.3,"lat":20.20052778,"lon":-155.84327778,"rng_nm":130,"alt_fmsl":1760,"id":"UPP","desc":"UPOLU POINT VORTAC"},
+{"type":"VOR","hdg_t":90.8,"dist_nm":58.5,"freq":116.9,"lat":19.72136111,"lon":-155.01094444,"rng_nm":130,"alt_fmsl":23,"id":"ITO","desc":"HILO VORTAC"},
+{"type":"NDB","hdg_t":100.8,"dist_nm":61.9,"freq":332,"lat":19.54113889,"lon":-154.97222222,"rng_nm":50,"alt_fmsl":0,"id":"POA","desc":"PAHOA NDB"},
+{"type":"NDB","hdg_t":341.9,"dist_nm":71.8,"freq":327,"lat":20.88077778,"lon":-156.44263889,"rng_nm":50,"alt_fmsl":0,"id":"VYI","desc":"VALLEY ISLAND NDB"},
+{"type":"VOR","hdg_t":343.1,"dist_nm":72.9,"freq":115.1,"lat":20.90644444,"lon":-156.42097222,"rng_nm":130,"alt_fmsl":30,"id":"OGG","desc":"MAUI VORTAC"},
+{"type":"VOR","hdg_t":319.8,"dist_nm":80.4,"freq":117.7,"lat":20.76450000,"lon":-156.96888889,"rng_nm":130,"alt_fmsl":1250,"id":"LNY","desc":"LANAI VORTAC"},
+{"type":"NDB","hdg_t":319.8,"dist_nm":80.9,"freq":353,"lat":20.77244444,"lon":-156.97341667,"rng_nm":75,"alt_fmsl":0,"id":"LLD","desc":"LANAI NDB"}
+]
+}

@@ -1,0 +1,47 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KFPR","name":"St Lucie Co Intl","lat":27.4946645,"lon":-80.368073,"rwys":2,"ils":1,"index":1629530,"path":"w090n20/w081n27"
+,"runways":[
+{"len_m":1978,"wid_m":45.72,"hdg":90,"surf":"Asphalt","rwy1":"09","lat1":27.49725600,"lon1":-80.37937500,"rwy2":"27","lat2":27.49710800,"lon2":-80.35935300},
+{"len_m":1449,"wid_m":30.48,"hdg":135,"surf":"Asphalt","rwy1":"14","lat1":27.49681100,"lon1":-80.37192500,"rwy2":"32","lat2":27.48748300,"lon2":-80.36163900}
+]
+,"radios":[
+{"type":"ATIS","freq":134.82,"desc":"ATIS"},
+{"type":"CTAF","freq":128.2,"desc":"CTAF"},
+{"type":"GND","freq":119.55,"desc":"GND"},
+{"type":"TWR","freq":128.2,"desc":"FORT PIERCE TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.55,"lat":27.49710083,"lon":-80.35628510,"rng_nm":18,"alt_fmsl":27,"hdg":90.39,"id":"IFJD","rwy":"09","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.55,"lat":27.49813843,"lon":-80.37644196,"rng_nm":10,"alt_fmsl":26,"id":"IFJD","rwy":"09","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":27.49695015,"lon":-80.47470093,"rng_nm":0,"alt_fmsl":27,"id":"----","rwy":"09","desc":"OM"},
+{"type":"MM","freq":0,"lat":27.49711609,"lon":-80.38925171,"rng_nm":0,"alt_fmsl":27,"id":"----","rwy":"09","desc":"MM"},
+{"type":"DME","freq":110.55,"lat":27.49779129,"lon":-80.35629272,"rng_nm":18,"alt_fmsl":28,"id":"IFJD","rwy":"09","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":210.3,"dist_nm":0.5,"freq":275,"lat":27.48672222,"lon":-80.37327778,"rng_nm":50,"alt_fmsl":0,"id":"FPR","desc":"FORT PIERCE NDB"},
+{"type":"NDB","hdg_t":271.3,"dist_nm":5.6,"freq":338,"lat":27.49691667,"lon":-80.47427778,"rng_nm":50,"alt_fmsl":0,"id":"FJ","desc":"LUUCE NDB"},
+{"type":"VOR","hdg_t":329.4,"dist_nm":12.7,"freq":117.3,"lat":27.67841667,"lon":-80.48972222,"rng_nm":130,"alt_fmsl":11,"id":"VRB","desc":"VERO BEACH VORTAC"},
+{"type":"NDB","hdg_t":177.1,"dist_nm":35,"freq":405,"lat":26.90897222,"lon":-80.33505556,"rng_nm":50,"alt_fmsl":0,"id":"UTX","desc":"UNITED NDB"},
+{"type":"VOR","hdg_t":338.7,"dist_nm":39.2,"freq":110,"lat":28.10527778,"lon":-80.63533333,"rng_nm":40,"alt_fmsl":30,"id":"MLB","desc":"MELBOURNE VOR-DME"},
+{"type":"DME","hdg_t":168.7,"dist_nm":39.7,"freq":110.75,"lat":26.84356853,"lon":-80.22387209,"rng_nm":18,"alt_fmsl":22,"id":"IGHO","desc":"F45 08R DME-ILS"},
+{"type":"NDB","hdg_t":334,"dist_nm":40.2,"freq":257,"lat":28.09947222,"lon":-80.70080556,"rng_nm":50,"alt_fmsl":0,"id":"SQT","desc":"SATELLITE NDB"},
+{"type":"VOR","hdg_t":202.1,"dist_nm":45.9,"freq":115.4,"lat":26.78275000,"lon":-80.69144444,"rng_nm":130,"alt_fmsl":16,"id":"PHK","desc":"PAHOKEE VORTAC"},
+{"type":"SDME","hdg_t":343.8,"dist_nm":46.3,"freq":115,"lat":28.23768300,"lon":-80.61176100,"rng_nm":25,"alt_fmsl":10,"id":"COF","desc":"PATRICK TACAN"},
+{"type":"VOR","hdg_t":162.7,"dist_nm":51,"freq":115.7,"lat":26.68005556,"lon":-80.08650000,"rng_nm":130,"alt_fmsl":16,"id":"PBI","desc":"PALM BEACH VORTAC"},
+{"type":"NDB","hdg_t":341.4,"dist_nm":53.4,"freq":247,"lat":28.34077778,"lon":-80.68844444,"rng_nm":50,"alt_fmsl":0,"id":"COI","desc":"MERRITT ISLAND NDB"},
+{"type":"VOR","hdg_t":234.1,"dist_nm":67.7,"freq":110.4,"lat":26.82816667,"lon":-81.39144444,"rng_nm":40,"alt_fmsl":30,"id":"LBV","desc":"LA BELLE VORTAC"},
+{"type":"SDME","hdg_t":345.6,"dist_nm":69.9,"freq":112.25,"lat":28.62616700,"lon":-80.69583300,"rng_nm":130,"alt_fmsl":57,"id":"TTS","desc":"KENNEDY SPACE CENTER TACAN"},
+{"type":"NDB","hdg_t":177.2,"dist_nm":78.4,"freq":221,"lat":26.18563889,"lon":-80.29850000,"rng_nm":50,"alt_fmsl":0,"id":"FX","desc":"PRAIZ NDB"},
+{"type":"NDB","hdg_t":271,"dist_nm":80.8,"freq":261,"lat":27.51000000,"lon":-81.88333300,"rng_nm":25,"alt_fmsl":104,"id":"CHN","desc":"WAUCHULA NDB"},
+{"type":"VOR","hdg_t":320.9,"dist_nm":81,"freq":112.2,"lat":28.54272222,"lon":-81.33502778,"rng_nm":130,"alt_fmsl":102,"id":"ORL","desc":"ORLANDO VORTAC"},
+{"type":"NDB","hdg_t":317.1,"dist_nm":82.9,"freq":221,"lat":28.50683333,"lon":-81.43391667,"rng_nm":50,"alt_fmsl":0,"id":"OR","desc":"HERNY (LOM) NDB"},
+{"type":"VOR","hdg_t":172.5,"dist_nm":85.6,"freq":116.5,"lat":26.07416667,"lon":-80.16297222,"rng_nm":130,"alt_fmsl":12,"id":"FLL","desc":"FORT LAUDERDALE VOR-DME"},
+{"type":"NDB","hdg_t":329.1,"dist_nm":90,"freq":408,"lat":28.78494444,"lon":-81.24333333,"rng_nm":50,"alt_fmsl":0,"id":"SFB","desc":"SANFORD NDB"},
+{"type":"VOR","hdg_t":288.9,"dist_nm":92.4,"freq":116,"lat":27.98619444,"lon":-82.01388889,"rng_nm":130,"alt_fmsl":135,"id":"LAL","desc":"LAKELAND VORTAC"},
+{"type":"VOR","hdg_t":248.6,"dist_nm":93.4,"freq":110.2,"lat":26.91677778,"lon":-81.99125000,"rng_nm":25,"alt_fmsl":0,"id":"PGD","desc":"PUNTA GORDA VOR"},
+{"type":"NDB","hdg_t":286.5,"dist_nm":94.6,"freq":227,"lat":27.93538889,"lon":-82.07580556,"rng_nm":50,"alt_fmsl":0,"id":"LA","desc":"WIREY NDB"},
+{"type":"VOR","hdg_t":232.8,"dist_nm":94.9,"freq":111.8,"lat":26.52988889,"lon":-81.77577778,"rng_nm":40,"alt_fmsl":25,"id":"RSW","desc":"LEE CO VORTAC"},
+{"type":"NDB","hdg_t":342.1,"dist_nm":98.1,"freq":417,"lat":29.05422222,"lon":-80.94144444,"rng_nm":50,"alt_fmsl":0,"id":"EVB","desc":"NEW SMYRNA BEACH NDB"},
+{"type":"NDB","hdg_t":232.7,"dist_nm":99.1,"freq":336,"lat":26.48433333,"lon":-81.83461111,"rng_nm":50,"alt_fmsl":0,"id":"RS","desc":"MUFFE NDB"}
+]
+}

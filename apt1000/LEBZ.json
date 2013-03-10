@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LEBZ","name":"Talavera La Real","lat":38.891271,"lon":-6.8212555,"rwys":1,"ils":1,"index":2842680,"path":"w010n30/w007n38"
+,"runways":[
+{"len_m":2852,"wid_m":60.05,"hdg":125,"surf":"Asphalt","rwy1":"13","lat1":38.89875300,"lon1":-6.83461700,"rwy2":"31","lat2":38.88378900,"lon2":-6.80789400}
+]
+,"radios":[
+{"type":"TWR","freq":122.1,"desc":"BADAJOZ TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":38.90027800,"lon":-6.83736100,"rng_nm":18,"alt_fmsl":609,"hdg":305.70,"id":"ITL","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":38.88625000,"lon":-6.80988900,"rng_nm":10,"alt_fmsl":609,"id":"ITL","rwy":"31","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":38.81658300,"lon":-6.69819400,"rng_nm":0,"alt_fmsl":609,"id":"----","rwy":"31","desc":"OM"},
+{"type":"MM","freq":0,"lat":38.87827800,"lon":-6.79794400,"rng_nm":0,"alt_fmsl":609,"id":"----","rwy":"31","desc":"MM"},
+{"type":"DME","freq":110.5,"lat":38.88625000,"lon":-6.80988900,"rng_nm":18,"alt_fmsl":639,"id":"ITL","rwy":"31","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":80.1,"dist_nm":0.1,"freq":108.8,"lat":38.89161900,"lon":-6.81868100,"rng_nm":130,"alt_fmsl":609,"id":"TBC","desc":"TALAVERA TACAN"},
+{"type":"VOR","hdg_t":107.8,"dist_nm":0.2,"freq":116.8,"lat":38.88988900,"lon":-6.81575000,"rng_nm":130,"alt_fmsl":597,"id":"VBZ","desc":"BADAJOZ VOR-DME"},
+{"type":"NDB","hdg_t":127.7,"dist_nm":7.3,"freq":298,"lat":38.81658300,"lon":-6.69819400,"rng_nm":40,"alt_fmsl":0,"id":"BJZ","desc":"BADAJOZ NDB"},
+{"type":"VOR","hdg_t":25.2,"dist_nm":42,"freq":114.2,"lat":39.52451100,"lon":-6.43473900,"rng_nm":115,"alt_fmsl":1394,"id":"CCS","desc":"CACERES VOR-DME"},
+{"type":"NDB","hdg_t":25.4,"dist_nm":42.3,"freq":380,"lat":39.52890800,"lon":-6.42885000,"rng_nm":50,"alt_fmsl":0,"id":"CAC","desc":"CACERES NDB"},
+{"type":"VOR","hdg_t":308.7,"dist_nm":65,"freq":115.5,"lat":39.56472200,"lon":-7.91472200,"rng_nm":130,"alt_fmsl":1341,"id":"NSA","desc":"NISA VORTAC"},
+{"type":"NDB","hdg_t":230,"dist_nm":67.8,"freq":376,"lat":38.15926400,"lon":-7.92170800,"rng_nm":100,"alt_fmsl":0,"id":"BJA","desc":"BEJA NDB"},
+{"type":"VOR","hdg_t":229,"dist_nm":69.2,"freq":115.8,"lat":38.12842200,"lon":-7.92668900,"rng_nm":130,"alt_fmsl":620,"id":"BEJ","desc":"BEJA VORTAC"},
+{"type":"NDB","hdg_t":105.3,"dist_nm":83.5,"freq":346,"lat":38.51033600,"lon":-5.11105600,"rng_nm":50,"alt_fmsl":0,"id":"HNS","desc":"HINOJOSA NDB"},
+{"type":"VOR","hdg_t":105.3,"dist_nm":84,"freq":114.7,"lat":38.50813300,"lon":-5.09968300,"rng_nm":50,"alt_fmsl":1841,"id":"HIJ","desc":"HINOJOSA VOR-DME"},
+{"type":"NDB","hdg_t":341.8,"dist_nm":88.9,"freq":360,"lat":40.29916700,"lon":-7.42583300,"rng_nm":25,"alt_fmsl":0,"id":"COV","desc":"COVILHA NDB"},
+{"type":"VOR","hdg_t":301.3,"dist_nm":90.6,"freq":113.5,"lat":39.66607800,"lon":-8.49321400,"rng_nm":60,"alt_fmsl":686,"id":"FTM","desc":"FATIMA VOR-DME"}
+]
+}

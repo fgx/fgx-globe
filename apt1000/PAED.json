@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PAED","name":"Elmendorf Afb","lat":61.2514105,"lon":-149.804879,"rwys":2,"ils":1,"index":501200,"path":"w150n60/w150n61"
+,"runways":[
+{"len_m":3048,"wid_m":60.96,"hdg":79,"surf":"Asphalt","rwy1":"06","lat1":61.24864200,"lon1":-149.84424400,"rwy2":"24","lat2":61.25338300,"lon2":-149.78832200},
+{"len_m":2288,"wid_m":45.72,"hdg":180,"surf":"Asphalt","rwy1":"16","lat1":61.26207500,"lon1":-149.79347500,"rwy2":"34","lat2":61.24154200,"lon2":-149.79347500}
+]
+,"radios":[
+{"type":"ATIS","freq":124.3,"desc":"ATIS"},
+{"type":"GND","freq":121.8,"desc":"GND"},
+{"type":"TWR","freq":127.2,"desc":"TWR"},
+{"type":"APP","freq":118.6,"desc":"ANCHORAGE APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":61.25389400,"lon":-149.77998300,"rng_nm":18,"alt_fmsl":212,"hdg":80.38,"id":"IEDF","rwy":"06","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":61.25028300,"lon":-149.83637200,"rng_nm":10,"alt_fmsl":212,"id":"IEDF","rwy":"06","desc":"GS","gs":2.83},
+{"type":"MM","freq":0,"lat":61.24695000,"lon":-149.86387200,"rng_nm":0,"alt_fmsl":212,"id":"----","rwy":"06","desc":"MM"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":78.1,"dist_nm":1,"freq":113.4,"lat":61.25500600,"lon":-149.76915000,"rng_nm":130,"alt_fmsl":360,"id":"EDF","desc":"ELMENDORF TACAN"},
+{"type":"SDME","hdg_t":219.1,"dist_nm":6.3,"freq":111.3,"lat":61.16981900,"lon":-149.94239800,"rng_nm":90,"alt_fmsl":140,"id":"MTGN","desc":"Anchorage MLS 6L DME"},
+{"type":"VOR","hdg_t":221.9,"dist_nm":6.7,"freq":113.15,"lat":61.16786560,"lon":-149.96014330,"rng_nm":130,"alt_fmsl":283,"id":"TED","desc":"ANCHORAGE VOR-DME"},
+{"type":"NDB","hdg_t":235.6,"dist_nm":8.5,"freq":338,"lat":61.17102778,"lon":-150.04766667,"rng_nm":50,"alt_fmsl":0,"id":"CMQ","desc":"CAMPBELL LAKE NDB"},
+{"type":"NDB","hdg_t":245.1,"dist_nm":11.9,"freq":387,"lat":61.16761111,"lon":-150.17727778,"rng_nm":50,"alt_fmsl":0,"id":"BOB","desc":"BRUCK NDB"},
+{"type":"VOR","hdg_t":346.3,"dist_nm":19.7,"freq":112.5,"lat":61.56944444,"lon":-149.96713889,"rng_nm":130,"alt_fmsl":160,"id":"BGQ","desc":"BIG LAKE VORTAC"},
+{"type":"NDB","hdg_t":249.2,"dist_nm":47.8,"freq":356,"lat":60.96138889,"lon":-151.33391667,"rng_nm":50,"alt_fmsl":0,"id":"GRP","desc":"GRANITE POINT NDB"},
+{"type":"VOR","hdg_t":227.3,"dist_nm":55.8,"freq":117.6,"lat":60.61469444,"lon":-151.19525000,"rng_nm":130,"alt_fmsl":114,"id":"ENA","desc":"KENAI VOR-DME"},
+{"type":"NDB","hdg_t":214.4,"dist_nm":56.3,"freq":346,"lat":60.47497222,"lon":-150.87888889,"rng_nm":50,"alt_fmsl":0,"id":"OLT","desc":"SOLDOTNA NDB"},
+{"type":"NDB","hdg_t":226.9,"dist_nm":56.9,"freq":379,"lat":60.59866667,"lon":-151.21119444,"rng_nm":50,"alt_fmsl":0,"id":"IWW","desc":"WILDWOOD NDB"},
+{"type":"VOR","hdg_t":352.3,"dist_nm":63.5,"freq":116.2,"lat":62.29866667,"lon":-150.10558333,"rng_nm":130,"alt_fmsl":360,"id":"TKA","desc":"TALKEETNA VOR-DME"},
+{"type":"NDB","hdg_t":352.8,"dist_nm":65.5,"freq":305,"lat":62.33116667,"lon":-150.09641667,"rng_nm":50,"alt_fmsl":0,"id":"PEE","desc":"PETERS CREEK NDB"},
+{"type":"NDB","hdg_t":241,"dist_nm":79,"freq":368,"lat":60.59386111,"lon":-152.14252778,"rng_nm":50,"alt_fmsl":0,"id":"DRF","desc":"DRIFT RIVER NDB"}
+]
+}

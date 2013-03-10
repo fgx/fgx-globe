@@ -1,0 +1,35 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SVMI","name":"Caracas Simon Bolivar Intl","lat":10.60311875,"lon":-66.9905855,"rwys":2,"ils":1,"index":1857824,"path":"w070n10/w067n10"
+,"runways":[
+{"len_m":3499,"wid_m":45.11,"hdg":88,"surf":"Asphalt","rwy1":"10","lat1":10.60376400,"lon1":-67.01275600,"rwy2":"28","lat2":10.60478300,"lon2":-66.98078900},
+{"len_m":2996,"wid_m":44.20,"hdg":76,"surf":"Asphalt","rwy1":"09","lat1":10.59868900,"lon1":-66.99768300,"rwy2":"27","lat2":10.60523900,"lon2":-66.97111400}
+]
+,"radios":[
+{"type":"CLD","freq":119.5,"desc":"CLD"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.4,"desc":"MAIQUETIA TWR"},
+{"type":"APP","freq":120.4,"desc":"MAIQUETIA APP"},
+{"type":"DEP","freq":118.4,"desc":"MAIQUETIA DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":10.60502500,"lon":-66.97781400,"rng_nm":18,"alt_fmsl":235,"hdg":87.90,"id":"IMIQ","rwy":"10","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":10.60484700,"lon":-67.00980600,"rng_nm":10,"alt_fmsl":235,"id":"IMIQ","rwy":"10","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":10.60355600,"lon":-67.02112200,"rng_nm":0,"alt_fmsl":235,"id":"----","rwy":"10","desc":"MM"},
+{"type":"DME","freq":110.1,"lat":10.60502500,"lon":-66.97781400,"rng_nm":18,"alt_fmsl":235,"id":"IMIQ","rwy":"10","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":8.1,"dist_nm":0.3,"freq":114.8,"lat":10.60947222,"lon":-66.98966667,"rng_nm":130,"alt_fmsl":262,"id":"MIQ","desc":"MAIQUETIA VOR-DME"},
+{"type":"NDB","hdg_t":43.2,"dist_nm":0.4,"freq":292,"lat":10.60813889,"lon":-66.98580556,"rng_nm":50,"alt_fmsl":0,"id":"MIQ","desc":"MAIQUETIA NDB"},
+{"type":"VOR","hdg_t":225.5,"dist_nm":13.9,"freq":116.1,"lat":10.43975000,"lon":-67.15897222,"rng_nm":130,"alt_fmsl":6900,"id":"NOL","desc":"NO LEON VOR-DME"},
+{"type":"VOR","hdg_t":148.5,"dist_nm":21.7,"freq":115.2,"lat":10.29197222,"lon":-66.79872222,"rng_nm":130,"alt_fmsl":2415,"id":"TUY","desc":"CHARALLAVE VOR-DME"},
+{"type":"NDB","hdg_t":193.8,"dist_nm":39.6,"freq":318,"lat":9.95919444,"lon":-67.15091667,"rng_nm":50,"alt_fmsl":0,"id":"SSB","desc":"SAN SEBASTIAN NDB"},
+{"type":"VOR","hdg_t":232.9,"dist_nm":41.2,"freq":113.9,"lat":10.18613900,"lon":-67.54702800,"rng_nm":130,"alt_fmsl":1450,"id":"BAL","desc":"EL LIBERTADOR VORTAC"},
+{"type":"NDB","hdg_t":98.6,"dist_nm":53.5,"freq":353,"lat":10.46669400,"lon":-66.09561100,"rng_nm":50,"alt_fmsl":10,"id":"HOT","desc":"HIGUEROTE NDB"},
+{"type":"VOR","hdg_t":91.7,"dist_nm":55.6,"freq":113.5,"lat":10.57355556,"lon":-66.05005556,"rng_nm":130,"alt_fmsl":735,"id":"CBC","desc":"CABO CODERA VOR-DME"},
+{"type":"VOR","hdg_t":243.8,"dist_nm":61.4,"freq":117.4,"lat":10.14786100,"lon":-67.92275000,"rng_nm":130,"alt_fmsl":1401,"id":"VAL","desc":"VALENCIA VOR-DME"},
+{"type":"NDB","hdg_t":244.5,"dist_nm":62.3,"freq":380,"lat":10.15202800,"lon":-67.94236100,"rng_nm":50,"alt_fmsl":1417,"id":"VLC","desc":"VALENCIA NDB"},
+{"type":"VOR","hdg_t":263.7,"dist_nm":64.6,"freq":117.7,"lat":10.48419444,"lon":-68.07780556,"rng_nm":130,"alt_fmsl":23,"id":"PBL","desc":"PUERTO CABELLO VOR-DME"},
+{"type":"VOR","hdg_t":13.1,"dist_nm":82.3,"freq":113.1,"lat":11.94466667,"lon":-66.67125000,"rng_nm":130,"alt_fmsl":36,"id":"LRS","desc":"GRAN ROQUE VOR-DME"},
+{"type":"VOR","hdg_t":292,"dist_nm":90.7,"freq":112.9,"lat":11.17058300,"lon":-68.41619400,"rng_nm":130,"alt_fmsl":29,"id":"VSJ","desc":"PUNTA SAN JUAN VOR-DME"}
+]
+}

@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SAZT","name":"Tandil","lat":-37.234278,"lon":-59.228639,"rwys":1,"ils":1,"index":1969459,"path":"w060s40/w060s38"
+,"runways":[
+{"len_m":2538,"wid_m":47.85,"hdg":5,"surf":"Concrete","rwy1":"01","lat1":-37.24566700,"lon1":-59.22991700,"rwy2":"19","lat2":-37.22288900,"lon2":-59.22736100}
+]
+,"radios":[
+{"type":"APP","freq":119.4,"desc":"APP/TWR"},
+{"type":"APP","freq":118.5,"desc":"APP/TWR"},
+{"type":"APP","freq":120.9,"desc":"CON"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":-37.25187800,"lon":-59.23063300,"rng_nm":18,"alt_fmsl":574,"hdg":185.14,"id":"DI","rwy":"19","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":-37.22575300,"lon":-59.22610000,"rng_nm":10,"alt_fmsl":574,"id":"DI","rwy":"19","desc":"GS","gs":2.5},
+{"type":"OM","freq":0,"lat":-37.15833300,"lon":-59.22166700,"rng_nm":0,"alt_fmsl":574,"id":"----","rwy":"19","desc":"OM"},
+{"type":"MM","freq":0,"lat":-37.20833300,"lon":-59.22666700,"rng_nm":0,"alt_fmsl":574,"id":"----","rwy":"19","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":356,"dist_nm":0.5,"freq":115.9,"lat":-37.22500000,"lon":-59.22944400,"rng_nm":175,"alt_fmsl":574,"id":"DIL","desc":"TANDIL VOR-DME"},
+{"type":"NDB","hdg_t":3.4,"dist_nm":1.5,"freq":255,"lat":-37.20833300,"lon":-59.22666700,"rng_nm":25,"alt_fmsl":574,"id":"D","desc":"TANDIL NDB"},
+{"type":"NDB","hdg_t":4.2,"dist_nm":4.5,"freq":300,"lat":-37.15833300,"lon":-59.22166700,"rng_nm":25,"alt_fmsl":0,"id":"OD","desc":"TANDIL NDB"},
+{"type":"NDB","hdg_t":293,"dist_nm":52.2,"freq":405,"lat":-36.88851700,"lon":-60.22723300,"rng_nm":173,"alt_fmsl":551,"id":"OLA","desc":"OLAVARRIA NDB"},
+{"type":"VOR","hdg_t":118.3,"dist_nm":89.1,"freq":116.2,"lat":-37.92972200,"lon":-57.57638900,"rng_nm":175,"alt_fmsl":73,"id":"MDP","desc":"MAR DEL PLATA VOR-DME"},
+{"type":"NDB","hdg_t":118.6,"dist_nm":89.4,"freq":385,"lat":-37.93944400,"lon":-57.57555600,"rng_nm":162,"alt_fmsl":72,"id":"MDP","desc":"MAR DEL PLATA NDB"},
+{"type":"VOR","hdg_t":22.8,"dist_nm":96.2,"freq":115.6,"lat":-35.75111100,"lon":-58.46388900,"rng_nm":185,"alt_fmsl":57,"id":"GBE","desc":"GENERAL BELGRANO VOR"},
+{"type":"NDB","hdg_t":90.6,"dist_nm":105.6,"freq":242,"lat":-37.23472200,"lon":-57.02388900,"rng_nm":189,"alt_fmsl":33,"id":"GES","desc":"VILLA GESELL NDB"},
+{"type":"NDB","hdg_t":72.2,"dist_nm":129.1,"freq":365,"lat":-36.54972200,"lon":-56.68388900,"rng_nm":189,"alt_fmsl":13,"id":"STR","desc":"SANTA TERESITA NDB"},
+{"type":"NDB","hdg_t":14.2,"dist_nm":144.7,"freq":270,"lat":-34.89027786,"lon":-58.50602722,"rng_nm":25,"alt_fmsl":81,"id":"OA","desc":"MINISTRO PISTARINI NDB"}
+]
+}

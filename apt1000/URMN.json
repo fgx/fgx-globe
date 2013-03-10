@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"URMN","name":"Nalchik","lat":43.512854,"lon":43.636583,"rwys":1,"ils":1,"index":3662178,"path":"e040n40/e043n43"
+,"runways":[
+{"len_m":2215,"wid_m":42.06,"hdg":62,"surf":"Asphalt","rwy1":"06","lat1":43.50825000,"lon1":43.62443300,"rwy2":"24","lat2":43.51745800,"lon2":43.64873300}
+]
+,"radios":[
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"APP","freq":126.9,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":43.50773300,"lon":43.62420000,"rng_nm":18,"alt_fmsl":1462,"hdg":241.33,"id":"INL","rwy":"24","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":43.51728600,"lon":43.64493900,"rng_nm":10,"alt_fmsl":1462,"id":"INL","rwy":"24","desc":"GS","gs":2.7},
+{"type":"OM","freq":0,"lat":43.53333300,"lon":43.69333300,"rng_nm":0,"alt_fmsl":1462,"id":"----","rwy":"24","desc":"OM"},
+{"type":"MM","freq":0,"lat":43.52166700,"lon":43.66000000,"rng_nm":0,"alt_fmsl":1462,"id":"----","rwy":"24","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":63.6,"dist_nm":2.7,"freq":718,"lat":43.53333300,"lon":43.69333300,"rng_nm":80,"alt_fmsl":0,"id":"NL","desc":"NALCHIK NDB"},
+{"type":"NDB","hdg_t":353.3,"dist_nm":38.7,"freq":1182,"lat":44.15500000,"lon":43.53333300,"rng_nm":80,"alt_fmsl":0,"id":"TP","desc":"TEPLORECHENSKY NDB"},
+{"type":"NDB","hdg_t":114,"dist_nm":43.3,"freq":1050,"lat":43.21500000,"lon":44.53833300,"rng_nm":80,"alt_fmsl":0,"id":"CH","desc":"VLADIKAVKAZ NDB"},
+{"type":"NDB","hdg_t":332.9,"dist_nm":46,"freq":583,"lat":44.19500000,"lon":43.15166700,"rng_nm":80,"alt_fmsl":0,"id":"MW","desc":"MINERALNYYE VODY NDB"},
+{"type":"NDB","hdg_t":301.2,"dist_nm":50,"freq":995,"lat":43.94166700,"lon":42.65000000,"rng_nm":80,"alt_fmsl":0,"id":"KW","desc":"KISLOVODSK NDB"},
+{"type":"NDB","hdg_t":328.8,"dist_nm":52.3,"freq":583,"lat":44.25833300,"lon":43.00833300,"rng_nm":80,"alt_fmsl":0,"id":"MD","desc":"MINERALNYYE VODY NDB"},
+{"type":"NDB","hdg_t":327.3,"dist_nm":77.1,"freq":866,"lat":44.59166700,"lon":42.66666700,"rng_nm":80,"alt_fmsl":0,"id":"SN","desc":"SULTANSKOYE NDB"},
+{"type":"NDB","hdg_t":179.6,"dist_nm":84.7,"freq":353,"lat":42.10000000,"lon":43.64888900,"rng_nm":50,"alt_fmsl":0,"id":"BT","desc":"ALI NDB"},
+{"type":"NDB","hdg_t":166.1,"dist_nm":92.3,"freq":462,"lat":42.01666700,"lon":44.13222200,"rng_nm":50,"alt_fmsl":0,"id":"OZ","desc":"GORI NDB"},
+{"type":"NDB","hdg_t":211.5,"dist_nm":93.1,"freq":842,"lat":42.18455800,"lon":42.54398100,"rng_nm":25,"alt_fmsl":0,"id":"UY","desc":"KUTAISI NDB"},
+{"type":"NDB","hdg_t":213.3,"dist_nm":95.7,"freq":477,"lat":42.17334700,"lon":42.45465600,"rng_nm":25,"alt_fmsl":0,"id":"TIG","desc":"KUTAISI NDB"},
+{"type":"VOR","hdg_t":213.3,"dist_nm":95.7,"freq":113.6,"lat":42.17348900,"lon":42.45605300,"rng_nm":130,"alt_fmsl":200,"id":"KTS","desc":"KUTAISI VOR-DME"},
+{"type":"NDB","hdg_t":236.7,"dist_nm":98.2,"freq":525,"lat":42.60000000,"lon":41.78333300,"rng_nm":50,"alt_fmsl":0,"id":"DA","desc":"GALI NDB"}
+]
+}

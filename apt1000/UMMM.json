@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UMMM","name":"Minsk 1","lat":53.864471,"lon":27.539682,"rwys":1,"ils":1,"index":3400690,"path":"e020n50/e027n53"
+,"runways":[
+{"len_m":1993,"wid_m":60.05,"hdg":125,"surf":"Asphalt","rwy1":"12","lat1":53.86965600,"lon1":27.52733300,"rwy2":"30","lat2":53.85928600,"lon2":27.55203100}
+]
+,"radios":[
+{"type":"TWR","freq":128,"desc":"START"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":53.85833300,"lon":27.55666700,"rng_nm":18,"alt_fmsl":748,"hdg":123.22,"id":"IGK","rwy":"12","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":53.86500000,"lon":27.53500000,"rng_nm":10,"alt_fmsl":748,"id":"IGK","rwy":"12","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":53.89333300,"lon":27.47333300,"rng_nm":0,"alt_fmsl":748,"id":"----","rwy":"12","desc":"OM"},
+{"type":"MM","freq":0,"lat":53.87333300,"lon":27.52000000,"rng_nm":0,"alt_fmsl":748,"id":"----","rwy":"12","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":169.7,"dist_nm":2.7,"freq":458,"lat":53.82000000,"lon":27.55333300,"rng_nm":50,"alt_fmsl":0,"id":"QM","desc":"MACHULISHCHI NDB"},
+{"type":"NDB","hdg_t":125,"dist_nm":2.9,"freq":321,"lat":53.83666700,"lon":27.60666700,"rng_nm":80,"alt_fmsl":0,"id":"NE","desc":"MINSK-1 NDB"},
+{"type":"NDB","hdg_t":306.3,"dist_nm":2.9,"freq":321,"lat":53.89333300,"lon":27.47333300,"rng_nm":80,"alt_fmsl":0,"id":"GK","desc":"MINSK-1 NDB"},
+{"type":"NDB","hdg_t":164.2,"dist_nm":8.8,"freq":458,"lat":53.72333300,"lon":27.60666700,"rng_nm":50,"alt_fmsl":0,"id":"WN","desc":"MACHULISHCHI NDB"},
+{"type":"NDB","hdg_t":77.2,"dist_nm":15.8,"freq":635,"lat":53.92166700,"lon":27.97500000,"rng_nm":80,"alt_fmsl":0,"id":"VX","desc":"MINSK-2 NDB"},
+{"type":"VOR","hdg_t":85.6,"dist_nm":17.1,"freq":113.6,"lat":53.88500000,"lon":28.02166700,"rng_nm":130,"alt_fmsl":692,"id":"MNS","desc":"MINSK-2 VOR-DME"},
+{"type":"NDB","hdg_t":93.4,"dist_nm":19.6,"freq":635,"lat":53.84333300,"lon":28.09166700,"rng_nm":80,"alt_fmsl":0,"id":"GH","desc":"MINSK-2 NDB"},
+{"type":"NDB","hdg_t":272.5,"dist_nm":28.6,"freq":355,"lat":53.88333300,"lon":26.73333300,"rng_nm":81,"alt_fmsl":0,"id":"KI","desc":"IVENETS NDB"},
+{"type":"NDB","hdg_t":84.2,"dist_nm":89.1,"freq":485,"lat":53.98666700,"lon":30.04500000,"rng_nm":80,"alt_fmsl":0,"id":"UF","desc":"MOGILEV NDB"},
+{"type":"VOR","hdg_t":301.3,"dist_nm":91.6,"freq":113.8,"lat":54.63605600,"lon":25.29363100,"rng_nm":50,"alt_fmsl":635,"id":"VNO","desc":"VILNIUS VOR-DME"},
+{"type":"NDB","hdg_t":303,"dist_nm":92.2,"freq":385,"lat":54.68160300,"lon":25.31870600,"rng_nm":25,"alt_fmsl":0,"id":"AVN","desc":"VILNIUS NDB"},
+{"type":"NDB","hdg_t":86.6,"dist_nm":92.5,"freq":485,"lat":53.92666700,"lon":30.14500000,"rng_nm":80,"alt_fmsl":0,"id":"CO","desc":"MOGILEV NDB"}
+]
+}

@@ -1,0 +1,35 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KMOT","name":"Minot Intl","lat":48.2576825,"lon":-101.27800775,"rwys":2,"ils":1,"index":1286802,"path":"w110n40/w102n48"
+,"runways":[
+{"len_m":2347,"wid_m":45.72,"hdg":138,"surf":"Concrete","rwy1":"13","lat1":48.26525300,"lon1":-101.28874200,"rwy2":"31","lat2":48.24946900,"lon2":-101.26775600},
+{"len_m":1935,"wid_m":30.48,"hdg":90,"surf":"Asphalt","rwy1":"08","lat1":48.25804400,"lon1":-101.29080000,"rwy2":"26","lat2":48.25796400,"lon2":-101.26473300}
+]
+,"radios":[
+{"type":"CTAF","freq":118.2,"desc":"CTAF"},
+{"type":"CTAF","freq":122.95,"desc":"UNICOM"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.2,"desc":"MAGIC CITY TWR"},
+{"type":"APP","freq":119.6,"desc":"APP"},
+{"type":"DEP","freq":119.6,"desc":"DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.9,"lat":48.26927200,"lon":-101.29408600,"rng_nm":18,"alt_fmsl":1711,"hdg":318.48,"id":"IMOT","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.9,"lat":48.25545600,"lon":-101.27379700,"rng_nm":10,"alt_fmsl":1669,"id":"IMOT","rwy":"31","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":48.18915300,"lon":-101.18768900,"rng_nm":0,"alt_fmsl":1711,"id":"----","rwy":"31","desc":"OM"},
+{"type":"MM","freq":0,"lat":48.24651400,"lon":-101.26388900,"rng_nm":0,"alt_fmsl":1711,"id":"----","rwy":"31","desc":"MM"},
+{"type":"DME","freq":111.9,"lat":48.26988100,"lon":-101.29352500,"rng_nm":18,"alt_fmsl":1727,"id":"IMOT","rwy":"31","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":293.6,"dist_nm":0.3,"freq":117.1,"lat":48.26033333,"lon":-101.28705556,"rng_nm":130,"alt_fmsl":1691,"id":"MOT","desc":"MINOT VORTAC"},
+{"type":"SDME","hdg_t":339.6,"dist_nm":10.1,"freq":114.9,"lat":48.41537500,"lon":-101.36610600,"rng_nm":130,"alt_fmsl":1668,"id":"MIB","desc":"DEERING TACAN"},
+{"type":"NDB","hdg_t":252.3,"dist_nm":84,"freq":400,"lat":47.81505600,"lon":-103.25836700,"rng_nm":25,"alt_fmsl":2066,"id":"AFD","desc":"WATFORD CITY NDB"},
+{"type":"NDB","hdg_t":312.8,"dist_nm":84.9,"freq":395,"lat":49.20972222,"lon":-102.86000000,"rng_nm":50,"alt_fmsl":0,"id":"L7","desc":"ESTEVAN NDB"},
+{"type":"NDB","hdg_t":265.4,"dist_nm":90,"freq":275,"lat":48.11819444,"lon":-103.51155556,"rng_nm":50,"alt_fmsl":0,"id":"SF","desc":"YUSON NDB"},
+{"type":"NDB","hdg_t":334.9,"dist_nm":92.2,"freq":310,"lat":49.64556700,"lon":-102.28103600,"rng_nm":50,"alt_fmsl":2074,"id":"8A","desc":"CARLYLE NDB"},
+{"type":"NDB","hdg_t":266.7,"dist_nm":92.7,"freq":275,"lat":48.14586111,"lon":-103.58380556,"rng_nm":50,"alt_fmsl":0,"id":"ISN","desc":"WILLISTON NDB"},
+{"type":"VOR","hdg_t":164.2,"dist_nm":93.1,"freq":116.5,"lat":46.76175000,"lon":-100.66541667,"rng_nm":40,"alt_fmsl":1853,"id":"BIS","desc":"BISMARCK VOR-DME"},
+{"type":"VOR","hdg_t":94.2,"dist_nm":95.3,"freq":111,"lat":48.11522222,"lon":-98.91250000,"rng_nm":40,"alt_fmsl":1448,"id":"DVL","desc":"DEVILS LAKE VOR-DME"},
+{"type":"NDB","hdg_t":164.4,"dist_nm":97,"freq":230,"lat":46.69808333,"lon":-100.64783333,"rng_nm":50,"alt_fmsl":0,"id":"BI","desc":"JADAN NDB"},
+{"type":"VOR","hdg_t":270.7,"dist_nm":99.1,"freq":116.3,"lat":48.25341667,"lon":-103.75066667,"rng_nm":40,"alt_fmsl":2372,"id":"ISN","desc":"WILLISTON VORTAC"}
+]
+}

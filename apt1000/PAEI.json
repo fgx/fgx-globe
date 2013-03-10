@@ -1,0 +1,35 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PAEI","name":"Eielson Afb","lat":64.665665,"lon":-147.101511,"rwys":1,"ils":2,"index":534185,"path":"w150n60/w148n64"
+,"runways":[
+{"len_m":4421,"wid_m":45.72,"hdg":157,"surf":"Concrete","rwy1":"13","lat1":64.68402200,"lon1":-147.11902500,"rwy2":"31","lat2":64.64730800,"lon2":-147.08399700}
+]
+,"radios":[
+{"type":"ATIS","freq":119.27,"desc":"ASOS"},
+{"type":"ATIS","freq":118.52,"desc":"ASOS"},
+{"type":"GND","freq":121.8,"desc":"GND"},
+{"type":"TWR","freq":125.3,"desc":"RANGE CON"},
+{"type":"TWR","freq":127.2,"desc":"TWR"},
+{"type":"APP","freq":125.35,"desc":"FAIRBANKS APP"},
+{"type":"APP","freq":126.5,"desc":"FAIRBANKS APP"},
+{"type":"DEP","freq":126.5,"desc":"FAIRBANKS DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":64.64255300,"lon":-147.08092500,"rng_nm":18,"alt_fmsl":548,"hdg":158.55,"id":"IEIL","rwy":"13","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.9,"lat":64.68947500,"lon":-147.12258300,"rng_nm":18,"alt_fmsl":548,"hdg":338.60,"id":"IEAF","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":64.68099200,"lon":-147.11845800,"rng_nm":10,"alt_fmsl":548,"id":"IEIL","rwy":"13","desc":"GS","gs":2.7},
+{"type":"GS","freq":109.9,"lat":64.64902500,"lon":-147.08961900,"rng_nm":10,"alt_fmsl":548,"id":"IEAF","rwy":"31","desc":"GS","gs":2.7},
+{"type":"MM","freq":0,"lat":64.63624700,"lon":-147.07572800,"rng_nm":0,"alt_fmsl":548,"id":"----","rwy":"31","desc":"MM"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":164.7,"dist_nm":0.7,"freq":115.1,"lat":64.65383300,"lon":-147.09400000,"rng_nm":130,"alt_fmsl":528,"id":"EIL","desc":"EIELSON TACAN"},
+{"type":"NDB","hdg_t":315.9,"dist_nm":14.5,"freq":257,"lat":64.83858333,"lon":-147.49508333,"rng_nm":50,"alt_fmsl":0,"id":"CUN","desc":"CHENA NDB"},
+{"type":"NDB","hdg_t":312.4,"dist_nm":20.9,"freq":510,"lat":64.89980556,"lon":-147.70666667,"rng_nm":50,"alt_fmsl":0,"id":"FA","desc":"WEARR NDB"},
+{"type":"NDB","hdg_t":326.3,"dist_nm":22,"freq":356,"lat":64.96902778,"lon":-147.57994444,"rng_nm":50,"alt_fmsl":0,"id":"FOX","desc":"FOX NDB"},
+{"type":"VOR","hdg_t":289.4,"dist_nm":24.7,"freq":108.6,"lat":64.80008333,"lon":-148.01197222,"rng_nm":130,"alt_fmsl":1525,"id":"FAI","desc":"FAIRBANKS VORTAC"},
+{"type":"VOR","hdg_t":265.7,"dist_nm":51.1,"freq":115.8,"lat":64.59000000,"lon":-149.07286111,"rng_nm":130,"alt_fmsl":1600,"id":"ENN","desc":"NENANA VORTAC"},
+{"type":"NDB","hdg_t":262.8,"dist_nm":51.5,"freq":525,"lat":64.54569444,"lon":-149.07688889,"rng_nm":50,"alt_fmsl":0,"id":"ICW","desc":"ICE POOL NDB"},
+{"type":"NDB","hdg_t":135.6,"dist_nm":53.4,"freq":347,"lat":64.02350000,"lon":-145.68677778,"rng_nm":50,"alt_fmsl":0,"id":"DJN","desc":"DELTA JUNCTION NDB"},
+{"type":"VOR","hdg_t":137.1,"dist_nm":53.7,"freq":114.9,"lat":64.00438889,"lon":-145.71716667,"rng_nm":130,"alt_fmsl":1230,"id":"BIG","desc":"BIG DELTA VORTAC"},
+{"type":"NDB","hdg_t":214.2,"dist_nm":97.5,"freq":326,"lat":63.31130556,"lon":-149.13066667,"rng_nm":50,"alt_fmsl":0,"id":"UMM","desc":"SUMMIT NDB"}
+]
+}

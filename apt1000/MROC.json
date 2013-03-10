@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MROC","name":"San Jose Juan Santamaria Intl","lat":9.9939265,"lon":-84.2088845,"rwys":1,"ils":1,"index":1562878,"path":"w090n00/w085n09"
+,"runways":[
+{"len_m":3046,"wid_m":46.02,"hdg":69,"surf":"Asphalt","rwy1":"07","lat1":9.98900000,"lon1":-84.22185800,"rwy2":"25","lat2":9.99885300,"lon2":-84.19591100}
+]
+,"radios":[
+{"type":"CLD","freq":121.3,"desc":"CLNC"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.6,"desc":"COCO TWR"},
+{"type":"APP","freq":120.5,"desc":"COCO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":9.99911100,"lon":-84.19526400,"rng_nm":18,"alt_fmsl":930,"hdg":68.89,"id":"IOCO","rwy":"07","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":9.98913900,"lon":-84.21888900,"rng_nm":10,"alt_fmsl":930,"id":"IOCO","rwy":"07","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":9.96053100,"lon":-84.29353900,"rng_nm":0,"alt_fmsl":930,"id":"----","rwy":"07","desc":"OM"},
+{"type":"DME","freq":109.5,"lat":9.98833300,"lon":-84.21833300,"rng_nm":18,"alt_fmsl":930,"id":"IOCO","rwy":"07","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":249.2,"dist_nm":1.7,"freq":115.7,"lat":9.98366667,"lon":-84.23616667,"rng_nm":130,"alt_fmsl":3021,"id":"TIO","desc":"EL COCO VOR-DME"},
+{"type":"NDB","hdg_t":248.3,"dist_nm":5.3,"freq":260,"lat":9.96053100,"lon":-84.29353900,"rng_nm":100,"alt_fmsl":0,"id":"HOR","desc":"HORCONES NDB"},
+{"type":"NDB","hdg_t":192.6,"dist_nm":29.1,"freq":395,"lat":9.51750000,"lon":-84.31694400,"rng_nm":50,"alt_fmsl":0,"id":"PAR","desc":"PARRITA NDB"},
+{"type":"NDB","hdg_t":330.6,"dist_nm":31.1,"freq":212,"lat":10.44833300,"lon":-84.46666700,"rng_nm":50,"alt_fmsl":210,"id":"FIO","desc":"FIORA NDB"},
+{"type":"NDB","hdg_t":39.1,"dist_nm":58.5,"freq":380,"lat":10.75333300,"lon":-83.58333300,"rng_nm":50,"alt_fmsl":10,"id":"COL","desc":"BARRA DEL COLORADO NDB"},
+{"type":"NDB","hdg_t":334.6,"dist_nm":69,"freq":221,"lat":11.03833300,"lon":-84.70999900,"rng_nm":50,"alt_fmsl":131,"id":"CHI","desc":"LOS CHILES NDB"},
+{"type":"NDB","hdg_t":90.7,"dist_nm":69.6,"freq":380,"lat":9.97666667,"lon":-83.03277778,"rng_nm":75,"alt_fmsl":0,"id":"LIO","desc":"LIMON NDB"},
+{"type":"VOR","hdg_t":91.4,"dist_nm":69.9,"freq":116.3,"lat":9.96313889,"lon":-83.02716667,"rng_nm":130,"alt_fmsl":7,"id":"LIO","desc":"LIMON VOR-DME"},
+{"type":"VOR","hdg_t":294.4,"dist_nm":86.8,"freq":112.8,"lat":10.59419444,"lon":-85.54636111,"rng_nm":130,"alt_fmsl":270,"id":"LIB","desc":"LIBERIA VOR-DME"},
+{"type":"NDB","hdg_t":138.3,"dist_nm":110.6,"freq":201,"lat":8.60858333,"lon":-82.97152778,"rng_nm":50,"alt_fmsl":0,"id":"COT","desc":"COTO 47 NDB"}
+]
+}

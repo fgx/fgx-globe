@@ -1,0 +1,26 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PASY","name":"Eareckson As","lat":52.712221,"lon":174.113618,"rwys":1,"ils":1,"index":5809064,"path":"e170n50/e174n52"
+,"runways":[
+{"len_m":3049,"wid_m":45.72,"hdg":106,"surf":"Asphalt","rwy1":"10","lat1":52.71622800,"lon1":174.09204200,"rwy2":"28","lat2":52.70821400,"lon2":174.13519400}
+]
+,"radios":[
+{"type":"ATIS","freq":135.65,"desc":"ASOS"},
+{"type":"CTAF","freq":127.2,"desc":"CTAF"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":52.71838600,"lon":174.08278600,"rng_nm":18,"alt_fmsl":98,"hdg":287.74,"id":"ISYA","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":52.71040000,"lon":174.13218300,"rng_nm":10,"alt_fmsl":98,"id":"ISYA","rwy":"28","desc":"GS","gs":2.5}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":280.9,"dist_nm":1.9,"freq":109,"lat":52.71827778,"lon":174.06213889,"rng_nm":130,"alt_fmsl":67,"id":"SYA","desc":"SHEMYA VORTAC"},
+{"type":"NDB","hdg_t":286.8,"dist_nm":2,"freq":403,"lat":52.72200000,"lon":174.06027778,"rng_nm":50,"alt_fmsl":0,"id":"SYA","desc":"SHEMYA NDB"},
+{"type":"NDB","hdg_t":282,"dist_nm":34.7,"freq":375,"lat":52.82891667,"lon":173.18030556,"rng_nm":50,"alt_fmsl":0,"id":"ATU","desc":"ATTU NDB"},
+{"type":"NDB","hdg_t":105.4,"dist_nm":258.1,"freq":379,"lat":51.37965800,"lon":-179.25837200,"rng_nm":25,"alt_fmsl":221,"id":"AHT","desc":"AMCHITKA NDB-DME"},
+{"type":"SDME","hdg_t":105.4,"dist_nm":258.1,"freq":113.2,"lat":51.37965800,"lon":-179.25837200,"rng_nm":25,"alt_fmsl":221,"id":"AHT","desc":"AMCHITKA NDB-DME"},
+{"type":"NDB","hdg_t":300.5,"dist_nm":321.8,"freq":595,"lat":55.17497222,"lon":166.04355556,"rng_nm":50,"alt_fmsl":0,"id":"NK","desc":"NIKOLSKOYE NDB"},
+{"type":"NDB","hdg_t":94.7,"dist_nm":342.8,"freq":530,"lat":51.87188889,"lon":-176.67600000,"rng_nm":50,"alt_fmsl":0,"id":"ADK","desc":"MOUNT MOFFETT NDB"},
+{"type":"SDME","hdg_t":94.8,"dist_nm":342.8,"freq":113,"lat":51.87130900,"lon":-176.67412100,"rng_nm":130,"alt_fmsl":379,"id":"NUD","desc":"ADAK TACAN"},
+{"type":"NDB","hdg_t":302.3,"dist_nm":451.5,"freq":410,"lat":56.22336111,"lon":162.68686111,"rng_nm":50,"alt_fmsl":0,"id":"UK","desc":"UST-KAMCHATSK NDB"},
+{"type":"NDB","hdg_t":333.1,"dist_nm":534,"freq":820,"lat":60.40005556,"lon":166.00216667,"rng_nm":50,"alt_fmsl":0,"id":"TK","desc":"TILICHIKI NDB"}
+]
+}

@@ -1,0 +1,23 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ORSU","name":"Sulaymaniyah Intl","lat":35.5608555,"lon":45.314664,"rwys":1,"ils":1,"index":3694433,"path":"e040n30/e045n35"
+,"runways":[
+{"len_m":3499,"wid_m":45.11,"hdg":132,"surf":"Concrete","rwy1":"13","lat1":35.57159200,"lon1":45.30052800,"rwy2":"31","lat2":35.55011900,"lon2":45.32880000}
+]
+,"ils":[
+{"type":"ILS","freq":111.7,"lat":35.57402200,"lon":45.29732500,"rng_nm":18,"alt_fmsl":2505,"hdg":313.02,"id":"RNJ","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.7,"lat":35.55089700,"lon":45.32535000,"rng_nm":10,"alt_fmsl":2440,"id":"RNJ","rwy":"31","desc":"GS","gs":3},
+{"type":"DME","freq":111.7,"lat":35.55081100,"lon":45.32512800,"rng_nm":18,"alt_fmsl":2440,"id":"RNJ","rwy":"31","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":312.9,"dist_nm":1.6,"freq":117,"lat":35.57958100,"lon":45.29006700,"rng_nm":130,"alt_fmsl":2517,"id":"SUL","desc":"SULAYMANIYAH VOR"},
+{"type":"SDME","hdg_t":263.8,"dist_nm":47.6,"freq":113.9,"lat":35.47122800,"lon":44.34790300,"rng_nm":130,"alt_fmsl":1049,"id":"KRK","desc":"KIRKUK TACAN"},
+{"type":"NDB","hdg_t":101.5,"dist_nm":84.9,"freq":366,"lat":35.26375000,"lon":47.00933300,"rng_nm":50,"alt_fmsl":4522,"id":"SNJ","desc":"SANANDAJ NDB"},
+{"type":"VOR","hdg_t":102.5,"dist_nm":85.2,"freq":116.5,"lat":35.23891700,"lon":47.00783300,"rng_nm":130,"alt_fmsl":4522,"id":"SNJ","desc":"SANANDAJ VOR-DME"},
+{"type":"NDB","hdg_t":238.9,"dist_nm":102.4,"freq":1669,"lat":34.66583300,"lon":43.54005300,"rng_nm":25,"alt_fmsl":423,"id":"TKT","desc":"AL SAHRA NDB"},
+{"type":"SDME","hdg_t":277.2,"dist_nm":107.7,"freq":112.5,"lat":35.76716700,"lon":43.12516700,"rng_nm":100,"alt_fmsl":749,"id":"QYW","desc":"QAYYARAH WEST TACAN"},
+{"type":"VOR","hdg_t":205.9,"dist_nm":108,"freq":114.6,"lat":33.93591100,"lon":44.36805800,"rng_nm":25,"alt_fmsl":157,"id":"BLD","desc":"BALAD VORTAC"},
+{"type":"SDME","hdg_t":131,"dist_nm":112.8,"freq":115.5,"lat":34.31111100,"lon":47.02777800,"rng_nm":100,"alt_fmsl":5131,"id":"KSH","desc":"KERMANSHAH TACAN"},
+{"type":"NDB","hdg_t":20.2,"dist_nm":114.2,"freq":363,"lat":37.34602800,"lon":46.14275000,"rng_nm":25,"alt_fmsl":4382,"id":"SHD","desc":"SAHAND NDB-DME"},
+{"type":"SDME","hdg_t":20.2,"dist_nm":114.2,"freq":116,"lat":37.34602800,"lon":46.14275000,"rng_nm":25,"alt_fmsl":4382,"id":"SHD","desc":"SAHAND NDB-DME"}
+]
+}

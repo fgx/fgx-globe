@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DABC","name":"Mohamed Boudiaf Intl","lat":36.27604175,"lon":6.62027775,"rwys":2,"ils":1,"index":3055506,"path":"e000n30/e006n36"
+,"runways":[
+{"len_m":3003,"wid_m":45.11,"hdg":159,"surf":"Asphalt","rwy1":"16","lat1":36.28805600,"lon1":6.61055600,"rwy2":"34","lat2":36.26277800,"lon2":6.62250000},
+{"len_m":2403,"wid_m":45.11,"hdg":135,"surf":"Asphalt","rwy1":"14","lat1":36.28444400,"lon1":6.61472200,"rwy2":"32","lat2":36.26888900,"lon2":6.63333300}
+]
+,"radios":[
+{"type":"TWR","freq":118.3,"desc":"CONSTANTINE TWR"},
+{"type":"TWR","freq":119.7,"desc":"CONSTANTINE TWR"},
+{"type":"APP","freq":120.1,"desc":"CONSTANTINE APP"},
+{"type":"APP","freq":119.7,"desc":"CONSTANTINE APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":36.28632200,"lon":6.61261100,"rng_nm":18,"alt_fmsl":2303,"hdg":316.21,"id":"CT","rwy":"32","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":36.27208600,"lon":6.63146400,"rng_nm":10,"alt_fmsl":2303,"id":"CT","rwy":"32","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":36.22373900,"lon":6.18681900,"rng_nm":0,"alt_fmsl":2303,"id":"----","rwy":"32","desc":"OM"},
+{"type":"MM","freq":0,"lat":36.26132200,"lon":6.64215600,"rng_nm":0,"alt_fmsl":2303,"id":"----","rwy":"32","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":324.2,"dist_nm":1.2,"freq":115.5,"lat":36.29261400,"lon":6.60554700,"rng_nm":130,"alt_fmsl":2303,"id":"CSO","desc":"CONSTANTINE VOR-DME"},
+{"type":"NDB","hdg_t":134.6,"dist_nm":7.3,"freq":397,"lat":36.19030300,"lon":6.72717500,"rng_nm":50,"alt_fmsl":0,"id":"CNE","desc":"CONSTANTINE NDB"},
+{"type":"VOR","hdg_t":204,"dist_nm":33,"freq":115.7,"lat":35.77152800,"lon":6.34379400,"rng_nm":130,"alt_fmsl":2786,"id":"BTN","desc":"BATNA VOR-DME"},
+{"type":"NDB","hdg_t":206.3,"dist_nm":35,"freq":421,"lat":35.75166700,"lon":6.30222200,"rng_nm":50,"alt_fmsl":0,"id":"BTN","desc":"BATNA NDB"},
+{"type":"VOR","hdg_t":310,"dist_nm":46.8,"freq":117.9,"lat":36.77666700,"lon":5.87722200,"rng_nm":130,"alt_fmsl":49,"id":"JIL","desc":"JIJEL VOR-DME"},
+{"type":"VOR","hdg_t":60,"dist_nm":65.5,"freq":113.5,"lat":36.81666700,"lon":7.80000000,"rng_nm":130,"alt_fmsl":16,"id":"ANB","desc":"ANNABA VOR-DME"},
+{"type":"NDB","hdg_t":60,"dist_nm":65.7,"freq":366,"lat":36.81805600,"lon":7.80250000,"rng_nm":60,"alt_fmsl":0,"id":"ANB","desc":"ANNABA NDB"},
+{"type":"NDB","hdg_t":288.9,"dist_nm":81.3,"freq":423,"lat":36.70666700,"lon":5.02472200,"rng_nm":25,"alt_fmsl":0,"id":"BJA","desc":"BEJAIA NDB"},
+{"type":"VOR","hdg_t":124.3,"dist_nm":86,"freq":114.5,"lat":35.45666700,"lon":8.06861100,"rng_nm":130,"alt_fmsl":2605,"id":"TBS","desc":"TEBESSA VOR-DME"},
+{"type":"VOR","hdg_t":205.3,"dist_nm":99.3,"freq":115,"lat":34.77500000,"lon":5.75833300,"rng_nm":130,"alt_fmsl":586,"id":"BIS","desc":"BISKRA VOR-DME"}
+]
+}

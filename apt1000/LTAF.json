@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LTAF","name":"Adana","lat":36.982142,"lon":35.280394,"rwys":1,"ils":1,"index":3530681,"path":"e030n30/e035n36"
+,"runways":[
+{"len_m":2738,"wid_m":45.11,"hdg":53,"surf":"Asphalt","rwy1":"05","lat1":36.97481700,"lon1":35.26801900,"rwy2":"23","lat2":36.98946700,"lon2":35.29276900}
+]
+,"radios":[
+{"type":"TWR","freq":118.05,"desc":"TWR"},
+{"type":"TWR","freq":121.1,"desc":"TWR"},
+{"type":"APP","freq":126.5,"desc":"INCIRLIK APP"},
+{"type":"DEP","freq":126.5,"desc":"INCIRLIK DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":108.7,"lat":36.99055600,"lon":35.29416700,"rng_nm":18,"alt_fmsl":65,"hdg":53.01,"id":"IADA","rwy":"05","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.7,"lat":36.97555600,"lon":35.27111100,"rng_nm":10,"alt_fmsl":65,"id":"IADA","rwy":"05","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":233,"dist_nm":1.1,"freq":395,"lat":36.97083300,"lon":35.26166700,"rng_nm":50,"alt_fmsl":0,"id":"ADA","desc":"ADANA NDB"},
+{"type":"VOR","hdg_t":233.5,"dist_nm":4.1,"freq":112.7,"lat":36.94055600,"lon":35.21027800,"rng_nm":130,"alt_fmsl":49,"id":"ADA","desc":"ADANA VOR-DME"},
+{"type":"SDME","hdg_t":75.9,"dist_nm":8.3,"freq":108.4,"lat":37.01556400,"lon":35.44803300,"rng_nm":100,"alt_fmsl":253,"id":"DAN","desc":"INCIRLIK TACAN"},
+{"type":"NDB","hdg_t":119.5,"dist_nm":48.8,"freq":434,"lat":36.57611100,"lon":36.16000000,"rng_nm":50,"alt_fmsl":25,"id":"ISK","desc":"ISKENDERUN NDB"},
+{"type":"NDB","hdg_t":66.9,"dist_nm":86.7,"freq":374,"lat":37.53805600,"lon":36.95361100,"rng_nm":75,"alt_fmsl":1723,"id":"KHM","desc":"KAHRAMANMARAS NDB"},
+{"type":"VOR","hdg_t":66.9,"dist_nm":86.7,"freq":113.9,"lat":37.53805600,"lon":36.95361100,"rng_nm":75,"alt_fmsl":1723,"id":"KHM","desc":"KAHRAMANMARAS VOR-DME"},
+{"type":"NDB","hdg_t":160.1,"dist_nm":95.5,"freq":414,"lat":35.48028100,"lon":35.94225300,"rng_nm":75,"alt_fmsl":0,"id":"LTK","desc":"BASSEL AL ASSAD NDB"},
+{"type":"NDB","hdg_t":266.3,"dist_nm":95.8,"freq":334,"lat":36.86388900,"lon":33.29305600,"rng_nm":100,"alt_fmsl":0,"id":"MUT","desc":"MUT NDB"},
+{"type":"VOR","hdg_t":266.3,"dist_nm":95.9,"freq":112.3,"lat":36.86416700,"lon":33.29222200,"rng_nm":130,"alt_fmsl":5791,"id":"MUT","desc":"MUT VOR-DME"},
+{"type":"VOR","hdg_t":160.8,"dist_nm":100.2,"freq":114.8,"lat":35.39944400,"lon":35.95074200,"rng_nm":130,"alt_fmsl":193,"id":"LTK","desc":"BASSEL AL ASSAD VOR-DME"}
+]
+}

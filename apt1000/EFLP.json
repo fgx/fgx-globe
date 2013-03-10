@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EFLP","name":"Lappeenranta","lat":61.04455,"lon":28.1444,"rwys":1,"ils":1,"index":3417536,"path":"e020n60/e028n61"
+,"runways":[
+{"len_m":2500,"wid_m":60.05,"hdg":66,"surf":"Asphalt","rwy1":"06","lat1":61.04011900,"lon1":28.12314400,"rwy2":"24","lat2":61.04898100,"lon2":28.16565600}
+]
+,"radios":[
+{"type":"TWR","freq":120.2,"desc":"TWR"},
+{"type":"TWR","freq":119.7,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":61.04993100,"lon":28.17021100,"rng_nm":18,"alt_fmsl":349,"hdg":66.72,"id":"LP","rwy":"06","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":61.04231400,"lon":28.12804400,"rng_nm":10,"alt_fmsl":349,"id":"LP","rwy":"06","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":61.01351400,"lon":28.00277500,"rng_nm":0,"alt_fmsl":349,"id":"----","rwy":"06","desc":"OM"},
+{"type":"MM","freq":0,"lat":61.03642800,"lon":28.10546900,"rng_nm":0,"alt_fmsl":349,"id":"----","rwy":"06","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":246.7,"dist_nm":0.8,"freq":112.5,"lat":61.03905300,"lon":28.11804700,"rng_nm":25,"alt_fmsl":363,"id":"VIL","desc":"VILMAS VOR-DME"},
+{"type":"NDB","hdg_t":247.3,"dist_nm":4,"freq":392,"lat":61.01848900,"lon":28.01573100,"rng_nm":30,"alt_fmsl":0,"id":"RAN","desc":"RANTA NDB"},
+{"type":"VOR","hdg_t":256.5,"dist_nm":36.6,"freq":114.6,"lat":60.89729400,"lon":26.92946700,"rng_nm":25,"alt_fmsl":355,"id":"UTT","desc":"UTTI VOR-DME"},
+{"type":"NDB","hdg_t":126.8,"dist_nm":38.4,"freq":458,"lat":60.65666700,"lon":29.18666700,"rng_nm":80,"alt_fmsl":0,"id":"WQ","desc":"VESCHEVO NDB"},
+{"type":"VOR","hdg_t":21.7,"dist_nm":58.9,"freq":117.9,"lat":61.95268100,"lon":28.91406100,"rng_nm":25,"alt_fmsl":343,"id":"SVL","desc":"LINNA VOR-DME"},
+{"type":"VOR","hdg_t":260.7,"dist_nm":70.8,"freq":117.3,"lat":60.83350000,"lon":25.76209200,"rng_nm":130,"alt_fmsl":273,"id":"ORM","desc":"ORIMAA VOR-DME"},
+{"type":"NDB","hdg_t":351.8,"dist_nm":71.7,"freq":370,"lat":62.22511100,"lon":27.78045000,"rng_nm":25,"alt_fmsl":0,"id":"JR","desc":"JULIETT-ROMEO NDB"},
+{"type":"VOR","hdg_t":240.2,"dist_nm":87.9,"freq":112.8,"lat":60.29437800,"lon":25.58847800,"rng_nm":130,"alt_fmsl":121,"id":"PVO","desc":"PORVOO VOR-DME"},
+{"type":"NDB","hdg_t":167.4,"dist_nm":88.1,"freq":635,"lat":59.61333300,"lon":28.77333300,"rng_nm":80,"alt_fmsl":0,"id":"KO","desc":"KOTLY NDB"},
+{"type":"VOR","hdg_t":264.2,"dist_nm":88.9,"freq":113.7,"lat":60.86300800,"lon":25.12681900,"rng_nm":50,"alt_fmsl":314,"id":"ANT","desc":"ANTONI VOR-DME"},
+{"type":"NDB","hdg_t":239.9,"dist_nm":91.6,"freq":344,"lat":60.25488900,"lon":25.49116700,"rng_nm":25,"alt_fmsl":0,"id":"HEK","desc":"HEKA NDB"},
+{"type":"NDB","hdg_t":139.7,"dist_nm":95.1,"freq":303,"lat":59.82166700,"lon":30.17500000,"rng_nm":80,"alt_fmsl":0,"id":"PU","desc":"PULKOVO NDB"},
+{"type":"NDB","hdg_t":140.3,"dist_nm":95.2,"freq":342,"lat":59.81000000,"lon":30.15000000,"rng_nm":80,"alt_fmsl":0,"id":"PK","desc":"PULKOVO NDB"},
+{"type":"VOR","hdg_t":138.5,"dist_nm":97.9,"freq":113.4,"lat":59.80666700,"lon":30.28500000,"rng_nm":130,"alt_fmsl":79,"id":"SPB","desc":"SANKT-PETERBURG VOR-DME"},
+{"type":"NDB","hdg_t":247.3,"dist_nm":99.2,"freq":322,"lat":60.37213300,"lon":25.06837200,"rng_nm":30,"alt_fmsl":0,"id":"KOR","desc":"KORSO NDB"}
+]
+}

@@ -1,0 +1,35 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MMGL","name":"Don Miguel Hidalgo Y Costilla Intl","lat":20.52457525,"lon":-103.30882475,"rwys":2,"ils":2,"index":1252261,"path":"w110n20/w104n20"
+,"runways":[
+{"len_m":4009,"wid_m":60.05,"hdg":113,"surf":"Concrete","rwy1":"10","lat1":20.52875000,"lon1":-103.32775000,"rwy2":"28","lat2":20.51401700,"lon2":-103.29263300},
+{"len_m":1832,"wid_m":28.65,"hdg":30,"surf":"Asphalt","rwy1":"02","lat1":20.52061700,"lon1":-103.31188300,"rwy2":"20","lat2":20.53491700,"lon2":-103.30303300}
+]
+,"radios":[
+{"type":"ATIS","freq":127.9,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"GUADALAJARA TWR"},
+{"type":"APP","freq":119.3,"desc":"GUADALAJARA APP"},
+{"type":"APP","freq":120.8,"desc":"GUADALAJARA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":20.51311700,"lon":-103.29001400,"rng_nm":18,"alt_fmsl":5016,"hdg":113.87,"id":"IAIG","rwy":"10","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.3,"lat":20.53002200,"lon":-103.33064700,"rng_nm":18,"alt_fmsl":5016,"hdg":294.20,"id":"IGDL","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":20.52651900,"lon":-103.32508600,"rng_nm":10,"alt_fmsl":5016,"id":"IAIG","rwy":"10","desc":"GS","gs":3},
+{"type":"GS","freq":111.3,"lat":20.51455300,"lon":-103.29702800,"rng_nm":10,"alt_fmsl":5016,"id":"IGDL","rwy":"28","desc":"GS","gs":2.8},
+{"type":"OM","freq":0,"lat":20.46507800,"lon":-103.17604200,"rng_nm":0,"alt_fmsl":5016,"id":"----","rwy":"28","desc":"OM"},
+{"type":"DME","freq":110.1,"lat":20.52651900,"lon":-103.32508600,"rng_nm":18,"alt_fmsl":5016,"id":"IAIG","rwy":"10","desc":"DME-ILS"},
+{"type":"DME","freq":111.3,"lat":20.51455300,"lon":-103.29702800,"rng_nm":18,"alt_fmsl":5016,"id":"IGDL","rwy":"28","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":246.2,"dist_nm":0.1,"freq":117.3,"lat":20.52342200,"lon":-103.31161100,"rng_nm":130,"alt_fmsl":5016,"id":"GDL","desc":"GUADALAJARA VOR-DME"},
+{"type":"NDB","hdg_t":115.4,"dist_nm":8.2,"freq":395,"lat":20.46507800,"lon":-103.17604200,"rng_nm":50,"alt_fmsl":0,"id":"GD","desc":"GUADALAJARA NDB"},
+{"type":"VOR","hdg_t":326.8,"dist_nm":16,"freq":113.4,"lat":20.74975000,"lon":-103.46496700,"rng_nm":130,"alt_fmsl":5333,"id":"ZAP","desc":"ZAPOPAN VOR-DME"},
+{"type":"VOR","hdg_t":191.6,"dist_nm":76.2,"freq":117.7,"lat":19.27512800,"lon":-103.57900600,"rng_nm":130,"alt_fmsl":2467,"id":"COL","desc":"COLIMA VOR-DME"},
+{"type":"VOR","hdg_t":37.8,"dist_nm":90,"freq":113.6,"lat":21.71140000,"lon":-102.31904700,"rng_nm":130,"alt_fmsl":6112,"id":"AGU","desc":"AGUASCALIENTES VOR-DME"},
+{"type":"VOR","hdg_t":133,"dist_nm":98.4,"freq":114.2,"lat":19.39575600,"lon":-102.04108900,"rng_nm":130,"alt_fmsl":5258,"id":"UPN","desc":"URUAPAN VOR-DME"},
+{"type":"VOR","hdg_t":302.4,"dist_nm":101.3,"freq":113.9,"lat":21.42651700,"lon":-104.83698100,"rng_nm":130,"alt_fmsl":3020,"id":"TNY","desc":"TEPIC VOR-DME"},
+{"type":"VOR","hdg_t":74.2,"dist_nm":106.4,"freq":115.8,"lat":20.99732200,"lon":-101.48273900,"rng_nm":130,"alt_fmsl":5956,"id":"BJX","desc":"LEON VOR-DME"},
+{"type":"VOR","hdg_t":221.2,"dist_nm":108.8,"freq":116.8,"lat":19.15008100,"lon":-104.57173600,"rng_nm":130,"alt_fmsl":30,"id":"ZLO","desc":"MANZANILLO VOR-DME"},
+{"type":"VOR","hdg_t":274.9,"dist_nm":110,"freq":116.6,"lat":20.67309400,"lon":-105.25749700,"rng_nm":130,"alt_fmsl":23,"id":"PVR","desc":"VALLARTA VOR-DME"}
+]
+}

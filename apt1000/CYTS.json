@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYTS","name":"Timmins","lat":48.5701395,"lon":-81.375487,"rwys":2,"ils":1,"index":1614498,"path":"w090n40/w082n48"
+,"runways":[
+{"len_m":1821,"wid_m":45.72,"hdg":21,"surf":"Asphalt","rwy1":"03","lat1":48.56305800,"lon1":-81.37889200,"rwy2":"21","lat2":48.57833600,"lon2":-81.37000300},
+{"len_m":1496,"wid_m":45.72,"hdg":91,"surf":"Asphalt","rwy1":"10","lat1":48.56972200,"lon1":-81.38666400,"rwy2":"28","lat2":48.56944200,"lon2":-81.36638900}
+]
+,"radios":[
+{"type":"ATIS","freq":124.95,"desc":"ATIS"},
+{"type":"TWR","freq":122.3,"desc":"MF"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":48.58030300,"lon":-81.36882000,"rng_nm":18,"alt_fmsl":967,"hdg":21.13,"id":"ITS","rwy":"03","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":48.56587600,"lon":-81.37852500,"rng_nm":10,"alt_fmsl":967,"id":"ITS","rwy":"03","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":63.6,"dist_nm":0.2,"freq":113,"lat":48.57194444,"lon":-81.37000000,"rng_nm":130,"alt_fmsl":976,"id":"YTS","desc":"TIMMINS VOR-DME"},
+{"type":"NDB","hdg_t":71.6,"dist_nm":26.7,"freq":382,"lat":48.70840000,"lon":-80.73593300,"rng_nm":25,"alt_fmsl":0,"id":"7P","desc":"IROQUOIS FALLS NDB"},
+{"type":"NDB","hdg_t":28.9,"dist_nm":35,"freq":235,"lat":49.08034700,"lon":-80.94483300,"rng_nm":50,"alt_fmsl":0,"id":"CN","desc":"COCHRANE NDB"},
+{"type":"NDB","hdg_t":108.3,"dist_nm":63.6,"freq":201,"lat":48.22694444,"lon":-79.86972222,"rng_nm":50,"alt_fmsl":0,"id":"YKX","desc":"KIRKLAND/LAKE ON NDB"},
+{"type":"SDME","hdg_t":319.9,"dist_nm":66.3,"freq":109.3,"lat":49.41201400,"lon":-82.46488300,"rng_nm":25,"alt_fmsl":750,"id":"YU","desc":"KAPUSKASING DME"},
+{"type":"NDB","hdg_t":320.6,"dist_nm":69.8,"freq":341,"lat":49.46472222,"lon":-82.50583333,"rng_nm":50,"alt_fmsl":0,"id":"YYU","desc":"KASING NDB"},
+{"type":"NDB","hdg_t":128.3,"dist_nm":81.8,"freq":257,"lat":47.71200000,"lon":-79.79116667,"rng_nm":50,"alt_fmsl":0,"id":"YXR","desc":"EARLTON NDB"},
+{"type":"NDB","hdg_t":75.9,"dist_nm":89.5,"freq":405,"lat":48.91063889,"lon":-79.17897222,"rng_nm":50,"alt_fmsl":0,"id":"7L","desc":"LA SARRE NDB"},
+{"type":"NDB","hdg_t":239.9,"dist_nm":95.3,"freq":335,"lat":47.75583333,"lon":-83.41277778,"rng_nm":50,"alt_fmsl":0,"id":"YLD","desc":"CHAPLEAU NDB"},
+{"type":"NDB","hdg_t":102.8,"dist_nm":100.3,"freq":218,"lat":48.17288889,"lon":-78.93858333,"rng_nm":50,"alt_fmsl":0,"id":"YUY","desc":"ROUYN NDB"}
+]
+}

@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UITT","name":"Ust-kut","lat":56.8578195,"lon":105.72972241,"rwys":1,"ils":1,"index":4678834,"path":"e100n50/e105n56"
+,"runways":[
+{"len_m":2007,"wid_m":45.11,"hdg":116,"surf":"Concrete","rwy1":"12","lat1":56.86186689,"lon1":105.71502057,"rwy2":"30","lat2":56.85377211,"lon2":105.74442425}
+]
+,"radios":[
+{"type":"ATIS","freq":127.4,"desc":"Ust-Kut Meteo"},
+{"type":"TWR","freq":118.3,"desc":"Ust-Kut Krug"},
+{"type":"APP","freq":120.8,"desc":"Ust-Kut Podhod"}
+]
+,"ils":[
+{"type":"ILS","freq":108.9,"lat":56.86273193,"lon":105.71203613,"rng_nm":40,"alt_fmsl":2188,"hdg":296.80,"id":"ICI","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.9,"lat":56.85368347,"lon":105.74102020,"rng_nm":27,"alt_fmsl":2188,"id":"ICI","rwy":"30","desc":"GS","gs":2.4},
+{"type":"OM","freq":0,"lat":56.83734894,"lon":105.80498505,"rng_nm":0,"alt_fmsl":2188,"id":"----","rwy":"30","desc":"OM"},
+{"type":"MM","freq":0,"lat":56.84981537,"lon":105.75852966,"rng_nm":0,"alt_fmsl":2188,"id":"----","rwy":"30","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":116.8,"dist_nm":1,"freq":670,"lat":56.84986496,"lon":105.75841522,"rng_nm":22,"alt_fmsl":2071,"id":"C","desc":"Ust-Kut NDB"},
+{"type":"NDB","hdg_t":116.3,"dist_nm":2.7,"freq":326,"lat":56.83733368,"lon":105.80500031,"rng_nm":75,"alt_fmsl":1856,"id":"CI","desc":"Ust-Kut NDB"},
+{"type":"NDB","hdg_t":53.3,"dist_nm":94,"freq":249,"lat":57.77029900,"lon":108.07751700,"rng_nm":22,"alt_fmsl":854,"id":"K","desc":"KIRENSK NDB"},
+{"type":"NDB","hdg_t":53.9,"dist_nm":95.8,"freq":309,"lat":57.77333300,"lon":108.14333300,"rng_nm":80,"alt_fmsl":0,"id":"KI","desc":"KIRENSK NDB"},
+{"type":"NDB","hdg_t":189.2,"dist_nm":125.2,"freq":445,"lat":54.80000000,"lon":105.15000000,"rng_nm":80,"alt_fmsl":0,"id":"MX","desc":"ZHIGALOVO NDB"},
+{"type":"NDB","hdg_t":309.1,"dist_nm":126.5,"freq":431,"lat":58.15000000,"lon":102.64166700,"rng_nm":80,"alt_fmsl":0,"id":"NM","desc":"UST-ILIMSK NDB"},
+{"type":"NDB","hdg_t":258.5,"dist_nm":134.5,"freq":374,"lat":56.34999847,"lon":101.77833557,"rng_nm":80,"alt_fmsl":1453,"id":"BS","desc":"BRATSK NDB"},
+{"type":"NDB","hdg_t":258.9,"dist_nm":135.6,"freq":755,"lat":56.36016846,"lon":101.73933411,"rng_nm":50,"alt_fmsl":1453,"id":"B","desc":"BRATSK NDB"},
+{"type":"VOR","hdg_t":259.3,"dist_nm":137.1,"freq":113.6,"lat":56.37166700,"lon":101.68666700,"rng_nm":130,"alt_fmsl":1608,"id":"BRT","desc":"BRATSK VOR-DME"},
+{"type":"NDB","hdg_t":259.7,"dist_nm":137.9,"freq":755,"lat":56.38074875,"lon":101.65776825,"rng_nm":50,"alt_fmsl":1385,"id":"G","desc":"BRATSK NDB"}
+]
+}

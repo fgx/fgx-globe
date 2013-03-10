@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"GABS","name":"Bamako Senou","lat":12.5335445,"lon":-7.949943,"rwys":1,"ils":1,"index":2824608,"path":"w010n10/w008n12"
+,"runways":[
+{"len_m":2706,"wid_m":45.11,"hdg":56,"surf":"Asphalt","rwy1":"06","lat1":12.52682500,"lon1":-7.96034700,"rwy2":"24","lat2":12.54026400,"lon2":-7.93953900}
+]
+,"radios":[
+{"type":"TWR","freq":118.3,"desc":"BAMAKO TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":12.54152500,"lon":-7.93756900,"rng_nm":18,"alt_fmsl":1246,"hdg":56.53,"id":"IBS","rwy":"06","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":12.52944000,"lon":-7.95839400,"rng_nm":10,"alt_fmsl":1246,"id":"IBS","rwy":"06","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":12.52147200,"lon":-7.96866700,"rng_nm":0,"alt_fmsl":1246,"id":"----","rwy":"06","desc":"MM"},
+{"type":"DME","freq":109.5,"lat":12.52937800,"lon":-7.95847500,"rng_nm":18,"alt_fmsl":1214,"id":"IBS","rwy":"06","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":236.7,"dist_nm":1.3,"freq":301,"lat":12.52147200,"lon":-7.96866700,"rng_nm":50,"alt_fmsl":0,"id":"BM","desc":"BAMAKO/SENOU NDB"},
+{"type":"VOR","hdg_t":56.6,"dist_nm":1.3,"freq":113.7,"lat":12.54611100,"lon":-7.93047200,"rng_nm":130,"alt_fmsl":1279,"id":"BKO","desc":"BAMAKO/SENOU VOR-DME"},
+{"type":"NDB","hdg_t":227.2,"dist_nm":99.3,"freq":282,"lat":11.40106100,"lon":-9.18680600,"rng_nm":50,"alt_fmsl":0,"id":"SI","desc":"SIGUIRI NDB"},
+{"type":"VOR","hdg_t":113.9,"dist_nm":137.4,"freq":116.5,"lat":11.59222200,"lon":-5.81575000,"rng_nm":130,"alt_fmsl":1397,"id":"SKO","desc":"SIKASSO VOR-DME"},
+{"type":"NDB","hdg_t":211.5,"dist_nm":150.9,"freq":276,"lat":10.37605000,"lon":-9.28347500,"rng_nm":25,"alt_fmsl":0,"id":"KN","desc":"KANKAN NDB"},
+{"type":"NDB","hdg_t":286.1,"dist_nm":156.4,"freq":239,"lat":13.25072200,"lon":-10.51708200,"rng_nm":50,"alt_fmsl":0,"id":"MNT","desc":"MANANTALI NDB"},
+{"type":"NDB","hdg_t":172.3,"dist_nm":179.8,"freq":265,"lat":9.54911100,"lon":-7.54861100,"rng_nm":25,"alt_fmsl":0,"id":"OD","desc":"ODIENNE NDB"},
+{"type":"VOR","hdg_t":172.9,"dist_nm":180.7,"freq":117.2,"lat":9.53008300,"lon":-7.57375000,"rng_nm":130,"alt_fmsl":1368,"id":"ODN","desc":"ODIENNE VOR-DME"},
+{"type":"NDB","hdg_t":329.6,"dist_nm":187.3,"freq":270,"lat":15.23389800,"lon":-9.58372800,"rng_nm":50,"alt_fmsl":0,"id":"NO","desc":"NIORO NDB"},
+{"type":"NDB","hdg_t":153.8,"dist_nm":199.9,"freq":358,"lat":9.52461100,"lon":-6.46250000,"rng_nm":50,"alt_fmsl":0,"id":"BDI","desc":"BOUNDIALI NDB"}
+]
+}

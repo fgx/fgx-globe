@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KACV","name":"Arcata","lat":40.978077,"lon":-124.1086385,"rwys":2,"ils":1,"index":909499,"path":"w130n40/w125n40"
+,"runways":[
+{"len_m":1828,"wid_m":46.02,"hdg":152,"surf":"Asphalt","rwy1":"14","lat1":40.98565636,"lon1":-124.11337271,"rwy2":"32","lat2":40.97101564,"lon2":-124.10342329},
+{"len_m":1371,"wid_m":46.02,"hdg":29,"surf":"Asphalt","rwy1":"01","lat1":40.97245797,"lon1":-124.11292040,"rwy2":"19","lat2":40.98317803,"lon2":-124.10483760}
+]
+,"radios":[
+{"type":"ATIS","freq":118.52,"desc":"ASOS"},
+{"type":"CTAF","freq":123,"desc":"CTAF/UNICOM"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":40.98645000,"lon":-124.11392200,"rng_nm":18,"alt_fmsl":180,"hdg":332.82,"id":"IACV","rwy":"32","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":40.97401100,"lon":-124.10383300,"rng_nm":10,"alt_fmsl":215,"id":"IACV","rwy":"32","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":40.90251700,"lon":-124.05718100,"rng_nm":0,"alt_fmsl":180,"id":"----","rwy":"32","desc":"OM"},
+{"type":"MM","freq":0,"lat":40.96453900,"lon":-124.09901900,"rng_nm":0,"alt_fmsl":180,"id":"----","rwy":"32","desc":"MM"},
+{"type":"DME","freq":109.5,"lat":40.98701900,"lon":-124.11325600,"rng_nm":18,"alt_fmsl":221,"id":"IACV","rwy":"32","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":4.2,"dist_nm":0.2,"freq":110.2,"lat":40.98144444,"lon":-124.10830556,"rng_nm":40,"alt_fmsl":193,"id":"ACV","desc":"ARCATA VOR-DME"},
+{"type":"VOR","hdg_t":197.3,"dist_nm":19.2,"freq":114,"lat":40.67127778,"lon":-124.23452778,"rng_nm":40,"alt_fmsl":386,"id":"FOT","desc":"FORTUNA VORTAC"},
+{"type":"VOR","hdg_t":352.9,"dist_nm":48.4,"freq":109,"lat":41.77958333,"lon":-124.24083333,"rng_nm":40,"alt_fmsl":54,"id":"CEC","desc":"CRESCENT CITY VORTAC"},
+{"type":"VOR","hdg_t":63.9,"dist_nm":65.3,"freq":109.6,"lat":41.44966667,"lon":-122.80644444,"rng_nm":40,"alt_fmsl":4900,"id":"FJS","desc":"FORT JONES VOR-DME"},
+{"type":"NDB","hdg_t":58,"dist_nm":86.1,"freq":404,"lat":41.72727778,"lon":-122.48169444,"rng_nm":50,"alt_fmsl":0,"id":"MOG","desc":"MONTAGUE NDB"},
+{"type":"VOR","hdg_t":108.3,"dist_nm":87.5,"freq":108.4,"lat":40.50455556,"lon":-122.29169444,"rng_nm":25,"alt_fmsl":490,"id":"RDD","desc":"REDDING VOR-DME"},
+{"type":"NDB","hdg_t":120.5,"dist_nm":100,"freq":338,"lat":40.11388889,"lon":-122.23744444,"rng_nm":50,"alt_fmsl":0,"id":"PBT","desc":"PROBERTA NDB"},
+{"type":"VOR","hdg_t":121,"dist_nm":100.5,"freq":115.7,"lat":40.09891667,"lon":-122.23636111,"rng_nm":130,"alt_fmsl":322,"id":"RBL","desc":"RED BLUFF VORTAC"},
+{"type":"NDB","hdg_t":32.7,"dist_nm":101.2,"freq":356,"lat":42.39161111,"lon":-122.87883333,"rng_nm":50,"alt_fmsl":0,"id":"MEF","desc":"MEDFORD NDB"},
+{"type":"NDB","hdg_t":30.9,"dist_nm":103.3,"freq":373,"lat":42.45097222,"lon":-122.91336111,"rng_nm":50,"alt_fmsl":0,"id":"MF","desc":"PUMIE NDB"}
+]
+}

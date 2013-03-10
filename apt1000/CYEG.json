@@ -1,0 +1,48 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYEG","name":"Edmonton Intl","lat":53.309882385,"lon":-113.580131075,"rwys":2,"ils":3,"index":1090513,"path":"w120n50/w114n53"
+,"runways":[
+{"len_m":3117,"wid_m":60.96,"hdg":135,"surf":"Asphalt","rwy1":"12","lat1":53.30773100,"lon1":-113.59527712,"rwy2":"30","lat2":53.28787929,"lon2":-113.56228939},
+{"len_m":3360,"wid_m":60.96,"hdg":35,"surf":"Asphalt","rwy1":"02","lat1":53.30966229,"lon1":-113.59610959,"rwy2":"20","lat2":53.33425697,"lon2":-113.56684819}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":53.33537491,"lon":-113.56552664,"rng_nm":18,"alt_fmsl":2373,"hdg":35.40,"id":"IEG","rwy":"02","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.9,"lat":53.28690590,"lon":-113.56066444,"rng_nm":18,"alt_fmsl":2373,"hdg":135.20,"id":"IFB","rwy":"12","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.1,"lat":53.30870439,"lon":-113.59688599,"rng_nm":18,"alt_fmsl":2373,"hdg":315.20,"id":"IKB","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":53.31237486,"lon":-113.59457290,"rng_nm":10,"alt_fmsl":2373,"id":"IEG","rwy":"02","desc":"GS","gs":3},
+{"type":"GS","freq":109.9,"lat":53.30520487,"lon":-113.59301942,"rng_nm":10,"alt_fmsl":2373,"id":"IFB","rwy":"12","desc":"GS","gs":3},
+{"type":"GS","freq":109.1,"lat":53.28924570,"lon":-113.56649949,"rng_nm":10,"alt_fmsl":2373,"id":"IKB","rwy":"30","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":308.1,"dist_nm":4.2,"freq":292,"lat":53.35333300,"lon":-113.67250000,"rng_nm":25,"alt_fmsl":0,"id":"ZET","desc":"DEVON NDB"},
+{"type":"NDB","hdg_t":221.1,"dist_nm":4.3,"freq":308,"lat":53.25500000,"lon":-113.66000000,"rng_nm":25,"alt_fmsl":0,"id":"ZZD","desc":"CALMAR NDB"},
+{"type":"NDB","hdg_t":140.8,"dist_nm":5.1,"freq":215,"lat":53.24305600,"lon":-113.48944400,"rng_nm":25,"alt_fmsl":0,"id":"ZAB","desc":"LEDUC NDB"},
+{"type":"NDB","hdg_t":30.7,"dist_nm":5.9,"freq":379,"lat":53.39527800,"lon":-113.49500000,"rng_nm":25,"alt_fmsl":0,"id":"ZEG","desc":"NISKU NDB"},
+{"type":"NDB","hdg_t":11.9,"dist_nm":11.6,"freq":201,"lat":53.49944400,"lon":-113.51277800,"rng_nm":25,"alt_fmsl":0,"id":"ZXD","desc":"BLATCHFORD NDB"},
+{"type":"VOR","hdg_t":234.2,"dist_nm":12.7,"freq":117.6,"lat":53.18555556,"lon":-113.86686111,"rng_nm":130,"alt_fmsl":2557,"id":"YEG","desc":"EDMONTON VOR-DME"},
+{"type":"SDME","hdg_t":9,"dist_nm":15.7,"freq":109.5,"lat":53.56888900,"lon":-113.51111100,"rng_nm":25,"alt_fmsl":2200,"id":"IXD","desc":"EDMONTON MUNI DME"},
+{"type":"NDB","hdg_t":6.8,"dist_nm":20.1,"freq":266,"lat":53.64361111,"lon":-113.51305556,"rng_nm":50,"alt_fmsl":0,"id":"XD","desc":"EDMONTON NDB"},
+{"type":"NDB","hdg_t":163.5,"dist_nm":21.4,"freq":334,"lat":52.96694400,"lon":-113.41194400,"rng_nm":50,"alt_fmsl":2540,"id":"P2","desc":"WETASKIWIN NDB-DME"},
+{"type":"SDME","hdg_t":163.5,"dist_nm":21.4,"freq":112.7,"lat":52.96694400,"lon":-113.41194400,"rng_nm":50,"alt_fmsl":2540,"id":"P2","desc":"WETASKIWIN NDB-DME"},
+{"type":"SDME","hdg_t":120.7,"dist_nm":32.2,"freq":108.2,"lat":53.03277800,"lon":-112.81444400,"rng_nm":25,"alt_fmsl":2449,"id":"2K","desc":"CAMROSE DME"},
+{"type":"NDB","hdg_t":120.7,"dist_nm":32.3,"freq":405,"lat":53.03222200,"lon":-112.81333300,"rng_nm":50,"alt_fmsl":2426,"id":"2K","desc":"CAMROSE NDB"},
+{"type":"NDB","hdg_t":181.4,"dist_nm":37.6,"freq":363,"lat":52.68333300,"lon":-113.60638900,"rng_nm":25,"alt_fmsl":0,"id":"D3","desc":"PONOKA INDUS NDB"},
+{"type":"NDB","hdg_t":267.5,"dist_nm":49.5,"freq":385,"lat":53.26638900,"lon":-114.95500000,"rng_nm":25,"alt_fmsl":2785,"id":"3M","desc":"DRAYTON VALLEY INDUSTRIAL NDB-DME"},
+{"type":"SDME","hdg_t":267.6,"dist_nm":49.6,"freq":110.6,"lat":53.26805600,"lon":-114.95722200,"rng_nm":25,"alt_fmsl":2785,"id":"3M","desc":"DRAYTON VALLEY INDUSTRIAL NDB-DME"},
+{"type":"NDB","hdg_t":353.2,"dist_nm":50.4,"freq":236,"lat":54.14305600,"lon":-113.74805600,"rng_nm":25,"alt_fmsl":2230,"id":"9Z","desc":"WESTLOCK NDB-DME"},
+{"type":"SDME","hdg_t":353.2,"dist_nm":50.4,"freq":108.8,"lat":54.14305600,"lon":-113.74916700,"rng_nm":25,"alt_fmsl":2230,"id":"9Z","desc":"WESTLOCK NDB-DME"},
+{"type":"NDB","hdg_t":153.1,"dist_nm":67.2,"freq":286,"lat":52.30833300,"lon":-112.75444400,"rng_nm":25,"alt_fmsl":2700,"id":"8G","desc":"STETTLER NDB-DME"},
+{"type":"SDME","hdg_t":153,"dist_nm":67.2,"freq":108.4,"lat":52.30861100,"lon":-112.75361100,"rng_nm":25,"alt_fmsl":2700,"id":"8G","desc":"STETTLER NDB-DME"},
+{"type":"SDME","hdg_t":189.3,"dist_nm":68.7,"freq":111.6,"lat":52.18116700,"lon":-113.88261100,"rng_nm":25,"alt_fmsl":2985,"id":"6G","desc":"RED DEER DME"},
+{"type":"NDB","hdg_t":128.5,"dist_nm":69.8,"freq":261,"lat":52.57638900,"lon":-112.08611100,"rng_nm":25,"alt_fmsl":2352,"id":"7J","desc":"FORESTBURG NDB"},
+{"type":"NDB","hdg_t":189.4,"dist_nm":71.9,"freq":320,"lat":52.12833333,"lon":-113.89944444,"rng_nm":50,"alt_fmsl":0,"id":"YQF","desc":"RED DEER NDB"},
+{"type":"VOR","hdg_t":233.2,"dist_nm":79.7,"freq":114.3,"lat":52.50219444,"lon":-115.32355556,"rng_nm":130,"alt_fmsl":3526,"id":"YRM","desc":"ROCKY MOUNTAIN VOR-DME"},
+{"type":"NDB","hdg_t":304.7,"dist_nm":82.4,"freq":338,"lat":54.07722222,"lon":-115.49777778,"rng_nm":50,"alt_fmsl":0,"id":"ZU","desc":"WHITECOURT NDB"},
+{"type":"NDB","hdg_t":8.7,"dist_nm":86.8,"freq":329,"lat":54.73750000,"lon":-113.20027800,"rng_nm":50,"alt_fmsl":1990,"id":"X2","desc":"ATHABASCA NDB-DME"},
+{"type":"SDME","hdg_t":8.7,"dist_nm":86.8,"freq":108.6,"lat":54.73722200,"lon":-113.20000000,"rng_nm":50,"alt_fmsl":1990,"id":"X2","desc":"ATHABASCA NDB-DME"},
+{"type":"NDB","hdg_t":61.4,"dist_nm":88.2,"freq":375,"lat":53.99194400,"lon":-111.39055600,"rng_nm":50,"alt_fmsl":2147,"id":"8H","desc":"ST PAUL NDB"},
+{"type":"NDB","hdg_t":303.2,"dist_nm":92.9,"freq":304,"lat":54.13944400,"lon":-115.78305600,"rng_nm":50,"alt_fmsl":2567,"id":"FH","desc":"MCLEOD NDB"},
+{"type":"VOR","hdg_t":303.3,"dist_nm":93.6,"freq":112.5,"lat":54.14566667,"lon":-115.79719444,"rng_nm":130,"alt_fmsl":2584,"id":"YZU","desc":"WHITECOURT VOR-DME"},
+{"type":"NDB","hdg_t":172,"dist_nm":97.8,"freq":305,"lat":51.69722200,"lon":-113.21666700,"rng_nm":25,"alt_fmsl":2975,"id":"Z1","desc":"THREE HILLS NDB"},
+{"type":"NDB","hdg_t":191.6,"dist_nm":98,"freq":376,"lat":51.71027800,"lon":-114.10861100,"rng_nm":25,"alt_fmsl":3360,"id":"K2","desc":"OLDS-DIDSBURY NDB"}
+]
+}

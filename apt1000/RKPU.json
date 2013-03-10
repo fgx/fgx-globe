@@ -1,0 +1,41 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RKPU","name":"Ulsan","lat":35.5934835,"lon":129.351739,"rwys":1,"ils":1,"index":5070689,"path":"e120n30/e129n35"
+,"runways":[
+{"len_m":1999,"wid_m":45.11,"hdg":176,"surf":"Asphalt","rwy1":"18","lat1":35.60247500,"lon1":129.35098600,"rwy2":"36","lat2":35.58449200,"lon2":129.35249200}
+]
+,"radios":[
+{"type":"ATIS","freq":127.35,"desc":"ATIS"},
+{"type":"TWR","freq":122.6,"desc":"TWR"},
+{"type":"APP","freq":124.35,"desc":"ARR"},
+{"type":"APP","freq":124.25,"desc":"POHANG APP"},
+{"type":"APP","freq":120.2,"desc":"POHANG APP"},
+{"type":"APP","freq":124.35,"desc":"POHANG APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":35.60456100,"lon":129.35080000,"rng_nm":18,"alt_fmsl":26,"hdg":356.11,"id":"IULS","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":35.58723100,"lon":129.35328700,"rng_nm":10,"alt_fmsl":45,"id":"IULS","rwy":"36","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":35.57305500,"lon":129.35527000,"rng_nm":0,"alt_fmsl":26,"id":"----","rwy":"36","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":35.57638900,"lon":129.35316500,"rng_nm":18,"alt_fmsl":11,"id":"IULS","rwy":"36","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":14,"dist_nm":0.3,"freq":111.4,"lat":35.59850000,"lon":129.35327800,"rng_nm":130,"alt_fmsl":100,"id":"USN","desc":"ULSAN VOR-DME"},
+{"type":"NDB","hdg_t":176,"dist_nm":1,"freq":335,"lat":35.57601400,"lon":129.35320300,"rng_nm":25,"alt_fmsl":0,"id":"US","desc":"ULSAN NDB"},
+{"type":"NDB","hdg_t":8,"dist_nm":23.2,"freq":330,"lat":35.97833300,"lon":129.41833300,"rng_nm":50,"alt_fmsl":70,"id":"UT","desc":"POHANG NDB"},
+{"type":"VOR","hdg_t":6.7,"dist_nm":23.7,"freq":109.6,"lat":35.98637800,"lon":129.40882800,"rng_nm":25,"alt_fmsl":70,"id":"NPH","desc":"POHANG (NAVY) VORTAC"},
+{"type":"VOR","hdg_t":14.5,"dist_nm":23.7,"freq":112.5,"lat":35.97747200,"lon":129.47433300,"rng_nm":100,"alt_fmsl":900,"id":"KPO","desc":"POHANG VORTAC"},
+{"type":"VOR","hdg_t":220.9,"dist_nm":31.2,"freq":113.8,"lat":35.19913900,"lon":128.93561100,"rng_nm":25,"alt_fmsl":100,"id":"KMH","desc":"GIMHAE VOR-DME"},
+{"type":"SDME","hdg_t":218.6,"dist_nm":31.6,"freq":117,"lat":35.18111100,"lon":128.95000000,"rng_nm":25,"alt_fmsl":13,"id":"KHE","desc":"GIMHAE TACAN"},
+{"type":"VOR","hdg_t":211.6,"dist_nm":33,"freq":114,"lat":35.12338900,"lon":128.99969400,"rng_nm":100,"alt_fmsl":1500,"id":"PSN","desc":"BUSAN VORTAC"},
+{"type":"SDME","hdg_t":298.2,"dist_nm":39.2,"freq":117.8,"lat":35.90160000,"lon":128.64247500,"rng_nm":25,"alt_fmsl":116,"id":"TAG","desc":"DAEGU TACAN"},
+{"type":"VOR","hdg_t":289.4,"dist_nm":39.3,"freq":112.2,"lat":35.81000000,"lon":128.59083300,"rng_nm":130,"alt_fmsl":2142,"id":"TGU","desc":"DALSUNG VORTAC"},
+{"type":"VOR","hdg_t":298.4,"dist_nm":39.3,"freq":116.5,"lat":35.90401700,"lon":128.64161100,"rng_nm":25,"alt_fmsl":116,"id":"DOC","desc":"DONCHON VOR-DME"},
+{"type":"VOR","hdg_t":244.9,"dist_nm":69.2,"freq":115.1,"lat":35.09800600,"lon":128.07660300,"rng_nm":130,"alt_fmsl":25,"id":"SAC","desc":"SACHEON VOR-DME"},
+{"type":"SDME","hdg_t":244.9,"dist_nm":69.2,"freq":110,"lat":35.09762200,"lon":128.07835000,"rng_nm":25,"alt_fmsl":25,"id":"SCN","desc":"SACHEON TACAN"},
+{"type":"NDB","hdg_t":181,"dist_nm":78.2,"freq":393,"lat":34.28756100,"lon":129.32373300,"rng_nm":50,"alt_fmsl":213,"id":"VC","desc":"TSUSHIMA NDB"},
+{"type":"VOR","hdg_t":180.5,"dist_nm":78.5,"freq":111.45,"lat":34.28150800,"lon":129.33701100,"rng_nm":100,"alt_fmsl":220,"id":"VCE","desc":"TSUSHIMA VOR-DME"},
+{"type":"SDME","hdg_t":322.6,"dist_nm":78.6,"freq":108.9,"lat":36.63412800,"lon":128.36439200,"rng_nm":25,"alt_fmsl":354,"id":"YCN","desc":"YECHEON TACAN"},
+{"type":"VOR","hdg_t":321.5,"dist_nm":79.7,"freq":114.8,"lat":36.63202800,"lon":128.32538900,"rng_nm":130,"alt_fmsl":400,"id":"CUN","desc":"YECHEON VOR-DME"},
+{"type":"SDME","hdg_t":182.3,"dist_nm":87.5,"freq":113.6,"lat":34.13250000,"lon":129.28055600,"rng_nm":100,"alt_fmsl":597,"id":"VCT","desc":"SHIMOTSUSHIMA TACAN"},
+{"type":"VOR","hdg_t":242.6,"dist_nm":96.3,"freq":115.7,"lat":34.84286100,"lon":127.61911100,"rng_nm":130,"alt_fmsl":68,"id":"YSU","desc":"YEOSU VOR-DME"}
+]
+}

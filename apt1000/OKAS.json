@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OKAS","name":"Ali Al Salem Ab","lat":29.34674,"lon":47.5207515,"rwys":2,"ils":2,"index":3726802,"path":"e040n20/e047n29"
+,"runways":[
+{"len_m":2988,"wid_m":40.23,"hdg":120,"surf":"Asphalt","rwy1":"12L","lat1":29.35449400,"lon1":47.50809700,"rwy2":"30R","lat2":29.34093600,"lon2":47.53470000},
+{"len_m":2988,"wid_m":44.50,"hdg":120,"surf":"Asphalt","rwy1":"12R","lat1":29.35254400,"lon1":47.50680300,"rwy2":"30L","lat2":29.33898600,"lon2":47.53340600}
+]
+,"radios":[
+{"type":"TWR","freq":118,"desc":"TWR"},
+{"type":"APP","freq":128.3,"desc":"MOHALAB APP"}
+]
+,"ils":[
+{"type":"ILS","freq":108.1,"lat":29.33698600,"lon":47.53732500,"rng_nm":18,"alt_fmsl":470,"hdg":120.33,"id":"LASB","rwy":"12R","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.9,"lat":29.35469400,"lon":47.50257800,"rng_nm":18,"alt_fmsl":438,"hdg":300.30,"id":"IASB","rwy":"30L","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.1,"lat":29.35213300,"lon":47.50998600,"rng_nm":10,"alt_fmsl":431,"id":"LASB","rwy":"12R","desc":"GS","gs":3},
+{"type":"GS","freq":108.9,"lat":29.34143600,"lon":47.53113100,"rng_nm":10,"alt_fmsl":471,"id":"IASB","rwy":"30L","desc":"GS","gs":3},
+{"type":"DME","freq":108.1,"lat":29.35254400,"lon":47.50680300,"rng_nm":18,"alt_fmsl":431,"id":"LASB","rwy":"12R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":210.6,"dist_nm":0.1,"freq":116,"lat":29.34395000,"lon":47.51886700,"rng_nm":25,"alt_fmsl":455,"id":"ASB","desc":"ALI AL SALEM VORTAC"},
+{"type":"NDB","hdg_t":347.4,"dist_nm":20.8,"freq":260,"lat":29.68669400,"lon":47.43377800,"rng_nm":25,"alt_fmsl":428,"id":"UDI","desc":"UDAIRI NDB"},
+{"type":"VOR","hdg_t":108,"dist_nm":24.6,"freq":115.5,"lat":29.21840600,"lon":47.96756900,"rng_nm":200,"alt_fmsl":188,"id":"KUA","desc":"KUWAIT VOR-DME"},
+{"type":"VOR","hdg_t":151.9,"dist_nm":49.1,"freq":112,"lat":28.62082800,"lon":47.95815600,"rng_nm":200,"alt_fmsl":330,"id":"KFR","desc":"WAFRA VOR-DME"},
+{"type":"VOR","hdg_t":6.9,"dist_nm":71,"freq":112.3,"lat":30.52566700,"lon":47.68666700,"rng_nm":130,"alt_fmsl":15,"id":"BSR","desc":"BASRAH VOR-DME"},
+{"type":"VOR","hdg_t":30.1,"dist_nm":72.1,"freq":114.5,"lat":30.38702800,"lon":48.21761100,"rng_nm":130,"alt_fmsl":10,"id":"ABD","desc":"ABADAN VOR-DME"},
+{"type":"SDME","hdg_t":5.7,"dist_nm":72.3,"freq":108.3,"lat":30.54883300,"lon":47.65983300,"rng_nm":130,"alt_fmsl":11,"id":"BAR","desc":"BASRAH TACAN"},
+{"type":"VOR","hdg_t":230.6,"dist_nm":95.2,"freq":113.1,"lat":28.33052800,"lon":46.12947200,"rng_nm":130,"alt_fmsl":1185,"id":"HFR","desc":"HAFR AL-BATIN VORTAC"},
+{"type":"VOR","hdg_t":142.4,"dist_nm":95.3,"freq":116.4,"lat":28.07794400,"lon":48.61466700,"rng_nm":25,"alt_fmsl":13,"id":"RAS","desc":"RAS MISHAB VORTAC"},
+{"type":"NDB","hdg_t":143,"dist_nm":110.3,"freq":382,"lat":27.86666700,"lon":48.76666700,"rng_nm":25,"alt_fmsl":0,"id":"TJ","desc":"RAS TANAJIB NDB"}
+]
+}

@@ -1,0 +1,65 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"YMEN","name":"Essendon","lat":-37.7237599990909,"lon":144.897341952727,"rwys":2,"ils":1,"index":5311763,"path":"e140s40/e144s38"
+,"runways":[
+{"len_m":1327,"wid_m":45.11,"hdg":177,"surf":"Asphalt","rwy1":"17","lat1":-37.72030587,"lon1":144.90076151,"rwy2":"35","lat2":-37.73225613,"lon2":144.90131553},
+{"len_m":1922,"wid_m":49.99,"hdg":88,"surf":"Asphalt","rwy1":"08","lat1":-37.73140128,"lon1":144.89286592,"rwy2":"26","lat2":-37.73080400,"lon2":144.91465700}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":10,"wid_m":10.06,"hdg":144,"surf":"Asphalt","lat1":-37.71954772,"lon1":144.89420606},
+{"rwy1":"H2","len_m":10,"wid_m":10.06,"hdg":144,"surf":"Asphalt","lat1":-37.71928104,"lon1":144.89424242},
+{"rwy1":"H3","len_m":10,"wid_m":10.06,"hdg":144,"surf":"Asphalt","lat1":-37.71876336,"lon1":144.89430191},
+{"rwy1":"H4","len_m":10,"wid_m":10.06,"hdg":144,"surf":"Asphalt","lat1":-37.71852053,"lon1":144.89433695},
+{"rwy1":"H5","len_m":15,"wid_m":15.85,"hdg":144,"surf":"Asphalt","lat1":-37.71951427,"lon1":144.89510180},
+{"rwy1":"H6","len_m":14,"wid_m":14.94,"hdg":144,"surf":"Asphalt","lat1":-37.72542446,"lon1":144.90002417},
+{"rwy1":"H7","len_m":14,"wid_m":14.94,"hdg":144,"surf":"Concrete","lat1":-37.72900316,"lon1":144.89490619},
+{"rwy1":"H8","len_m":14,"wid_m":14.94,"hdg":144,"surf":"Asphalt","lat1":-37.72898880,"lon1":144.89946165},
+{"rwy1":"H9","len_m":14,"wid_m":14.94,"hdg":144,"surf":"Concrete","lat1":-37.72493301,"lon1":144.89938035}
+]
+,"radios":[
+{"type":"ATIS","freq":119.8,"desc":"YMEN ATIS"},
+{"type":"GND","freq":118.45,"desc":"ESSENDON GND"},
+{"type":"GND","freq":121.9,"desc":"ESSENDON GND"},
+{"type":"TWR","freq":125.1,"desc":"ESSENDON TWR"},
+{"type":"APP","freq":132,"desc":"MELBOURNE APP"},
+{"type":"APP","freq":135.69,"desc":"MELBOURNE APP"},
+{"type":"DEP","freq":118.45,"desc":"MELBOURNE DEP"},
+{"type":"DEP","freq":118.9,"desc":"MELBOURNE DEP"},
+{"type":"DEP","freq":129.4,"desc":"MELBOURNE DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":-37.73143100,"lon":144.89128100,"rng_nm":18,"alt_fmsl":282,"hdg":268.07,"id":"IEN","rwy":"26","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":-37.72982500,"lon":144.91054700,"rng_nm":10,"alt_fmsl":282,"id":"IEN","rwy":"26","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-37.73137200,"lon":144.99622500,"rng_nm":0,"alt_fmsl":282,"id":"----","rwy":"26","desc":"OM"},
+{"type":"MM","freq":0,"lat":-37.73035000,"lon":144.92659200,"rng_nm":0,"alt_fmsl":282,"id":"----","rwy":"26","desc":"MM"},
+{"type":"DME","freq":109.9,"lat":-37.73166700,"lon":144.89000000,"rng_nm":18,"alt_fmsl":282,"id":"IEN","rwy":"26","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":104.6,"dist_nm":0.6,"freq":356,"lat":-37.72666700,"lon":144.91138900,"rng_nm":60,"alt_fmsl":0,"id":"EN","desc":"ESSENDON NDB"},
+{"type":"VOR","hdg_t":325.3,"dist_nm":4.6,"freq":114.1,"lat":-37.66000000,"lon":144.84194400,"rng_nm":130,"alt_fmsl":412,"id":"ML","desc":"MELBOURNE VOR-DME"},
+{"type":"NDB","hdg_t":63.1,"dist_nm":6.8,"freq":377,"lat":-37.67166700,"lon":145.02638900,"rng_nm":40,"alt_fmsl":0,"id":"EPP","desc":"EPPING NDB"},
+{"type":"NDB","hdg_t":335.5,"dist_nm":9.1,"freq":338,"lat":-37.58472200,"lon":144.81777800,"rng_nm":30,"alt_fmsl":0,"id":"ROC","desc":"ROCKDALE NDB"},
+{"type":"NDB","hdg_t":88.8,"dist_nm":10.1,"freq":218,"lat":-37.72027800,"lon":145.11138900,"rng_nm":36,"alt_fmsl":0,"id":"PLE","desc":"PLENTY NDB"},
+{"type":"NDB","hdg_t":208.7,"dist_nm":13.8,"freq":419,"lat":-37.92682500,"lon":144.75637800,"rng_nm":25,"alt_fmsl":0,"id":"PCK","desc":"POINT COOK NDB"},
+{"type":"NDB","hdg_t":343.2,"dist_nm":16.3,"freq":362,"lat":-37.46222200,"lon":144.79833300,"rng_nm":30,"alt_fmsl":0,"id":"BOL","desc":"BOLINDA NDB"},
+{"type":"NDB","hdg_t":148.8,"dist_nm":17.7,"freq":398,"lat":-37.97651100,"lon":145.09032200,"rng_nm":65,"alt_fmsl":0,"id":"MB","desc":"MOORABBIN NDB"},
+{"type":"NDB","hdg_t":242.1,"dist_nm":21.7,"freq":224,"lat":-37.89250000,"lon":144.49194400,"rng_nm":25,"alt_fmsl":0,"id":"RPY","desc":"RIPLEY NDB"},
+{"type":"NDB","hdg_t":228.8,"dist_nm":26.8,"freq":404,"lat":-38.01805600,"lon":144.47111100,"rng_nm":35,"alt_fmsl":35,"id":"AV","desc":"AVALON NDB"},
+{"type":"VOR","hdg_t":226.7,"dist_nm":28.5,"freq":116.1,"lat":-38.04888900,"lon":144.45888900,"rng_nm":50,"alt_fmsl":35,"id":"AV","desc":"AVALON VOR-DME"},
+{"type":"VOR","hdg_t":162.4,"dist_nm":49.3,"freq":117.6,"lat":-38.50775600,"lon":145.21351700,"rng_nm":130,"alt_fmsl":125,"id":"CWS","desc":"COWES VOR"},
+{"type":"NDB","hdg_t":162.2,"dist_nm":49.9,"freq":275,"lat":-38.51702200,"lon":145.22075300,"rng_nm":85,"alt_fmsl":125,"id":"CWS","desc":"COWES NDB"},
+{"type":"NDB","hdg_t":15.4,"dist_nm":51.3,"freq":254,"lat":-36.89722200,"lon":145.18111100,"rng_nm":65,"alt_fmsl":0,"id":"MNG","desc":"MANGALORE NDB"},
+{"type":"VOR","hdg_t":15.8,"dist_nm":52.1,"freq":113.2,"lat":-36.88611100,"lon":145.19416700,"rng_nm":130,"alt_fmsl":467,"id":"MNG","desc":"MANGALORE VOR"},
+{"type":"NDB","hdg_t":283,"dist_nm":54.2,"freq":239,"lat":-37.51361100,"lon":143.79055600,"rng_nm":30,"alt_fmsl":0,"id":"BLT","desc":"BALLARAT NDB"},
+{"type":"NDB","hdg_t":268.4,"dist_nm":54.3,"freq":389,"lat":-37.74224700,"lon":143.75666700,"rng_nm":40,"alt_fmsl":0,"id":"YWE","desc":"YARROWEE NDB"},
+{"type":"VOR","hdg_t":268.7,"dist_nm":54.3,"freq":114.3,"lat":-37.73841700,"lon":143.75493300,"rng_nm":130,"alt_fmsl":0,"id":"YWE","desc":"YARROWEE VOR"},
+{"type":"VOR","hdg_t":55.5,"dist_nm":54.4,"freq":112.3,"lat":-37.20633300,"lon":145.83505800,"rng_nm":130,"alt_fmsl":0,"id":"ELW","desc":"EILDON WEIR VOR"},
+{"type":"VOR","hdg_t":142.7,"dist_nm":56.4,"freq":115.9,"lat":-38.47122500,"lon":145.62341700,"rng_nm":130,"alt_fmsl":0,"id":"WON","desc":"WONTHAGGI VOR"},
+{"type":"NDB","hdg_t":142.7,"dist_nm":56.5,"freq":383,"lat":-38.47241400,"lon":145.62433300,"rng_nm":65,"alt_fmsl":0,"id":"WON","desc":"WONTHAGGI NDB"},
+{"type":"NDB","hdg_t":334.8,"dist_nm":64.8,"freq":245,"lat":-36.74277800,"lon":144.32611100,"rng_nm":60,"alt_fmsl":700,"id":"BDG","desc":"BENDIGO NDB"},
+{"type":"NDB","hdg_t":37.9,"dist_nm":65.9,"freq":413,"lat":-36.85276100,"lon":145.73848100,"rng_nm":35,"alt_fmsl":0,"id":"SBG","desc":"STRATHBOGIE NDB"},
+{"type":"NDB","hdg_t":56,"dist_nm":71.9,"freq":284,"lat":-37.04722200,"lon":146.13972200,"rng_nm":45,"alt_fmsl":0,"id":"MFD","desc":"MANSFIELD NDB"},
+{"type":"NDB","hdg_t":111.8,"dist_nm":80.4,"freq":486,"lat":-38.21361100,"lon":146.47500000,"rng_nm":30,"alt_fmsl":0,"id":"LTV","desc":"LATROBE VALLEY NDB"},
+{"type":"NDB","hdg_t":17.2,"dist_nm":81.2,"freq":212,"lat":-36.42836100,"lon":145.39602200,"rng_nm":30,"alt_fmsl":0,"id":"SHT","desc":"SHEPPARTON NDB"},
+{"type":"NDB","hdg_t":356,"dist_nm":93.6,"freq":341,"lat":-36.16538100,"lon":144.76459200,"rng_nm":30,"alt_fmsl":0,"id":"ECH","desc":"ECHUCA NDB"}
+]
+}

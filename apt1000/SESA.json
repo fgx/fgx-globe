@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SESA","name":"General Ulpiano Paez","lat":-2.206341,"lon":-80.98620875,"rwys":2,"ils":1,"index":1627632,"path":"w090s10/w081s03"
+,"runways":[
+{"len_m":2436,"wid_m":29.87,"hdg":129,"surf":"Asphalt","rwy1":"13","lat1":-2.20293100,"lon1":-80.99363300,"rwy2":"31","lat2":-2.21692200,"lon2":-80.97670800},
+{"len_m":1109,"wid_m":39.93,"hdg":81,"surf":"Asphalt","rwy1":"08","lat1":-2.20348600,"lon1":-80.99218300,"rwy2":"26","lat2":-2.20202500,"lon2":-80.98231100}
+]
+,"radios":[
+{"type":"TWR","freq":122.4,"desc":"SALINAS TWR"},
+{"type":"APP","freq":124.1,"desc":"SALINAS APP"}
+]
+,"ils":[
+{"type":"ILS","freq":108.7,"lat":-2.20176700,"lon":-80.99487200,"rng_nm":18,"alt_fmsl":13,"hdg":309.86,"id":"ISA","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.7,"lat":-2.21454400,"lon":-80.97810600,"rng_nm":10,"alt_fmsl":13,"id":"ISA","rwy":"31","desc":"GS","gs":2.8},
+{"type":"DME","freq":108.7,"lat":-2.21454400,"lon":-80.97810600,"rng_nm":18,"alt_fmsl":18,"id":"ISA","rwy":"31","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":332.7,"dist_nm":0.3,"freq":415,"lat":-2.20055600,"lon":-80.98916700,"rng_nm":100,"alt_fmsl":18,"id":"SLS","desc":"SALINAS NDB"},
+{"type":"VOR","hdg_t":135.9,"dist_nm":1.1,"freq":114.1,"lat":-2.21972222,"lon":-80.97333333,"rng_nm":130,"alt_fmsl":41,"id":"SAV","desc":"SALINAS VOR-DME"},
+{"type":"NDB","hdg_t":124.6,"dist_nm":53.8,"freq":1645,"lat":-2.71861100,"lon":-80.24888900,"rng_nm":10,"alt_fmsl":0,"id":"NIR","desc":"NIR NDB"},
+{"type":"NDB","hdg_t":92.3,"dist_nm":54.7,"freq":280,"lat":-2.24333300,"lon":-80.07555600,"rng_nm":75,"alt_fmsl":0,"id":"SOL","desc":"CHONGON NDB"},
+{"type":"NDB","hdg_t":86.2,"dist_nm":67.2,"freq":315,"lat":-2.13277800,"lon":-79.86888900,"rng_nm":25,"alt_fmsl":0,"id":"R","desc":"GUAYAQUIL NDB"},
+{"type":"VOR","hdg_t":86,"dist_nm":67.3,"freq":115.9,"lat":-2.12833333,"lon":-79.86694444,"rng_nm":130,"alt_fmsl":9,"id":"GYV","desc":"GUAYAQUIL VOR-DME"},
+{"type":"NDB","hdg_t":81.3,"dist_nm":71.5,"freq":365,"lat":-2.02500000,"lon":-79.80888900,"rng_nm":150,"alt_fmsl":0,"id":"PAL","desc":"PALMA NDB"},
+{"type":"NDB","hdg_t":24.1,"dist_nm":75.9,"freq":390,"lat":-1.04611100,"lon":-80.46833300,"rng_nm":50,"alt_fmsl":127,"id":"PTN","desc":"PORTOVIEJO NDB"},
+{"type":"VOR","hdg_t":14.3,"dist_nm":78.3,"freq":113.9,"lat":-0.93458333,"lon":-80.66200000,"rng_nm":130,"alt_fmsl":62,"id":"MNV","desc":"MANTA VOR-DME"},
+{"type":"VOR","hdg_t":155.8,"dist_nm":87.5,"freq":112.9,"lat":-3.54444400,"lon":-80.38916700,"rng_nm":50,"alt_fmsl":82,"id":"BES","desc":"TUMBES VOR"},
+{"type":"NDB","hdg_t":155.6,"dist_nm":88,"freq":290,"lat":-3.54944400,"lon":-80.38166700,"rng_nm":50,"alt_fmsl":82,"id":"BES","desc":"TUMBES NDB"},
+{"type":"NDB","hdg_t":135.9,"dist_nm":88.2,"freq":250,"lat":-3.26861100,"lon":-79.96388900,"rng_nm":50,"alt_fmsl":13,"id":"MHL","desc":"MACHALA NDB"},
+{"type":"VOR","hdg_t":136.1,"dist_nm":90.2,"freq":112.1,"lat":-3.29500000,"lon":-79.94416700,"rng_nm":130,"alt_fmsl":26,"id":"MHV","desc":"MACHALA VOR-DME"}
+]
+}

@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UMMG","name":"Grodno","lat":53.59950325,"lon":24.051004625,"rwys":2,"ils":1,"index":3351520,"path":"e020n50/e024n53"
+,"runways":[
+{"len_m":665,"wid_m":28.04,"hdg":89,"surf":"Asphalt","rwy1":"09","lat1":53.59699600,"lon1":24.04301550,"rwy2":"27","lat2":53.59705500,"lon2":24.05306000},
+{"len_m":2560,"wid_m":42.06,"hdg":178,"surf":"Concrete","rwy1":"17","lat1":53.61347700,"lon1":24.05334500,"rwy2":"35","lat2":53.59048500,"lon2":24.05459800}
+]
+,"radios":[
+{"type":"TWR","freq":134.5,"desc":"GRODNO TOWER"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":53.58036000,"lon":24.05515400,"rng_nm":18,"alt_fmsl":413,"hdg":178.14,"id":"IGP","rwy":"17","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":53.61032200,"lon":24.05736900,"rng_nm":10,"alt_fmsl":420,"id":"IGP","rwy":"17","desc":"GS","gs":2.4},
+{"type":"OM","freq":0,"lat":53.65033100,"lon":24.05136000,"rng_nm":0,"alt_fmsl":413,"id":"----","rwy":"17","desc":"OM"},
+{"type":"MM","freq":0,"lat":53.62256300,"lon":24.05285800,"rng_nm":0,"alt_fmsl":413,"id":"----","rwy":"17","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":176.1,"dist_nm":2.7,"freq":452,"lat":53.55398500,"lon":24.05620700,"rng_nm":80,"alt_fmsl":403,"id":"WF","desc":"GRODNO NDB"},
+{"type":"NDB","hdg_t":0.2,"dist_nm":3,"freq":985,"lat":53.65033100,"lon":24.05136000,"rng_nm":80,"alt_fmsl":416,"id":"GP","desc":"GRODNO NDB"},
+{"type":"VOR","hdg_t":195.1,"dist_nm":47.8,"freq":115.1,"lat":52.83053600,"lon":23.70713600,"rng_nm":40,"alt_fmsl":689,"id":"RUD","desc":"SKUPOWO VOR-DME"},
+{"type":"VOR","hdg_t":305,"dist_nm":49.7,"freq":117.7,"lat":54.06966700,"lon":22.90025300,"rng_nm":130,"alt_fmsl":591,"id":"SUW","desc":"SUWALKI VOR-DME"},
+{"type":"VOR","hdg_t":34.6,"dist_nm":76.1,"freq":113.8,"lat":54.63605600,"lon":25.29363100,"rng_nm":50,"alt_fmsl":635,"id":"VNO","desc":"VILNIUS VOR-DME"},
+{"type":"NDB","hdg_t":34,"dist_nm":78.9,"freq":385,"lat":54.68160300,"lon":25.31870600,"rng_nm":25,"alt_fmsl":0,"id":"AVN","desc":"VILNIUS NDB"},
+{"type":"VOR","hdg_t":0.3,"dist_nm":81.7,"freq":114.4,"lat":54.95980300,"lon":24.06531700,"rng_nm":50,"alt_fmsl":256,"id":"KNA","desc":"KAUNAS VOR-DME"},
+{"type":"NDB","hdg_t":1.7,"dist_nm":82.1,"freq":343,"lat":54.96575600,"lon":24.12191900,"rng_nm":50,"alt_fmsl":0,"id":"KUS","desc":"KAUNAS NDB"},
+{"type":"NDB","hdg_t":185.3,"dist_nm":88.8,"freq":985,"lat":52.12687800,"lon":23.82809500,"rng_nm":81,"alt_fmsl":0,"id":"CP","desc":"BREST NDB"},
+{"type":"NDB","hdg_t":181.9,"dist_nm":90.7,"freq":985,"lat":52.09000000,"lon":23.96666700,"rng_nm":81,"alt_fmsl":0,"id":"BY","desc":"BREST NDB"},
+{"type":"NDB","hdg_t":78.8,"dist_nm":97,"freq":355,"lat":53.88333300,"lon":26.73333300,"rng_nm":81,"alt_fmsl":0,"id":"KI","desc":"IVENETS NDB"}
+]
+}

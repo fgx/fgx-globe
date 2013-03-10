@@ -1,0 +1,42 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UNNT","name":"Novosibirsk Tolmachevo","lat":55.0130175,"lon":82.651065,"rwys":2,"ils":2,"index":4301890,"path":"e080n50/e082n55"
+,"runways":[
+{"len_m":3612,"wid_m":57.91,"hdg":81,"surf":"Asphalt","rwy1":"07","lat1":55.01009562,"lon1":82.62276367,"rwy2":"25","lat2":55.01515038,"lon2":82.67854833},
+{"len_m":3019,"wid_m":92.66,"hdg":81,"surf":"Turf/grass","rwy1":"07L","lat1":55.01130184,"lon1":82.62815920,"rwy2":"25R","lat2":55.01552216,"lon2":82.67478880}
+]
+,"radios":[
+{"type":"ATIS","freq":127.4,"desc":"NOVOSIBIRSK ATIS"},
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.5,"desc":"TWR"},
+{"type":"APP","freq":127.5,"desc":"NOVOSIBIRSK APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":55.01663561,"lon":82.69499169,"rng_nm":18,"alt_fmsl":335,"hdg":81.06,"id":"IRO","rwy":"07","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.5,"lat":55.00869459,"lon":82.60725455,"rng_nm":18,"alt_fmsl":345,"hdg":261.00,"id":"IKT","rwy":"25","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":55.01234400,"lon":82.62743800,"rng_nm":10,"alt_fmsl":345,"id":"IRO","rwy":"07","desc":"GS","gs":2.83},
+{"type":"GS","freq":108.5,"lat":55.01642700,"lon":82.67254900,"rng_nm":10,"alt_fmsl":350,"id":"IKT","rwy":"25","desc":"GS","gs":2.67},
+{"type":"OM","freq":0,"lat":55.00333300,"lon":82.56333300,"rng_nm":0,"alt_fmsl":335,"id":"----","rwy":"07","desc":"OM"},
+{"type":"OM","freq":0,"lat":55.01993900,"lon":82.74282100,"rng_nm":0,"alt_fmsl":345,"id":"----","rwy":"25","desc":"OM"},
+{"type":"MM","freq":0,"lat":55.00869459,"lon":82.60725455,"rng_nm":0,"alt_fmsl":335,"id":"----","rwy":"07","desc":"MM"},
+{"type":"MM","freq":0,"lat":55.01663561,"lon":82.69499169,"rng_nm":0,"alt_fmsl":345,"id":"----","rwy":"25","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":272.8,"dist_nm":0.3,"freq":113.3,"lat":55.01333300,"lon":82.64000000,"rng_nm":130,"alt_fmsl":388,"id":"NSK","desc":"NOVOSIBIRSK VOR-DME"},
+{"type":"NDB","hdg_t":260.2,"dist_nm":1.5,"freq":597,"lat":55.00869459,"lon":82.60725455,"rng_nm":50,"alt_fmsl":362,"id":"R","desc":"Tolmachevo NDB"},
+{"type":"NDB","hdg_t":259.1,"dist_nm":3,"freq":310,"lat":55.00333300,"lon":82.56333300,"rng_nm":80,"alt_fmsl":0,"id":"RO","desc":"NOVOSIBIRSK NDB"},
+{"type":"NDB","hdg_t":82.3,"dist_nm":3.1,"freq":310,"lat":55.02000000,"lon":82.74166700,"rng_nm":80,"alt_fmsl":0,"id":"KT","desc":"NOVOSIBIRSK NDB"},
+{"type":"NDB","hdg_t":64.8,"dist_nm":9.2,"freq":860,"lat":55.07833300,"lon":82.89500000,"rng_nm":80,"alt_fmsl":0,"id":"PG","desc":"ZAYELTSOVSKIY NDB"},
+{"type":"NDB","hdg_t":58.5,"dist_nm":10.8,"freq":953,"lat":55.10688800,"lon":82.91976200,"rng_nm":23,"alt_fmsl":636,"id":"B","desc":"Severnyi NDB"},
+{"type":"VOR","hdg_t":66.6,"dist_nm":13.7,"freq":117.3,"lat":55.10334000,"lon":83.01834100,"rng_nm":130,"alt_fmsl":631,"id":"NSE","desc":"Yeltsovka VOR-DME"},
+{"type":"NDB","hdg_t":64.2,"dist_nm":14.1,"freq":927,"lat":55.11500200,"lon":83.02166700,"rng_nm":638,"alt_fmsl":600,"id":"K","desc":"Yeltsovka NDB"},
+{"type":"NDB","hdg_t":107.5,"dist_nm":15.6,"freq":1170,"lat":54.93333300,"lon":83.08333300,"rng_nm":80,"alt_fmsl":0,"id":"EB","desc":"MATVEYEVSKY NDB"},
+{"type":"NDB","hdg_t":56.7,"dist_nm":16.2,"freq":455,"lat":55.16000000,"lon":83.04502100,"rng_nm":543,"alt_fmsl":597,"id":"KP","desc":"Yeltsovka NDB"},
+{"type":"NDB","hdg_t":7,"dist_nm":18.3,"freq":660,"lat":55.31666700,"lon":82.71666700,"rng_nm":80,"alt_fmsl":0,"id":"GV","desc":"KOLYVAN NDB"},
+{"type":"NDB","hdg_t":332,"dist_nm":18.4,"freq":715,"lat":55.28333300,"lon":82.40000000,"rng_nm":80,"alt_fmsl":0,"id":"KD","desc":"NOVOTYRYSHKINO NDB"},
+{"type":"NDB","hdg_t":137.8,"dist_nm":23.1,"freq":465,"lat":54.72666700,"lon":83.09833300,"rng_nm":113,"alt_fmsl":0,"id":"NB","desc":"Berdsk NDB"},
+{"type":"NDB","hdg_t":165.3,"dist_nm":39.1,"freq":750,"lat":54.38333300,"lon":82.93333300,"rng_nm":75,"alt_fmsl":0,"id":"NR","desc":"NOVOLOKTI NDB"},
+{"type":"NDB","hdg_t":118.9,"dist_nm":46.4,"freq":320,"lat":54.63333300,"lon":83.81666700,"rng_nm":80,"alt_fmsl":0,"id":"OC","desc":"LEGOSTAYEVO NDB"},
+{"type":"NDB","hdg_t":262,"dist_nm":76.5,"freq":875,"lat":54.81666700,"lon":80.46666700,"rng_nm":80,"alt_fmsl":0,"id":"GR","desc":"SUMY NDB"},
+{"type":"NDB","hdg_t":30.8,"dist_nm":85.9,"freq":482,"lat":56.23333300,"lon":83.96666700,"rng_nm":80,"alt_fmsl":0,"id":"NN","desc":"KOZHEVNIKOVO NDB"}
+]
+}

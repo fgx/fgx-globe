@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SAOR","name":"Villa Reynolds","lat":-33.72851325,"lon":-65.37692625,"rwys":2,"ils":1,"index":1871378,"path":"w070s40/w066s34"
+,"runways":[
+{"len_m":2398,"wid_m":45.11,"hdg":101,"surf":"Asphalt","rwy1":"10","lat1":-33.72977800,"lon1":-65.38845300,"rwy2":"28","lat2":-33.73390800,"lon2":-65.36304700},
+{"len_m":2401,"wid_m":49.99,"hdg":58,"surf":"Asphalt","rwy1":"06","lat1":-33.73085000,"lon1":-65.38914400,"rwy2":"24","lat2":-33.71951700,"lon2":-65.36706100}
+]
+,"radios":[
+{"type":"TWR","freq":119.3,"desc":"REYNOLDS APP/TWR"},
+{"type":"TWR","freq":118.5,"desc":"REYNOLDS APP/TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":-33.71769400,"lon":-65.36369200,"rng_nm":18,"alt_fmsl":1591,"hdg":58.13,"id":"RY","rwy":"06","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":-33.72808100,"lon":-65.38644400,"rng_nm":10,"alt_fmsl":1591,"id":"RY","rwy":"06","desc":"GS","gs":2.5},
+{"type":"MM","freq":0,"lat":-33.73666700,"lon":-65.40000000,"rng_nm":0,"alt_fmsl":1591,"id":"----","rwy":"06","desc":"MM"},
+{"type":"DME","freq":109.5,"lat":-33.72808100,"lon":-65.38644400,"rng_nm":18,"alt_fmsl":1591,"id":"RY","rwy":"06","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":268.3,"dist_nm":0.2,"freq":115.7,"lat":-33.72861100,"lon":-65.38111100,"rng_nm":185,"alt_fmsl":1591,"id":"RYD","desc":"VILLA REYNOLDS VOR-DME"},
+{"type":"NDB","hdg_t":298.6,"dist_nm":0.5,"freq":335,"lat":-33.72444400,"lon":-65.38583300,"rng_nm":259,"alt_fmsl":1591,"id":"RYD","desc":"VILLA REYNOLDS NDB"},
+{"type":"NDB","hdg_t":247,"dist_nm":1.2,"freq":237,"lat":-33.73666700,"lon":-65.40000000,"rng_nm":25,"alt_fmsl":0,"id":"W","desc":"VILLA REYNOLDS NDB"},
+{"type":"NDB","hdg_t":270.4,"dist_nm":1.3,"freq":295,"lat":-33.72833300,"lon":-65.40333300,"rng_nm":25,"alt_fmsl":1591,"id":"V","desc":"VILLA REYNOLDS NDB"},
+{"type":"NDB","hdg_t":296.9,"dist_nm":55.5,"freq":307,"lat":-33.30500000,"lon":-66.36166700,"rng_nm":25,"alt_fmsl":0,"id":"U","desc":"SAN LUIS NDB"},
+{"type":"VOR","hdg_t":298.8,"dist_nm":56.5,"freq":116,"lat":-33.26944400,"lon":-66.36083300,"rng_nm":177,"alt_fmsl":2329,"id":"UIS","desc":"SAN LUIS VOR"},
+{"type":"NDB","hdg_t":57,"dist_nm":63.4,"freq":322,"lat":-33.14833300,"lon":-64.32000000,"rng_nm":25,"alt_fmsl":0,"id":"OR","desc":"RIO CUARTO NDB"},
+{"type":"NDB","hdg_t":56.5,"dist_nm":66.5,"freq":305,"lat":-33.11166700,"lon":-64.27500000,"rng_nm":25,"alt_fmsl":1381,"id":"R","desc":"RIO CUARTO NDB"},
+{"type":"VOR","hdg_t":56,"dist_nm":67.6,"freq":114.2,"lat":-33.09222200,"lon":-64.26500000,"rng_nm":178,"alt_fmsl":1378,"id":"TRC","desc":"RIO CUARTO VOR"},
+{"type":"VOR","hdg_t":6.9,"dist_nm":81.7,"freq":117.5,"lat":-32.37361100,"lon":-65.18333300,"rng_nm":130,"alt_fmsl":2021,"id":"SRC","desc":"SANTA ROSA DE CONLARA VOR-DME"}
+]
+}

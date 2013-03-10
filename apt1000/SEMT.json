@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SEMT","name":"Eloy Alfaro Intl","lat":-0.946078,"lon":-80.678807,"rwys":1,"ils":1,"index":1627714,"path":"w090s10/w081s01"
+,"runways":[
+{"len_m":2856,"wid_m":45.11,"hdg":55,"surf":"Asphalt","rwy1":"05","lat1":-0.95333100,"lon1":-80.68942500,"rwy2":"23","lat2":-0.93882500,"lon2":-80.66818900}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.7,"desc":"MANTA TWR"},
+{"type":"APP","freq":122.7,"desc":"MANTA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":-0.95500300,"lon":-80.69175600,"rng_nm":18,"alt_fmsl":40,"hdg":235.53,"id":"ILM","rwy":"23","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":-0.93972200,"lon":-80.67083300,"rng_nm":10,"alt_fmsl":40,"id":"ILM","rwy":"23","desc":"GS","gs":2.8},
+{"type":"DME","freq":110.1,"lat":-0.93972200,"lon":-80.67083300,"rng_nm":18,"alt_fmsl":40,"id":"ILM","rwy":"23","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":55.8,"dist_nm":1.2,"freq":113.9,"lat":-0.93458333,"lon":-80.66200000,"rng_nm":130,"alt_fmsl":62,"id":"MNV","desc":"MANTA VOR-DME"},
+{"type":"NDB","hdg_t":115.2,"dist_nm":13.9,"freq":390,"lat":-1.04611100,"lon":-80.46833300,"rng_nm":50,"alt_fmsl":127,"id":"PTN","desc":"PORTOVIEJO NDB"},
+{"type":"NDB","hdg_t":38.4,"dist_nm":26.2,"freq":316,"lat":-0.60194400,"lon":-80.40722200,"rng_nm":50,"alt_fmsl":10,"id":"BCN","desc":"BAHIA NDB"},
+{"type":"NDB","hdg_t":193.9,"dist_nm":77.1,"freq":415,"lat":-2.20055600,"lon":-80.98916700,"rng_nm":100,"alt_fmsl":18,"id":"SLS","desc":"SALINAS NDB"},
+{"type":"VOR","hdg_t":193,"dist_nm":78,"freq":114.1,"lat":-2.21972222,"lon":-80.97333333,"rng_nm":130,"alt_fmsl":41,"id":"SAV","desc":"SALINAS VOR-DME"},
+{"type":"NDB","hdg_t":140.9,"dist_nm":82.9,"freq":365,"lat":-2.02500000,"lon":-79.80888900,"rng_nm":150,"alt_fmsl":0,"id":"PAL","desc":"PALMA NDB"},
+{"type":"NDB","hdg_t":154.9,"dist_nm":85.5,"freq":280,"lat":-2.24333300,"lon":-80.07555600,"rng_nm":75,"alt_fmsl":0,"id":"SOL","desc":"CHONGON NDB"},
+{"type":"VOR","hdg_t":145.3,"dist_nm":85.8,"freq":115.9,"lat":-2.12833333,"lon":-79.86694444,"rng_nm":130,"alt_fmsl":9,"id":"GYV","desc":"GUAYAQUIL VOR-DME"},
+{"type":"NDB","hdg_t":145.5,"dist_nm":85.9,"freq":315,"lat":-2.13277800,"lon":-79.86888900,"rng_nm":25,"alt_fmsl":0,"id":"R","desc":"GUAYAQUIL NDB"},
+{"type":"NDB","hdg_t":166.2,"dist_nm":108.9,"freq":1645,"lat":-2.71861100,"lon":-80.24888900,"rng_nm":10,"alt_fmsl":0,"id":"NIR","desc":"NIR NDB"}
+]
+}

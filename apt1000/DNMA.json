@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DNMA","name":"Maiduguri","lat":11.855243,"lon":13.081285,"rwys":1,"ils":1,"index":3168624,"path":"e010n10/e013n11"
+,"runways":[
+{"len_m":3001,"wid_m":60.05,"hdg":46,"surf":"Asphalt","rwy1":"05","lat1":11.84593900,"lon1":13.07126400,"rwy2":"23","lat2":11.86454700,"lon2":13.09130600}
+]
+,"radios":[
+{"type":"TWR","freq":123.1,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":11.86615800,"lon":13.09304200,"rng_nm":18,"alt_fmsl":1096,"hdg":46.51,"id":"IMA","rwy":"05","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":11.84863300,"lon":13.07256100,"rng_nm":10,"alt_fmsl":1138,"id":"IMA","rwy":"05","desc":"GS","gs":3},
+{"type":"IM","freq":0,"lat":11.83818900,"lon":13.06288900,"rng_nm":0,"alt_fmsl":1096,"id":"----","rwy":"05","desc":"IM"},
+{"type":"DME","freq":110.8,"lat":11.84881100,"lon":13.07227500,"rng_nm":18,"alt_fmsl":1222,"id":"IMA","rwy":"05","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":226.7,"dist_nm":1.4,"freq":332,"lat":11.83818900,"lon":13.06288900,"rng_nm":25,"alt_fmsl":1145,"id":"MA","desc":"MAIDUGURI NDB"},
+{"type":"VOR","hdg_t":46.6,"dist_nm":2.8,"freq":113.7,"lat":11.88816400,"lon":13.11665800,"rng_nm":130,"alt_fmsl":1102,"id":"MIU","desc":"MAIDUGURI VOR-DME"},
+{"type":"NDB","hdg_t":140.3,"dist_nm":107.8,"freq":364,"lat":10.46224400,"lon":14.24406100,"rng_nm":50,"alt_fmsl":1440,"id":"TJL","desc":"MAROUA/SALAK NDB"},
+{"type":"NDB","hdg_t":81.7,"dist_nm":115.8,"freq":370,"lat":12.12643300,"lon":15.03228300,"rng_nm":25,"alt_fmsl":1027,"id":"LN","desc":"NDJAMENA NDB"},
+{"type":"VOR","hdg_t":81.3,"dist_nm":116.3,"freq":115.3,"lat":12.14169400,"lon":15.03830600,"rng_nm":130,"alt_fmsl":994,"id":"FL","desc":"NDJAMENA VOR-DME"},
+{"type":"VOR","hdg_t":265.9,"dist_nm":120.6,"freq":112.1,"lat":11.70502800,"lon":11.03765800,"rng_nm":130,"alt_fmsl":1562,"id":"PO","desc":"POTISKUM VOR-DME"},
+{"type":"NDB","hdg_t":142.4,"dist_nm":132.2,"freq":257,"lat":10.09600600,"lon":14.44327500,"rng_nm":25,"alt_fmsl":1296,"id":"TJP","desc":"KAELE NDB"},
+{"type":"NDB","hdg_t":175.2,"dist_nm":151.2,"freq":263,"lat":9.33094400,"lon":13.29088900,"rng_nm":25,"alt_fmsl":844,"id":"GRO","desc":"GAROUA NDB"},
+{"type":"VOR","hdg_t":174,"dist_nm":151.3,"freq":112.3,"lat":9.33436100,"lon":13.34455600,"rng_nm":130,"alt_fmsl":794,"id":"TJR","desc":"GAROUA VOR-DME"},
+{"type":"NDB","hdg_t":172.9,"dist_nm":151.5,"freq":302,"lat":9.33758300,"lon":13.39541700,"rng_nm":50,"alt_fmsl":0,"id":"TJR","desc":"GAROUA NDB"}
+]
+}

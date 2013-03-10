@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"GMFO","name":"Angads","lat":34.787149,"lon":-1.923985,"rwys":1,"ils":1,"index":2924336,"path":"w010n30/w002n34"
+,"runways":[
+{"len_m":2999,"wid_m":45.11,"hdg":57,"surf":"Asphalt","rwy1":"06","lat1":34.77993100,"lon1":-1.93784200,"rwy2":"24","lat2":34.79436700,"lon2":-1.91012800}
+]
+,"radios":[
+{"type":"ATIS","freq":121.6,"desc":"ATIS"},
+{"type":"TWR","freq":118.2,"desc":"OUJDA TWR"},
+{"type":"APP","freq":136.6,"desc":"OUJDA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":34.79576400,"lon":-1.90741700,"rng_nm":18,"alt_fmsl":1535,"hdg":57.65,"id":"ODA","rwy":"06","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":34.78073900,"lon":-1.93380000,"rng_nm":10,"alt_fmsl":1535,"id":"ODA","rwy":"06","desc":"GS","gs":2.5},
+{"type":"DME","freq":110.1,"lat":34.78073900,"lon":-1.93380000,"rng_nm":18,"alt_fmsl":1535,"id":"ODA","rwy":"06","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":57.8,"dist_nm":1.4,"freq":371,"lat":34.79972200,"lon":-1.89972200,"rng_nm":75,"alt_fmsl":0,"id":"CNU","desc":"OUJDA NDB"},
+{"type":"VOR","hdg_t":237.5,"dist_nm":1.5,"freq":117.5,"lat":34.77333300,"lon":-1.95027800,"rng_nm":130,"alt_fmsl":1585,"id":"OJD","desc":"OUJDA VOR-DME"},
+{"type":"VOR","hdg_t":60.5,"dist_nm":30.3,"freq":116.5,"lat":35.03527800,"lon":-1.38805600,"rng_nm":130,"alt_fmsl":1001,"id":"TLM","desc":"TLEMCEN VOR-DME"},
+{"type":"NDB","hdg_t":60.9,"dist_nm":31.3,"freq":346,"lat":35.04000000,"lon":-1.36777800,"rng_nm":180,"alt_fmsl":0,"id":"TLM","desc":"TLEMCEN NDB"},
+{"type":"VOR","hdg_t":282.6,"dist_nm":55.8,"freq":116,"lat":34.98666700,"lon":-3.02916700,"rng_nm":130,"alt_fmsl":574,"id":"ARI","desc":"NADOR ARWI VOR-DME"},
+{"type":"NDB","hdg_t":282.6,"dist_nm":56.6,"freq":355,"lat":34.98972200,"lon":-3.04416700,"rng_nm":75,"alt_fmsl":588,"id":"ARW","desc":"EL AROUI NDB"},
+{"type":"NDB","hdg_t":53.4,"dist_nm":58.3,"freq":432,"lat":35.36305600,"lon":-0.96888900,"rng_nm":25,"alt_fmsl":0,"id":"HMB","desc":"HAMMAM BOU HADJAR NDB"},
+{"type":"VOR","hdg_t":300.4,"dist_nm":58.9,"freq":114.25,"lat":35.28043600,"lon":-2.95817200,"rng_nm":25,"alt_fmsl":200,"id":"MEL","desc":"MELILLA VOR-DME"},
+{"type":"NDB","hdg_t":301.8,"dist_nm":59.6,"freq":292,"lat":35.30780000,"lon":-2.95551700,"rng_nm":50,"alt_fmsl":381,"id":"MIA","desc":"MELILLA NDB"},
+{"type":"SDME","hdg_t":301.8,"dist_nm":59.6,"freq":117.4,"lat":35.30739400,"lon":-2.95542200,"rng_nm":25,"alt_fmsl":381,"id":"MLL","desc":"MELILLA DME"},
+{"type":"VOR","hdg_t":51.2,"dist_nm":79.6,"freq":114,"lat":35.61264700,"lon":-0.65498900,"rng_nm":130,"alt_fmsl":284,"id":"ORA","desc":"ORAN VOR-DME"},
+{"type":"NDB","hdg_t":284.5,"dist_nm":97.5,"freq":401,"lat":35.18116400,"lon":-3.84455800,"rng_nm":75,"alt_fmsl":0,"id":"ALU","desc":"AL HOCEIMA NDB"},
+{"type":"VOR","hdg_t":284.9,"dist_nm":97.5,"freq":115,"lat":35.19108300,"lon":-3.84173300,"rng_nm":200,"alt_fmsl":46,"id":"ALM","desc":"AL HOCEIMA VOR-DME"}
+]
+}

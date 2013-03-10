@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OIFM","name":"Esfahan Shahid Beheshti Intl","lat":32.75085675,"lon":51.8612855,"rwys":2,"ils":1,"index":3792563,"path":"e050n30/e051n32"
+,"runways":[
+{"len_m":4396,"wid_m":45.11,"hdg":77,"surf":"Asphalt","rwy1":"08L","lat1":32.74874400,"lon1":51.83783300,"rwy2":"26R","lat2":32.75702500,"lon2":51.88371700},
+{"len_m":4396,"wid_m":45.11,"hdg":77,"surf":"Asphalt","rwy1":"08R","lat1":32.74468900,"lon1":51.83885600,"rwy2":"26L","lat2":32.75296900,"lon2":51.88473600}
+]
+,"radios":[
+{"type":"ATIS","freq":128.25,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"APP","freq":124.6,"desc":"APP"},
+{"type":"APP","freq":122.05,"desc":"APP"},
+{"type":"APP","freq":122.65,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":32.74788900,"lon":51.83302800,"rng_nm":18,"alt_fmsl":5044,"hdg":257.89,"id":"IIFN","rwy":"26R","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":32.75508300,"lon":51.88019400,"rng_nm":10,"alt_fmsl":5057,"id":"IIFN","rwy":"26R","desc":"GS","gs":2.63},
+{"type":"DME","freq":109.9,"lat":32.75508300,"lon":51.88019400,"rng_nm":18,"alt_fmsl":5041,"id":"IIFN","rwy":"26R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":96.5,"dist_nm":0.9,"freq":337,"lat":32.74897200,"lon":51.88080600,"rng_nm":25,"alt_fmsl":5072,"id":"IFN","desc":"ESFAHAN NDB"},
+{"type":"VOR","hdg_t":262.1,"dist_nm":1.7,"freq":113.2,"lat":32.74697200,"lon":51.82800000,"rng_nm":130,"alt_fmsl":5072,"id":"ISN","desc":"ESFAHAN VOR-DME"},
+{"type":"SDME","hdg_t":261.7,"dist_nm":1.8,"freq":117.1,"lat":32.74638900,"lon":51.82472200,"rng_nm":130,"alt_fmsl":5072,"id":"IFN","desc":"ESFAHAN TACAN"},
+{"type":"NDB","hdg_t":217.6,"dist_nm":13.9,"freq":413,"lat":32.56650000,"lon":51.69369400,"rng_nm":25,"alt_fmsl":5310,"id":"ESH","desc":"SHAHID VATAN POUR NDB"},
+{"type":"NDB","hdg_t":305.6,"dist_nm":18.7,"freq":230,"lat":32.93258300,"lon":51.56011100,"rng_nm":25,"alt_fmsl":5250,"id":"HSA","desc":"HESA NDB-DME"},
+{"type":"SDME","hdg_t":305.6,"dist_nm":18.7,"freq":113.45,"lat":32.93258300,"lon":51.56011100,"rng_nm":25,"alt_fmsl":5250,"id":"HSA","desc":"HESA NDB-DME"},
+{"type":"VOR","hdg_t":241.3,"dist_nm":58.3,"freq":117.3,"lat":32.27983300,"lon":50.85491700,"rng_nm":130,"alt_fmsl":6723,"id":"SKD","desc":"SHAHRE KORD VOR-DME"},
+{"type":"NDB","hdg_t":243,"dist_nm":58.3,"freq":376,"lat":32.30547200,"lon":50.83858300,"rng_nm":25,"alt_fmsl":6723,"id":"SKD","desc":"SHAHRE KORD NDB"},
+{"type":"VOR","hdg_t":62.9,"dist_nm":105.2,"freq":112.7,"lat":33.53752800,"lon":53.72966700,"rng_nm":130,"alt_fmsl":3348,"id":"ANK","desc":"ANARAK VOR-DME"},
+{"type":"NDB","hdg_t":187.5,"dist_nm":123.7,"freq":235,"lat":30.70138900,"lon":51.54902800,"rng_nm":25,"alt_fmsl":5939,"id":"YSJ","desc":"YASOUJ NDB-DME"}
+]
+}

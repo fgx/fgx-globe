@@ -1,0 +1,56 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LEBL","name":"Barcelona El Prat","lat":41.2949866666667,"lon":2.087669,"rwys":3,"ils":4,"index":2990288,"path":"e000n40/e002n41"
+,"runways":[
+{"len_m":3552,"wid_m":45.11,"hdg":65,"surf":"Asphalt","rwy1":"07L","lat1":41.29249634,"lon1":2.06511196,"rwy2":"25R","lat2":41.30572366,"lon2":2.10372804},
+{"len_m":2661,"wid_m":60.05,"hdg":65,"surf":"Asphalt","rwy1":"07R","lat1":41.28231278,"lon1":2.07434940,"rwy2":"25L","lat2":41.29221922,"lon2":2.10327860},
+{"len_m":2539,"wid_m":45.11,"hdg":18,"surf":"Asphalt","rwy1":"02","lat1":41.28777154,"lon1":2.08483989,"rwy2":"20","lat2":41.30939646,"lon2":2.09470611}
+]
+,"radios":[
+{"type":"ATIS","freq":121.97,"desc":"ATIS DEP"},
+{"type":"CLD","freq":121.8,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.85,"desc":"GND EAST"},
+{"type":"TWR","freq":118.32,"desc":"TWR"},
+{"type":"APP","freq":127.7,"desc":"DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":41.30691900,"lon":2.10722200,"rng_nm":18,"alt_fmsl":12,"hdg":65.51,"id":"QAA","rwy":"07L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.75,"lat":41.29295000,"lon":2.10541100,"rng_nm":18,"alt_fmsl":12,"hdg":65.51,"id":"BLE","rwy":"07R","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.5,"lat":41.28158100,"lon":2.07221900,"rng_nm":18,"alt_fmsl":12,"hdg":245.49,"id":"BLW","rwy":"25L","desc":"ILS-cat-III"},
+{"type":"ILS","freq":109.5,"lat":41.29131900,"lon":2.06167500,"rng_nm":18,"alt_fmsl":12,"hdg":245.48,"id":"BCA","rwy":"25R","desc":"ILS-cat-III"},
+{"type":"GS","freq":110.3,"lat":41.29497200,"lon":2.06885800,"rng_nm":10,"alt_fmsl":12,"id":"QAA","rwy":"07L","desc":"GS","gs":3},
+{"type":"GS","freq":110.75,"lat":41.28244400,"lon":2.07820000,"rng_nm":10,"alt_fmsl":12,"id":"BLE","rwy":"07R","desc":"GS","gs":3},
+{"type":"GS","freq":111.5,"lat":41.29011900,"lon":2.10061400,"rng_nm":10,"alt_fmsl":12,"id":"BLW","rwy":"25L","desc":"GS","gs":3},
+{"type":"GS","freq":109.5,"lat":41.30554200,"lon":2.09971900,"rng_nm":10,"alt_fmsl":30,"id":"BCA","rwy":"25R","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":41.26487800,"lon":1.98463300,"rng_nm":0,"alt_fmsl":12,"id":"----","rwy":"07L","desc":"OM"},
+{"type":"MM","freq":0,"lat":41.28746900,"lon":2.05046100,"rng_nm":0,"alt_fmsl":12,"id":"----","rwy":"07L","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":41.29485300,"lon":2.06893600,"rng_nm":18,"alt_fmsl":13,"id":"QAA","rwy":"07L","desc":"DME-ILS"},
+{"type":"DME","freq":110.75,"lat":41.28244400,"lon":2.07820000,"rng_nm":18,"alt_fmsl":30,"id":"BLE","rwy":"07R","desc":"DME-ILS"},
+{"type":"DME","freq":111.5,"lat":41.29011900,"lon":2.10061400,"rng_nm":18,"alt_fmsl":12,"id":"BLW","rwy":"25L","desc":"DME-ILS"},
+{"type":"DME","freq":109.5,"lat":41.30554200,"lon":2.09971900,"rng_nm":18,"alt_fmsl":30,"id":"BCA","rwy":"25R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":200.2,"dist_nm":0.7,"freq":114.3,"lat":41.28310300,"lon":2.08185800,"rng_nm":130,"alt_fmsl":43,"id":"PRA","desc":"EL PRAT VOR-DME"},
+{"type":"VOR","hdg_t":51.3,"dist_nm":1.1,"freq":116.7,"lat":41.30712200,"lon":2.10780800,"rng_nm":130,"alt_fmsl":23,"id":"BCN","desc":"BARCELONA VOR-DME"},
+{"type":"NDB","hdg_t":249.4,"dist_nm":4.9,"freq":338,"lat":41.26610900,"lon":1.98583300,"rng_nm":150,"alt_fmsl":0,"id":"QA","desc":"BARCELONA NDB"},
+{"type":"NDB","hdg_t":2.9,"dist_nm":13.4,"freq":367,"lat":41.51937800,"lon":2.10305000,"rng_nm":40,"alt_fmsl":0,"id":"SBD","desc":"SABADELL NDB"},
+{"type":"VOR","hdg_t":4.2,"dist_nm":13.5,"freq":112,"lat":41.51985300,"lon":2.10975000,"rng_nm":130,"alt_fmsl":499,"id":"SLL","desc":"SABADELL VOR-DME"},
+{"type":"NDB","hdg_t":253.8,"dist_nm":18,"freq":380,"lat":41.21063600,"lon":1.70584200,"rng_nm":75,"alt_fmsl":0,"id":"VNV","desc":"VILLANUEVA NDB"},
+{"type":"SDME","hdg_t":276.8,"dist_nm":24.5,"freq":113.15,"lat":41.34261100,"lon":1.54788900,"rng_nm":130,"alt_fmsl":2165,"id":"VLA","desc":"VILLAFRANCA DME"},
+{"type":"VOR","hdg_t":49.8,"dist_nm":32.2,"freq":115.35,"lat":41.64003100,"lon":2.63467200,"rng_nm":25,"alt_fmsl":1351,"id":"CLE","desc":"CALELLA VOR-DME"},
+{"type":"VOR","hdg_t":258.4,"dist_nm":42.4,"freq":114.2,"lat":41.14969400,"lon":1.17112200,"rng_nm":40,"alt_fmsl":272,"id":"RES","desc":"REUS VOR-DME"},
+{"type":"NDB","hdg_t":258.6,"dist_nm":43.5,"freq":424,"lat":41.14783100,"lon":1.14613900,"rng_nm":30,"alt_fmsl":0,"id":"RUS","desc":"REUS NDB"},
+{"type":"NDB","hdg_t":38.8,"dist_nm":48.8,"freq":330,"lat":41.92750200,"lon":2.77111100,"rng_nm":15,"alt_fmsl":0,"id":"G","desc":"GERONA NDB"},
+{"type":"VOR","hdg_t":38.6,"dist_nm":49,"freq":114.1,"lat":41.93117800,"lon":2.77196700,"rng_nm":130,"alt_fmsl":535,"id":"GIR","desc":"GERONA VOR-DME"},
+{"type":"NDB","hdg_t":36.2,"dist_nm":54.4,"freq":412,"lat":42.02497800,"lon":2.80721100,"rng_nm":50,"alt_fmsl":0,"id":"GRN","desc":"GERONA NDB"},
+{"type":"NDB","hdg_t":51.5,"dist_nm":63.7,"freq":319,"lat":41.95151400,"lon":3.20307500,"rng_nm":50,"alt_fmsl":0,"id":"BAG","desc":"BAGUR NDB"},
+{"type":"VOR","hdg_t":51.8,"dist_nm":63.8,"freq":112.2,"lat":41.94768600,"lon":3.20885800,"rng_nm":130,"alt_fmsl":1082,"id":"BGR","desc":"BAGUR VOR-DME"},
+{"type":"NDB","hdg_t":331.5,"dist_nm":64,"freq":340,"lat":42.23223600,"lon":1.40351900,"rng_nm":25,"alt_fmsl":0,"id":"SEO","desc":"SEO DE URGEL NDB"},
+{"type":"NDB","hdg_t":283.8,"dist_nm":66.7,"freq":404,"lat":41.55292500,"lon":0.64802200,"rng_nm":50,"alt_fmsl":0,"id":"LRD","desc":"LERIDA NDB"},
+{"type":"NDB","hdg_t":357.3,"dist_nm":69,"freq":418,"lat":42.44583333,"lon":2.01500000,"rng_nm":25,"alt_fmsl":4383,"id":"SAL","desc":"Sainte Leocadie NDB"},
+{"type":"VOR","hdg_t":290.8,"dist_nm":75,"freq":113.6,"lat":41.72977800,"lon":0.52738900,"rng_nm":40,"alt_fmsl":1181,"id":"LLE","desc":"ILERDA VOR-DME"},
+{"type":"VOR","hdg_t":264.1,"dist_nm":87.6,"freq":112.1,"lat":41.12959400,"lon":0.16524400,"rng_nm":35,"alt_fmsl":1184,"id":"MLA","desc":"MAELLA VOR-DME"},
+{"type":"NDB","hdg_t":23.9,"dist_nm":91,"freq":351,"lat":42.67916666,"lon":2.92444444,"rng_nm":25,"alt_fmsl":164,"id":"PL","desc":"Perpignan Rivesaltes NDB"},
+{"type":"VOR","hdg_t":21.5,"dist_nm":93.9,"freq":116.25,"lat":42.75047200,"lon":2.86713900,"rng_nm":100,"alt_fmsl":151,"id":"PPG","desc":"PERPIGNAN RIVESALTES VOR-DME"},
+{"type":"VOR","hdg_t":149.8,"dist_nm":94.4,"freq":116.4,"lat":39.92744700,"lon":3.11458100,"rng_nm":40,"alt_fmsl":1168,"id":"POS","desc":"POLLENSA VOR-DME"}
+]
+}

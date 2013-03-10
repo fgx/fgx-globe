@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"TBPB","name":"Barbados/grantley Adams Intl","lat":13.074614,"lon":-59.492206,"rwys":1,"ils":1,"index":1972676,"path":"w060n10/w060n13"
+,"runways":[
+{"len_m":3636,"wid_m":45.11,"hdg":75,"surf":"Asphalt","rwy1":"09","lat1":13.07061900,"lon1":-59.50847000,"rwy2":"27","lat2":13.07860900,"lon2":-59.47594200}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"ADAMS GND"},
+{"type":"TWR","freq":118.7,"desc":"ADAMS TWR"},
+{"type":"APP","freq":129.35,"desc":"ADAMS APP"},
+{"type":"APP","freq":120.7,"desc":"ADAMS APP"},
+{"type":"APP","freq":121.2,"desc":"ADAMS APP"},
+{"type":"APP","freq":128.85,"desc":"ADAMS APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":13.07875000,"lon":-59.47506700,"rng_nm":18,"alt_fmsl":168,"hdg":75.97,"id":"IBGI","rwy":"09","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":13.07051400,"lon":-59.50403100,"rng_nm":10,"alt_fmsl":168,"id":"IBGI","rwy":"09","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":13.06896400,"lon":-59.51506700,"rng_nm":0,"alt_fmsl":168,"id":"----","rwy":"09","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":153.3,"dist_nm":0.2,"freq":345,"lat":13.07133333,"lon":-59.49052778,"rng_nm":50,"alt_fmsl":0,"id":"BGI","desc":"ADAMS NDB"},
+{"type":"VOR","hdg_t":86.9,"dist_nm":0.4,"freq":112.7,"lat":13.07505556,"lon":-59.48383333,"rng_nm":130,"alt_fmsl":200,"id":"BGI","desc":"ADAMS VOR-DME"},
+{"type":"VOR","hdg_t":294.5,"dist_nm":95.3,"freq":112.4,"lat":13.73333333,"lon":-60.97694444,"rng_nm":130,"alt_fmsl":11,"id":"BNE","desc":"HEWANORRA VOR-DME"},
+{"type":"NDB","hdg_t":294.5,"dist_nm":95.3,"freq":305,"lat":13.73363889,"lon":-60.97686111,"rng_nm":50,"alt_fmsl":0,"id":"BNE","desc":"HEWANORRA NDB"},
+{"type":"NDB","hdg_t":272.4,"dist_nm":101.6,"freq":403,"lat":13.14063889,"lon":-61.22616667,"rng_nm":50,"alt_fmsl":0,"id":"SV","desc":"E.T. JOSHUA NDB"},
+{"type":"NDB","hdg_t":302.5,"dist_nm":104.7,"freq":415,"lat":14.01413889,"lon":-61.00605556,"rng_nm":50,"alt_fmsl":0,"id":"SLU","desc":"GEORGE F.L.CHARLE NDB"},
+{"type":"NDB","hdg_t":258.4,"dist_nm":110.5,"freq":302,"lat":12.69619444,"lon":-61.33933333,"rng_nm":50,"alt_fmsl":0,"id":"CAI","desc":"CANOUAN NDB"},
+{"type":"NDB","hdg_t":315.9,"dist_nm":126.2,"freq":329,"lat":14.58908333,"lon":-61.00130556,"rng_nm":50,"alt_fmsl":0,"id":"FOF","desc":"MARTINIQUE NDB"},
+{"type":"VOR","hdg_t":315.5,"dist_nm":127.2,"freq":113.3,"lat":14.59075000,"lon":-61.02280556,"rng_nm":130,"alt_fmsl":39,"id":"FOF","desc":"MARTINIQUE VOR-DME"},
+{"type":"NDB","hdg_t":314.4,"dist_nm":130.6,"freq":314,"lat":14.60138889,"lon":-61.09500000,"rng_nm":50,"alt_fmsl":0,"id":"FXF","desc":"FORT DE FRANCE NDB"}
+]
+}

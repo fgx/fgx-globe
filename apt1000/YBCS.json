@@ -1,0 +1,51 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"YBCS","name":"Cairns Intl","lat":-16.8837521369231,"lon":145.750651206154,"rwys":2,"ils":1,"index":5329478,"path":"e140s20/e145s17"
+,"runways":[
+{"len_m":927,"wid_m":18.90,"hdg":125,"surf":"Asphalt","rwy1":"11","lat1":-16.88065825,"lon1":145.75211172,"rwy2":"29","lat2":-16.88553632,"lon2":145.75918701},
+{"len_m":3194,"wid_m":45.11,"hdg":156,"surf":"Asphalt","rwy1":"15","lat1":-16.86582971,"lon1":145.74356344,"rwy2":"33","lat2":-16.89229329,"lon2":145.75553081}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":15,"wid_m":15.85,"hdg":145,"surf":"Asphalt","lat1":-16.87937644,"lon1":145.74842528},
+{"rwy1":"H10","len_m":14,"wid_m":14.94,"hdg":145,"surf":"Asphalt","lat1":-16.88851337,"lon1":145.75204554},
+{"rwy1":"H11","len_m":14,"wid_m":14.94,"hdg":145,"surf":"Concrete","lat1":-16.88871316,"lon1":145.75213261},
+{"rwy1":"H2","len_m":15,"wid_m":15.85,"hdg":145,"surf":"Asphalt","lat1":-16.87960341,"lon1":145.74856682},
+{"rwy1":"H3","len_m":15,"wid_m":15.85,"hdg":145,"surf":"Asphalt","lat1":-16.87983648,"lon1":145.74871347},
+{"rwy1":"H4","len_m":10,"wid_m":10.06,"hdg":145,"surf":"Asphalt","lat1":-16.88219387,"lon1":145.74931466},
+{"rwy1":"H5","len_m":10,"wid_m":10.06,"hdg":145,"surf":"Asphalt","lat1":-16.88205269,"lon1":145.74924759},
+{"rwy1":"H6","len_m":10,"wid_m":10.06,"hdg":145,"surf":"Asphalt","lat1":-16.88186291,"lon1":145.74916328},
+{"rwy1":"H7","len_m":14,"wid_m":14.94,"hdg":145,"surf":"Asphalt","lat1":-16.88797700,"lon1":145.75180840},
+{"rwy1":"H8","len_m":14,"wid_m":14.94,"hdg":145,"surf":"Asphalt","lat1":-16.88815682,"lon1":145.75188505},
+{"rwy1":"H9","len_m":14,"wid_m":14.94,"hdg":145,"surf":"Asphalt","lat1":-16.88833285,"lon1":145.75196649}
+]
+,"radios":[
+{"type":"ATIS","freq":131.1,"desc":"YBCS ATIS"},
+{"type":"CLD","freq":121.7,"desc":"CAIRNS CLD"},
+{"type":"GND","freq":121.7,"desc":"CAIRNS GND"},
+{"type":"TWR","freq":124.9,"desc":"CAIRNS TWR"},
+{"type":"APP","freq":118.4,"desc":"CAIRNS APP"},
+{"type":"APP","freq":126.1,"desc":"CAIRNS APP"},
+{"type":"DEP","freq":118.4,"desc":"CAIRNS DEP"},
+{"type":"DEP","freq":126.1,"desc":"CAIRNS DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":-16.89333300,"lon":145.75583300,"rng_nm":18,"alt_fmsl":9,"hdg":156.88,"id":"ICS","rwy":"15","desc":"ILS-cat-I"},
+{"type":"LOC","freq":109.5,"lat":-16.86472200,"lon":145.74305600,"rng_nm":18,"alt_fmsl":7,"id":"ICN","rwy":"33","desc":"LOC"},
+{"type":"GS","freq":109.9,"lat":-16.86888900,"lon":145.74333300,"rng_nm":10,"alt_fmsl":9,"id":"ICS","rwy":"15","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-16.81055600,"lon":145.71833300,"rng_nm":0,"alt_fmsl":9,"id":"----","rwy":"15","desc":"OM"},
+{"type":"MM","freq":0,"lat":-16.85833300,"lon":145.74027800,"rng_nm":0,"alt_fmsl":9,"id":"----","rwy":"15","desc":"MM"},
+{"type":"DME","freq":109.9,"lat":-16.89333300,"lon":145.75666700,"rng_nm":18,"alt_fmsl":10,"id":"ICS","rwy":"15","desc":"DME-ILS"},
+{"type":"DME","freq":109.5,"lat":-16.85027800,"lon":145.74305600,"rng_nm":18,"alt_fmsl":10,"id":"ICN","rwy":"33","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":349,"dist_nm":2,"freq":113,"lat":-16.85000000,"lon":145.74388889,"rng_nm":130,"alt_fmsl":42,"id":"CS","desc":"CAIRNS VOR-DME"},
+{"type":"NDB","hdg_t":338.4,"dist_nm":2.3,"freq":364,"lat":-16.84694400,"lon":145.73555600,"rng_nm":50,"alt_fmsl":0,"id":"CS","desc":"CAIRNS NDB"},
+{"type":"VOR","hdg_t":264.1,"dist_nm":19.6,"freq":112.3,"lat":-16.91666700,"lon":145.41166700,"rng_nm":130,"alt_fmsl":0,"id":"BIB","desc":"BIBOOHRA VOR"},
+{"type":"NDB","hdg_t":159.4,"dist_nm":43.2,"freq":212,"lat":-17.56166700,"lon":146.01527800,"rng_nm":25,"alt_fmsl":46,"id":"IFL","desc":"INNISFAIL NDB"},
+{"type":"NDB","hdg_t":340.8,"dist_nm":88.6,"freq":260,"lat":-15.48166700,"lon":145.24833300,"rng_nm":40,"alt_fmsl":26,"id":"CKN","desc":"COOKTOWN NDB"},
+{"type":"NDB","hdg_t":235.9,"dist_nm":151.7,"freq":401,"lat":-18.29444400,"lon":143.54916700,"rng_nm":30,"alt_fmsl":0,"id":"GTN","desc":"GEORGETOWN NDB"},
+{"type":"VOR","hdg_t":157.9,"dist_nm":152.4,"freq":114.1,"lat":-19.24500000,"lon":146.75833333,"rng_nm":130,"alt_fmsl":35,"id":"TL","desc":"TOWNSVILLE VOR-DME"},
+{"type":"NDB","hdg_t":157.8,"dist_nm":152.6,"freq":276,"lat":-19.24694400,"lon":146.76222200,"rng_nm":75,"alt_fmsl":18,"id":"TVL","desc":"TOWNSVILLE NDB"},
+{"type":"SDME","hdg_t":158.5,"dist_nm":153.9,"freq":113.5,"lat":-19.27833300,"lon":146.74333300,"rng_nm":25,"alt_fmsl":18,"id":"TVL","desc":"TOWNSVILLE TACAN"},
+{"type":"NDB","hdg_t":143.5,"dist_nm":234.3,"freq":292,"lat":-20.02111100,"lon":148.21527800,"rng_nm":35,"alt_fmsl":0,"id":"BWN","desc":"BOWEN NDB"}
+]
+}

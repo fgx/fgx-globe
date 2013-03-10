@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KPUC","name":"Carbon Co","lat":39.6135046666667,"lon":-110.7516285,"rwys":3,"ils":1,"index":1138784,"path":"w120n30/w111n39"
+,"runways":[
+{"len_m":2532,"wid_m":30.48,"hdg":198,"surf":"Asphalt","rwy1":"18","lat1":39.62658300,"lon1":-110.74591900,"rwy2":"36","lat2":39.60493300,"lon2":-110.75520800},
+{"len_m":1375,"wid_m":22.86,"hdg":158,"surf":"Asphalt","rwy1":"14","lat1":39.61538600,"lon1":-110.75673900,"rwy2":"32","lat2":39.60384200,"lon2":-110.75091900},
+{"len_m":1079,"wid_m":22.86,"hdg":89,"surf":"Asphalt","rwy1":"07","lat1":39.61513100,"lon1":-110.75677800,"rwy2":"25","lat2":39.61515300,"lon2":-110.74420800}
+]
+,"radios":[
+{"type":"ATIS","freq":135.42,"desc":"ASOS"},
+{"type":"CTAF","freq":122.8,"desc":"CTAF/UNICOM"}
+]
+,"ils":[
+{"type":"ILS","freq":109.35,"lat":39.62788563,"lon":-110.74536138,"rng_nm":18,"alt_fmsl":5957,"hdg":18.29,"id":"IPUC","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.35,"lat":39.60779565,"lon":-110.75510485,"rng_nm":10,"alt_fmsl":5957,"id":"IPUC","rwy":"36","desc":"GS","gs":3},
+{"type":"DME","freq":109.35,"lat":39.62788563,"lon":-110.74536138,"rng_nm":18,"alt_fmsl":5957,"id":"IPUC","rwy":"36","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":188.1,"dist_nm":0.6,"freq":115.5,"lat":39.60319444,"lon":-110.75352778,"rng_nm":130,"alt_fmsl":5830,"id":"PUC","desc":"CARBON VOR-DME"},
+{"type":"VOR","hdg_t":41.7,"dist_nm":43.1,"freq":112.7,"lat":40.14908333,"lon":-110.12702778,"rng_nm":130,"alt_fmsl":5401,"id":"MTU","desc":"MYTON VOR-DME"},
+{"type":"VOR","hdg_t":309.1,"dist_nm":57.4,"freq":108.4,"lat":40.21494444,"lon":-111.72133333,"rng_nm":25,"alt_fmsl":4493,"id":"PVU","desc":"PROVO VOR-DME"},
+{"type":"VOR","hdg_t":306.2,"dist_nm":67.6,"freq":116.6,"lat":40.27488889,"lon":-111.94052778,"rng_nm":130,"alt_fmsl":7690,"id":"FFU","desc":"FAIRFIELD VORTAC"},
+{"type":"VOR","hdg_t":137.3,"dist_nm":69.4,"freq":109.8,"lat":38.75625000,"lon":-109.74927778,"rng_nm":25,"alt_fmsl":4542,"id":"OAB","desc":"MOAB VOR-DME"},
+{"type":"VOR","hdg_t":178,"dist_nm":71.7,"freq":115.9,"lat":38.41680556,"lon":-110.69972222,"rng_nm":130,"alt_fmsl":4430,"id":"HVE","desc":"HANKSVILLE VORTAC"},
+{"type":"VOR","hdg_t":51.2,"dist_nm":73.9,"freq":108.2,"lat":40.37902778,"lon":-109.49330556,"rng_nm":40,"alt_fmsl":5344,"id":"VEL","desc":"VERNAL VOR-DME"},
+{"type":"VOR","hdg_t":257.6,"dist_nm":83.6,"freq":116.1,"lat":39.30233333,"lon":-112.50555556,"rng_nm":130,"alt_fmsl":4600,"id":"DTA","desc":"DELTA VORTAC"},
+{"type":"VOR","hdg_t":323,"dist_nm":93.2,"freq":116.8,"lat":40.85025000,"lon":-111.98191667,"rng_nm":130,"alt_fmsl":4220,"id":"TCH","desc":"WASATCH VORTAC"},
+{"type":"NDB","hdg_t":309.6,"dist_nm":94.7,"freq":371,"lat":40.61077778,"lon":-112.34769444,"rng_nm":50,"alt_fmsl":0,"id":"TVY","desc":"TOOELE NDB"},
+{"type":"VOR","hdg_t":109.3,"dist_nm":97,"freq":112.4,"lat":39.05955556,"lon":-108.79258333,"rng_nm":130,"alt_fmsl":7100,"id":"JNC","desc":"GRAND JUNCTION VOR-DME"}
+]
+}

@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VTPB","name":"Phetchabun","lat":16.676029,"lon":101.1951085,"rwys":1,"ils":1,"index":4610729,"path":"e100n10/e101n16"
+,"runways":[
+{"len_m":2101,"wid_m":45.11,"hdg":180,"surf":"Asphalt","rwy1":"18","lat1":16.68552500,"lon1":101.19511700,"rwy2":"36","lat2":16.66653300,"lon2":101.19510000}
+]
+,"radios":[
+{"type":"GND","freq":126.7,"desc":"GND"},
+{"type":"TWR","freq":122.3,"desc":"TWR"},
+{"type":"APP","freq":126.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.1,"lat":16.68823600,"lon":101.19511900,"rng_nm":18,"alt_fmsl":447,"hdg":0.05,"id":"IPCB","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.1,"lat":16.66915600,"lon":101.19622800,"rng_nm":10,"alt_fmsl":450,"id":"IPCB","rwy":"36","desc":"GS","gs":3},
+{"type":"DME","freq":109.1,"lat":16.68823900,"lon":101.19579200,"rng_nm":18,"alt_fmsl":447,"id":"IPCB","rwy":"36","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":90.4,"dist_nm":0,"freq":115.4,"lat":16.67601700,"lon":101.19670000,"rng_nm":50,"alt_fmsl":450,"id":"PCB","desc":"PHETCHABUN VOR-DME"},
+{"type":"NDB","hdg_t":196.7,"dist_nm":0.9,"freq":283,"lat":16.66086900,"lon":101.19036100,"rng_nm":25,"alt_fmsl":0,"id":"PH","desc":"PHETCHABUN NDB"},
+{"type":"VOR","hdg_t":92.8,"dist_nm":45.5,"freq":112.9,"lat":16.63647200,"lon":101.98483300,"rng_nm":100,"alt_fmsl":815,"id":"CMP","desc":"CHUM PHAE VOR-DME"},
+{"type":"VOR","hdg_t":276.3,"dist_nm":52.3,"freq":114.1,"lat":16.77037200,"lon":100.29130600,"rng_nm":50,"alt_fmsl":145,"id":"PSL","desc":"PHITSANULOK VOR-DME"},
+{"type":"NDB","hdg_t":277.8,"dist_nm":53.4,"freq":263,"lat":16.79595600,"lon":100.27572800,"rng_nm":50,"alt_fmsl":145,"id":"PL","desc":"PHITSANULOK NDB"},
+{"type":"SDME","hdg_t":277.5,"dist_nm":53.4,"freq":115.2,"lat":16.79142100,"lon":100.27503500,"rng_nm":50,"alt_fmsl":144,"id":"PSL","desc":"PHITSANULOK TACAN"},
+{"type":"VOR","hdg_t":33.2,"dist_nm":55.1,"freq":115.9,"lat":17.44705000,"lon":101.72308900,"rng_nm":130,"alt_fmsl":860,"id":"LOY","desc":"LOEI VOR-DME"},
+{"type":"NDB","hdg_t":33.4,"dist_nm":55.3,"freq":325,"lat":17.44863600,"lon":101.72650300,"rng_nm":50,"alt_fmsl":0,"id":"LY","desc":"LOEI NDB"},
+{"type":"NDB","hdg_t":293.1,"dist_nm":85.7,"freq":292,"lat":17.23522500,"lon":99.82200800,"rng_nm":50,"alt_fmsl":181,"id":"THS","desc":"SUKHOTHAI NDB-DME"},
+{"type":"SDME","hdg_t":293.1,"dist_nm":85.7,"freq":110.3,"lat":17.23563100,"lon":99.82219200,"rng_nm":50,"alt_fmsl":181,"id":"THS","desc":"SUKHOTHAI NDB-DME"},
+{"type":"NDB","hdg_t":97.7,"dist_nm":92.4,"freq":393,"lat":16.46205800,"lon":102.78449400,"rng_nm":50,"alt_fmsl":0,"id":"KN","desc":"KHON KAEN NDB"},
+{"type":"VOR","hdg_t":97.3,"dist_nm":92.5,"freq":114.9,"lat":16.47075800,"lon":102.78779700,"rng_nm":100,"alt_fmsl":670,"id":"KKN","desc":"KHON KAEN VOR-DME"},
+{"type":"SDME","hdg_t":211.8,"dist_nm":98.4,"freq":114.8,"lat":15.27463100,"lon":100.29908100,"rng_nm":50,"alt_fmsl":107,"id":"TKL","desc":"TAKHLI TACAN"},
+{"type":"NDB","hdg_t":211.8,"dist_nm":98.7,"freq":350,"lat":15.26913900,"lon":100.29751400,"rng_nm":25,"alt_fmsl":0,"id":"TL","desc":"TAKHLI NDB"}
+]
+}

@@ -1,0 +1,60 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LIPQ","name":"Ronchi Dei Legionari","lat":45.827857,"lon":13.4666635,"rwys":1,"ils":1,"index":3170801,"path":"e010n40/e013n45"
+,"runways":[
+{"len_m":3000,"wid_m":45.11,"hdg":90,"surf":"Asphalt","rwy1":"09","lat1":45.82795800,"lon1":13.44735600,"rwy2":"27","lat2":45.82775600,"lon2":13.48597100}
+]
+,"radios":[
+{"type":"TWR","freq":130.2,"desc":"TWR"},
+{"type":"APP","freq":119.15,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.75,"lat":45.82773600,"lon":13.49113300,"rng_nm":18,"alt_fmsl":43,"hdg":90.43,"id":"RNC","rwy":"09","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.75,"lat":45.82932500,"lon":13.45416100,"rng_nm":10,"alt_fmsl":82,"id":"RNC","rwy":"09","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":45.82880600,"lon":13.36022200,"rng_nm":0,"alt_fmsl":43,"id":"----","rwy":"09","desc":"OM"},
+{"type":"MM","freq":0,"lat":45.82797200,"lon":13.43544400,"rng_nm":0,"alt_fmsl":43,"id":"----","rwy":"09","desc":"MM"},
+{"type":"DME","freq":110.75,"lat":45.82950000,"lon":13.45425000,"rng_nm":18,"alt_fmsl":53,"id":"RNC","rwy":"09","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":78.9,"dist_nm":0.5,"freq":114.2,"lat":45.82970900,"lon":13.48027200,"rng_nm":40,"alt_fmsl":69,"id":"RCH","desc":"RONCHI DEI LEGIONARI VOR-DME"},
+{"type":"NDB","hdg_t":270.8,"dist_nm":4.4,"freq":396,"lat":45.82888900,"lon":13.36027800,"rng_nm":25,"alt_fmsl":10,"id":"RON","desc":"RONCHI DEI LEGIONARI NDB"},
+{"type":"SDME","hdg_t":302.5,"dist_nm":18.7,"freq":110,"lat":45.99572800,"lon":13.08838900,"rng_nm":130,"alt_fmsl":267,"id":"RIV","desc":"RIVOLTO TACAN"},
+{"type":"NDB","hdg_t":163.4,"dist_nm":21.9,"freq":388,"lat":45.47746400,"lon":13.61492200,"rng_nm":25,"alt_fmsl":10,"id":"PZ","desc":"PORTOROZ NDB"},
+{"type":"NDB","hdg_t":286.5,"dist_nm":22.9,"freq":371,"lat":45.93527800,"lon":12.94194400,"rng_nm":50,"alt_fmsl":105,"id":"RIV","desc":"RIVOLTO NDB"},
+{"type":"VOR","hdg_t":117.7,"dist_nm":33.5,"freq":114.8,"lat":45.56558600,"lon":14.17086400,"rng_nm":100,"alt_fmsl":1962,"id":"ILB","desc":"BISTRICA VOR-DME"},
+{"type":"NDB","hdg_t":117.8,"dist_nm":33.6,"freq":414,"lat":45.56446700,"lon":14.17196700,"rng_nm":50,"alt_fmsl":1880,"id":"ILB","desc":"BISTRICA NDB"},
+{"type":"NDB","hdg_t":168.2,"dist_nm":37.8,"freq":369,"lat":45.21018300,"lon":13.64897500,"rng_nm":25,"alt_fmsl":236,"id":"VRS","desc":"VRSAR NDB"},
+{"type":"SDME","hdg_t":288.3,"dist_nm":38.7,"freq":116.4,"lat":46.02786700,"lon":12.58688100,"rng_nm":25,"alt_fmsl":413,"id":"AVI","desc":"AVIANO TACAN"},
+{"type":"NDB","hdg_t":277.9,"dist_nm":43.8,"freq":390,"lat":45.92444400,"lon":12.42861100,"rng_nm":50,"alt_fmsl":118,"id":"AVI","desc":"AVIANO NDB"},
+{"type":"NDB","hdg_t":122.9,"dist_nm":44.2,"freq":400,"lat":45.42365000,"lon":14.34540000,"rng_nm":50,"alt_fmsl":0,"id":"BRZ","desc":"BREZA NDB"},
+{"type":"VOR","hdg_t":248.5,"dist_nm":49.7,"freq":115.3,"lat":45.51897900,"lon":12.36814600,"rng_nm":40,"alt_fmsl":29,"id":"TES","desc":"TESSERA VOR-DME"},
+{"type":"NDB","hdg_t":65.1,"dist_nm":50,"freq":296,"lat":46.17323100,"lon":14.55594400,"rng_nm":25,"alt_fmsl":1063,"id":"MG","desc":"LJUBLJANA NDB"},
+{"type":"NDB","hdg_t":125.2,"dist_nm":50.8,"freq":438,"lat":45.33463600,"lon":14.44676400,"rng_nm":50,"alt_fmsl":0,"id":"KO","desc":"KOZALA NDB"},
+{"type":"NDB","hdg_t":261.9,"dist_nm":52.5,"freq":340,"lat":45.69858300,"lon":12.22836100,"rng_nm":50,"alt_fmsl":75,"id":"ISA","desc":"ISTRANA NDB"},
+{"type":"NDB","hdg_t":71.3,"dist_nm":53.2,"freq":328,"lat":46.10500000,"lon":14.67546400,"rng_nm":100,"alt_fmsl":1004,"id":"KAM","desc":"DOLSKO NDB"},
+{"type":"NDB","hdg_t":246,"dist_nm":55,"freq":379,"lat":45.44910800,"lon":12.27691700,"rng_nm":25,"alt_fmsl":0,"id":"VEN","desc":"VENEZIA NDB"},
+{"type":"VOR","hdg_t":19.5,"dist_nm":55.3,"freq":112.9,"lat":46.69639200,"lon":13.91464400,"rng_nm":60,"alt_fmsl":6285,"id":"VIW","desc":"VILLACH VOR-DME"},
+{"type":"VOR","hdg_t":73.8,"dist_nm":57,"freq":112.7,"lat":46.08413900,"lon":14.77857500,"rng_nm":100,"alt_fmsl":2047,"id":"DOL","desc":"DOLSKO VOR-DME"},
+{"type":"SDME","hdg_t":262,"dist_nm":57.3,"freq":111.7,"lat":45.68750000,"lon":12.11694400,"rng_nm":25,"alt_fmsl":189,"id":"ISA","desc":"ISTRANA TACAN"},
+{"type":"NDB","hdg_t":167.7,"dist_nm":57.6,"freq":351,"lat":44.88920800,"lon":13.75351700,"rng_nm":50,"alt_fmsl":27,"id":"PLA","desc":"PULA NDB"},
+{"type":"VOR","hdg_t":127.5,"dist_nm":58.8,"freq":117.8,"lat":45.22412200,"lon":14.56696100,"rng_nm":60,"alt_fmsl":360,"id":"RJK","desc":"RIJEKA VOR-DME"},
+{"type":"NDB","hdg_t":258.4,"dist_nm":58.9,"freq":301,"lat":45.62247000,"lon":12.09563800,"rng_nm":25,"alt_fmsl":61,"id":"TRE","desc":"TREVISO NDB"},
+{"type":"VOR","hdg_t":161,"dist_nm":59.2,"freq":111.25,"lat":44.89236700,"lon":13.91812800,"rng_nm":100,"alt_fmsl":189,"id":"PUL","desc":"PULA VOR-DME"},
+{"type":"NDB","hdg_t":31.5,"dist_nm":59.3,"freq":405,"lat":46.66747500,"lon":14.21825300,"rng_nm":25,"alt_fmsl":0,"id":"KW","desc":"KLAGENFURT NDB"},
+{"type":"NDB","hdg_t":157.5,"dist_nm":60.4,"freq":265,"lat":44.89535300,"lon":14.00823900,"rng_nm":50,"alt_fmsl":56,"id":"KAV","desc":"KAVRAN NDB"},
+{"type":"NDB","hdg_t":129.1,"dist_nm":64.9,"freq":289,"lat":45.13751100,"lon":14.65293300,"rng_nm":50,"alt_fmsl":0,"id":"RI","desc":"RIJEKA NDB"},
+{"type":"VOR","hdg_t":44.2,"dist_nm":64.9,"freq":113.1,"lat":46.59758300,"lon":14.56231900,"rng_nm":60,"alt_fmsl":2279,"id":"KFT","desc":"KLAGENFURT VOR-DME"},
+{"type":"NDB","hdg_t":42.5,"dist_nm":65.3,"freq":374,"lat":46.62515000,"lon":14.53416400,"rng_nm":40,"alt_fmsl":1509,"id":"KFT","desc":"KLAGENFURT NDB"},
+{"type":"NDB","hdg_t":228.2,"dist_nm":67.5,"freq":408,"lat":45.07166700,"lon":12.28138900,"rng_nm":50,"alt_fmsl":0,"id":"CHI","desc":"CHIOGGIA NDB"},
+{"type":"VOR","hdg_t":228.2,"dist_nm":67.5,"freq":114.1,"lat":45.07109200,"lon":12.28139600,"rng_nm":80,"alt_fmsl":33,"id":"CHI","desc":"CHIOGGIA VOR-DME"},
+{"type":"NDB","hdg_t":143.7,"dist_nm":68.5,"freq":433,"lat":44.90288100,"lon":14.41654700,"rng_nm":50,"alt_fmsl":0,"id":"CRE","desc":"CRES NDB"},
+{"type":"NDB","hdg_t":249.8,"dist_nm":73,"freq":332,"lat":45.39669400,"lon":11.84472200,"rng_nm":25,"alt_fmsl":0,"id":"PDA","desc":"PADOVA NDB"},
+{"type":"NDB","hdg_t":261.9,"dist_nm":76.1,"freq":417,"lat":45.63694400,"lon":11.67472200,"rng_nm":50,"alt_fmsl":150,"id":"VIC","desc":"VICENZA NDB"},
+{"type":"VOR","hdg_t":261.9,"dist_nm":76.1,"freq":113.4,"lat":45.63719900,"lon":11.67637600,"rng_nm":80,"alt_fmsl":213,"id":"VIC","desc":"VICENZA VOR-DME"},
+{"type":"NDB","hdg_t":96.9,"dist_nm":78.4,"freq":394,"lat":45.65458900,"lon":15.31823600,"rng_nm":100,"alt_fmsl":731,"id":"MEL","desc":"METLIKA NDB"},
+{"type":"NDB","hdg_t":150.9,"dist_nm":88.9,"freq":429,"lat":44.52709700,"lon":14.47284700,"rng_nm":50,"alt_fmsl":239,"id":"LOS","desc":"LOSINJ NDB"},
+{"type":"VOR","hdg_t":291.6,"dist_nm":97.1,"freq":117.05,"lat":46.40516000,"lon":11.29228800,"rng_nm":40,"alt_fmsl":2135,"id":"OZE","desc":"BOLZANO VOR-DME"},
+{"type":"NDB","hdg_t":293.8,"dist_nm":97.2,"freq":362,"lat":46.46388900,"lon":11.32222200,"rng_nm":60,"alt_fmsl":797,"id":"BZO","desc":"BOLZANO NDB"},
+{"type":"NDB","hdg_t":32.5,"dist_nm":98,"freq":418,"lat":47.19805600,"lon":14.75666700,"rng_nm":40,"alt_fmsl":0,"id":"ZW","desc":"ZELTWEG NDB"},
+{"type":"NDB","hdg_t":232.8,"dist_nm":99.1,"freq":427,"lat":44.81444400,"lon":11.61638900,"rng_nm":50,"alt_fmsl":20,"id":"FER","desc":"FERRARA NDB"}
+]
+}

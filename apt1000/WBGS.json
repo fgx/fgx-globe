@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WBGS","name":"Sibu","lat":2.261603,"lon":111.9853235,"rwys":1,"ils":1,"index":4773655,"path":"e110n00/e111n02"
+,"runways":[
+{"len_m":2754,"wid_m":45.11,"hdg":130,"surf":"Asphalt","rwy1":"13","lat1":2.26965000,"lon1":111.97587500,"rwy2":"31","lat2":2.25355600,"lon2":111.99477200}
+]
+,"radios":[
+{"type":"ATIS","freq":127.65,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":123.2,"desc":"TWR"},
+{"type":"TWR","freq":122.6,"desc":"TWR"},
+{"type":"APP","freq":122.6,"desc":"APP"},
+{"type":"APP","freq":123.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":2.25136700,"lon":111.99797200,"rng_nm":18,"alt_fmsl":122,"hdg":129.63,"id":"ISU","rwy":"13","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":2.26858100,"lon":111.97885000,"rng_nm":10,"alt_fmsl":122,"id":"ISU","rwy":"13","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":2.27526700,"lon":111.96969400,"rng_nm":0,"alt_fmsl":122,"id":"----","rwy":"13","desc":"MM"},
+{"type":"DME","freq":110.5,"lat":2.26803600,"lon":111.97825000,"rng_nm":18,"alt_fmsl":122,"id":"ISU","rwy":"13","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":129,"dist_nm":1.2,"freq":203,"lat":2.24814200,"lon":112.00179400,"rng_nm":50,"alt_fmsl":0,"id":"NIS","desc":"SIBU NDB"},
+{"type":"VOR","hdg_t":129.1,"dist_nm":1.3,"freq":112.2,"lat":2.24680600,"lon":112.00338900,"rng_nm":130,"alt_fmsl":122,"id":"VSI","desc":"SIBU VOR-DME"},
+{"type":"NDB","hdg_t":263.9,"dist_nm":47.4,"freq":264,"lat":2.17743600,"lon":111.20016100,"rng_nm":25,"alt_fmsl":0,"id":"TMS","desc":"TANJUNG MANIS NDB"},
+{"type":"NDB","hdg_t":51.1,"dist_nm":80,"freq":368,"lat":3.10241400,"lon":113.02450300,"rng_nm":190,"alt_fmsl":128,"id":"BTU","desc":"BINTULU NDB"},
+{"type":"VOR","hdg_t":49.1,"dist_nm":81.5,"freq":112.6,"lat":3.15397200,"lon":113.01320000,"rng_nm":25,"alt_fmsl":23,"id":"VBU","desc":"BINTULU VOR-DME"},
+{"type":"NDB","hdg_t":146.1,"dist_nm":102.5,"freq":360,"lat":0.83505600,"lon":112.93733300,"rng_nm":50,"alt_fmsl":297,"id":"PB","desc":"PANGSUMA NDB"},
+{"type":"NDB","hdg_t":252.1,"dist_nm":105.7,"freq":402,"lat":1.71830600,"lon":110.30908300,"rng_nm":50,"alt_fmsl":0,"id":"AN","desc":"KUCHING NDB"},
+{"type":"VOR","hdg_t":245,"dist_nm":111.3,"freq":114.5,"lat":1.47333300,"lon":110.30575000,"rng_nm":130,"alt_fmsl":220,"id":"VKG","desc":"KUCHING VOR-DME"},
+{"type":"NDB","hdg_t":192.9,"dist_nm":134.4,"freq":405,"lat":0.06666700,"lon":111.48333300,"rng_nm":50,"alt_fmsl":98,"id":"SG","desc":"SUSILO NDB"},
+{"type":"NDB","hdg_t":243.1,"dist_nm":154.3,"freq":210,"lat":1.09215600,"lon":109.69338300,"rng_nm":50,"alt_fmsl":115,"id":"NF","desc":"SINGKAWANG NDB"}
+]
+}

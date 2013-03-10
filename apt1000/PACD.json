@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PACD","name":"Cold Bay","lat":55.2034447075,"lon":-162.7211095625,"rwys":2,"ils":1,"index":287817,"path":"w170n50/w163n55"
+,"runways":[
+{"len_m":3175,"wid_m":46.02,"hdg":158,"surf":"Asphalt","rwy1":"14","lat1":55.22239404,"lon1":-162.73791777,"rwy2":"32","lat2":55.19587796,"lon2":-162.71951823},
+{"len_m":1290,"wid_m":46.02,"hdg":94,"surf":"Asphalt","rwy1":"08","lat1":55.19897506,"lon1":-162.72746470,"rwy2":"26","lat2":55.19801094,"lon2":-162.70726330}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":20,"wid_m":20.12,"hdg":-162,"surf":"Asphalt","lat1":55.20290232,"lon1":-162.71904416},
+{"rwy1":"H2","len_m":20,"wid_m":20.12,"hdg":-162,"surf":"Asphalt","lat1":55.20324751,"lon1":-162.71931209}
+]
+,"radios":[
+{"type":"ATIS","freq":135.75,"desc":"ASOS"},
+{"type":"CTAF","freq":123.6,"desc":"CTAF"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":55.19472800,"lon":-162.71873600,"rng_nm":18,"alt_fmsl":98,"hdg":158.42,"id":"ICDB","rwy":"14","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":55.22049400,"lon":-162.73436100,"rng_nm":10,"alt_fmsl":69,"id":"ICDB","rwy":"14","desc":"GS","gs":2.8},
+{"type":"OM","freq":0,"lat":55.29607100,"lon":-162.78907500,"rng_nm":0,"alt_fmsl":98,"id":"----","rwy":"14","desc":"OM"},
+{"type":"MM","freq":0,"lat":55.23160000,"lon":-162.74431900,"rng_nm":0,"alt_fmsl":98,"id":"----","rwy":"14","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":334.6,"dist_nm":4.2,"freq":112.6,"lat":55.26738889,"lon":-162.77425000,"rng_nm":130,"alt_fmsl":97,"id":"CDB","desc":"COLD BAY VORTAC"},
+{"type":"NDB","hdg_t":337.2,"dist_nm":6,"freq":341,"lat":55.29608333,"lon":-162.78908333,"rng_nm":50,"alt_fmsl":0,"id":"ELF","desc":"ELFEE NDB"},
+{"type":"NDB","hdg_t":83.9,"dist_nm":75.9,"freq":390,"lat":55.31566667,"lon":-160.51844444,"rng_nm":50,"alt_fmsl":0,"id":"HBT","desc":"BORLAND NDB"},
+{"type":"NDB","hdg_t":241.3,"dist_nm":154.8,"freq":283,"lat":53.90516667,"lon":-166.54913889,"rng_nm":50,"alt_fmsl":0,"id":"DUT","desc":"DUTCH HARBOR NDB"},
+{"type":"NDB","hdg_t":50.7,"dist_nm":172.6,"freq":371,"lat":56.95427778,"lon":-158.64755556,"rng_nm":50,"alt_fmsl":0,"id":"PDN","desc":"PORT HEIDEN NDB"},
+{"type":"NDB","hdg_t":5.6,"dist_nm":208.7,"freq":385,"lat":58.65677778,"lon":-162.07144444,"rng_nm":50,"alt_fmsl":0,"id":"EHM","desc":"CAPE NEWENHAM NDB"},
+{"type":"NDB","hdg_t":17.3,"dist_nm":244.4,"freq":393,"lat":59.06408333,"lon":-160.37408333,"rng_nm":50,"alt_fmsl":0,"id":"TOG","desc":"TOGIAK NDB"},
+{"type":"NDB","hdg_t":292.2,"dist_nm":247.9,"freq":399,"lat":56.57391667,"lon":-169.64788889,"rng_nm":50,"alt_fmsl":0,"id":"SRI","desc":"PRIBLOF NDB"},
+{"type":"VOR","hdg_t":29.1,"dist_nm":265.5,"freq":116.4,"lat":58.99422222,"lon":-158.55222222,"rng_nm":130,"alt_fmsl":81,"id":"DLG","desc":"DILLINGHAM VOR-DME"},
+{"type":"NDB","hdg_t":29.1,"dist_nm":265.8,"freq":429,"lat":58.99961111,"lon":-158.54830556,"rng_nm":50,"alt_fmsl":0,"id":"BTS","desc":"WOOD RIVER NDB"}
+]
+}

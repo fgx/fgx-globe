@@ -1,0 +1,39 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KBTM","name":"Bert Mooney","lat":45.95345,"lon":-112.496705666667,"rwys":3,"ils":1,"index":1106426,"path":"w120n40/w113n45"
+,"runways":[
+{"len_m":2742,"wid_m":45.72,"hdg":166,"surf":"Asphalt","rwy1":"15","lat1":45.96692800,"lon1":-112.50120300,"rwy2":"33","lat2":45.94289700,"lon2":-112.49316700},
+{"len_m":1690,"wid_m":22.86,"hdg":38,"surf":"Asphalt","rwy1":"02","lat1":45.94486700,"lon1":-112.50168100,"rwy2":"20","lat2":45.95684700,"lon2":-112.48825800},
+{"len_m":1554,"wid_m":22.86,"hdg":129,"surf":"Asphalt","rwy1":"11","lat1":45.95899200,"lon1":-112.50573900,"rwy2":"29","lat2":45.95016900,"lon2":-112.49018600}
+]
+,"radios":[
+{"type":"ATIS","freq":135.17,"desc":"ASOS"},
+{"type":"CTAF","freq":123,"desc":"CTAF/UNICOM"},
+{"type":"CTAF","freq":123,"desc":"CTAF/UNICOM"}
+]
+,"ils":[
+{"type":"ILS","freq":110.9,"lat":45.93889400,"lon":-112.49182800,"rng_nm":18,"alt_fmsl":5539,"hdg":166.91,"id":"IBEY","rwy":"15","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.9,"lat":45.96454400,"lon":-112.50145600,"rng_nm":10,"alt_fmsl":5510,"id":"IBEY","rwy":"15","desc":"GS","gs":3.5},
+{"type":"OM","freq":0,"lat":46.05961400,"lon":-112.53293600,"rng_nm":0,"alt_fmsl":5539,"id":"----","rwy":"15","desc":"OM"},
+{"type":"MM","freq":0,"lat":46.00216100,"lon":-112.51299700,"rng_nm":0,"alt_fmsl":5539,"id":"----","rwy":"15","desc":"MM"},
+{"type":"DME","freq":110.9,"lat":45.93905600,"lon":-112.49083100,"rng_nm":18,"alt_fmsl":5564,"id":"IBEY","rwy":"15","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":294.2,"dist_nm":11.5,"freq":111.6,"lat":46.03200000,"lon":-112.74752778,"rng_nm":40,"alt_fmsl":5780,"id":"CPN","desc":"COPPERTOWN VOR-DME"},
+{"type":"VOR","hdg_t":111.7,"dist_nm":14.7,"freq":113.7,"lat":45.86180556,"lon":-112.16961111,"rng_nm":130,"alt_fmsl":4652,"id":"HIA","desc":"WHITEHALL VOR-DME"},
+{"type":"VOR","hdg_t":182.8,"dist_nm":42.3,"freq":113,"lat":45.24858333,"lon":-112.54713889,"rng_nm":130,"alt_fmsl":5257,"id":"DLN","desc":"DILLON VOR-DME"},
+{"type":"VOR","hdg_t":29.7,"dist_nm":45.2,"freq":117.7,"lat":46.60683333,"lon":-111.95347222,"rng_nm":130,"alt_fmsl":3823,"id":"HLN","desc":"HELENA VORTAC"},
+{"type":"NDB","hdg_t":30.5,"dist_nm":45.5,"freq":335,"lat":46.60666667,"lon":-111.93716667,"rng_nm":50,"alt_fmsl":0,"id":"CVP","desc":"CAPITOL NDB"},
+{"type":"NDB","hdg_t":39.5,"dist_nm":48,"freq":386,"lat":46.56888889,"lon":-111.75805556,"rng_nm":50,"alt_fmsl":0,"id":"HAU","desc":"HAUSER NDB"},
+{"type":"VOR","hdg_t":325.2,"dist_nm":50,"freq":117.1,"lat":46.63609700,"lon":-113.18659400,"rng_nm":40,"alt_fmsl":4150,"id":"DRU","desc":"DRUMMOND VOR"},
+{"type":"NDB","hdg_t":95,"dist_nm":50.9,"freq":266,"lat":45.87180556,"lon":-111.28572222,"rng_nm":50,"alt_fmsl":0,"id":"BZ","desc":"MANNI NDB"},
+{"type":"NDB","hdg_t":138.9,"dist_nm":54.5,"freq":286,"lat":45.26583333,"lon":-111.65138889,"rng_nm":50,"alt_fmsl":0,"id":"EKS","desc":"ENNIS NDB"},
+{"type":"VOR","hdg_t":99.7,"dist_nm":57.1,"freq":112.4,"lat":45.78388889,"lon":-111.15544444,"rng_nm":130,"alt_fmsl":4430,"id":"BZN","desc":"BOZEMAN VOR-DME"},
+{"type":"NDB","hdg_t":300.8,"dist_nm":81.4,"freq":275,"lat":46.63609700,"lon":-114.18789400,"rng_nm":50,"alt_fmsl":2936,"id":"PLS","desc":"POLSON NDB"},
+{"type":"VOR","hdg_t":311.5,"dist_nm":87.2,"freq":112.8,"lat":46.90797222,"lon":-114.08363889,"rng_nm":40,"alt_fmsl":3202,"id":"MSO","desc":"MISSOULA VOR-DME"},
+{"type":"VOR","hdg_t":230.7,"dist_nm":87.2,"freq":113.5,"lat":45.02130556,"lon":-114.08425000,"rng_nm":130,"alt_fmsl":9258,"id":"LKT","desc":"SALMON VOR-DME"},
+{"type":"VOR","hdg_t":99.1,"dist_nm":87.4,"freq":116.1,"lat":45.70247222,"lon":-110.44244444,"rng_nm":40,"alt_fmsl":4653,"id":"LVM","desc":"LIVINGSTON VOR-DME"},
+{"type":"NDB","hdg_t":141.9,"dist_nm":95.6,"freq":338,"lat":44.68958333,"lon":-111.12108333,"rng_nm":50,"alt_fmsl":0,"id":"ESY","desc":"YELLOWSTONE NDB"},
+{"type":"NDB","hdg_t":28.3,"dist_nm":96.6,"freq":371,"lat":47.36588889,"lon":-111.37286111,"rng_nm":50,"alt_fmsl":0,"id":"ITU","desc":"TRULY NDB"},
+{"type":"NDB","hdg_t":145.8,"dist_nm":99.3,"freq":415,"lat":44.57541667,"lon":-111.19755556,"rng_nm":50,"alt_fmsl":0,"id":"LO","desc":"TARGY NDB"}
+]
+}

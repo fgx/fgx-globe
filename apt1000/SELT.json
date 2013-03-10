@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SELT","name":"Cotopaxi Intl","lat":-0.9068335,"lon":-78.615757,"rwys":1,"ils":1,"index":1660483,"path":"w080s10/w079s01"
+,"runways":[
+{"len_m":3693,"wid_m":45.11,"hdg":184,"surf":"Asphalt","rwy1":"18","lat1":-0.89018100,"lon1":-78.61450800,"rwy2":"36","lat2":-0.92348600,"lon2":-78.61700600}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"LATACUNGA GND"},
+{"type":"TWR","freq":118.5,"desc":"LATACUNGA APP/TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":108.7,"lat":-0.92442200,"lon":-78.61707500,"rng_nm":18,"alt_fmsl":9117,"hdg":184.29,"id":"ILA","rwy":"18","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.7,"lat":-0.89777800,"lon":-78.61583300,"rng_nm":10,"alt_fmsl":9172,"id":"ILA","rwy":"18","desc":"GS","gs":3.2},
+{"type":"DME","freq":108.7,"lat":-0.89777800,"lon":-78.61583300,"rng_nm":18,"alt_fmsl":9116,"id":"ILA","rwy":"18","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":185.8,"dist_nm":1,"freq":117.1,"lat":-0.92419444,"lon":-78.61752778,"rng_nm":130,"alt_fmsl":9140,"id":"LTV","desc":"LATACUNGA VOR-DME"},
+{"type":"NDB","hdg_t":172.6,"dist_nm":18.4,"freq":360,"lat":-1.21323900,"lon":-78.57658600,"rng_nm":50,"alt_fmsl":8427,"id":"AMB","desc":"AMBATO NDB"},
+{"type":"VOR","hdg_t":11.6,"dist_nm":40.9,"freq":114.8,"lat":-0.23561111,"lon":-78.47783333,"rng_nm":130,"alt_fmsl":10033,"id":"QMS","desc":"MONJAS SUR VOR-DME"},
+{"type":"NDB","hdg_t":10.3,"dist_nm":44.4,"freq":350,"lat":-0.17472200,"lon":-78.48305600,"rng_nm":25,"alt_fmsl":0,"id":"UIO","desc":"QUITO NDB"},
+{"type":"NDB","hdg_t":183,"dist_nm":44.7,"freq":212,"lat":-1.65527800,"lon":-78.65583300,"rng_nm":50,"alt_fmsl":9151,"id":"RIO","desc":"RIOBAMBA NDB"},
+{"type":"NDB","hdg_t":95.5,"dist_nm":47.5,"freq":465,"lat":-0.98416700,"lon":-77.82833300,"rng_nm":300,"alt_fmsl":1708,"id":"TNA","desc":"TENA NDB"},
+{"type":"VOR","hdg_t":136.5,"dist_nm":49.9,"freq":113.1,"lat":-1.51388889,"lon":-78.04472222,"rng_nm":130,"alt_fmsl":3257,"id":"PAV","desc":"PASTAZA VOR-DME"},
+{"type":"NDB","hdg_t":136.6,"dist_nm":50,"freq":340,"lat":-1.51622800,"lon":-78.04328300,"rng_nm":100,"alt_fmsl":3465,"id":"PTZ","desc":"PASTAZA NDB"},
+{"type":"VOR","hdg_t":6.9,"dist_nm":52.2,"freq":115.3,"lat":-0.03861111,"lon":-78.51133333,"rng_nm":130,"alt_fmsl":11778,"id":"QIT","desc":"CONDORCOCHA VOR-DME"},
+{"type":"NDB","hdg_t":21.4,"dist_nm":52.8,"freq":290,"lat":-0.08333300,"lon":-78.29388900,"rng_nm":50,"alt_fmsl":0,"id":"ZUI","desc":"ASCAZUBI NDB"},
+{"type":"NDB","hdg_t":27.5,"dist_nm":72,"freq":400,"lat":0.16333333,"lon":-78.06055556,"rng_nm":50,"alt_fmsl":0,"id":"OLM","desc":"OLMEDO NDB"},
+{"type":"VOR","hdg_t":159.3,"dist_nm":86.1,"freq":112.5,"lat":-2.25745600,"lon":-78.11012200,"rng_nm":130,"alt_fmsl":3625,"id":"MSV","desc":"MACAS VOR-DME"},
+{"type":"NDB","hdg_t":160.3,"dist_nm":88.5,"freq":405,"lat":-2.30341667,"lon":-78.12083333,"rng_nm":50,"alt_fmsl":0,"id":"MAS","desc":"MACAS NDB"},
+{"type":"NDB","hdg_t":227,"dist_nm":97.9,"freq":365,"lat":-2.02500000,"lon":-79.80888900,"rng_nm":150,"alt_fmsl":0,"id":"PAL","desc":"PALMA NDB"}
+]
+}

@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SPIM","name":"Jorge Chavez Intl","lat":-12.021889,"lon":-77.114321,"rwys":1,"ils":1,"index":1676159,"path":"w080s20/w078s13"
+,"runways":[
+{"len_m":3507,"wid_m":45.11,"hdg":154,"surf":"Concrete","rwy1":"15","lat1":-12.00762800,"lon1":-77.12135300,"rwy2":"33","lat2":-12.03615000,"lon2":-77.10728900}
+]
+,"radios":[
+{"type":"ATIS","freq":127.9,"desc":"ATIS"},
+{"type":"CLD","freq":118.5,"desc":"LIMA CLNC DEL"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"LIMA TWR"},
+{"type":"TWR","freq":126.9,"desc":"LIMA TWR"},
+{"type":"APP","freq":119.7,"desc":"LIMA APP"},
+{"type":"APP","freq":126.6,"desc":"LIMA APP"},
+{"type":"APP","freq":121.5,"desc":"LIMA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":-12.03763900,"lon":-77.10655600,"rng_nm":18,"alt_fmsl":183,"hdg":154.25,"id":"JCH","rwy":"15","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":-12.00855000,"lon":-77.12287800,"rng_nm":10,"alt_fmsl":118,"id":"JCH","rwy":"15","desc":"GS","gs":2.7},
+{"type":"DME","freq":109.7,"lat":-12.01058300,"lon":-77.12091700,"rng_nm":18,"alt_fmsl":113,"id":"JCH","rwy":"15","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":327.9,"dist_nm":0.9,"freq":113.8,"lat":-12.00861100,"lon":-77.12277800,"rng_nm":80,"alt_fmsl":100,"id":"LIM","desc":"LIMA VOR-DME"},
+{"type":"VOR","hdg_t":328.9,"dist_nm":51.1,"freq":114.7,"lat":-11.28762500,"lon":-77.56250300,"rng_nm":150,"alt_fmsl":324,"id":"SLS","desc":"SALINAS VOR-DME"},
+{"type":"VOR","hdg_t":145.9,"dist_nm":53.2,"freq":115.3,"lat":-12.76055600,"lon":-76.60638900,"rng_nm":50,"alt_fmsl":186,"id":"ASI","desc":"ASIA VOR-DME"},
+{"type":"NDB","hdg_t":152.9,"dist_nm":115,"freq":355,"lat":-13.73666700,"lon":-76.21888900,"rng_nm":50,"alt_fmsl":39,"id":"SCO","desc":"PISCO NDB"},
+{"type":"VOR","hdg_t":152.8,"dist_nm":115.3,"freq":114.1,"lat":-13.73888900,"lon":-76.21305600,"rng_nm":40,"alt_fmsl":100,"id":"SCO","desc":"PISCO VOR-DME"},
+{"type":"NDB","hdg_t":22.7,"dist_nm":138.7,"freq":310,"lat":-9.87888900,"lon":-76.20750000,"rng_nm":120,"alt_fmsl":0,"id":"NUC","desc":"HUANUCO NDB"},
+{"type":"NDB","hdg_t":349.8,"dist_nm":162,"freq":415,"lat":-9.35066700,"lon":-77.59797200,"rng_nm":120,"alt_fmsl":9022,"id":"ATA","desc":"ANTA NDB"},
+{"type":"NDB","hdg_t":22,"dist_nm":175.4,"freq":385,"lat":-9.29645800,"lon":-76.00475000,"rng_nm":120,"alt_fmsl":0,"id":"TGM","desc":"TINGO MARIA NDB"},
+{"type":"NDB","hdg_t":111.8,"dist_nm":183.5,"freq":370,"lat":-13.15194400,"lon":-74.20527800,"rng_nm":150,"alt_fmsl":8994,"id":"AYA","desc":"AYACUCHO NDB"},
+{"type":"VOR","hdg_t":115.2,"dist_nm":189,"freq":116.9,"lat":-13.35618100,"lon":-74.19127200,"rng_nm":40,"alt_fmsl":14192,"id":"TOC","desc":"TOCTO VOR"}
+]
+}

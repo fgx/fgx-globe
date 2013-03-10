@@ -1,0 +1,40 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SCEL","name":"Arturo Merino Benitez Intl","lat":-33.389775005,"lon":-70.794365975,"rwys":2,"ils":2,"index":1789472,"path":"w080s40/w071s34"
+,"runways":[
+{"len_m":3800,"wid_m":45.11,"hdg":177,"surf":"Asphalt","rwy1":"17R","lat1":-33.37195000,"lon1":-70.80371667,"rwy2":"35L","lat2":-33.40618056,"lon2":-70.80188056},
+{"len_m":3198,"wid_m":54.86,"hdg":177,"surf":"Asphalt","rwy1":"17L","lat1":-33.37608056,"lon1":-70.78670833,"rwy2":"35R","lat2":-33.40488889,"lon2":-70.78515833}
+]
+,"radios":[
+{"type":"ATIS","freq":132.1,"desc":"ATIS"},
+{"type":"CLD","freq":121.7,"desc":"CLNC DEL"},
+{"type":"GND","freq":122.2,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"SANTIAGO TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-33.41145300,"lon":-70.78480600,"rng_nm":18,"alt_fmsl":1558,"hdg":177.43,"id":"IUEL","rwy":"17L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.1,"lat":-33.40805600,"lon":-70.80166700,"rng_nm":18,"alt_fmsl":1550,"hdg":177.29,"id":"IMER","rwy":"17R","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-33.37888900,"lon":-70.78500000,"rng_nm":10,"alt_fmsl":1548,"id":"IUEL","rwy":"17L","desc":"GS","gs":3},
+{"type":"GS","freq":111.1,"lat":-33.37444400,"lon":-70.80472200,"rng_nm":10,"alt_fmsl":1548,"id":"IMER","rwy":"17R","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-33.30494400,"lon":-70.78969700,"rng_nm":0,"alt_fmsl":1558,"id":"----","rwy":"17L","desc":"OM"},
+{"type":"IM","freq":0,"lat":-33.37284400,"lon":-70.78722800,"rng_nm":0,"alt_fmsl":1558,"id":"----","rwy":"17L","desc":"IM"},
+{"type":"DME","freq":110.3,"lat":-33.37888900,"lon":-70.78500000,"rng_nm":18,"alt_fmsl":1554,"id":"IUEL","rwy":"17L","desc":"DME-ILS"},
+{"type":"DME","freq":111.1,"lat":-33.37444400,"lon":-70.80472200,"rng_nm":18,"alt_fmsl":1548,"id":"IMER","rwy":"17R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":193.2,"dist_nm":1.5,"freq":117.2,"lat":-33.41472200,"lon":-70.80138900,"rng_nm":25,"alt_fmsl":1545,"id":"PDH","desc":"PUDAHUEL VOR-DME"},
+{"type":"VOR","hdg_t":164.3,"dist_nm":1.8,"freq":116.1,"lat":-33.41973600,"lon":-70.78438100,"rng_nm":130,"alt_fmsl":1572,"id":"AMB","desc":"SANTIAGO VOR-DME"},
+{"type":"NDB","hdg_t":2.4,"dist_nm":5,"freq":220,"lat":-33.30487500,"lon":-70.79003300,"rng_nm":25,"alt_fmsl":0,"id":"UE","desc":"LO CASTRO NDB"},
+{"type":"VOR","hdg_t":145.7,"dist_nm":8.1,"freq":112.3,"lat":-33.50219400,"lon":-70.70290800,"rng_nm":130,"alt_fmsl":1684,"id":"STI","desc":"LOS CERRILLOS VOR-DME"},
+{"type":"NDB","hdg_t":174.9,"dist_nm":11.7,"freq":323,"lat":-33.58533300,"lon":-70.77366700,"rng_nm":25,"alt_fmsl":0,"id":"CHE","desc":"CHENA NDB"},
+{"type":"NDB","hdg_t":201.5,"dist_nm":18.8,"freq":240,"lat":-33.68305600,"lon":-70.93277800,"rng_nm":25,"alt_fmsl":0,"id":"TAL","desc":"TALAGANTE NDB"},
+{"type":"NDB","hdg_t":231.1,"dist_nm":27.5,"freq":317,"lat":-33.67750000,"lon":-71.22305600,"rng_nm":50,"alt_fmsl":541,"id":"PIL","desc":"MELIPILLA NDB"},
+{"type":"VOR","hdg_t":355.6,"dist_nm":28.3,"freq":113.9,"lat":-32.91833300,"lon":-70.83722200,"rng_nm":130,"alt_fmsl":4270,"id":"TBN","desc":"TABON VOR-DME"},
+{"type":"NDB","hdg_t":248.9,"dist_nm":43.9,"freq":355,"lat":-33.65111100,"lon":-71.61277800,"rng_nm":150,"alt_fmsl":245,"id":"SNO","desc":"SANTO DOMINGO NDB"},
+{"type":"NDB","hdg_t":302.8,"dist_nm":44.4,"freq":390,"lat":-32.98565300,"lon":-71.53391100,"rng_nm":25,"alt_fmsl":609,"id":"SAL","desc":"SALINAS NDB"},
+{"type":"VOR","hdg_t":247.9,"dist_nm":44.5,"freq":113.7,"lat":-33.66583300,"lon":-71.61944400,"rng_nm":130,"alt_fmsl":245,"id":"SNO","desc":"SANTO DOMINGO VOR-DME"},
+{"type":"NDB","hdg_t":317.5,"dist_nm":52.6,"freq":384,"lat":-32.73888900,"lon":-71.49666700,"rng_nm":85,"alt_fmsl":46,"id":"ERO","desc":"QUINTERO NDB"},
+{"type":"VOR","hdg_t":317.5,"dist_nm":52.6,"freq":113.3,"lat":-32.73861100,"lon":-71.49611100,"rng_nm":130,"alt_fmsl":246,"id":"VTN","desc":"VENTANAS VOR-DME"},
+{"type":"VOR","hdg_t":192.3,"dist_nm":96.8,"freq":114.7,"lat":-34.96777800,"lon":-71.21583300,"rng_nm":130,"alt_fmsl":6036,"id":"ICO","desc":"CURICO VOR-DME"},
+{"type":"NDB","hdg_t":193.4,"dist_nm":98,"freq":270,"lat":-34.98111100,"lon":-71.25555600,"rng_nm":150,"alt_fmsl":0,"id":"ICO","desc":"CURICO NDB"}
+]
+}

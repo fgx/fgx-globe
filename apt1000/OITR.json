@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OITR","name":"Uromiyeh","lat":37.6681205,"lon":45.0687055,"rwys":1,"ils":1,"index":3694568,"path":"e040n30/e045n37"
+,"runways":[
+{"len_m":3248,"wid_m":45.11,"hdg":32,"surf":"Asphalt","rwy1":"03","lat1":37.65584700,"lon1":45.05867800,"rwy2":"21","lat2":37.68039400,"lon2":45.07873300}
+]
+,"radios":[
+{"type":"ATIS","freq":127.25,"desc":"ATIS"},
+{"type":"TWR","freq":121.9,"desc":"TWR"},
+{"type":"TWR","freq":118.25,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":108.9,"lat":37.65336100,"lon":45.05655600,"rng_nm":18,"alt_fmsl":4343,"hdg":212.99,"id":"IUMH","rwy":"21","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.9,"lat":37.67875000,"lon":45.07577800,"rng_nm":10,"alt_fmsl":4274,"id":"IUMH","rwy":"21","desc":"GS","gs":3},
+{"type":"DME","freq":108.9,"lat":37.67875000,"lon":45.07577800,"rng_nm":18,"alt_fmsl":4275,"id":"IUMH","rwy":"21","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":246.9,"dist_nm":0.4,"freq":370,"lat":37.66550000,"lon":45.06094400,"rng_nm":75,"alt_fmsl":4343,"id":"UMH","desc":"UROMIYEH NDB"},
+{"type":"VOR","hdg_t":33,"dist_nm":1.3,"freq":113.5,"lat":37.68719400,"lon":45.08433300,"rng_nm":130,"alt_fmsl":4265,"id":"UMH","desc":"UROMIYEH VOR-DME"},
+{"type":"NDB","hdg_t":354.1,"dist_nm":45.8,"freq":288,"lat":38.42969400,"lon":44.96911100,"rng_nm":25,"alt_fmsl":0,"id":"KHY","desc":"KHOY NDB"},
+{"type":"NDB","hdg_t":110.3,"dist_nm":54.7,"freq":363,"lat":37.34602800,"lon":46.14275000,"rng_nm":25,"alt_fmsl":4382,"id":"SHD","desc":"SAHAND NDB-DME"},
+{"type":"SDME","hdg_t":110.3,"dist_nm":54.7,"freq":116,"lat":37.34602800,"lon":46.14275000,"rng_nm":25,"alt_fmsl":4382,"id":"SHD","desc":"SAHAND NDB-DME"},
+{"type":"NDB","hdg_t":63.6,"dist_nm":61.8,"freq":300,"lat":38.12016700,"lon":46.24055600,"rng_nm":25,"alt_fmsl":4432,"id":"TBZ","desc":"TABRIZ NDB"},
+{"type":"VOR","hdg_t":62.5,"dist_nm":61.9,"freq":112,"lat":38.13908300,"lon":46.23088900,"rng_nm":130,"alt_fmsl":4490,"id":"TBZ","desc":"TABRIZ VORTAC"},
+{"type":"NDB","hdg_t":12.2,"dist_nm":91.8,"freq":493,"lat":39.16508300,"lon":45.48594400,"rng_nm":50,"alt_fmsl":0,"id":"NO","desc":"NAKHCHIVAN NDB"},
+{"type":"NDB","hdg_t":9.7,"dist_nm":94.7,"freq":680,"lat":39.22591700,"lon":45.41433300,"rng_nm":80,"alt_fmsl":0,"id":"NT","desc":"NAKHCHIVAN NDB"},
+{"type":"NDB","hdg_t":300.7,"dist_nm":95,"freq":397,"lat":38.46737800,"lon":43.33560300,"rng_nm":75,"alt_fmsl":5474,"id":"VAN","desc":"VAN NDB"},
+{"type":"VOR","hdg_t":300.5,"dist_nm":95.4,"freq":115.2,"lat":38.46519200,"lon":43.32507800,"rng_nm":130,"alt_fmsl":5440,"id":"VAN","desc":"VAN VOR-DME"},
+{"type":"NDB","hdg_t":38,"dist_nm":97.1,"freq":787,"lat":38.93888900,"lon":46.34722200,"rng_nm":50,"alt_fmsl":0,"id":"MGR","desc":"MEGRI NDB"}
+]
+}

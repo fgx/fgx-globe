@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VOHY","name":"Hyderabad","lat":17.453253,"lon":78.469092,"rwys":1,"ils":1,"index":4233947,"path":"e070n10/e078n17"
+,"runways":[
+{"len_m":3229,"wid_m":45.11,"hdg":88,"surf":"Asphalt","rwy1":"09","lat1":17.45295300,"lon1":78.45389200,"rwy2":"27","lat2":17.45355300,"lon2":78.48429200}
+]
+,"radios":[
+{"type":"ATIS","freq":126.8,"desc":"ATIS"},
+{"type":"TWR","freq":122.25,"desc":"TWR"},
+{"type":"APP","freq":132.4,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":17.45300000,"lon":78.45144400,"rng_nm":18,"alt_fmsl":1742,"hdg":268.98,"id":"IHYD","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":17.45411100,"lon":78.47422200,"rng_nm":10,"alt_fmsl":1742,"id":"IHYD","rwy":"27","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":17.45466700,"lon":78.55975000,"rng_nm":0,"alt_fmsl":1742,"id":"----","rwy":"27","desc":"OM"},
+{"type":"MM","freq":0,"lat":17.45383300,"lon":78.49116700,"rng_nm":0,"alt_fmsl":1742,"id":"----","rwy":"27","desc":"MM"},
+{"type":"DME","freq":110.1,"lat":17.45411100,"lon":78.47422200,"rng_nm":18,"alt_fmsl":1742,"id":"IHYD","rwy":"27","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":276.1,"dist_nm":0.6,"freq":114.7,"lat":17.45444400,"lon":78.45750000,"rng_nm":130,"alt_fmsl":1741,"id":"HHY","desc":"HYDERABAD VOR-DME"},
+{"type":"NDB","hdg_t":346.4,"dist_nm":13.1,"freq":327,"lat":17.66769700,"lon":78.41533600,"rng_nm":50,"alt_fmsl":0,"id":"DG","desc":"DUNDIGUL NDB"},
+{"type":"NDB","hdg_t":258.1,"dist_nm":34.4,"freq":321,"lat":17.33438900,"lon":77.88166700,"rng_nm":50,"alt_fmsl":0,"id":"VB","desc":"VIKARABAD NDB"},
+{"type":"NDB","hdg_t":296.6,"dist_nm":62.1,"freq":240,"lat":17.91766900,"lon":77.49878600,"rng_nm":50,"alt_fmsl":0,"id":"BR","desc":"BIDAR NDB"},
+{"type":"VOR","hdg_t":265.2,"dist_nm":95.9,"freq":116,"lat":17.31355600,"lon":76.80305600,"rng_nm":40,"alt_fmsl":1460,"id":"GGB","desc":"GULBARGA VOR-DME"},
+{"type":"NDB","hdg_t":97.2,"dist_nm":96.7,"freq":340,"lat":17.24274400,"lon":80.14011700,"rng_nm":75,"alt_fmsl":0,"id":"KM","desc":"KHAMAMPET NDB"},
+{"type":"NDB","hdg_t":112.2,"dist_nm":144.4,"freq":393,"lat":16.52391700,"lon":80.78809700,"rng_nm":50,"alt_fmsl":0,"id":"BZ","desc":"VIJAYAWADA NDB"},
+{"type":"VOR","hdg_t":112.2,"dist_nm":144.8,"freq":116.2,"lat":16.52083300,"lon":80.79416700,"rng_nm":130,"alt_fmsl":82,"id":"BBZ","desc":"VIJAYAWADA VOR-DME"},
+{"type":"VOR","hdg_t":214,"dist_nm":164.6,"freq":112.8,"lat":15.16511100,"lon":76.88055600,"rng_nm":130,"alt_fmsl":30,"id":"BBI","desc":"BELLARY VOR-DME"},
+{"type":"NDB","hdg_t":213.9,"dist_nm":164.7,"freq":310,"lat":15.15888900,"lon":76.88611100,"rng_nm":25,"alt_fmsl":30,"id":"BI","desc":"BELLARY NDB"}
+]
+}

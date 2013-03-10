@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ENKR","name":"Hoybuktmoen","lat":69.7252152,"lon":29.89079978,"rwys":1,"ils":1,"index":3434473,"path":"e020n60/e029n69"
+,"runways":[
+{"len_m":1894,"wid_m":45.11,"hdg":69,"surf":"Asphalt","rwy1":"06","lat1":69.72218220,"lon1":29.86793578,"rwy2":"24","lat2":69.72824820,"lon2":29.91366378}
+]
+,"radios":[
+{"type":"ATIS","freq":118.02,"desc":"ATIS"},
+{"type":"TWR","freq":118.1,"desc":"KIRKENES TWR"},
+{"type":"TWR","freq":120.35,"desc":"KIRKENES TWR"},
+{"type":"TWR","freq":122.1,"desc":"KIRKENES TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":69.72192800,"lon":29.86414400,"rng_nm":18,"alt_fmsl":283,"hdg":249.76,"id":"KR","rwy":"24","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":69.72560600,"lon":29.90168900,"rng_nm":10,"alt_fmsl":283,"id":"KR","rwy":"24","desc":"GS","gs":3.4},
+{"type":"OM","freq":0,"lat":69.75077500,"lon":30.11448600,"rng_nm":0,"alt_fmsl":283,"id":"----","rwy":"24","desc":"OM"},
+{"type":"MM","freq":0,"lat":69.73092200,"lon":29.93218300,"rng_nm":0,"alt_fmsl":283,"id":"----","rwy":"24","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":259.2,"dist_nm":0.4,"freq":112,"lat":69.72379200,"lon":29.86911100,"rng_nm":130,"alt_fmsl":303,"id":"KIK","desc":"KIRKENES VOR-DME"},
+{"type":"NDB","hdg_t":71.6,"dist_nm":4.9,"freq":326,"lat":69.75077500,"lon":30.11448600,"rng_nm":25,"alt_fmsl":330,"id":"KKS","desc":"KIRKENES NDB"},
+{"type":"NDB","hdg_t":359.5,"dist_nm":20.5,"freq":342,"lat":70.06562200,"lon":29.88299200,"rng_nm":25,"alt_fmsl":0,"id":"VD","desc":"VADSO NDB"},
+{"type":"VOR","hdg_t":31.4,"dist_nm":44.9,"freq":114.1,"lat":70.35764400,"lon":31.04723600,"rng_nm":130,"alt_fmsl":58,"id":"VRD","desc":"VARDO VOR-DME"},
+{"type":"VOR","hdg_t":310,"dist_nm":48.4,"freq":113.6,"lat":70.23425600,"lon":28.07019400,"rng_nm":130,"alt_fmsl":941,"id":"SDA","desc":"SEIDA VOR-DME"},
+{"type":"NDB","hdg_t":356.1,"dist_nm":53.2,"freq":348,"lat":70.60721900,"lon":29.71293300,"rng_nm":25,"alt_fmsl":0,"id":"BX","desc":"BATSFJORD NDB"},
+{"type":"NDB","hdg_t":346.6,"dist_nm":71.2,"freq":399,"lat":70.87346900,"lon":29.05605300,"rng_nm":25,"alt_fmsl":0,"id":"BV","desc":"BERLEVAG NDB"},
+{"type":"NDB","hdg_t":218.7,"dist_nm":79.6,"freq":432,"lat":68.67838900,"lon":27.61462800,"rng_nm":30,"alt_fmsl":0,"id":"AKU","desc":"AKUJARVI NDB"},
+{"type":"NDB","hdg_t":131.1,"dist_nm":80.4,"freq":635,"lat":68.82416534,"lon":32.67233276,"rng_nm":80,"alt_fmsl":314,"id":"PF","desc":"MURMANSK NDB"},
+{"type":"NDB","hdg_t":132,"dist_nm":86,"freq":635,"lat":68.74333300,"lon":32.81833300,"rng_nm":80,"alt_fmsl":0,"id":"RD","desc":"MURMANSK NDB"},
+{"type":"NDB","hdg_t":333,"dist_nm":89.2,"freq":353,"lat":71.03441700,"lon":27.82977800,"rng_nm":25,"alt_fmsl":0,"id":"MH","desc":"MEHAMN NDB"},
+{"type":"VOR","hdg_t":215.5,"dist_nm":92.8,"freq":115.8,"lat":68.45399700,"lon":27.45151400,"rng_nm":130,"alt_fmsl":1340,"id":"KNS","desc":"KAUNIS VOR-DME"}
+]
+}

@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UWKS","name":"Cheboksary","lat":56.0902685,"lon":47.3472515,"rwys":1,"ils":2,"index":3728513,"path":"e040n50/e047n56"
+,"runways":[
+{"len_m":2512,"wid_m":49.07,"hdg":71,"surf":"Asphalt","rwy1":"06","lat1":56.08678100,"lon1":47.32805600,"rwy2":"24","lat2":56.09375600,"lon2":47.36644700}
+]
+,"radios":[
+{"type":"TWR","freq":119.3,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":56.09449200,"lon":47.37039200,"rng_nm":18,"alt_fmsl":560,"hdg":71.94,"id":"ILA","rwy":"06","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.3,"lat":56.08510300,"lon":47.31923100,"rng_nm":18,"alt_fmsl":560,"hdg":251.80,"id":"ICR","rwy":"24","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":56.08877200,"lon":47.33035600,"rng_nm":10,"alt_fmsl":560,"id":"ILA","rwy":"06","desc":"GS","gs":3},
+{"type":"GS","freq":108.3,"lat":56.09419700,"lon":47.36123900,"rng_nm":10,"alt_fmsl":560,"id":"ICR","rwy":"24","desc":"GS","gs":2.7},
+{"type":"OM","freq":0,"lat":56.07333300,"lon":47.26166700,"rng_nm":0,"alt_fmsl":560,"id":"----","rwy":"06","desc":"OM"},
+{"type":"OM","freq":0,"lat":56.10500000,"lon":47.42833300,"rng_nm":0,"alt_fmsl":560,"id":"----","rwy":"24","desc":"OM"},
+{"type":"MM","freq":0,"lat":56.08333300,"lon":47.31333300,"rng_nm":0,"alt_fmsl":560,"id":"----","rwy":"06","desc":"MM"},
+{"type":"MM","freq":0,"lat":56.09666700,"lon":47.38500000,"rng_nm":0,"alt_fmsl":560,"id":"----","rwy":"24","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":71.9,"dist_nm":2.8,"freq":510,"lat":56.10500000,"lon":47.42833300,"rng_nm":80,"alt_fmsl":0,"id":"CR","desc":"CHEBOKSARY NDB"},
+{"type":"NDB","hdg_t":250.5,"dist_nm":3,"freq":510,"lat":56.07333300,"lon":47.26166700,"rng_nm":80,"alt_fmsl":0,"id":"LA","desc":"CHEBOKSARY NDB"},
+{"type":"NDB","hdg_t":221.7,"dist_nm":45.9,"freq":215,"lat":55.51666700,"lon":46.45000000,"rng_nm":80,"alt_fmsl":0,"id":"QM","desc":"SHUMERLYA NDB"},
+{"type":"NDB","hdg_t":112.7,"dist_nm":68.5,"freq":292,"lat":55.63500000,"lon":49.20666700,"rng_nm":50,"alt_fmsl":0,"id":"PS","desc":"KAZAN NDB"},
+{"type":"NDB","hdg_t":112.8,"dist_nm":68.6,"freq":475,"lat":55.63166700,"lon":49.20833300,"rng_nm":80,"alt_fmsl":0,"id":"AM","desc":"KAZAN NDB"},
+{"type":"NDB","hdg_t":337.6,"dist_nm":71.2,"freq":643,"lat":57.18333300,"lon":46.51666700,"rng_nm":80,"alt_fmsl":0,"id":"RZ","desc":"SHARANGA NDB"},
+{"type":"VOR","hdg_t":113.3,"dist_nm":71.3,"freq":112.7,"lat":55.60500000,"lon":49.27166700,"rng_nm":130,"alt_fmsl":409,"id":"KZN","desc":"KAZAN VOR-DME"},
+{"type":"NDB","hdg_t":154.3,"dist_nm":73.5,"freq":825,"lat":54.98333300,"lon":48.26666700,"rng_nm":80,"alt_fmsl":0,"id":"YK","desc":"BUINSK NDB"},
+{"type":"NDB","hdg_t":113.5,"dist_nm":74.6,"freq":292,"lat":55.57833300,"lon":49.35833300,"rng_nm":25,"alt_fmsl":407,"id":"DJ","desc":"KAZAN NDB"},
+{"type":"NDB","hdg_t":113.5,"dist_nm":74.6,"freq":475,"lat":55.57666700,"lon":49.35666700,"rng_nm":80,"alt_fmsl":0,"id":"BL","desc":"KAZAN NDB"},
+{"type":"NDB","hdg_t":266.9,"dist_nm":78,"freq":564,"lat":56.00000000,"lon":45.03333300,"rng_nm":80,"alt_fmsl":0,"id":"OK","desc":"LYSKOVO NDB"},
+{"type":"NDB","hdg_t":199.1,"dist_nm":80.8,"freq":696,"lat":54.81666700,"lon":46.58333300,"rng_nm":80,"alt_fmsl":0,"id":"BT","desc":"ALATYR NDB"},
+{"type":"NDB","hdg_t":250,"dist_nm":88,"freq":905,"lat":55.56666700,"lon":44.91666700,"rng_nm":80,"alt_fmsl":0,"id":"UD","desc":"BUTURLINO NDB"}
+]
+}

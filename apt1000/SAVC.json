@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SAVC","name":"Comodoro Rivadavia","lat":-45.785349,"lon":-67.465561,"rwys":1,"ils":1,"index":1837834,"path":"w070s50/w068s46"
+,"runways":[
+{"len_m":2832,"wid_m":49.99,"hdg":79,"surf":"Concrete","rwy1":"07","lat1":-45.78778100,"lon1":-67.48343600,"rwy2":"25","lat2":-45.78291700,"lon2":-67.44768600}
+]
+,"radios":[
+{"type":"TWR","freq":119.9,"desc":"COMODORO TWR"},
+{"type":"TWR","freq":120.8,"desc":"COMODORO TWR"},
+{"type":"APP","freq":124.3,"desc":"COMODORO CON"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-45.78805600,"lon":-67.48694400,"rng_nm":18,"alt_fmsl":190,"hdg":259.38,"id":"CR","rwy":"25","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.3,"lat":-45.78213900,"lon":-67.45236100,"rng_nm":10,"alt_fmsl":190,"id":"CR","rwy":"25","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-45.77477800,"lon":-67.36441700,"rng_nm":0,"alt_fmsl":190,"id":"----","rwy":"25","desc":"OM"},
+{"type":"MM","freq":0,"lat":-45.78144400,"lon":-67.43275000,"rng_nm":0,"alt_fmsl":190,"id":"----","rwy":"25","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":80.3,"dist_nm":1.3,"freq":280,"lat":-45.78144400,"lon":-67.43275000,"rng_nm":25,"alt_fmsl":190,"id":"C","desc":"COMODORO RIVADAVIA NDB"},
+{"type":"VOR","hdg_t":79.6,"dist_nm":4,"freq":117.5,"lat":-45.77333300,"lon":-67.37166700,"rng_nm":178,"alt_fmsl":189,"id":"CRV","desc":"COMODORO RIVADAVIA VOR-DME"},
+{"type":"NDB","hdg_t":271.3,"dist_nm":117.6,"freq":290,"lat":-45.70472200,"lon":-70.26277800,"rng_nm":810,"alt_fmsl":1788,"id":"RMY","desc":"RIO MAYO NDB"},
+{"type":"NDB","hdg_t":151.7,"dist_nm":133.3,"freq":210,"lat":-47.73333300,"lon":-65.90944400,"rng_nm":162,"alt_fmsl":266,"id":"ADO","desc":"PUERTO DESEADO NDB"},
+{"type":"NDB","hdg_t":286.9,"dist_nm":148.3,"freq":310,"lat":-45.01638900,"lon":-70.80111100,"rng_nm":162,"alt_fmsl":2287,"id":"ARS","desc":"ALTO RIO SENGUERR NDB"},
+{"type":"NDB","hdg_t":251.6,"dist_nm":153.5,"freq":335,"lat":-46.53638900,"lon":-70.98611100,"rng_nm":232,"alt_fmsl":1411,"id":"PTM","desc":"PERITO MORENO NDB"},
+{"type":"NDB","hdg_t":308.2,"dist_nm":163.5,"freq":250,"lat":-44.05805600,"lon":-70.43444400,"rng_nm":162,"alt_fmsl":2398,"id":"JSM","desc":"JOSE DE SAN MARTIN NDB"},
+{"type":"NDB","hdg_t":265.8,"dist_nm":177.6,"freq":390,"lat":-45.91944400,"lon":-71.69833300,"rng_nm":200,"alt_fmsl":0,"id":"BAL","desc":"BALMACEDA NDB"},
+{"type":"VOR","hdg_t":266,"dist_nm":178.2,"freq":115.5,"lat":-45.91305600,"lon":-71.71277800,"rng_nm":130,"alt_fmsl":1719,"id":"BAL","desc":"BALMACEDA VOR-DME"},
+{"type":"VOR","hdg_t":32.3,"dist_nm":181.8,"freq":115.1,"lat":-43.20250000,"lon":-65.24722200,"rng_nm":185,"alt_fmsl":141,"id":"TRE","desc":"TRELEW VOR-DME"}
+]
+}

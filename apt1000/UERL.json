@@ -1,0 +1,36 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UERL","name":"Lensk","lat":60.72280673,"lon":114.82878964,"rwys":2,"ils":1,"index":4826539,"path":"e110n60/e114n60"
+,"runways":[
+{"len_m":2008,"wid_m":79.86,"hdg":59,"surf":"Dirt","rwy1":"07R","lat1":60.71794325,"lon1":114.80841586,"rwy2":"25L","lat2":60.72721475,"lon2":114.83996828},
+{"len_m":1756,"wid_m":54.86,"hdg":59,"surf":"Turf/grass","rwy1":"07L","lat1":60.71905655,"lon1":114.80949463,"rwy2":"25R","lat2":60.72716715,"lon2":114.83709980}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":29,"wid_m":29.87,"hdg":114,"surf":"Concrete","lat1":60.72278794,"lon1":114.83067240},
+{"rwy1":"H2","len_m":29,"wid_m":29.87,"hdg":114,"surf":"Concrete","lat1":60.72251139,"lon1":114.83101534},
+{"rwy1":"H3","len_m":31,"wid_m":29.87,"hdg":114,"surf":"Concrete","lat1":60.72278756,"lon1":114.83194613},
+{"rwy1":"H4","len_m":31,"wid_m":29.87,"hdg":114,"surf":"Concrete","lat1":60.72306264,"lon1":114.83161468}
+]
+,"radios":[
+{"type":"CTAF","freq":128.8,"desc":"Multicomm"},
+{"type":"GND","freq":124,"desc":"Lensk Ground"},
+{"type":"TWR","freq":128.7,"desc":"Lensk Tower"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":60.71666718,"lon":114.80416870,"rng_nm":50,"alt_fmsl":835,"hdg":238.93,"id":"IIG","rwy":"25L","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":60.72566605,"lon":114.83750153,"rng_nm":50,"alt_fmsl":835,"id":"IIG","rwy":"25L","desc":"GS","gs":2.4},
+{"type":"OM","freq":0,"lat":60.74381638,"lon":114.89666748,"rng_nm":0,"alt_fmsl":835,"id":"----","rwy":"25L","desc":"OM"},
+{"type":"IM","freq":0,"lat":60.73099899,"lon":114.85316467,"rng_nm":0,"alt_fmsl":835,"id":"----","rwy":"25L","desc":"IM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":57.8,"dist_nm":2.3,"freq":678,"lat":60.74366760,"lon":114.89666748,"rng_nm":80,"alt_fmsl":660,"id":"IG","desc":"LENSK NDB"},
+{"type":"NDB","hdg_t":223.3,"dist_nm":102.2,"freq":365,"lat":59.46666700,"lon":112.53333300,"rng_nm":80,"alt_fmsl":0,"id":"WT","desc":"VITIM NDB"},
+{"type":"NDB","hdg_t":347.2,"dist_nm":110.4,"freq":385,"lat":62.51000000,"lon":113.95500000,"rng_nm":80,"alt_fmsl":0,"id":"NZ","desc":"MIRNY NDB"},
+{"type":"NDB","hdg_t":347.9,"dist_nm":110.8,"freq":770,"lat":62.52208328,"lon":113.99833679,"rng_nm":50,"alt_fmsl":1157,"id":"N","desc":"Mirny NDB"},
+{"type":"VOR","hdg_t":348.3,"dist_nm":111.7,"freq":113.8,"lat":62.54000000,"lon":114.02000000,"rng_nm":40,"alt_fmsl":1283,"id":"DEM","desc":"MIRNY VOR-DME"},
+{"type":"NDB","hdg_t":349.2,"dist_nm":111.8,"freq":770,"lat":62.54591751,"lon":114.07505035,"rng_nm":50,"alt_fmsl":1110,"id":"S","desc":"Mirny NDB"},
+{"type":"NDB","hdg_t":349.9,"dist_nm":112.4,"freq":385,"lat":62.56166700,"lon":114.12166700,"rng_nm":80,"alt_fmsl":0,"id":"SG","desc":"MIRNY NDB"},
+{"type":"NDB","hdg_t":203.1,"dist_nm":156.4,"freq":420,"lat":58.31666700,"lon":112.88333300,"rng_nm":80,"alt_fmsl":0,"id":"RM","desc":"MAMA NDB"},
+{"type":"NDB","hdg_t":93.9,"dist_nm":170.7,"freq":520,"lat":60.40500000,"lon":120.56000000,"rng_nm":80,"alt_fmsl":0,"id":"ON","desc":"OLEKMINSK NDB"},
+{"type":"NDB","hdg_t":186.5,"dist_nm":172.8,"freq":405,"lat":57.86666700,"lon":114.21666700,"rng_nm":80,"alt_fmsl":0,"id":"IA","desc":"BODAYBO NDB"}
+]
+}

@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LMML","name":"La Valette Luqa","lat":35.84947705,"lon":14.481835825,"rwys":2,"ils":2,"index":3186545,"path":"e010n30/e014n35"
+,"runways":[
+{"len_m":3545,"wid_m":60.05,"hdg":134,"surf":"Asphalt","rwy1":"14","lat1":35.85645167,"lon1":14.47886019,"rwy2":"32","lat2":35.83396873,"lon2":14.50675119},
+{"len_m":2375,"wid_m":45.11,"hdg":54,"surf":"Asphalt","rwy1":"6","lat1":35.84752481,"lon1":14.46016449,"rwy2":"24","lat2":35.85996298,"lon2":14.48156742}
+]
+,"radios":[
+{"type":"ATIS","freq":127.4,"desc":"ATIS"},
+{"type":"CLD","freq":133.9,"desc":"APRON"},
+{"type":"TWR","freq":135.1,"desc":"TWR"},
+{"type":"APP","freq":128.15,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":35.83363900,"lon":14.50705600,"rng_nm":18,"alt_fmsl":230,"hdg":134.95,"id":"LQ","rwy":"14","desc":"ILS-cat-II"},
+{"type":"ILS","freq":110.5,"lat":35.85930600,"lon":14.47527800,"rng_nm":18,"alt_fmsl":256,"hdg":314.79,"id":"LM","rwy":"32","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":35.85361100,"lon":14.48027800,"rng_nm":10,"alt_fmsl":256,"id":"LQ","rwy":"14","desc":"GS","gs":2.85},
+{"type":"GS","freq":110.5,"lat":35.83361100,"lon":14.50166700,"rng_nm":10,"alt_fmsl":230,"id":"LM","rwy":"32","desc":"GS","gs":2.85}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":354,"dist_nm":0.3,"freq":109.7,"lat":35.85450000,"lon":14.48119400,"rng_nm":25,"alt_fmsl":300,"id":"LQ","desc":"LUQA DME"},
+{"type":"SDME","hdg_t":125.9,"dist_nm":1.2,"freq":110.5,"lat":35.83711100,"lon":14.50275000,"rng_nm":40,"alt_fmsl":300,"id":"LM","desc":"MALTA DME"},
+{"type":"NDB","hdg_t":131.4,"dist_nm":3,"freq":395,"lat":35.81550000,"lon":14.52913900,"rng_nm":999,"alt_fmsl":0,"id":"MLT","desc":"MALTA NDB"},
+{"type":"NDB","hdg_t":47.4,"dist_nm":3.7,"freq":416,"lat":35.89155600,"lon":14.53822200,"rng_nm":300,"alt_fmsl":0,"id":"LQA","desc":"LUQA NDB"},
+{"type":"VOR","hdg_t":309.9,"dist_nm":17.5,"freq":115.7,"lat":36.03733300,"lon":14.20525000,"rng_nm":250,"alt_fmsl":532,"id":"GZO","desc":"GOZO VOR-DME"},
+{"type":"VOR","hdg_t":257.5,"dist_nm":92.8,"freq":108.6,"lat":35.49971400,"lon":12.63083100,"rng_nm":25,"alt_fmsl":92,"id":"LPD","desc":"LAMPEDUSA VOR-DME"},
+{"type":"NDB","hdg_t":257.6,"dist_nm":93.5,"freq":373,"lat":35.50044600,"lon":12.61588800,"rng_nm":50,"alt_fmsl":41,"id":"LPD","desc":"LAMPEDUSA NDB"},
+{"type":"NDB","hdg_t":12.7,"dist_nm":95.3,"freq":297,"lat":37.40006900,"lon":14.92110000,"rng_nm":50,"alt_fmsl":0,"id":"NSY","desc":"NAVY SIGONELLA NDB"},
+{"type":"SDME","hdg_t":12.7,"dist_nm":95.3,"freq":111.2,"lat":37.40031900,"lon":14.92151700,"rng_nm":25,"alt_fmsl":81,"id":"NSY","desc":"NAVY SIGONELLA TACAN"},
+{"type":"NDB","hdg_t":14.1,"dist_nm":95.6,"freq":412,"lat":37.39583300,"lon":14.97111100,"rng_nm":30,"alt_fmsl":54,"id":"SIG","desc":"SIGONELLA NDB"},
+{"type":"SDME","hdg_t":14.1,"dist_nm":95.6,"freq":111.6,"lat":37.39587200,"lon":14.97097500,"rng_nm":130,"alt_fmsl":64,"id":"SIG","desc":"SIGONELLA TACAN"},
+{"type":"NDB","hdg_t":13.4,"dist_nm":99.1,"freq":345,"lat":37.45688300,"lon":14.96570000,"rng_nm":80,"alt_fmsl":0,"id":"CAT","desc":"CATANIA NDB"},
+{"type":"VOR","hdg_t":13.5,"dist_nm":99.1,"freq":112.1,"lat":37.45617500,"lon":14.96931700,"rng_nm":50,"alt_fmsl":217,"id":"CAT","desc":"CATANIA VOR-DME"}
+]
+}

@@ -1,0 +1,43 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"GCTS","name":"Tenerife Sur","lat":28.047541705,"lon":-16.56750855,"rwys":1,"ils":2,"index":2678145,"path":"w020n20/w017n28"
+,"runways":[
+{"len_m":3199,"wid_m":45.11,"hdg":68,"surf":"Asphalt","rwy1":"08","lat1":28.03920303,"lon1":-16.58763669,"rwy2":"26","lat2":28.04974697,"lon2":-16.55733931}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":27,"wid_m":25.91,"hdg":-16,"surf":"Concrete","lat1":28.05060841,"lon1":-16.56252910}
+]
+,"radios":[
+{"type":"ATIS","freq":118.67,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":119,"desc":"TWR"},
+{"type":"APP","freq":120.3,"desc":"APP"},
+{"type":"APP","freq":127.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":28.05042200,"lon":-16.55539400,"rng_nm":18,"alt_fmsl":187,"hdg":68.49,"id":"TRS","rwy":"08","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.9,"lat":28.03823300,"lon":-16.59050000,"rng_nm":18,"alt_fmsl":209,"hdg":248.52,"id":"ISUR","rwy":"26","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":28.03942200,"lon":-16.58365600,"rng_nm":10,"alt_fmsl":209,"id":"TRS","rwy":"08","desc":"GS","gs":3},
+{"type":"GS","freq":110.9,"lat":28.04774200,"lon":-16.56031900,"rng_nm":10,"alt_fmsl":236,"id":"ISUR","rwy":"26","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":28.00514400,"lon":-16.68533900,"rng_nm":0,"alt_fmsl":187,"id":"----","rwy":"08","desc":"OM"},
+{"type":"MM","freq":0,"lat":28.03539200,"lon":-16.59863900,"rng_nm":0,"alt_fmsl":187,"id":"----","rwy":"08","desc":"MM"},
+{"type":"DME","freq":110.9,"lat":28.04774700,"lon":-16.56031400,"rng_nm":18,"alt_fmsl":236,"id":"ISUR","rwy":"26","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":30.2,"dist_nm":0.4,"freq":317,"lat":28.05472200,"lon":-16.56278100,"rng_nm":25,"alt_fmsl":0,"id":"TES","desc":"TENERIFE SUR NDB"},
+{"type":"VOR","hdg_t":247.1,"dist_nm":6.9,"freq":116.4,"lat":28.00244700,"lon":-16.68792800,"rng_nm":25,"alt_fmsl":115,"id":"TFS","desc":"TENERIFE SUR VOR-DME"},
+{"type":"NDB","hdg_t":21.5,"dist_nm":28.5,"freq":420,"lat":28.49187200,"lon":-16.36927700,"rng_nm":22,"alt_fmsl":2029,"id":"FP","desc":"FP NDB"},
+{"type":"VOR","hdg_t":23.5,"dist_nm":28.5,"freq":116.2,"lat":28.48488700,"lon":-16.35153400,"rng_nm":25,"alt_fmsl":2079,"id":"LRO","desc":"LRO VOR-DME"},
+{"type":"NDB","hdg_t":34,"dist_nm":29.2,"freq":410,"lat":28.45248300,"lon":-16.25765300,"rng_nm":30,"alt_fmsl":0,"id":"TX","desc":"TENERIFE NORTE NDB"},
+{"type":"NDB","hdg_t":31.2,"dist_nm":30.4,"freq":621,"lat":28.48283500,"lon":-16.26859200,"rng_nm":400,"alt_fmsl":1670,"id":"RNE","desc":"RNE NDB"},
+{"type":"VOR","hdg_t":28.3,"dist_nm":33.2,"freq":117.7,"lat":28.53683100,"lon":-16.26878300,"rng_nm":130,"alt_fmsl":3360,"id":"TFN","desc":"TENERIFE NORTE VOR-DME"},
+{"type":"VOR","hdg_t":268.2,"dist_nm":34.3,"freq":116,"lat":28.02874200,"lon":-17.21487500,"rng_nm":25,"alt_fmsl":741,"id":"LGM","desc":"LA GOMERA VOR-DME"},
+{"type":"VOR","hdg_t":88,"dist_nm":60.4,"freq":112.9,"lat":28.07708100,"lon":-15.42898600,"rng_nm":45,"alt_fmsl":758,"id":"GDV","desc":"GRAN CANARIA VOR-DME"},
+{"type":"VOR","hdg_t":101.9,"dist_nm":61.7,"freq":115,"lat":27.82853300,"lon":-15.43224700,"rng_nm":130,"alt_fmsl":148,"id":"LPC","desc":"GRAN CANARIA VOR-DME"},
+{"type":"NDB","hdg_t":100.3,"dist_nm":62,"freq":365,"lat":27.85681100,"lon":-15.41988300,"rng_nm":50,"alt_fmsl":0,"id":"VR","desc":"GRAN CANARIA NDB"},
+{"type":"SDME","hdg_t":96.4,"dist_nm":63,"freq":115.6,"lat":27.92341700,"lon":-15.38950000,"rng_nm":90,"alt_fmsl":78,"id":"TGN","desc":"GRAN CANARIA TACAN"},
+{"type":"NDB","hdg_t":298,"dist_nm":71.1,"freq":389,"lat":28.60168600,"lon":-17.75683900,"rng_nm":45,"alt_fmsl":0,"id":"BX","desc":"LA PALMA NDB"},
+{"type":"SDME","hdg_t":298,"dist_nm":71.1,"freq":112.4,"lat":28.60160300,"lon":-17.75658900,"rng_nm":25,"alt_fmsl":184,"id":"BV","desc":"LA PALMA DME"},
+{"type":"NDB","hdg_t":259.1,"dist_nm":71.4,"freq":376,"lat":27.81617200,"lon":-17.88638300,"rng_nm":25,"alt_fmsl":0,"id":"HIE","desc":"HIERRO NDB"},
+{"type":"SDME","hdg_t":259.1,"dist_nm":71.4,"freq":113.2,"lat":27.81605300,"lon":-17.88643300,"rng_nm":10,"alt_fmsl":102,"id":"HR","desc":"HIERRO DME"}
+]
+}

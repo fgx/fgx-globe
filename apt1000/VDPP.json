@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VDPP","name":"Phnom Penh Intl","lat":11.5465415,"lon":104.8441415,"rwys":1,"ils":1,"index":4659558,"path":"e100n10/e104n11"
+,"runways":[
+{"len_m":2985,"wid_m":43.89,"hdg":45,"surf":"Asphalt","rwy1":"05","lat1":11.53713300,"lon1":104.83433300,"rwy2":"23","lat2":11.55595000,"lon2":104.85395000}
+]
+,"radios":[
+{"type":"ATIS","freq":127.25,"desc":"ATIS"},
+{"type":"TWR","freq":118,"desc":"TWR"},
+{"type":"APP","freq":123.8,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":11.53575300,"lon":104.83288300,"rng_nm":18,"alt_fmsl":40,"hdg":225.62,"id":"IPNP","rwy":"23","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":11.55411100,"lon":104.85008900,"rng_nm":10,"alt_fmsl":37,"id":"IPNP","rwy":"23","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":272.9,"dist_nm":0.1,"freq":114.3,"lat":11.54666700,"lon":104.84166700,"rng_nm":50,"alt_fmsl":56,"id":"PNH","desc":"PHNOM PENH VOR-DME"},
+{"type":"NDB","hdg_t":48.5,"dist_nm":3.4,"freq":376,"lat":11.58500000,"lon":104.88833300,"rng_nm":50,"alt_fmsl":0,"id":"PNP","desc":"PHNOM PENH NDB"},
+{"type":"NDB","hdg_t":338.3,"dist_nm":44.6,"freq":297,"lat":12.24097200,"lon":104.56321700,"rng_nm":50,"alt_fmsl":0,"id":"KCW","desc":"KAMPONG CHHNANG NDB"},
+{"type":"NDB","hdg_t":213.4,"dist_nm":94.6,"freq":278,"lat":10.22361100,"lon":103.96194400,"rng_nm":97,"alt_fmsl":0,"id":"PQ","desc":"PHUQUOC NDB"},
+{"type":"NDB","hdg_t":169.8,"dist_nm":96.8,"freq":335,"lat":9.94972200,"lon":105.13361100,"rng_nm":43,"alt_fmsl":0,"id":"RG","desc":"RACHGIA NDB"},
+{"type":"NDB","hdg_t":148.8,"dist_nm":101.4,"freq":420,"lat":10.09138900,"lon":105.73027800,"rng_nm":50,"alt_fmsl":0,"id":"CT","desc":"CAN THO NDB"},
+{"type":"NDB","hdg_t":272.3,"dist_nm":108.8,"freq":425,"lat":11.61686100,"lon":102.99644400,"rng_nm":25,"alt_fmsl":0,"id":"KK","desc":"KOH KONG NDB"},
+{"type":"VOR","hdg_t":112.1,"dist_nm":114.8,"freq":116.7,"lat":10.81643300,"lon":106.64557500,"rng_nm":143,"alt_fmsl":52,"id":"TSN","desc":"TANSONNHAT VOR-DME"},
+{"type":"NDB","hdg_t":111.5,"dist_nm":116,"freq":375,"lat":10.82809200,"lon":106.67175800,"rng_nm":50,"alt_fmsl":0,"id":"GV","desc":"TANSONNHAT NDB"},
+{"type":"NDB","hdg_t":111.4,"dist_nm":116.3,"freq":343,"lat":10.82690000,"lon":106.67797500,"rng_nm":50,"alt_fmsl":0,"id":"GN","desc":"TANSONNHAT NDB"}
+]
+}

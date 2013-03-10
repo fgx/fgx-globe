@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ZWSH","name":"Kashi","lat":39.542922,"lon":76.0199565,"rwys":1,"ils":2,"index":4202592,"path":"e070n30/e076n39"
+,"runways":[
+{"len_m":3190,"wid_m":41.15,"hdg":85,"surf":"Concrete","rwy1":"08","lat1":39.54189400,"lon1":76.00144400,"rwy2":"26","lat2":39.54395000,"lon2":76.03846900}
+]
+,"radios":[
+{"type":"TWR","freq":118.5,"desc":"TWR"},
+{"type":"TWR","freq":130,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":39.54415600,"lon":76.04189200,"rng_nm":18,"alt_fmsl":4528,"hdg":85.86,"id":"IXX","rwy":"08","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.1,"lat":39.54167500,"lon":75.99780300,"rng_nm":18,"alt_fmsl":4528,"hdg":265.84,"id":"ILL","rwy":"26","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":39.54365600,"lon":76.00460600,"rng_nm":10,"alt_fmsl":4528,"id":"IXX","rwy":"08","desc":"GS","gs":3},
+{"type":"GS","freq":111.1,"lat":39.54425800,"lon":76.03519200,"rng_nm":10,"alt_fmsl":4528,"id":"ILL","rwy":"26","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":39.54166700,"lon":75.99166700,"rng_nm":0,"alt_fmsl":4528,"id":"----","rwy":"08","desc":"MM"},
+{"type":"MM","freq":0,"lat":39.54500000,"lon":76.05333300,"rng_nm":0,"alt_fmsl":4528,"id":"----","rwy":"26","desc":"MM"},
+{"type":"DME","freq":111.1,"lat":39.54425800,"lon":76.03519200,"rng_nm":18,"alt_fmsl":4528,"id":"ILL","rwy":"26","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":34.9,"dist_nm":0.2,"freq":115.7,"lat":39.54666700,"lon":76.02333300,"rng_nm":130,"alt_fmsl":4564,"id":"KHG","desc":"KASHI VOR-DME"},
+{"type":"VOR","hdg_t":139.1,"dist_nm":87.8,"freq":113.3,"lat":38.42833300,"lon":77.24000000,"rng_nm":130,"alt_fmsl":4052,"id":"SCH","desc":"SHACHE VOR-DME"},
+{"type":"NDB","hdg_t":138.3,"dist_nm":88.4,"freq":569,"lat":38.43333300,"lon":77.26666700,"rng_nm":25,"alt_fmsl":0,"id":"SC","desc":"SHACHE NDB"},
+{"type":"NDB","hdg_t":305.8,"dist_nm":148.7,"freq":1205,"lat":40.96666700,"lon":73.36666700,"rng_nm":50,"alt_fmsl":0,"id":"IR","desc":"IRISU NDB"},
+{"type":"NDB","hdg_t":294,"dist_nm":158.9,"freq":780,"lat":40.58033900,"lon":72.84474400,"rng_nm":50,"alt_fmsl":0,"id":"DZ","desc":"OSH NDB"},
+{"type":"NDB","hdg_t":302,"dist_nm":162.8,"freq":600,"lat":40.94333300,"lon":72.98166700,"rng_nm":50,"alt_fmsl":0,"id":"DA","desc":"ZHALAL ABAD NDB"},
+{"type":"NDB","hdg_t":294.5,"dist_nm":164.5,"freq":780,"lat":40.63666700,"lon":72.74333300,"rng_nm":50,"alt_fmsl":2733,"id":"OU","desc":"OSH NDB"},
+{"type":"NDB","hdg_t":1.6,"dist_nm":173.3,"freq":855,"lat":42.43333300,"lon":76.13333300,"rng_nm":50,"alt_fmsl":0,"id":"BL","desc":"BALYKCHI NDB"},
+{"type":"NDB","hdg_t":293.8,"dist_nm":185.4,"freq":422,"lat":40.73333300,"lon":72.30000000,"rng_nm":50,"alt_fmsl":0,"id":"AD","desc":"ANDIZHAN NDB"},
+{"type":"NDB","hdg_t":284.4,"dist_nm":185.8,"freq":555,"lat":40.25000000,"lon":72.10000000,"rng_nm":50,"alt_fmsl":0,"id":"KZ","desc":"KYZYL KIYA NDB"}
+]
+}

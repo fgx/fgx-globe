@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VOTV","name":"Thiruvananthapuram Intl","lat":8.4821205,"lon":76.9201155,"rwys":1,"ils":1,"index":4200607,"path":"e070n00/e076n08"
+,"runways":[
+{"len_m":3399,"wid_m":45.72,"hdg":135,"surf":"Asphalt","rwy1":"14","lat1":8.49314700,"lon1":76.90936400,"rwy2":"32","lat2":8.47109400,"lon2":76.93086700}
+]
+,"radios":[
+{"type":"ATIS","freq":126.6,"desc":"ATIS"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.6,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":8.49450000,"lon":76.90694400,"rng_nm":18,"alt_fmsl":15,"hdg":314.69,"id":"ITDM","rwy":"32","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":8.47730600,"lon":76.92611100,"rng_nm":10,"alt_fmsl":15,"id":"ITDM","rwy":"32","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":8.42813900,"lon":76.97416700,"rng_nm":0,"alt_fmsl":15,"id":"----","rwy":"32","desc":"OM"},
+{"type":"MM","freq":0,"lat":8.46833300,"lon":76.93694400,"rng_nm":0,"alt_fmsl":15,"id":"----","rwy":"32","desc":"MM"},
+{"type":"DME","freq":109.9,"lat":8.47730600,"lon":76.92611100,"rng_nm":18,"alt_fmsl":15,"id":"ITDM","rwy":"32","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":147.9,"dist_nm":0.5,"freq":115.1,"lat":8.47480600,"lon":76.92472200,"rng_nm":130,"alt_fmsl":15,"id":"TVM","desc":"TRIVANDRUM VOR-DME"},
+{"type":"NDB","hdg_t":77.4,"dist_nm":67.3,"freq":376,"lat":8.72561100,"lon":78.02569400,"rng_nm":50,"alt_fmsl":0,"id":"TU","desc":"TUTICORIN NDB"},
+{"type":"VOR","hdg_t":336.3,"dist_nm":95.4,"freq":114.6,"lat":9.94468300,"lon":76.27286700,"rng_nm":130,"alt_fmsl":8,"id":"CCN","desc":"COCHIN VOR-DME"},
+{"type":"NDB","hdg_t":336.8,"dist_nm":96.2,"freq":325,"lat":9.96384700,"lon":76.28203300,"rng_nm":50,"alt_fmsl":0,"id":"CC","desc":"COCHIN NDB"},
+{"type":"VOR","hdg_t":351.7,"dist_nm":98.5,"freq":117.3,"lat":10.11527800,"lon":76.68166700,"rng_nm":130,"alt_fmsl":28,"id":"CIB","desc":"COCHIN INTL VOR-DME"},
+{"type":"NDB","hdg_t":337.8,"dist_nm":100.5,"freq":268,"lat":10.04078600,"lon":76.27897800,"rng_nm":25,"alt_fmsl":0,"id":"CA","desc":"COCHIN INTL NDB"},
+{"type":"NDB","hdg_t":345.4,"dist_nm":102.8,"freq":217,"lat":10.14944400,"lon":76.48416700,"rng_nm":25,"alt_fmsl":0,"id":"CI","desc":"COCHIN INTL NDB"},
+{"type":"VOR","hdg_t":341.9,"dist_nm":104.7,"freq":113.5,"lat":10.15050000,"lon":76.37258300,"rng_nm":130,"alt_fmsl":49,"id":"CIA","desc":"COCHIN INTL VOR-DME"},
+{"type":"VOR","hdg_t":40.6,"dist_nm":106.3,"freq":116.1,"lat":9.83108300,"lon":78.08902800,"rng_nm":130,"alt_fmsl":461,"id":"MDI","desc":"MADURAI VOR-DME"},
+{"type":"NDB","hdg_t":40.6,"dist_nm":107.2,"freq":400,"lat":9.84219700,"lon":78.09958600,"rng_nm":50,"alt_fmsl":0,"id":"MD","desc":"MADURAI NDB"}
+]
+}

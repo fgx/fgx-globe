@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MMAA","name":"General Juan N Alvarez Intl","lat":16.75599025,"lon":-99.75175625,"rwys":2,"ils":2,"index":1317553,"path":"w100n10/w100n16"
+,"runways":[
+{"len_m":3301,"wid_m":45.11,"hdg":107,"surf":"Concrete","rwy1":"10","lat1":16.75996100,"lon1":-99.76322500,"rwy2":"28","lat2":16.75074400,"lon2":-99.73377500},
+{"len_m":1700,"wid_m":35.05,"hdg":67,"surf":"Concrete","rwy1":"06","lat1":16.75363100,"lon1":-99.76235600,"rwy2":"24","lat2":16.75962500,"lon2":-99.74766900}
+]
+,"radios":[
+{"type":"TWR","freq":118.5,"desc":"ACAPULCO TWR"},
+{"type":"TWR","freq":119.9,"desc":"ACAPULCO TWR"},
+{"type":"APP","freq":119.9,"desc":"ACAPULCO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.9,"lat":16.75009400,"lon":-99.73084200,"rng_nm":18,"alt_fmsl":13,"hdg":107.66,"id":"IAIA","rwy":"10","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.9,"lat":16.76106900,"lon":-99.76525300,"rng_nm":18,"alt_fmsl":13,"hdg":288.90,"id":"IACA","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.9,"lat":16.75797500,"lon":-99.76028600,"rng_nm":10,"alt_fmsl":13,"id":"IAIA","rwy":"10","desc":"GS","gs":3},
+{"type":"GS","freq":109.9,"lat":16.75076900,"lon":-99.73714200,"rng_nm":10,"alt_fmsl":13,"id":"IACA","rwy":"28","desc":"GS","gs":3},
+{"type":"DME","freq":111.9,"lat":16.75797500,"lon":-99.76028600,"rng_nm":18,"alt_fmsl":13,"id":"IAIA","rwy":"10","desc":"DME-ILS"},
+{"type":"DME","freq":109.9,"lat":16.75076900,"lon":-99.73714200,"rng_nm":18,"alt_fmsl":13,"id":"IACA","rwy":"28","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":319.2,"dist_nm":0.1,"freq":115.9,"lat":16.75847222,"lon":-99.75397222,"rng_nm":130,"alt_fmsl":16,"id":"ACA","desc":"ACAPULCO VOR-DME"},
+{"type":"VOR","hdg_t":297.3,"dist_nm":111.2,"freq":113.8,"lat":17.60316400,"lon":-101.47671900,"rng_nm":130,"alt_fmsl":26,"id":"ZIH","desc":"ZIHUATANEJO VOR-DME"},
+{"type":"VOR","hdg_t":13.8,"dist_nm":118.2,"freq":113.1,"lat":18.67608333,"lon":-99.25530556,"rng_nm":130,"alt_fmsl":3316,"id":"TEQ","desc":"TEQUESQUITENGO VOR-DME"},
+{"type":"NDB","hdg_t":12.7,"dist_nm":127.1,"freq":402,"lat":18.83144700,"lon":-99.25938100,"rng_nm":50,"alt_fmsl":4277,"id":"CVJ","desc":"CUERNAVACA NDB"},
+{"type":"VOR","hdg_t":21.7,"dist_nm":130.6,"freq":116.3,"lat":18.78527778,"lon":-98.90083333,"rng_nm":130,"alt_fmsl":4313,"id":"CUA","desc":"CUAUTLA VOR-DME"},
+{"type":"VOR","hdg_t":4,"dist_nm":154.3,"freq":114.3,"lat":19.33286111,"lon":-99.56102778,"rng_nm":130,"alt_fmsl":8466,"id":"TLC","desc":"TOLUCA VOR-DME"},
+{"type":"NDB","hdg_t":12.2,"dist_nm":161.3,"freq":370,"lat":19.39372500,"lon":-99.14950600,"rng_nm":50,"alt_fmsl":7316,"id":"MW","desc":"PLAZA NDB"},
+{"type":"VOR","hdg_t":108.4,"dist_nm":162.8,"freq":112.5,"lat":15.87511111,"lon":-97.08172222,"rng_nm":130,"alt_fmsl":294,"id":"PXM","desc":"ESCONDIDO VOR-DME"},
+{"type":"VOR","hdg_t":28.5,"dist_nm":164,"freq":115.2,"lat":19.16091667,"lon":-98.37016667,"rng_nm":130,"alt_fmsl":7361,"id":"PBC","desc":"PUEBLA VOR-DME"},
+{"type":"VOR","hdg_t":13.6,"dist_nm":165,"freq":115.6,"lat":19.43933333,"lon":-99.06677778,"rng_nm":130,"alt_fmsl":7316,"id":"MEX","desc":"MEXICO VOR-DME"}
+]
+}

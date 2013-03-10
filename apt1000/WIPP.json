@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WIPP","name":"Palembang Sultan Mahmud Badaruddin Ii","lat":-2.8976605,"lon":104.70071575,"rwys":2,"ils":1,"index":4658629,"path":"e100s10/e104s03"
+,"runways":[
+{"len_m":2500,"wid_m":45.11,"hdg":112,"surf":"Asphalt","rwy1":"11","lat1":-2.89387500,"lon1":104.68953100,"rwy2":"29","lat2":-2.90262500,"lon2":104.71027200},
+{"len_m":2122,"wid_m":45.11,"hdg":112,"surf":"Asphalt","rwy1":"11L","lat1":-2.89341912,"lon1":104.69270229,"rwy2":"29R","lat2":-2.90072288,"lon2":104.71035771}
+]
+,"radios":[
+{"type":"ATIS","freq":127.2,"desc":"ATIS"},
+{"type":"TWR","freq":118.1,"desc":"MAHMUD TWR"},
+{"type":"APP","freq":119.2,"desc":"PALEMBANG APP"},
+{"type":"APP","freq":120.4,"desc":"PALEMBANG APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":-2.89413900,"lon":104.69009200,"rng_nm":18,"alt_fmsl":37,"hdg":292.83,"id":"IPLB","rwy":"29","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":-2.90085300,"lon":104.70780300,"rng_nm":10,"alt_fmsl":37,"id":"IPLB","rwy":"29","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-2.92799700,"lon":104.77055800,"rng_nm":0,"alt_fmsl":37,"id":"----","rwy":"29","desc":"OM"},
+{"type":"MM","freq":0,"lat":-2.90660000,"lon":104.71876900,"rng_nm":0,"alt_fmsl":37,"id":"----","rwy":"29","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":116.8,"dist_nm":1,"freq":380,"lat":-2.90528300,"lon":104.71566700,"rng_nm":50,"alt_fmsl":37,"id":"WW","desc":"PALEMBANG NDB"},
+{"type":"NDB","hdg_t":241.9,"dist_nm":1.6,"freq":395,"lat":-2.91066100,"lon":104.67645300,"rng_nm":50,"alt_fmsl":0,"id":"OW","desc":"PALEMBANG NDB"},
+{"type":"VOR","hdg_t":291.7,"dist_nm":3,"freq":115.5,"lat":-2.87858900,"lon":104.65316400,"rng_nm":130,"alt_fmsl":8,"id":"PLB","desc":"PALEMBANG VOR-DME"},
+{"type":"NDB","hdg_t":289,"dist_nm":37.4,"freq":253,"lat":-2.69333300,"lon":104.11166700,"rng_nm":50,"alt_fmsl":58,"id":"SP","desc":"RAMBA NDB"},
+{"type":"NDB","hdg_t":245.3,"dist_nm":56.2,"freq":305,"lat":-3.29000000,"lon":103.84833300,"rng_nm":50,"alt_fmsl":184,"id":"PD","desc":"PENDOPO NDB"},
+{"type":"NDB","hdg_t":191.2,"dist_nm":91.3,"freq":357,"lat":-4.39777800,"lon":104.40305600,"rng_nm":50,"alt_fmsl":451,"id":"BR","desc":"BATU RAJA NDB"},
+{"type":"NDB","hdg_t":63.1,"dist_nm":97,"freq":260,"lat":-2.16166100,"lon":106.14177200,"rng_nm":50,"alt_fmsl":108,"id":"OI","desc":"PANGKAL PINANG NDB"},
+{"type":"VOR","hdg_t":62.9,"dist_nm":97.1,"freq":114.2,"lat":-2.15681400,"lon":106.14035000,"rng_nm":130,"alt_fmsl":108,"id":"PKP","desc":"PANGKAL PINANG VOR-DME"},
+{"type":"VOR","hdg_t":319.8,"dist_nm":98.4,"freq":117.5,"lat":-1.63603600,"lon":103.64508600,"rng_nm":130,"alt_fmsl":82,"id":"JMB","desc":"JAMBI VOR-DME"},
+{"type":"NDB","hdg_t":319.8,"dist_nm":98.8,"freq":365,"lat":-1.63097800,"lon":103.64053600,"rng_nm":50,"alt_fmsl":82,"id":"NX","desc":"JAMBI NDB"}
+]
+}

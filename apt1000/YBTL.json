@@ -1,0 +1,52 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"YBTL","name":"Townsville Intl","lat":-19.2553784166667,"lon":146.763400916667,"rwys":2,"ils":1,"index":5345710,"path":"e140s20/e146s20"
+,"runways":[
+{"len_m":2438,"wid_m":45.11,"hdg":24,"surf":"Asphalt","rwy1":"01","lat1":-19.25829200,"lon1":146.76472200,"rwy2":"19","lat2":-19.23819200,"lon2":146.77421200},
+{"len_m":1097,"wid_m":29.87,"hdg":73,"surf":"Concrete","rwy1":"07","lat1":-19.25580800,"lon1":146.75554200,"rwy2":"25","lat2":-19.25307000,"lon2":146.76557400}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":39,"wid_m":39.93,"hdg":146,"surf":"Asphalt","lat1":-19.25620200,"lon1":146.75918600},
+{"rwy1":"H10","len_m":11,"wid_m":11.89,"hdg":146,"surf":"Concrete","lat1":-19.25905100,"lon1":146.75943800},
+{"rwy1":"H2","len_m":14,"wid_m":14.94,"hdg":146,"surf":"Concrete","lat1":-19.25206000,"lon1":146.77249200},
+{"rwy1":"H3","len_m":10,"wid_m":10.06,"hdg":146,"surf":"Concrete","lat1":-19.25208400,"lon1":146.77212800},
+{"rwy1":"H4","len_m":20,"wid_m":20.12,"hdg":146,"surf":"Asphalt","lat1":-19.25212300,"lon1":146.76973500},
+{"rwy1":"H5","len_m":11,"wid_m":11.89,"hdg":146,"surf":"Concrete","lat1":-19.25740900,"lon1":146.75965100},
+{"rwy1":"H6","len_m":11,"wid_m":11.89,"hdg":146,"surf":"Concrete","lat1":-19.25771200,"lon1":146.75960700},
+{"rwy1":"H7","len_m":11,"wid_m":11.89,"hdg":146,"surf":"Concrete","lat1":-19.25804700,"lon1":146.75956700},
+{"rwy1":"H8","len_m":11,"wid_m":11.89,"hdg":146,"surf":"Concrete","lat1":-19.25842300,"lon1":146.75950800},
+{"rwy1":"H9","len_m":11,"wid_m":11.89,"hdg":146,"surf":"Concrete","lat1":-19.25874900,"lon1":146.75947400}
+]
+,"radios":[
+{"type":"ATIS","freq":133.5,"desc":"YBTL ATIS"},
+{"type":"CTAF","freq":123.4,"desc":"ACTIVATE LIGHTS ONLY MULT"},
+{"type":"CTAF","freq":120.55,"desc":"BRISBANE CENTRE MULT"},
+{"type":"CTAF","freq":118.3,"desc":"TOWNSVILLE MULT"},
+{"type":"CLD","freq":128.1,"desc":"TOWNSVILLE CLD"},
+{"type":"GND","freq":121.8,"desc":"TOWNSVILLE GND"},
+{"type":"TWR","freq":118.3,"desc":"TOWNSVILLE TWR"},
+{"type":"TWR","freq":120.55,"desc":"BRISBANE CNTR"},
+{"type":"APP","freq":126.8,"desc":"TOWNSVILLE APP"},
+{"type":"APP","freq":134.1,"desc":"TOWNSVILLE APP"},
+{"type":"DEP","freq":126.8,"desc":"TOWNSVILLE DEP"},
+{"type":"DEP","freq":134.1,"desc":"TOWNSVILLE DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":-19.23500000,"lon":146.77555600,"rng_nm":18,"alt_fmsl":13,"hdg":23.71,"id":"ITL","rwy":"01","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":-19.25527800,"lon":146.76472200,"rng_nm":10,"alt_fmsl":18,"id":"ITL","rwy":"01","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-19.32472200,"lon":146.73138900,"rng_nm":0,"alt_fmsl":13,"id":"----","rwy":"01","desc":"OM"},
+{"type":"MM","freq":0,"lat":-19.27083300,"lon":146.75861100,"rng_nm":0,"alt_fmsl":13,"id":"----","rwy":"01","desc":"MM"},
+{"type":"DME","freq":109.3,"lat":-19.23500000,"lon":146.77555600,"rng_nm":18,"alt_fmsl":18,"id":"ITL","rwy":"01","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":352.4,"dist_nm":0.5,"freq":276,"lat":-19.24694400,"lon":146.76222200,"rng_nm":75,"alt_fmsl":18,"id":"TVL","desc":"TOWNSVILLE NDB"},
+{"type":"VOR","hdg_t":335.1,"dist_nm":0.6,"freq":114.1,"lat":-19.24500000,"lon":146.75833333,"rng_nm":130,"alt_fmsl":35,"id":"TL","desc":"TOWNSVILLE VOR-DME"},
+{"type":"SDME","hdg_t":219.6,"dist_nm":1.7,"freq":113.5,"lat":-19.27833300,"lon":146.74333300,"rng_nm":25,"alt_fmsl":18,"id":"TVL","desc":"TOWNSVILLE TACAN"},
+{"type":"NDB","hdg_t":119.3,"dist_nm":94.1,"freq":292,"lat":-20.02111100,"lon":148.21527800,"rng_nm":35,"alt_fmsl":0,"id":"BWN","desc":"BOWEN NDB"},
+{"type":"VOR","hdg_t":144.2,"dist_nm":98.5,"freq":112.2,"lat":-20.59138900,"lon":147.78500000,"rng_nm":130,"alt_fmsl":0,"id":"CSV","desc":"COLLINSVILLE VOR"},
+{"type":"NDB","hdg_t":337,"dist_nm":109.8,"freq":212,"lat":-17.56166700,"lon":146.01527800,"rng_nm":25,"alt_fmsl":46,"id":"IFL","desc":"INNISFAIL NDB"},
+{"type":"VOR","hdg_t":126.5,"dist_nm":125.4,"freq":113.7,"lat":-20.49666700,"lon":148.55277800,"rng_nm":130,"alt_fmsl":92,"id":"PN","desc":"PROSERPINE VOR-DME"},
+{"type":"NDB","hdg_t":126.2,"dist_nm":125.5,"freq":245,"lat":-20.48916700,"lon":148.55944400,"rng_nm":40,"alt_fmsl":82,"id":"PN","desc":"PROSERPINE NDB"},
+{"type":"NDB","hdg_t":118.4,"dist_nm":140,"freq":383,"lat":-20.35694400,"lon":148.94916700,"rng_nm":40,"alt_fmsl":15,"id":"HM","desc":"HAMILTON ISLAND NDB"},
+{"type":"VOR","hdg_t":118.2,"dist_nm":140.2,"freq":114.4,"lat":-20.35111111,"lon":148.95583333,"rng_nm":130,"alt_fmsl":15,"id":"HM","desc":"HAMILTON ISLAND VOR-DME"}
+]
+}

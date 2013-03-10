@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SAZS","name":"San Carlos De Bariloche","lat":-41.151172,"lon":-71.1575415,"rwys":1,"ils":1,"index":1772595,"path":"w080s50/w072s42"
+,"runways":[
+{"len_m":2348,"wid_m":47.85,"hdg":114,"surf":"Asphalt","rwy1":"11","lat1":-41.14676900,"lon1":-71.17026100,"rwy2":"29","lat2":-41.15557500,"lon2":-71.14482200}
+]
+,"radios":[
+{"type":"ATIS","freq":127.9,"desc":"ATIS"},
+{"type":"TWR","freq":119.1,"desc":"BARILOCHE TWR/APP"},
+{"type":"TWR","freq":118.65,"desc":"BARILOCHE TWR/APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":-41.14555600,"lon":-71.17363900,"rng_nm":18,"alt_fmsl":2776,"hdg":294.79,"id":"BR","rwy":"29","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":-41.15538900,"lon":-71.14905600,"rng_nm":10,"alt_fmsl":2776,"id":"BR","rwy":"29","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-41.18222200,"lon":-71.06816700,"rng_nm":0,"alt_fmsl":2776,"id":"----","rwy":"29","desc":"OM"},
+{"type":"MM","freq":0,"lat":-41.15947200,"lon":-71.13369400,"rng_nm":0,"alt_fmsl":2776,"id":"----","rwy":"29","desc":"MM"},
+{"type":"DME","freq":109.5,"lat":-41.15940300,"lon":-71.15118100,"rng_nm":18,"alt_fmsl":2776,"id":"BR","rwy":"29","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":294.3,"dist_nm":1.2,"freq":305,"lat":-41.14264400,"lon":-71.18251400,"rng_nm":25,"alt_fmsl":2774,"id":"B","desc":"SAN CARLOS DE BARILOCHE NDB"},
+{"type":"VOR","hdg_t":294.6,"dist_nm":1.5,"freq":117.4,"lat":-41.14027800,"lon":-71.18888900,"rng_nm":175,"alt_fmsl":2776,"id":"BAR","desc":"SAN CARLOS DE BARILOCHE VOR-DME"},
+{"type":"NDB","hdg_t":291.3,"dist_nm":4.4,"freq":330,"lat":-41.12420800,"lon":-71.24851400,"rng_nm":25,"alt_fmsl":0,"id":"OB","desc":"SAN CARLOS DE BARILOCHE NDB"},
+{"type":"NDB","hdg_t":0.4,"dist_nm":64.1,"freq":265,"lat":-40.08166700,"lon":-71.14722200,"rng_nm":162,"alt_fmsl":2569,"id":"CHP","desc":"SAN MARTIN DE LOS ANDES NDB"},
+{"type":"VOR","hdg_t":2.4,"dist_nm":66.1,"freq":117,"lat":-40.04888900,"lon":-71.09527800,"rng_nm":130,"alt_fmsl":2569,"id":"CHP","desc":"SAN MARTIN DE LOS ANDES VOR-DME"},
+{"type":"NDB","hdg_t":258.2,"dist_nm":88.9,"freq":400,"lat":-41.43777800,"lon":-73.08722200,"rng_nm":150,"alt_fmsl":294,"id":"TEP","desc":"PUERTO MONTT NDB"},
+{"type":"VOR","hdg_t":258.5,"dist_nm":89,"freq":115.7,"lat":-41.42916700,"lon":-73.09194400,"rng_nm":130,"alt_fmsl":285,"id":"MON","desc":"PUERTO MONTT VOR-DME"},
+{"type":"NDB","hdg_t":257.4,"dist_nm":89.5,"freq":305,"lat":-41.46055600,"lon":-73.09472200,"rng_nm":25,"alt_fmsl":0,"id":"ON","desc":"EL TEPUAL NDB"},
+{"type":"NDB","hdg_t":255,"dist_nm":90.4,"freq":325,"lat":-41.52500000,"lon":-73.09694400,"rng_nm":50,"alt_fmsl":0,"id":"MO","desc":"TRAPEN NDB"},
+{"type":"NDB","hdg_t":289.2,"dist_nm":91.5,"freq":225,"lat":-40.63111100,"lon":-73.04861100,"rng_nm":25,"alt_fmsl":0,"id":"OSO","desc":"OSORNO NDB"},
+{"type":"VOR","hdg_t":289.7,"dist_nm":92.1,"freq":116.5,"lat":-40.61583300,"lon":-73.05611100,"rng_nm":40,"alt_fmsl":177,"id":"OSO","desc":"OSORNO VOR-DME"}
+]
+}

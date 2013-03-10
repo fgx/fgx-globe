@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HTDA","name":"Mwalimu Julius K Nyerere Intl","lat":-6.87504775,"lon":39.20426475,"rwys":2,"ils":1,"index":3593409,"path":"e030s10/e039s07"
+,"runways":[
+{"len_m":3000,"wid_m":46.02,"hdg":45,"surf":"Asphalt","rwy1":"05","lat1":-6.88286400,"lon1":39.19779200,"rwy2":"23","lat2":-6.86372200,"lon2":39.21703100},
+{"len_m":1004,"wid_m":29.87,"hdg":134,"surf":"Asphalt","rwy1":"14","lat1":-6.87359400,"lon1":39.19790300,"rwy2":"32","lat2":-6.88001100,"lon2":39.20433300}
+]
+,"radios":[
+{"type":"TWR","freq":121.8,"desc":"TWR"},
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"APP","freq":120,"desc":"APP"},
+{"type":"APP","freq":119.6,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":-6.86168600,"lon":39.21905800,"rng_nm":18,"alt_fmsl":54,"hdg":44.91,"id":"DL","rwy":"05","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":-6.88161700,"lon":39.20104200,"rng_nm":10,"alt_fmsl":54,"id":"DL","rwy":"05","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-6.92739200,"lon":39.15360300,"rng_nm":0,"alt_fmsl":54,"id":"----","rwy":"05","desc":"OM"},
+{"type":"MM","freq":0,"lat":-6.88874400,"lon":39.19199200,"rng_nm":0,"alt_fmsl":54,"id":"----","rwy":"05","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":174.2,"dist_nm":0.6,"freq":361,"lat":-6.88528100,"lon":39.20529700,"rng_nm":350,"alt_fmsl":155,"id":"DR","desc":"DAR ES SALAAM NDB"},
+{"type":"VOR","hdg_t":220.3,"dist_nm":1,"freq":112.7,"lat":-6.88865300,"lon":39.19270800,"rng_nm":200,"alt_fmsl":182,"id":"DV","desc":"DAR ES SALAAM VOR-DME"},
+{"type":"NDB","hdg_t":224,"dist_nm":4.3,"freq":282,"lat":-6.92739200,"lon":39.15360300,"rng_nm":40,"alt_fmsl":0,"id":"DS","desc":"DAR ES SALAAM NDB"},
+{"type":"NDB","hdg_t":45.8,"dist_nm":4.4,"freq":272,"lat":-6.82268900,"lon":39.25818600,"rng_nm":40,"alt_fmsl":0,"id":"DM","desc":"DAR ES SALAAM NDB"},
+{"type":"NDB","hdg_t":1.5,"dist_nm":39.2,"freq":385,"lat":-6.21733600,"lon":39.22238600,"rng_nm":50,"alt_fmsl":54,"id":"ZZ","desc":"ZANZIBAR NDB"},
+{"type":"NDB","hdg_t":155.7,"dist_nm":67.2,"freq":353,"lat":-7.90200500,"lon":39.66755100,"rng_nm":50,"alt_fmsl":60,"id":"MF","desc":"MAFIA NDB"},
+{"type":"NDB","hdg_t":20.7,"dist_nm":103.2,"freq":345,"lat":-5.25804400,"lon":39.81447500,"rng_nm":100,"alt_fmsl":80,"id":"PA","desc":"PEMBA NDB"},
+{"type":"NDB","hdg_t":355.7,"dist_nm":106.6,"freq":407,"lat":-5.09393200,"lon":39.07197900,"rng_nm":100,"alt_fmsl":129,"id":"TG","desc":"TANGA NDB"},
+{"type":"NDB","hdg_t":8.2,"dist_nm":171.4,"freq":267,"lat":-4.03300800,"lon":39.61520800,"rng_nm":200,"alt_fmsl":169,"id":"MO","desc":"MOMBASA NDB"},
+{"type":"NDB","hdg_t":8.5,"dist_nm":176.6,"freq":394,"lat":-3.94855600,"lon":39.64221100,"rng_nm":50,"alt_fmsl":168,"id":"MC","desc":"MOMBASA NDB"}
+]
+}

@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RKPD","name":"Jeongseok","lat":33.39591925,"lon":126.712089,"rwys":2,"ils":1,"index":5021402,"path":"e120n30/e126n33"
+,"runways":[
+{"len_m":2313,"wid_m":45.42,"hdg":359,"surf":"Asphalt","rwy1":"01","lat1":33.38288900,"lon1":126.71177800,"rwy2":"19","lat2":33.40374400,"lon2":126.71151900},
+{"len_m":1515,"wid_m":24.38,"hdg":142,"surf":"Asphalt","rwy1":"15","lat1":33.40391900,"lon1":126.70753100,"rwy2":"33","lat2":33.39312500,"lon2":126.71752800}
+]
+,"radios":[
+{"type":"ATIS","freq":128.25,"desc":"ATIS"},
+{"type":"TWR","freq":131.2,"desc":"TWR"},
+{"type":"TWR","freq":130.5,"desc":"TWR"},
+{"type":"APP","freq":119,"desc":"JEJU APP"},
+{"type":"APP","freq":124.05,"desc":"JEJU APP"},
+{"type":"DEP","freq":121.2,"desc":"JEJU DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":108.3,"lat":33.40639100,"lon":126.71138800,"rng_nm":18,"alt_fmsl":1174,"hdg":359.21,"id":"IJDG","rwy":"01","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.3,"lat":33.38528100,"lon":126.71247900,"rng_nm":10,"alt_fmsl":1125,"id":"IJDG","rwy":"01","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":33.36944600,"lon":126.71167000,"rng_nm":0,"alt_fmsl":1174,"id":"----","rwy":"01","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":307.3,"dist_nm":0.1,"freq":117.9,"lat":33.39736100,"lon":126.70983300,"rng_nm":20,"alt_fmsl":1171,"id":"JDG","desc":"JEDONG VOR-DME"},
+{"type":"VOR","hdg_t":261.3,"dist_nm":4.4,"freq":116.1,"lat":33.38472200,"lon":126.62416700,"rng_nm":100,"alt_fmsl":2450,"id":"CJU","desc":"JEJU VORTAC"},
+{"type":"VOR","hdg_t":301.6,"dist_nm":13.2,"freq":109,"lat":33.51136100,"lon":126.48777800,"rng_nm":25,"alt_fmsl":100,"id":"YDM","desc":"YONGDAM VOR-DME"},
+{"type":"NDB","hdg_t":348.6,"dist_nm":83.2,"freq":267,"lat":34.75755600,"lon":126.38161100,"rng_nm":50,"alt_fmsl":23,"id":"MP","desc":"MOKPO NDB"},
+{"type":"VOR","hdg_t":348.6,"dist_nm":83.3,"freq":111.2,"lat":34.75977800,"lon":126.37883300,"rng_nm":130,"alt_fmsl":23,"id":"MKP","desc":"MOKPO VOR-DME"},
+{"type":"VOR","hdg_t":27.2,"dist_nm":97.7,"freq":115.7,"lat":34.84286100,"lon":127.61911100,"rng_nm":130,"alt_fmsl":68,"id":"YSU","desc":"YEOSU VOR-DME"},
+{"type":"SDME","hdg_t":2.4,"dist_nm":103.2,"freq":114.1,"lat":35.11883100,"lon":126.80038300,"rng_nm":100,"alt_fmsl":40,"id":"KWJ","desc":"GWANGJU TACAN"},
+{"type":"VOR","hdg_t":2.7,"dist_nm":103.7,"freq":114.4,"lat":35.12616700,"lon":126.81222200,"rng_nm":100,"alt_fmsl":42,"id":"KWA","desc":"GWANGJU VOR-DME"},
+{"type":"VOR","hdg_t":111.6,"dist_nm":115.2,"freq":115.8,"lat":32.66860600,"lon":128.82673600,"rng_nm":100,"alt_fmsl":296,"id":"FUE","desc":"FUKUE VOR-DME"},
+{"type":"NDB","hdg_t":111.5,"dist_nm":115.3,"freq":263,"lat":32.67077200,"lon":128.83143900,"rng_nm":50,"alt_fmsl":273,"id":"FU","desc":"FUKUE NDB"}
+]
+}

@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WADD","name":"Denpasar Ngurah Rai Intl","lat":-8.7481695,"lon":115.1671735,"rwys":1,"ils":1,"index":4838481,"path":"e110s10/e115s09"
+,"runways":[
+{"len_m":2983,"wid_m":45.11,"hdg":87,"surf":"Asphalt","rwy1":"09","lat1":-8.74870600,"lon1":115.15362800,"rwy2":"27","lat2":-8.74763300,"lon2":115.18071900}
+]
+,"radios":[
+{"type":"ATIS","freq":126.2,"desc":"ATIS"},
+{"type":"GND","freq":118.9,"desc":"NGURAH GND"},
+{"type":"TWR","freq":118.1,"desc":"NGURAH TWR"},
+{"type":"TWR","freq":118.5,"desc":"NGURAH TWR"},
+{"type":"APP","freq":119.3,"desc":"DIRECTOR"},
+{"type":"APP","freq":119.7,"desc":"DIRECTOR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-8.74885800,"lon":115.15247200,"rng_nm":18,"alt_fmsl":10,"hdg":267.49,"id":"IDPS","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-8.74890800,"lon":115.17845800,"rng_nm":10,"alt_fmsl":12,"id":"IDPS","rwy":"27","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":-8.74733900,"lon":115.19328100,"rng_nm":0,"alt_fmsl":10,"id":"----","rwy":"27","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":-8.74973100,"lon":115.15510800,"rng_nm":18,"alt_fmsl":14,"id":"IDPS","rwy":"27","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":237.9,"dist_nm":0.2,"freq":116.2,"lat":-8.75058333,"lon":115.16330556,"rng_nm":130,"alt_fmsl":14,"id":"BLI","desc":"BALI VOR-DME"},
+{"type":"NDB","hdg_t":60.3,"dist_nm":0.4,"freq":230,"lat":-8.74427500,"lon":115.17406100,"rng_nm":50,"alt_fmsl":14,"id":"OR","desc":"BALI NDB"},
+{"type":"VOR","hdg_t":78.3,"dist_nm":55.1,"freq":114.5,"lat":-8.56051400,"lon":116.07514700,"rng_nm":130,"alt_fmsl":51,"id":"MTM","desc":"MATARAM VOR-DME"},
+{"type":"NDB","hdg_t":78.8,"dist_nm":56.4,"freq":330,"lat":-8.56354700,"lon":116.09910800,"rng_nm":50,"alt_fmsl":51,"id":"GA","desc":"MATARAM NDB"},
+{"type":"NDB","hdg_t":23,"dist_nm":116.1,"freq":200,"lat":-6.95888900,"lon":115.93055600,"rng_nm":50,"alt_fmsl":20,"id":"PGN","desc":"PAGERUNGAN NDB"},
+{"type":"NDB","hdg_t":323.7,"dist_nm":124.4,"freq":200,"lat":-7.06666700,"lon":113.93333300,"rng_nm":50,"alt_fmsl":10,"id":"MP","desc":"SUMENEP NDB"},
+{"type":"NDB","hdg_t":83.1,"dist_nm":133.9,"freq":305,"lat":-8.47433100,"lon":117.40473600,"rng_nm":50,"alt_fmsl":16,"id":"NQ","desc":"SUMBAWA NDB"},
+{"type":"NDB","hdg_t":288.2,"dist_nm":153.9,"freq":342,"lat":-7.93402500,"lon":112.71185300,"rng_nm":50,"alt_fmsl":1726,"id":"ML","desc":"MALANG NDB"},
+{"type":"NDB","hdg_t":290.3,"dist_nm":157.3,"freq":290,"lat":-7.82166700,"lon":112.69000000,"rng_nm":50,"alt_fmsl":0,"id":"LW","desc":"LAWANG NDB"},
+{"type":"NDB","hdg_t":299.6,"dist_nm":163.7,"freq":325,"lat":-7.38623300,"lon":112.77959700,"rng_nm":50,"alt_fmsl":9,"id":"SB","desc":"SURABAYA NDB"}
+]
+}

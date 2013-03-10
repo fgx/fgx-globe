@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OEYN","name":"Yenbo","lat":24.1442345,"lon":38.063389,"rwys":1,"ils":1,"index":3579016,"path":"e030n20/e038n24"
+,"runways":[
+{"len_m":3218,"wid_m":45.11,"hdg":103,"surf":"Asphalt","rwy1":"10","lat1":24.14754700,"lon1":38.04797200,"rwy2":"28","lat2":24.14092200,"lon2":38.07880600}
+]
+,"radios":[
+{"type":"CTAF","freq":122.8,"desc":"CTAF"},
+{"type":"TWR","freq":121.9,"desc":"INFO"},
+{"type":"TWR","freq":118.1,"desc":"INFO"}
+]
+,"ils":[
+{"type":"ILS","freq":111.5,"lat":24.14810600,"lon":38.04525300,"rng_nm":18,"alt_fmsl":13,"hdg":283.20,"id":"IYEN","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.5,"lat":24.14256100,"lon":38.07614400,"rng_nm":10,"alt_fmsl":26,"id":"IYEN","rwy":"28","desc":"GS","gs":3},
+{"type":"DME","freq":111.5,"lat":24.14256100,"lon":38.07614400,"rng_nm":18,"alt_fmsl":26,"id":"IYEN","rwy":"28","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":74.6,"dist_nm":93.1,"freq":114.1,"lat":24.54758300,"lon":39.70525000,"rng_nm":130,"alt_fmsl":2120,"id":"PMA","desc":"PRINCE MOHAMMAD BIN ABDULAZIZ VOR-DME"},
+{"type":"VOR","hdg_t":144.5,"dist_nm":98.9,"freq":116.8,"lat":22.79194400,"lon":39.09722200,"rng_nm":130,"alt_fmsl":58,"id":"RBG","desc":"RABIGH VOR-DME"},
+{"type":"VOR","hdg_t":325.1,"dist_nm":148.8,"freq":113.9,"lat":26.17933300,"lon":36.48811100,"rng_nm":130,"alt_fmsl":118,"id":"WEJ","desc":"WEJH VORTAC"},
+{"type":"VOR","hdg_t":25.3,"dist_nm":151.8,"freq":116.7,"lat":26.43416700,"lon":39.26916700,"rng_nm":130,"alt_fmsl":3835,"id":"HLF","desc":"HALAIFA VOR-DME"},
+{"type":"VOR","hdg_t":157.2,"dist_nm":159.5,"freq":114.9,"lat":21.67913900,"lon":39.16625000,"rng_nm":130,"alt_fmsl":28,"id":"JDW","desc":"KING ABDULAZIZ VORTAC"},
+{"type":"NDB","hdg_t":90.3,"dist_nm":163.2,"freq":382,"lat":24.10000000,"lon":41.03666700,"rng_nm":25,"alt_fmsl":2840,"id":"PS0","desc":"PUMP STATION 10 NDB"},
+{"type":"VOR","hdg_t":86.1,"dist_nm":206.5,"freq":115.1,"lat":24.33083300,"lon":41.82444400,"rng_nm":130,"alt_fmsl":3281,"id":"BDB","desc":"BIR DARB VOR-DME"},
+{"type":"VOR","hdg_t":103.6,"dist_nm":207.7,"freq":117.5,"lat":23.28277800,"lon":41.71944400,"rng_nm":130,"alt_fmsl":3175,"id":"DFN","desc":"DAFINAH VOR-DME"},
+{"type":"VOR","hdg_t":294.9,"dist_nm":209.3,"freq":115.5,"lat":25.58277800,"lon":34.56555600,"rng_nm":25,"alt_fmsl":265,"id":"MAK","desc":"MARSA ALAM VOR-DME"},
+{"type":"VOR","hdg_t":138.6,"dist_nm":210.2,"freq":112.7,"lat":21.48647200,"lon":40.54725000,"rng_nm":130,"alt_fmsl":4757,"id":"TIF","desc":"TAIF VORTAC"}
+]
+}

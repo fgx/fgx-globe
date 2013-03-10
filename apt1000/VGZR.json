@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VGZR","name":"Zia Intl","lat":23.843375,"lon":90.397736,"rwys":1,"ils":1,"index":4430961,"path":"e090n20/e090n23"
+,"runways":[
+{"len_m":3188,"wid_m":45.72,"hdg":143,"surf":"Asphalt","rwy1":"14","lat1":23.85501700,"lon1":90.38853600,"rwy2":"32","lat2":23.83173300,"lon2":90.40693600}
+]
+,"radios":[
+{"type":"ATIS","freq":127.4,"desc":"DHAKA ATIS"},
+{"type":"GND","freq":121.8,"desc":"DHAKA GND"},
+{"type":"TWR","freq":118.3,"desc":"DHAKA TWR"},
+{"type":"APP","freq":121.3,"desc":"DHAKA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":23.82778900,"lon":90.41013600,"rng_nm":18,"alt_fmsl":27,"hdg":144.04,"id":"IDA","rwy":"14","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":23.85351900,"lon":90.39128300,"rng_nm":10,"alt_fmsl":27,"id":"IDA","rwy":"14","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":23.86270800,"lon":90.38240600,"rng_nm":0,"alt_fmsl":27,"id":"----","rwy":"14","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":91.5,"dist_nm":1,"freq":298,"lat":23.84286700,"lon":90.41768600,"rng_nm":25,"alt_fmsl":0,"id":"DCN","desc":"DHAKA NDB"},
+{"type":"VOR","hdg_t":143.8,"dist_nm":1.3,"freq":112.7,"lat":23.82468300,"lon":90.41260000,"rng_nm":130,"alt_fmsl":49,"id":"DAC","desc":"DHAKA VOR-DME"},
+{"type":"NDB","hdg_t":86.5,"dist_nm":46,"freq":237,"lat":23.88734700,"lon":91.23438900,"rng_nm":50,"alt_fmsl":0,"id":"AT","desc":"AGARTALA NDB"},
+{"type":"VOR","hdg_t":86.4,"dist_nm":46.3,"freq":116.1,"lat":23.88956900,"lon":91.23972500,"rng_nm":130,"alt_fmsl":47,"id":"AAT","desc":"AGARTALA VOR-DME"},
+{"type":"NDB","hdg_t":119,"dist_nm":49.8,"freq":330,"lat":23.43619700,"lon":91.18772500,"rng_nm":25,"alt_fmsl":0,"id":"CM","desc":"COMILLA NDB"},
+{"type":"VOR","hdg_t":119.1,"dist_nm":50,"freq":115.5,"lat":23.43377800,"lon":91.19009200,"rng_nm":130,"alt_fmsl":25,"id":"CML","desc":"COMILLA VOR"},
+{"type":"NDB","hdg_t":185,"dist_nm":62.7,"freq":368,"lat":22.79782200,"lon":90.29783600,"rng_nm":25,"alt_fmsl":0,"id":"BL","desc":"BARISAL NDB"},
+{"type":"NDB","hdg_t":284.2,"dist_nm":76.6,"freq":350,"lat":24.15284700,"lon":89.04484200,"rng_nm":25,"alt_fmsl":0,"id":"IS","desc":"ISHURDI NDB"},
+{"type":"VOR","hdg_t":239.9,"dist_nm":78.8,"freq":113,"lat":23.17693900,"lon":89.16311900,"rng_nm":130,"alt_fmsl":20,"id":"JSR","desc":"JESSORE VOR"},
+{"type":"NDB","hdg_t":239.8,"dist_nm":79,"freq":280,"lat":23.17515800,"lon":89.16174700,"rng_nm":25,"alt_fmsl":0,"id":"JR","desc":"JESSORE NDB"},
+{"type":"NDB","hdg_t":77.1,"dist_nm":79.5,"freq":246,"lat":24.13233900,"lon":91.81103600,"rng_nm":50,"alt_fmsl":0,"id":"KM","desc":"KAMALPUR NDB"},
+{"type":"NDB","hdg_t":72.1,"dist_nm":92.6,"freq":310,"lat":24.30955000,"lon":92.00628600,"rng_nm":50,"alt_fmsl":0,"id":"KR","desc":"KAILASHAHAR NDB"}
+]
+}

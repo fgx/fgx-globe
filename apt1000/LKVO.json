@@ -1,0 +1,56 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LKVO","name":"Vodochody","lat":50.218747315,"lon":14.38710185,"rwys":1,"ils":1,"index":3187465,"path":"e010n50/e014n50"
+,"runways":[
+{"len_m":2492,"wid_m":45.11,"hdg":104,"surf":"Asphalt","rwy1":"10","lat1":50.21955713,"lon1":14.37866979,"rwy2":"28","lat2":50.21379654,"lon2":14.41241670}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":17,"wid_m":20.12,"hdg":14,"surf":"Concrete","lat1":50.22081779,"lon1":14.37866046}
+]
+,"radios":[
+{"type":"TWR","freq":133.07,"desc":"TWR"},
+{"type":"APP","freq":127.47,"desc":"RADAR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.75,"lat":50.22007908,"lon":14.37678990,"rng_nm":18,"alt_fmsl":919,"hdg":285.39,"id":"VO","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.75,"lat":50.21345005,"lon":14.40816717,"rng_nm":10,"alt_fmsl":919,"id":"VO","rwy":"28","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":50.21164094,"lon":14.42265425,"rng_nm":0,"alt_fmsl":919,"id":"----","rwy":"28","desc":"MM"},
+{"type":"DME","freq":110.75,"lat":50.21345005,"lon":14.40816717,"rng_nm":18,"alt_fmsl":919,"id":"VO","rwy":"28","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":106.1,"dist_nm":1.6,"freq":333,"lat":50.21106100,"lon":14.42842800,"rng_nm":25,"alt_fmsl":0,"id":"VO","desc":"BREZANY NDB"},
+{"type":"NDB","hdg_t":189.7,"dist_nm":4.5,"freq":356,"lat":50.14416700,"lon":14.36722200,"rng_nm":50,"alt_fmsl":0,"id":"PR","desc":"RUZYNE NORTH NDB"},
+{"type":"NDB","hdg_t":213.1,"dist_nm":7,"freq":372,"lat":50.11992800,"lon":14.28659700,"rng_nm":25,"alt_fmsl":0,"id":"L","desc":"LIBOC NDB"},
+{"type":"VOR","hdg_t":213.1,"dist_nm":8.7,"freq":112.6,"lat":50.09647800,"lon":14.26280800,"rng_nm":100,"alt_fmsl":1200,"id":"OKL","desc":"PRAHA VOR-DME"},
+{"type":"NDB","hdg_t":204.5,"dist_nm":8.8,"freq":429,"lat":50.08527500,"lon":14.29239400,"rng_nm":25,"alt_fmsl":0,"id":"D","desc":"DEJVICE NDB"},
+{"type":"NDB","hdg_t":183.8,"dist_nm":10.2,"freq":307,"lat":50.04770600,"lon":14.36926400,"rng_nm":25,"alt_fmsl":0,"id":"PG","desc":"RUZYNE MIDDLE NDB"},
+{"type":"NDB","hdg_t":112.3,"dist_nm":10.4,"freq":300,"lat":50.15261100,"lon":14.63661700,"rng_nm":25,"alt_fmsl":0,"id":"KD","desc":"KBELY NDB"},
+{"type":"VOR","hdg_t":45.3,"dist_nm":12.6,"freq":108.6,"lat":50.36655800,"lon":14.62136400,"rng_nm":25,"alt_fmsl":1000,"id":"NER","desc":"NERATOVICE VOR-DME"},
+{"type":"NDB","hdg_t":255,"dist_nm":27.8,"freq":386,"lat":50.09705800,"lon":13.69071700,"rng_nm":50,"alt_fmsl":0,"id":"RAK","desc":"RAKOVNIK NDB"},
+{"type":"SDME","hdg_t":207.7,"dist_nm":29.4,"freq":117.6,"lat":49.78487200,"lon":14.03473900,"rng_nm":130,"alt_fmsl":2300,"id":"PSK","desc":"PISEK DME"},
+{"type":"VOR","hdg_t":139.3,"dist_nm":40.5,"freq":114.3,"lat":49.70427200,"lon":15.06674200,"rng_nm":130,"alt_fmsl":1500,"id":"VLM","desc":"VLASIM VOR-DME"},
+{"type":"VOR","hdg_t":359,"dist_nm":42.6,"freq":115,"lat":50.92815000,"lon":14.36880000,"rng_nm":60,"alt_fmsl":1439,"id":"HDO","desc":"HERMSDORF VOR-DME"},
+{"type":"NDB","hdg_t":114.6,"dist_nm":44.6,"freq":345,"lat":49.90401900,"lon":15.43285300,"rng_nm":50,"alt_fmsl":0,"id":"CF","desc":"CASLAV NDB"},
+{"type":"VOR","hdg_t":155.1,"dist_nm":45.3,"freq":116.3,"lat":49.53232800,"lon":14.87466400,"rng_nm":130,"alt_fmsl":2200,"id":"VOZ","desc":"VOZICE VOR-DME"},
+{"type":"VOR","hdg_t":30.7,"dist_nm":47.9,"freq":114.85,"lat":50.90268100,"lon":15.03190000,"rng_nm":130,"alt_fmsl":1300,"id":"OKX","desc":"FRYDLANT VOR-DME"},
+{"type":"NDB","hdg_t":233.1,"dist_nm":53.1,"freq":398,"lat":49.68312200,"lon":13.29424200,"rng_nm":50,"alt_fmsl":0,"id":"D","desc":"LINE NDB"},
+{"type":"NDB","hdg_t":269.1,"dist_nm":55.7,"freq":365,"lat":50.19578900,"lon":12.94168600,"rng_nm":25,"alt_fmsl":1990,"id":"L","desc":"VRATA NDB"},
+{"type":"NDB","hdg_t":102.2,"dist_nm":56.4,"freq":432,"lat":50.01109200,"lon":15.81301900,"rng_nm":75,"alt_fmsl":0,"id":"PK","desc":"PARDUBICE NDB"},
+{"type":"VOR","hdg_t":328.1,"dist_nm":56.5,"freq":114.35,"lat":51.01554700,"lon":13.59888900,"rng_nm":60,"alt_fmsl":1086,"id":"DRN","desc":"DRESDEN VOR-DME"},
+{"type":"NDB","hdg_t":5.8,"dist_nm":59.1,"freq":359,"lat":51.19881400,"lon":14.54783100,"rng_nm":25,"alt_fmsl":0,"id":"BA","desc":"BAUTZEN NDB"},
+{"type":"SDME","hdg_t":336.5,"dist_nm":59.7,"freq":115.4,"lat":51.12950600,"lon":13.75756900,"rng_nm":25,"alt_fmsl":778,"id":"DND","desc":"DRESDEN DME"},
+{"type":"NDB","hdg_t":340.9,"dist_nm":62,"freq":374,"lat":51.19301111,"lon":13.85003056,"rng_nm":15,"alt_fmsl":680,"id":"FS","desc":"DRESDEN NDB"},
+{"type":"NDB","hdg_t":17.4,"dist_nm":70.9,"freq":432,"lat":51.34362500,"lon":14.95203300,"rng_nm":25,"alt_fmsl":0,"id":"RO","desc":"ROTHENBURG NDB"},
+{"type":"NDB","hdg_t":177.8,"dist_nm":76.4,"freq":830,"lat":48.94630600,"lon":14.45822200,"rng_nm":50,"alt_fmsl":0,"id":"R","desc":"CESKE BUDEJOVICE NDB"},
+{"type":"NDB","hdg_t":176.2,"dist_nm":76.5,"freq":402,"lat":48.94627800,"lon":14.51531900,"rng_nm":50,"alt_fmsl":0,"id":"RA","desc":"CESKE BUDEJOVICE NDB"},
+{"type":"VOR","hdg_t":263.8,"dist_nm":77,"freq":115.7,"lat":50.06514700,"lon":12.40573900,"rng_nm":75,"alt_fmsl":1600,"id":"OKG","desc":"CHEB VOR-DME"},
+{"type":"SDME","hdg_t":303.3,"dist_nm":85,"freq":115.3,"lat":50.98266900,"lon":12.51226100,"rng_nm":25,"alt_fmsl":624,"id":"AGD","desc":"ALTENBURG DME"},
+{"type":"NDB","hdg_t":303.8,"dist_nm":85.1,"freq":330,"lat":50.99377500,"lon":12.52103900,"rng_nm":25,"alt_fmsl":581,"id":"ABU","desc":"ALTENBURG NDB"},
+{"type":"VOR","hdg_t":148.4,"dist_nm":87.6,"freq":113.15,"lat":48.96917500,"lon":15.54557800,"rng_nm":130,"alt_fmsl":1600,"id":"OKF","desc":"DESNA VOR-DME"},
+{"type":"NDB","hdg_t":132.5,"dist_nm":89.6,"freq":514,"lat":49.19725300,"lon":16.06679700,"rng_nm":75,"alt_fmsl":0,"id":"XU","desc":"NAMEST NDB"},
+{"type":"NDB","hdg_t":105,"dist_nm":92.2,"freq":492,"lat":49.79584400,"lon":16.67885800,"rng_nm":75,"alt_fmsl":0,"id":"TBV","desc":"TREBOVA NDB"},
+{"type":"NDB","hdg_t":132.2,"dist_nm":95.4,"freq":563,"lat":49.13650300,"lon":16.17961100,"rng_nm":75,"alt_fmsl":0,"id":"LA","desc":"NAMEST NDB"},
+{"type":"SDME","hdg_t":273.4,"dist_nm":97.5,"freq":110.7,"lat":50.28981400,"lon":11.85523100,"rng_nm":25,"alt_fmsl":1946,"id":"HOD","desc":"HOF DME"},
+{"type":"NDB","hdg_t":252.5,"dist_nm":99.8,"freq":405,"lat":49.69457500,"lon":11.94170800,"rng_nm":15,"alt_fmsl":1542,"id":"GRW","desc":"GRAFENWOHR NDB"},
+{"type":"NDB","hdg_t":43.3,"dist_nm":99.9,"freq":351,"lat":51.41509400,"lon":16.21109400,"rng_nm":25,"alt_fmsl":0,"id":"LUB","desc":"LUBIN NDB"}
+]
+}

@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OPLA","name":"Allama Iqbal Intl","lat":31.52156175,"lon":74.403591,"rwys":2,"ils":1,"index":4169313,"path":"e070n30/e074n31"
+,"runways":[
+{"len_m":3346,"wid_m":46.02,"hdg":180,"surf":"Concrete","rwy1":"18L","lat1":31.53665000,"lon1":74.40484400,"rwy2":"36R","lat2":31.50647200,"lon2":74.40430300},
+{"len_m":2741,"wid_m":46.02,"hdg":180,"surf":"Asphalt","rwy1":"18R","lat1":31.53392500,"lon1":74.40282800,"rwy2":"36L","lat2":31.50920000,"lon2":74.40238900}
+]
+,"radios":[
+{"type":"ATIS","freq":126.3,"desc":"ATIS"},
+{"type":"GND","freq":118.4,"desc":"LAHORE GND"},
+{"type":"TWR","freq":118.1,"desc":"LAHORE TWR"},
+{"type":"TWR","freq":121.8,"desc":"LAHORE TWR"},
+{"type":"APP","freq":121.3,"desc":"LAHORE APP"},
+{"type":"APP","freq":125.3,"desc":"LAHORE APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":31.53985800,"lon":74.40484400,"rng_nm":18,"alt_fmsl":707,"hdg":0.79,"id":"ILA","rwy":"36R","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":31.50902200,"lon":74.40568300,"rng_nm":10,"alt_fmsl":707,"id":"ILA","rwy":"36R","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":31.48000000,"lon":74.40666700,"rng_nm":0,"alt_fmsl":707,"id":"----","rwy":"36R","desc":"MM"},
+{"type":"DME","freq":109.9,"lat":31.50902200,"lon":74.40568300,"rng_nm":18,"alt_fmsl":712,"id":"ILA","rwy":"36R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":187.9,"dist_nm":1.3,"freq":112.7,"lat":31.49972200,"lon":74.40001900,"rng_nm":130,"alt_fmsl":729,"id":"LA","desc":"LAHORE VOR-DME"},
+{"type":"NDB","hdg_t":220.3,"dist_nm":1.6,"freq":268,"lat":31.50111100,"lon":74.38333300,"rng_nm":200,"alt_fmsl":0,"id":"LA","desc":"LAHORE NDB"},
+{"type":"VOR","hdg_t":61.2,"dist_nm":23.1,"freq":115.5,"lat":31.70694400,"lon":74.80083300,"rng_nm":130,"alt_fmsl":752,"id":"AAR","desc":"AMRITSAR VOR-DME"},
+{"type":"NDB","hdg_t":297.4,"dist_nm":23.3,"freq":317,"lat":31.70068300,"lon":73.99900800,"rng_nm":50,"alt_fmsl":730,"id":"SP","desc":"SHEIKHUPURA NDB"},
+{"type":"NDB","hdg_t":61.8,"dist_nm":23.8,"freq":351,"lat":31.70860800,"lon":74.81430800,"rng_nm":50,"alt_fmsl":0,"id":"AR","desc":"AMRITSAR NDB"},
+{"type":"NDB","hdg_t":263.2,"dist_nm":72.8,"freq":212,"lat":31.37027800,"lon":72.99500000,"rng_nm":50,"alt_fmsl":654,"id":"FA","desc":"FAISALABAD NDB"},
+{"type":"VOR","hdg_t":17.4,"dist_nm":73.4,"freq":113.3,"lat":32.69155600,"lon":74.83763900,"rng_nm":130,"alt_fmsl":1029,"id":"JJU","desc":"JAMMU VOR-DME"},
+{"type":"NDB","hdg_t":17.7,"dist_nm":74,"freq":415,"lat":32.69961700,"lon":74.84901400,"rng_nm":50,"alt_fmsl":0,"id":"JA","desc":"JAMMU NDB"},
+{"type":"NDB","hdg_t":55.2,"dist_nm":76.1,"freq":393,"lat":32.24050300,"lon":75.63307200,"rng_nm":50,"alt_fmsl":0,"id":"PK","desc":"PATHANKOT NDB"},
+{"type":"NDB","hdg_t":115.8,"dist_nm":89.5,"freq":380,"lat":30.85953300,"lon":75.96470800,"rng_nm":50,"alt_fmsl":0,"id":"LD","desc":"LUDHIANA NDB"}
+]
+}

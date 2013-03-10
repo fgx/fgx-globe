@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"GOOY","name":"Dakar Leopold Sedar Senghor Intl","lat":14.739711,"lon":-17.49022625,"rwys":2,"ils":1,"index":2660908,"path":"w020n10/w018n14"
+,"runways":[
+{"len_m":3490,"wid_m":45.11,"hdg":172,"surf":"Asphalt","rwy1":"18","lat1":14.75711400,"lon1":-17.48093900,"rwy2":"36","lat2":14.72583300,"lon2":-17.47672200},
+{"len_m":1493,"wid_m":29.87,"hdg":22,"surf":"Asphalt","rwy1":"03","lat1":14.73171100,"lon1":-17.50426900,"rwy2":"21","lat2":14.74418600,"lon2":-17.49897500}
+]
+,"radios":[
+{"type":"TWR","freq":129.5,"desc":"DAKAR INFO"},
+{"type":"TWR","freq":127.3,"desc":"DAKAR INFO"},
+{"type":"TWR","freq":118.1,"desc":"DAKAR TWR"},
+{"type":"APP","freq":120.5,"desc":"DAKAR CON"},
+{"type":"APP","freq":118.1,"desc":"DAKAR CON"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":14.75859400,"lon":-17.48128600,"rng_nm":18,"alt_fmsl":65,"hdg":352.33,"id":"YF","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":14.72891900,"lon":-17.47848300,"rng_nm":10,"alt_fmsl":73,"id":"YF","rwy":"36","desc":"GS","gs":3.01},
+{"type":"MM","freq":0,"lat":14.71666700,"lon":-17.48333300,"rng_nm":0,"alt_fmsl":65,"id":"----","rwy":"36","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":14.72891900,"lon":-17.47848300,"rng_nm":18,"alt_fmsl":73,"id":"YF","rwy":"36","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":71.1,"dist_nm":0.9,"freq":113.1,"lat":14.74483300,"lon":-17.47477800,"rng_nm":130,"alt_fmsl":111,"id":"YF","desc":"DAKAR VOR-DME"},
+{"type":"NDB","hdg_t":163.7,"dist_nm":1.4,"freq":323,"lat":14.71666700,"lon":-17.48333300,"rng_nm":25,"alt_fmsl":144,"id":"SDS","desc":"DAKAR NDB"},
+{"type":"NDB","hdg_t":112.2,"dist_nm":91.2,"freq":350,"lat":14.15711100,"lon":-16.04188900,"rng_nm":50,"alt_fmsl":85,"id":"SKK","desc":"KAOLACK NDB"},
+{"type":"NDB","hdg_t":149.6,"dist_nm":96.4,"freq":256,"lat":13.34537900,"lon":-16.65744300,"rng_nm":150,"alt_fmsl":0,"id":"ND","desc":"BANJUL NDB"},
+{"type":"VOR","hdg_t":149.7,"dist_nm":96.8,"freq":112.9,"lat":13.33813300,"lon":-16.65550000,"rng_nm":130,"alt_fmsl":95,"id":"BJ","desc":"BANJUL VOR-DME"},
+{"type":"NDB","hdg_t":37.2,"dist_nm":98.5,"freq":355,"lat":16.04908300,"lon":-16.45713900,"rng_nm":25,"alt_fmsl":68,"id":"SLO","desc":"SAINT LOUIS NDB"},
+{"type":"NDB","hdg_t":162.6,"dist_nm":147.2,"freq":398,"lat":12.38658300,"lon":-16.74280600,"rng_nm":25,"alt_fmsl":108,"id":"SKN","desc":"CAP SKIRING NDB"},
+{"type":"VOR","hdg_t":151.2,"dist_nm":148.5,"freq":112.5,"lat":12.55752800,"lon":-16.27258300,"rng_nm":130,"alt_fmsl":91,"id":"ZG","desc":"ZIGUINCHOR VOR"},
+{"type":"NDB","hdg_t":151.1,"dist_nm":148.7,"freq":334,"lat":12.55616700,"lon":-16.26688900,"rng_nm":50,"alt_fmsl":134,"id":"SZR","desc":"ZIGUINCHOR NDB"},
+{"type":"NDB","hdg_t":126.6,"dist_nm":184.4,"freq":344,"lat":12.88293500,"lon":-14.96652500,"rng_nm":50,"alt_fmsl":92,"id":"KD","desc":"KOLDA NDB"}
+]
+}

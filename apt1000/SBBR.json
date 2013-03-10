@@ -1,0 +1,44 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SBBR","name":"Brasilia Presidente Juscelino Kubitsch","lat":-15.8711015,"lon":-47.91862625,"rwys":2,"ils":2,"index":2167432,"path":"w050s20/w048s16"
+,"runways":[
+{"len_m":3307,"wid_m":45.11,"hdg":86,"surf":"Asphalt","rwy1":"11R","lat1":-15.88065600,"lon1":-47.93998900,"rwy2":"29L","lat2":-15.87858300,"lon2":-47.90918300},
+{"len_m":3201,"wid_m":45.11,"hdg":86,"surf":"Asphalt","rwy1":"11L","lat1":-15.86350000,"lon1":-47.92758300,"rwy2":"29R","lat2":-15.86166700,"lon2":-47.89775000}
+]
+,"radios":[
+{"type":"ATIS","freq":127.8,"desc":"BRASILIA ATIS"},
+{"type":"CLD","freq":121.8,"desc":"BRASILIA CLNC DEL"},
+{"type":"GND","freq":121.8,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"BRASILIA TWR"},
+{"type":"TWR","freq":118.45,"desc":"BRASILIA TWR"},
+{"type":"APP","freq":119.2,"desc":"BRASILIA APP"},
+{"type":"APP","freq":119.5,"desc":"BRASILIA APP"},
+{"type":"APP","freq":119.7,"desc":"BRASILIA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-15.86133300,"lon":-47.89500000,"rng_nm":18,"alt_fmsl":3445,"hdg":86.04,"id":"IBR","rwy":"11L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.3,"lat":-15.86366700,"lon":-47.92966700,"rng_nm":18,"alt_fmsl":3479,"hdg":266.28,"id":"IND","rwy":"29R","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-15.86194400,"lon":-47.92361100,"rng_nm":10,"alt_fmsl":3445,"id":"IBR","rwy":"11L","desc":"GS","gs":3},
+{"type":"GS","freq":109.3,"lat":-15.86027800,"lon":-47.90027800,"rng_nm":10,"alt_fmsl":3479,"id":"IND","rwy":"29R","desc":"GS","gs":2.96},
+{"type":"OM","freq":0,"lat":-15.86966700,"lon":-48.02166700,"rng_nm":0,"alt_fmsl":3445,"id":"----","rwy":"11L","desc":"OM"},
+{"type":"MM","freq":0,"lat":-15.86416700,"lon":-47.93733300,"rng_nm":0,"alt_fmsl":3445,"id":"----","rwy":"11L","desc":"MM"},
+{"type":"MM","freq":0,"lat":-15.86083300,"lon":-47.88533300,"rng_nm":0,"alt_fmsl":3479,"id":"----","rwy":"29R","desc":"MM"},
+{"type":"DME","freq":109.3,"lat":-15.86366700,"lon":-47.92966700,"rng_nm":18,"alt_fmsl":3479,"id":"IND","rwy":"29R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":202.6,"dist_nm":0.4,"freq":117.3,"lat":-15.87834400,"lon":-47.92175300,"rng_nm":25,"alt_fmsl":3479,"id":"XMA","desc":"GAMA VOR"},
+{"type":"NDB","hdg_t":290.9,"dist_nm":1.1,"freq":280,"lat":-15.86416700,"lon":-47.93733300,"rng_nm":25,"alt_fmsl":0,"id":"IR","desc":"TREVO NDB"},
+{"type":"NDB","hdg_t":72.3,"dist_nm":2,"freq":240,"lat":-15.86083300,"lon":-47.88533300,"rng_nm":50,"alt_fmsl":3490,"id":"CH","desc":"COCHO NDB"},
+{"type":"NDB","hdg_t":270.8,"dist_nm":5.9,"freq":340,"lat":-15.86966700,"lon":-48.02166700,"rng_nm":90,"alt_fmsl":0,"id":"BRS","desc":"BRASILIA NDB"},
+{"type":"VOR","hdg_t":268.4,"dist_nm":5.9,"freq":115.9,"lat":-15.87375000,"lon":-48.02135600,"rng_nm":200,"alt_fmsl":3974,"id":"BRS","desc":"BRASILIA VOR-DME"},
+{"type":"NDB","hdg_t":187.2,"dist_nm":23.3,"freq":400,"lat":-16.25856100,"lon":-47.96955800,"rng_nm":50,"alt_fmsl":3269,"id":"LUZ","desc":"LUZIANIA NDB"},
+{"type":"VOR","hdg_t":187.3,"dist_nm":23.4,"freq":113.1,"lat":-16.26085000,"lon":-47.97095600,"rng_nm":130,"alt_fmsl":3269,"id":"LUZ","desc":"LUZIANIA VOR-DME"},
+{"type":"VOR","hdg_t":60.5,"dist_nm":38,"freq":114.1,"lat":-15.55759400,"lon":-47.34706900,"rng_nm":40,"alt_fmsl":3166,"id":"FRM","desc":"FORMOSA VOR-DME"},
+{"type":"NDB","hdg_t":60.1,"dist_nm":38.2,"freq":210,"lat":-15.55133300,"lon":-47.34616700,"rng_nm":50,"alt_fmsl":0,"id":"FRM","desc":"FORMOSA NDB"},
+{"type":"NDB","hdg_t":253.7,"dist_nm":58.6,"freq":325,"lat":-16.14383300,"lon":-48.89383300,"rng_nm":25,"alt_fmsl":0,"id":"PP","desc":"POROROCA NDB"},
+{"type":"VOR","hdg_t":249.2,"dist_nm":66.2,"freq":115.4,"lat":-16.26067200,"lon":-48.99201100,"rng_nm":200,"alt_fmsl":2960,"id":"ANP","desc":"ANAPOLIS VOR-DME"},
+{"type":"NDB","hdg_t":247.4,"dist_nm":70,"freq":415,"lat":-16.31743900,"lon":-49.04026700,"rng_nm":50,"alt_fmsl":2960,"id":"ANP","desc":"ANAPOLIS NDB"},
+{"type":"VOR","hdg_t":238.5,"dist_nm":87.5,"freq":112.7,"lat":-16.63243300,"lon":-49.21535600,"rng_nm":200,"alt_fmsl":2450,"id":"GOI","desc":"GOIANIA VOR-DME"},
+{"type":"NDB","hdg_t":238.5,"dist_nm":88.1,"freq":370,"lat":-16.63719700,"lon":-49.22439200,"rng_nm":75,"alt_fmsl":2450,"id":"GOI","desc":"GOIANIA NDB"},
+{"type":"NDB","hdg_t":144.9,"dist_nm":98.4,"freq":300,"lat":-17.21716700,"lon":-46.93383300,"rng_nm":65,"alt_fmsl":0,"id":"PKT","desc":"PARACATU NDB"}
+]
+}

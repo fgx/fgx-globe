@@ -1,0 +1,43 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LFKF","name":"Figari Sud Corse","lat":41.502064,"lon":9.09696,"rwys":1,"ils":1,"index":3104992,"path":"e000n40/e009n41"
+,"runways":[
+{"len_m":2479,"wid_m":45.11,"hdg":47,"surf":"Asphalt","rwy1":"05","lat1":41.49452700,"lon1":9.08600400,"rwy2":"23","lat2":41.50960100,"lon2":9.10791600}
+]
+,"radios":[
+{"type":"ATIS","freq":118.72,"desc":"LFKF ATIS"},
+{"type":"GND","freq":121.8,"desc":"FIGARI GND"},
+{"type":"TWR","freq":120.3,"desc":"FIGARI TWR"},
+{"type":"APP","freq":121.05,"desc":"AJACCIO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":41.49476100,"lon":9.08475500,"rng_nm":27,"alt_fmsl":87,"hdg":229.00,"id":"GR","rwy":"23","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":41.50871400,"lon":9.10450500,"rng_nm":27,"alt_fmsl":87,"id":"GR","rwy":"23","desc":"GS","gs":3.5},
+{"type":"OM","freq":0,"lat":41.54594400,"lon":9.16297200,"rng_nm":0,"alt_fmsl":87,"id":"----","rwy":"23","desc":"OM"},
+{"type":"DME","freq":110.5,"lat":41.50891400,"lon":9.10451100,"rng_nm":18,"alt_fmsl":131,"id":"GR","rwy":"23","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":270.7,"dist_nm":0.6,"freq":116.7,"lat":41.50219400,"lon":9.08341700,"rng_nm":40,"alt_fmsl":87,"id":"FGI","desc":"FIGARI VOR-DME"},
+{"type":"NDB","hdg_t":49.7,"dist_nm":9.2,"freq":325,"lat":41.60138888,"lon":9.25333333,"rng_nm":25,"alt_fmsl":50,"id":"FA","desc":"Figari Sud Corse NDB"},
+{"type":"NDB","hdg_t":284,"dist_nm":13.8,"freq":394,"lat":41.55777800,"lon":8.79888900,"rng_nm":15,"alt_fmsl":0,"id":"SNE","desc":"SENETOSE NDB"},
+{"type":"VOR","hdg_t":318.1,"dist_nm":21.6,"freq":114.8,"lat":41.77052800,"lon":8.77466700,"rng_nm":200,"alt_fmsl":2142,"id":"AJO","desc":"AJACCIO VOR-DME"},
+{"type":"NDB","hdg_t":316.4,"dist_nm":24.2,"freq":387,"lat":41.79527777,"lon":8.72416666,"rng_nm":25,"alt_fmsl":295,"id":"CT","desc":"Ajaccio Campo dell Oro NDB"},
+{"type":"NDB","hdg_t":331.8,"dist_nm":28.1,"freq":365,"lat":41.91527777,"lon":8.80111111,"rng_nm":25,"alt_fmsl":13,"id":"RB","desc":"Ajaccio Campo dell Oro NDB"},
+{"type":"NDB","hdg_t":27.1,"dist_nm":29.1,"freq":349,"lat":41.93333300,"lon":9.39400000,"rng_nm":50,"alt_fmsl":28,"id":"SZA","desc":"SOLENZARA NDB"},
+{"type":"NDB","hdg_t":335,"dist_nm":29.5,"freq":365,"lat":41.94916500,"lon":8.81833400,"rng_nm":75,"alt_fmsl":0,"id":"RO","desc":"AJACCIO NDB"},
+{"type":"SDME","hdg_t":28.6,"dist_nm":29.7,"freq":114,"lat":41.93747200,"lon":9.41622200,"rng_nm":25,"alt_fmsl":28,"id":"SZA","desc":"SOLENZARA TACAN"},
+{"type":"NDB","hdg_t":317.6,"dist_nm":32.2,"freq":341,"lat":41.89880600,"lon":8.61208300,"rng_nm":50,"alt_fmsl":0,"id":"IS","desc":"AJACCIO/CAMPO DELL ORO NDB"},
+{"type":"NDB","hdg_t":153.1,"dist_nm":40.8,"freq":357,"lat":40.89358400,"lon":9.50230500,"rng_nm":50,"alt_fmsl":37,"id":"SME","desc":"SMERALDA NDB"},
+{"type":"VOR","hdg_t":153.3,"dist_nm":41,"freq":113.9,"lat":40.88992600,"lon":9.50114600,"rng_nm":40,"alt_fmsl":56,"id":"SME","desc":"SMERALDA VOR-DME"},
+{"type":"NDB","hdg_t":19.4,"dist_nm":58.8,"freq":369,"lat":42.42583333,"lon":9.53750000,"rng_nm":25,"alt_fmsl":33,"id":"BP","desc":"Bastia Poretta NDB"},
+{"type":"NDB","hdg_t":216,"dist_nm":59.4,"freq":337,"lat":40.69833400,"lon":8.33138800,"rng_nm":150,"alt_fmsl":0,"id":"AH","desc":"ALGHERO NDB"},
+{"type":"NDB","hdg_t":215.5,"dist_nm":63.3,"freq":382,"lat":40.64000000,"lon":8.29166700,"rng_nm":50,"alt_fmsl":79,"id":"ALG","desc":"ALGHERO NDB"},
+{"type":"VOR","hdg_t":215.4,"dist_nm":63.3,"freq":111.65,"lat":40.63816000,"lon":8.29177500,"rng_nm":40,"alt_fmsl":101,"id":"AEA","desc":"ALGHERO VOR-DME"},
+{"type":"VOR","hdg_t":216.7,"dist_nm":65.1,"freq":113.8,"lat":40.62805600,"lon":8.24388900,"rng_nm":150,"alt_fmsl":1447,"id":"ALG","desc":"ALGHERO VORTAC"},
+{"type":"NDB","hdg_t":348.7,"dist_nm":65.7,"freq":375,"lat":42.57697200,"lon":8.80658300,"rng_nm":40,"alt_fmsl":0,"id":"CV","desc":"CALVI NDB"},
+{"type":"VOR","hdg_t":14.5,"dist_nm":66.4,"freq":114.15,"lat":42.57369300,"lon":9.47458800,"rng_nm":80,"alt_fmsl":36,"id":"BTA","desc":"BASTIA PORETTA VOR-DME"},
+{"type":"VOR","hdg_t":37.7,"dist_nm":93.7,"freq":114.7,"lat":42.73068600,"lon":10.39572500,"rng_nm":200,"alt_fmsl":1388,"id":"ELB","desc":"ELBA VORTAC"},
+{"type":"NDB","hdg_t":37.6,"dist_nm":93.8,"freq":360,"lat":42.73250000,"lon":10.39388900,"rng_nm":100,"alt_fmsl":1194,"id":"ELB","desc":"ELBA NDB"},
+{"type":"NDB","hdg_t":164.1,"dist_nm":98.4,"freq":289,"lat":39.92144400,"lon":9.67866700,"rng_nm":25,"alt_fmsl":17,"id":"ARB","desc":"ARBATAX NDB"},
+{"type":"NDB","hdg_t":192.2,"dist_nm":98.4,"freq":362,"lat":39.89666700,"lon":8.64527800,"rng_nm":25,"alt_fmsl":0,"id":"ORF","desc":"ORISTANO NDB"}
+]
+}

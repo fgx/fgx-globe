@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DBBB","name":"Cadjehoun","lat":6.3572265,"lon":2.384353,"rwys":1,"ils":1,"index":2988051,"path":"e000n00/e002n06"
+,"runways":[
+{"len_m":2400,"wid_m":45.11,"hdg":53,"surf":"Asphalt","rwy1":"06","lat1":6.35071400,"lon1":2.37567500,"rwy2":"24","lat2":6.36373900,"lon2":2.39303100}
+]
+,"radios":[
+{"type":"TWR","freq":125.9,"desc":"TWR"},
+{"type":"TWR","freq":118.7,"desc":"TWR"},
+{"type":"APP","freq":125.9,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":6.35003900,"lon":2.37491900,"rng_nm":18,"alt_fmsl":19,"hdg":232.72,"id":"ICN","rwy":"24","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":6.36291700,"lon":2.39023300,"rng_nm":10,"alt_fmsl":19,"id":"ICN","rwy":"24","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":6.37080600,"lon":2.40250000,"rng_nm":0,"alt_fmsl":19,"id":"----","rwy":"24","desc":"MM"},
+{"type":"DME","freq":109.5,"lat":6.36286100,"lon":2.39015000,"rng_nm":18,"alt_fmsl":19,"id":"ICN","rwy":"24","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":61.1,"dist_nm":0.6,"freq":113.3,"lat":6.36213900,"lon":2.39325000,"rng_nm":130,"alt_fmsl":39,"id":"TYE","desc":"COTONOU VOR-DME"},
+{"type":"NDB","hdg_t":53.2,"dist_nm":1.3,"freq":284,"lat":6.37080600,"lon":2.40250000,"rng_nm":50,"alt_fmsl":0,"id":"CO","desc":"COTONOU NDB"},
+{"type":"VOR","hdg_t":78.6,"dist_nm":56.6,"freq":112.9,"lat":6.54277800,"lon":3.31366900,"rng_nm":130,"alt_fmsl":95,"id":"LOS","desc":"LAGOS VOR-DME"},
+{"type":"NDB","hdg_t":75.1,"dist_nm":58.2,"freq":336,"lat":6.60648000,"lon":3.32792800,"rng_nm":25,"alt_fmsl":115,"id":"LA","desc":"LAGOS NDB"},
+{"type":"VOR","hdg_t":69.5,"dist_nm":60,"freq":113.7,"lat":6.70846100,"lon":3.32745000,"rng_nm":130,"alt_fmsl":251,"id":"LAG","desc":"LAGOS VOR-DME"},
+{"type":"VOR","hdg_t":261.2,"dist_nm":67.4,"freq":115.3,"lat":6.18408300,"lon":1.26877800,"rng_nm":130,"alt_fmsl":86,"id":"LM","desc":"LOME VOR-DME"},
+{"type":"NDB","hdg_t":260.4,"dist_nm":68.8,"freq":379,"lat":6.16519400,"lon":1.24775000,"rng_nm":50,"alt_fmsl":0,"id":"LME","desc":"LOME NDB"},
+{"type":"VOR","hdg_t":57.8,"dist_nm":111.3,"freq":112.1,"lat":7.34743600,"lon":3.96571700,"rng_nm":130,"alt_fmsl":748,"id":"IBA","desc":"IBADAN VOR-DME"},
+{"type":"NDB","hdg_t":54.7,"dist_nm":111.7,"freq":400,"lat":7.43373300,"lon":3.91588300,"rng_nm":25,"alt_fmsl":0,"id":"IB","desc":"IBADAN NDB"},
+{"type":"NDB","hdg_t":57.4,"dist_nm":113.6,"freq":310,"lat":7.37801700,"lon":3.99149400,"rng_nm":25,"alt_fmsl":0,"id":"IN","desc":"IBADAN NDB"}
+]
+}

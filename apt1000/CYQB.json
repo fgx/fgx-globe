@@ -1,0 +1,41 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYQB","name":"Quebec Jean Lesage Intl","lat":46.78945825,"lon":-71.392764,"rwys":2,"ils":1,"index":1778226,"path":"w080n40/w072n46"
+,"runways":[
+{"len_m":2752,"wid_m":45.72,"hdg":44,"surf":"Asphalt","rwy1":"06","lat1":46.78222200,"lon1":-71.40638900,"rwy2":"24","lat2":46.80000000,"lon2":-71.38130600},
+{"len_m":1735,"wid_m":45.72,"hdg":97,"surf":"Asphalt","rwy1":"12","lat1":46.78883300,"lon1":-71.40294400,"rwy2":"30","lat2":46.78677800,"lon2":-71.38041700}
+]
+,"radios":[
+{"type":"ATIS","freq":134.6,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":120.3,"desc":"TWR"},
+{"type":"TWR","freq":118.65,"desc":"TWR"},
+{"type":"APP","freq":124,"desc":"TRML CON"},
+{"type":"APP","freq":127.85,"desc":"TRML CON"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":46.80020100,"lon":-71.38108800,"rng_nm":18,"alt_fmsl":207,"hdg":43.94,"id":"IQB","rwy":"06","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":46.78301200,"lon":-71.40369400,"rng_nm":10,"alt_fmsl":231,"id":"IQB","rwy":"06","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":230.4,"dist_nm":3.7,"freq":230,"lat":46.74983333,"lon":-71.46255556,"rng_nm":50,"alt_fmsl":0,"id":"QB","desc":"QUEBEC NDB"},
+{"type":"NDB","hdg_t":99.3,"dist_nm":4.3,"freq":329,"lat":46.77777778,"lon":-71.28969444,"rng_nm":50,"alt_fmsl":0,"id":"OU","desc":"STE-FOY NDB"},
+{"type":"NDB","hdg_t":43,"dist_nm":6.7,"freq":336,"lat":46.87113889,"lon":-71.28141667,"rng_nm":50,"alt_fmsl":0,"id":"BV","desc":"CHAMPLAIN NDB"},
+{"type":"VOR","hdg_t":242.4,"dist_nm":10.8,"freq":112.8,"lat":46.70530556,"lon":-71.62625000,"rng_nm":130,"alt_fmsl":221,"id":"YQB","desc":"QUEBEC VORTAC"},
+{"type":"NDB","hdg_t":146.5,"dist_nm":32.6,"freq":257,"lat":46.33500000,"lon":-70.96000000,"rng_nm":50,"alt_fmsl":0,"id":"T8","desc":"ST-FREDERIC NDB"},
+{"type":"NDB","hdg_t":173.3,"dist_nm":44.9,"freq":275,"lat":46.04555556,"lon":-71.26777778,"rng_nm":50,"alt_fmsl":0,"id":"R1","desc":"THETFORD MINES NDB"},
+{"type":"NDB","hdg_t":208.7,"dist_nm":46.3,"freq":384,"lat":46.11055556,"lon":-71.92694444,"rng_nm":50,"alt_fmsl":0,"id":"F8","desc":"VICTORIAVILLE NDB"},
+{"type":"VOR","hdg_t":156.1,"dist_nm":56.6,"freq":117.2,"lat":45.92500000,"lon":-70.84611111,"rng_nm":130,"alt_fmsl":1584,"id":"VLV","desc":"BEAUCE VOR-DME"},
+{"type":"NDB","hdg_t":244.8,"dist_nm":58.3,"freq":205,"lat":46.36919444,"lon":-72.66511111,"rng_nm":50,"alt_fmsl":0,"id":"YRQ","desc":"TROIS-RIVIERES NDB"},
+{"type":"NDB","hdg_t":40.7,"dist_nm":66.4,"freq":392,"lat":47.62333333,"lon":-70.32500000,"rng_nm":50,"alt_fmsl":0,"id":"ML","desc":"CHARLEVOIX NDB"},
+{"type":"NDB","hdg_t":303.8,"dist_nm":68.3,"freq":289,"lat":47.41613889,"lon":-72.78650000,"rng_nm":50,"alt_fmsl":0,"id":"YLQ","desc":"LA TUQUE NDB"},
+{"type":"NDB","hdg_t":216.8,"dist_nm":70.3,"freq":401,"lat":45.84722222,"lon":-72.39888889,"rng_nm":50,"alt_fmsl":0,"id":"Y8","desc":"DRUMMONDVILLE NDB"},
+{"type":"VOR","hdg_t":3.9,"dist_nm":73.8,"freq":114.2,"lat":48.01722222,"lon":-71.26666667,"rng_nm":130,"alt_fmsl":2893,"id":"VBS","desc":"SAGUENAY VOR-DME"},
+{"type":"NDB","hdg_t":191.9,"dist_nm":80.6,"freq":362,"lat":45.47450000,"lon":-71.78791667,"rng_nm":50,"alt_fmsl":0,"id":"SC","desc":"SHERBROOKE NDB"},
+{"type":"VOR","hdg_t":190.7,"dist_nm":89.9,"freq":113.2,"lat":45.31644444,"lon":-71.78813889,"rng_nm":130,"alt_fmsl":1000,"id":"YSC","desc":"SHERBROOKE VORTAC"},
+{"type":"NDB","hdg_t":247.6,"dist_nm":91.3,"freq":260,"lat":46.19225000,"lon":-73.41902778,"rng_nm":50,"alt_fmsl":0,"id":"UFX","desc":"ST-FELIX-DE-VALOI NDB"},
+{"type":"NDB","hdg_t":6,"dist_nm":93.2,"freq":356,"lat":48.33400000,"lon":-71.14597222,"rng_nm":50,"alt_fmsl":0,"id":"YBG","desc":"BAGOTVILLE NDB"},
+{"type":"VOR","hdg_t":51,"dist_nm":93.8,"freq":113.9,"lat":47.75752778,"lon":-69.58977778,"rng_nm":130,"alt_fmsl":0,"id":"YRI","desc":"RIVIERE DU LOUP VOR"},
+{"type":"SDME","hdg_t":9.7,"dist_nm":93.8,"freq":111.8,"lat":48.32948900,"lon":-70.99566700,"rng_nm":130,"alt_fmsl":531,"id":"XBG","desc":"BAGOTVILLE TACAN"},
+{"type":"NDB","hdg_t":51,"dist_nm":94.4,"freq":201,"lat":47.76363889,"lon":-69.57811111,"rng_nm":50,"alt_fmsl":0,"id":"RI","desc":"RIVIERE-DU-LOUP NDB"}
+]
+}

@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EFKS","name":"Kuusamo","lat":65.987404,"lon":29.2397975,"rwys":1,"ils":1,"index":3434232,"path":"e020n60/e029n65"
+,"runways":[
+{"len_m":2460,"wid_m":45.11,"hdg":132,"surf":"Asphalt","rwy1":"12","lat1":65.99481400,"lon1":29.21973900,"rwy2":"30","lat2":65.97999400,"lon2":29.25985600}
+]
+,"radios":[
+{"type":"TWR","freq":118.65,"desc":"AFIS"},
+{"type":"TWR","freq":119.7,"desc":"AFIS"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":65.97824200,"lon":29.26460000,"rng_nm":18,"alt_fmsl":866,"hdg":132.25,"id":"KO","rwy":"12","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":65.99218900,"lon":29.22285000,"rng_nm":10,"alt_fmsl":866,"id":"KO","rwy":"12","desc":"GS","gs":3},
+{"type":"DME","freq":110.3,"lat":65.99218900,"lon":29.22285000,"rng_nm":18,"alt_fmsl":919,"id":"KO","rwy":"12","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":339.5,"dist_nm":0.2,"freq":114.4,"lat":65.99173100,"lon":29.23583600,"rng_nm":50,"alt_fmsl":923,"id":"KLA","desc":"KANTOLA VOR-DME"},
+{"type":"NDB","hdg_t":312.5,"dist_nm":4.8,"freq":340,"lat":66.04221900,"lon":29.09266400,"rng_nm":30,"alt_fmsl":0,"id":"KS","desc":"KILO-SIERRA NDB"},
+{"type":"NDB","hdg_t":297.8,"dist_nm":88.3,"freq":416,"lat":66.63888300,"lon":25.97102200,"rng_nm":30,"alt_fmsl":0,"id":"TOR","desc":"TORAMO NDB"},
+{"type":"VOR","hdg_t":294.2,"dist_nm":89.8,"freq":117.7,"lat":66.56253900,"lon":25.82040800,"rng_nm":50,"alt_fmsl":661,"id":"ROI","desc":"ROVANI VOR-DME"},
+{"type":"NDB","hdg_t":290,"dist_nm":91.9,"freq":377,"lat":66.46910000,"lon":25.64880000,"rng_nm":30,"alt_fmsl":0,"id":"PA","desc":"PAPA-ALFA NDB"},
+{"type":"NDB","hdg_t":325.7,"dist_nm":109.7,"freq":368,"lat":67.47180300,"lon":26.56687500,"rng_nm":30,"alt_fmsl":0,"id":"SK","desc":"SIERRA-KILO NDB"},
+{"type":"VOR","hdg_t":202,"dist_nm":110.2,"freq":114.9,"lat":64.28253600,"lon":27.65577500,"rng_nm":130,"alt_fmsl":447,"id":"KNI","desc":"KAINUU VOR-DME"},
+{"type":"NDB","hdg_t":203.5,"dist_nm":111.9,"freq":337,"lat":64.27306100,"lon":27.52986700,"rng_nm":30,"alt_fmsl":483,"id":"KAJ","desc":"KAJAANI NDB"},
+{"type":"NDB","hdg_t":236.1,"dist_nm":114.1,"freq":290,"lat":64.88449700,"lon":25.53162800,"rng_nm":30,"alt_fmsl":0,"id":"TP","desc":"TANGO-PAPA NDB"},
+{"type":"NDB","hdg_t":267.8,"dist_nm":114.3,"freq":373,"lat":65.84646100,"lon":24.60290800,"rng_nm":25,"alt_fmsl":0,"id":"KEM","desc":"KEMI NDB"}
+]
+}

@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VTUQ","name":"Nakhon Ratchasima","lat":14.949496,"lon":102.3127375,"rwys":1,"ils":1,"index":4627002,"path":"e100n10/e102n14"
+,"runways":[
+{"len_m":2101,"wid_m":45.11,"hdg":61,"surf":"Asphalt","rwy1":"06","lat1":14.94494200,"lon1":102.30416900,"rwy2":"24","lat2":14.95405000,"lon2":102.32130600}
+]
+,"radios":[
+{"type":"GND","freq":134.1,"desc":"GND"},
+{"type":"TWR","freq":119.8,"desc":"TWR"},
+{"type":"APP","freq":123.6,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":14.95535000,"lon":102.32375300,"rng_nm":18,"alt_fmsl":732,"hdg":61.19,"id":"INKR","rwy":"06","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":14.94534200,"lon":102.30724200,"rng_nm":10,"alt_fmsl":765,"id":"INKR","rwy":"06","desc":"GS","gs":3},
+{"type":"DME","freq":109.7,"lat":14.95478900,"lon":102.32405800,"rng_nm":18,"alt_fmsl":732,"id":"INKR","rwy":"06","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":206.9,"dist_nm":0.1,"freq":110.2,"lat":14.94657200,"lon":102.31120800,"rng_nm":130,"alt_fmsl":768,"id":"NKR","desc":"NAKHON RATCHASIMA VOR-DME"},
+{"type":"NDB","hdg_t":15.3,"dist_nm":0.4,"freq":399,"lat":14.95646700,"lon":102.31470300,"rng_nm":50,"alt_fmsl":0,"id":"KR","desc":"NAKHON RATCHASIMA NDB"},
+{"type":"VOR","hdg_t":259.1,"dist_nm":10.2,"freq":113.7,"lat":14.91731900,"lon":102.13981100,"rng_nm":100,"alt_fmsl":729,"id":"KRT","desc":"KHORAT VOR-DME"},
+{"type":"SDME","hdg_t":266.4,"dist_nm":13.9,"freq":117.8,"lat":14.93498300,"lon":102.07280800,"rng_nm":50,"alt_fmsl":729,"id":"KRT","desc":"KHORAT TACAN"},
+{"type":"NDB","hdg_t":72.3,"dist_nm":57.2,"freq":303,"lat":15.23866100,"lon":103.25254200,"rng_nm":25,"alt_fmsl":0,"id":"BR","desc":"BURI RAM NDB"},
+{"type":"VOR","hdg_t":72.3,"dist_nm":57.5,"freq":117.2,"lat":15.23956400,"lon":103.25877500,"rng_nm":50,"alt_fmsl":590,"id":"BRM","desc":"BURI RAM VOR-DME"},
+{"type":"NDB","hdg_t":180,"dist_nm":70.5,"freq":270,"lat":13.76861100,"lon":102.31194400,"rng_nm":50,"alt_fmsl":0,"id":"WN","desc":"WATTHANA NAKHON NDB"},
+{"type":"NDB","hdg_t":228,"dist_nm":74,"freq":201,"lat":14.11998200,"lon":101.36827500,"rng_nm":75,"alt_fmsl":0,"id":"PB","desc":"PRACHIN BURI NDB"},
+{"type":"NDB","hdg_t":16.7,"dist_nm":94.4,"freq":393,"lat":16.46205800,"lon":102.78449400,"rng_nm":50,"alt_fmsl":0,"id":"KN","desc":"KHON KAEN NDB"},
+{"type":"VOR","hdg_t":16.7,"dist_nm":94.9,"freq":114.9,"lat":16.47075800,"lon":102.78779700,"rng_nm":100,"alt_fmsl":670,"id":"KKN","desc":"KHON KAEN VOR-DME"},
+{"type":"NDB","hdg_t":267.9,"dist_nm":96,"freq":280,"lat":14.88630100,"lon":100.66001800,"rng_nm":25,"alt_fmsl":0,"id":"LB","desc":"LOP BURI NDB"},
+{"type":"SDME","hdg_t":267.7,"dist_nm":96,"freq":116.8,"lat":14.88055600,"lon":100.66111100,"rng_nm":25,"alt_fmsl":98,"id":"LOB","desc":"LOP BURI TACAN"},
+{"type":"VOR","hdg_t":270.2,"dist_nm":97,"freq":117.3,"lat":14.95042200,"lon":100.64222200,"rng_nm":50,"alt_fmsl":95,"id":"SPN","desc":"SA PRAN NAK VOR"}
+]
+}

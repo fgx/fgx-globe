@@ -1,0 +1,39 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SUMU","name":"Montevideo Carrasco Intl","lat":-34.8348883333333,"lon":-56.0277268333333,"rwys":3,"ils":2,"index":2018763,"path":"w060s40/w057s35"
+,"runways":[
+{"len_m":3200,"wid_m":45.11,"hdg":53,"surf":"Asphalt","rwy1":"06","lat1":-34.84403600,"lon1":-56.03999200,"rwy2":"24","lat2":-34.82681900,"lon2":-56.01191700},
+{"len_m":2251,"wid_m":45.11,"hdg":359,"surf":"Asphalt","rwy1":"01","lat1":-34.84186400,"lon1":-56.03064400,"rwy2":"19","lat2":-34.82157200,"lon2":-56.03099200},
+{"len_m":1703,"wid_m":45.11,"hdg":90,"surf":"Concrete","rwy1":"10","lat1":-34.83741700,"lon1":-56.03571900,"rwy2":"28","lat2":-34.83762200,"lon2":-56.01709700}
+]
+,"radios":[
+{"type":"TWR","freq":121.8,"desc":"TWR"},
+{"type":"APP","freq":120.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.1,"lat":-34.84494400,"lon":-56.03075000,"rng_nm":18,"alt_fmsl":105,"hdg":179.51,"id":"IMVD","rwy":"19","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.9,"lat":-34.84372200,"lon":-56.03958300,"rng_nm":18,"alt_fmsl":105,"hdg":233.35,"id":"ICAR","rwy":"24","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.1,"lat":-34.82461100,"lon":-56.03194400,"rng_nm":10,"alt_fmsl":105,"id":"IMVD","rwy":"19","desc":"GS","gs":3},
+{"type":"GS","freq":109.9,"lat":-34.82972200,"lon":-56.01861100,"rng_nm":10,"alt_fmsl":105,"id":"ICAR","rwy":"24","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-34.78469400,"lon":-55.94341700,"rng_nm":0,"alt_fmsl":105,"id":"----","rwy":"24","desc":"OM"},
+{"type":"MM","freq":0,"lat":-34.82344400,"lon":-56.00627800,"rng_nm":0,"alt_fmsl":105,"id":"----","rwy":"24","desc":"MM"},
+{"type":"DME","freq":111.1,"lat":-34.84494400,"lon":-56.03050000,"rng_nm":18,"alt_fmsl":66,"id":"IMVD","rwy":"19","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":44.5,"dist_nm":0.1,"freq":116.9,"lat":-34.83272200,"lon":-56.02513900,"rng_nm":130,"alt_fmsl":98,"id":"CRR","desc":"CARRASCO VOR-DME"},
+{"type":"NDB","hdg_t":57.1,"dist_nm":1.2,"freq":260,"lat":-34.82344400,"lon":-56.00627800,"rng_nm":13,"alt_fmsl":0,"id":"AR","desc":"CARRASCO NDB"},
+{"type":"NDB","hdg_t":1.1,"dist_nm":3.9,"freq":380,"lat":-34.76841700,"lon":-56.02608300,"rng_nm":25,"alt_fmsl":0,"id":"CAR","desc":"CARRASCO NDB"},
+{"type":"NDB","hdg_t":54.2,"dist_nm":5.1,"freq":280,"lat":-34.78469400,"lon":-55.94341700,"rng_nm":13,"alt_fmsl":0,"id":"CA","desc":"CARRASCO NDB"},
+{"type":"NDB","hdg_t":283,"dist_nm":11.9,"freq":395,"lat":-34.78952800,"lon":-56.26302800,"rng_nm":40,"alt_fmsl":174,"id":"ASI","desc":"ADAMI NDB"},
+{"type":"NDB","hdg_t":92.3,"dist_nm":45.8,"freq":239,"lat":-34.86222200,"lon":-55.10030600,"rng_nm":25,"alt_fmsl":0,"id":"LS","desc":"CURBELO NDB"},
+{"type":"VOR","hdg_t":92,"dist_nm":46.2,"freq":117.6,"lat":-34.85830600,"lon":-55.09172200,"rng_nm":130,"alt_fmsl":98,"id":"LDS","desc":"CURBELO VOR-DME"},
+{"type":"VOR","hdg_t":243.1,"dist_nm":68.6,"freq":114.1,"lat":-35.34611100,"lon":-57.27555600,"rng_nm":140,"alt_fmsl":52,"id":"PDI","desc":"PUNTA INDIO VOR-DME"},
+{"type":"NDB","hdg_t":243.4,"dist_nm":70.2,"freq":325,"lat":-35.35277800,"lon":-57.30722200,"rng_nm":216,"alt_fmsl":52,"id":"PDI","desc":"PUNTA INDIO NDB"},
+{"type":"NDB","hdg_t":284.3,"dist_nm":89.2,"freq":203,"lat":-34.45394400,"lon":-57.77008300,"rng_nm":30,"alt_fmsl":0,"id":"COL","desc":"COLONIA NDB"},
+{"type":"NDB","hdg_t":344.1,"dist_nm":89.7,"freq":277,"lat":-33.39161100,"lon":-56.51569400,"rng_nm":25,"alt_fmsl":305,"id":"BD","desc":"DURAZNO NDB"},
+{"type":"VOR","hdg_t":345.1,"dist_nm":91.5,"freq":117.5,"lat":-33.35625000,"lon":-56.49605600,"rng_nm":130,"alt_fmsl":295,"id":"DUR","desc":"DURAZNO VOR-DME"},
+{"type":"NDB","hdg_t":343.4,"dist_nm":92.1,"freq":245,"lat":-33.35975000,"lon":-56.54975000,"rng_nm":60,"alt_fmsl":0,"id":"DO","desc":"DURAZNO NDB"},
+{"type":"NDB","hdg_t":345.3,"dist_nm":92.2,"freq":298,"lat":-33.34316700,"lon":-56.49116700,"rng_nm":25,"alt_fmsl":305,"id":"MP","desc":"DURAZNO NDB"},
+{"type":"NDB","hdg_t":264.5,"dist_nm":92.6,"freq":250,"lat":-34.96666700,"lon":-57.89777800,"rng_nm":81,"alt_fmsl":72,"id":"PTA","desc":"LA PLATA NDB"},
+{"type":"VOR","hdg_t":264.2,"dist_nm":92.6,"freq":113.7,"lat":-34.97583300,"lon":-57.89833300,"rng_nm":170,"alt_fmsl":69,"id":"PTA","desc":"LA PLATA VOR"}
+]
+}

@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MMMD","name":"Licenciado Manuel Crescencio Rejon Int","lat":20.93203475,"lon":-89.6516105,"rwys":2,"ils":1,"index":1481658,"path":"w090n20/w090n20"
+,"runways":[
+{"len_m":3202,"wid_m":46.02,"hdg":105,"surf":"Asphalt","rwy1":"10","lat1":20.93763100,"lon1":-89.66025800,"rwy2":"28","lat2":20.92998300,"lon2":-89.63056400},
+{"len_m":2309,"wid_m":46.02,"hdg":181,"surf":"Asphalt","rwy1":"17","lat1":20.94068900,"lon1":-89.65760300,"rwy2":"35","lat2":20.91983600,"lon2":-89.65801700}
+]
+,"radios":[
+{"type":"ATIS","freq":127.9,"desc":"ATIS"},
+{"type":"TWR","freq":126.9,"desc":"MERIDA INFO"},
+{"type":"APP","freq":118.3,"desc":"MERIDA APP/TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":111.7,"lat":20.92981700,"lon":-89.62709400,"rng_nm":18,"alt_fmsl":38,"hdg":104.16,"id":"IMID","rwy":"10","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.7,"lat":20.93713100,"lon":-89.65424700,"rng_nm":10,"alt_fmsl":38,"id":"IMID","rwy":"10","desc":"GS","gs":3},
+{"type":"DME","freq":111.7,"lat":20.93713100,"lon":-89.65424700,"rng_nm":18,"alt_fmsl":38,"id":"IMID","rwy":"10","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":324.2,"dist_nm":0.4,"freq":117.7,"lat":20.93805556,"lon":-89.65622222,"rng_nm":130,"alt_fmsl":38,"id":"MID","desc":"MERIDA VOR-DME"},
+{"type":"NDB","hdg_t":286.1,"dist_nm":4.4,"freq":280,"lat":20.95252778,"lon":-89.72702778,"rng_nm":50,"alt_fmsl":0,"id":"MID","desc":"MERIDA NDB"},
+{"type":"NDB","hdg_t":350.3,"dist_nm":20.7,"freq":280,"lat":21.27338900,"lon":-89.71361900,"rng_nm":50,"alt_fmsl":18,"id":"MPG","desc":"PROGRESO NDB"},
+{"type":"VOR","hdg_t":104.1,"dist_nm":69.8,"freq":116.5,"lat":20.64305800,"lon":-88.44823100,"rng_nm":130,"alt_fmsl":102,"id":"CZA","desc":"KAUA VOR-DME"},
+{"type":"VOR","hdg_t":216.2,"dist_nm":81.4,"freq":116.2,"lat":19.83083333,"lon":-90.50394444,"rng_nm":130,"alt_fmsl":34,"id":"CPE","desc":"CAMPECHE VOR-DME"},
+{"type":"NDB","hdg_t":98.6,"dist_nm":154.7,"freq":330,"lat":20.52195000,"lon":-86.93393300,"rng_nm":50,"alt_fmsl":15,"id":"CZM","desc":"COZUMEL NDB"},
+{"type":"VOR","hdg_t":98.6,"dist_nm":155,"freq":112.6,"lat":20.52205556,"lon":-86.92927778,"rng_nm":130,"alt_fmsl":15,"id":"CZM","desc":"COZUMEL VOR-DME"},
+{"type":"VOR","hdg_t":87.4,"dist_nm":156.9,"freq":113.6,"lat":21.02511111,"lon":-86.85872222,"rng_nm":130,"alt_fmsl":20,"id":"CUN","desc":"CANCUN VOR-DME"},
+{"type":"VOR","hdg_t":87.1,"dist_nm":157.1,"freq":114.5,"lat":21.03868700,"lon":-86.85460400,"rng_nm":40,"alt_fmsl":19,"id":"NCP","desc":"Nichupte VOR-DME"},
+{"type":"NDB","hdg_t":236.7,"dist_nm":161.5,"freq":371,"lat":19.43333600,"lon":-92.03333300,"rng_nm":50,"alt_fmsl":200,"id":"PO1","desc":"NEPTUNO NDB"}
+]
+}

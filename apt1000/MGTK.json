@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MGTK","name":"Mundo Maya Intl","lat":16.9138195,"lon":-89.866382,"rwys":1,"ils":1,"index":1481401,"path":"w090n10/w090n16"
+,"runways":[
+{"len_m":2999,"wid_m":45.11,"hdg":110,"surf":"Concrete","rwy1":"10","lat1":16.91865300,"lon1":-89.87953600,"rwy2":"28","lat2":16.90898600,"lon2":-89.85322800}
+]
+,"radios":[
+{"type":"CLD","freq":120,"desc":"TIKAL CLNC"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.3,"desc":"TIKAL TWR"},
+{"type":"APP","freq":121.4,"desc":"TIKAL APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.1,"lat":16.90854400,"lon":-89.85180600,"rng_nm":18,"alt_fmsl":386,"hdg":110.86,"id":"ITKL","rwy":"10","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.1,"lat":16.91837500,"lon":-89.87639200,"rng_nm":10,"alt_fmsl":386,"id":"ITKL","rwy":"10","desc":"GS","gs":3},
+{"type":"DME","freq":111.1,"lat":16.91837500,"lon":-89.87639200,"rng_nm":18,"alt_fmsl":380,"id":"ITKL","rwy":"10","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":298,"dist_nm":0.6,"freq":113.3,"lat":16.91902778,"lon":-89.87652778,"rng_nm":130,"alt_fmsl":427,"id":"TIK","desc":"TIKAL VOR-DME"},
+{"type":"NDB","hdg_t":277.7,"dist_nm":0.7,"freq":385,"lat":16.91562800,"lon":-89.88013300,"rng_nm":50,"alt_fmsl":380,"id":"TKL","desc":"TIKAL NDB"},
+{"type":"NDB","hdg_t":143.8,"dist_nm":43.5,"freq":363,"lat":16.32500000,"lon":-89.42166700,"rng_nm":50,"alt_fmsl":1804,"id":"POP","desc":"POPTUN NDB"},
+{"type":"NDB","hdg_t":211.4,"dist_nm":64.5,"freq":260,"lat":15.99200000,"lon":-90.44891700,"rng_nm":50,"alt_fmsl":426,"id":"RUB","desc":"RUBELSANTO NDB"},
+{"type":"VOR","hdg_t":66.9,"dist_nm":96.6,"freq":114.3,"lat":17.54011111,"lon":-88.31544444,"rng_nm":130,"alt_fmsl":39,"id":"BZE","desc":"BELIZE VOR-DME"},
+{"type":"NDB","hdg_t":67.2,"dist_nm":96.7,"freq":392,"lat":17.53388889,"lon":-88.31055556,"rng_nm":50,"alt_fmsl":0,"id":"BZE","desc":"BELIZE NDB"},
+{"type":"NDB","hdg_t":133.6,"dist_nm":101.6,"freq":347,"lat":15.73666667,"lon":-88.59500000,"rng_nm":50,"alt_fmsl":0,"id":"BAR","desc":"PUERTO BARRIOS NDB"},
+{"type":"VOR","hdg_t":133.4,"dist_nm":101.8,"freq":115.1,"lat":15.73676400,"lon":-88.58881700,"rng_nm":40,"alt_fmsl":20,"id":"IOS","desc":"PUERTO BARRIOS VOR-DME"},
+{"type":"NDB","hdg_t":197.1,"dist_nm":118.8,"freq":313,"lat":15.01141400,"lon":-90.46925300,"rng_nm":50,"alt_fmsl":4925,"id":"RBN","desc":"RABINAL NDB"},
+{"type":"VOR","hdg_t":197.1,"dist_nm":119,"freq":116.1,"lat":15.00863889,"lon":-90.47033333,"rng_nm":130,"alt_fmsl":4925,"id":"RAB","desc":"RABINAL VOR-DME"}
+]
+}

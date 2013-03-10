@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WIBB","name":"Pekanbaru Sultan Syarif Kasim Ii","lat":0.4607845,"lon":101.4445375,"rwys":1,"ils":1,"index":4609691,"path":"e100n00/e101n00"
+,"runways":[
+{"len_m":2234,"wid_m":29.87,"hdg":181,"surf":"Asphalt","rwy1":"18","lat1":0.47088300,"lon1":101.44483100,"rwy2":"36","lat2":0.45068600,"lon2":101.44424400}
+]
+,"radios":[
+{"type":"TWR","freq":118.1,"desc":"SYARIF TWR"},
+{"type":"APP","freq":120.8,"desc":"PEKANBARU APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.1,"lat":0.47225300,"lon":101.44478600,"rng_nm":18,"alt_fmsl":102,"hdg":1.44,"id":"IPKU","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.1,"lat":0.45420600,"lon":101.44519200,"rng_nm":10,"alt_fmsl":87,"id":"IPKU","rwy":"36","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":0.44124200,"lon":101.44400600,"rng_nm":0,"alt_fmsl":102,"id":"----","rwy":"36","desc":"MM"},
+{"type":"DME","freq":111.1,"lat":0.47225300,"lon":101.44478600,"rng_nm":18,"alt_fmsl":102,"id":"IPKU","rwy":"36","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":56.7,"dist_nm":0.6,"freq":350,"lat":0.46648900,"lon":101.45316700,"rng_nm":50,"alt_fmsl":102,"id":"NW","desc":"PEKANBARU NDB"},
+{"type":"VOR","hdg_t":184.9,"dist_nm":2.1,"freq":112.1,"lat":0.42558900,"lon":101.44149400,"rng_nm":130,"alt_fmsl":102,"id":"PKU","desc":"PEKANBARU VOR-DME"},
+{"type":"NDB","hdg_t":288.9,"dist_nm":68.4,"freq":238,"lat":0.83333300,"lon":100.36666700,"rng_nm":50,"alt_fmsl":151,"id":"PP","desc":"PASIR PANGARAYAN NDB"},
+{"type":"NDB","hdg_t":37.6,"dist_nm":69.2,"freq":305,"lat":1.38000000,"lon":102.14833300,"rng_nm":50,"alt_fmsl":46,"id":"SP","desc":"SEI PAKNING NDB"},
+{"type":"NDB","hdg_t":0.5,"dist_nm":70.7,"freq":343,"lat":1.64500000,"lon":101.45500000,"rng_nm":50,"alt_fmsl":54,"id":"DM","desc":"DUMAI NDB"},
+{"type":"NDB","hdg_t":132,"dist_nm":72.1,"freq":280,"lat":-0.34916100,"lon":102.33554400,"rng_nm":50,"alt_fmsl":61,"id":"AD","desc":"RENGAT NDB"},
+{"type":"VOR","hdg_t":223.2,"dist_nm":102.2,"freq":114.7,"lat":-0.78700000,"lon":100.27822200,"rng_nm":130,"alt_fmsl":16,"id":"MKB","desc":"MINANGKABAU VOR-DME"},
+{"type":"VOR","hdg_t":219.5,"dist_nm":103,"freq":116.4,"lat":-0.87110600,"lon":100.35328900,"rng_nm":130,"alt_fmsl":9,"id":"PDG","desc":"PADANG VOR-DME"},
+{"type":"NDB","hdg_t":218.2,"dist_nm":105.4,"freq":295,"lat":-0.92554700,"lon":100.35735000,"rng_nm":50,"alt_fmsl":0,"id":"OQ","desc":"PADANG NDB"},
+{"type":"NDB","hdg_t":24.1,"dist_nm":114.3,"freq":362,"lat":2.20822200,"lon":102.22180600,"rng_nm":50,"alt_fmsl":0,"id":"MC","desc":"MALACCA NDB"}
+]
+}

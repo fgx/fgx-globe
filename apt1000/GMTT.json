@@ -1,0 +1,40 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"GMTT","name":"Ibn Batouta","lat":35.72691125,"lon":-5.91689975,"rwys":2,"ils":1,"index":2858856,"path":"w010n30/w006n35"
+,"runways":[
+{"len_m":3501,"wid_m":45.11,"hdg":95,"surf":"Asphalt","rwy1":"10","lat1":35.73327500,"lon1":-5.94031100,"rwy2":"28","lat2":35.72997800,"lon2":-5.90181900},
+{"len_m":2000,"wid_m":29.87,"hdg":69,"surf":"Asphalt","rwy1":"07","lat1":35.71911100,"lon1":-5.92312500,"rwy2":"25","lat2":35.72528100,"lon2":-5.90234400}
+]
+,"radios":[
+{"type":"TWR","freq":119.5,"desc":"TANGER TWR"},
+{"type":"APP","freq":121.2,"desc":"TANGER APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":35.73361100,"lon":-5.94277800,"rng_nm":18,"alt_fmsl":62,"hdg":276.22,"id":"TAG","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":35.73166700,"lon":-5.91000000,"rng_nm":10,"alt_fmsl":52,"id":"TAG","rwy":"28","desc":"GS","gs":2.99}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":84.6,"dist_nm":1.2,"freq":115.9,"lat":35.72888900,"lon":-5.89083300,"rng_nm":130,"alt_fmsl":105,"id":"TNG","desc":"TANGER VOR-DME"},
+{"type":"VOR","hdg_t":105,"dist_nm":30,"freq":117.3,"lat":35.59500000,"lon":-5.32472200,"rng_nm":130,"alt_fmsl":49,"id":"TTN","desc":"TETOUAN VOR-DME"},
+{"type":"VOR","hdg_t":355.1,"dist_nm":31.2,"freq":117.8,"lat":36.24718300,"lon":-5.97187200,"rng_nm":130,"alt_fmsl":728,"id":"VJF","desc":"VEJER VOR-DME"},
+{"type":"NDB","hdg_t":71.4,"dist_nm":31.4,"freq":300,"lat":35.89256900,"lon":-5.30544400,"rng_nm":50,"alt_fmsl":39,"id":"CEU","desc":"CEUTA NDB-DME"},
+{"type":"SDME","hdg_t":71.4,"dist_nm":31.4,"freq":117.75,"lat":35.89256900,"lon":-5.30527800,"rng_nm":50,"alt_fmsl":39,"id":"CEU","desc":"CEUTA NDB-DME"},
+{"type":"NDB","hdg_t":101.8,"dist_nm":31.8,"freq":388,"lat":35.61583300,"lon":-5.27916700,"rng_nm":25,"alt_fmsl":0,"id":"TUN","desc":"SANIAT RMEL NDB"},
+{"type":"SDME","hdg_t":48.1,"dist_nm":37.4,"freq":113.6,"lat":36.14288900,"lon":-5.34272200,"rng_nm":130,"alt_fmsl":1397,"id":"GBR","desc":"GIBRALTAR TACAN"},
+{"type":"NDB","hdg_t":340.6,"dist_nm":58.1,"freq":267,"lat":36.64208300,"lon":-6.31680600,"rng_nm":25,"alt_fmsl":0,"id":"AOG","desc":"ROTA NDB"},
+{"type":"SDME","hdg_t":339.3,"dist_nm":59,"freq":108.6,"lat":36.64785800,"lon":-6.34905800,"rng_nm":25,"alt_fmsl":86,"id":"AOG","desc":"ROTA TACAN"},
+{"type":"VOR","hdg_t":355.3,"dist_nm":65.4,"freq":113,"lat":36.81518600,"lon":-6.02653900,"rng_nm":25,"alt_fmsl":285,"id":"JRZ","desc":"JEREZ VOR-DME"},
+{"type":"NDB","hdg_t":355.8,"dist_nm":66.5,"freq":433,"lat":36.83446700,"lon":-6.01621700,"rng_nm":50,"alt_fmsl":0,"id":"JER","desc":"JEREZ NDB"},
+{"type":"SDME","hdg_t":9.3,"dist_nm":87.8,"freq":115.3,"lat":37.17319400,"lon":-5.61963900,"rng_nm":40,"alt_fmsl":285,"id":"MRN","desc":"MORON TACAN"},
+{"type":"VOR","hdg_t":9.3,"dist_nm":87.9,"freq":115.5,"lat":37.17508300,"lon":-5.61891700,"rng_nm":130,"alt_fmsl":285,"id":"MRN","desc":"MORON VOR-DME"},
+{"type":"NDB","hdg_t":47,"dist_nm":88.6,"freq":350,"lat":36.72650600,"lon":-4.57144700,"rng_nm":25,"alt_fmsl":0,"id":"GM","desc":"MALAGA NDB"},
+{"type":"VOR","hdg_t":49.7,"dist_nm":89.1,"freq":113.55,"lat":36.67873900,"lon":-4.50666900,"rng_nm":130,"alt_fmsl":75,"id":"MLG","desc":"MALAGA VOR-DME"},
+{"type":"NDB","hdg_t":50.9,"dist_nm":89.4,"freq":330,"lat":36.65891900,"lon":-4.47674400,"rng_nm":60,"alt_fmsl":0,"id":"RMA","desc":"MALAGA NDB"},
+{"type":"VOR","hdg_t":184.2,"dist_nm":89.7,"freq":115.5,"lat":34.23250000,"lon":-6.05055600,"rng_nm":130,"alt_fmsl":179,"id":"SMN","desc":"SIDI SLIMANE VOR-DME"},
+{"type":"VOR","hdg_t":30.4,"dist_nm":92.6,"freq":112.6,"lat":37.05531900,"lon":-4.93988900,"rng_nm":100,"alt_fmsl":2267,"id":"MAR","desc":"MARTIN VOR-DME"},
+{"type":"NDB","hdg_t":202.1,"dist_nm":92.9,"freq":380,"lat":34.28722200,"lon":-6.62055600,"rng_nm":75,"alt_fmsl":0,"id":"CNL","desc":"KENITRA NDB"},
+{"type":"NDB","hdg_t":357.5,"dist_nm":95.2,"freq":327,"lat":37.31541700,"lon":-6.00130600,"rng_nm":25,"alt_fmsl":0,"id":"EEC","desc":"EL COPERO NDB"},
+{"type":"NDB","hdg_t":10.2,"dist_nm":95.4,"freq":428,"lat":37.29458300,"lon":-5.56213900,"rng_nm":40,"alt_fmsl":0,"id":"MNF","desc":"MORON NDB"},
+{"type":"VOR","hdg_t":48.5,"dist_nm":99.4,"freq":112,"lat":36.81431100,"lon":-4.36951900,"rng_nm":130,"alt_fmsl":3396,"id":"MGA","desc":"MALAGA VOR-DME"},
+{"type":"NDB","hdg_t":201.8,"dist_nm":99.9,"freq":332,"lat":34.17640800,"lon":-6.66427800,"rng_nm":75,"alt_fmsl":0,"id":"SBI","desc":"RABAT NDB"}
+]
+}

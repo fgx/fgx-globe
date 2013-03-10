@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LIBG","name":"Grottaglie","lat":40.5175125,"lon":17.40321122,"rwys":1,"ils":1,"index":3236001,"path":"e010n40/e017n40"
+,"runways":[
+{"len_m":3198,"wid_m":45.11,"hdg":168,"surf":"Asphalt","rwy1":"17","lat1":40.53163177,"lon1":17.39949688,"rwy2":"35","lat2":40.50339323,"lon2":17.40692556}
+]
+,"radios":[
+{"type":"TWR","freq":118.7,"desc":"TWR"},
+{"type":"APP","freq":118.7,"desc":"APP"},
+{"type":"APP","freq":122.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":108.35,"lat":40.53245900,"lon":17.39925400,"rng_nm":20,"alt_fmsl":215,"hdg":348.72,"id":"ITGT","rwy":"35","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.35,"lat":40.50780500,"lon":17.40459600,"rng_nm":10,"alt_fmsl":215,"id":"ITGT","rwy":"35","desc":"GS","gs":3},
+{"type":"DME","freq":108.35,"lat":40.50780500,"lon":17.40459600,"rng_nm":25,"alt_fmsl":215,"id":"ITGT","rwy":"35","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":155.1,"dist_nm":0.5,"freq":110.2,"lat":40.50964700,"lon":17.40799000,"rng_nm":25,"alt_fmsl":230,"id":"TAG","desc":"GROTTAGLIE VOR-DME"},
+{"type":"NDB","hdg_t":168.5,"dist_nm":4.3,"freq":331,"lat":40.44583300,"lon":17.42222200,"rng_nm":25,"alt_fmsl":367,"id":"GRT","desc":"GROTTAGLIE NDB"},
+{"type":"VOR","hdg_t":78.2,"dist_nm":27.9,"freq":113.2,"lat":40.61083000,"lon":18.00277800,"rng_nm":200,"alt_fmsl":85,"id":"BRD","desc":"BRINDISI VORTAC"},
+{"type":"NDB","hdg_t":79,"dist_nm":28.1,"freq":363,"lat":40.60555600,"lon":18.00888900,"rng_nm":78,"alt_fmsl":16,"id":"BRD","desc":"BRINDISI NDB"},
+{"type":"SDME","hdg_t":306.7,"dist_nm":28.5,"freq":117.8,"lat":40.80125600,"lon":16.90125600,"rng_nm":130,"alt_fmsl":1183,"id":"GIO","desc":"GIOIA DEL COLLE TACAN"},
+{"type":"VOR","hdg_t":115.6,"dist_nm":37,"freq":112.8,"lat":40.24721000,"lon":18.13082600,"rng_nm":40,"alt_fmsl":217,"id":"LCC","desc":"LECCE VORTAC"},
+{"type":"VOR","hdg_t":322.9,"dist_nm":47.1,"freq":116.4,"lat":41.14417100,"lon":16.77638300,"rng_nm":80,"alt_fmsl":121,"id":"BAR","desc":"BARI VOR-DME"},
+{"type":"NDB","hdg_t":316.6,"dist_nm":49,"freq":401,"lat":41.11030600,"lon":16.66044400,"rng_nm":25,"alt_fmsl":418,"id":"BPL","desc":"BARI PALESE NDB"},
+{"type":"SDME","hdg_t":306.2,"dist_nm":90.6,"freq":114.3,"lat":41.39972200,"lon":15.78416700,"rng_nm":130,"alt_fmsl":86,"id":"ORT","desc":"ORTANOVA TACAN"},
+{"type":"NDB","hdg_t":310.1,"dist_nm":92.3,"freq":334,"lat":41.50000000,"lon":15.83777800,"rng_nm":25,"alt_fmsl":16,"id":"AME","desc":"AMENDOLA NDB"},
+{"type":"VOR","hdg_t":189.3,"dist_nm":92.4,"freq":117.1,"lat":38.99611300,"lon":17.08305400,"rng_nm":150,"alt_fmsl":548,"id":"CRN","desc":"CROTONE VOR-DME"},
+{"type":"SDME","hdg_t":309,"dist_nm":98.2,"freq":115.25,"lat":41.53789700,"lon":15.70998100,"rng_nm":40,"alt_fmsl":185,"id":"MNL","desc":"AMENDOLA TACAN"}
+]
+}

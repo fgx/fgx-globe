@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VARK","name":"Rajkot","lat":22.309182,"lon":70.779525,"rwys":1,"ils":1,"index":4103187,"path":"e070n20/e070n22"
+,"runways":[
+{"len_m":1836,"wid_m":45.11,"hdg":47,"surf":"Asphalt","rwy1":"05","lat1":22.30352800,"lon1":70.77300800,"rwy2":"23","lat2":22.31483600,"lon2":70.78604200}
+]
+,"radios":[
+{"type":"TWR","freq":122.1,"desc":"TWR"},
+{"type":"APP","freq":122.3,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.9,"lat":22.30280600,"lon":70.77188900,"rng_nm":18,"alt_fmsl":441,"hdg":227.42,"id":"IRAJ","rwy":"23","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.9,"lat":22.31352800,"lon":70.78325000,"rng_nm":10,"alt_fmsl":441,"id":"IRAJ","rwy":"23","desc":"GS","gs":3},
+{"type":"DME","freq":110.9,"lat":22.31352800,"lon":70.78325000,"rng_nm":18,"alt_fmsl":441,"id":"RAJ","rwy":"23","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":343.2,"dist_nm":0.2,"freq":115.4,"lat":22.31309400,"lon":70.77825800,"rng_nm":130,"alt_fmsl":440,"id":"RKT","desc":"RAJKOT VOR-DME"},
+{"type":"NDB","hdg_t":75,"dist_nm":0.3,"freq":329,"lat":22.31087200,"lon":70.78631400,"rng_nm":50,"alt_fmsl":0,"id":"RK","desc":"RAJKOT NDB"},
+{"type":"VOR","hdg_t":285.8,"dist_nm":35.1,"freq":115,"lat":22.46861100,"lon":70.17111100,"rng_nm":40,"alt_fmsl":49,"id":"JMR","desc":"JAMNAGAR VOR-DME"},
+{"type":"NDB","hdg_t":322.2,"dist_nm":60.7,"freq":335,"lat":23.11163300,"lon":70.10751400,"rng_nm":50,"alt_fmsl":0,"id":"KD","desc":"KANDLA NDB"},
+{"type":"NDB","hdg_t":206.1,"dist_nm":65.9,"freq":282,"lat":21.31847200,"lon":70.26166700,"rng_nm":50,"alt_fmsl":0,"id":"KS","desc":"KESHOD NDB"},
+{"type":"NDB","hdg_t":237.5,"dist_nm":73.9,"freq":344,"lat":21.64120800,"lon":69.66260600,"rng_nm":50,"alt_fmsl":0,"id":"PR","desc":"PORBANDAR NDB"},
+{"type":"VOR","hdg_t":313.2,"dist_nm":84.3,"freq":112.6,"lat":23.27106100,"lon":69.66785000,"rng_nm":130,"alt_fmsl":268,"id":"BBJ","desc":"BHUJ VOR-DME"},
+{"type":"NDB","hdg_t":313.5,"dist_nm":84.4,"freq":404,"lat":23.27827800,"lon":69.67119400,"rng_nm":50,"alt_fmsl":0,"id":"BJ","desc":"BHUJ NDB"},
+{"type":"NDB","hdg_t":112.6,"dist_nm":84.5,"freq":243,"lat":21.75856400,"lon":72.17668600,"rng_nm":50,"alt_fmsl":0,"id":"BV","desc":"BHAVNAGAR NDB"},
+{"type":"VOR","hdg_t":112.7,"dist_nm":85.3,"freq":114.1,"lat":21.75008300,"lon":72.18891700,"rng_nm":130,"alt_fmsl":20,"id":"BVR","desc":"BHAVNAGAR VOR-DME"}
+]
+}

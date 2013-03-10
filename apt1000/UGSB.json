@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UGSB","name":"Batumi","lat":41.60966,"lon":41.600318,"rwys":1,"ils":1,"index":3629282,"path":"e040n40/e041n41"
+,"runways":[
+{"len_m":2233,"wid_m":45.72,"hdg":130,"surf":"Asphalt","rwy1":"13","lat1":41.61621700,"lon1":41.59016400,"rwy2":"31","lat2":41.60310300,"lon2":41.61047200}
+]
+,"radios":[
+{"type":"TWR","freq":120,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":41.60083300,"lon":41.61388900,"rng_nm":18,"alt_fmsl":121,"hdg":130.94,"id":"ILU","rwy":"13","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":41.61444400,"lon":41.59055600,"rng_nm":10,"alt_fmsl":127,"id":"ILU","rwy":"13","desc":"GS","gs":2.5}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":130.9,"dist_nm":0.8,"freq":430,"lat":41.60083300,"lon":41.61388900,"rng_nm":75,"alt_fmsl":0,"id":"LU","desc":"BATUMI NDB"},
+{"type":"NDB","hdg_t":48.2,"dist_nm":51,"freq":477,"lat":42.17334700,"lon":42.45465600,"rng_nm":25,"alt_fmsl":0,"id":"TIG","desc":"KUTAISI NDB"},
+{"type":"VOR","hdg_t":48.3,"dist_nm":51.1,"freq":113.6,"lat":42.17348900,"lon":42.45605300,"rng_nm":130,"alt_fmsl":200,"id":"KTS","desc":"KUTAISI VOR-DME"},
+{"type":"NDB","hdg_t":50.4,"dist_nm":54.5,"freq":842,"lat":42.18455800,"lon":42.54398100,"rng_nm":25,"alt_fmsl":0,"id":"UY","desc":"KUTAISI NDB"},
+{"type":"NDB","hdg_t":7.7,"dist_nm":59.9,"freq":525,"lat":42.60000000,"lon":41.78333300,"rng_nm":50,"alt_fmsl":0,"id":"DA","desc":"GALI NDB"},
+{"type":"NDB","hdg_t":344.1,"dist_nm":77.5,"freq":489,"lat":42.85333300,"lon":41.12166700,"rng_nm":50,"alt_fmsl":0,"id":"AV","desc":"SUKHUMI NDB"},
+{"type":"NDB","hdg_t":246.3,"dist_nm":89.5,"freq":371,"lat":40.99527800,"lon":39.79555600,"rng_nm":75,"alt_fmsl":104,"id":"TBN","desc":"TRABZON NDB"},
+{"type":"VOR","hdg_t":246.3,"dist_nm":89.5,"freq":114.9,"lat":40.99527800,"lon":39.79555600,"rng_nm":130,"alt_fmsl":36,"id":"TBN","desc":"TRABZON VOR-DME"},
+{"type":"NDB","hdg_t":131.6,"dist_nm":93.1,"freq":431,"lat":40.56750000,"lon":43.12416700,"rng_nm":25,"alt_fmsl":5889,"id":"KAR","desc":"KARS NDB"},
+{"type":"VOR","hdg_t":131.6,"dist_nm":93.1,"freq":113.8,"lat":40.56750000,"lon":43.12416700,"rng_nm":75,"alt_fmsl":5902,"id":"KAR","desc":"KARS VOR-DME"},
+{"type":"NDB","hdg_t":71.5,"dist_nm":96.4,"freq":353,"lat":42.10000000,"lon":43.64888900,"rng_nm":50,"alt_fmsl":0,"id":"BT","desc":"ALI NDB"},
+{"type":"NDB","hdg_t":188.1,"dist_nm":99.8,"freq":434,"lat":39.96000000,"lon":41.29472200,"rng_nm":40,"alt_fmsl":0,"id":"ER","desc":"ERZURUM NDB"}
+]
+}

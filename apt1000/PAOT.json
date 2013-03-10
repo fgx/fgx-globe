@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PAOT","name":"Ralph Wien Mem","lat":66.88387625,"lon":-162.60093475,"rwys":2,"ils":1,"index":288568,"path":"w170n60/w163n66"
+,"runways":[
+{"len_m":1798,"wid_m":45.72,"hdg":101,"surf":"Asphalt","rwy1":"08","lat1":66.88943600,"lon1":-162.60936700,"rwy2":"26","lat2":66.88613900,"lon2":-162.56919700},
+{"len_m":1187,"wid_m":27.43,"hdg":193,"surf":"Gravel","rwy1":"17","lat1":66.88513300,"lon1":-162.60933100,"rwy2":"35","lat2":66.87479700,"lon2":-162.61584400}
+]
+,"radios":[
+{"type":"ATIS","freq":135.45,"desc":"ASOS"},
+{"type":"ATIS","freq":135.45,"desc":"ATIS"},
+{"type":"CTAF","freq":123.6,"desc":"CTAF"},
+{"type":"CTAF","freq":122.8,"desc":"UNICOM"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":66.88695000,"lon":-162.56954200,"rng_nm":18,"alt_fmsl":11,"hdg":99.05,"id":"IOTZ","rwy":"08","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":66.88826900,"lon":-162.60295600,"rng_nm":10,"alt_fmsl":10,"id":"IOTZ","rwy":"08","desc":"GS","gs":3},
+{"type":"DME","freq":110.7,"lat":66.88695300,"lon":-162.56933900,"rng_nm":18,"alt_fmsl":11,"id":"IOTZ","rwy":"08","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":39.5,"dist_nm":1.3,"freq":356,"lat":66.90125000,"lon":-162.56436111,"rng_nm":50,"alt_fmsl":0,"id":"HHM","desc":"HOTHAM NDB"},
+{"type":"VOR","hdg_t":85.6,"dist_nm":1.4,"freq":115.7,"lat":66.88569444,"lon":-162.53994444,"rng_nm":130,"alt_fmsl":120,"id":"OTZ","desc":"KOTZEBUE VOR-DME"},
+{"type":"NDB","hdg_t":348.3,"dist_nm":42.3,"freq":414,"lat":67.57186111,"lon":-162.97377778,"rng_nm":50,"alt_fmsl":0,"id":"OQK","desc":"NOATAK NDB"},
+{"type":"VOR","hdg_t":104.2,"dist_nm":64.4,"freq":114.2,"lat":66.59947222,"lon":-159.99083333,"rng_nm":130,"alt_fmsl":11,"id":"WLK","desc":"SELAWIK VOR-DME"},
+{"type":"NDB","hdg_t":146.6,"dist_nm":64.7,"freq":325,"lat":65.97980556,"lon":-161.14938889,"rng_nm":50,"alt_fmsl":0,"id":"BVK","desc":"BUCKLAND NDB"},
+{"type":"NDB","hdg_t":354.3,"dist_nm":69.5,"freq":429,"lat":68.03238889,"lon":-162.90405556,"rng_nm":50,"alt_fmsl":0,"id":"DGG","desc":"RED DOG NDB"},
+{"type":"NDB","hdg_t":247.1,"dist_nm":90.8,"freq":365,"lat":66.25816667,"lon":-166.05250000,"rng_nm":50,"alt_fmsl":0,"id":"SHH","desc":"SHISHMAREF NDB"},
+{"type":"NDB","hdg_t":80.9,"dist_nm":112.5,"freq":403,"lat":67.10675000,"lon":-157.85800000,"rng_nm":50,"alt_fmsl":0,"id":"AMF","desc":"AMBLER NDB"},
+{"type":"NDB","hdg_t":162.4,"dist_nm":122.5,"freq":299,"lat":64.93641667,"lon":-161.15513889,"rng_nm":50,"alt_fmsl":0,"id":"KKA","desc":"KOYUK NDB"},
+{"type":"NDB","hdg_t":314.3,"dist_nm":130.4,"freq":221,"lat":68.34463889,"lon":-166.79825000,"rng_nm":50,"alt_fmsl":0,"id":"PHO","desc":"POINT HOPE NDB"}
+]
+}

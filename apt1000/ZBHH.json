@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ZBHH","name":"Baita","lat":40.850509,"lon":111.82435025,"rwys":2,"ils":1,"index":4776115,"path":"e110n40/e111n40"
+,"runways":[
+{"len_m":3595,"wid_m":45.11,"hdg":72,"surf":"Concrete","rwy1":"08R","lat1":40.84478300,"lon1":111.80423900,"rwy2":"26L","lat2":40.85441100,"lon2":111.84495300},
+{"len_m":3200,"wid_m":45.11,"hdg":71,"surf":"Concrete","rwy1":"08","lat1":40.84696700,"lon1":111.80605600,"rwy2":"26","lat2":40.85587500,"lon2":111.84215300}
+]
+,"radios":[
+{"type":"GND","freq":121.65,"desc":"HOHHOT GND"},
+{"type":"TWR","freq":118.1,"desc":"HOHHOT TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":108.9,"lat":40.85651100,"lon":111.84474700,"rng_nm":18,"alt_fmsl":3556,"hdg":71.95,"id":"IFX","rwy":"08","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.9,"lat":40.84738900,"lon":111.81326100,"rng_nm":10,"alt_fmsl":3556,"id":"IFX","rwy":"08","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":40.83638300,"lon":111.76299400,"rng_nm":0,"alt_fmsl":3556,"id":"----","rwy":"08","desc":"OM"},
+{"type":"MM","freq":0,"lat":40.84502800,"lon":111.79815800,"rng_nm":0,"alt_fmsl":3556,"id":"----","rwy":"08","desc":"MM"},
+{"type":"DME","freq":108.9,"lat":40.84738900,"lon":111.81326100,"rng_nm":18,"alt_fmsl":3543,"id":"IFX","rwy":"08","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":68.1,"dist_nm":3.1,"freq":434,"lat":40.87000000,"lon":111.88833300,"rng_nm":50,"alt_fmsl":0,"id":"KJ","desc":"HOHHOT NDB"},
+{"type":"NDB","hdg_t":122.4,"dist_nm":36.1,"freq":282,"lat":40.52500000,"lon":112.49166700,"rng_nm":50,"alt_fmsl":0,"id":"SZ","desc":"LIANGCHENG NDB"},
+{"type":"VOR","hdg_t":44.6,"dist_nm":84.5,"freq":113.3,"lat":41.84500000,"lon":113.15000000,"rng_nm":130,"alt_fmsl":4908,"id":"TMR","desc":"TUMURTAI VOR-DME"},
+{"type":"NDB","hdg_t":258.9,"dist_nm":84.5,"freq":489,"lat":40.56666700,"lon":110.00833300,"rng_nm":50,"alt_fmsl":0,"id":"ZQ","desc":"BAOTOU NDB"},
+{"type":"VOR","hdg_t":258.8,"dist_nm":85.2,"freq":117.3,"lat":40.56000000,"lon":109.99500000,"rng_nm":130,"alt_fmsl":3330,"id":"BAV","desc":"BAOTOU VOR-DME"},
+{"type":"NDB","hdg_t":44,"dist_nm":85.4,"freq":365,"lat":41.86666700,"lon":113.15000000,"rng_nm":50,"alt_fmsl":0,"id":"HD","desc":"TUMURTAI NDB"},
+{"type":"VOR","hdg_t":103.7,"dist_nm":105,"freq":115.6,"lat":40.41166700,"lon":114.05000000,"rng_nm":130,"alt_fmsl":3268,"id":"TZH","desc":"TIANZHEN VOR-DME"},
+{"type":"NDB","hdg_t":102.6,"dist_nm":106.2,"freq":264,"lat":40.44000000,"lon":114.08666700,"rng_nm":75,"alt_fmsl":0,"id":"ZN","desc":"TIANZHEN NDB"},
+{"type":"NDB","hdg_t":127.7,"dist_nm":163.8,"freq":314,"lat":39.14500000,"lon":114.60000000,"rng_nm":50,"alt_fmsl":0,"id":"KR","desc":"NANCHENGZI NDB"},
+{"type":"NDB","hdg_t":2.6,"dist_nm":167,"freq":411,"lat":43.63333300,"lon":112.00000000,"rng_nm":50,"alt_fmsl":0,"id":"PK","desc":"EREN NDB"}
+]
+}

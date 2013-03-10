@@ -1,0 +1,43 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"YWLM","name":"Williamtown","lat":-32.795878,"lon":151.8347955,"rwys":1,"ils":1,"index":5426763,"path":"e150s40/e151s33"
+,"runways":[
+{"len_m":2438,"wid_m":45.11,"hdg":130,"surf":"Asphalt","rwy1":"12","lat1":-32.78876700,"lon1":151.82486900,"rwy2":"30","lat2":-32.80298900,"lon2":151.84472200}
+]
+,"radios":[
+{"type":"ATIS","freq":125.7,"desc":"ATIS"},
+{"type":"CTAF","freq":118.3,"desc":"CTAF"},
+{"type":"CLD","freq":130.35,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.8,"desc":"GND"},
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"APP","freq":135.7,"desc":"WILLY APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":-32.80472200,"lon":151.84694400,"rng_nm":18,"alt_fmsl":31,"hdg":130.68,"id":"IWM","rwy":"12","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":-32.79138900,"lon":151.82638900,"rng_nm":10,"alt_fmsl":31,"id":"IWM","rwy":"12","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-32.73111100,"lon":151.74444400,"rng_nm":0,"alt_fmsl":31,"id":"----","rwy":"12","desc":"OM"},
+{"type":"MM","freq":0,"lat":-32.78277800,"lon":151.81611100,"rng_nm":0,"alt_fmsl":31,"id":"----","rwy":"12","desc":"MM"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":228.9,"dist_nm":0.1,"freq":113.3,"lat":-32.79705600,"lon":151.83319400,"rng_nm":25,"alt_fmsl":59,"id":"WLM","desc":"WILLIAMTOWN TACAN"},
+{"type":"NDB","hdg_t":214.1,"dist_nm":0.5,"freq":365,"lat":-32.80335300,"lon":151.82878100,"rng_nm":100,"alt_fmsl":30,"id":"WLM","desc":"WILLIAMTOWN NDB"},
+{"type":"NDB","hdg_t":279,"dist_nm":15.4,"freq":224,"lat":-32.75506100,"lon":151.53275600,"rng_nm":65,"alt_fmsl":0,"id":"WMD","desc":"WEST MAITLAND NDB"},
+{"type":"VOR","hdg_t":279,"dist_nm":15.5,"freq":114.6,"lat":-32.75488300,"lon":151.53184700,"rng_nm":130,"alt_fmsl":0,"id":"WMD","desc":"WEST MAITLAND VOR"},
+{"type":"NDB","hdg_t":296.3,"dist_nm":32.6,"freq":290,"lat":-32.55222200,"lon":151.25750000,"rng_nm":60,"alt_fmsl":0,"id":"SGT","desc":"SINGLETON NDB"},
+{"type":"VOR","hdg_t":241.7,"dist_nm":39.7,"freq":117.3,"lat":-33.10833300,"lon":151.13944400,"rng_nm":130,"alt_fmsl":0,"id":"MQD","desc":"MOUNT MCQUOID VOR"},
+{"type":"NDB","hdg_t":241.4,"dist_nm":39.9,"freq":404,"lat":-33.11221900,"lon":151.13918300,"rng_nm":25,"alt_fmsl":0,"id":"MQD","desc":"MOUNT MCQUOID NDB"},
+{"type":"NDB","hdg_t":220.6,"dist_nm":48,"freq":392,"lat":-33.40277800,"lon":151.21138900,"rng_nm":15,"alt_fmsl":0,"id":"CAA","desc":"CALGA NDB"},
+{"type":"NDB","hdg_t":32.4,"dist_nm":64.1,"freq":371,"lat":-31.88949400,"lon":152.50948100,"rng_nm":70,"alt_fmsl":0,"id":"TRE","desc":"TAREE NDB"},
+{"type":"NDB","hdg_t":311.5,"dist_nm":68.3,"freq":209,"lat":-32.03474700,"lon":150.83103300,"rng_nm":40,"alt_fmsl":0,"id":"SCO","desc":"SCONE NDB"},
+{"type":"SDME","hdg_t":226.7,"dist_nm":71.2,"freq":110.7,"lat":-33.60739400,"lon":150.79889400,"rng_nm":25,"alt_fmsl":68,"id":"RIC","desc":"RICHMOND TACAN"},
+{"type":"NDB","hdg_t":227.7,"dist_nm":71.6,"freq":347,"lat":-33.59693100,"lon":150.77639700,"rng_nm":75,"alt_fmsl":68,"id":"RIC","desc":"RICHMOND NDB"},
+{"type":"NDB","hdg_t":206.3,"dist_nm":74.9,"freq":266,"lat":-33.91527800,"lon":151.16750000,"rng_nm":20,"alt_fmsl":0,"id":"SDM","desc":"SYDENHAM NDB"},
+{"type":"VOR","hdg_t":205.3,"dist_nm":76.1,"freq":112.1,"lat":-33.94277778,"lon":151.18055556,"rng_nm":130,"alt_fmsl":44,"id":"SY","desc":"SYDNEY VOR-DME"},
+{"type":"NDB","hdg_t":211.8,"dist_nm":80,"freq":416,"lat":-33.92832800,"lon":150.98850600,"rng_nm":40,"alt_fmsl":18,"id":"BK","desc":"BANKSTOWN NDB"},
+{"type":"NDB","hdg_t":210.9,"dist_nm":83.3,"freq":428,"lat":-33.98666700,"lon":150.97638900,"rng_nm":50,"alt_fmsl":0,"id":"GLF","desc":"GLENFIELD NDB"},
+{"type":"NDB","hdg_t":345.5,"dist_nm":87,"freq":326,"lat":-31.38639400,"lon":151.41238600,"rng_nm":60,"alt_fmsl":0,"id":"MSO","desc":"MOUNT SANDON NDB"},
+{"type":"VOR","hdg_t":345.5,"dist_nm":87,"freq":115.3,"lat":-31.38751700,"lon":151.41079400,"rng_nm":130,"alt_fmsl":0,"id":"MSO","desc":"MOUNT SANDON VOR"},
+{"type":"NDB","hdg_t":217.3,"dist_nm":93.9,"freq":281,"lat":-34.03861100,"lon":150.69166700,"rng_nm":35,"alt_fmsl":228,"id":"CN","desc":"CAMDEN NDB"},
+{"type":"NDB","hdg_t":234.2,"dist_nm":94.7,"freq":233,"lat":-33.71080600,"lon":150.29962200,"rng_nm":40,"alt_fmsl":0,"id":"KAT","desc":"KATOOMBA NDB"},
+{"type":"NDB","hdg_t":33.1,"dist_nm":96.9,"freq":395,"lat":-31.43555600,"lon":152.86666700,"rng_nm":35,"alt_fmsl":0,"id":"PMQ","desc":"PORT MACQUARIE NDB"}
+]
+}

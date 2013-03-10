@@ -1,0 +1,78 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LGAV","name":"Athens Intl Airport Elefterios Venizel","lat":37.9363575,"lon":23.94447,"rwys":2,"ils":4,"index":3334139,"path":"e020n30/e023n37"
+,"runways":[
+{"len_m":4000,"wid_m":45.11,"hdg":36,"surf":"Asphalt","rwy1":"03R","lat1":37.92351100,"lon1":23.94326100,"rwy2":"21L","lat2":37.95242500,"lon2":23.97042200},
+{"len_m":3799,"wid_m":45.11,"hdg":36,"surf":"Asphalt","rwy1":"03L","lat1":37.92101100,"lon1":23.91920300,"rwy2":"21R","lat2":37.94848300,"lon2":23.94499400}
+]
+,"radios":[
+{"type":"ATIS","freq":136.12,"desc":"ATIS"},
+{"type":"CLD","freq":118.67,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"GND","freq":121.95,"desc":"GND"},
+{"type":"GND","freq":121.8,"desc":"GND"},
+{"type":"GND","freq":121.75,"desc":"GND"},
+{"type":"TWR","freq":136.02,"desc":"INFO"},
+{"type":"TWR","freq":118.62,"desc":"TWR"},
+{"type":"TWR","freq":136.27,"desc":"TWR"},
+{"type":"APP","freq":126.57,"desc":"ATHINAI APP"},
+{"type":"APP","freq":124.02,"desc":"ATHINAI APP"},
+{"type":"APP","freq":131.17,"desc":"ATHINAI APP"},
+{"type":"APP","freq":132.97,"desc":"ATHINAI ARR"},
+{"type":"APP","freq":126.57,"desc":"ATHINAI ARR"},
+{"type":"APP","freq":121.4,"desc":"ATHINAI DIR"},
+{"type":"DEP","freq":118.3,"desc":"DEPATURE RADAR DEP"},
+{"type":"DEP","freq":128.95,"desc":"ATHINAI DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":37.95269200,"lon":23.94894200,"rng_nm":18,"alt_fmsl":282,"hdg":36.52,"id":"IATL","rwy":"03L","desc":"ILS-cat-II"},
+{"type":"ILS","freq":111.1,"lat":37.95444400,"lon":23.97277800,"rng_nm":18,"alt_fmsl":302,"hdg":36.97,"id":"IATR","rwy":"03R","desc":"ILS-cat-II"},
+{"type":"ILS","freq":111.1,"lat":37.91928100,"lon":23.93929400,"rng_nm":18,"alt_fmsl":271,"hdg":216.52,"id":"IEVL","rwy":"21L","desc":"ILS-cat-II"},
+{"type":"ILS","freq":110.5,"lat":37.91674400,"lon":23.91520300,"rng_nm":18,"alt_fmsl":255,"hdg":216.50,"id":"IEVR","rwy":"21R","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.5,"lat":37.92680000,"lon":23.92220000,"rng_nm":10,"alt_fmsl":255,"id":"IATL","rwy":"03L","desc":"GS","gs":3},
+{"type":"GS","freq":111.1,"lat":37.92777800,"lon":23.94888900,"rng_nm":10,"alt_fmsl":271,"id":"IATR","rwy":"03R","desc":"GS","gs":3},
+{"type":"GS","freq":111.1,"lat":37.94730000,"lon":23.96760000,"rng_nm":10,"alt_fmsl":302,"id":"IEVL","rwy":"21L","desc":"GS","gs":3},
+{"type":"GS","freq":110.5,"lat":37.94520000,"lon":23.93960000,"rng_nm":10,"alt_fmsl":282,"id":"IEVR","rwy":"21R","desc":"GS","gs":3},
+{"type":"DME","freq":110.5,"lat":37.92680000,"lon":23.92220000,"rng_nm":18,"alt_fmsl":255,"id":"IATL","rwy":"03L","desc":"DME-ILS"},
+{"type":"DME","freq":111.1,"lat":37.94730000,"lon":23.96760000,"rng_nm":18,"alt_fmsl":303,"id":"IEVL","rwy":"21L","desc":"DME-ILS"},
+{"type":"DME","freq":110.5,"lat":37.94520000,"lon":23.93960000,"rng_nm":18,"alt_fmsl":282,"id":"IEVR","rwy":"21R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":195.9,"dist_nm":1.1,"freq":117.5,"lat":37.91777800,"lon":23.93777800,"rng_nm":25,"alt_fmsl":303,"id":"SPA","desc":"ELEFTHERIOS VENIZELOS VOR-DME"},
+{"type":"VOR","hdg_t":230.6,"dist_nm":1.8,"freq":109.6,"lat":37.91666700,"lon":23.91416700,"rng_nm":25,"alt_fmsl":255,"id":"SAT","desc":"ELEFTHERIOS VENIZELOS VOR-DME"},
+{"type":"VOR","hdg_t":245.1,"dist_nm":6.8,"freq":114.4,"lat":37.88861100,"lon":23.81444400,"rng_nm":130,"alt_fmsl":1535,"id":"ATV","desc":"ATHINAI VOR-DME"},
+{"type":"NDB","hdg_t":230.2,"dist_nm":11.4,"freq":357,"lat":37.81416700,"lon":23.75944400,"rng_nm":200,"alt_fmsl":0,"id":"KVR","desc":"KAVOURI NDB"},
+{"type":"SDME","hdg_t":1.8,"dist_nm":12.1,"freq":115.4,"lat":38.13861100,"lon":23.95277800,"rng_nm":25,"alt_fmsl":755,"id":"KRN","desc":"KOTRONI TACAN"},
+{"type":"NDB","hdg_t":320.8,"dist_nm":12.9,"freq":388,"lat":38.10333300,"lon":23.77222200,"rng_nm":50,"alt_fmsl":0,"id":"DEK","desc":"DEKELIA NDB"},
+{"type":"NDB","hdg_t":163.4,"dist_nm":16.7,"freq":319,"lat":37.66805600,"lon":24.04500000,"rng_nm":50,"alt_fmsl":0,"id":"SUN","desc":"SOUNION NDB"},
+{"type":"NDB","hdg_t":293.1,"dist_nm":19.8,"freq":418,"lat":38.06555600,"lon":23.56000000,"rng_nm":25,"alt_fmsl":143,"id":"ELF","desc":"ELEFSIS NDB"},
+{"type":"SDME","hdg_t":292.9,"dist_nm":19.8,"freq":108.2,"lat":38.06511500,"lon":23.55881700,"rng_nm":25,"alt_fmsl":143,"id":"ELF","desc":"ELEFSIS TACAN"},
+{"type":"NDB","hdg_t":336.9,"dist_nm":25.7,"freq":303,"lat":38.33222200,"lon":23.73083300,"rng_nm":50,"alt_fmsl":0,"id":"TNG","desc":"TANAGRA NDB"},
+{"type":"NDB","hdg_t":82.2,"dist_nm":26.3,"freq":285,"lat":37.99416700,"lon":24.49500000,"rng_nm":50,"alt_fmsl":0,"id":"KRS","desc":"KARISTOS NDB"},
+{"type":"VOR","hdg_t":82.2,"dist_nm":26.3,"freq":112.2,"lat":37.99413900,"lon":24.49491700,"rng_nm":130,"alt_fmsl":2024,"id":"KRO","desc":"KARISTOS VOR-DME"},
+{"type":"NDB","hdg_t":247.5,"dist_nm":26.8,"freq":382,"lat":37.76427500,"lon":23.42381600,"rng_nm":50,"alt_fmsl":0,"id":"EGN","desc":"AIGINA NDB"},
+{"type":"NDB","hdg_t":275.8,"dist_nm":27.9,"freq":405,"lat":37.98233300,"lon":23.35727800,"rng_nm":75,"alt_fmsl":0,"id":"MGR","desc":"MEGARA NDB"},
+{"type":"VOR","hdg_t":143.3,"dist_nm":28.2,"freq":115,"lat":37.55719400,"lon":24.29783300,"rng_nm":40,"alt_fmsl":1388,"id":"KEA","desc":"KEA VOR-DME"},
+{"type":"VOR","hdg_t":322.8,"dist_nm":30.2,"freq":111.8,"lat":38.33805600,"lon":23.55777800,"rng_nm":25,"alt_fmsl":485,"id":"TGG","desc":"TANAGRA VOR-DME"},
+{"type":"SDME","hdg_t":320.9,"dist_nm":31.9,"freq":108.4,"lat":38.35012000,"lon":23.51770300,"rng_nm":25,"alt_fmsl":711,"id":"TGR","desc":"TANAGRA TACAN"},
+{"type":"VOR","hdg_t":231.7,"dist_nm":44.2,"freq":117.2,"lat":37.47766700,"lon":23.21716700,"rng_nm":130,"alt_fmsl":3609,"id":"DDM","desc":"DIDIMON VOR-DME"},
+{"type":"NDB","hdg_t":269.8,"dist_nm":47.8,"freq":392,"lat":37.93027800,"lon":22.93583300,"rng_nm":50,"alt_fmsl":0,"id":"KOR","desc":"KORINTHOS NDB"},
+{"type":"NDB","hdg_t":122.5,"dist_nm":56.8,"freq":417,"lat":37.42149900,"lon":24.94774400,"rng_nm":25,"alt_fmsl":0,"id":"SYR","desc":"SYROS NDB"},
+{"type":"VOR","hdg_t":22.2,"dist_nm":67.4,"freq":116.6,"lat":38.97737800,"lon":24.49011900,"rng_nm":130,"alt_fmsl":44,"id":"SKS","desc":"SKIROS VOR-DME"},
+{"type":"SDME","hdg_t":22.3,"dist_nm":67.4,"freq":116.1,"lat":38.97611100,"lon":24.49166700,"rng_nm":130,"alt_fmsl":48,"id":"SKY","desc":"SKYROS TACAN"},
+{"type":"VOR","hdg_t":113.6,"dist_nm":73,"freq":110,"lat":37.44026700,"lon":25.34448900,"rng_nm":130,"alt_fmsl":405,"id":"MKN","desc":"MIKONOS VOR-DME"},
+{"type":"NDB","hdg_t":113.7,"dist_nm":73.1,"freq":401,"lat":37.43694400,"lon":25.34638900,"rng_nm":25,"alt_fmsl":405,"id":"MKO","desc":"MIKONOS NDB"},
+{"type":"VOR","hdg_t":348.3,"dist_nm":76.1,"freq":113.4,"lat":39.18083300,"lon":23.61583300,"rng_nm":150,"alt_fmsl":1218,"id":"SKP","desc":"SKOPELOS VOR-DME"},
+{"type":"SDME","hdg_t":348.2,"dist_nm":76.2,"freq":108.7,"lat":39.18124900,"lon":23.61130900,"rng_nm":150,"alt_fmsl":973,"id":"SKL","desc":"SKOPELOS TACAN"},
+{"type":"VOR","hdg_t":158.7,"dist_nm":76.3,"freq":113.5,"lat":36.74751700,"lon":24.51945000,"rng_nm":130,"alt_fmsl":12,"id":"MIL","desc":"MILOS VOR-DME"},
+{"type":"NDB","hdg_t":344.4,"dist_nm":77,"freq":326,"lat":39.17416700,"lon":23.50083300,"rng_nm":25,"alt_fmsl":0,"id":"SKC","desc":"SKIATHOS NDB"},
+{"type":"SDME","hdg_t":251.9,"dist_nm":77.2,"freq":109.8,"lat":37.52777800,"lon":22.40527800,"rng_nm":130,"alt_fmsl":2113,"id":"TPO","desc":"TRIPOLIS TACAN"},
+{"type":"NDB","hdg_t":161,"dist_nm":78.3,"freq":378,"lat":36.69833300,"lon":24.47277800,"rng_nm":25,"alt_fmsl":12,"id":"MLO","desc":"MILOS NDB"},
+{"type":"SDME","hdg_t":159,"dist_nm":78.8,"freq":117.8,"lat":36.70583300,"lon":24.53000000,"rng_nm":130,"alt_fmsl":434,"id":"MLS","desc":"MILOS TACAN"},
+{"type":"NDB","hdg_t":134,"dist_nm":79.1,"freq":386,"lat":37.01260300,"lon":25.12886300,"rng_nm":25,"alt_fmsl":0,"id":"PAO","desc":"PAROS NDB"},
+{"type":"VOR","hdg_t":247.7,"dist_nm":82.8,"freq":116.2,"lat":37.40274800,"lon":22.33963000,"rng_nm":130,"alt_fmsl":3429,"id":"TRL","desc":"TRIPOLIS VOR-DME"},
+{"type":"NDB","hdg_t":325.3,"dist_nm":93.8,"freq":335,"lat":39.21833300,"lon":22.79944400,"rng_nm":100,"alt_fmsl":0,"id":"NAN","desc":"NEA ANCHIALOS NDB"},
+{"type":"VOR","hdg_t":325.1,"dist_nm":93.9,"freq":110.4,"lat":39.21622200,"lon":22.79192500,"rng_nm":40,"alt_fmsl":65,"id":"AGH","desc":"ANCHIALOS VOR-DME"},
+{"type":"VOR","hdg_t":77.8,"dist_nm":94.7,"freq":117.6,"lat":38.25166700,"lon":25.90555600,"rng_nm":130,"alt_fmsl":1165,"id":"MES","desc":"MESTA VOR-DME"},
+{"type":"SDME","hdg_t":323.9,"dist_nm":95.1,"freq":115.6,"lat":39.21388900,"lon":22.74416700,"rng_nm":25,"alt_fmsl":313,"id":"ANL","desc":"NEA ANCHIALOS TACAN"}
+]
+}

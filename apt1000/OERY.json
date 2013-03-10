@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OERY","name":"Riyadh Ab","lat":24.7193125,"lon":46.72043825,"rwys":2,"ils":1,"index":3710122,"path":"e040n20/e046n24"
+,"runways":[
+{"len_m":4101,"wid_m":44.81,"hdg":8,"surf":"Asphalt","rwy1":"01","lat1":24.70508300,"lon1":46.72450000,"rwy2":"19","lat2":24.74175000,"lon2":46.73016700},
+{"len_m":3582,"wid_m":44.81,"hdg":117,"surf":"Asphalt","rwy1":"12","lat1":24.72266700,"lon1":46.69783300,"rwy2":"30","lat2":24.70775000,"lon2":46.72925300}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":120,"desc":"APP"},
+{"type":"APP","freq":124.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":24.74425000,"lon":46.72736100,"rng_nm":18,"alt_fmsl":2018,"hdg":3.80,"id":"IRIY","rwy":"01","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":24.71369400,"lon":46.72233300,"rng_nm":10,"alt_fmsl":2032,"id":"IRIY","rwy":"01","desc":"GS","gs":3},
+{"type":"DME","freq":110.3,"lat":24.71369400,"lon":46.72233300,"rng_nm":18,"alt_fmsl":2032,"id":"IRIY","rwy":"01","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":171.6,"dist_nm":0.1,"freq":114.5,"lat":24.71755600,"lon":46.72072200,"rng_nm":25,"alt_fmsl":2018,"id":"RIY","desc":"RIYADH VORTAC"},
+{"type":"VOR","hdg_t":12,"dist_nm":10.1,"freq":113.3,"lat":24.88605600,"lon":46.75938900,"rng_nm":130,"alt_fmsl":1960,"id":"KIA","desc":"KING KHALED VORTAC"},
+{"type":"NDB","hdg_t":57.4,"dist_nm":50.1,"freq":315,"lat":25.16833300,"lon":47.49650000,"rng_nm":25,"alt_fmsl":1740,"id":"PS3","desc":"PUMP STATION 3 NDB"},
+{"type":"VOR","hdg_t":135.8,"dist_nm":54.1,"freq":117.3,"lat":24.06823300,"lon":47.40758300,"rng_nm":25,"alt_fmsl":1479,"id":"AKJ","desc":"AL KHARJ VORTAC"},
+{"type":"VOR","hdg_t":129,"dist_nm":61,"freq":115.4,"lat":24.07391700,"lon":47.58327800,"rng_nm":25,"alt_fmsl":1599,"id":"PSA","desc":"PRINCE SULTAN VORTAC"},
+{"type":"NDB","hdg_t":75.2,"dist_nm":83,"freq":310,"lat":25.06666700,"lon":48.19500000,"rng_nm":25,"alt_fmsl":0,"id":"KHA","desc":"KHURAIS NDB"},
+{"type":"NDB","hdg_t":269.6,"dist_nm":95.7,"freq":370,"lat":24.70000000,"lon":44.96833300,"rng_nm":25,"alt_fmsl":2530,"id":"PS6","desc":"PUMP STATION 6 NDB"},
+{"type":"VOR","hdg_t":15.6,"dist_nm":97.5,"freq":116.3,"lat":26.28888900,"lon":47.20694400,"rng_nm":200,"alt_fmsl":1568,"id":"MGA","desc":"MAGALA VOR-DME"},
+{"type":"NDB","hdg_t":174.3,"dist_nm":106.4,"freq":405,"lat":22.94872800,"lon":46.91118900,"rng_nm":25,"alt_fmsl":0,"id":"HAW","desc":"HAWTAH NDB"},
+{"type":"VOR","hdg_t":248.2,"dist_nm":125.6,"freq":115.5,"lat":23.92677800,"lon":44.59650000,"rng_nm":130,"alt_fmsl":3370,"id":"RGB","desc":"RAGHBA VOR-DME"}
+]
+}

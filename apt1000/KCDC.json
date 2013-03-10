@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KCDC","name":"Cedar City Rgnl","lat":37.70118275,"lon":-113.09862575,"rwys":2,"ils":1,"index":1089515,"path":"w120n30/w114n37"
+,"runways":[
+{"len_m":2636,"wid_m":45.72,"hdg":34,"surf":"Asphalt","rwy1":"02","lat1":37.69060800,"lon1":-113.10781400,"rwy2":"20","lat2":37.71024200,"lon2":-113.09098600},
+{"len_m":1469,"wid_m":18.29,"hdg":96,"surf":"Asphalt","rwy1":"08","lat1":37.70272500,"lon1":-113.10612500,"rwy2":"26","lat2":37.70115600,"lon2":-113.08957800}
+]
+,"radios":[
+{"type":"ATIS","freq":119.02,"desc":"ASOS"},
+{"type":"CTAF","freq":123.6,"desc":"CTAF"},
+{"type":"CTAF","freq":122.95,"desc":"UNICOM"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":37.68799700,"lon":-113.11005000,"rng_nm":18,"alt_fmsl":5570,"hdg":214.13,"id":"IECC","rwy":"20","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":37.70851100,"lon":-113.09393100,"rng_nm":10,"alt_fmsl":5593,"id":"IECC","rwy":"20","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":37.79122200,"lon":-113.02144700,"rng_nm":0,"alt_fmsl":5570,"id":"----","rwy":"20","desc":"OM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":15.6,"dist_nm":5.3,"freq":117.3,"lat":37.78733333,"lon":-113.06822222,"rng_nm":130,"alt_fmsl":5464,"id":"CDC","desc":"CEDAR CITY VOR-DME"},
+{"type":"NDB","hdg_t":34.2,"dist_nm":6.5,"freq":217,"lat":37.79122222,"lon":-113.02144444,"rng_nm":50,"alt_fmsl":0,"id":"EC","desc":"MEGGI NDB"},
+{"type":"VOR","hdg_t":90.8,"dist_nm":37.8,"freq":112.8,"lat":37.68919444,"lon":-112.30388889,"rng_nm":130,"alt_fmsl":9040,"id":"BCE","desc":"BRYCE CANYON VORTAC"},
+{"type":"VOR","hdg_t":5.8,"dist_nm":39.7,"freq":112.1,"lat":38.36036111,"lon":-113.01322222,"rng_nm":130,"alt_fmsl":4980,"id":"MLF","desc":"MILFORD VORTAC"},
+{"type":"NDB","hdg_t":174.4,"dist_nm":44.6,"freq":403,"lat":36.96005556,"lon":-113.00916667,"rng_nm":50,"alt_fmsl":0,"id":"AZC","desc":"COLORADO CITY NDB"},
+{"type":"VOR","hdg_t":206.2,"dist_nm":45.6,"freq":108.6,"lat":37.01761111,"lon":-113.51788889,"rng_nm":40,"alt_fmsl":2848,"id":"UTI","desc":"ST GEORGE VOR-DME"},
+{"type":"VOR","hdg_t":298.5,"dist_nm":69.7,"freq":116.3,"lat":38.25019444,"lon":-114.39422222,"rng_nm":130,"alt_fmsl":9318,"id":"ILC","desc":"WILSON CREEK VORTAC"},
+{"type":"VOR","hdg_t":225.6,"dist_nm":79.4,"freq":114.3,"lat":36.76927778,"lon":-114.27747222,"rng_nm":40,"alt_fmsl":2120,"id":"MMM","desc":"MORMON MESA VORTAC"},
+{"type":"VOR","hdg_t":119.7,"dist_nm":91.5,"freq":117.6,"lat":36.93105556,"lon":-111.44744444,"rng_nm":40,"alt_fmsl":4277,"id":"PGA","desc":"PAGE VOR-DME"},
+{"type":"VOR","hdg_t":16,"dist_nm":99.9,"freq":116.1,"lat":39.30233333,"lon":-112.50555556,"rng_nm":130,"alt_fmsl":4600,"id":"DTA","desc":"DELTA VORTAC"}
+]
+}

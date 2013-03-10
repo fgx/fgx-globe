@@ -1,0 +1,50 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LEAB","name":"Albacete","lat":38.9485275,"lon":-1.8635,"rwys":1,"ils":2,"index":2924600,"path":"w010n30/w002n38"
+,"runways":[
+{"len_m":2699,"wid_m":60.05,"hdg":87,"surf":"Asphalt","rwy1":"09","lat1":38.94797200,"lon1":-1.87905600,"rwy2":"27","lat2":38.94908300,"lon2":-1.84794400}
+]
+,"radios":[
+{"type":"GND","freq":121.8,"desc":"GND"},
+{"type":"TWR","freq":122.1,"desc":"TWR"},
+{"type":"APP","freq":118.72,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":38.94908300,"lon":-1.84308100,"rng_nm":18,"alt_fmsl":2302,"hdg":87.74,"id":"IABT","rwy":"09","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.7,"lat":38.94782200,"lon":-1.88378600,"rng_nm":18,"alt_fmsl":2302,"hdg":267.40,"id":"IAE","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":38.94700800,"lon":-1.87519200,"rng_nm":10,"alt_fmsl":2302,"id":"IABT","rwy":"09","desc":"GS","gs":2.5},
+{"type":"GS","freq":109.7,"lat":38.94773600,"lon":-1.85106400,"rng_nm":10,"alt_fmsl":2302,"id":"IAE","rwy":"27","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":38.94527800,"lon":-1.99611100,"rng_nm":0,"alt_fmsl":2302,"id":"----","rwy":"09","desc":"OM"},
+{"type":"OM","freq":0,"lat":38.95333300,"lon":-1.73777800,"rng_nm":0,"alt_fmsl":2302,"id":"----","rwy":"27","desc":"OM"},
+{"type":"MM","freq":0,"lat":38.94769400,"lon":-1.89127800,"rng_nm":0,"alt_fmsl":2302,"id":"----","rwy":"09","desc":"MM"},
+{"type":"MM","freq":0,"lat":38.95027800,"lon":-1.84194400,"rng_nm":0,"alt_fmsl":2302,"id":"----","rwy":"27","desc":"MM"},
+{"type":"DME","freq":110.7,"lat":38.94722200,"lon":-1.87527800,"rng_nm":18,"alt_fmsl":2302,"id":"IABT","rwy":"09","desc":"DME-ILS"},
+{"type":"DME","freq":109.7,"lat":38.94888900,"lon":-1.85861100,"rng_nm":18,"alt_fmsl":2302,"id":"IAE","rwy":"27","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":267.6,"dist_nm":6.2,"freq":321,"lat":38.94408300,"lon":-1.99766700,"rng_nm":50,"alt_fmsl":0,"id":"ABT","desc":"ALBACETE NDB"},
+{"type":"VOR","hdg_t":267.5,"dist_nm":6.5,"freq":115.8,"lat":38.94380600,"lon":-2.00266700,"rng_nm":130,"alt_fmsl":2277,"id":"VAB","desc":"ALBACETE VOR-DME"},
+{"type":"VOR","hdg_t":213.2,"dist_nm":42,"freq":115.2,"lat":38.36077800,"lon":-2.35275300,"rng_nm":130,"alt_fmsl":4793,"id":"YES","desc":"YESTE VOR-DME"},
+{"type":"VOR","hdg_t":41.6,"dist_nm":61.1,"freq":117.55,"lat":39.70716900,"lon":-0.98631700,"rng_nm":130,"alt_fmsl":1839,"id":"CLS","desc":"CALLES VOR-DME"},
+{"type":"NDB","hdg_t":153.3,"dist_nm":66.8,"freq":345,"lat":37.94991700,"lon":-1.23041700,"rng_nm":25,"alt_fmsl":245,"id":"ATR","desc":"ALCANTARILLA NDB"},
+{"type":"SDME","hdg_t":153.2,"dist_nm":66.8,"freq":116.6,"lat":37.95111100,"lon":-1.22916700,"rng_nm":40,"alt_fmsl":243,"id":"TRL","desc":"ALCANTARILLA TACAN"},
+{"type":"NDB","hdg_t":124.2,"dist_nm":68.7,"freq":330,"lat":38.29611000,"lon":-0.66000000,"rng_nm":50,"alt_fmsl":142,"id":"AI","desc":"Alicante NDB"},
+{"type":"VOR","hdg_t":123,"dist_nm":71.9,"freq":114.65,"lat":38.28613600,"lon":-0.58660000,"rng_nm":130,"alt_fmsl":192,"id":"ATE","desc":"ALICANTE VOR-DME"},
+{"type":"VOR","hdg_t":62.9,"dist_nm":71.9,"freq":116.1,"lat":39.48564700,"lon":-0.48304400,"rng_nm":130,"alt_fmsl":200,"id":"VLC","desc":"VALENCIA VOR-DME"},
+{"type":"NDB","hdg_t":63.6,"dist_nm":72.9,"freq":400,"lat":39.47967800,"lon":-0.45617800,"rng_nm":15,"alt_fmsl":0,"id":"B","desc":"VALENCIA NDB"},
+{"type":"VOR","hdg_t":123.4,"dist_nm":73.2,"freq":113.8,"lat":38.26828100,"lon":-0.57011400,"rng_nm":130,"alt_fmsl":166,"id":"ALT","desc":"ALICANTE VOR-DME"},
+{"type":"NDB","hdg_t":57.6,"dist_nm":76.3,"freq":386,"lat":39.62300000,"lon":-0.47208300,"rng_nm":50,"alt_fmsl":0,"id":"EBT","desc":"VALENCIA NDB"},
+{"type":"NDB","hdg_t":67,"dist_nm":76.5,"freq":340,"lat":39.43742500,"lon":-0.34646100,"rng_nm":50,"alt_fmsl":0,"id":"PND","desc":"VALENCIA NDB"},
+{"type":"VOR","hdg_t":144.3,"dist_nm":85.8,"freq":113,"lat":37.77977800,"lon":-0.81277800,"rng_nm":90,"alt_fmsl":11,"id":"VSJ","desc":"MURCIA/SAN JAVIER VOR-DME"},
+{"type":"NDB","hdg_t":145.2,"dist_nm":86.2,"freq":370,"lat":37.76183300,"lon":-0.82905600,"rng_nm":15,"alt_fmsl":11,"id":"O","desc":"MURCIA/SAN JAVIER NDB"},
+{"type":"NDB","hdg_t":149.9,"dist_nm":87.8,"freq":381,"lat":37.67630600,"lon":-0.93927800,"rng_nm":40,"alt_fmsl":0,"id":"LCZ","desc":"MURCIA/SAN JAVIER NDB"},
+{"type":"NDB","hdg_t":60,"dist_nm":88.5,"freq":356,"lat":39.67418300,"lon":-0.20780600,"rng_nm":50,"alt_fmsl":0,"id":"SGO","desc":"SAGUNTO NDB"},
+{"type":"NDB","hdg_t":270.7,"dist_nm":88.6,"freq":332,"lat":38.95216700,"lon":-3.75700000,"rng_nm":25,"alt_fmsl":0,"id":"EAL","desc":"ALMAGRO NDB"},
+{"type":"VOR","hdg_t":304.3,"dist_nm":89.6,"freq":112.7,"lat":39.78076700,"lon":-3.46403300,"rng_nm":60,"alt_fmsl":2320,"id":"VTB","desc":"VILLATOBAS VOR-DME"},
+{"type":"NDB","hdg_t":304.2,"dist_nm":90.1,"freq":403,"lat":39.78315800,"lon":-3.47538900,"rng_nm":40,"alt_fmsl":0,"id":"TOB","desc":"VILLATOBAS NDB"},
+{"type":"VOR","hdg_t":339.9,"dist_nm":90.9,"freq":115.6,"lat":40.37196100,"lon":-2.54460800,"rng_nm":27,"alt_fmsl":3501,"id":"CJN","desc":"CASTEJON VOR-DME"},
+{"type":"NDB","hdg_t":340.6,"dist_nm":91.3,"freq":362,"lat":40.38389200,"lon":-2.52279700,"rng_nm":40,"alt_fmsl":0,"id":"CTE","desc":"CASTEJON NDB"},
+{"type":"VOR","hdg_t":240.6,"dist_nm":95.6,"freq":116.2,"lat":38.15251700,"lon":-3.62501100,"rng_nm":130,"alt_fmsl":1788,"id":"BLN","desc":"BAILEN VOR-DME"},
+{"type":"NDB","hdg_t":240.6,"dist_nm":95.8,"freq":418,"lat":38.15151100,"lon":-3.62917200,"rng_nm":30,"alt_fmsl":0,"id":"BAI","desc":"BAILEN NDB"},
+{"type":"VOR","hdg_t":267.3,"dist_nm":98.8,"freq":114.3,"lat":38.85386100,"lon":-3.97080600,"rng_nm":20,"alt_fmsl":2165,"id":"ADQ","desc":"CIUDAD REAL VOR-DME"}
+]
+}

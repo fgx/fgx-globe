@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"FNLU","name":"Luanda 4 De Fevereiro","lat":-8.8583765,"lon":13.23117775,"rwys":2,"ils":1,"index":3167305,"path":"e010s10/e013s09"
+,"runways":[
+{"len_m":3696,"wid_m":45.11,"hdg":46,"surf":"Asphalt","rwy1":"05","lat1":-8.87688100,"lon1":13.21393600,"rwy2":"23","lat2":-8.85400800,"lon2":13.23843600},
+{"len_m":2491,"wid_m":60.05,"hdg":67,"surf":"Asphalt","rwy1":"07","lat1":-8.85561400,"lon1":13.22570300,"rwy2":"25","lat2":-8.84700300,"lon2":13.24663600}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"TWR","freq":129.5,"desc":"A/G VOICE RDO"},
+{"type":"APP","freq":119.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-8.87791428,"lon":13.21283030,"rng_nm":18,"alt_fmsl":243,"hdg":226.62,"id":"ILD","rwy":"23","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-8.85743192,"lon":13.23598130,"rng_nm":10,"alt_fmsl":243,"id":"ILD","rwy":"23","desc":"GS","gs":3},
+{"type":"DME","freq":110.3,"lat":-8.87791428,"lon":13.21283030,"rng_nm":18,"alt_fmsl":243,"id":"ILD","rwy":"23","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":51.5,"dist_nm":1.2,"freq":112.7,"lat":-8.84547800,"lon":13.24748300,"rng_nm":150,"alt_fmsl":243,"id":"VNA","desc":"LUANDA VOR-DME"},
+{"type":"NDB","hdg_t":47.7,"dist_nm":5.8,"freq":258,"lat":-8.79264200,"lon":13.30393600,"rng_nm":250,"alt_fmsl":0,"id":"LU","desc":"LUANDA NDB"},
+{"type":"NDB","hdg_t":352.7,"dist_nm":61.7,"freq":395,"lat":-7.83333300,"lon":13.10000000,"rng_nm":50,"alt_fmsl":0,"id":"AM","desc":"AMBRIZ NDB"},
+{"type":"NDB","hdg_t":164,"dist_nm":115.4,"freq":280,"lat":-10.71666700,"lon":13.76666700,"rng_nm":75,"alt_fmsl":16,"id":"PA","desc":"PORTO AMBOIM NDB"},
+{"type":"NDB","hdg_t":54.3,"dist_nm":132,"freq":300,"lat":-7.56666700,"lon":15.03333300,"rng_nm":100,"alt_fmsl":0,"id":"UG","desc":"UIGE NDB"},
+{"type":"NDB","hdg_t":62.2,"dist_nm":139.2,"freq":220,"lat":-7.76666700,"lon":15.30000000,"rng_nm":220,"alt_fmsl":4105,"id":"NG","desc":"NEGAGE NDB"},
+{"type":"NDB","hdg_t":165.1,"dist_nm":142.6,"freq":320,"lat":-11.16666700,"lon":13.85000000,"rng_nm":75,"alt_fmsl":36,"id":"SU","desc":"SUMBE NDB"},
+{"type":"NDB","hdg_t":21.4,"dist_nm":166.2,"freq":205,"lat":-6.26666700,"lon":14.25000000,"rng_nm":50,"alt_fmsl":1860,"id":"BC","desc":"MBANZA CONGO NDB"},
+{"type":"NDB","hdg_t":342.3,"dist_nm":170.6,"freq":310,"lat":-6.13333300,"lon":12.36666700,"rng_nm":75,"alt_fmsl":15,"id":"SO","desc":"SOYO NDB"},
+{"type":"NDB","hdg_t":356.8,"dist_nm":179.7,"freq":392,"lat":-5.85215300,"lon":13.06616700,"rng_nm":50,"alt_fmsl":0,"id":"BOM","desc":"BOMA NDB"}
+]
+}

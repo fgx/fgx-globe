@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VOBG","name":"Bangalore","lat":12.9501565,"lon":77.670647,"rwys":1,"ils":1,"index":4217277,"path":"e070n10/e077n12"
+,"runways":[
+{"len_m":3290,"wid_m":60.96,"hdg":84,"surf":"Asphalt","rwy1":"09","lat1":12.94881900,"lon1":77.65554400,"rwy2":"27","lat2":12.95149400,"lon2":77.68575000}
+]
+,"radios":[
+{"type":"ATIS","freq":128.25,"desc":"ATIS"},
+{"type":"TWR","freq":123.5,"desc":"TWR"},
+{"type":"APP","freq":127.7,"desc":"APP"},
+{"type":"APP","freq":122.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":12.94722200,"lon":77.65250000,"rng_nm":18,"alt_fmsl":2912,"hdg":262.49,"id":"IBLR","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":12.94916700,"lon":77.68333300,"rng_nm":10,"alt_fmsl":2943,"id":"IBLR","rwy":"27","desc":"GS","gs":3},
+{"type":"DME","freq":110.5,"lat":12.95030600,"lon":77.68211100,"rng_nm":18,"alt_fmsl":2912,"id":"IBLR","rwy":"27","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":92.2,"dist_nm":0.6,"freq":115.5,"lat":12.94975000,"lon":77.68100000,"rng_nm":130,"alt_fmsl":2908,"id":"BBG","desc":"BANGALORE VOR-DME"},
+{"type":"NDB","hdg_t":65.6,"dist_nm":2.7,"freq":363,"lat":12.96945800,"lon":77.71406400,"rng_nm":50,"alt_fmsl":0,"id":"BG","desc":"BANGALORE NDB"},
+{"type":"NDB","hdg_t":344.9,"dist_nm":12.4,"freq":223,"lat":13.15138600,"lon":77.61546400,"rng_nm":50,"alt_fmsl":0,"id":"YH","desc":"YELAHANKA NDB"},
+{"type":"NDB","hdg_t":5.2,"dist_nm":71.9,"freq":241,"lat":14.14992200,"lon":77.78461100,"rng_nm":50,"alt_fmsl":0,"id":"SAI","desc":"SRI SATHYA SAI NDB"},
+{"type":"VOR","hdg_t":69.2,"dist_nm":116.7,"freq":115.7,"lat":13.63441400,"lon":79.53910800,"rng_nm":130,"alt_fmsl":349,"id":"TTP","desc":"TIRUPATI VOR-DME"},
+{"type":"VOR","hdg_t":94.4,"dist_nm":120.1,"freq":115.4,"lat":12.78494400,"lon":79.71311100,"rng_nm":25,"alt_fmsl":290,"id":"KKP","desc":"KANCHEEPURAM VOR-DME"},
+{"type":"VOR","hdg_t":197.8,"dist_nm":120.1,"freq":112.9,"lat":11.03377800,"lon":77.04805600,"rng_nm":130,"alt_fmsl":1319,"id":"CCB","desc":"COIMBATORE VOR-DME"},
+{"type":"NDB","hdg_t":197.7,"dist_nm":120.7,"freq":354,"lat":11.02377800,"lon":77.04722200,"rng_nm":75,"alt_fmsl":0,"id":"CB","desc":"COIMBATORE NDB"},
+{"type":"NDB","hdg_t":114.8,"dist_nm":138.6,"freq":385,"lat":11.96622200,"lon":79.80977800,"rng_nm":50,"alt_fmsl":0,"id":"OM","desc":"PONDICHERRY NDB"},
+{"type":"NDB","hdg_t":340.9,"dist_nm":139.6,"freq":310,"lat":15.15888900,"lon":76.88611100,"rng_nm":25,"alt_fmsl":30,"id":"BI","desc":"BELLARY NDB"}
+]
+}

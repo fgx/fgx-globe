@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WARR","name":"Surabaya Juanda","lat":-7.379832,"lon":112.786858,"rwys":1,"ils":1,"index":4789414,"path":"e110s10/e112s08"
+,"runways":[
+{"len_m":3000,"wid_m":45.11,"hdg":99,"surf":"Asphalt","rwy1":"10","lat1":-7.37765000,"lon1":112.77344700,"rwy2":"28","lat2":-7.38201400,"lon2":112.80026900}
+]
+,"radios":[
+{"type":"ATIS","freq":128.2,"desc":"ATIS"},
+{"type":"GND","freq":118.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"APP","freq":119.1,"desc":"SURABAYA DIR"},
+{"type":"APP","freq":119.2,"desc":"SURABAYA EAST CON"},
+{"type":"APP","freq":125.1,"desc":"SURABAYA WEST CON"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":-7.38245300,"lon":112.80303300,"rng_nm":18,"alt_fmsl":8,"hdg":99.30,"id":"ISBY","rwy":"10","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":-7.37919400,"lon":112.77611700,"rng_nm":10,"alt_fmsl":9,"id":"ISBY","rwy":"10","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-7.36690000,"lon":112.70698900,"rng_nm":0,"alt_fmsl":8,"id":"----","rwy":"10","desc":"OM"},
+{"type":"MM","freq":0,"lat":-7.37621900,"lon":112.76482200,"rng_nm":0,"alt_fmsl":8,"id":"----","rwy":"10","desc":"MM"},
+{"type":"DME","freq":110.1,"lat":-7.38245300,"lon":112.80303300,"rng_nm":18,"alt_fmsl":8,"id":"ISBY","rwy":"10","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":228.5,"dist_nm":0.5,"freq":325,"lat":-7.38623300,"lon":112.77959700,"rng_nm":50,"alt_fmsl":9,"id":"SB","desc":"SURABAYA NDB"},
+{"type":"VOR","hdg_t":290.6,"dist_nm":0.9,"freq":113.4,"lat":-7.37393900,"lon":112.77121900,"rng_nm":50,"alt_fmsl":9,"id":"SBR","desc":"SURABAYA VOR-DME"},
+{"type":"NDB","hdg_t":279.1,"dist_nm":5,"freq":400,"lat":-7.36621400,"lon":112.70255600,"rng_nm":50,"alt_fmsl":0,"id":"WR","desc":"SURABAYA NDB"},
+{"type":"NDB","hdg_t":192.3,"dist_nm":27,"freq":290,"lat":-7.82166700,"lon":112.69000000,"rng_nm":50,"alt_fmsl":0,"id":"LW","desc":"LAWANG NDB"},
+{"type":"NDB","hdg_t":187.6,"dist_nm":33.3,"freq":342,"lat":-7.93402500,"lon":112.71185300,"rng_nm":50,"alt_fmsl":1726,"id":"ML","desc":"MALANG NDB"},
+{"type":"NDB","hdg_t":74.7,"dist_nm":70.8,"freq":200,"lat":-7.06666700,"lon":113.93333300,"rng_nm":50,"alt_fmsl":10,"id":"MP","desc":"SUMENEP NDB"},
+{"type":"NDB","hdg_t":278.4,"dist_nm":74.6,"freq":210,"lat":-7.19451100,"lon":111.54829400,"rng_nm":50,"alt_fmsl":135,"id":"CU","desc":"CEPU NDB"},
+{"type":"SDME","hdg_t":260.1,"dist_nm":81.6,"freq":114.8,"lat":-7.61073100,"lon":111.43698600,"rng_nm":130,"alt_fmsl":361,"id":"IWY","desc":"ISWAHYUDI TACAN"},
+{"type":"NDB","hdg_t":257.9,"dist_nm":82.3,"freq":315,"lat":-7.66500000,"lon":111.43500000,"rng_nm":50,"alt_fmsl":361,"id":"AR","desc":"ISWAHYUDI NDB"},
+{"type":"NDB","hdg_t":285.7,"dist_nm":84.7,"freq":240,"lat":-6.99264200,"lon":111.41896100,"rng_nm":50,"alt_fmsl":0,"id":"BA","desc":"BLORA NDB"}
+]
+}

@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MMTM","name":"General Francisco Javier Mina Intl","lat":22.2964481666667,"lon":-97.8659295,"rwys":3,"ils":1,"index":1350672,"path":"w100n20/w098n22"
+,"runways":[
+{"len_m":2546,"wid_m":45.11,"hdg":144,"surf":"Asphalt","rwy1":"13","lat1":22.30198100,"lon1":-97.87411100,"rwy2":"31","lat2":22.28317200,"lon2":-97.85988600},
+{"len_m":1227,"wid_m":29.87,"hdg":190,"surf":"Asphalt","rwy1":"18","lat1":22.30063600,"lon1":-97.86227500,"rwy2":"36","lat2":22.28972800,"lon2":-97.86440000},
+{"len_m":1193,"wid_m":29.87,"hdg":99,"surf":"Asphalt","rwy1":"09","lat1":22.30248900,"lon1":-97.87316100,"rwy2":"27","lat2":22.30068300,"lon2":-97.86174400}
+]
+,"radios":[
+{"type":"TWR","freq":118.3,"desc":"TAMPICO TWR"},
+{"type":"APP","freq":120.3,"desc":"TAMPICO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":22.28089700,"lon":-97.85817800,"rng_nm":18,"alt_fmsl":80,"hdg":145.04,"id":"ITAM","rwy":"13","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":22.30043300,"lon":-97.87103300,"rng_nm":10,"alt_fmsl":80,"id":"ITAM","rwy":"13","desc":"GS","gs":3},
+{"type":"DME","freq":109.3,"lat":22.30043300,"lon":-97.87103300,"rng_nm":18,"alt_fmsl":80,"id":"ITAM","rwy":"13","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":158.4,"dist_nm":0.4,"freq":117.5,"lat":22.28961111,"lon":-97.86302778,"rng_nm":130,"alt_fmsl":80,"id":"TAM","desc":"TAMPICO VOR-DME"},
+{"type":"VOR","hdg_t":253.7,"dist_nm":54.6,"freq":113.3,"lat":22.03847222,"lon":-98.80794444,"rng_nm":130,"alt_fmsl":164,"id":"TMN","desc":"TAMUIN VOR-DME"},
+{"type":"VOR","hdg_t":324.5,"dist_nm":103.7,"freq":113.7,"lat":23.70552778,"lon":-98.95902778,"rng_nm":130,"alt_fmsl":761,"id":"CVM","desc":"VICTORIA VOR-DME"},
+{"type":"VOR","hdg_t":167.1,"dist_nm":103.9,"freq":115.5,"lat":20.60055556,"lon":-97.45508333,"rng_nm":130,"alt_fmsl":497,"id":"PAZ","desc":"POZA RICA VOR-DME"},
+{"type":"VOR","hdg_t":291.1,"dist_nm":113.1,"freq":114.4,"lat":22.96786111,"lon":-99.77269444,"rng_nm":130,"alt_fmsl":3750,"id":"TTM","desc":"NORIA VOR-DME"},
+{"type":"NDB","hdg_t":192,"dist_nm":135.2,"freq":308,"lat":20.08333333,"lon":-98.36666667,"rng_nm":50,"alt_fmsl":0,"id":"TCG","desc":"TULANCINGO NDB"},
+{"type":"VOR","hdg_t":199.6,"dist_nm":137.3,"freq":112.7,"lat":20.13183333,"lon":-98.68438889,"rng_nm":130,"alt_fmsl":4950,"id":"PCA","desc":"PACHUCA VOR-DME"},
+{"type":"VOR","hdg_t":153.2,"dist_nm":140.6,"freq":112.3,"lat":20.19175000,"lon":-96.74550000,"rng_nm":130,"alt_fmsl":15,"id":"NAU","desc":"NAUTLA VOR-DME"},
+{"type":"NDB","hdg_t":203.5,"dist_nm":158.2,"freq":341,"lat":19.86666667,"lon":-98.98333333,"rng_nm":50,"alt_fmsl":0,"id":"TIZ","desc":"TIZAYUCA NDB"},
+{"type":"VOR","hdg_t":190.7,"dist_nm":161.7,"freq":114.8,"lat":19.63730556,"lon":-98.39852778,"rng_nm":130,"alt_fmsl":8000,"id":"APN","desc":"APAN VOR-DME"}
+]
+}

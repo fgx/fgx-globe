@@ -1,0 +1,60 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RJFF","name":"Fukuoka","lat":33.585943,"lon":130.450686,"rwys":1,"ils":2,"index":5086945,"path":"e130n30/e130n33"
+,"runways":[
+{"len_m":2804,"wid_m":60.05,"hdg":150,"surf":"Asphalt","rwy1":"16","lat1":33.59691900,"lon1":130.44318600,"rwy2":"34","lat2":33.57496700,"lon2":130.45818600}
+]
+,"radios":[
+{"type":"ATIS","freq":127.2,"desc":"ATIS"},
+{"type":"CLD","freq":121.92,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":126.2,"desc":"TWR"},
+{"type":"TWR","freq":118.4,"desc":"TWR"},
+{"type":"APP","freq":121.27,"desc":"TCA"},
+{"type":"APP","freq":121.12,"desc":"APP"},
+{"type":"APP","freq":119.1,"desc":"APP"},
+{"type":"APP","freq":120.7,"desc":"APP"},
+{"type":"DEP","freq":119.7,"desc":"DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.7,"lat":33.57289700,"lon":130.45951400,"rng_nm":18,"alt_fmsl":18,"hdg":150.48,"id":"IFO","rwy":"16","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.9,"lat":33.59874700,"lon":130.44193600,"rng_nm":18,"alt_fmsl":18,"hdg":330.34,"id":"IFF","rwy":"34","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.7,"lat":33.59381700,"lon":130.44374200,"rng_nm":10,"alt_fmsl":58,"id":"IFO","rwy":"16","desc":"GS","gs":3},
+{"type":"GS","freq":108.9,"lat":33.57696700,"lon":130.45533100,"rng_nm":10,"alt_fmsl":46,"id":"IFF","rwy":"34","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":33.67488300,"lon":130.39105000,"rng_nm":0,"alt_fmsl":18,"id":"----","rwy":"16","desc":"OM"},
+{"type":"MM","freq":0,"lat":33.60668900,"lon":130.43650300,"rng_nm":0,"alt_fmsl":18,"id":"----","rwy":"16","desc":"MM"},
+{"type":"DME","freq":108.9,"lat":33.57695600,"lon":130.45530000,"rng_nm":18,"alt_fmsl":46,"id":"IFF","rwy":"34","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":330.7,"dist_nm":6.1,"freq":203,"lat":33.67488300,"lon":130.39105000,"rng_nm":50,"alt_fmsl":0,"id":"FO","desc":"FUKUOKA NDB"},
+{"type":"VOR","hdg_t":330.5,"dist_nm":6.2,"freq":114.5,"lat":33.67620800,"lon":130.38962800,"rng_nm":130,"alt_fmsl":65,"id":"DGC","desc":"FUKUOKA VORTAC"},
+{"type":"SDME","hdg_t":28.8,"dist_nm":20.6,"freq":108.6,"lat":33.88833300,"lon":130.65027800,"rng_nm":50,"alt_fmsl":84,"id":"AHT","desc":"ASHIYA TACAN"},
+{"type":"VOR","hdg_t":196.8,"dist_nm":27.3,"freq":114.75,"lat":33.14861900,"lon":130.29289700,"rng_nm":100,"alt_fmsl":40,"id":"SGE","desc":"SAGA VOR-DME"},
+{"type":"SDME","hdg_t":78,"dist_nm":30,"freq":110.4,"lat":33.68805600,"lon":131.03805600,"rng_nm":100,"alt_fmsl":84,"id":"TQT","desc":"TSUIKI TACAN"},
+{"type":"VOR","hdg_t":60.6,"dist_nm":33.1,"freq":113.85,"lat":33.85661700,"lon":131.02940000,"rng_nm":40,"alt_fmsl":54,"id":"SWE","desc":"SUOH VOR-DME"},
+{"type":"NDB","hdg_t":286.7,"dist_nm":34.9,"freq":355,"lat":33.75227500,"lon":129.78212200,"rng_nm":100,"alt_fmsl":0,"id":"IK","desc":"IKISHIMA NDB"},
+{"type":"VOR","hdg_t":286.1,"dist_nm":35.1,"freq":113.2,"lat":33.74751100,"lon":129.77685300,"rng_nm":100,"alt_fmsl":219,"id":"IKE","desc":"IKI VOR-DME"},
+{"type":"SDME","hdg_t":47.3,"dist_nm":40.6,"freq":112.15,"lat":34.04416700,"lon":131.04972200,"rng_nm":100,"alt_fmsl":50,"id":"OCT","desc":"OZUKI TACAN"},
+{"type":"NDB","hdg_t":47.6,"dist_nm":41.1,"freq":253,"lat":34.04750000,"lon":131.06000000,"rng_nm":50,"alt_fmsl":13,"id":"OC","desc":"OZUKI NDB"},
+{"type":"VOR","hdg_t":37.7,"dist_nm":45.9,"freq":117.2,"lat":34.19071100,"lon":131.01618900,"rng_nm":100,"alt_fmsl":2234,"id":"TTE","desc":"TOYOTA VOR-DME"},
+{"type":"NDB","hdg_t":214.3,"dist_nm":46.6,"freq":342,"lat":32.94166700,"lon":129.93000000,"rng_nm":50,"alt_fmsl":0,"id":"JB","desc":"OMURA NDB"},
+{"type":"VOR","hdg_t":63,"dist_nm":46.6,"freq":110.8,"lat":33.93562800,"lon":131.28353100,"rng_nm":100,"alt_fmsl":64,"id":"UBE","desc":"UBE VOR-DME"},
+{"type":"SDME","hdg_t":213.5,"dist_nm":47.3,"freq":114.05,"lat":32.92583300,"lon":129.93222200,"rng_nm":100,"alt_fmsl":80,"id":"JBT","desc":"OMURA TACAN"},
+{"type":"VOR","hdg_t":213.4,"dist_nm":48.7,"freq":116.6,"lat":32.90524700,"lon":129.91798100,"rng_nm":100,"alt_fmsl":154,"id":"OLE","desc":"NAGASAKI VOR-DME"},
+{"type":"VOR","hdg_t":156.2,"dist_nm":49,"freq":112.8,"lat":32.83480300,"lon":130.84151400,"rng_nm":100,"alt_fmsl":651,"id":"KUE","desc":"KUMAMOTO VOR-DME"},
+{"type":"NDB","hdg_t":161,"dist_nm":49.3,"freq":249,"lat":32.80551400,"lon":130.76847200,"rng_nm":100,"alt_fmsl":0,"id":"KU","desc":"KUMAMOTO NDB"},
+{"type":"SDME","hdg_t":63.3,"dist_nm":61,"freq":113,"lat":34.03833300,"lon":131.54583300,"rng_nm":50,"alt_fmsl":37,"id":"FMT","desc":"HOFU TACAN"},
+{"type":"VOR","hdg_t":94.7,"dist_nm":64.3,"freq":117.7,"lat":33.48971400,"lon":131.72875600,"rng_nm":100,"alt_fmsl":100,"id":"TFE","desc":"MUSASHI VOR-DME"},
+{"type":"VOR","hdg_t":108.8,"dist_nm":66.6,"freq":112.1,"lat":33.22034400,"lon":131.70325000,"rng_nm":100,"alt_fmsl":311,"id":"TAE","desc":"OITA VOR-DME"},
+{"type":"SDME","hdg_t":299.5,"dist_nm":67,"freq":113.6,"lat":34.13250000,"lon":129.28055600,"rng_nm":100,"alt_fmsl":597,"id":"VCT","desc":"SHIMOTSUSHIMA TACAN"},
+{"type":"VOR","hdg_t":192.5,"dist_nm":67.7,"freq":113.45,"lat":32.48097500,"lon":130.15961900,"rng_nm":25,"alt_fmsl":354,"id":"AKE","desc":"AMAKUSA VOR-DME"},
+{"type":"VOR","hdg_t":307.1,"dist_nm":69.4,"freq":111.45,"lat":34.28150800,"lon":129.33701100,"rng_nm":100,"alt_fmsl":220,"id":"VCE","desc":"TSUSHIMA VOR-DME"},
+{"type":"NDB","hdg_t":307,"dist_nm":70.2,"freq":393,"lat":34.28756100,"lon":129.32373300,"rng_nm":50,"alt_fmsl":213,"id":"VC","desc":"TSUSHIMA NDB"},
+{"type":"NDB","hdg_t":241.8,"dist_nm":72.1,"freq":367,"lat":33.01200600,"lon":129.19033900,"rng_nm":50,"alt_fmsl":277,"id":"CA","desc":"KAMIGOTO NDB"},
+{"type":"SDME","hdg_t":25.5,"dist_nm":78.8,"freq":110.6,"lat":34.77166700,"lon":131.13805600,"rng_nm":100,"alt_fmsl":652,"id":"MIT","desc":"MISHIMA TACAN"},
+{"type":"VOR","hdg_t":70.3,"dist_nm":89.7,"freq":114.3,"lat":34.07945600,"lon":132.14726900,"rng_nm":100,"alt_fmsl":2145,"id":"IWC","desc":"KUGA VORTAC"},
+{"type":"VOR","hdg_t":45,"dist_nm":92.9,"freq":115.05,"lat":34.67624400,"lon":131.77988100,"rng_nm":130,"alt_fmsl":221,"id":"IME","desc":"IWAMI VOR-DME"},
+{"type":"SDME","hdg_t":69,"dist_nm":95,"freq":109.8,"lat":34.14083300,"lon":132.23250000,"rng_nm":100,"alt_fmsl":51,"id":"NEU","desc":"IWAKUNI TACAN"},
+{"type":"NDB","hdg_t":236.5,"dist_nm":98.2,"freq":263,"lat":32.67077200,"lon":128.83143900,"rng_nm":50,"alt_fmsl":273,"id":"FU","desc":"FUKUE NDB"},
+{"type":"VOR","hdg_t":236.5,"dist_nm":98.5,"freq":115.8,"lat":32.66860600,"lon":128.82673600,"rng_nm":100,"alt_fmsl":296,"id":"FUE","desc":"FUKUE VOR-DME"}
+]
+}

@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYXT","name":"Terrace","lat":54.465828,"lon":-128.58226,"rwys":2,"ils":1,"index":844825,"path":"w130n50/w129n54"
+,"runways":[
+{"len_m":2284,"wid_m":46.02,"hdg":171,"surf":"Asphalt","rwy1":"15","lat1":54.47870900,"lon1":-128.59042000,"rwy2":"33","lat2":54.45838700,"lon2":-128.58545200},
+{"len_m":1634,"wid_m":46.02,"hdg":51,"surf":"Asphalt","rwy1":"03","lat1":54.45852900,"lon1":-128.58643600,"rwy2":"21","lat2":54.46768700,"lon2":-128.56673200}
+]
+,"radios":[
+{"type":"TWR","freq":122,"desc":"MANDATORY FREQ RDO"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":54.48048000,"lon":-128.59081000,"rng_nm":18,"alt_fmsl":674,"hdg":351.98,"id":"IXT","rwy":"33","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":54.46079000,"lon":-128.58777000,"rng_nm":10,"alt_fmsl":674,"id":"IXT","rwy":"33","desc":"GS","gs":3.5},
+{"type":"DME","freq":110.1,"lat":54.46079000,"lon":-128.58777000,"rng_nm":18,"alt_fmsl":674,"id":"IXT","rwy":"33","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":212.7,"dist_nm":0.3,"freq":110.1,"lat":54.46083300,"lon":-128.58777800,"rng_nm":25,"alt_fmsl":713,"id":"IXT","desc":"TERRACE DME"},
+{"type":"NDB","hdg_t":342.5,"dist_nm":1,"freq":254,"lat":54.48277800,"lon":-128.59138900,"rng_nm":25,"alt_fmsl":713,"id":"TB","desc":"SKEENA NDB"},
+{"type":"NDB","hdg_t":180.3,"dist_nm":5.5,"freq":332,"lat":54.37400000,"lon":-128.58311111,"rng_nm":50,"alt_fmsl":0,"id":"XT","desc":"TERRACE NDB"},
+{"type":"NDB","hdg_t":187.1,"dist_nm":24.9,"freq":203,"lat":54.05411111,"lon":-128.67022222,"rng_nm":50,"alt_fmsl":0,"id":"ZKI","desc":"KITIMAT NDB"},
+{"type":"NDB","hdg_t":65.5,"dist_nm":53.3,"freq":240,"lat":54.82472222,"lon":-127.18277778,"rng_nm":50,"alt_fmsl":0,"id":"M9","desc":"KATHLYN NDB"},
+{"type":"NDB","hdg_t":71.1,"dist_nm":54.1,"freq":230,"lat":54.74750000,"lon":-127.10775000,"rng_nm":50,"alt_fmsl":0,"id":"YD","desc":"SMITHERS NDB"},
+{"type":"NDB","hdg_t":76.9,"dist_nm":56.8,"freq":391,"lat":54.66969444,"lon":-126.99250000,"rng_nm":50,"alt_fmsl":0,"id":"TK","desc":"TELKWA (SMITHERS) NDB"},
+{"type":"NDB","hdg_t":260,"dist_nm":65.7,"freq":218,"lat":54.26333333,"lon":-130.42394444,"rng_nm":50,"alt_fmsl":0,"id":"PR","desc":"PRINCE RUPERT NDB"},
+{"type":"SDME","hdg_t":261.6,"dist_nm":66.3,"freq":109.7,"lat":54.29055600,"lon":-130.45055600,"rng_nm":25,"alt_fmsl":91,"id":"IPR","desc":"PRINCE RUPERT DME"},
+{"type":"VOR","hdg_t":89.9,"dist_nm":67.6,"freq":114.7,"lat":54.45233333,"lon":-126.65088889,"rng_nm":130,"alt_fmsl":4189,"id":"YYD","desc":"HOUSTON VOR-DME"}
+]
+}

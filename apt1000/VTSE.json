@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VTSE","name":"Chumphon","lat":10.7112,"lon":99.3617055,"rwys":1,"ils":1,"index":4577578,"path":"e090n10/e099n10"
+,"runways":[
+{"len_m":2104,"wid_m":45.11,"hdg":60,"surf":"Asphalt","rwy1":"06","lat1":10.70645300,"lon1":99.35337200,"rwy2":"24","lat2":10.71594700,"lon2":99.37003900}
+]
+,"radios":[
+{"type":"GND","freq":122.15,"desc":"GND"},
+{"type":"TWR","freq":122.15,"desc":"TWR"},
+{"type":"APP","freq":119.75,"desc":"APP"},
+{"type":"APP","freq":129.6,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":10.70510300,"lon":99.35100300,"rng_nm":18,"alt_fmsl":15,"hdg":239.90,"id":"ICPN","rwy":"24","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":10.71369700,"lon":99.36828900,"rng_nm":10,"alt_fmsl":18,"id":"ICPN","rwy":"24","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":10.70566700,"lon":99.35067200,"rng_nm":18,"alt_fmsl":15,"id":"ICPN","rwy":"24","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":90.4,"dist_nm":0.2,"freq":110,"lat":10.71116900,"lon":99.36556400,"rng_nm":130,"alt_fmsl":18,"id":"CPN","desc":"CHUMPHON VOR-DME"},
+{"type":"NDB","hdg_t":33.5,"dist_nm":0.4,"freq":279,"lat":10.71775800,"lon":99.36610800,"rng_nm":50,"alt_fmsl":0,"id":"CP","desc":"CHUMPHON NDB"},
+{"type":"NDB","hdg_t":230.7,"dist_nm":62.1,"freq":290,"lat":10.05177800,"lon":98.54966700,"rng_nm":100,"alt_fmsl":0,"id":"KT","desc":"KAWTHOUNG NDB"},
+{"type":"NDB","hdg_t":22.1,"dist_nm":69.5,"freq":320,"lat":11.79013900,"lon":99.80683100,"rng_nm":50,"alt_fmsl":0,"id":"PCK","desc":"PRACHUAP NDB"},
+{"type":"SDME","hdg_t":22,"dist_nm":70.3,"freq":113.7,"lat":11.80347200,"lon":99.81016400,"rng_nm":50,"alt_fmsl":33,"id":"PCK","desc":"PRACHUAP TACAN"},
+{"type":"NDB","hdg_t":219.5,"dist_nm":71.7,"freq":375,"lat":9.78330800,"lon":98.59100000,"rng_nm":50,"alt_fmsl":0,"id":"RN","desc":"RANONG NDB"},
+{"type":"VOR","hdg_t":219.6,"dist_nm":72.2,"freq":113.4,"lat":9.77866100,"lon":98.58391900,"rng_nm":50,"alt_fmsl":57,"id":"RAN","desc":"RANONG VOR-DME"},
+{"type":"NDB","hdg_t":149,"dist_nm":80.5,"freq":316,"lat":9.55391700,"lon":100.05990300,"rng_nm":50,"alt_fmsl":0,"id":"SM","desc":"SAMUI NDB"},
+{"type":"VOR","hdg_t":149.1,"dist_nm":80.9,"freq":117.6,"lat":9.54707500,"lon":100.06174200,"rng_nm":130,"alt_fmsl":79,"id":"SMU","desc":"SAMUI VOR-DME"},
+{"type":"NDB","hdg_t":187.7,"dist_nm":95.1,"freq":338,"lat":9.13313600,"lon":99.14545300,"rng_nm":50,"alt_fmsl":0,"id":"SR","desc":"SURAT THANI NDB"},
+{"type":"SDME","hdg_t":188.2,"dist_nm":95.2,"freq":113.2,"lat":9.13303600,"lon":99.13162500,"rng_nm":50,"alt_fmsl":19,"id":"SRT","desc":"SURAT THANI TACAN"},
+{"type":"VOR","hdg_t":188.1,"dist_nm":95.4,"freq":110.6,"lat":9.12951100,"lon":99.13474700,"rng_nm":100,"alt_fmsl":20,"id":"STN","desc":"SURAT THANI VOR-DME"}
+]
+}

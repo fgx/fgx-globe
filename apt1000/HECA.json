@@ -1,0 +1,45 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HECA","name":"Cairo Intl","lat":30.121808,"lon":31.4060951666667,"rwys":3,"ils":4,"index":3464705,"path":"e030n30/e031n30"
+,"runways":[
+{"len_m":3999,"wid_m":60.05,"hdg":49,"surf":"Asphalt","rwy1":"05R","lat1":30.09968900,"lon1":31.39823300,"rwy2":"23L","lat2":30.12326900,"lon2":31.42963600},
+{"len_m":3300,"wid_m":60.05,"hdg":49,"surf":"Asphalt","rwy1":"05L","lat1":30.11973100,"lon1":31.38024400,"rwy2":"23R","lat2":30.13909200,"lon2":31.40626400},
+{"len_m":3177,"wid_m":60.05,"hdg":162,"surf":"Asphalt","rwy1":"16","lat1":30.13820600,"lon1":31.40614700,"rwy2":"34","lat2":30.11086100,"lon2":31.41604700}
+]
+,"radios":[
+{"type":"ATIS","freq":122.6,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":119.55,"desc":"TWR"},
+{"type":"APP","freq":120.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.9,"lat":30.14027800,"lon":31.40783300,"rng_nm":18,"alt_fmsl":210,"hdg":49.27,"id":"CRL","rwy":"05L","desc":"ILS-cat-II"},
+{"type":"ILS","freq":109.9,"lat":30.12513900,"lon":31.43211100,"rng_nm":18,"alt_fmsl":410,"hdg":49.04,"id":"IROT","rwy":"05R","desc":"ILS-cat-II"},
+{"type":"ILS","freq":109.5,"lat":30.09772200,"lon":31.39555600,"rng_nm":18,"alt_fmsl":420,"hdg":229.08,"id":"ILOT","rwy":"23L","desc":"ILS-cat-II"},
+{"type":"ILS","freq":110.3,"lat":30.11786100,"lon":31.37772200,"rng_nm":18,"alt_fmsl":210,"hdg":229.29,"id":"CRR","rwy":"23R","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.9,"lat":30.12313900,"lon":31.38238900,"rng_nm":10,"alt_fmsl":230,"id":"CRL","rwy":"05L","desc":"GS","gs":3},
+{"type":"GS","freq":109.9,"lat":30.10075000,"lon":31.40141700,"rng_nm":10,"alt_fmsl":430,"id":"IROT","rwy":"05R","desc":"GS","gs":3},
+{"type":"GS","freq":109.5,"lat":30.12063900,"lon":31.42816700,"rng_nm":10,"alt_fmsl":420,"id":"ILOT","rwy":"23L","desc":"GS","gs":3},
+{"type":"GS","freq":110.3,"lat":30.13797200,"lon":31.40250000,"rng_nm":10,"alt_fmsl":230,"id":"CRR","rwy":"23R","desc":"GS","gs":3},
+{"type":"DME","freq":110.9,"lat":30.12313900,"lon":31.38238900,"rng_nm":18,"alt_fmsl":230,"id":"CRL","rwy":"05L","desc":"DME-ILS"},
+{"type":"DME","freq":109.9,"lat":30.10075000,"lon":31.40141700,"rng_nm":18,"alt_fmsl":430,"id":"IROT","rwy":"05R","desc":"DME-ILS"},
+{"type":"DME","freq":109.5,"lat":30.12063900,"lon":31.42816700,"rng_nm":18,"alt_fmsl":420,"id":"ILOT","rwy":"23L","desc":"DME-ILS"},
+{"type":"DME","freq":110.3,"lat":30.13797200,"lon":31.40250000,"rng_nm":18,"alt_fmsl":230,"id":"CRR","rwy":"23R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":207.5,"dist_nm":1.9,"freq":115.2,"lat":30.09230600,"lon":31.38841700,"rng_nm":150,"alt_fmsl":460,"id":"CVO","desc":"CAIRO VOR-DME"},
+{"type":"VOR","hdg_t":27.1,"dist_nm":2,"freq":112.5,"lat":30.15200000,"lon":31.42388900,"rng_nm":150,"alt_fmsl":200,"id":"CAI","desc":"CAIRO VOR-DME"},
+{"type":"NDB","hdg_t":337.8,"dist_nm":2.9,"freq":310,"lat":30.16694400,"lon":31.38500000,"rng_nm":25,"alt_fmsl":0,"id":"ALI","desc":"CAIRO NDB"},
+{"type":"SDME","hdg_t":235.1,"dist_nm":3,"freq":116.3,"lat":30.09219200,"lon":31.35727200,"rng_nm":25,"alt_fmsl":304,"id":"MXR","desc":"ALMAZA TACAN"},
+{"type":"NDB","hdg_t":220.3,"dist_nm":3.7,"freq":490,"lat":30.07401100,"lon":31.35944700,"rng_nm":50,"alt_fmsl":0,"id":"A","desc":"ALMAZA NDB"},
+{"type":"NDB","hdg_t":234.9,"dist_nm":8.3,"freq":317,"lat":30.04213900,"lon":31.27544400,"rng_nm":25,"alt_fmsl":260,"id":"MKT","desc":"CAIRO NDB"},
+{"type":"SDME","hdg_t":269.2,"dist_nm":25.7,"freq":116.7,"lat":30.11550000,"lon":30.91166700,"rng_nm":130,"alt_fmsl":550,"id":"BLA","desc":"CAIRO WEST TACAN"},
+{"type":"NDB","hdg_t":238.3,"dist_nm":35.2,"freq":340,"lat":29.81119200,"lon":30.83033300,"rng_nm":100,"alt_fmsl":840,"id":"OCT","desc":"OCTOBER NDB"},
+{"type":"VOR","hdg_t":230.9,"dist_nm":68.3,"freq":117.3,"lat":29.39750000,"lon":30.39305600,"rng_nm":150,"alt_fmsl":50,"id":"FYM","desc":"FAYOUM VOR-DME"},
+{"type":"VOR","hdg_t":31.6,"dist_nm":81.5,"freq":112.7,"lat":31.27880600,"lon":32.23780600,"rng_nm":200,"alt_fmsl":30,"id":"PSD","desc":"PORT SAID VOR-DME"},
+{"type":"VOR","hdg_t":350.2,"dist_nm":85.4,"freq":116.9,"lat":31.52888900,"lon":31.12250000,"rng_nm":200,"alt_fmsl":10,"id":"BLT","desc":"BALTIM VOR-DME"},
+{"type":"NDB","hdg_t":297.9,"dist_nm":97.8,"freq":563,"lat":30.87666700,"lon":29.73166700,"rng_nm":100,"alt_fmsl":144,"id":"DJ","desc":"BORG EL ARAB NDB"},
+{"type":"VOR","hdg_t":310.6,"dist_nm":98.6,"freq":115.9,"lat":31.18694400,"lon":29.95036100,"rng_nm":150,"alt_fmsl":10,"id":"AXD","desc":"ALEXANDRIA VOR-DME"},
+{"type":"NDB","hdg_t":310.8,"dist_nm":98.9,"freq":403,"lat":31.19491700,"lon":29.95252800,"rng_nm":100,"alt_fmsl":60,"id":"AXD","desc":"ALEXANDRIA NDB"},
+{"type":"NDB","hdg_t":298.3,"dist_nm":99.3,"freq":273,"lat":30.89833300,"lon":29.71250000,"rng_nm":25,"alt_fmsl":0,"id":"D","desc":"INNER BEACON NDB"}
+]
+}

@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VEMN","name":"Dibrugarh","lat":27.4838515,"lon":95.016921,"rwys":1,"ils":1,"index":4513112,"path":"e090n20/e095n27"
+,"runways":[
+{"len_m":1835,"wid_m":45.11,"hdg":45,"surf":"Asphalt","rwy1":"05","lat1":27.47803100,"lon1":95.01031100,"rwy2":"23","lat2":27.48967200,"lon2":95.02353100}
+]
+,"radios":[
+{"type":"TWR","freq":122.7,"desc":"TWR"},
+{"type":"TWR","freq":123.5,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":27.48908300,"lon":95.02552800,"rng_nm":18,"alt_fmsl":362,"hdg":50.70,"id":"DIB","rwy":"05","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":27.47733300,"lon":95.01438900,"rng_nm":10,"alt_fmsl":362,"id":"DIB","rwy":"05","desc":"GS","gs":3},
+{"type":"DME","freq":109.5,"lat":27.47733300,"lon":95.01438900,"rng_nm":18,"alt_fmsl":416,"id":"DIB","rwy":"05","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":48.6,"dist_nm":0.2,"freq":117.3,"lat":27.48713300,"lon":95.02109700,"rng_nm":130,"alt_fmsl":361,"id":"DRG","desc":"DIBRUGARH VOR-DME"},
+{"type":"NDB","hdg_t":175.3,"dist_nm":1.1,"freq":265,"lat":27.46546700,"lon":95.01859700,"rng_nm":50,"alt_fmsl":0,"id":"DBR","desc":"DIBRUGARH NDB"},
+{"type":"VOR","hdg_t":257,"dist_nm":50.2,"freq":116.5,"lat":27.29186100,"lon":94.10030600,"rng_nm":130,"alt_fmsl":330,"id":"LBR","desc":"LILABARI VOR-DME"},
+{"type":"NDB","hdg_t":256.8,"dist_nm":50.8,"freq":381,"lat":27.28684700,"lon":94.09094200,"rng_nm":50,"alt_fmsl":0,"id":"NR","desc":"LILABARI NDB"},
+{"type":"NDB","hdg_t":225.6,"dist_nm":65.3,"freq":217,"lat":26.71717500,"lon":94.14650800,"rng_nm":75,"alt_fmsl":0,"id":"JT","desc":"JORHAT NDB"},
+{"type":"VOR","hdg_t":225,"dist_nm":65.9,"freq":112.1,"lat":26.70190000,"lon":94.14873100,"rng_nm":130,"alt_fmsl":284,"id":"JHT","desc":"JORHAT VOR-DME"},
+{"type":"NDB","hdg_t":66.7,"dist_nm":66.3,"freq":339,"lat":27.91712800,"lon":96.16288300,"rng_nm":50,"alt_fmsl":0,"id":"TJ","desc":"TEJU NDB"},
+{"type":"NDB","hdg_t":158.3,"dist_nm":96.2,"freq":230,"lat":25.98727800,"lon":95.67466700,"rng_nm":40,"alt_fmsl":0,"id":"KI","desc":"KANTI NDB"},
+{"type":"VOR","hdg_t":214.9,"dist_nm":116.6,"freq":114.5,"lat":25.88084700,"lon":93.78157800,"rng_nm":130,"alt_fmsl":472,"id":"DMR","desc":"DIMAPUR VOR-DME"},
+{"type":"NDB","hdg_t":215.3,"dist_nm":116.9,"freq":422,"lat":25.88390300,"lon":93.76768900,"rng_nm":50,"alt_fmsl":0,"id":"MR","desc":"DIMAPUR NDB"}
+]
+}

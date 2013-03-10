@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KCEC","name":"Crescent City - Jack Mc Namara Fld","lat":41.7801575,"lon":-124.236534,"rwys":2,"ils":1,"index":909555,"path":"w130n40/w125n41"
+,"runways":[
+{"len_m":1524,"wid_m":45.72,"hdg":133,"surf":"Asphalt","rwy1":"11","lat1":41.78498300,"lon1":-124.24154700,"rwy2":"29","lat2":41.77558900,"lon2":-124.22817200},
+{"len_m":1524,"wid_m":45.72,"hdg":193,"surf":"Asphalt","rwy1":"17","lat1":41.78671100,"lon1":-124.23611700,"rwy2":"35","lat2":41.77334700,"lon2":-124.24030000}
+]
+,"radios":[
+{"type":"ATIS","freq":119.92,"desc":"ASOS"},
+{"type":"CTAF","freq":122.8,"desc":"CTAF"},
+{"type":"CTAF","freq":122.8,"desc":"UNICOM"}
+]
+,"ils":[
+{"type":"ILS","freq":108.7,"lat":41.77370800,"lon":-124.22549700,"rng_nm":18,"alt_fmsl":44,"hdg":133.30,"id":"ICEC","rwy":"11","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.7,"lat":41.78371100,"lon":-124.23813100,"rng_nm":10,"alt_fmsl":56,"id":"ICEC","rwy":"11","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":41.78878100,"lon":-124.24700000,"rng_nm":0,"alt_fmsl":44,"id":"----","rwy":"11","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":259.8,"dist_nm":0.1,"freq":109,"lat":41.77958333,"lon":-124.24083333,"rng_nm":40,"alt_fmsl":54,"id":"CEC","desc":"CRESCENT CITY VORTAC"},
+{"type":"VOR","hdg_t":173,"dist_nm":48.2,"freq":110.2,"lat":40.98144444,"lon":-124.10830556,"rng_nm":40,"alt_fmsl":193,"id":"ACV","desc":"ARCATA VOR-DME"},
+{"type":"VOR","hdg_t":179.9,"dist_nm":66.4,"freq":114,"lat":40.67127778,"lon":-124.23452778,"rng_nm":40,"alt_fmsl":386,"id":"FOT","desc":"FORTUNA VORTAC"},
+{"type":"VOR","hdg_t":106.6,"dist_nm":67.3,"freq":109.6,"lat":41.44966667,"lon":-122.80644444,"rng_nm":40,"alt_fmsl":4900,"id":"FJS","desc":"FORT JONES VOR-DME"},
+{"type":"NDB","hdg_t":58.3,"dist_nm":70.8,"freq":356,"lat":42.39161111,"lon":-122.87883333,"rng_nm":50,"alt_fmsl":0,"id":"MEF","desc":"MEDFORD NDB"},
+{"type":"NDB","hdg_t":55.3,"dist_nm":71.4,"freq":373,"lat":42.45097222,"lon":-122.91336111,"rng_nm":50,"alt_fmsl":0,"id":"MF","desc":"PUMIE NDB"},
+{"type":"VOR","hdg_t":54.1,"dist_nm":72.4,"freq":113.6,"lat":42.47958333,"lon":-122.91294444,"rng_nm":130,"alt_fmsl":2083,"id":"OED","desc":"ROGUE VALLEY VORTAC"},
+{"type":"NDB","hdg_t":91.7,"dist_nm":78.8,"freq":404,"lat":41.72727778,"lon":-122.48169444,"rng_nm":50,"alt_fmsl":0,"id":"MOG","desc":"MONTAGUE NDB"},
+{"type":"VOR","hdg_t":24.7,"dist_nm":92.8,"freq":108.2,"lat":43.18241667,"lon":-123.35225000,"rng_nm":40,"alt_fmsl":1320,"id":"RBG","desc":"ROSEBURG VOR-DME"},
+{"type":"NDB","hdg_t":23.7,"dist_nm":95.5,"freq":400,"lat":43.23525000,"lon":-123.35802778,"rng_nm":50,"alt_fmsl":0,"id":"RBG","desc":"ROSEBURG NDB"},
+{"type":"NDB","hdg_t":358,"dist_nm":96.8,"freq":378,"lat":43.39444444,"lon":-124.31027778,"rng_nm":50,"alt_fmsl":0,"id":"OT","desc":"EMIRE NDB"},
+{"type":"VOR","hdg_t":1.7,"dist_nm":98.1,"freq":112.1,"lat":43.41550000,"lon":-124.16852778,"rng_nm":40,"alt_fmsl":707,"id":"OTH","desc":"NORTH BEND VORTAC"}
+]
+}

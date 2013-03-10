@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UATG","name":"Atyrau","lat":47.121939,"lon":51.821307,"rwys":1,"ils":2,"index":3793475,"path":"e050n40/e051n47"
+,"runways":[
+{"len_m":2999,"wid_m":43.89,"hdg":149,"surf":"Asphalt","rwy1":"14","lat1":47.13361100,"lon1":51.81139200,"rwy2":"32","lat2":47.11026700,"lon2":51.83122200}
+]
+,"radios":[
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":123.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":47.10523300,"lon":51.83549200,"rng_nm":18,"alt_fmsl":-72,"hdg":149.99,"id":"ITY","rwy":"14","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.3,"lat":47.13888900,"lon":51.80694400,"rng_nm":18,"alt_fmsl":-72,"hdg":330.00,"id":"IAY","rwy":"32","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":47.13061900,"lon":51.81210300,"rng_nm":10,"alt_fmsl":-72,"id":"ITY","rwy":"14","desc":"GS","gs":3},
+{"type":"GS","freq":108.3,"lat":47.11194400,"lon":51.82777800,"rng_nm":10,"alt_fmsl":-72,"id":"IAY","rwy":"32","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":47.16591900,"lon":51.78392500,"rng_nm":0,"alt_fmsl":-72,"id":"----","rwy":"14","desc":"OM"},
+{"type":"OM","freq":0,"lat":47.07886900,"lon":51.85778900,"rng_nm":0,"alt_fmsl":-72,"id":"----","rwy":"32","desc":"OM"},
+{"type":"MM","freq":0,"lat":47.14100300,"lon":51.80510800,"rng_nm":0,"alt_fmsl":-72,"id":"----","rwy":"14","desc":"MM"},
+{"type":"MM","freq":0,"lat":47.10240600,"lon":51.83788600,"rng_nm":0,"alt_fmsl":-72,"id":"----","rwy":"32","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":329.8,"dist_nm":1.3,"freq":755,"lat":47.14100300,"lon":51.80510800,"rng_nm":50,"alt_fmsl":0,"id":"T","desc":"ATYRAU NDB"},
+{"type":"NDB","hdg_t":149.9,"dist_nm":1.3,"freq":755,"lat":47.10240600,"lon":51.83788600,"rng_nm":50,"alt_fmsl":0,"id":"Y","desc":"ATYRAU NDB"},
+{"type":"VOR","hdg_t":330,"dist_nm":1.5,"freq":112.3,"lat":47.14388900,"lon":51.80277800,"rng_nm":130,"alt_fmsl":-82,"id":"ATR","desc":"ATYRAU VOR-DME"},
+{"type":"NDB","hdg_t":149.9,"dist_nm":2.9,"freq":315,"lat":47.07886900,"lon":51.85778900,"rng_nm":50,"alt_fmsl":0,"id":"YR","desc":"ATYRAU NDB"},
+{"type":"NDB","hdg_t":329.9,"dist_nm":3,"freq":315,"lat":47.16591900,"lon":51.78392500,"rng_nm":50,"alt_fmsl":0,"id":"TY","desc":"ATYRAU NDB"},
+{"type":"NDB","hdg_t":358.1,"dist_nm":86.7,"freq":755,"lat":48.56666700,"lon":51.75000000,"rng_nm":75,"alt_fmsl":0,"id":"IN","desc":"INDERBORSKY NDB"},
+{"type":"NDB","hdg_t":248.1,"dist_nm":143.9,"freq":905,"lat":46.18333300,"lon":48.61666700,"rng_nm":80,"alt_fmsl":0,"id":"ZG","desc":"ZELENGA NDB"},
+{"type":"NDB","hdg_t":253.2,"dist_nm":162.8,"freq":650,"lat":46.27666700,"lon":48.07333300,"rng_nm":80,"alt_fmsl":0,"id":"BJ","desc":"ASTRAKHAN NDB"},
+{"type":"NDB","hdg_t":254,"dist_nm":167.8,"freq":650,"lat":46.28833300,"lon":47.94000000,"rng_nm":80,"alt_fmsl":0,"id":"GV","desc":"ASTRAKHAN NDB"},
+{"type":"NDB","hdg_t":245.8,"dist_nm":194.4,"freq":722,"lat":45.71666700,"lon":47.60000000,"rng_nm":80,"alt_fmsl":0,"id":"YO","desc":"BIRYUCHA KOSA NDB"}
+]
+}

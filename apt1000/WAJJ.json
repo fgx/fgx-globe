@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WAJJ","name":"Jayapura Sentani","lat":-2.576982,"lon":140.516471,"rwys":1,"ils":1,"index":5248476,"path":"e140s10/e140s03"
+,"runways":[
+{"len_m":2182,"wid_m":45.11,"hdg":126,"surf":"Asphalt","rwy1":"12","lat1":-2.57110600,"lon1":140.50858600,"rwy2":"30","lat2":-2.58285800,"lon2":140.52435600}
+]
+,"radios":[
+{"type":"ATIS","freq":126.25,"desc":"ATIS"},
+{"type":"ATIS","freq":128.8,"desc":"ATIS"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.1,"desc":"JAYAPURA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-2.57024200,"lon":140.50742800,"rng_nm":18,"alt_fmsl":289,"hdg":306.72,"id":"IJPA","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-2.58209400,"lon":140.52149700,"rng_nm":10,"alt_fmsl":289,"id":"IJPA","rwy":"30","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":-2.58720000,"lon":140.53019400,"rng_nm":0,"alt_fmsl":289,"id":"----","rwy":"30","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":-2.57024200,"lon":140.50742800,"rng_nm":18,"alt_fmsl":289,"id":"IJPA","rwy":"30","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":313.9,"dist_nm":0.7,"freq":395,"lat":-2.56824400,"lon":140.50746100,"rng_nm":50,"alt_fmsl":289,"id":"ZN","desc":"JAYAPURA NDB"},
+{"type":"VOR","hdg_t":126.5,"dist_nm":1,"freq":116.2,"lat":-2.58769444,"lon":140.53083333,"rng_nm":130,"alt_fmsl":252,"id":"JPA","desc":"JAYAPURA VOR-DME"},
+{"type":"NDB","hdg_t":97.3,"dist_nm":47.6,"freq":257,"lat":-2.67890000,"lon":141.30311700,"rng_nm":25,"alt_fmsl":10,"id":"VNO","desc":"VANIMO NDB-DME"},
+{"type":"SDME","hdg_t":97.3,"dist_nm":47.6,"freq":115.6,"lat":-2.67890000,"lon":141.30311700,"rng_nm":25,"alt_fmsl":10,"id":"VNO","desc":"VANIMO NDB-DME"},
+{"type":"NDB","hdg_t":225.7,"dist_nm":130.5,"freq":222,"lat":-4.10047800,"lon":138.95646900,"rng_nm":50,"alt_fmsl":5085,"id":"ZW","desc":"WAMENA NDB"},
+{"type":"NDB","hdg_t":178.4,"dist_nm":135.4,"freq":342,"lat":-4.84500000,"lon":140.57833300,"rng_nm":60,"alt_fmsl":4330,"id":"ZX","desc":"OKSIBIL NDB"},
+{"type":"NDB","hdg_t":164.1,"dist_nm":175.8,"freq":1632,"lat":-5.40990000,"lon":141.31870000,"rng_nm":35,"alt_fmsl":2574,"id":"OKT","desc":"OK TEDI NDB-DME"},
+{"type":"SDME","hdg_t":164.1,"dist_nm":175.8,"freq":114.8,"lat":-5.40990000,"lon":141.31870000,"rng_nm":35,"alt_fmsl":2574,"id":"OKT","desc":"OK TEDI NDB-DME"},
+{"type":"VOR","hdg_t":107.6,"dist_nm":198.9,"freq":116.6,"lat":-3.58352778,"lon":143.67594444,"rng_nm":130,"alt_fmsl":19,"id":"WK","desc":"WEWAK VOR-DME"},
+{"type":"NDB","hdg_t":107.6,"dist_nm":198.9,"freq":336,"lat":-3.58136111,"lon":143.67750000,"rng_nm":50,"alt_fmsl":0,"id":"WK","desc":"WEWAK NDB"}
+]
+}

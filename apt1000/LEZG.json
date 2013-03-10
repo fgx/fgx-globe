@@ -1,0 +1,41 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LEZG","name":"Zaragoza Ab","lat":41.66702975,"lon":-1.043559,"rwys":2,"ils":1,"index":2924779,"path":"w010n40/w002n41"
+,"runways":[
+{"len_m":3717,"wid_m":45.11,"hdg":120,"surf":"Asphalt","rwy1":"12R","lat1":41.68020600,"lon1":-1.08237200,"rwy2":"30L","lat2":41.66346100,"lon2":-1.04371400},
+{"len_m":3032,"wid_m":45.11,"hdg":120,"surf":"Asphalt","rwy1":"12L","lat1":41.66905800,"lon1":-1.03983300,"rwy2":"30R","lat2":41.65539400,"lon2":-1.00831700}
+]
+,"radios":[
+{"type":"GND","freq":118.1,"desc":"GND"},
+{"type":"TWR","freq":122.1,"desc":"TWR"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":127.05,"desc":"APP"},
+{"type":"APP","freq":119.3,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":41.67126100,"lon":-1.04491700,"rng_nm":18,"alt_fmsl":863,"hdg":300.12,"id":"IZZA","rwy":"30R","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":41.65579200,"lon":-1.01295600,"rng_nm":10,"alt_fmsl":863,"id":"IZZA","rwy":"30R","desc":"GS","gs":2.5},
+{"type":"OM","freq":0,"lat":41.59889700,"lon":-0.87796400,"rng_nm":0,"alt_fmsl":863,"id":"----","rwy":"30R","desc":"OM"},
+{"type":"MM","freq":0,"lat":41.65062200,"lon":-0.99732500,"rng_nm":0,"alt_fmsl":863,"id":"----","rwy":"30R","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":133.8,"dist_nm":0.7,"freq":113,"lat":41.65789200,"lon":-1.03086400,"rng_nm":50,"alt_fmsl":876,"id":"ZAR","desc":"ZARAGOZA VOR-DME"},
+{"type":"NDB","hdg_t":299.5,"dist_nm":7.7,"freq":389,"lat":41.73051700,"lon":-1.19331100,"rng_nm":50,"alt_fmsl":0,"id":"ZRZ","desc":"ZARAGOZA NDB"},
+{"type":"NDB","hdg_t":118.6,"dist_nm":8.4,"freq":348,"lat":41.59889700,"lon":-0.87796400,"rng_nm":50,"alt_fmsl":0,"id":"ZZA","desc":"ZARAGOZA NDB"},
+{"type":"NDB","hdg_t":56.4,"dist_nm":28.4,"freq":335,"lat":41.92788100,"lon":-0.51383600,"rng_nm":50,"alt_fmsl":0,"id":"TON","desc":"TORRALBA DE ARAGON NDB"},
+{"type":"VOR","hdg_t":52.8,"dist_nm":40.6,"freq":114.55,"lat":42.07336111,"lon":-0.31880556,"rng_nm":75,"alt_fmsl":1772,"id":"HUE","desc":"HUESCA VOR-DME"},
+{"type":"NDB","hdg_t":194.1,"dist_nm":47.2,"freq":375,"lat":40.90242500,"lon":-1.29831100,"rng_nm":50,"alt_fmsl":0,"id":"CCH","desc":"CALAMOCHA NDB"},
+{"type":"VOR","hdg_t":193.5,"dist_nm":49.3,"freq":116,"lat":40.86729400,"lon":-1.29805300,"rng_nm":40,"alt_fmsl":3150,"id":"CMA","desc":"CALAMOCHA VOR-DME"},
+{"type":"VOR","hdg_t":120.1,"dist_nm":63.3,"freq":112.1,"lat":41.12959400,"lon":0.16524400,"rng_nm":35,"alt_fmsl":1184,"id":"MLA","desc":"MAELLA VOR-DME"},
+{"type":"VOR","hdg_t":336,"dist_nm":67.1,"freq":113.55,"lat":42.68838600,"lon":-1.66078300,"rng_nm":25,"alt_fmsl":1890,"id":"PAP","desc":"PAMPLONA VOR-DME"},
+{"type":"NDB","hdg_t":337.2,"dist_nm":68.1,"freq":422,"lat":42.71418900,"lon":-1.63904200,"rng_nm":50,"alt_fmsl":0,"id":"PAM","desc":"PAMPLONA NDB"},
+{"type":"NDB","hdg_t":338.2,"dist_nm":70,"freq":386,"lat":42.74999200,"lon":-1.63166700,"rng_nm":15,"alt_fmsl":0,"id":"NO","desc":"PAMPLONA NDB"},
+{"type":"VOR","hdg_t":335.5,"dist_nm":70.3,"freq":112.3,"lat":42.73375000,"lon":-1.70200000,"rng_nm":20,"alt_fmsl":3419,"id":"PPN","desc":"PAMPLONA VOR-DME"},
+{"type":"VOR","hdg_t":86.4,"dist_nm":70.7,"freq":113.6,"lat":41.72977800,"lon":0.52738900,"rng_nm":40,"alt_fmsl":1181,"id":"LLE","desc":"ILERDA VOR-DME"},
+{"type":"NDB","hdg_t":310,"dist_nm":73.7,"freq":399,"lat":42.45134200,"lon":-2.31473600,"rng_nm":45,"alt_fmsl":0,"id":"EAG","desc":"LOGRONO NDB"},
+{"type":"VOR","hdg_t":254.4,"dist_nm":74.4,"freq":112.8,"lat":41.32356400,"lon":-2.62979200,"rng_nm":45,"alt_fmsl":3717,"id":"BAN","desc":"BARAHONA VOR-DME"},
+{"type":"VOR","hdg_t":310.1,"dist_nm":74.5,"freq":115.45,"lat":42.46053600,"lon":-2.32691100,"rng_nm":40,"alt_fmsl":1348,"id":"LPA","desc":"LOGRONO VOR-DME"},
+{"type":"NDB","hdg_t":94.5,"dist_nm":76.4,"freq":404,"lat":41.55292500,"lon":0.64802200,"rng_nm":50,"alt_fmsl":0,"id":"LRD","desc":"LERIDA NDB"},
+{"type":"NDB","hdg_t":337.5,"dist_nm":77.9,"freq":354,"lat":42.86666489,"lon":-1.71683335,"rng_nm":15,"alt_fmsl":1468,"id":"PP","desc":"Pamplona NDB"},
+{"type":"VOR","hdg_t":300.4,"dist_nm":94.6,"freq":112.6,"lat":42.45330600,"lon":-2.88070600,"rng_nm":130,"alt_fmsl":2126,"id":"DGO","desc":"DOMINGO VOR-DME"}
+]
+}

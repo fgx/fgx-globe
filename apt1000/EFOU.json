@@ -1,0 +1,35 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EFOU","name":"Oulu","lat":64.9300585,"lon":25.3545595,"rwys":1,"ils":1,"index":3368632,"path":"e020n60/e025n64"
+,"runways":[
+{"len_m":2501,"wid_m":60.05,"hdg":120,"surf":"Asphalt","rwy1":"12","lat1":64.93583600,"lon1":25.33189400,"rwy2":"30","lat2":64.92428100,"lon2":25.37722500}
+]
+,"radios":[
+{"type":"ATIS","freq":135.44,"desc":"ATIS"},
+{"type":"ATIS","freq":135.45,"desc":"ATIS"},
+{"type":"TWR","freq":119.7,"desc":"TWR"},
+{"type":"TWR","freq":124.4,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":64.92279700,"lon":25.38303900,"rng_nm":18,"alt_fmsl":47,"hdg":121.06,"id":"OU","rwy":"12","desc":"ILS-cat-II"},
+{"type":"GS","freq":109.5,"lat":64.93351400,"lon":25.33597200,"rng_nm":10,"alt_fmsl":47,"id":"OU","rwy":"12","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":64.96632200,"lon":25.21117200,"rng_nm":0,"alt_fmsl":47,"id":"----","rwy":"12","desc":"OM"},
+{"type":"MM","freq":0,"lat":64.94077200,"lon":25.31250300,"rng_nm":0,"alt_fmsl":47,"id":"----","rwy":"12","desc":"MM"},
+{"type":"DME","freq":109.5,"lat":64.93351400,"lon":25.33597200,"rng_nm":18,"alt_fmsl":100,"id":"OU","rwy":"12","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":53.2,"dist_nm":0.1,"freq":113.3,"lat":64.93155300,"lon":25.35928300,"rng_nm":130,"alt_fmsl":66,"id":"OUK","desc":"OULU VOR-DME"},
+{"type":"NDB","hdg_t":300.8,"dist_nm":4.2,"freq":350,"lat":64.96632200,"lon":25.21117200,"rng_nm":30,"alt_fmsl":0,"id":"LAA","desc":"LAANILA NDB"},
+{"type":"NDB","hdg_t":121.1,"dist_nm":5.2,"freq":290,"lat":64.88449700,"lon":25.53162800,"rng_nm":30,"alt_fmsl":0,"id":"TP","desc":"TANGO-PAPA NDB"},
+{"type":"NDB","hdg_t":201.2,"dist_nm":51.6,"freq":332,"lat":64.12950800,"lon":24.64276700,"rng_nm":25,"alt_fmsl":0,"id":"VA","desc":"VICTOR-ALFA NDB"},
+{"type":"NDB","hdg_t":341.4,"dist_nm":58.3,"freq":373,"lat":65.84646100,"lon":24.60290800,"rng_nm":25,"alt_fmsl":0,"id":"KEM","desc":"KEMI NDB"},
+{"type":"NDB","hdg_t":124.1,"dist_nm":68.7,"freq":337,"lat":64.27306100,"lon":27.52986700,"rng_nm":30,"alt_fmsl":483,"id":"KAJ","desc":"KAJAANI NDB"},
+{"type":"VOR","hdg_t":122.1,"dist_nm":71.1,"freq":114.9,"lat":64.28253600,"lon":27.65577500,"rng_nm":130,"alt_fmsl":447,"id":"KNI","desc":"KAINUU VOR-DME"},
+{"type":"NDB","hdg_t":220.6,"dist_nm":89,"freq":388,"lat":63.79180000,"lon":23.17389700,"rng_nm":30,"alt_fmsl":0,"id":"KRU","desc":"KRUUNU NDB"},
+{"type":"VOR","hdg_t":295.7,"dist_nm":89.2,"freq":115.1,"lat":65.54022200,"lon":22.13425000,"rng_nm":60,"alt_fmsl":58,"id":"SLU","desc":"LULEA VOR-DME"},
+{"type":"NDB","hdg_t":4.3,"dist_nm":92.9,"freq":377,"lat":66.46910000,"lon":25.64880000,"rng_nm":30,"alt_fmsl":0,"id":"PA","desc":"PAPA-ALFA NDB"},
+{"type":"NDB","hdg_t":297.3,"dist_nm":93.9,"freq":377,"lat":65.60950560,"lon":21.99869440,"rng_nm":50,"alt_fmsl":0,"id":"OL","desc":"Lulea NDB"},
+{"type":"NDB","hdg_t":288.4,"dist_nm":94.8,"freq":421,"lat":65.38727800,"lon":21.77025000,"rng_nm":15,"alt_fmsl":0,"id":"TRU","desc":"TRUNDON NDB"},
+{"type":"NDB","hdg_t":218,"dist_nm":97.5,"freq":398,"lat":63.63684700,"lon":23.10902500,"rng_nm":30,"alt_fmsl":0,"id":"ESS","desc":"ESSE NDB"},
+{"type":"VOR","hdg_t":6.4,"dist_nm":98.9,"freq":117.7,"lat":66.56253900,"lon":25.82040800,"rng_nm":50,"alt_fmsl":661,"id":"ROI","desc":"ROVANI VOR-DME"}
+]
+}

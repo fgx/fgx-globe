@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VVNB","name":"Hanoi Noibai Intl","lat":21.21973875,"lon":105.80377375,"rwys":2,"ils":1,"index":4676558,"path":"e100n20/e105n21"
+,"runways":[
+{"len_m":3799,"wid_m":45.11,"hdg":107,"surf":"Concrete","rwy1":"11R","lat1":21.22469700,"lon1":105.78635300,"rwy2":"29L","lat2":21.21458900,"lon2":105.82132800},
+{"len_m":3798,"wid_m":45.11,"hdg":107,"surf":"Concrete","rwy1":"11L","lat1":21.22489400,"lon1":105.78622500,"rwy2":"29R","lat2":21.21477500,"lon2":105.82118900}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.8,"desc":"TWR"},
+{"type":"APP","freq":125.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":21.21565300,"lon":105.82584700,"rng_nm":18,"alt_fmsl":39,"hdg":104.05,"id":"NB","rwy":"11L","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":21.22331900,"lon":105.79512200,"rng_nm":10,"alt_fmsl":39,"id":"NB","rwy":"11L","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":21.23880800,"lon":105.74570800,"rng_nm":0,"alt_fmsl":39,"id":"----","rwy":"11L","desc":"OM"},
+{"type":"MM","freq":0,"lat":21.22793100,"lon":105.78305000,"rng_nm":0,"alt_fmsl":39,"id":"----","rwy":"11L","desc":"MM"},
+{"type":"DME","freq":110.5,"lat":21.22331900,"lon":105.79512200,"rng_nm":18,"alt_fmsl":39,"id":"NB","rwy":"11L","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":292.8,"dist_nm":1.2,"freq":230,"lat":21.22793100,"lon":105.78305000,"rng_nm":50,"alt_fmsl":0,"id":"K","desc":"NOIBAI NDB"},
+{"type":"VOR","hdg_t":102.9,"dist_nm":1.7,"freq":116.1,"lat":21.21302200,"lon":105.83493600,"rng_nm":43,"alt_fmsl":33,"id":"NOB","desc":"NOIBAI VOR-DME"},
+{"type":"NDB","hdg_t":289.3,"dist_nm":3.4,"freq":320,"lat":21.23880800,"lon":105.74570800,"rng_nm":89,"alt_fmsl":0,"id":"KW","desc":"NOIBAI NDB"},
+{"type":"NDB","hdg_t":166.8,"dist_nm":14.1,"freq":294,"lat":20.98888900,"lon":105.86138900,"rng_nm":189,"alt_fmsl":0,"id":"AM","desc":"GIALAM NDB"},
+{"type":"NDB","hdg_t":160.1,"dist_nm":52.8,"freq":304,"lat":20.38833300,"lon":106.12138900,"rng_nm":100,"alt_fmsl":0,"id":"HL","desc":"NAM DINH NDB"},
+{"type":"VOR","hdg_t":160.4,"dist_nm":52.8,"freq":115.5,"lat":20.38722200,"lon":106.11777800,"rng_nm":65,"alt_fmsl":14,"id":"NAH","desc":"NAMHA VOR-DME"},
+{"type":"NDB","hdg_t":117.3,"dist_nm":54,"freq":274,"lat":20.80138900,"lon":106.65805600,"rng_nm":140,"alt_fmsl":0,"id":"BK","desc":"CATBI NDB"},
+{"type":"VOR","hdg_t":114.6,"dist_nm":57.1,"freq":115.1,"lat":20.81822200,"lon":106.72750000,"rng_nm":162,"alt_fmsl":54,"id":"CAB","desc":"CATBI VOR-DME"},
+{"type":"NDB","hdg_t":249.4,"dist_nm":66.2,"freq":514,"lat":20.82805600,"lon":104.70027800,"rng_nm":54,"alt_fmsl":0,"id":"MC","desc":"MOCCHAU NDB"},
+{"type":"NDB","hdg_t":40.6,"dist_nm":90.6,"freq":238,"lat":22.36666700,"lon":106.86666700,"rng_nm":50,"alt_fmsl":0,"id":"NL","desc":"LONGZHOU NDB"},
+{"type":"NDB","hdg_t":270.1,"dist_nm":98.9,"freq":349,"lat":21.21500000,"lon":104.03805600,"rng_nm":46,"alt_fmsl":0,"id":"BQ","desc":"NASAN NDB"}
+]
+}

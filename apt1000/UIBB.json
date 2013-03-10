@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UIBB","name":"Bratsk","lat":56.370157255,"lon":101.70294936,"rwys":2,"ils":1,"index":4613266,"path":"e100n50/e101n56"
+,"runways":[
+{"len_m":2007,"wid_m":74.98,"hdg":114,"surf":"Turf/grass","rwy1":"12L","lat1":56.37350699,"lon1":101.69279599,"rwy2":"30R","lat2":56.36601102,"lon2":101.72234344},
+{"len_m":3158,"wid_m":60.05,"hdg":114,"surf":"Concrete","rwy1":"12","lat1":56.37651700,"lon1":101.67513600,"rwy2":"30","lat2":56.36459400,"lon2":101.72152200}
+]
+,"radios":[
+{"type":"GND","freq":121.8,"desc":"TAXIING"},
+{"type":"TWR","freq":118.1,"desc":"KRUG"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":56.37833300,"lon":101.66833300,"rng_nm":18,"alt_fmsl":1610,"hdg":294.98,"id":"IBS","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":56.36433411,"lon":101.71849823,"rng_nm":10,"alt_fmsl":1610,"id":"IBS","rwy":"30","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":56.35000000,"lon":101.77833300,"rng_nm":0,"alt_fmsl":1610,"id":"----","rwy":"30","desc":"OM"},
+{"type":"MM","freq":0,"lat":56.36016846,"lon":101.73833466,"rng_nm":0,"alt_fmsl":1610,"id":"----","rwy":"30","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":279.4,"dist_nm":0.5,"freq":113.6,"lat":56.37166700,"lon":101.68666700,"rng_nm":130,"alt_fmsl":1608,"id":"BRT","desc":"BRATSK VOR-DME"},
+{"type":"NDB","hdg_t":116.3,"dist_nm":1.3,"freq":755,"lat":56.36016846,"lon":101.73933411,"rng_nm":50,"alt_fmsl":1453,"id":"B","desc":"BRATSK NDB"},
+{"type":"NDB","hdg_t":292.9,"dist_nm":1.6,"freq":755,"lat":56.38074875,"lon":101.65776825,"rng_nm":50,"alt_fmsl":1385,"id":"G","desc":"BRATSK NDB"},
+{"type":"NDB","hdg_t":115.6,"dist_nm":2.7,"freq":374,"lat":56.34999847,"lon":101.77833557,"rng_nm":80,"alt_fmsl":1453,"id":"BS","desc":"BRATSK NDB"},
+{"type":"NDB","hdg_t":293.4,"dist_nm":3.2,"freq":374,"lat":56.39166700,"lon":101.61333300,"rng_nm":80,"alt_fmsl":0,"id":"GG","desc":"BRATSK NDB"},
+{"type":"NDB","hdg_t":15.5,"dist_nm":111.3,"freq":431,"lat":58.15000000,"lon":102.64166700,"rng_nm":80,"alt_fmsl":0,"id":"NM","desc":"UST-ILIMSK NDB"},
+{"type":"NDB","hdg_t":224.9,"dist_nm":126.5,"freq":526,"lat":54.85333300,"lon":99.12500000,"rng_nm":80,"alt_fmsl":0,"id":"FV","desc":"NIZHNEUDINSK NDB"},
+{"type":"VOR","hdg_t":226.1,"dist_nm":126.5,"freq":112.7,"lat":54.88333300,"lon":99.06666700,"rng_nm":130,"alt_fmsl":0,"id":"NVD","desc":"NIZHNEUDINSK VOR"},
+{"type":"NDB","hdg_t":76.2,"dist_nm":137.5,"freq":670,"lat":56.84986496,"lon":105.75841522,"rng_nm":22,"alt_fmsl":2071,"id":"C","desc":"Ust-Kut NDB"},
+{"type":"NDB","hdg_t":76.6,"dist_nm":138.8,"freq":326,"lat":56.83733368,"lon":105.80500031,"rng_nm":75,"alt_fmsl":1856,"id":"CI","desc":"Ust-Kut NDB"}
+]
+}

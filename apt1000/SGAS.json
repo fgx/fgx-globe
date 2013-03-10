@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SGAS","name":"Silvio Pettirossi Intl","lat":-25.23985,"lon":-57.519135,"rwys":1,"ils":1,"index":2002993,"path":"w060s30/w058s26"
+,"runways":[
+{"len_m":3353,"wid_m":46.02,"hdg":12,"surf":"Asphalt","rwy1":"02","lat1":-25.25462800,"lon1":-57.52272800,"rwy2":"20","lat2":-25.22507200,"lon2":-57.51554200}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"ASUNCION TWR"},
+{"type":"APP","freq":119.7,"desc":"ASUNCION APP"},
+{"type":"APP","freq":120,"desc":"ASUNCION APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":-25.25694400,"lon":-57.52333300,"rng_nm":18,"alt_fmsl":288,"hdg":192.47,"id":"IPST","rwy":"20","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":-25.22805600,"lon":-57.51500000,"rng_nm":10,"alt_fmsl":298,"id":"IPST","rwy":"20","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-25.14138900,"lon":-57.49500000,"rng_nm":0,"alt_fmsl":288,"id":"----","rwy":"20","desc":"OM"},
+{"type":"MM","freq":0,"lat":-25.21611100,"lon":-57.51333300,"rng_nm":0,"alt_fmsl":288,"id":"----","rwy":"20","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":210.6,"dist_nm":0.3,"freq":115.9,"lat":-25.24416700,"lon":-57.52194400,"rng_nm":130,"alt_fmsl":256,"id":"VAS","desc":"ASUNCION VOR-DME"},
+{"type":"NDB","hdg_t":54,"dist_nm":0.4,"freq":360,"lat":-25.23583300,"lon":-57.51305600,"rng_nm":300,"alt_fmsl":401,"id":"ASU","desc":"ASUNCION NDB"},
+{"type":"NDB","hdg_t":12.5,"dist_nm":1.4,"freq":320,"lat":-25.21611100,"lon":-57.51333300,"rng_nm":25,"alt_fmsl":260,"id":"PS","desc":"ASUNCION NDB"},
+{"type":"NDB","hdg_t":191.7,"dist_nm":2.4,"freq":305,"lat":-25.28000000,"lon":-57.52833300,"rng_nm":25,"alt_fmsl":0,"id":"VB","desc":"ASUNCION NDB"},
+{"type":"NDB","hdg_t":12.5,"dist_nm":6,"freq":340,"lat":-25.14138900,"lon":-57.49500000,"rng_nm":25,"alt_fmsl":223,"id":"ST","desc":"ASUNCION NDB"},
+{"type":"VOR","hdg_t":213.2,"dist_nm":69.5,"freq":115.6,"lat":-26.21027800,"lon":-58.22472200,"rng_nm":179,"alt_fmsl":193,"id":"FSA","desc":"FORMOSA VOR-DME"},
+{"type":"NDB","hdg_t":213.1,"dist_nm":71,"freq":300,"lat":-26.23244400,"lon":-58.23838900,"rng_nm":50,"alt_fmsl":192,"id":"F","desc":"FORMOSA NDB"},
+{"type":"NDB","hdg_t":2.5,"dist_nm":107.8,"freq":405,"lat":-23.43841900,"lon":-57.43059700,"rng_nm":65,"alt_fmsl":0,"id":"CON","desc":"CONCEPCION NDB"},
+{"type":"NDB","hdg_t":96.2,"dist_nm":144.9,"freq":200,"lat":-25.47916700,"lon":-54.86583300,"rng_nm":200,"alt_fmsl":0,"id":"CDE","desc":"CIUDAD DEL ESTE NDB"},
+{"type":"VOR","hdg_t":95.7,"dist_nm":145.6,"freq":116.3,"lat":-25.46000000,"lon":-54.85000000,"rng_nm":130,"alt_fmsl":888,"id":"VES","desc":"CIUDAD DEL ESTE VOR-DME"}
+]
+}

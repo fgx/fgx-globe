@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SCIE","name":"Carriel Sur Intl","lat":-36.77265277,"lon":-73.06310973,"rwys":1,"ils":1,"index":1740107,"path":"w080s40/w074s37"
+,"runways":[
+{"len_m":2298,"wid_m":45.11,"hdg":25,"surf":"Asphalt","rwy1":"02","lat1":-36.78203333,"lon1":-73.06856667,"rwy2":"20","lat2":-36.76327222,"lon2":-73.05765278}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"CONCEPCION TWR"},
+{"type":"APP","freq":120.5,"desc":"CONCEPCION APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":-36.75839400,"lon":-73.05481700,"rng_nm":18,"alt_fmsl":265,"hdg":24.98,"id":"ICEP","rwy":"02","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":-36.77861100,"lon":-73.06833300,"rng_nm":10,"alt_fmsl":26,"id":"ICEP","rwy":"02","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-36.85750000,"lon":-73.11388900,"rng_nm":0,"alt_fmsl":265,"id":"----","rwy":"02","desc":"OM"},
+{"type":"DME","freq":109.9,"lat":-36.77861100,"lon":-73.06833300,"rng_nm":18,"alt_fmsl":26,"id":"ICEP","rwy":"02","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":25,"dist_nm":1.1,"freq":114.3,"lat":-36.75548900,"lon":-73.05312800,"rng_nm":130,"alt_fmsl":7,"id":"CAR","desc":"CONCEPCION VOR-DME"},
+{"type":"NDB","hdg_t":205.6,"dist_nm":5.6,"freq":254,"lat":-36.85750000,"lon":-73.11388900,"rng_nm":50,"alt_fmsl":0,"id":"CE","desc":"CONCEPCION NDB"},
+{"type":"VOR","hdg_t":141.3,"dist_nm":48.8,"freq":112.9,"lat":-37.40666700,"lon":-72.42472200,"rng_nm":130,"alt_fmsl":374,"id":"MAD","desc":"LOS ANGELES VOR"},
+{"type":"VOR","hdg_t":77.4,"dist_nm":50.8,"freq":115.9,"lat":-36.58305600,"lon":-72.03583300,"rng_nm":130,"alt_fmsl":488,"id":"CHI","desc":"CHILLAN VOR-DME"},
+{"type":"NDB","hdg_t":77.8,"dist_nm":51.1,"freq":411,"lat":-36.58888900,"lon":-72.02916700,"rng_nm":100,"alt_fmsl":486,"id":"CHI","desc":"CHILLAN NDB"},
+{"type":"NDB","hdg_t":20.9,"dist_nm":93.9,"freq":340,"lat":-35.30555600,"lon":-72.37944400,"rng_nm":200,"alt_fmsl":0,"id":"CTN","desc":"CONSTITUCION NDB"},
+{"type":"VOR","hdg_t":170.3,"dist_nm":121.2,"freq":114.1,"lat":-38.76638900,"lon":-72.63083300,"rng_nm":130,"alt_fmsl":303,"id":"TCO","desc":"TEMUCO VOR-DME"},
+{"type":"NDB","hdg_t":170,"dist_nm":121.3,"freq":360,"lat":-38.76666700,"lon":-72.61472200,"rng_nm":100,"alt_fmsl":332,"id":"TCO","desc":"TEMUCO NDB"},
+{"type":"NDB","hdg_t":39.9,"dist_nm":138.8,"freq":270,"lat":-34.98111100,"lon":-71.25555600,"rng_nm":150,"alt_fmsl":0,"id":"ICO","desc":"CURICO NDB"},
+{"type":"VOR","hdg_t":40.3,"dist_nm":140.7,"freq":114.7,"lat":-34.96777800,"lon":-71.21583300,"rng_nm":130,"alt_fmsl":6036,"id":"ICO","desc":"CURICO VOR-DME"}
+]
+}

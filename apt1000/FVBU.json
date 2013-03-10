@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"FVBU","name":"J M Nkomo Intl","lat":-20.01520625,"lon":28.622707,"rwys":2,"ils":1,"index":3412348,"path":"e020s30/e028s21"
+,"runways":[
+{"len_m":2598,"wid_m":45.11,"hdg":115,"surf":"Asphalt","rwy1":"13","lat1":-20.01621900,"lon1":28.61515600,"rwy2":"31","lat2":-20.02623600,"lon2":28.63761100},
+{"len_m":1350,"wid_m":29.87,"hdg":7,"surf":"Asphalt","rwy1":"02","lat1":-20.01523100,"lon1":28.61817200,"rwy2":"20","lat2":-20.00313900,"lon2":28.61988900}
+]
+,"radios":[
+{"type":"TWR","freq":118.3,"desc":"NKOMO TWR"},
+{"type":"APP","freq":119.7,"desc":"NKOMO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":-20.02702800,"lon":28.63930600,"rng_nm":18,"alt_fmsl":4359,"hdg":115.47,"id":"IBU","rwy":"13","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":-20.01869400,"lon":28.61747200,"rng_nm":10,"alt_fmsl":4359,"id":"IBU","rwy":"13","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-19.98830600,"lon":28.55391700,"rng_nm":0,"alt_fmsl":4359,"id":"----","rwy":"13","desc":"OM"},
+{"type":"MM","freq":0,"lat":-20.01063900,"lon":28.60252800,"rng_nm":0,"alt_fmsl":4359,"id":"----","rwy":"13","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":283.4,"dist_nm":1.1,"freq":226,"lat":-20.01063900,"lon":28.60252800,"rng_nm":25,"alt_fmsl":0,"id":"IL","desc":"J M NKOMO NDB"},
+{"type":"VOR","hdg_t":124.7,"dist_nm":1.4,"freq":115.7,"lat":-20.02905600,"lon":28.64386100,"rng_nm":130,"alt_fmsl":4359,"id":"VBU","desc":"J M NKOMO VOR-DME"},
+{"type":"NDB","hdg_t":292.4,"dist_nm":4.2,"freq":205,"lat":-19.98830600,"lon":28.55391700,"rng_nm":25,"alt_fmsl":0,"id":"WO","desc":"J M NKOMO NDB"},
+{"type":"NDB","hdg_t":32,"dist_nm":24,"freq":235,"lat":-19.67416700,"lon":28.84777800,"rng_nm":25,"alt_fmsl":0,"id":"YT","desc":"J M NKOMO NDB"},
+{"type":"NDB","hdg_t":133.2,"dist_nm":24.8,"freq":242,"lat":-20.29972200,"lon":28.94333300,"rng_nm":25,"alt_fmsl":0,"id":"SZ","desc":"J M NKOMO NDB"},
+{"type":"NDB","hdg_t":60,"dist_nm":74.5,"freq":268,"lat":-19.38833300,"lon":29.76166700,"rng_nm":25,"alt_fmsl":0,"id":"TO","desc":"GWERU THORNHILL NDB"},
+{"type":"NDB","hdg_t":63.6,"dist_nm":77.4,"freq":213,"lat":-19.43500000,"lon":29.84666700,"rng_nm":25,"alt_fmsl":0,"id":"TL","desc":"GWERU THORNHILL NDB"},
+{"type":"NDB","hdg_t":63.3,"dist_nm":77.5,"freq":278,"lat":-19.42861100,"lon":29.84416700,"rng_nm":50,"alt_fmsl":0,"id":"TI","desc":"GWERU THORNHILL NDB"},
+{"type":"VOR","hdg_t":64.1,"dist_nm":78.2,"freq":114.3,"lat":-19.43916700,"lon":29.86472200,"rng_nm":100,"alt_fmsl":4725,"id":"VTL","desc":"GWERU THORNHILL VOR-DME"},
+{"type":"NDB","hdg_t":46.2,"dist_nm":93,"freq":385,"lat":-18.93524000,"lon":29.80465600,"rng_nm":75,"alt_fmsl":0,"id":"RC","desc":"KWEKWE NDB"},
+{"type":"VOR","hdg_t":223.1,"dist_nm":94.2,"freq":112.4,"lat":-21.16264700,"lon":27.47388300,"rng_nm":100,"alt_fmsl":3300,"id":"FTV","desc":"FRANCISTOWN VOR-DME"}
+]
+}

@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UIAA","name":"Kadala","lat":52.02758475,"lon":113.30166375,"rwys":2,"ils":1,"index":4809601,"path":"e110n50/e113n52"
+,"runways":[
+{"len_m":1786,"wid_m":74.98,"hdg":101,"surf":"Turf/grass","rwy1":"11L","lat1":52.03034700,"lon1":113.28553600,"rwy2":"29R","lat2":52.02722800,"lon2":113.31106900},
+{"len_m":2800,"wid_m":56.08,"hdg":100,"surf":"Concrete","rwy1":"11","lat1":52.02867800,"lon1":113.28496900,"rwy2":"29","lat2":52.02408600,"lon2":113.32508100}
+]
+,"radios":[
+{"type":"ATIS","freq":126.4,"desc":"ATIS"},
+{"type":"GND","freq":119,"desc":"Chita Ground"},
+{"type":"TWR","freq":118.1,"desc":"Chita Tower"},
+{"type":"APP","freq":122,"desc":"Chita Radar"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":52.02999878,"lon":113.27378082,"rng_nm":18,"alt_fmsl":2282,"hdg":280.63,"id":"IDG","rwy":"29","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":52.02313900,"lon":113.32122200,"rng_nm":10,"alt_fmsl":2272,"id":"IDG","rwy":"29","desc":"GS","gs":3.5},
+{"type":"OM","freq":0,"lat":52.01666700,"lon":113.37833300,"rng_nm":0,"alt_fmsl":2282,"id":"----","rwy":"29","desc":"OM"},
+{"type":"MM","freq":0,"lat":52.02233505,"lon":113.33999634,"rng_nm":0,"alt_fmsl":2282,"id":"----","rwy":"29","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":277.2,"dist_nm":1.2,"freq":553,"lat":52.03021622,"lon":113.26806641,"rng_nm":50,"alt_fmsl":2161,"id":"Z","desc":"CHITA NDB"},
+{"type":"NDB","hdg_t":102.7,"dist_nm":1.4,"freq":553,"lat":52.02221680,"lon":113.34006500,"rng_nm":50,"alt_fmsl":2161,"id":"D","desc":"CHITA NDB"},
+{"type":"NDB","hdg_t":102.9,"dist_nm":2.9,"freq":518,"lat":52.01666700,"lon":113.37833300,"rng_nm":80,"alt_fmsl":0,"id":"DG","desc":"CHITA NDB"},
+{"type":"NDB","hdg_t":279.9,"dist_nm":4.3,"freq":518,"lat":52.04000000,"lon":113.18666700,"rng_nm":80,"alt_fmsl":0,"id":"ZM","desc":"CHITA NDB"},
+{"type":"NDB","hdg_t":47.9,"dist_nm":5.5,"freq":232,"lat":52.08963394,"lon":113.41341400,"rng_nm":50,"alt_fmsl":2134,"id":"M","desc":"Cheremushki NDB"},
+{"type":"NDB","hdg_t":71.6,"dist_nm":5.8,"freq":232,"lat":52.05821609,"lon":113.45185089,"rng_nm":50,"alt_fmsl":2134,"id":"L","desc":"Cheremushki NDB"},
+{"type":"NDB","hdg_t":23.9,"dist_nm":6.3,"freq":475,"lat":52.12413406,"lon":113.37141418,"rng_nm":50,"alt_fmsl":2134,"id":"MT","desc":"Cheremushki NDB"},
+{"type":"NDB","hdg_t":91,"dist_nm":7,"freq":475,"lat":52.02538300,"lon":113.49151611,"rng_nm":50,"alt_fmsl":2134,"id":"LF","desc":"Cheremushki NDB"},
+{"type":"NDB","hdg_t":275,"dist_nm":130.4,"freq":320,"lat":52.16666700,"lon":109.78333300,"rng_nm":80,"alt_fmsl":0,"id":"GR","desc":"KHORINSK NDB"},
+{"type":"NDB","hdg_t":269.3,"dist_nm":203.8,"freq":525,"lat":51.86116791,"lon":107.81780243,"rng_nm":112,"alt_fmsl":1672,"id":"ML","desc":"DALNIY (ULAN-UDE) NDB"}
+]
+}

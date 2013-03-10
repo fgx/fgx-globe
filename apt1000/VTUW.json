@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VTUW","name":"Nakhon Phanom","lat":17.3837945,"lon":104.643022,"rwys":1,"ils":1,"index":4659933,"path":"e100n10/e104n17"
+,"runways":[
+{"len_m":2504,"wid_m":45.11,"hdg":144,"surf":"Asphalt","rwy1":"15","lat1":17.39304200,"lon1":104.63623300,"rwy2":"33","lat2":17.37454700,"lon2":104.64981100}
+]
+,"radios":[
+{"type":"TWR","freq":122.5,"desc":"TWR"},
+{"type":"APP","freq":123.35,"desc":"SAKHON NAKHON APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":17.37240300,"lon":104.65138300,"rng_nm":18,"alt_fmsl":553,"hdg":144.99,"id":"INKP","rwy":"15","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":17.39013300,"lon":104.63721700,"rng_nm":10,"alt_fmsl":587,"id":"INKP","rwy":"15","desc":"GS","gs":3},
+{"type":"DME","freq":109.7,"lat":17.37205300,"lon":104.65083900,"rng_nm":18,"alt_fmsl":553,"id":"INKP","rwy":"15","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":315,"dist_nm":0.3,"freq":111.6,"lat":17.38829700,"lon":104.63833600,"rng_nm":130,"alt_fmsl":603,"id":"NKP","desc":"NAKHON PHANOM VOR-DME"},
+{"type":"NDB","hdg_t":357.4,"dist_nm":0.5,"freq":383,"lat":17.39241400,"lon":104.64262200,"rng_nm":50,"alt_fmsl":0,"id":"NP","desc":"NAKHON PHANOM NDB"},
+{"type":"VOR","hdg_t":250.8,"dist_nm":30.7,"freq":114.2,"lat":17.21413600,"lon":104.13676100,"rng_nm":50,"alt_fmsl":529,"id":"SKN","desc":"SAKON NAKHON VOR-DME"},
+{"type":"NDB","hdg_t":249.8,"dist_nm":32.3,"freq":365,"lat":17.19699200,"lon":104.11483900,"rng_nm":50,"alt_fmsl":0,"id":"SN","desc":"SAKON NAKHON NDB"},
+{"type":"VOR","hdg_t":171.8,"dist_nm":49.6,"freq":113.5,"lat":16.56166700,"lon":104.76555600,"rng_nm":130,"alt_fmsl":459,"id":"SAV","desc":"SAVANNAKHET VOR-DME"},
+{"type":"NDB","hdg_t":172.2,"dist_nm":50,"freq":290,"lat":16.55305600,"lon":104.76027800,"rng_nm":25,"alt_fmsl":459,"id":"SAV","desc":"SAVANNAKHET NDB"},
+{"type":"VOR","hdg_t":213.6,"dist_nm":90.8,"freq":111.2,"lat":16.11683100,"lon":103.77206900,"rng_nm":130,"alt_fmsl":451,"id":"ROT","desc":"ROI ET VOR-DME"},
+{"type":"NDB","hdg_t":213.3,"dist_nm":90.9,"freq":319,"lat":16.11068300,"lon":103.77822200,"rng_nm":50,"alt_fmsl":0,"id":"RE","desc":"ROI ET NDB"},
+{"type":"VOR","hdg_t":35.8,"dist_nm":99.7,"freq":113.1,"lat":18.73411100,"lon":105.66836100,"rng_nm":162,"alt_fmsl":49,"id":"VIN","desc":"VINH VOR-DME"},
+{"type":"NDB","hdg_t":34.6,"dist_nm":102.4,"freq":218,"lat":18.79027800,"lon":105.66722200,"rng_nm":89,"alt_fmsl":0,"id":"XW","desc":"VINH NDB"}
+]
+}

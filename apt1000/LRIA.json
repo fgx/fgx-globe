@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LRIA","name":"Iasi","lat":47.17849,"lon":27.620632,"rwys":1,"ils":1,"index":3400266,"path":"e020n40/e027n47"
+,"runways":[
+{"len_m":1780,"wid_m":29.87,"hdg":154,"surf":"Concrete","rwy1":"15","lat1":47.18571100,"lon1":27.61555600,"rwy2":"33","lat2":47.17126900,"lon2":27.62570800}
+]
+,"radios":[
+{"type":"TWR","freq":119.2,"desc":"TWR"},
+{"type":"APP","freq":119.2,"desc":"APP"},
+{"type":"APP","freq":118.8,"desc":"PRECISION"}
+]
+,"ils":[
+{"type":"ILS","freq":109.1,"lat":47.16974200,"lon":27.62655300,"rng_nm":18,"alt_fmsl":397,"hdg":154.92,"id":"IIS","rwy":"15","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.1,"lat":47.18342200,"lon":27.61844200,"rng_nm":10,"alt_fmsl":397,"id":"IIS","rwy":"15","desc":"GS","gs":3},
+{"type":"DME","freq":109.1,"lat":47.18337500,"lon":27.61838900,"rng_nm":18,"alt_fmsl":500,"id":"IIS","rwy":"15","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":333.4,"dist_nm":3.7,"freq":391,"lat":47.23427200,"lon":27.57968100,"rng_nm":50,"alt_fmsl":292,"id":"IAS","desc":"IASI NDB"},
+{"type":"NDB","hdg_t":11.8,"dist_nm":38,"freq":790,"lat":47.79794200,"lon":27.81399700,"rng_nm":25,"alt_fmsl":0,"id":"BL","desc":"BALTI NDB"},
+{"type":"NDB","hdg_t":10.3,"dist_nm":39.2,"freq":389,"lat":47.82130300,"lon":27.79536400,"rng_nm":25,"alt_fmsl":0,"id":"B","desc":"BALTI NDB"},
+{"type":"NDB","hdg_t":8.4,"dist_nm":41.1,"freq":389,"lat":47.85567800,"lon":27.76947500,"rng_nm":25,"alt_fmsl":0,"id":"L","desc":"BALTI NDB"},
+{"type":"NDB","hdg_t":7,"dist_nm":42.5,"freq":790,"lat":47.88129700,"lon":27.75001900,"rng_nm":75,"alt_fmsl":0,"id":"LC","desc":"BALTI NDB"},
+{"type":"NDB","hdg_t":214.4,"dist_nm":50.8,"freq":426,"lat":46.47811100,"lon":26.92741400,"rng_nm":100,"alt_fmsl":479,"id":"BC","desc":"BACAU NDB"},
+{"type":"VOR","hdg_t":219.5,"dist_nm":51.7,"freq":109.4,"lat":46.51091700,"lon":26.82554400,"rng_nm":175,"alt_fmsl":1752,"id":"BCU","desc":"BACAU VOR-DME"},
+{"type":"VOR","hdg_t":105.6,"dist_nm":54.5,"freq":113.7,"lat":46.92640900,"lon":28.89915100,"rng_nm":200,"alt_fmsl":418,"id":"CHN","desc":"CHISINAU VOR-DME"},
+{"type":"VOR","hdg_t":300.4,"dist_nm":59.2,"freq":112.3,"lat":47.67232500,"lon":26.36083300,"rng_nm":175,"alt_fmsl":1302,"id":"SCV","desc":"SUCEAVA VOR-DME"},
+{"type":"NDB","hdg_t":6.4,"dist_nm":76.5,"freq":406,"lat":48.44469900,"lon":27.83660300,"rng_nm":75,"alt_fmsl":0,"id":"MO","desc":"MOHYLIV PODILSKYI NDB"},
+{"type":"NDB","hdg_t":314.2,"dist_nm":89.9,"freq":805,"lat":48.21300200,"lon":26.01492900,"rng_nm":25,"alt_fmsl":0,"id":"CR","desc":"CHERNIVTSI NDB"},
+{"type":"NDB","hdg_t":315,"dist_nm":91.1,"freq":509,"lat":48.24133600,"lon":26.01492800,"rng_nm":25,"alt_fmsl":0,"id":"R","desc":"CHERNIVTSI NDB"},
+{"type":"NDB","hdg_t":315.1,"dist_nm":93.9,"freq":509,"lat":48.27633500,"lon":25.96659400,"rng_nm":25,"alt_fmsl":0,"id":"N","desc":"CHERNIVTSI NDB"},
+{"type":"NDB","hdg_t":315.3,"dist_nm":95.4,"freq":805,"lat":48.29800200,"lon":25.94825900,"rng_nm":25,"alt_fmsl":0,"id":"CN","desc":"CHERNIVTSI NDB"},
+{"type":"NDB","hdg_t":336.1,"dist_nm":99.7,"freq":732,"lat":48.69301800,"lon":26.60491800,"rng_nm":50,"alt_fmsl":0,"id":"KP","desc":"KAMENETS NDB"}
+]
+}

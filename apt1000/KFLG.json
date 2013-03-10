@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KFLG","name":"Flagstaff Pulliam","lat":35.1384545,"lon":-111.671215,"rwys":1,"ils":1,"index":1122121,"path":"w120n30/w112n35"
+,"runways":[
+{"len_m":2133,"wid_m":45.72,"hdg":41,"surf":"Asphalt","rwy1":"03","lat1":35.13121700,"lon1":-111.67891900,"rwy2":"21","lat2":35.14569200,"lon2":-111.66351100}
+]
+,"radios":[
+{"type":"ATIS","freq":125.8,"desc":"ATIS"},
+{"type":"CTAF","freq":134.55,"desc":"CTAF"},
+{"type":"CTAF","freq":122.95,"desc":"UNICOM"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":134.55,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":35.13792800,"lon":-111.67336100,"rng_nm":18,"alt_fmsl":7011,"hdg":226.05,"id":"IFLG","rwy":"21","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":35.14408600,"lon":-111.66591900,"rng_nm":10,"alt_fmsl":6998,"id":"IFLG","rwy":"21","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":6.8,"dist_nm":0.2,"freq":379,"lat":35.14187400,"lon":-111.67071600,"rng_nm":25,"alt_fmsl":6994,"id":"PUU","desc":"PULLIAM NDB"},
+{"type":"VOR","hdg_t":344.4,"dist_nm":0.5,"freq":113.85,"lat":35.14719444,"lon":-111.67416667,"rng_nm":130,"alt_fmsl":7026,"id":"FLG","desc":"FLAGSTAFF VOR-DME"},
+{"type":"VOR","hdg_t":95.8,"dist_nm":43.3,"freq":112.6,"lat":35.06161111,"lon":-110.79502778,"rng_nm":130,"alt_fmsl":4910,"id":"INW","desc":"WINSLOW VORTAC"},
+{"type":"VOR","hdg_t":237,"dist_nm":47.7,"freq":114.1,"lat":34.70255556,"lon":-112.48036111,"rng_nm":130,"alt_fmsl":4963,"id":"DRK","desc":"DRAKE VORTAC"},
+{"type":"VOR","hdg_t":334.8,"dist_nm":54.4,"freq":113.1,"lat":35.96033333,"lon":-112.14605556,"rng_nm":40,"alt_fmsl":6670,"id":"GCN","desc":"GRAND CANYON VOR-DME"},
+{"type":"VOR","hdg_t":18.3,"dist_nm":62,"freq":113.5,"lat":36.12133333,"lon":-111.26958333,"rng_nm":130,"alt_fmsl":5045,"id":"TBC","desc":"TUBA CITY VORTAC"},
+{"type":"NDB","hdg_t":187.4,"dist_nm":91.1,"freq":224,"lat":33.62909700,"lon":-111.90782800,"rng_nm":25,"alt_fmsl":1542,"id":"SDL","desc":"SCOTTSDALE NDB"},
+{"type":"VOR","hdg_t":288.1,"dist_nm":96.4,"freq":112,"lat":35.62472222,"lon":-113.54447222,"rng_nm":130,"alt_fmsl":4760,"id":"PGS","desc":"PEACH SPRINGS VORTAC"},
+{"type":"NDB","hdg_t":121.9,"dist_nm":97.4,"freq":206,"lat":34.26727778,"lon":-110.00822222,"rng_nm":50,"alt_fmsl":0,"id":"SOW","desc":"SHOW LOW NDB"},
+{"type":"NDB","hdg_t":181.7,"dist_nm":100.4,"freq":281,"lat":33.46188889,"lon":-111.73308333,"rng_nm":50,"alt_fmsl":0,"id":"FFZ","desc":"FALCON FIELD NDB"}
+]
+}

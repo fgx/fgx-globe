@@ -1,0 +1,26 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VABO","name":"Vadodara","lat":22.336164,"lon":73.2262905,"rwys":1,"ils":1,"index":4152336,"path":"e070n20/e073n22"
+,"runways":[
+{"len_m":2459,"wid_m":45.72,"hdg":44,"surf":"Asphalt","rwy1":"04","lat1":22.32821100,"lon1":73.21795600,"rwy2":"22","lat2":22.34411700,"lon2":73.23462500}
+]
+,"radios":[
+{"type":"TWR","freq":122.35,"desc":"BARODA TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":22.32722200,"lon":73.21691700,"rng_nm":18,"alt_fmsl":129,"hdg":224.11,"id":"VDD","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":22.34302800,"lon":73.23163900,"rng_nm":10,"alt_fmsl":129,"id":"VDD","rwy":"22","desc":"GS","gs":3},
+{"type":"DME","freq":110.5,"lat":22.34302800,"lon":73.23163900,"rng_nm":18,"alt_fmsl":129,"id":"VDD","rwy":"22","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":197.8,"dist_nm":0.2,"freq":117.3,"lat":22.33283300,"lon":73.22513900,"rng_nm":130,"alt_fmsl":123,"id":"QQZ","desc":"VADODARA VOR-DME"},
+{"type":"NDB","hdg_t":264.9,"dist_nm":0.9,"freq":304,"lat":22.33476700,"lon":73.20932200,"rng_nm":50,"alt_fmsl":0,"id":"QZ","desc":"VADODARA NDB"},
+{"type":"VOR","hdg_t":322.9,"dist_nm":55.2,"freq":113.1,"lat":23.07219700,"lon":72.62495300,"rng_nm":130,"alt_fmsl":184,"id":"AAE","desc":"AHMEDABAD VOR-DME"},
+{"type":"NDB","hdg_t":328.8,"dist_nm":56.3,"freq":215,"lat":23.14138900,"lon":72.69966700,"rng_nm":75,"alt_fmsl":0,"id":"AH","desc":"AHMEDABAD NDB"},
+{"type":"VOR","hdg_t":238.9,"dist_nm":67.6,"freq":114.1,"lat":21.75008300,"lon":72.18891700,"rng_nm":130,"alt_fmsl":20,"id":"BVR","desc":"BHAVNAGAR VOR-DME"},
+{"type":"NDB","hdg_t":239.6,"dist_nm":67.9,"freq":243,"lat":21.75856400,"lon":72.17668600,"rng_nm":50,"alt_fmsl":0,"id":"BV","desc":"BHAVNAGAR NDB"},
+{"type":"NDB","hdg_t":164.7,"dist_nm":72.4,"freq":358,"lat":21.16737200,"lon":73.56594700,"rng_nm":50,"alt_fmsl":0,"id":"SG","desc":"SONGARH NDB"},
+{"type":"NDB","hdg_t":200.4,"dist_nm":77.8,"freq":201,"lat":21.11570600,"lon":72.74272200,"rng_nm":50,"alt_fmsl":0,"id":"SU","desc":"SURAT NDB"},
+{"type":"VOR","hdg_t":39.4,"dist_nm":131.7,"freq":114.9,"lat":24.02990000,"lon":74.75077200,"rng_nm":130,"alt_fmsl":1689,"id":"PRA","desc":"PRATAPGARH VOR-DME"},
+{"type":"NDB","hdg_t":269.8,"dist_nm":135.7,"freq":329,"lat":22.31087200,"lon":70.78631400,"rng_nm":50,"alt_fmsl":0,"id":"RK","desc":"RAJKOT NDB"}
+]
+}

@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OETB","name":"Tabuk","lat":28.37367725,"lon":36.6204565,"rwys":2,"ils":1,"index":3546514,"path":"e030n20/e036n28"
+,"runways":[
+{"len_m":3350,"wid_m":45.11,"hdg":64,"surf":"Asphalt","rwy1":"06","lat1":28.36923100,"lon1":36.61989200,"rwy2":"24","lat2":28.38200800,"lon2":36.65086700},
+{"len_m":3091,"wid_m":45.11,"hdg":132,"surf":"Asphalt","rwy1":"13","lat1":28.38122800,"lon1":36.59398100,"rwy2":"31","lat2":28.36224200,"lon2":36.61708600}
+]
+,"radios":[
+{"type":"CLD","freq":128.75,"desc":"CLNC DEL"},
+{"type":"GND","freq":126.3,"desc":"GND"},
+{"type":"TWR","freq":125.9,"desc":"TWR"},
+{"type":"APP","freq":125.5,"desc":"APP"},
+{"type":"APP","freq":119.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.9,"lat":28.38219200,"lon":36.59221400,"rng_nm":18,"alt_fmsl":2551,"hdg":312.35,"id":"IPKS","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.9,"lat":28.36314400,"lon":36.61411700,"rng_nm":10,"alt_fmsl":2533,"id":"IPKS","rwy":"31","desc":"GS","gs":3},
+{"type":"DME","freq":111.9,"lat":28.36314400,"lon":36.61411700,"rng_nm":18,"alt_fmsl":2551,"id":"IPKS","rwy":"31","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":241.8,"dist_nm":0.8,"freq":115.7,"lat":28.36730600,"lon":36.60697200,"rng_nm":130,"alt_fmsl":2569,"id":"TBK","desc":"TABUK VORTAC"},
+{"type":"NDB","hdg_t":291.4,"dist_nm":110.1,"freq":288,"lat":29.03222200,"lon":34.67111100,"rng_nm":150,"alt_fmsl":70,"id":"NWB","desc":"NUWEIBAA NDB"},
+{"type":"NDB","hdg_t":310.7,"dist_nm":111.4,"freq":404,"lat":29.58015000,"lon":35.00705000,"rng_nm":50,"alt_fmsl":95,"id":"AQ","desc":"AQABA NDB"},
+{"type":"VOR","hdg_t":310.8,"dist_nm":111.5,"freq":113.1,"lat":29.58353900,"lon":35.00824700,"rng_nm":100,"alt_fmsl":175,"id":"AQB","desc":"AQABA VOR-DME"},
+{"type":"VOR","hdg_t":310.8,"dist_nm":113.7,"freq":112,"lat":29.60777800,"lon":34.97555600,"rng_nm":130,"alt_fmsl":200,"id":"LOT","desc":"EILOT VOR-DME"},
+{"type":"VOR","hdg_t":259.6,"dist_nm":119.1,"freq":114.2,"lat":27.99805600,"lon":34.41333300,"rng_nm":200,"alt_fmsl":130,"id":"SHM","desc":"SHARM EL SHEIKH VOR-DME"},
+{"type":"NDB","hdg_t":319.5,"dist_nm":120.7,"freq":326,"lat":29.90228100,"lon":35.11899700,"rng_nm":50,"alt_fmsl":312,"id":"AQC","desc":"AQABA NDB"},
+{"type":"VOR","hdg_t":308,"dist_nm":121,"freq":114.5,"lat":29.60671900,"lon":34.79744400,"rng_nm":150,"alt_fmsl":2430,"id":"TBA","desc":"TABA VOR-DME"},
+{"type":"NDB","hdg_t":259,"dist_nm":121.2,"freq":335,"lat":27.97000000,"lon":34.38027800,"rng_nm":100,"alt_fmsl":210,"id":"SKH","desc":"SHARM EL SHEIKH NDB"},
+{"type":"NDB","hdg_t":307.2,"dist_nm":123,"freq":315,"lat":29.60669400,"lon":34.74833300,"rng_nm":100,"alt_fmsl":2542,"id":"TBA","desc":"TABA NDB"}
+]
+}

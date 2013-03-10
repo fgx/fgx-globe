@@ -1,0 +1,39 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UAAA","name":"Almaty Intl","lat":43.355234565,"lon":77.04456951,"rwys":2,"ils":2,"index":4219216,"path":"e070n40/e077n43"
+,"runways":[
+{"len_m":4397,"wid_m":45.11,"hdg":55,"surf":"Asphalt","rwy1":"05R","lat1":43.34095600,"lon1":77.01806700,"rwy2":"23L","lat2":43.36318600,"lon2":77.06294200},
+{"len_m":4510,"wid_m":60.96,"hdg":55,"surf":"Concrete","rwy1":"05L","lat1":43.34700013,"lon1":77.02561625,"rwy2":"23R","lat2":43.36979613,"lon2":77.07165279}
+]
+,"radios":[
+{"type":"ATIS","freq":129.8,"desc":"ATIS"},
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":119.4,"desc":"TWR"},
+{"type":"TWR","freq":124,"desc":"TWR"},
+{"type":"APP","freq":120.8,"desc":"RADAR"},
+{"type":"APP","freq":131.6,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":43.36837500,"lon":77.07342200,"rng_nm":18,"alt_fmsl":2234,"hdg":55.76,"id":"ILM","rwy":"05R","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.1,"lat":43.33752500,"lon":77.01114700,"rng_nm":18,"alt_fmsl":2234,"hdg":235.72,"id":"IAL","rwy":"23L","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.3,"lat":43.34154200,"lon":77.02214700,"rng_nm":10,"alt_fmsl":2224,"id":"ILM","rwy":"05R","desc":"GS","gs":3},
+{"type":"GS","freq":108.1,"lat":43.36045800,"lon":77.06072500,"rng_nm":10,"alt_fmsl":2234,"id":"IAL","rwy":"23L","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":43.32047500,"lon":76.97701700,"rng_nm":0,"alt_fmsl":2234,"id":"----","rwy":"05R","desc":"OM"},
+{"type":"OM","freq":0,"lat":43.38256400,"lon":77.10213600,"rng_nm":0,"alt_fmsl":2234,"id":"----","rwy":"23L","desc":"OM"},
+{"type":"MM","freq":0,"lat":43.33493300,"lon":77.00591900,"rng_nm":0,"alt_fmsl":2234,"id":"----","rwy":"05R","desc":"MM"},
+{"type":"MM","freq":0,"lat":43.36860800,"lon":77.07393300,"rng_nm":0,"alt_fmsl":2234,"id":"----","rwy":"23L","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":58,"dist_nm":1.5,"freq":763,"lat":43.36860800,"lon":77.07393300,"rng_nm":50,"alt_fmsl":0,"id":"A","desc":"ALMATY NDB"},
+{"type":"NDB","hdg_t":234.2,"dist_nm":2,"freq":430,"lat":43.33493300,"lon":77.00591900,"rng_nm":50,"alt_fmsl":0,"id":"L","desc":"ALMATY NDB"},
+{"type":"VOR","hdg_t":57.4,"dist_nm":2.1,"freq":112.3,"lat":43.37444400,"lon":77.08583300,"rng_nm":130,"alt_fmsl":2211,"id":"ALM","desc":"ALMATY VOR-DME"},
+{"type":"NDB","hdg_t":56.9,"dist_nm":3,"freq":443,"lat":43.38256400,"lon":77.10213600,"rng_nm":50,"alt_fmsl":0,"id":"AL","desc":"ALMATY NDB"},
+{"type":"NDB","hdg_t":234.8,"dist_nm":3.6,"freq":415,"lat":43.32047500,"lon":76.97701700,"rng_nm":50,"alt_fmsl":0,"id":"LM","desc":"ALMATY NDB"},
+{"type":"NDB","hdg_t":53.7,"dist_nm":23.9,"freq":370,"lat":43.59027800,"lon":77.48666700,"rng_nm":50,"alt_fmsl":0,"id":"KI","desc":"KIRBALTABAY NDB"},
+{"type":"NDB","hdg_t":295.3,"dist_nm":34.6,"freq":345,"lat":43.60000000,"lon":76.32611100,"rng_nm":50,"alt_fmsl":0,"id":"UC","desc":"UZUNAGACH NDB"},
+{"type":"NDB","hdg_t":320.4,"dist_nm":48.1,"freq":288,"lat":43.97222200,"lon":76.33583300,"rng_nm":50,"alt_fmsl":0,"id":"AI","desc":"AKCHI NDB"},
+{"type":"NDB","hdg_t":216.3,"dist_nm":68.3,"freq":855,"lat":42.43333300,"lon":76.13333300,"rng_nm":50,"alt_fmsl":0,"id":"BL","desc":"BALYKCHI NDB"},
+{"type":"NDB","hdg_t":130.4,"dist_nm":76.6,"freq":912,"lat":42.51833300,"lon":78.35833300,"rng_nm":50,"alt_fmsl":0,"id":"KA","desc":"KARAKOL NDB"},
+{"type":"NDB","hdg_t":242.5,"dist_nm":83.6,"freq":825,"lat":42.70000000,"lon":75.36666700,"rng_nm":50,"alt_fmsl":0,"id":"KL","desc":"KALINOVKA NDB"},
+{"type":"NDB","hdg_t":268.6,"dist_nm":91.7,"freq":925,"lat":43.30000000,"lon":74.95000000,"rng_nm":50,"alt_fmsl":0,"id":"KD","desc":"KURDAYSKY NDB"}
+]
+}

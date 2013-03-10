@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EGYP","name":"Raf Mount Pleasant","lat":-51.8206265,"lon":-58.45011175,"rwys":2,"ils":1,"index":1984906,"path":"w060s60/w059s52"
+,"runways":[
+{"len_m":2596,"wid_m":46.02,"hdg":105,"surf":"Asphalt","rwy1":"10","lat1":-51.81769700,"lon1":-58.47630800,"rwy2":"28","lat2":-51.82389200,"lon2":-58.44000000},
+{"len_m":1522,"wid_m":22.86,"hdg":55,"surf":"Asphalt","rwy1":"05","lat1":-51.82436100,"lon1":-58.45113900,"rwy2":"23","lat2":-51.81655600,"lon2":-58.43300000}
+]
+,"radios":[
+{"type":"ATIS","freq":128.55,"desc":"Mount Pleasant Information"},
+{"type":"GND","freq":130.3,"desc":"Mount Pleasant Ground"},
+{"type":"TWR","freq":133.35,"desc":"Mount Pleasant Tower"},
+{"type":"APP","freq":131.5,"desc":"Island Radar"},
+{"type":"APP","freq":118.5,"desc":"Mount Pleasant Approach"}
+]
+,"ils":[
+{"type":"ILS","freq":111.9,"lat":-51.81661100,"lon":-58.48202800,"rng_nm":18,"alt_fmsl":244,"hdg":285.67,"id":"MP","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.9,"lat":-51.82427800,"lon":-58.44327800,"rng_nm":10,"alt_fmsl":244,"id":"MP","rwy":"28","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":230.3,"dist_nm":0.3,"freq":111.9,"lat":-51.82416700,"lon":-58.45700000,"rng_nm":40,"alt_fmsl":242,"id":"MTP","desc":"MOUNT PLEASANT TACAN"},
+{"type":"NDB","hdg_t":254.9,"dist_nm":0.8,"freq":380,"lat":-51.82416700,"lon":-58.47133300,"rng_nm":100,"alt_fmsl":0,"id":"MP","desc":"MOUNT PLEASANT NDB"},
+{"type":"VOR","hdg_t":108.4,"dist_nm":1.1,"freq":114.7,"lat":-51.82666700,"lon":-58.42083300,"rng_nm":40,"alt_fmsl":244,"id":"MTP","desc":"MOUNT PLEASANT VOR"},
+{"type":"NDB","hdg_t":72.7,"dist_nm":26.4,"freq":305,"lat":-51.68790000,"lon":-57.77392800,"rng_nm":50,"alt_fmsl":50,"id":"SA","desc":"STANLEY NDB"},
+{"type":"NDB","hdg_t":247.1,"dist_nm":357.1,"freq":265,"lat":-53.77683300,"lon":-67.72041700,"rng_nm":25,"alt_fmsl":66,"id":"P","desc":"RIO GRANDE NDB"},
+{"type":"VOR","hdg_t":247.2,"dist_nm":358,"freq":117.3,"lat":-53.77528900,"lon":-67.74583900,"rng_nm":188,"alt_fmsl":66,"id":"GRA","desc":"RIO GRANDE VOR-DME"},
+{"type":"NDB","hdg_t":247.1,"dist_nm":358.6,"freq":365,"lat":-53.78500000,"lon":-67.76083300,"rng_nm":216,"alt_fmsl":66,"id":"GRA","desc":"RIO GRANDE NDB"},
+{"type":"VOR","hdg_t":236.8,"dist_nm":378.3,"freq":114.9,"lat":-54.92916700,"lon":-67.62000000,"rng_nm":130,"alt_fmsl":88,"id":"PWL","desc":"PUERTO WILLIAMS VOR-DME"},
+{"type":"NDB","hdg_t":307.3,"dist_nm":379.6,"freq":210,"lat":-47.73333300,"lon":-65.90944400,"rng_nm":162,"alt_fmsl":266,"id":"ADO","desc":"PUERTO DESEADO NDB"},
+{"type":"VOR","hdg_t":289.1,"dist_nm":388.2,"freq":117.7,"lat":-49.30975600,"lon":-67.81292200,"rng_nm":178,"alt_fmsl":190,"id":"SJU","desc":"SAN JULIAN VOR-DME"}
+]
+}

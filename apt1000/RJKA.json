@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RJKA","name":"Amami","lat":28.4306345,"lon":129.712543,"rwys":1,"ils":1,"index":5070234,"path":"e120n20/e129n28"
+,"runways":[
+{"len_m":1999,"wid_m":45.72,"hdg":25,"surf":"Asphalt","rwy1":"03","lat1":28.42252500,"lon1":129.70807800,"rwy2":"21","lat2":28.43874400,"lon2":129.71700800}
+]
+,"radios":[
+{"type":"TWR","freq":134.8,"desc":"NAHA INFO"},
+{"type":"TWR","freq":126.2,"desc":"RDO"},
+{"type":"TWR","freq":118.15,"desc":"RDO"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":28.44069400,"lon":129.71807200,"rng_nm":18,"alt_fmsl":31,"hdg":25.82,"id":"IAM","rwy":"03","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":28.42478100,"lon":129.71067800,"rng_nm":10,"alt_fmsl":31,"id":"IAM","rwy":"03","desc":"GS","gs":3},
+{"type":"DME","freq":109.3,"lat":28.42474400,"lon":129.71076900,"rng_nm":18,"alt_fmsl":31,"id":"IAM","rwy":"03","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":346.1,"dist_nm":0.2,"freq":113.95,"lat":28.43471700,"lon":129.71140800,"rng_nm":25,"alt_fmsl":47,"id":"AME","desc":"KASARI VOR-DME"},
+{"type":"VOR","hdg_t":276.5,"dist_nm":6.8,"freq":115.5,"lat":28.44366900,"lon":129.58406700,"rng_nm":50,"alt_fmsl":996,"id":"ALC","desc":"AMAMI VORTAC"},
+{"type":"NDB","hdg_t":121,"dist_nm":13,"freq":382,"lat":28.31780600,"lon":129.92387800,"rng_nm":50,"alt_fmsl":0,"id":"KI","desc":"KIKAI NDB"},
+{"type":"VOR","hdg_t":230.7,"dist_nm":57,"freq":110.45,"lat":27.82477800,"lon":128.88221700,"rng_nm":100,"alt_fmsl":48,"id":"TKE","desc":"TOKUNOSHIMA VOR-DME"},
+{"type":"NDB","hdg_t":221.9,"dist_nm":80.2,"freq":398,"lat":27.42995000,"lon":128.70807500,"rng_nm":50,"alt_fmsl":0,"id":"ON","desc":"ERABU NDB"},
+{"type":"VOR","hdg_t":222.2,"dist_nm":80.4,"freq":113.1,"lat":27.43288889,"lon":128.69897222,"rng_nm":130,"alt_fmsl":218,"id":"ONC","desc":"ERABU VORTAC"},
+{"type":"VOR","hdg_t":220.4,"dist_nm":108.5,"freq":112.25,"lat":27.04437500,"lon":128.39802500,"rng_nm":100,"alt_fmsl":63,"id":"YRE","desc":"YORON VOR-DME"},
+{"type":"VOR","hdg_t":22.8,"dist_nm":126.8,"freq":117,"lat":30.37944700,"lon":130.66271700,"rng_nm":100,"alt_fmsl":190,"id":"YKE","desc":"YAKUSHIMA VOR-DME"},
+{"type":"VOR","hdg_t":22.5,"dist_nm":127.1,"freq":115.4,"lat":30.39008600,"lon":130.65122200,"rng_nm":100,"alt_fmsl":139,"id":"KYE","desc":"KAMIYAKU VOR-DME"},
+{"type":"VOR","hdg_t":26.9,"dist_nm":146.1,"freq":115.4,"lat":30.60215600,"lon":130.99153300,"rng_nm":40,"alt_fmsl":808,"id":"TGE","desc":"NAKATANE VOR-DME"}
+]
+}

@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PGSN","name":"Francisco C Ada Saipan Intl","lat":15.1190015,"lon":145.7293555,"rwys":1,"ils":1,"index":5331525,"path":"e140n10/e145n15"
+,"runways":[
+{"len_m":2651,"wid_m":60.96,"hdg":67,"surf":"Asphalt","rwy1":"07","lat1":15.11447500,"lon1":145.71793600,"rwy2":"25","lat2":15.12352800,"lon2":145.74077500}
+]
+,"radios":[
+{"type":"ATIS","freq":127.2,"desc":"ATIS"},
+{"type":"GND","freq":121.8,"desc":"GND"},
+{"type":"TWR","freq":125.7,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":15.12396100,"lon":145.74207800,"rng_nm":18,"alt_fmsl":215,"hdg":67.86,"id":"IGSN","rwy":"07","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":15.11621700,"lon":145.72030300,"rng_nm":10,"alt_fmsl":215,"id":"IGSN","rwy":"07","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":15.11327800,"lon":145.71406400,"rng_nm":0,"alt_fmsl":215,"id":"----","rwy":"07","desc":"MM"},
+{"type":"DME","freq":109.9,"lat":15.12382200,"lon":145.74065000,"rng_nm":18,"alt_fmsl":215,"id":"IGSN","rwy":"07","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":247.7,"dist_nm":1.1,"freq":312,"lat":15.11144444,"lon":145.71033333,"rng_nm":50,"alt_fmsl":0,"id":"SN","desc":"SAIPAN(LMM/NDB) NDB"},
+{"type":"NDB","hdg_t":206.7,"dist_nm":63.3,"freq":332,"lat":14.17166667,"lon":145.23991667,"rng_nm":50,"alt_fmsl":0,"id":"GRO","desc":"ROTA NDB"},
+{"type":"SDME","hdg_t":206.6,"dist_nm":102,"freq":111.7,"lat":13.59121900,"lon":144.94658100,"rng_nm":130,"alt_fmsl":660,"id":"UAM","desc":"ANDERSEN TACAN"},
+{"type":"NDB","hdg_t":210.2,"dist_nm":115,"freq":385,"lat":13.45350000,"lon":144.73691667,"rng_nm":50,"alt_fmsl":0,"id":"AJA","desc":"MT MACAJNA NDB"},
+{"type":"VOR","hdg_t":210.3,"dist_nm":115.1,"freq":115.8,"lat":13.45455556,"lon":144.73330556,"rng_nm":130,"alt_fmsl":658,"id":"UNZ","desc":"NIMITZ VORTAC"},
+{"type":"VOR","hdg_t":210.3,"dist_nm":115.1,"freq":115.3,"lat":13.45450000,"lon":144.73333300,"rng_nm":130,"alt_fmsl":658,"id":"UNZ","desc":"NIMITZ VORTAC"},
+{"type":"NDB","hdg_t":234,"dist_nm":560.2,"freq":317,"lat":9.49944444,"lon":138.08847222,"rng_nm":50,"alt_fmsl":0,"id":"YP","desc":"YAP NDB"},
+{"type":"NDB","hdg_t":141.1,"dist_nm":582.2,"freq":375,"lat":7.45716667,"lon":151.84050000,"rng_nm":50,"alt_fmsl":0,"id":"TKK","desc":"TRUK NDB"},
+{"type":"NDB","hdg_t":337.3,"dist_nm":628.6,"freq":360,"lat":24.77222222,"lon":141.30750000,"rng_nm":50,"alt_fmsl":0,"id":"OX","desc":"IWOTO NDB"},
+{"type":"SDME","hdg_t":337.3,"dist_nm":629.1,"freq":109.8,"lat":24.78416700,"lon":141.31666700,"rng_nm":50,"alt_fmsl":410,"id":"IJT","desc":"IWO JIMA TACAN"}
+]
+}

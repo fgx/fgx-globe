@@ -1,0 +1,42 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OLBA","name":"Beyrouth Rafic Hariri Intl","lat":33.8205328333333,"lon":35.4877855,"rwys":3,"ils":2,"index":3530481,"path":"e030n30/e035n33"
+,"runways":[
+{"len_m":3796,"wid_m":45.11,"hdg":32,"surf":"Concrete","rwy1":"03","lat1":33.79818600,"lon1":35.48085800,"rwy2":"21","lat2":33.82693600,"lon2":35.50311700},
+{"len_m":3381,"wid_m":45.11,"hdg":165,"surf":"Concrete","rwy1":"16","lat1":33.84005800,"lon1":35.47889700,"rwy2":"34","lat2":33.81050000,"lon2":35.48783300},
+{"len_m":3209,"wid_m":60.05,"hdg":176,"surf":"Asphalt","rwy1":"17","lat1":33.83820600,"lon1":35.48708600,"rwy2":"35","lat2":33.80931100,"lon2":35.48892200}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.9,"desc":"TWR"},
+{"type":"APP","freq":119.3,"desc":"APP"},
+{"type":"APP","freq":120.3,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":33.82855000,"lon":35.50336400,"rng_nm":18,"alt_fmsl":49,"hdg":31.63,"id":"IKK","rwy":"03","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.1,"lat":33.80845000,"lon":35.48768100,"rng_nm":18,"alt_fmsl":44,"hdg":167.00,"id":"IBB","rwy":"16","desc":"ILS-cat-I"},
+{"type":"LOC","freq":111.9,"lat":33.79701400,"lon":35.47896400,"rng_nm":18,"alt_fmsl":49,"id":"IDD","rwy":"21","desc":"LOC"},
+{"type":"GS","freq":110.7,"lat":33.80516700,"lon":35.48622800,"rng_nm":10,"alt_fmsl":43,"id":"IKK","rwy":"03","desc":"GS","gs":3},
+{"type":"GS","freq":110.1,"lat":33.83605300,"lon":35.48134400,"rng_nm":10,"alt_fmsl":10,"id":"IBB","rwy":"16","desc":"GS","gs":3},
+{"type":"DME","freq":110.7,"lat":33.80516700,"lon":35.48622800,"rng_nm":18,"alt_fmsl":43,"id":"IKK","rwy":"03","desc":"DME-ILS"},
+{"type":"DME","freq":110.1,"lat":33.83605300,"lon":35.48134400,"rng_nm":18,"alt_fmsl":10,"id":"IBB","rwy":"16","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":189.8,"dist_nm":0.9,"freq":112.6,"lat":33.80563300,"lon":35.48468300,"rng_nm":200,"alt_fmsl":87,"id":"KAD","desc":"KHALDEH VOR-DME"},
+{"type":"NDB","hdg_t":352,"dist_nm":1.7,"freq":312,"lat":33.84896700,"lon":35.48301700,"rng_nm":50,"alt_fmsl":72,"id":"BAB","desc":"BEIRUT NDB"},
+{"type":"NDB","hdg_t":356.2,"dist_nm":4.9,"freq":351,"lat":33.90231700,"lon":35.48135000,"rng_nm":100,"alt_fmsl":32,"id":"BOD","desc":"BEIRUT NDB"},
+{"type":"VOR","hdg_t":20.1,"dist_nm":30.5,"freq":116.2,"lat":34.29898300,"lon":35.69968300,"rng_nm":200,"alt_fmsl":725,"id":"CAK","desc":"CHEKKA VOR-DME"},
+{"type":"NDB","hdg_t":118.1,"dist_nm":42.4,"freq":358,"lat":33.48333300,"lon":36.23333300,"rng_nm":25,"alt_fmsl":0,"id":"MEZ","desc":"MEZZE NDB"},
+{"type":"VOR","hdg_t":175.1,"dist_nm":50.3,"freq":115.3,"lat":32.98257200,"lon":35.57274400,"rng_nm":20,"alt_fmsl":897,"id":"ROP","desc":"ROSH PINA VOR-DME"},
+{"type":"NDB","hdg_t":176.1,"dist_nm":51.2,"freq":243,"lat":32.96694400,"lon":35.55666700,"rng_nm":50,"alt_fmsl":0,"id":"RPN","desc":"ROSH PINA NDB"},
+{"type":"NDB","hdg_t":32.2,"dist_nm":55.2,"freq":450,"lat":34.59898900,"lon":36.08302900,"rng_nm":50,"alt_fmsl":0,"id":"RA","desc":"RENE MOUAWAD NDB"},
+{"type":"NDB","hdg_t":121.3,"dist_nm":55.3,"freq":264,"lat":33.33528600,"lon":36.42818900,"rng_nm":75,"alt_fmsl":0,"id":"ABD","desc":"ABYAD NDB"},
+{"type":"VOR","hdg_t":118.7,"dist_nm":56.2,"freq":116,"lat":33.36488300,"lon":36.46862200,"rng_nm":130,"alt_fmsl":2033,"id":"DAM","desc":"DAMASCUS VOR-DME"},
+{"type":"NDB","hdg_t":109.3,"dist_nm":59.2,"freq":342,"lat":33.48755000,"lon":36.60171900,"rng_nm":25,"alt_fmsl":2020,"id":"DAL","desc":"OTAEBE NDB"},
+{"type":"NDB","hdg_t":199.6,"dist_nm":63.8,"freq":323,"lat":32.81562300,"lon":35.06356600,"rng_nm":50,"alt_fmsl":0,"id":"HFA","desc":"HAIFA NDB"},
+{"type":"NDB","hdg_t":15.3,"dist_nm":87.4,"freq":304,"lat":35.22828600,"lon":35.95791700,"rng_nm":75,"alt_fmsl":0,"id":"BAN","desc":"BANIAS NDB"},
+{"type":"NDB","hdg_t":73.8,"dist_nm":90.4,"freq":372,"lat":34.22718100,"lon":37.23366700,"rng_nm":75,"alt_fmsl":0,"id":"KTN","desc":"KARIATAIN NDB"},
+{"type":"VOR","hdg_t":74.6,"dist_nm":91.6,"freq":117.7,"lat":34.21328300,"lon":37.26420800,"rng_nm":130,"alt_fmsl":2457,"id":"KTN","desc":"KARIATAIN VOR-DME"},
+{"type":"VOR","hdg_t":196.5,"dist_nm":92.9,"freq":112.4,"lat":32.33200500,"lon":34.96801000,"rng_nm":130,"alt_fmsl":100,"id":"NAT","desc":"NATANIA VOR-DME"},
+{"type":"VOR","hdg_t":13.4,"dist_nm":97.3,"freq":114.8,"lat":35.39944400,"lon":35.95074200,"rng_nm":130,"alt_fmsl":193,"id":"LTK","desc":"BASSEL AL ASSAD VOR-DME"}
+]
+}

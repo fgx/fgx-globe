@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYZT","name":"Port Hardy","lat":50.68079,"lon":-127.367732333333,"rwys":3,"ils":1,"index":860970,"path":"w130n50/w128n50"
+,"runways":[
+{"len_m":1522,"wid_m":46.02,"hdg":130,"surf":"Asphalt","rwy1":"11","lat1":50.68611100,"lon1":-127.37305600,"rwy2":"29","lat2":50.67722300,"lon2":-127.35666800},
+{"len_m":1205,"wid_m":46.02,"hdg":178,"surf":"Asphalt","rwy1":"16","lat1":50.68583300,"lon1":-127.37166700,"rwy2":"34","lat2":50.67500100,"lon2":-127.37111100},
+{"len_m":1219,"wid_m":46.02,"hdg":92,"surf":"Asphalt","rwy1":"07","lat1":50.68057200,"lon1":-127.37556200,"rwy2":"25","lat2":50.68000000,"lon2":-127.35833000}
+]
+,"radios":[
+{"type":"TWR","freq":122.2,"desc":"MF HARDY RDO"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":50.67676900,"lon":-127.35585000,"rng_nm":18,"alt_fmsl":49,"hdg":130.56,"id":"IZT","rwy":"11","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":50.68374600,"lon":-127.37049900,"rng_nm":10,"alt_fmsl":37,"id":"IZT","rwy":"11","desc":"GS","gs":3.25},
+{"type":"DME","freq":109.5,"lat":50.67676900,"lon":-127.35585000,"rng_nm":18,"alt_fmsl":71,"id":"IZT","rwy":"11","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":24.9,"dist_nm":0.2,"freq":112,"lat":50.68425000,"lon":-127.36519444,"rng_nm":130,"alt_fmsl":39,"id":"YZT","desc":"PORT HARDY VOR-DME"},
+{"type":"NDB","hdg_t":296,"dist_nm":2.5,"freq":242,"lat":50.69919444,"lon":-127.42700000,"rng_nm":50,"alt_fmsl":0,"id":"ZT","desc":"PORT HARDY NDB"},
+{"type":"NDB","hdg_t":116.8,"dist_nm":87.2,"freq":203,"lat":50.00644444,"lon":-125.35750000,"rng_nm":50,"alt_fmsl":0,"id":"YBL","desc":"CAMPBELL RIVER NDB"},
+{"type":"SDME","hdg_t":117.7,"dist_nm":91.5,"freq":109.1,"lat":49.95250000,"lon":-125.27583300,"rng_nm":25,"alt_fmsl":347,"id":"IBL","desc":"CAMPBELL RIVER DME"},
+{"type":"NDB","hdg_t":343,"dist_nm":94.6,"freq":325,"lat":52.18522222,"lon":-128.11352778,"rng_nm":50,"alt_fmsl":0,"id":"YJQ","desc":"BELLA BELLA NDB"},
+{"type":"NDB","hdg_t":332.3,"dist_nm":107.7,"freq":388,"lat":52.26138900,"lon":-128.72333300,"rng_nm":50,"alt_fmsl":0,"id":"MS","desc":"MCINNES ISLAND NDB"},
+{"type":"NDB","hdg_t":120,"dist_nm":108.2,"freq":400,"lat":49.75388889,"lon":-124.95805556,"rng_nm":50,"alt_fmsl":0,"id":"QQ","desc":"COMOX NDB"},
+{"type":"SDME","hdg_t":120.4,"dist_nm":111.6,"freq":110.4,"lat":49.71250000,"lon":-124.89444400,"rng_nm":130,"alt_fmsl":80,"id":"UQQ","desc":"COMOX TACAN"},
+{"type":"NDB","hdg_t":146,"dist_nm":117.4,"freq":359,"lat":49.04680556,"lon":-125.70411111,"rng_nm":50,"alt_fmsl":0,"id":"YAZ","desc":"TOFINO NDB"},
+{"type":"NDB","hdg_t":113.5,"dist_nm":121.4,"freq":382,"lat":49.83669444,"lon":-124.50138889,"rng_nm":50,"alt_fmsl":0,"id":"YPW","desc":"POWELL RIVER NDB"}
+]
+}

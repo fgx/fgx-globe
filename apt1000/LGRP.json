@@ -1,0 +1,43 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LGRP","name":"Diagoras","lat":36.4054195,"lon":28.086193,"rwys":1,"ils":1,"index":3415960,"path":"e020n30/e028n36"
+,"runways":[
+{"len_m":3306,"wid_m":45.11,"hdg":70,"surf":"Asphalt","rwy1":"07","lat1":36.40033900,"lon1":28.06886900,"rwy2":"25","lat2":36.41050000,"lon2":28.10351700}
+]
+,"radios":[
+{"type":"ATIS","freq":126.35,"desc":"ATIS"},
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.2,"desc":"TWR"},
+{"type":"TWR","freq":122.1,"desc":"TWR"},
+{"type":"APP","freq":118.25,"desc":"RODOS APP"},
+{"type":"APP","freq":120.6,"desc":"RODOS APP"},
+{"type":"APP","freq":122.1,"desc":"RODOS APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":36.39982700,"lon":28.06615900,"rng_nm":18,"alt_fmsl":17,"hdg":250.45,"id":"IRDS","rwy":"25","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":36.41010500,"lon":28.09921500,"rng_nm":10,"alt_fmsl":17,"id":"IRDS","rwy":"25","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":36.44121700,"lon":28.20893900,"rng_nm":0,"alt_fmsl":17,"id":"----","rwy":"25","desc":"OM"},
+{"type":"MM","freq":0,"lat":36.41316100,"lon":28.11282600,"rng_nm":0,"alt_fmsl":17,"id":"----","rwy":"25","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":252.5,"dist_nm":1,"freq":108.6,"lat":36.40010500,"lon":28.06532600,"rng_nm":40,"alt_fmsl":19,"id":"PAR","desc":"PARADISI VOR-DME"},
+{"type":"NDB","hdg_t":63.3,"dist_nm":1.7,"freq":339,"lat":36.41833300,"lon":28.11805600,"rng_nm":25,"alt_fmsl":0,"id":"ROS","desc":"RODOS NDB"},
+{"type":"VOR","hdg_t":182.6,"dist_nm":3.8,"freq":115.8,"lat":36.34111100,"lon":28.08250000,"rng_nm":130,"alt_fmsl":1553,"id":"RDS","desc":"RODOS VOR-DME"},
+{"type":"SDME","hdg_t":182.6,"dist_nm":3.8,"freq":117.4,"lat":36.34111100,"lon":28.08250000,"rng_nm":130,"alt_fmsl":17,"id":"ROD","desc":"RODOS TACAN"},
+{"type":"NDB","hdg_t":62.9,"dist_nm":37.6,"freq":346,"lat":36.68955300,"lon":28.78192800,"rng_nm":25,"alt_fmsl":20,"id":"DAL","desc":"DALAMAN NDB"},
+{"type":"VOR","hdg_t":62.9,"dist_nm":37.6,"freq":114.7,"lat":36.68955300,"lon":28.78192800,"rng_nm":130,"alt_fmsl":33,"id":"DAL","desc":"DALAMAN VOR-DME"},
+{"type":"SDME","hdg_t":61.3,"dist_nm":38.6,"freq":115.3,"lat":36.71283900,"lon":28.78894200,"rng_nm":25,"alt_fmsl":55,"id":"DAL","desc":"DALAMAN TACAN"},
+{"type":"VOR","hdg_t":295.9,"dist_nm":53.3,"freq":109,"lat":36.79055600,"lon":27.09111100,"rng_nm":25,"alt_fmsl":410,"id":"KOS","desc":"KOS VOR-DME"},
+{"type":"NDB","hdg_t":296.2,"dist_nm":53.4,"freq":311,"lat":36.79527800,"lon":27.09111100,"rng_nm":25,"alt_fmsl":0,"id":"KOS","desc":"KOS NDB"},
+{"type":"NDB","hdg_t":338.5,"dist_nm":54.6,"freq":389,"lat":37.25333300,"lon":27.66916700,"rng_nm":25,"alt_fmsl":0,"id":"BDR","desc":"MILAS BODRUM NDB"},
+{"type":"VOR","hdg_t":338.5,"dist_nm":54.6,"freq":116.7,"lat":37.25333300,"lon":27.66916700,"rng_nm":50,"alt_fmsl":33,"id":"BDR","desc":"MILAS BODRUM VOR-DME"},
+{"type":"VOR","hdg_t":333.8,"dist_nm":58.1,"freq":113.9,"lat":37.27611100,"lon":27.55111100,"rng_nm":40,"alt_fmsl":164,"id":"GML","desc":"KIYIKISLACIK VOR-DME"},
+{"type":"NDB","hdg_t":101.8,"dist_nm":73.9,"freq":416,"lat":36.14222200,"lon":29.57611100,"rng_nm":25,"alt_fmsl":0,"id":"KZO","desc":"KASTELORIZO NDB"},
+{"type":"SDME","hdg_t":217.5,"dist_nm":74.1,"freq":109.6,"lat":35.42119500,"lon":27.16531100,"rng_nm":130,"alt_fmsl":66,"id":"RPA","desc":"KARPATHOS TACAN"},
+{"type":"NDB","hdg_t":217.9,"dist_nm":74.6,"freq":314,"lat":35.41972200,"lon":27.15000000,"rng_nm":25,"alt_fmsl":0,"id":"KRC","desc":"KARPATHOS NDB"},
+{"type":"NDB","hdg_t":224.3,"dist_nm":82.2,"freq":333,"lat":35.41909300,"lon":26.91319400,"rng_nm":25,"alt_fmsl":0,"id":"KAO","desc":"KASSOS NDB"},
+{"type":"NDB","hdg_t":284.3,"dist_nm":85.1,"freq":422,"lat":36.74538200,"lon":26.37528300,"rng_nm":25,"alt_fmsl":0,"id":"KHZ","desc":"ASTYPALAIA NDB"},
+{"type":"NDB","hdg_t":324.1,"dist_nm":95,"freq":375,"lat":37.68527800,"lon":26.91660600,"rng_nm":80,"alt_fmsl":0,"id":"SMO","desc":"SAMOS NDB"},
+{"type":"VOR","hdg_t":323.9,"dist_nm":95.4,"freq":111.6,"lat":37.68662500,"lon":26.90707800,"rng_nm":130,"alt_fmsl":30,"id":"SAM","desc":"SAMOS VOR-DME"},
+{"type":"NDB","hdg_t":339,"dist_nm":99.2,"freq":424,"lat":37.94944400,"lon":27.33916700,"rng_nm":50,"alt_fmsl":10,"id":"SEL","desc":"EFES NDB"}
+]
+}

@@ -1,0 +1,39 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KVIS","name":"Visalia Muni","lat":36.318653,"lon":-119.3928795,"rwys":1,"ils":1,"index":991122,"path":"w120n30/w120n36"
+,"runways":[
+{"len_m":1999,"wid_m":45.72,"hdg":134,"surf":"Asphalt","rwy1":"12","lat1":36.32500000,"lon1":-119.40077800,"rwy2":"30","lat2":36.31230600,"lon2":-119.38498100}
+]
+,"radios":[
+{"type":"ATIS","freq":119.92,"desc":"AWOS 3"},
+{"type":"CTAF","freq":123.05,"desc":"CTAF/UNICOM"},
+{"type":"APP","freq":118.5,"desc":"FRESNO APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":108.5,"lat":36.32556700,"lon":-119.40148300,"rng_nm":18,"alt_fmsl":292,"hdg":314.92,"id":"IVIS","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.5,"lat":36.31346400,"lon":-119.38835000,"rng_nm":10,"alt_fmsl":292,"id":"IVIS","rwy":"30","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":36.25477800,"lon":-119.31466400,"rng_nm":0,"alt_fmsl":292,"id":"----","rwy":"30","desc":"OM"},
+{"type":"MM","freq":0,"lat":36.30687500,"lon":-119.37883600,"rng_nm":0,"alt_fmsl":292,"id":"----","rwy":"30","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":303.9,"dist_nm":5.2,"freq":109.4,"lat":36.36730556,"lon":-119.48216667,"rng_nm":25,"alt_fmsl":260,"id":"VIS","desc":"VISALIA VOR-DME"},
+{"type":"NDB","hdg_t":203.9,"dist_nm":16.5,"freq":205,"lat":36.06605556,"lon":-119.53094444,"rng_nm":50,"alt_fmsl":0,"id":"COR","desc":"SALYER FARMS NDB"},
+{"type":"SDME","hdg_t":273.3,"dist_nm":27.8,"freq":113.3,"lat":36.34409700,"lon":-119.96631700,"rng_nm":25,"alt_fmsl":231,"id":"NLC","desc":"LEMOORE TACAN"},
+{"type":"VOR","hdg_t":143.2,"dist_nm":30.2,"freq":109.2,"lat":35.91305556,"lon":-119.02080556,"rng_nm":40,"alt_fmsl":580,"id":"TTE","desc":"TULE VOR-DME"},
+{"type":"NDB","hdg_t":318.8,"dist_nm":32.3,"freq":344,"lat":36.72394444,"lon":-119.83369444,"rng_nm":50,"alt_fmsl":0,"id":"FCH","desc":"CHANDLER NDB"},
+{"type":"VOR","hdg_t":329,"dist_nm":39.5,"freq":112.9,"lat":36.88433333,"lon":-119.81513889,"rng_nm":130,"alt_fmsl":360,"id":"CZQ","desc":"CLOVIS VORTAC"},
+{"type":"VOR","hdg_t":348.3,"dist_nm":48,"freq":115.6,"lat":37.10441667,"lon":-119.59544444,"rng_nm":40,"alt_fmsl":2380,"id":"FRA","desc":"FRIANT VORTAC"},
+{"type":"VOR","hdg_t":215.5,"dist_nm":49.3,"freq":117.1,"lat":35.64697222,"lon":-119.97861111,"rng_nm":130,"alt_fmsl":710,"id":"AVE","desc":"AVENAL VORTAC"},
+{"type":"VOR","hdg_t":163.8,"dist_nm":52,"freq":115.4,"lat":35.48455556,"lon":-119.09730556,"rng_nm":130,"alt_fmsl":548,"id":"EHF","desc":"SHAFTER VORTAC"},
+{"type":"VOR","hdg_t":260.5,"dist_nm":62.6,"freq":110,"lat":36.14038889,"lon":-120.66491667,"rng_nm":40,"alt_fmsl":0,"id":"ROM","desc":"PRIEST VOR"},
+{"type":"VOR","hdg_t":289.9,"dist_nm":71.1,"freq":112.6,"lat":36.71547222,"lon":-120.77869444,"rng_nm":40,"alt_fmsl":2060,"id":"PXN","desc":"PANOCHE VORTAC"},
+{"type":"VOR","hdg_t":237.5,"dist_nm":71.4,"freq":114.3,"lat":35.67247222,"lon":-120.62711111,"rng_nm":40,"alt_fmsl":817,"id":"PRB","desc":"PASO ROBLES VORTAC"},
+{"type":"VOR","hdg_t":318.3,"dist_nm":72.6,"freq":114.2,"lat":37.21944444,"lon":-120.40022222,"rng_nm":40,"alt_fmsl":184,"id":"HYP","desc":"EL NIDO VOR-DME"},
+{"type":"VOR","hdg_t":197.6,"dist_nm":76.9,"freq":117.5,"lat":35.09308333,"lon":-119.86558333,"rng_nm":40,"alt_fmsl":3870,"id":"FLW","desc":"FELLOWS VORTAC"},
+{"type":"VOR","hdg_t":37.6,"dist_nm":80.4,"freq":109.6,"lat":37.37694444,"lon":-118.36652778,"rng_nm":25,"alt_fmsl":4117,"id":"BIH","desc":"BISHOP VOR-DME"},
+{"type":"NDB","hdg_t":256.7,"dist_nm":89.8,"freq":209,"lat":35.96116667,"lon":-121.18916667,"rng_nm":50,"alt_fmsl":0,"id":"HGT","desc":"HUNTER LIGGETT NDB"},
+{"type":"SDME","hdg_t":114,"dist_nm":91,"freq":111.6,"lat":35.68792800,"lon":-117.69047200,"rng_nm":25,"alt_fmsl":2272,"id":"NID","desc":"CHINA LAKE TACAN"},
+{"type":"VOR","hdg_t":226.6,"dist_nm":92.3,"freq":112.4,"lat":35.25225000,"lon":-120.75955556,"rng_nm":40,"alt_fmsl":1463,"id":"MQO","desc":"MORRO BAY VORTAC"},
+{"type":"VOR","hdg_t":163.8,"dist_nm":94.3,"freq":116.1,"lat":34.80402778,"lon":-118.86136111,"rng_nm":40,"alt_fmsl":4920,"id":"GMN","desc":"GORMAN VORTAC"},
+{"type":"VOR","hdg_t":214.3,"dist_nm":98.7,"freq":111,"lat":34.95236111,"lon":-120.52147222,"rng_nm":25,"alt_fmsl":0,"id":"GLJ","desc":"GUADALUPE VOR"}
+]
+}

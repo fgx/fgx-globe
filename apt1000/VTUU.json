@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VTUU","name":"Ubon Ratchathani","lat":15.2512765,"lon":104.8702305,"rwys":1,"ils":1,"index":4659798,"path":"e100n10/e104n15"
+,"runways":[
+{"len_m":3003,"wid_m":45.11,"hdg":51,"surf":"Asphalt","rwy1":"05","lat1":15.24282500,"lon1":104.85929400,"rwy2":"23","lat2":15.25972800,"lon2":104.88116700}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":122.5,"desc":"TWR"},
+{"type":"TWR","freq":119.9,"desc":"TWR"},
+{"type":"APP","freq":123.5,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":15.23995800,"lon":104.85558300,"rng_nm":18,"alt_fmsl":406,"hdg":231.31,"id":"IUBL","rwy":"23","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":15.25723600,"lon":104.87975800,"rng_nm":10,"alt_fmsl":392,"id":"IUBL","rwy":"23","desc":"GS","gs":3},
+{"type":"DME","freq":110.1,"lat":15.23995800,"lon":104.85558300,"rng_nm":18,"alt_fmsl":406,"id":"IUBL","rwy":"23","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":214.5,"dist_nm":0.4,"freq":112.7,"lat":15.24519700,"lon":104.86591700,"rng_nm":50,"alt_fmsl":406,"id":"UBL","desc":"UBON VOR-DME"},
+{"type":"NDB","hdg_t":211,"dist_nm":0.7,"freq":373,"lat":15.24050800,"lon":104.86354700,"rng_nm":50,"alt_fmsl":0,"id":"UB","desc":"UBON NDB"},
+{"type":"SDME","hdg_t":45.5,"dist_nm":1,"freq":114.6,"lat":15.26328300,"lon":104.88282900,"rng_nm":50,"alt_fmsl":406,"id":"UBL","desc":"UBON TACAN"},
+{"type":"VOR","hdg_t":93.5,"dist_nm":50.4,"freq":115,"lat":15.19666700,"lon":105.73805600,"rng_nm":130,"alt_fmsl":364,"id":"PAK","desc":"PAKSE VOR-DME"},
+{"type":"NDB","hdg_t":97.6,"dist_nm":53.4,"freq":220,"lat":15.13055600,"lon":105.78388900,"rng_nm":50,"alt_fmsl":0,"id":"PS","desc":"PAKSE NDB"},
+{"type":"NDB","hdg_t":355.3,"dist_nm":78,"freq":290,"lat":16.55305600,"lon":104.76027800,"rng_nm":25,"alt_fmsl":459,"id":"SAV","desc":"SAVANNAKHET NDB"},
+{"type":"VOR","hdg_t":355.5,"dist_nm":78.5,"freq":113.5,"lat":16.56166700,"lon":104.76555600,"rng_nm":130,"alt_fmsl":459,"id":"SAV","desc":"SAVANNAKHET VOR-DME"},
+{"type":"NDB","hdg_t":309.2,"dist_nm":81.4,"freq":319,"lat":16.11068300,"lon":103.77822200,"rng_nm":50,"alt_fmsl":0,"id":"RE","desc":"ROI ET NDB"},
+{"type":"VOR","hdg_t":309.2,"dist_nm":81.9,"freq":111.2,"lat":16.11683100,"lon":103.77206900,"rng_nm":130,"alt_fmsl":451,"id":"ROT","desc":"ROI ET VOR-DME"},
+{"type":"VOR","hdg_t":269.7,"dist_nm":93.4,"freq":117.2,"lat":15.23956400,"lon":103.25877500,"rng_nm":50,"alt_fmsl":590,"id":"BRM","desc":"BURI RAM VOR-DME"},
+{"type":"NDB","hdg_t":269.7,"dist_nm":93.8,"freq":303,"lat":15.23866100,"lon":103.25254200,"rng_nm":25,"alt_fmsl":0,"id":"BR","desc":"BURI RAM NDB"}
+]
+}

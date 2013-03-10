@@ -1,0 +1,26 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HEBL","name":"Abu Simbel","lat":22.3759515,"lon":31.611721,"rwys":1,"ils":1,"index":3464218,"path":"e030n20/e031n22"
+,"runways":[
+{"len_m":3000,"wid_m":45.11,"hdg":149,"surf":"Asphalt","rwy1":"15","lat1":22.38767800,"lon1":31.60442800,"rwy2":"33","lat2":22.36422500,"lon2":31.61901400}
+]
+,"radios":[
+{"type":"TWR","freq":118.1,"desc":"TWR/APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":22.38986100,"lon":31.60308300,"rng_nm":18,"alt_fmsl":623,"hdg":330.11,"id":"IABS","rwy":"33","desc":"ILS-cat-II"},
+{"type":"GS","freq":109.7,"lat":22.36613900,"lon":31.61647200,"rng_nm":10,"alt_fmsl":670,"id":"IABS","rwy":"33","desc":"GS","gs":3},
+{"type":"DME","freq":109.7,"lat":22.36613900,"lon":31.61647200,"rng_nm":18,"alt_fmsl":670,"id":"IABS","rwy":"33","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":155.5,"dist_nm":1.3,"freq":113.5,"lat":22.35488900,"lon":31.62200000,"rng_nm":200,"alt_fmsl":640,"id":"SML","desc":"ABU SIMBEL VOR-DME"},
+{"type":"VOR","hdg_t":34.6,"dist_nm":116.3,"freq":112.3,"lat":23.97178300,"lon":32.81695800,"rng_nm":150,"alt_fmsl":668,"id":"ASN","desc":"ASWAN VOR-DME"},
+{"type":"NDB","hdg_t":274.9,"dist_nm":160.4,"freq":301,"lat":22.58083300,"lon":28.73222200,"rng_nm":100,"alt_fmsl":870,"id":"OWT","desc":"SHARK EL OWEINAT NDB"},
+{"type":"VOR","hdg_t":343.2,"dist_nm":192.1,"freq":113.8,"lat":25.44838600,"lon":30.59079200,"rng_nm":150,"alt_fmsl":137,"id":"KHG","desc":"EL KHARGA VOR-DME"},
+{"type":"VOR","hdg_t":199.4,"dist_nm":202.1,"freq":112.3,"lat":19.18257200,"lon":30.42728300,"rng_nm":130,"alt_fmsl":802,"id":"DOG","desc":"DONGOLA VOR-DME"},
+{"type":"NDB","hdg_t":16.8,"dist_nm":210.3,"freq":364,"lat":25.73788900,"lon":32.73763900,"rng_nm":75,"alt_fmsl":284,"id":"LO","desc":"LUXOR NDB"},
+{"type":"VOR","hdg_t":17.2,"dist_nm":211.5,"freq":114.4,"lat":25.74938900,"lon":32.76858300,"rng_nm":150,"alt_fmsl":332,"id":"LXR","desc":"LUXOR VOR-DME"},
+{"type":"NDB","hdg_t":322.2,"dist_nm":231.8,"freq":387,"lat":25.42075000,"lon":29.00141700,"rng_nm":100,"alt_fmsl":590,"id":"MB","desc":"DAKHLA NDB"},
+{"type":"VOR","hdg_t":177.1,"dist_nm":234.9,"freq":116,"lat":18.44977200,"lon":31.81865800,"rng_nm":130,"alt_fmsl":881,"id":"MRW","desc":"MEROWE VOR-DME"},
+{"type":"VOR","hdg_t":39.6,"dist_nm":251.2,"freq":115.5,"lat":25.58277800,"lon":34.56555600,"rng_nm":25,"alt_fmsl":265,"id":"MAK","desc":"MARSA ALAM VOR-DME"}
+]
+}

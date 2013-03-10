@@ -1,0 +1,73 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LHPP","name":"Pecs South","lat":45.989306,"lon":18.242083,"rwys":1,"ils":1,"index":3252728,"path":"e010n40/e018n45"
+,"runways":[
+{"len_m":1506,"wid_m":29.87,"hdg":157,"surf":"Asphalt","rwy1":"16","lat1":45.99555600,"lon1":18.23833300,"rwy2":"34","lat2":45.98305600,"lon2":18.24583300}
+]
+,"radios":[
+{"type":"TWR","freq":126.9,"desc":"POGANY INFO"}
+]
+,"ils":[
+{"type":"ILS","freq":108.35,"lat":45.99782200,"lon":18.23701700,"rng_nm":18,"alt_fmsl":676,"hdg":337.47,"id":"PCS","rwy":"34","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.35,"lat":45.98509700,"lon":18.24303100,"rng_nm":10,"alt_fmsl":676,"id":"PCS","rwy":"34","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":338.5,"dist_nm":1,"freq":412,"lat":46.00583300,"lon":18.23277800,"rng_nm":25,"alt_fmsl":0,"id":"PP","desc":"PECS-POGANY NDB"},
+{"type":"SDME","hdg_t":331.3,"dist_nm":27.9,"freq":114.2,"lat":46.39698300,"lon":17.91948300,"rng_nm":25,"alt_fmsl":526,"id":"MOB","desc":"TASZAR TACAN"},
+{"type":"NDB","hdg_t":331.6,"dist_nm":28.9,"freq":459,"lat":46.41300300,"lon":17.91141100,"rng_nm":50,"alt_fmsl":0,"id":"K","desc":"TAZAR NDB"},
+{"type":"NDB","hdg_t":154.1,"dist_nm":30.7,"freq":372,"lat":45.52842500,"lon":18.56005000,"rng_nm":25,"alt_fmsl":305,"id":"CE","desc":"CEPIN NDB"},
+{"type":"NDB","hdg_t":318.7,"dist_nm":31.9,"freq":235,"lat":46.38766700,"lon":17.73513900,"rng_nm":25,"alt_fmsl":512,"id":"XNB","desc":"KAPOSVAR NDB"},
+{"type":"NDB","hdg_t":141.7,"dist_nm":40.6,"freq":422,"lat":45.45541900,"lon":18.83760800,"rng_nm":30,"alt_fmsl":0,"id":"OSJ","desc":"OSIJEK NDB"},
+{"type":"VOR","hdg_t":252.8,"dist_nm":48.1,"freq":117.4,"lat":45.74779400,"lon":17.14672800,"rng_nm":80,"alt_fmsl":545,"id":"VBA","desc":"BARNA VOR-DME"},
+{"type":"VOR","hdg_t":354.1,"dist_nm":50.6,"freq":117.7,"lat":46.82811700,"lon":18.11779200,"rng_nm":100,"alt_fmsl":418,"id":"SVR","desc":"SAGVAR VOR-DME"},
+{"type":"NDB","hdg_t":354.1,"dist_nm":50.7,"freq":348,"lat":46.82983600,"lon":18.11719700,"rng_nm":60,"alt_fmsl":0,"id":"SVR","desc":"SAGVAR NDB"},
+{"type":"NDB","hdg_t":312.6,"dist_nm":60.3,"freq":428,"lat":46.66580600,"lon":17.16687200,"rng_nm":50,"alt_fmsl":0,"id":"SME","desc":"SARMELLEK NDB"},
+{"type":"VOR","hdg_t":190.8,"dist_nm":61.4,"freq":112.4,"lat":44.98413900,"lon":17.96944400,"rng_nm":80,"alt_fmsl":436,"id":"DER","desc":"DERVENTA VOR-DME"},
+{"type":"NDB","hdg_t":350.8,"dist_nm":63.2,"freq":362,"lat":47.03012500,"lon":17.99659200,"rng_nm":25,"alt_fmsl":0,"id":"VS","desc":"SZENTKIRALYSZABADJA NDB"},
+{"type":"NDB","hdg_t":350.5,"dist_nm":65.2,"freq":451,"lat":47.06102800,"lon":17.98035800,"rng_nm":25,"alt_fmsl":919,"id":"V","desc":"SZENTKIRALYSZABADJA NDB"},
+{"type":"NDB","hdg_t":218,"dist_nm":67.8,"freq":340,"lat":45.09526110,"lon":17.25794170,"rng_nm":25,"alt_fmsl":295,"id":"BLK","desc":"BANJA LUKA NDB"},
+{"type":"NDB","hdg_t":162.3,"dist_nm":71.4,"freq":375,"lat":44.85338600,"lon":18.75055000,"rng_nm":50,"alt_fmsl":0,"id":"MGV","desc":"MCGOVERN NDB"},
+{"type":"NDB","hdg_t":54.8,"dist_nm":72.7,"freq":430,"lat":46.67746700,"lon":19.68229400,"rng_nm":60,"alt_fmsl":0,"id":"BUG","desc":"BUGAC NDB"},
+{"type":"VOR","hdg_t":54.8,"dist_nm":72.7,"freq":113.4,"lat":46.67765000,"lon":19.68173300,"rng_nm":70,"alt_fmsl":404,"id":"BUG","desc":"BUGAC VOR-DME"},
+{"type":"NDB","hdg_t":16.3,"dist_nm":72.8,"freq":386,"lat":47.15246900,"lon":18.74281400,"rng_nm":60,"alt_fmsl":0,"id":"PTB","desc":"PUSZTASZABOLCS NDB"},
+{"type":"VOR","hdg_t":16.3,"dist_nm":72.8,"freq":117.1,"lat":47.15221700,"lon":18.74231400,"rng_nm":100,"alt_fmsl":453,"id":"PTB","desc":"PUSZTASZABOLCS VOR-DME"},
+{"type":"NDB","hdg_t":213.3,"dist_nm":73.5,"freq":397,"lat":44.96104170,"lon":17.29235000,"rng_nm":25,"alt_fmsl":376,"id":"LU","desc":"BANJA LUKA NDB"},
+{"type":"VOR","hdg_t":212.7,"dist_nm":74.4,"freq":115.9,"lat":44.94166700,"lon":17.29583300,"rng_nm":25,"alt_fmsl":400,"id":"LAK","desc":"BANJA LUKA VOR-DME"},
+{"type":"NDB","hdg_t":212.1,"dist_nm":75.3,"freq":383,"lat":44.92211110,"lon":17.30250280,"rng_nm":25,"alt_fmsl":397,"id":"NA","desc":"BANJA LUKA NDB"},
+{"type":"NDB","hdg_t":339.7,"dist_nm":75.5,"freq":465,"lat":47.16797800,"lon":17.60443900,"rng_nm":25,"alt_fmsl":0,"id":"VR","desc":"PARDUC NDB"},
+{"type":"VOR","hdg_t":139.1,"dist_nm":77.2,"freq":117,"lat":45.00947200,"lon":19.43077800,"rng_nm":100,"alt_fmsl":262,"id":"SMI","desc":"MITROVICA VOR-DME"},
+{"type":"NDB","hdg_t":77.4,"dist_nm":78.8,"freq":345,"lat":46.26058600,"lon":20.09067800,"rng_nm":25,"alt_fmsl":0,"id":"G","desc":"SZEGED NDB"},
+{"type":"NDB","hdg_t":76,"dist_nm":79.2,"freq":445,"lat":46.29338100,"lon":20.09068100,"rng_nm":25,"alt_fmsl":0,"id":"ZG","desc":"SZEGED NDB"},
+{"type":"NDB","hdg_t":284.6,"dist_nm":80,"freq":344,"lat":46.31166700,"lon":16.38083300,"rng_nm":25,"alt_fmsl":0,"id":"VAR","desc":"VARAZDIN NDB"},
+{"type":"NDB","hdg_t":266.9,"dist_nm":81,"freq":367,"lat":45.90026400,"lon":16.31121100,"rng_nm":100,"alt_fmsl":399,"id":"ZAG","desc":"ZAGREB NDB"},
+{"type":"VOR","hdg_t":266.7,"dist_nm":81.2,"freq":113.7,"lat":45.89555800,"lon":16.30669700,"rng_nm":80,"alt_fmsl":420,"id":"ZAG","desc":"ZAGREB VOR-DME"},
+{"type":"NDB","hdg_t":135.3,"dist_nm":82.8,"freq":328,"lat":44.99938900,"lon":19.60969400,"rng_nm":50,"alt_fmsl":0,"id":"SMR","desc":"MITROVICA NDB"},
+{"type":"NDB","hdg_t":45.9,"dist_nm":83,"freq":313,"lat":46.94283600,"lon":19.69401700,"rng_nm":25,"alt_fmsl":376,"id":"NT","desc":"TITAN NDB"},
+{"type":"NDB","hdg_t":46.9,"dist_nm":83.4,"freq":440,"lat":46.92891100,"lon":19.72567500,"rng_nm":25,"alt_fmsl":376,"id":"N","desc":"TITAN NDB"},
+{"type":"NDB","hdg_t":48.5,"dist_nm":84.1,"freq":440,"lat":46.90673900,"lon":19.77603900,"rng_nm":25,"alt_fmsl":376,"id":"T","desc":"TITAN NDB"},
+{"type":"NDB","hdg_t":49.6,"dist_nm":84.6,"freq":313,"lat":46.89214700,"lon":19.80915800,"rng_nm":25,"alt_fmsl":376,"id":"TN","desc":"TITAN NDB"},
+{"type":"NDB","hdg_t":339.9,"dist_nm":85.2,"freq":481,"lat":47.32021100,"lon":17.52529700,"rng_nm":50,"alt_fmsl":0,"id":"CP","desc":"PARDUC NDB"},
+{"type":"NDB","hdg_t":21.9,"dist_nm":85.5,"freq":510,"lat":47.30905000,"lon":19.02434400,"rng_nm":25,"alt_fmsl":333,"id":"DU","desc":"TOKOL NDB"},
+{"type":"NDB","hdg_t":21,"dist_nm":86.3,"freq":300,"lat":47.32946900,"lon":19.00112200,"rng_nm":25,"alt_fmsl":333,"id":"D","desc":"TOKOL NDB"},
+{"type":"VOR","hdg_t":224.8,"dist_nm":86.6,"freq":117.9,"lat":44.95722200,"lon":16.80805600,"rng_nm":100,"alt_fmsl":632,"id":"OMA","desc":"OMARSKA VOR-DME"},
+{"type":"NDB","hdg_t":339.9,"dist_nm":86.8,"freq":352,"lat":47.34552800,"lon":17.51171700,"rng_nm":25,"alt_fmsl":0,"id":"C","desc":"PARDUC NDB"},
+{"type":"NDB","hdg_t":263.5,"dist_nm":87.7,"freq":350,"lat":45.80582200,"lon":16.16466100,"rng_nm":15,"alt_fmsl":337,"id":"SK","desc":"S. KRALJEVEC NDB"},
+{"type":"NDB","hdg_t":339.9,"dist_nm":90.7,"freq":481,"lat":47.40726900,"lon":17.47863300,"rng_nm":50,"alt_fmsl":0,"id":"PC","desc":"PARDUC NDB"},
+{"type":"NDB","hdg_t":173.4,"dist_nm":91.3,"freq":445,"lat":44.47727200,"lon":18.48302200,"rng_nm":50,"alt_fmsl":0,"id":"TU","desc":"TUZLA NDB"},
+{"type":"SDME","hdg_t":261.3,"dist_nm":93,"freq":109.5,"lat":45.73494200,"lon":16.05345000,"rng_nm":25,"alt_fmsl":372,"id":"IZA","desc":"IZA DME"},
+{"type":"NDB","hdg_t":261,"dist_nm":93.6,"freq":325,"lat":45.72536100,"lon":16.04206700,"rng_nm":15,"alt_fmsl":337,"id":"VG","desc":"VELIKA GORICA NDB"},
+{"type":"VOR","hdg_t":30.3,"dist_nm":93.9,"freq":112.5,"lat":47.33471700,"lon":19.40545800,"rng_nm":100,"alt_fmsl":453,"id":"MNR","desc":"MONOR VOR-DME"},
+{"type":"NDB","hdg_t":30.1,"dist_nm":94,"freq":288,"lat":47.33781400,"lon":19.39976900,"rng_nm":60,"alt_fmsl":0,"id":"MNR","desc":"MONOR NDB"},
+{"type":"SDME","hdg_t":167.1,"dist_nm":94.2,"freq":109.7,"lat":44.45708600,"lon":18.72957800,"rng_nm":25,"alt_fmsl":785,"id":"TUZ","desc":"TUZLA TACAN"},
+{"type":"NDB","hdg_t":26.6,"dist_nm":95.3,"freq":420,"lat":47.40541700,"lon":19.29063300,"rng_nm":25,"alt_fmsl":0,"id":"HM","desc":"BUDAPEST NDB"},
+{"type":"NDB","hdg_t":28.7,"dist_nm":95.3,"freq":395,"lat":47.37681400,"lon":19.36822500,"rng_nm":75,"alt_fmsl":495,"id":"BR","desc":"FERIHEGY (BUDAPEST) NDB"},
+{"type":"NDB","hdg_t":25.6,"dist_nm":95.8,"freq":403,"lat":47.42395600,"lon":19.26075000,"rng_nm":37,"alt_fmsl":495,"id":"M","desc":"FERIHEGY (BUDAPEST) NDB"},
+{"type":"NDB","hdg_t":125.6,"dist_nm":95.8,"freq":485,"lat":45.04308300,"lon":20.07311100,"rng_nm":50,"alt_fmsl":0,"id":"IA","desc":"INDIJA NDB"},
+{"type":"NDB","hdg_t":26.7,"dist_nm":96.2,"freq":381,"lat":47.41742700,"lon":19.30415800,"rng_nm":22,"alt_fmsl":373,"id":"R","desc":"BUDAPEST NDB"},
+{"type":"NDB","hdg_t":24,"dist_nm":96.6,"freq":343,"lat":47.45504700,"lon":19.21050000,"rng_nm":37,"alt_fmsl":495,"id":"A","desc":"FERIHEGY (BUDAPEST) NDB"},
+{"type":"NDB","hdg_t":24.9,"dist_nm":97.1,"freq":357,"lat":47.45201700,"lon":19.24765500,"rng_nm":75,"alt_fmsl":495,"id":"L","desc":"FERIHEGY (BUDAPEST) NDB"},
+{"type":"VOR","hdg_t":24.9,"dist_nm":97.1,"freq":117.3,"lat":47.45127700,"lon":19.24925700,"rng_nm":37,"alt_fmsl":541,"id":"BUD","desc":"BUDAPEST VOR-DME"},
+{"type":"NDB","hdg_t":22.2,"dist_nm":97.5,"freq":329,"lat":47.49085000,"lon":19.14944400,"rng_nm":25,"alt_fmsl":0,"id":"HA","desc":"BUDAPEST NDB"},
+{"type":"NDB","hdg_t":109.5,"dist_nm":98,"freq":412,"lat":45.42083300,"lon":20.42750000,"rng_nm":40,"alt_fmsl":785,"id":"DAK","desc":"DAKOVICA NDB"},
+{"type":"NDB","hdg_t":23,"dist_nm":98,"freq":335,"lat":47.48898600,"lon":19.18620000,"rng_nm":75,"alt_fmsl":495,"id":"BL","desc":"FERIHEGY (BUDAPEST) NDB"}
+]
+}

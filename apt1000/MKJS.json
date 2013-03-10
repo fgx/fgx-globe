@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MKJS","name":"Sangster Intl","lat":18.503549,"lon":-77.913698,"rwys":1,"ils":1,"index":1678112,"path":"w080n10/w078n18"
+,"runways":[
+{"len_m":2589,"wid_m":49.07,"hdg":65,"surf":"Asphalt","rwy1":"07","lat1":18.49869800,"lon1":-77.92485600,"rwy2":"25","lat2":18.50840000,"lon2":-77.90254000}
+]
+,"radios":[
+{"type":"ATIS","freq":127.9,"desc":"MKJS ATIS"},
+{"type":"GND","freq":121.7,"desc":"SANGSTER GND"},
+{"type":"TWR","freq":120.8,"desc":"SANGSTER TWR"},
+{"type":"APP","freq":120.8,"desc":"SANGSTER APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":18.50927800,"lon":-77.90048300,"rng_nm":18,"alt_fmsl":4,"hdg":65.41,"id":"ISIA","rwy":"07","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":18.50086100,"lon":-77.92215300,"rng_nm":10,"alt_fmsl":4,"id":"ISIA","rwy":"07","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":270.8,"dist_nm":0.2,"freq":248,"lat":18.50361100,"lon":-77.91835000,"rng_nm":250,"alt_fmsl":4,"id":"MBJ","desc":"MONTEGO BAY NDB"},
+{"type":"VOR","hdg_t":255.9,"dist_nm":0.6,"freq":115.7,"lat":18.50105556,"lon":-77.92411111,"rng_nm":130,"alt_fmsl":12,"id":"SIA","desc":"SANGSTER VOR-DME"},
+{"type":"VOR","hdg_t":251.8,"dist_nm":0.6,"freq":115.7,"lat":18.50036111,"lon":-77.92391667,"rng_nm":130,"alt_fmsl":4,"id":"MBJ","desc":"MONTEGO BAY VOR-DME"},
+{"type":"NDB","hdg_t":118.2,"dist_nm":67.4,"freq":360,"lat":17.96638900,"lon":-76.87500000,"rng_nm":250,"alt_fmsl":0,"id":"KIN","desc":"KINGSTON NDB"},
+{"type":"VOR","hdg_t":117.6,"dist_nm":73.3,"freq":115.5,"lat":17.93025000,"lon":-76.77763889,"rng_nm":130,"alt_fmsl":10,"id":"MLY","desc":"MANLEY VOR-DME"},
+{"type":"VOR","hdg_t":23.1,"dist_nm":117,"freq":116,"lat":20.30280556,"lon":-77.09944444,"rng_nm":130,"alt_fmsl":300,"id":"UMZ","desc":"MANZANILLO VOR-DME"},
+{"type":"NDB","hdg_t":303,"dist_nm":131.2,"freq":415,"lat":19.68997222,"lon":-79.85677778,"rng_nm":50,"alt_fmsl":0,"id":"CBC","desc":"CAYMAN BRAC NDB"},
+{"type":"NDB","hdg_t":32.7,"dist_nm":134.7,"freq":268,"lat":20.39388889,"lon":-76.61916667,"rng_nm":50,"alt_fmsl":0,"id":"UBY","desc":"BAYAMO NDB"},
+{"type":"NDB","hdg_t":51.7,"dist_nm":142.4,"freq":348,"lat":19.96880000,"lon":-75.93534700,"rng_nm":25,"alt_fmsl":0,"id":"K","desc":"SANTIAGO DE CUBA NDB"},
+{"type":"NDB","hdg_t":53.1,"dist_nm":147.7,"freq":339,"lat":19.97288889,"lon":-75.82091667,"rng_nm":50,"alt_fmsl":0,"id":"UCU","desc":"SANTIAGO DE CUBA NDB"}
+]
+}

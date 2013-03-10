@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WBGG","name":"Kuching Intl","lat":1.4846975,"lon":110.346932,"rwys":1,"ils":1,"index":4757210,"path":"e110n00/e110n01"
+,"runways":[
+{"len_m":2442,"wid_m":46.02,"hdg":68,"surf":"Asphalt","rwy1":"07","lat1":1.48063100,"lon1":110.33673100,"rwy2":"25","lat2":1.48876400,"lon2":110.35713300}
+]
+,"radios":[
+{"type":"ATIS","freq":128.4,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":121.7,"desc":"TWR"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":120.2,"desc":"APP DIRECTOR"},
+{"type":"APP","freq":123.85,"desc":"APP DIRECTOR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":1.48024700,"lon":110.33580300,"rng_nm":18,"alt_fmsl":89,"hdg":248.23,"id":"IKG","rwy":"25","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":1.48863300,"lon":110.35345600,"rng_nm":10,"alt_fmsl":89,"id":"IKG","rwy":"25","desc":"GS","gs":3},
+{"type":"DME","freq":110.3,"lat":1.48863300,"lon":110.35345600,"rng_nm":18,"alt_fmsl":89,"id":"IKG","rwy":"25","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":254.6,"dist_nm":2.5,"freq":114.5,"lat":1.47333300,"lon":110.30575000,"rng_nm":130,"alt_fmsl":220,"id":"VKG","desc":"KUCHING VOR-DME"},
+{"type":"NDB","hdg_t":350.7,"dist_nm":14.1,"freq":402,"lat":1.71830600,"lon":110.30908300,"rng_nm":50,"alt_fmsl":0,"id":"AN","desc":"KUCHING NDB"},
+{"type":"NDB","hdg_t":239.1,"dist_nm":45.7,"freq":210,"lat":1.09215600,"lon":109.69338300,"rng_nm":50,"alt_fmsl":115,"id":"NF","desc":"SINGKAWANG NDB"},
+{"type":"NDB","hdg_t":51,"dist_nm":65.8,"freq":264,"lat":2.17743600,"lon":111.20016100,"rng_nm":25,"alt_fmsl":0,"id":"TMS","desc":"TANJUNG MANIS NDB"},
+{"type":"NDB","hdg_t":141,"dist_nm":108.7,"freq":405,"lat":0.06666700,"lon":111.48333300,"rng_nm":50,"alt_fmsl":98,"id":"SG","desc":"SUSILO NDB"},
+{"type":"NDB","hdg_t":65.3,"dist_nm":109.3,"freq":203,"lat":2.24814200,"lon":112.00179400,"rng_nm":50,"alt_fmsl":0,"id":"NIS","desc":"SIBU NDB"},
+{"type":"VOR","hdg_t":65.4,"dist_nm":109.4,"freq":112.2,"lat":2.24680600,"lon":112.00338900,"rng_nm":130,"alt_fmsl":122,"id":"VSI","desc":"SIBU VOR-DME"},
+{"type":"VOR","hdg_t":212,"dist_nm":110.1,"freq":113.2,"lat":-0.07915300,"lon":109.37510300,"rng_nm":130,"alt_fmsl":5,"id":"PNK","desc":"PONTIANAK VOR-DME"},
+{"type":"NDB","hdg_t":210.2,"dist_nm":112.4,"freq":245,"lat":-0.14257200,"lon":109.40508900,"rng_nm":50,"alt_fmsl":10,"id":"AT","desc":"PONTIANAK NDB"},
+{"type":"NDB","hdg_t":141.7,"dist_nm":139.4,"freq":233,"lat":-0.35000000,"lon":111.78333300,"rng_nm":60,"alt_fmsl":121,"id":"NH","desc":"NANGA PINOH NDB"}
+]
+}

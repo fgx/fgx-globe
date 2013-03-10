@@ -1,0 +1,39 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OEDF","name":"King Fahd Intl","lat":26.4711965,"lon":49.7979,"rwys":2,"ils":4,"index":3759387,"path":"e040n20/e049n26"
+,"runways":[
+{"len_m":4000,"wid_m":60.05,"hdg":164,"surf":"Asphalt","rwy1":"16L","lat1":26.48857500,"lon1":49.80370300,"rwy2":"34R","lat2":26.45378900,"lon2":49.81444400},
+{"len_m":4000,"wid_m":60.05,"hdg":164,"surf":"Asphalt","rwy1":"16R","lat1":26.48860300,"lon1":49.78135300,"rwy2":"34L","lat2":26.45381900,"lon2":49.79210000}
+]
+,"radios":[
+{"type":"GND","freq":121.75,"desc":"GND"},
+{"type":"GND","freq":121.65,"desc":"GND"},
+{"type":"TWR","freq":118.2,"desc":"TWR"},
+{"type":"TWR","freq":124.35,"desc":"TWR"},
+{"type":"APP","freq":126.3,"desc":"DAMMAM APP"},
+{"type":"APP","freq":126.1,"desc":"DAMMAM APP"},
+{"type":"APP","freq":125,"desc":"DAMMAM ARR/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.7,"lat":26.45070300,"lon":49.81539400,"rng_nm":18,"alt_fmsl":72,"hdg":164.56,"id":"IMBF","rwy":"16L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.1,"lat":26.45013100,"lon":49.79319400,"rng_nm":18,"alt_fmsl":72,"hdg":164.60,"id":"IWSR","rwy":"16R","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.9,"lat":26.49213300,"lon":49.78021900,"rng_nm":18,"alt_fmsl":72,"hdg":344.48,"id":"IWMR","rwy":"34L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.7,"lat":26.49166100,"lon":49.80275000,"rng_nm":18,"alt_fmsl":72,"hdg":344.55,"id":"IABF","rwy":"34R","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.7,"lat":26.48616700,"lon":49.80569400,"rng_nm":10,"alt_fmsl":72,"id":"IMBF","rwy":"16L","desc":"GS","gs":3},
+{"type":"GS","freq":108.1,"lat":26.48551100,"lon":49.78096400,"rng_nm":10,"alt_fmsl":72,"id":"IWSR","rwy":"16R","desc":"GS","gs":3},
+{"type":"GS","freq":108.9,"lat":26.45621700,"lon":49.79001400,"rng_nm":10,"alt_fmsl":72,"id":"IWMR","rwy":"34L","desc":"GS","gs":3},
+{"type":"GS","freq":110.7,"lat":26.45695800,"lon":49.81471400,"rng_nm":10,"alt_fmsl":72,"id":"IABF","rwy":"34R","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":169.6,"dist_nm":6.4,"freq":112.5,"lat":26.36480600,"lon":49.81950000,"rng_nm":130,"alt_fmsl":66,"id":"KFA","desc":"DAMMAM VORTAC"},
+{"type":"NDB","hdg_t":36.4,"dist_nm":18.2,"freq":286,"lat":26.71666700,"lon":50.00000000,"rng_nm":75,"alt_fmsl":6,"id":"RT","desc":"RAS TANURA NDB"},
+{"type":"VOR","hdg_t":124.2,"dist_nm":22.3,"freq":117.2,"lat":26.26077800,"lon":50.14019400,"rng_nm":130,"alt_fmsl":65,"id":"DHA","desc":"DHAHRAN VORTAC"},
+{"type":"NDB","hdg_t":198.7,"dist_nm":36,"freq":290,"lat":25.90000000,"lon":49.58333300,"rng_nm":25,"alt_fmsl":229,"id":"AB","desc":"ABQAIQ NDB"},
+{"type":"VOR","hdg_t":328.3,"dist_nm":39.9,"freq":112.9,"lat":27.03941700,"lon":49.40708300,"rng_nm":130,"alt_fmsl":25,"id":"JBL","desc":"JUBAIL VOR-DME"},
+{"type":"VOR","hdg_t":104.9,"dist_nm":47.5,"freq":115.3,"lat":26.26419400,"lon":50.64885300,"rng_nm":200,"alt_fmsl":24,"id":"BAH","desc":"BAHRAIN VOR-DME"},
+{"type":"NDB","hdg_t":105.2,"dist_nm":47.9,"freq":395,"lat":26.25840300,"lon":50.65517200,"rng_nm":25,"alt_fmsl":0,"id":"LB","desc":"BAHRAIN NDB"},
+{"type":"VOR","hdg_t":127.3,"dist_nm":53.9,"freq":117.6,"lat":25.92183300,"lon":50.59050600,"rng_nm":130,"alt_fmsl":136,"id":"SIA","desc":"SHAIKH ISA VORTAC"},
+{"type":"NDB","hdg_t":128.2,"dist_nm":55.5,"freq":343,"lat":25.89429400,"lon":50.60370600,"rng_nm":25,"alt_fmsl":0,"id":"SI","desc":"SHAIKH ISA NDB"},
+{"type":"VOR","hdg_t":193.4,"dist_nm":73.3,"freq":116.6,"lat":25.27913900,"lon":49.48402800,"rng_nm":130,"alt_fmsl":576,"id":"HSA","desc":"AL AHSA VORTAC"},
+{"type":"NDB","hdg_t":197.8,"dist_nm":83.3,"freq":390,"lat":25.14500000,"lon":49.32833300,"rng_nm":25,"alt_fmsl":759,"id":"UDH","desc":"UDHAILIYAH NDB"}
+]
+}

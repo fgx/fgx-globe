@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KEVW","name":"Evanston Uinta Co Burns Fld","lat":41.27479082,"lon":-111.03462284,"rwys":1,"ils":1,"index":1122515,"path":"w120n40/w112n41"
+,"runways":[
+{"len_m":2316,"wid_m":29.87,"hdg":66,"surf":"Asphalt","rwy1":"05","lat1":41.27067852,"lon1":-111.04732804,"rwy2":"23","lat2":41.27890311,"lon2":-111.02191764}
+]
+,"radios":[
+{"type":"ATIS","freq":120,"desc":"ASOS"},
+{"type":"CTAF","freq":122.8,"desc":"CTAF/UNICOM"}
+]
+,"ils":[
+{"type":"ILS","freq":108.9,"lat":41.27013652,"lon":-111.04900420,"rng_nm":18,"alt_fmsl":7143,"hdg":246.70,"id":"IEVW","rwy":"23","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.9,"lat":41.27841768,"lon":-111.02618578,"rng_nm":10,"alt_fmsl":7143,"id":"IEVW","rwy":"23","desc":"GS","gs":3},
+{"type":"DME","freq":108.9,"lat":41.27013652,"lon":-111.04900420,"rng_nm":18,"alt_fmsl":7143,"id":"IEVW","rwy":"23","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":255.9,"dist_nm":0.5,"freq":109.6,"lat":41.27250000,"lon":-111.04677778,"rng_nm":25,"alt_fmsl":7145,"id":"EVW","desc":"EVANSTON VOR-DME"},
+{"type":"VOR","hdg_t":77.1,"dist_nm":28.2,"freq":108.6,"lat":41.37844444,"lon":-110.42408333,"rng_nm":40,"alt_fmsl":7060,"id":"FBR","desc":"FORT BRIDGER VOR-DME"},
+{"type":"SDME","hdg_t":257.9,"dist_nm":43,"freq":111.2,"lat":41.12050300,"lon":-111.96368100,"rng_nm":40,"alt_fmsl":4806,"id":"HIF","desc":"HILL TACAN"},
+{"type":"VOR","hdg_t":266.7,"dist_nm":48.2,"freq":115.7,"lat":41.22408333,"lon":-112.09825000,"rng_nm":40,"alt_fmsl":4223,"id":"OGD","desc":"OGDEN VORTAC"},
+{"type":"NDB","hdg_t":287.3,"dist_nm":49.2,"freq":294,"lat":41.51580556,"lon":-112.07808333,"rng_nm":50,"alt_fmsl":0,"id":"BMC","desc":"BRIGHAM CITY NDB"},
+{"type":"VOR","hdg_t":239.6,"dist_nm":49.9,"freq":116.8,"lat":40.85025000,"lon":-111.98191667,"rng_nm":130,"alt_fmsl":4220,"id":"TCH","desc":"WASATCH VORTAC"},
+{"type":"VOR","hdg_t":305.5,"dist_nm":53.8,"freq":112.9,"lat":41.79288889,"lon":-112.00977778,"rng_nm":40,"alt_fmsl":5358,"id":"LHO","desc":"BRIGHAM CITY VOR-DME"},
+{"type":"VOR","hdg_t":206.4,"dist_nm":70.8,"freq":108.4,"lat":40.21494444,"lon":-111.72133333,"rng_nm":25,"alt_fmsl":4493,"id":"PVU","desc":"PROVO VOR-DME"},
+{"type":"NDB","hdg_t":236.7,"dist_nm":71.7,"freq":371,"lat":40.61077778,"lon":-112.34769444,"rng_nm":50,"alt_fmsl":0,"id":"TVY","desc":"TOOELE NDB"},
+{"type":"VOR","hdg_t":214.8,"dist_nm":72.7,"freq":116.6,"lat":40.27488889,"lon":-111.94052778,"rng_nm":130,"alt_fmsl":7690,"id":"FFU","desc":"FAIRFIELD VORTAC"},
+{"type":"VOR","hdg_t":148.1,"dist_nm":79.1,"freq":112.7,"lat":40.14908333,"lon":-110.12702778,"rng_nm":130,"alt_fmsl":5401,"id":"MTU","desc":"MYTON VOR-DME"},
+{"type":"VOR","hdg_t":311.5,"dist_nm":84.4,"freq":117.4,"lat":42.19988889,"lon":-112.45122222,"rng_nm":130,"alt_fmsl":7330,"id":"MLD","desc":"MALAD CITY VOR-DME"},
+{"type":"VOR","hdg_t":126.9,"dist_nm":88.3,"freq":108.2,"lat":40.37902778,"lon":-109.49330556,"rng_nm":40,"alt_fmsl":5344,"id":"VEL","desc":"VERNAL VOR-DME"},
+{"type":"VOR","hdg_t":27.6,"dist_nm":88.5,"freq":116.5,"lat":42.57944444,"lon":-110.10922222,"rng_nm":130,"alt_fmsl":6949,"id":"BPI","desc":"BIG PINEY VOR-DME"},
+{"type":"VOR","hdg_t":77.6,"dist_nm":93,"freq":116,"lat":41.59022222,"lon":-109.01533333,"rng_nm":130,"alt_fmsl":6785,"id":"OCS","desc":"ROCK SPRINGS VOR-DME"}
+]
+}

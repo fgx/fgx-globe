@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DIAP","name":"Abidjan Felix Houphouet Boigny Intl","lat":5.261386,"lon":-3.926296,"rwys":1,"ils":1,"index":2889680,"path":"w010n00/w004n05"
+,"runways":[
+{"len_m":2999,"wid_m":49.99,"hdg":22,"surf":"Asphalt","rwy1":"03","lat1":5.24884700,"lon1":-3.93145300,"rwy2":"21","lat2":5.27392500,"lon2":-3.92113900}
+]
+,"radios":[
+{"type":"ATIS","freq":126.6,"desc":"ATIS"},
+{"type":"TWR","freq":129.1,"desc":"INFO"},
+{"type":"TWR","freq":118.1,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":5.24605300,"lon":-3.93213900,"rng_nm":18,"alt_fmsl":13,"hdg":201.45,"id":"AN","rwy":"21","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":5.26799400,"lon":-3.92181400,"rng_nm":10,"alt_fmsl":24,"id":"AN","rwy":"21","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":5.34908300,"lon":-3.89041700,"rng_nm":0,"alt_fmsl":13,"id":"----","rwy":"21","desc":"OM"},
+{"type":"DME","freq":110.3,"lat":5.26799400,"lon":-3.92181400,"rng_nm":18,"alt_fmsl":24,"id":"AN","rwy":"21","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":23.9,"dist_nm":1,"freq":114.3,"lat":5.27719400,"lon":-3.91930600,"rng_nm":130,"alt_fmsl":30,"id":"AD","desc":"ABIDJAN VOR-DME"},
+{"type":"NDB","hdg_t":250.9,"dist_nm":2,"freq":294,"lat":5.25041700,"lon":-3.95802800,"rng_nm":50,"alt_fmsl":0,"id":"PB","desc":"ABIDJAN FELIX HOUPHOUET BOIGNY NDB"},
+{"type":"NDB","hdg_t":22.2,"dist_nm":5.6,"freq":306,"lat":5.34908300,"lon":-3.89041700,"rng_nm":50,"alt_fmsl":0,"id":"AN","desc":"ABIDJAN NDB"},
+{"type":"NDB","hdg_t":81.5,"dist_nm":61,"freq":393,"lat":5.41113900,"lon":-2.91647200,"rng_nm":50,"alt_fmsl":0,"id":"AFO","desc":"AFIENOU NDB"},
+{"type":"NDB","hdg_t":316.8,"dist_nm":129.9,"freq":363,"lat":6.84697200,"lon":-5.41619400,"rng_nm":25,"alt_fmsl":0,"id":"YKO","desc":"YAMOUSSOUKRO NDB"},
+{"type":"VOR","hdg_t":318.2,"dist_nm":130.3,"freq":115.8,"lat":6.88888900,"lon":-5.37886100,"rng_nm":130,"alt_fmsl":699,"id":"YAM","desc":"YAMOUSSOUKRO VOR-DME"},
+{"type":"NDB","hdg_t":319.6,"dist_nm":130.7,"freq":269,"lat":6.92800000,"lon":-5.34394400,"rng_nm":25,"alt_fmsl":0,"id":"YMO","desc":"YAMOUSSOUKRO NDB"},
+{"type":"NDB","hdg_t":99,"dist_nm":131,"freq":375,"lat":4.91308100,"lon":-1.76490000,"rng_nm":25,"alt_fmsl":0,"id":"TI","desc":"TAKORADI NDB"},
+{"type":"NDB","hdg_t":261.7,"dist_nm":133.2,"freq":290,"lat":4.93833300,"lon":-6.12777800,"rng_nm":25,"alt_fmsl":0,"id":"SS","desc":"SASSANDRA NDB"},
+{"type":"NDB","hdg_t":301.2,"dist_nm":143,"freq":370,"lat":6.50017800,"lon":-5.97472500,"rng_nm":50,"alt_fmsl":0,"id":"GGA","desc":"GAGNOA NDB"}
+]
+}

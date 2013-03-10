@@ -1,0 +1,42 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VIDP","name":"Indira Gandhi Intl","lat":28.5664965,"lon":77.10309025,"rwys":2,"ils":3,"index":4218272,"path":"e070n20/e077n28"
+,"runways":[
+{"len_m":3811,"wid_m":45.72,"hdg":104,"surf":"Asphalt","rwy1":"10","lat1":28.56717200,"lon1":77.08483100,"rwy2":"28","lat2":28.55850000,"lon2":77.12252500},
+{"len_m":2830,"wid_m":45.72,"hdg":91,"surf":"Asphalt","rwy1":"09","lat1":28.57049200,"lon1":77.08804400,"rwy2":"27","lat2":28.56982200,"lon2":77.11696100}
+]
+,"radios":[
+{"type":"ATIS","freq":126.4,"desc":"ATIS"},
+{"type":"GND","freq":118.1,"desc":"DELHI GND"},
+{"type":"TWR","freq":119.3,"desc":"DELHI TWR"},
+{"type":"TWR","freq":118.75,"desc":"DELHI TWR"},
+{"type":"APP","freq":127.9,"desc":"DELHI APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":28.55811100,"lon":77.12486100,"rng_nm":18,"alt_fmsl":776,"hdg":104.46,"id":"DEL","rwy":"10","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.5,"lat":28.57061100,"lon":77.08236100,"rng_nm":18,"alt_fmsl":723,"hdg":271.48,"id":"IDLH","rwy":"27","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":28.56811100,"lon":77.08125000,"rng_nm":18,"alt_fmsl":718,"hdg":284.84,"id":"IPLM","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":28.56727800,"lon":77.08791700,"rng_nm":10,"alt_fmsl":720,"id":"DEL","rwy":"10","desc":"GS","gs":3},
+{"type":"GS","freq":110.5,"lat":28.56922200,"lon":77.11219400,"rng_nm":10,"alt_fmsl":750,"id":"IDLH","rwy":"27","desc":"GS","gs":3},
+{"type":"GS","freq":110.3,"lat":28.56033300,"lon":77.11930600,"rng_nm":10,"alt_fmsl":776,"id":"IPLM","rwy":"28","desc":"GS","gs":3.2},
+{"type":"OM","freq":0,"lat":28.54225600,"lon":77.19733900,"rng_nm":0,"alt_fmsl":718,"id":"----","rwy":"28","desc":"OM"},
+{"type":"MM","freq":0,"lat":28.55616700,"lon":77.13375000,"rng_nm":0,"alt_fmsl":718,"id":"----","rwy":"28","desc":"MM"},
+{"type":"DME","freq":109.5,"lat":28.56727800,"lon":77.08791700,"rng_nm":18,"alt_fmsl":777,"id":"DEL","rwy":"10","desc":"DME-ILS"},
+{"type":"DME","freq":110.5,"lat":28.56922200,"lon":77.11219400,"rng_nm":18,"alt_fmsl":777,"id":"IDLH","rwy":"27","desc":"DME-ILS"},
+{"type":"DME","freq":110.3,"lat":28.56033300,"lon":77.11930600,"rng_nm":18,"alt_fmsl":777,"id":"IPLM","rwy":"28","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":271.7,"dist_nm":0.4,"freq":116.1,"lat":28.56672200,"lon":77.09486100,"rng_nm":130,"alt_fmsl":776,"id":"DPN","desc":"DELHI VOR-DME"},
+{"type":"NDB","hdg_t":110.8,"dist_nm":1.7,"freq":320,"lat":28.55616700,"lon":77.13375000,"rng_nm":75,"alt_fmsl":0,"id":"LM","desc":"DELHI NDB"},
+{"type":"NDB","hdg_t":106.2,"dist_nm":5.1,"freq":303,"lat":28.54225600,"lon":77.19733900,"rng_nm":75,"alt_fmsl":0,"id":"PL","desc":"DELHI NDB"},
+{"type":"NDB","hdg_t":91.2,"dist_nm":5.2,"freq":202,"lat":28.56450000,"lon":77.20233300,"rng_nm":50,"alt_fmsl":0,"id":"DH","desc":"DELHI NDB"},
+{"type":"NDB","hdg_t":280.4,"dist_nm":5.6,"freq":274,"lat":28.58338900,"lon":76.99875000,"rng_nm":50,"alt_fmsl":0,"id":"DP","desc":"DELHI NDB"},
+{"type":"VOR","hdg_t":316.1,"dist_nm":21.2,"freq":117,"lat":28.82251900,"lon":76.82377500,"rng_nm":130,"alt_fmsl":677,"id":"SAM","desc":"SAMPLA VOR-DME"},
+{"type":"VOR","hdg_t":240.5,"dist_nm":26.5,"freq":116.8,"lat":28.34755600,"lon":76.66602800,"rng_nm":130,"alt_fmsl":772,"id":"CHI","desc":"CHILLERKI VOR-DME"},
+{"type":"VOR","hdg_t":107.7,"dist_nm":33.6,"freq":112.4,"lat":28.39338900,"lon":77.70811100,"rng_nm":130,"alt_fmsl":642,"id":"SSB","desc":"SIKANDRABAD VOR-DME"},
+{"type":"VOR","hdg_t":186.6,"dist_nm":43.2,"freq":117.2,"lat":27.84844700,"lon":77.00820600,"rng_nm":130,"alt_fmsl":664,"id":"SKA","desc":"SAKARAS VOR-DME"},
+{"type":"VOR","hdg_t":127.4,"dist_nm":72,"freq":117.9,"lat":27.82930600,"lon":78.17833300,"rng_nm":130,"alt_fmsl":587,"id":"ALI","desc":"ALIGARH VOR-DME"},
+{"type":"NDB","hdg_t":11.2,"dist_nm":87.5,"freq":298,"lat":29.99991100,"lon":77.43200800,"rng_nm":50,"alt_fmsl":0,"id":"SP","desc":"SARSAWA NDB"},
+{"type":"VOR","hdg_t":151.8,"dist_nm":95.8,"freq":112,"lat":27.15075000,"lon":77.94752800,"rng_nm":40,"alt_fmsl":551,"id":"AGG","desc":"AGRA VOR-DME"},
+{"type":"NDB","hdg_t":151.3,"dist_nm":96.3,"freq":249,"lat":27.15018900,"lon":77.96530300,"rng_nm":75,"alt_fmsl":0,"id":"AG","desc":"AGRA NDB"}
+]
+}

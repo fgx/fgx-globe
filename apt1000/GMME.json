@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"GMME","name":"Sale","lat":34.051468,"lon":-6.7515195,"rwys":1,"ils":1,"index":2842368,"path":"w010n30/w007n34"
+,"runways":[
+{"len_m":3501,"wid_m":45.11,"hdg":31,"surf":"Asphalt","rwy1":"04","lat1":34.03799200,"lon1":-6.76138600,"rwy2":"22","lat2":34.06494400,"lon2":-6.74165300}
+]
+,"radios":[
+{"type":"TWR","freq":119.7,"desc":"TWR"},
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"APP","freq":118.9,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.9,"lat":34.03506100,"lon":-6.76352800,"rng_nm":18,"alt_fmsl":250,"hdg":211.23,"id":"RS","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.9,"lat":34.06232500,"lon":-6.74193900,"rng_nm":10,"alt_fmsl":246,"id":"RS","rwy":"22","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":34.12006100,"lon":-6.70130300,"rng_nm":0,"alt_fmsl":250,"id":"----","rwy":"22","desc":"OM"},
+{"type":"MM","freq":0,"lat":34.07304400,"lon":-6.73572800,"rng_nm":0,"alt_fmsl":250,"id":"----","rwy":"22","desc":"MM"},
+{"type":"DME","freq":110.9,"lat":34.06232500,"lon":-6.74193900,"rng_nm":18,"alt_fmsl":39,"id":"RS","rwy":"22","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":108.9,"dist_nm":0.2,"freq":116.5,"lat":34.05000000,"lon":-6.74638900,"rng_nm":130,"alt_fmsl":325,"id":"RBT","desc":"RABAT VOR-DME"},
+{"type":"NDB","hdg_t":30.1,"dist_nm":8.6,"freq":332,"lat":34.17640800,"lon":-6.66427800,"rng_nm":75,"alt_fmsl":0,"id":"SBI","desc":"RABAT NDB"},
+{"type":"NDB","hdg_t":24.7,"dist_nm":15.5,"freq":380,"lat":34.28722200,"lon":-6.62055600,"rng_nm":75,"alt_fmsl":0,"id":"CNL","desc":"KENITRA NDB"},
+{"type":"NDB","hdg_t":214.8,"dist_nm":31.7,"freq":275,"lat":33.61583900,"lon":-7.11353300,"rng_nm":100,"alt_fmsl":0,"id":"CAE","desc":"BEN SLIMANE NDB"},
+{"type":"VOR","hdg_t":223,"dist_nm":33.5,"freq":117.45,"lat":33.64180000,"lon":-7.20799700,"rng_nm":130,"alt_fmsl":676,"id":"BNS","desc":"BEN SLIMANE VOR-DME"},
+{"type":"VOR","hdg_t":72.5,"dist_nm":36.5,"freq":115.5,"lat":34.23250000,"lon":-6.05055600,"rng_nm":130,"alt_fmsl":179,"id":"SMN","desc":"SIDI SLIMANE VOR-DME"},
+{"type":"VOR","hdg_t":235.8,"dist_nm":56.1,"freq":116.9,"lat":33.52149700,"lon":-7.67718600,"rng_nm":130,"alt_fmsl":365,"id":"CBA","desc":"CASABLANCA VOR-DME"},
+{"type":"NDB","hdg_t":229.3,"dist_nm":56.8,"freq":255,"lat":33.43000000,"lon":-7.61000000,"rng_nm":50,"alt_fmsl":0,"id":"NUA","desc":"Casablanca NDB"},
+{"type":"VOR","hdg_t":221.3,"dist_nm":61.4,"freq":114,"lat":33.27863600,"lon":-7.55733100,"rng_nm":130,"alt_fmsl":715,"id":"BRC","desc":"CASABLANCA VOR-DME"},
+{"type":"VOR","hdg_t":99.2,"dist_nm":62.5,"freq":116.3,"lat":33.87805600,"lon":-5.51527800,"rng_nm":130,"alt_fmsl":0,"id":"MKS","desc":"MEKNES VOR"},
+{"type":"NDB","hdg_t":112,"dist_nm":86.1,"freq":409,"lat":33.50027800,"lon":-5.16027800,"rng_nm":50,"alt_fmsl":0,"id":"IFR","desc":"IFRANE NDB"},
+{"type":"VOR","hdg_t":94.4,"dist_nm":87,"freq":115.7,"lat":33.92750000,"lon":-5.01361100,"rng_nm":130,"alt_fmsl":1873,"id":"FES","desc":"SAISS VOR-DME"},
+{"type":"NDB","hdg_t":224.9,"dist_nm":93.9,"freq":345,"lat":32.93361100,"lon":-8.06500000,"rng_nm":75,"alt_fmsl":0,"id":"CSD","desc":"DAOUARAT NDB"}
+]
+}

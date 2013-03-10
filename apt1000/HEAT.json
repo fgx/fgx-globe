@@ -1,0 +1,26 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HEAT","name":"Asyut Intl","lat":27.046508,"lon":31.011982,"rwys":1,"ils":1,"index":3464512,"path":"e030n20/e031n27"
+,"runways":[
+{"len_m":3018,"wid_m":45.11,"hdg":129,"surf":"Asphalt","rwy1":"13","lat1":27.05523300,"lon1":31.00030000,"rwy2":"31","lat2":27.03778300,"lon2":31.02366400}
+]
+,"radios":[
+{"type":"TWR","freq":118.1,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":111.3,"lat":27.05708300,"lon":30.99782500,"rng_nm":18,"alt_fmsl":744,"hdg":309.98,"id":"IASU","rwy":"31","desc":"ILS-cat-II"},
+{"type":"GS","freq":111.3,"lat":27.03873100,"lon":31.02043300,"rng_nm":10,"alt_fmsl":815,"id":"IASU","rwy":"31","desc":"GS","gs":3},
+{"type":"DME","freq":111.3,"lat":27.03873100,"lon":31.02043300,"rng_nm":18,"alt_fmsl":815,"id":"IASU","rwy":"31","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":129.7,"dist_nm":1.4,"freq":117.7,"lat":27.03122200,"lon":31.03250000,"rng_nm":200,"alt_fmsl":850,"id":"AST","desc":"ASYUT VOR-DME"},
+{"type":"VOR","hdg_t":193.4,"dist_nm":98.2,"freq":113.8,"lat":25.44838600,"lon":30.59079200,"rng_nm":150,"alt_fmsl":137,"id":"KHG","desc":"EL KHARGA VOR-DME"},
+{"type":"NDB","hdg_t":129.7,"dist_nm":121.5,"freq":364,"lat":25.73788900,"lon":32.73763900,"rng_nm":75,"alt_fmsl":284,"id":"LO","desc":"LUXOR NDB"},
+{"type":"VOR","hdg_t":128.9,"dist_nm":122.3,"freq":114.4,"lat":25.74938900,"lon":32.76858300,"rng_nm":150,"alt_fmsl":332,"id":"LXR","desc":"LUXOR VOR-DME"},
+{"type":"VOR","hdg_t":347,"dist_nm":144.4,"freq":117.3,"lat":29.39750000,"lon":30.39305600,"rng_nm":150,"alt_fmsl":50,"id":"FYM","desc":"FAYOUM VOR-DME"},
+{"type":"NDB","hdg_t":228.5,"dist_nm":145.6,"freq":387,"lat":25.42075000,"lon":29.00141700,"rng_nm":100,"alt_fmsl":590,"id":"MB","desc":"DAKHLA NDB"},
+{"type":"VOR","hdg_t":86.3,"dist_nm":149.2,"freq":116.5,"lat":27.17775800,"lon":33.79639400,"rng_nm":150,"alt_fmsl":98,"id":"HGD","desc":"HURGHADA VOR-DME"},
+{"type":"NDB","hdg_t":356.7,"dist_nm":165.7,"freq":340,"lat":29.81119200,"lon":30.83033300,"rng_nm":100,"alt_fmsl":840,"id":"OCT","desc":"OCTOBER NDB"},
+{"type":"NDB","hdg_t":4.3,"dist_nm":179.8,"freq":317,"lat":30.04213900,"lon":31.27544400,"rng_nm":25,"alt_fmsl":260,"id":"MKT","desc":"CAIRO NDB"},
+{"type":"NDB","hdg_t":5.7,"dist_nm":182.1,"freq":490,"lat":30.07401100,"lon":31.35944700,"rng_nm":50,"alt_fmsl":0,"id":"A","desc":"ALMAZA NDB"}
+]
+}

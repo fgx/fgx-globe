@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ZGNN","name":"Wuxu","lat":22.6079585,"lon":108.17219,"rwys":1,"ils":1,"index":4725792,"path":"e100n20/e108n22"
+,"runways":[
+{"len_m":2704,"wid_m":45.11,"hdg":46,"surf":"Concrete","rwy1":"05","lat1":22.59960600,"lon1":108.16259700,"rwy2":"23","lat2":22.61631100,"lon2":108.18178300}
+]
+,"radios":[
+{"type":"GND","freq":121.75,"desc":"NANNING GND"},
+{"type":"TWR","freq":130,"desc":"NANNING TWR"},
+{"type":"TWR","freq":118.2,"desc":"NANNING TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.9,"lat":22.61846100,"lon":108.18414400,"rng_nm":18,"alt_fmsl":420,"hdg":46.54,"id":"IUY","rwy":"05","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.9,"lat":22.60070800,"lon":108.16570300,"rng_nm":10,"alt_fmsl":420,"id":"IUY","rwy":"05","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":22.56986700,"lon":108.12998900,"rng_nm":0,"alt_fmsl":420,"id":"----","rwy":"05","desc":"OM"},
+{"type":"MM","freq":0,"lat":22.59296100,"lon":108.15531100,"rng_nm":0,"alt_fmsl":420,"id":"----","rwy":"05","desc":"MM"},
+{"type":"DME","freq":110.9,"lat":22.60070800,"lon":108.16570300,"rng_nm":18,"alt_fmsl":410,"id":"IUY","rwy":"05","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":53.1,"dist_nm":1.6,"freq":114.5,"lat":22.62500000,"lon":108.19666700,"rng_nm":130,"alt_fmsl":420,"id":"NNG","desc":"NANNING VOR-DME"},
+{"type":"NDB","hdg_t":48.2,"dist_nm":2.2,"freq":528,"lat":22.63333300,"lon":108.20283300,"rng_nm":22,"alt_fmsl":367,"id":"G","desc":"NANNING NDB"},
+{"type":"NDB","hdg_t":46,"dist_nm":5.7,"freq":256,"lat":22.67500000,"lon":108.24716700,"rng_nm":22,"alt_fmsl":380,"id":"GZ","desc":"NANNING NDB"},
+{"type":"NDB","hdg_t":259,"dist_nm":73.9,"freq":238,"lat":22.36666700,"lon":106.86666700,"rng_nm":50,"alt_fmsl":0,"id":"NL","desc":"LONGZHOU NDB"},
+{"type":"VOR","hdg_t":40,"dist_nm":88.9,"freq":113.7,"lat":23.74333300,"lon":109.21166700,"rng_nm":130,"alt_fmsl":361,"id":"LBN","desc":"LAIBIN VOR-DME"},
+{"type":"NDB","hdg_t":40.1,"dist_nm":89,"freq":393,"lat":23.74333300,"lon":109.21500000,"rng_nm":50,"alt_fmsl":361,"id":"KC","desc":"LAIBIN NDB"},
+{"type":"VOR","hdg_t":312.7,"dist_nm":114,"freq":115.9,"lat":23.89500000,"lon":106.64833300,"rng_nm":130,"alt_fmsl":520,"id":"BSE","desc":"BOSE VOR-DME"},
+{"type":"NDB","hdg_t":312.8,"dist_nm":114.1,"freq":358,"lat":23.89833300,"lon":106.65000000,"rng_nm":50,"alt_fmsl":0,"id":"OX","desc":"BOSE NDB"},
+{"type":"VOR","hdg_t":217.2,"dist_nm":134,"freq":115.1,"lat":20.81822200,"lon":106.72750000,"rng_nm":162,"alt_fmsl":54,"id":"CAB","desc":"CATBI VOR-DME"},
+{"type":"NDB","hdg_t":218.3,"dist_nm":137.1,"freq":274,"lat":20.80138900,"lon":106.65805600,"rng_nm":140,"alt_fmsl":0,"id":"BK","desc":"CATBI NDB"}
+]
+}

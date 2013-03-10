@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DRRN","name":"Diori Hamani","lat":13.482967,"lon":2.181087,"rwys":2,"ils":1,"index":2988505,"path":"e000n10/e002n13"
+,"runways":[
+{"len_m":3006,"wid_m":45.11,"hdg":87,"surf":"Asphalt","rwy1":"09R","lat1":13.48090300,"lon1":2.16974400,"rwy2":"27L","lat2":13.48219200,"lon2":2.19748100},
+{"len_m":1624,"wid_m":39.93,"hdg":87,"surf":"Gravel","rwy1":"09L","lat1":13.48403100,"lon1":2.17106700,"rwy2":"27R","lat2":13.48474200,"lon2":2.18605600}
+]
+,"radios":[
+{"type":"TWR","freq":119.7,"desc":"NIAMEY TWR"},
+{"type":"TWR","freq":118.1,"desc":"NIAMEY TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":13.48308300,"lon":2.20136100,"rng_nm":18,"alt_fmsl":702,"hdg":85.95,"id":"NM","rwy":"09R","desc":"ILS-cat-II"},
+{"type":"GS","freq":109.9,"lat":13.48062500,"lon":2.17255300,"rng_nm":10,"alt_fmsl":787,"id":"NM","rwy":"09R","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":13.48097200,"lon":2.15583300,"rng_nm":0,"alt_fmsl":702,"id":"----","rwy":"09R","desc":"MM"},
+{"type":"DME","freq":109.9,"lat":13.48062500,"lon":2.17255300,"rng_nm":18,"alt_fmsl":787,"id":"NM","rwy":"09R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":89.1,"dist_nm":1.4,"freq":114.1,"lat":13.48333300,"lon":2.20638900,"rng_nm":130,"alt_fmsl":732,"id":"NY","desc":"NIAMEY VOR-DME"},
+{"type":"NDB","hdg_t":265.3,"dist_nm":1.4,"freq":289,"lat":13.48097200,"lon":2.15583300,"rng_nm":25,"alt_fmsl":787,"id":"NY","desc":"NIAMEY NDB"},
+{"type":"NDB","hdg_t":200.5,"dist_nm":121.7,"freq":316,"lat":11.57315600,"lon":1.45678900,"rng_nm":25,"alt_fmsl":0,"id":"AY","desc":"ARLI NDB"},
+{"type":"NDB","hdg_t":284.5,"dist_nm":133.4,"freq":270,"lat":14.03400400,"lon":-0.03347300,"rng_nm":50,"alt_fmsl":0,"id":"DD","desc":"DORI NDB"},
+{"type":"NDB","hdg_t":162.2,"dist_nm":146.6,"freq":366,"lat":11.14450000,"lon":2.93974700,"rng_nm":50,"alt_fmsl":0,"id":"TYK","desc":"KANDI NDB"},
+{"type":"VOR","hdg_t":100.3,"dist_nm":181.5,"freq":113.9,"lat":12.92109400,"lon":5.22930600,"rng_nm":130,"alt_fmsl":1004,"id":"SOK","desc":"SOKOTO VOR-DME"},
+{"type":"NDB","hdg_t":194.7,"dist_nm":192.6,"freq":309,"lat":10.36240800,"lon":1.34984200,"rng_nm":50,"alt_fmsl":0,"id":"TYN","desc":"NATITINGOU NDB"},
+{"type":"NDB","hdg_t":64.7,"dist_nm":198.4,"freq":347,"lat":14.87951100,"lon":5.26990300,"rng_nm":25,"alt_fmsl":1325,"id":"TA","desc":"TAHOUA NDB"},
+{"type":"NDB","hdg_t":322.3,"dist_nm":208.6,"freq":364,"lat":16.23944400,"lon":-0.02336100,"rng_nm":50,"alt_fmsl":882,"id":"TZI","desc":"GAO NDB"},
+{"type":"VOR","hdg_t":322.3,"dist_nm":208.6,"freq":112.3,"lat":16.23786100,"lon":-0.02650000,"rng_nm":130,"alt_fmsl":852,"id":"GAO","desc":"GAO VOR"}
+]
+}

@@ -1,0 +1,52 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EGPK","name":"Prestwick","lat":55.50230163,"lon":-4.588362695,"rwys":2,"ils":2,"index":2876513,"path":"w010n50/w005n55"
+,"runways":[
+{"len_m":1994,"wid_m":45.11,"hdg":23,"surf":"Asphalt","rwy1":"03","lat1":55.48700368,"lon1":-4.58845881,"rwy2":"21","lat2":55.50340008,"lon2":-4.57575302},
+{"len_m":2991,"wid_m":46.02,"hdg":121,"surf":"Asphalt","rwy1":"13","lat1":55.51638965,"lon1":-4.61483706,"rwy2":"31","lat2":55.50241311,"lon2":-4.57440190}
+]
+,"radios":[
+{"type":"ATIS","freq":121.12,"desc":"Prestwick Information"},
+{"type":"TWR","freq":118.15,"desc":"Prestwick Tower"},
+{"type":"APP","freq":129.45,"desc":"Prestwick Approach"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":55.50006400,"lon":-4.56761400,"rng_nm":18,"alt_fmsl":66,"hdg":121.42,"id":"IPP","rwy":"13","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":55.51714700,"lon":-4.61703100,"rng_nm":18,"alt_fmsl":38,"hdg":301.38,"id":"IKK","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":55.51448600,"lon":-4.60602500,"rng_nm":10,"alt_fmsl":53,"id":"IPP","rwy":"13","desc":"GS","gs":3},
+{"type":"GS","freq":110.3,"lat":55.50500600,"lon":-4.57794200,"rng_nm":10,"alt_fmsl":56,"id":"IKK","rwy":"31","desc":"GS","gs":3.5},
+{"type":"OM","freq":0,"lat":55.54429200,"lon":-4.68141900,"rng_nm":0,"alt_fmsl":66,"id":"----","rwy":"13","desc":"OM"},
+{"type":"MM","freq":0,"lat":55.52178600,"lon":-4.63096700,"rng_nm":0,"alt_fmsl":66,"id":"----","rwy":"13","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":55.50780600,"lon":-4.59402500,"rng_nm":18,"alt_fmsl":48,"id":"IPP","rwy":"13","desc":"DME-ILS"},
+{"type":"DME","freq":110.3,"lat":55.50780600,"lon":-4.59402500,"rng_nm":18,"alt_fmsl":48,"id":"IKK","rwy":"31","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":59,"dist_nm":0.4,"freq":355,"lat":55.50608900,"lon":-4.57725300,"rng_nm":15,"alt_fmsl":0,"id":"PIK","desc":"PRESTWICK NDB"},
+{"type":"NDB","hdg_t":308.5,"dist_nm":4,"freq":426,"lat":55.54435300,"lon":-4.68155300,"rng_nm":30,"alt_fmsl":0,"id":"PW","desc":"PRESTWICK NDB"},
+{"type":"VOR","hdg_t":210.5,"dist_nm":13.1,"freq":117.5,"lat":55.31333300,"lon":-4.78388900,"rng_nm":130,"alt_fmsl":600,"id":"TRN","desc":"TURNBERRY VOR-DME"},
+{"type":"VOR","hdg_t":12.2,"dist_nm":22.6,"freq":115.4,"lat":55.87050300,"lon":-4.44572500,"rng_nm":130,"alt_fmsl":37,"id":"GOW","desc":"GLASGOW VOR-DME"},
+{"type":"NDB","hdg_t":13.3,"dist_nm":22.7,"freq":331,"lat":55.86976900,"lon":-4.43363100,"rng_nm":25,"alt_fmsl":26,"id":"GLW","desc":"GLASGOW NDB"},
+{"type":"NDB","hdg_t":143.4,"dist_nm":24.2,"freq":399,"lat":55.17750000,"lon":-4.16861100,"rng_nm":35,"alt_fmsl":0,"id":"NGY","desc":"NEW GALLOWAY NDB"},
+{"type":"SDME","hdg_t":35.2,"dist_nm":34.9,"freq":117.55,"lat":55.97555600,"lon":-3.99111100,"rng_nm":25,"alt_fmsl":354,"id":"CBN","desc":"CUMBERNAULD DME"},
+{"type":"NDB","hdg_t":35.9,"dist_nm":35.2,"freq":374,"lat":55.97555600,"lon":-3.97472200,"rng_nm":25,"alt_fmsl":370,"id":"CBN","desc":"CUMBERNAULD NDB"},
+{"type":"VOR","hdg_t":263.6,"dist_nm":36.5,"freq":116,"lat":55.43000000,"lon":-5.65027800,"rng_nm":150,"alt_fmsl":95,"id":"MAC","desc":"MACHRIHANISH VOR-DME"},
+{"type":"NDB","hdg_t":264.3,"dist_nm":37.7,"freq":380,"lat":55.43563100,"lon":-5.68807200,"rng_nm":15,"alt_fmsl":44,"id":"CBL","desc":"CAMPBELTOWN NDB"},
+{"type":"VOR","hdg_t":89.7,"dist_nm":42.1,"freq":113.8,"lat":55.49916700,"lon":-3.35277800,"rng_nm":130,"alt_fmsl":2786,"id":"TLA","desc":"TALLA VOR-DME"},
+{"type":"NDB","hdg_t":56.2,"dist_nm":44.1,"freq":368,"lat":55.90515300,"lon":-3.50251100,"rng_nm":25,"alt_fmsl":0,"id":"UW","desc":"EDINBURGH NDB"},
+{"type":"NDB","hdg_t":56.5,"dist_nm":52.6,"freq":341,"lat":55.97840000,"lon":-3.28412200,"rng_nm":35,"alt_fmsl":0,"id":"EDN","desc":"EDINBURGH NDB"},
+{"type":"NDB","hdg_t":281.5,"dist_nm":57.5,"freq":395,"lat":55.68286400,"lon":-6.24947800,"rng_nm":20,"alt_fmsl":58,"id":"LAY","desc":"ISLAY NDB"},
+{"type":"SDME","hdg_t":281.5,"dist_nm":57.5,"freq":109.95,"lat":55.68296700,"lon":-6.24941400,"rng_nm":25,"alt_fmsl":70,"id":"ISY","desc":"ISLAY DME"},
+{"type":"VOR","hdg_t":136.9,"dist_nm":63.6,"freq":115.2,"lat":54.72194400,"lon":-3.34055600,"rng_nm":130,"alt_fmsl":700,"id":"DCS","desc":"DEAN CROSS VOR-DME"},
+{"type":"NDB","hdg_t":334.8,"dist_nm":63.7,"freq":404,"lat":56.45970154,"lon":-5.40251684,"rng_nm":50,"alt_fmsl":20,"id":"OBN","desc":"North Connel NDB"},
+{"type":"VOR","hdg_t":35.5,"dist_nm":69.8,"freq":110.4,"lat":56.44250000,"lon":-3.36861100,"rng_nm":80,"alt_fmsl":0,"id":"PTH","desc":"PERTH VOR"},
+{"type":"NDB","hdg_t":227.2,"dist_nm":70.9,"freq":332,"lat":54.69264700,"lon":-6.08535800,"rng_nm":15,"alt_fmsl":0,"id":"OY","desc":"ALDERGROVE NDB"},
+{"type":"NDB","hdg_t":40.3,"dist_nm":75.8,"freq":394,"lat":56.45506700,"lon":-3.11492500,"rng_nm":25,"alt_fmsl":0,"id":"DND","desc":"DUNDEE NDB"},
+{"type":"VOR","hdg_t":228.9,"dist_nm":75.9,"freq":117.2,"lat":54.66111100,"lon":-6.23000000,"rng_nm":200,"alt_fmsl":194,"id":"BEL","desc":"BELFAST VOR-DME"},
+{"type":"SDME","hdg_t":47.3,"dist_nm":78.2,"freq":110.5,"lat":56.37281400,"lon":-2.86366900,"rng_nm":130,"alt_fmsl":72,"id":"LUK","desc":"LEUCHARS TACAN"},
+{"type":"NDB","hdg_t":177.6,"dist_nm":81.8,"freq":366,"lat":54.14111100,"lon":-4.49166700,"rng_nm":25,"alt_fmsl":0,"id":"CAR","desc":"CARNANE NDB"},
+{"type":"VOR","hdg_t":72.2,"dist_nm":84.4,"freq":112.5,"lat":55.90750000,"lon":-2.20638900,"rng_nm":50,"alt_fmsl":760,"id":"SAB","desc":"ST. ABBS VOR-DME"},
+{"type":"NDB","hdg_t":180.8,"dist_nm":85.4,"freq":359,"lat":54.08108300,"lon":-4.62288900,"rng_nm":20,"alt_fmsl":55,"id":"RWY","desc":"ISLE OF MAN NDB"},
+{"type":"VOR","hdg_t":184.1,"dist_nm":86.4,"freq":112.2,"lat":54.06686700,"lon":-4.76347500,"rng_nm":130,"alt_fmsl":573,"id":"IOM","desc":"ISLE OF MAN VOR-DME"},
+{"type":"SDME","hdg_t":253.3,"dist_nm":87.3,"freq":109.15,"lat":55.06083300,"lon":-7.01333300,"rng_nm":25,"alt_fmsl":18,"id":"BKL","desc":"BALLYKELLY TACAN"},
+{"type":"VOR","hdg_t":308.6,"dist_nm":97.3,"freq":117.7,"lat":56.49316700,"lon":-6.87555600,"rng_nm":130,"alt_fmsl":36,"id":"TIR","desc":"TIREE VOR-DME"}
+]
+}

@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MPTO","name":"Tocumen Intl","lat":9.0713635,"lon":-79.3834575,"rwys":2,"ils":1,"index":1644740,"path":"w080n00/w080n09"
+,"runways":[
+{"len_m":3038,"wid_m":45.11,"hdg":29,"surf":"Concrete","rwy1":"03R","lat1":9.04758637,"lon1":-79.39263628,"rwy2":"21L","lat2":9.07149763,"lon2":-79.37903172},
+{"len_m":2671,"wid_m":60.96,"hdg":30,"surf":"Asphalt","rwy1":"03L","lat1":9.07281592,"lon1":-79.38730846,"rwy2":"21R","lat2":9.09355408,"lon2":-79.37485354}
+]
+,"radios":[
+{"type":"CLD","freq":129.8,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.7,"desc":"PANAMA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":9.07314700,"lon":-79.37809400,"rng_nm":18,"alt_fmsl":50,"hdg":29.33,"id":"INAT","rwy":"03R","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":9.04978600,"lon":-79.39011700,"rng_nm":10,"alt_fmsl":50,"id":"INAT","rwy":"03R","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":9.04139300,"lon":-79.39660900,"rng_nm":0,"alt_fmsl":50,"id":"----","rwy":"03R","desc":"MM"},
+{"type":"DME","freq":110.7,"lat":9.04978600,"lon":-79.39011700,"rng_nm":18,"alt_fmsl":50,"id":"INAT","rwy":"03R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":219.7,"dist_nm":1.5,"freq":117.1,"lat":9.05155556,"lon":-79.40005556,"rng_nm":130,"alt_fmsl":135,"id":"TUM","desc":"TOCUMEN VOR-DME"},
+{"type":"NDB","hdg_t":203.5,"dist_nm":1.9,"freq":326,"lat":9.04139300,"lon":-79.39660900,"rng_nm":50,"alt_fmsl":135,"id":"AT","desc":"TOCUMEN NDB"},
+{"type":"VOR","hdg_t":212,"dist_nm":19.9,"freq":110,"lat":8.78758333,"lon":-79.56202778,"rng_nm":130,"alt_fmsl":917,"id":"TBG","desc":"TABOGA ISLAND VOR-DME"},
+{"type":"VOR","hdg_t":301.3,"dist_nm":33.4,"freq":109,"lat":9.36241667,"lon":-79.86563889,"rng_nm":130,"alt_fmsl":25,"id":"FNC","desc":"ENRIQUE JIMENEZ VOR-DME"},
+{"type":"NDB","hdg_t":81.4,"dist_nm":75.8,"freq":356,"lat":9.25911100,"lon":-78.11861100,"rng_nm":118,"alt_fmsl":0,"id":"TPL","desc":"TUPILE NDB"},
+{"type":"VOR","hdg_t":118.1,"dist_nm":83.9,"freq":113.1,"lat":8.40622222,"lon":-78.13858333,"rng_nm":130,"alt_fmsl":0,"id":"PML","desc":"LA PALMA VOR"},
+{"type":"NDB","hdg_t":223.2,"dist_nm":89.1,"freq":440,"lat":7.98351700,"lon":-80.40995500,"rng_nm":50,"alt_fmsl":0,"id":"CHE","desc":"ALONSO VALDERRAMA NDB"},
+{"type":"NDB","hdg_t":110.5,"dist_nm":168.2,"freq":352,"lat":8.07325000,"lon":-76.73658300,"rng_nm":50,"alt_fmsl":7,"id":"TUR","desc":"TURBO NDB"},
+{"type":"VOR","hdg_t":275.5,"dist_nm":170.9,"freq":114.9,"lat":9.33886111,"lon":-82.25175000,"rng_nm":130,"alt_fmsl":10,"id":"BDT","desc":"BOCAS DEL TORO VOR-DME"},
+{"type":"VOR","hdg_t":115.1,"dist_nm":175,"freq":112.6,"lat":7.81805556,"lon":-76.72194444,"rng_nm":130,"alt_fmsl":109,"id":"LCE","desc":"LOS CEDROS VOR-DME"}
+]
+}

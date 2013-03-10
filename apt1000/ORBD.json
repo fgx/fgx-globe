@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ORBD","name":"Balad Southeast","lat":33.94018725,"lon":44.36154175,"rwys":2,"ils":2,"index":3677945,"path":"e040n30/e044n33"
+,"runways":[
+{"len_m":3503,"wid_m":45.42,"hdg":125,"surf":"Asphalt","rwy1":"12","lat1":33.94562500,"lon1":44.34153900,"rwy2":"30","lat2":33.92720800,"lon2":44.37232800},
+{"len_m":3502,"wid_m":60.05,"hdg":145,"surf":"Concrete","rwy1":"14","lat1":33.95699400,"lon1":44.35546700,"rwy2":"32","lat2":33.93092200,"lon2":44.37683300}
+]
+,"radios":[
+{"type":"GND","freq":128.75,"desc":"GND"},
+{"type":"TWR","freq":119.87,"desc":"TWR"},
+{"type":"APP","freq":131.9,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":33.92878300,"lon":44.37858600,"rng_nm":18,"alt_fmsl":158,"hdg":145.80,"id":"IANC","rwy":"14","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.9,"lat":33.95935000,"lon":44.35353600,"rng_nm":18,"alt_fmsl":157,"hdg":325.78,"id":"IBLD","rwy":"32","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":33.95404200,"lon":44.35618600,"rng_nm":10,"alt_fmsl":157,"id":"IANC","rwy":"14","desc":"GS","gs":3},
+{"type":"GS","freq":109.9,"lat":33.93258300,"lon":44.37387800,"rng_nm":10,"alt_fmsl":158,"id":"IBLD","rwy":"32","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":128.2,"dist_nm":0.4,"freq":114.6,"lat":33.93591100,"lon":44.36805800,"rng_nm":25,"alt_fmsl":157,"id":"BLD","desc":"BALAD VORTAC"},
+{"type":"NDB","hdg_t":191.9,"dist_nm":25.2,"freq":1650,"lat":33.52694400,"lon":44.25694400,"rng_nm":25,"alt_fmsl":121,"id":"TAJI","desc":"TAJI NDB"},
+{"type":"VOR","hdg_t":187.9,"dist_nm":41,"freq":110.6,"lat":33.26072200,"lon":44.24924700,"rng_nm":130,"alt_fmsl":110,"id":"BGD","desc":"BAGHDAD VOR"},
+{"type":"SDME","hdg_t":227.1,"dist_nm":52.6,"freq":112.3,"lat":33.33946900,"lon":43.59393300,"rng_nm":130,"alt_fmsl":275,"id":"MAT","desc":"AL TAQADDUM TACAN"},
+{"type":"NDB","hdg_t":317,"dist_nm":59.6,"freq":1669,"lat":34.66583300,"lon":43.54005300,"rng_nm":25,"alt_fmsl":423,"id":"TKT","desc":"AL SAHRA NDB"},
+{"type":"SDME","hdg_t":359.5,"dist_nm":91.7,"freq":113.9,"lat":35.47122800,"lon":44.34790300,"rng_nm":130,"alt_fmsl":1049,"id":"KRK","desc":"KIRKUK TACAN"},
+{"type":"SDME","hdg_t":264.9,"dist_nm":96.5,"freq":112,"lat":33.78363300,"lon":42.43875000,"rng_nm":130,"alt_fmsl":618,"id":"MAA","desc":"AL ASAD TACAN"},
+{"type":"NDB","hdg_t":101.1,"dist_nm":104.7,"freq":311,"lat":33.58477800,"lon":46.41205600,"rng_nm":75,"alt_fmsl":4404,"id":"ILM","desc":"ILAM NDB"},
+{"type":"VOR","hdg_t":101.3,"dist_nm":104.9,"freq":112.6,"lat":33.57841700,"lon":46.41538900,"rng_nm":130,"alt_fmsl":4426,"id":"ILM","desc":"ILAM VOR-DME"},
+{"type":"VOR","hdg_t":24.7,"dist_nm":108.3,"freq":117,"lat":35.57958100,"lon":45.29006700,"rng_nm":130,"alt_fmsl":2517,"id":"SUL","desc":"SULAYMANIYAH VOR"}
+]
+}

@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SBCT","name":"Afonso Pena","lat":-25.52888475,"lon":-49.173062,"rwys":2,"ils":1,"index":2134043,"path":"w050s30/w050s26"
+,"runways":[
+{"len_m":2219,"wid_m":45.11,"hdg":134,"surf":"Asphalt","rwy1":"15","lat1":-25.52212800,"lon1":-49.18285300,"rwy2":"33","lat2":-25.53619400,"lon2":-49.16713100},
+{"len_m":1803,"wid_m":45.11,"hdg":91,"surf":"Asphalt","rwy1":"11","lat1":-25.52835600,"lon1":-49.18010000,"rwy2":"29","lat2":-25.52886100,"lon2":-49.16216400}
+]
+,"radios":[
+{"type":"ATIS","freq":127.8,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.55,"desc":"CURITIBA TWR"},
+{"type":"APP","freq":119.95,"desc":"CURITIBA APP"},
+{"type":"APP","freq":120.65,"desc":"CURITIBA APP"},
+{"type":"APP","freq":129.55,"desc":"CURITIBA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":-25.53700000,"lon":-49.16633300,"rng_nm":18,"alt_fmsl":2990,"hdg":134.93,"id":"ICT","rwy":"15","desc":"ILS-cat-II"},
+{"type":"GS","freq":109.3,"lat":-25.52300000,"lon":-49.18016700,"rng_nm":10,"alt_fmsl":2990,"id":"ICT","rwy":"15","desc":"GS","gs":3.04},
+{"type":"OM","freq":0,"lat":-25.46273600,"lon":-49.24832800,"rng_nm":0,"alt_fmsl":2990,"id":"----","rwy":"15","desc":"OM"},
+{"type":"MM","freq":0,"lat":-25.51450000,"lon":-49.19150000,"rng_nm":0,"alt_fmsl":2990,"id":"----","rwy":"15","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":13.9,"dist_nm":0.3,"freq":390,"lat":-25.52316700,"lon":-49.17150000,"rng_nm":70,"alt_fmsl":2988,"id":"CRT","desc":"CURITIBA NDB"},
+{"type":"VOR","hdg_t":122.4,"dist_nm":0.3,"freq":116.5,"lat":-25.53200000,"lon":-49.16766700,"rng_nm":200,"alt_fmsl":2988,"id":"CTB","desc":"CURITIBA VOR-DME"},
+{"type":"NDB","hdg_t":310.6,"dist_nm":1.3,"freq":325,"lat":-25.51450000,"lon":-49.19150000,"rng_nm":25,"alt_fmsl":0,"id":"IT","desc":"PENA NDB"},
+{"type":"NDB","hdg_t":314,"dist_nm":5.6,"freq":370,"lat":-25.46273600,"lon":-49.24832800,"rng_nm":15,"alt_fmsl":0,"id":"IC","desc":"GISA NDB"},
+{"type":"NDB","hdg_t":135.5,"dist_nm":6.4,"freq":255,"lat":-25.60600000,"lon":-49.08966700,"rng_nm":56,"alt_fmsl":0,"id":"PNH","desc":"PINHAIS NDB"},
+{"type":"NDB","hdg_t":338,"dist_nm":8.1,"freq":300,"lat":-25.40266700,"lon":-49.22900000,"rng_nm":50,"alt_fmsl":3057,"id":"BCH","desc":"BACACHERI NDB"},
+{"type":"NDB","hdg_t":90.7,"dist_nm":34.8,"freq":340,"lat":-25.53466700,"lon":-48.53083300,"rng_nm":50,"alt_fmsl":16,"id":"PNG","desc":"PARANAGUA NDB"},
+{"type":"NDB","hdg_t":87.5,"dist_nm":45.8,"freq":320,"lat":-25.49383300,"lon":-48.32883300,"rng_nm":100,"alt_fmsl":0,"id":"NX","desc":"DOMEL NDB"},
+{"type":"VOR","hdg_t":154,"dist_nm":46.1,"freq":115.1,"lat":-26.22233300,"lon":-48.79800000,"rng_nm":130,"alt_fmsl":15,"id":"JNV","desc":"JOINVILLE VOR-DME"},
+{"type":"NDB","hdg_t":154.4,"dist_nm":56,"freq":245,"lat":-26.37266700,"lon":-48.72433300,"rng_nm":25,"alt_fmsl":0,"id":"GAB","desc":"GABI NDB"},
+{"type":"NDB","hdg_t":160.9,"dist_nm":85.3,"freq":235,"lat":-26.87566700,"lon":-48.65283300,"rng_nm":50,"alt_fmsl":18,"id":"NVG","desc":"NAVEGANTES NDB"}
+]
+}

@@ -1,0 +1,48 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EGJB","name":"Guernsey","lat":49.4349545,"lon":-2.6019695,"rwys":1,"ils":2,"index":2908889,"path":"w010n40/w003n49"
+,"runways":[
+{"len_m":1452,"wid_m":45.11,"hdg":87,"surf":"Asphalt","rwy1":"09","lat1":49.43467800,"lon1":-2.61197500,"rwy2":"27","lat2":49.43523100,"lon2":-2.59196400}
+]
+,"radios":[
+{"type":"GND","freq":121.8,"desc":"Guernsey Ground"},
+{"type":"TWR","freq":119.95,"desc":"Guernsey Tower"},
+{"type":"APP","freq":128.65,"desc":"Guernsey Approach"}
+]
+,"ils":[
+{"type":"ILS","freq":108.1,"lat":49.43528100,"lon":-2.59000000,"rng_nm":18,"alt_fmsl":336,"hdg":87.59,"id":"IUY","rwy":"09","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.1,"lat":49.43630000,"lon":-2.60205800,"rng_nm":18,"alt_fmsl":336,"hdg":279.25,"id":"IGH","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.1,"lat":49.43576900,"lon":-2.60811700,"rng_nm":10,"alt_fmsl":336,"id":"IUY","rwy":"09","desc":"GS","gs":3},
+{"type":"GS","freq":108.1,"lat":49.43415300,"lon":-2.59519700,"rng_nm":10,"alt_fmsl":336,"id":"IGH","rwy":"27","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":4.6,"dist_nm":0,"freq":361,"lat":49.43649400,"lon":-2.60177800,"rng_nm":30,"alt_fmsl":0,"id":"GUY","desc":"GUERNSEY NDB"},
+{"type":"VOR","hdg_t":358.4,"dist_nm":0.1,"freq":109.4,"lat":49.43709700,"lon":-2.60205800,"rng_nm":130,"alt_fmsl":355,"id":"GUR","desc":"GUERNSEY VOR-DME"},
+{"type":"NDB","hdg_t":268.9,"dist_nm":1.4,"freq":361,"lat":49.43450800,"lon":-2.63951400,"rng_nm":30,"alt_fmsl":0,"id":"GRB","desc":"GUERNSEY NDB"},
+{"type":"NDB","hdg_t":132.3,"dist_nm":20.3,"freq":329,"lat":49.20591400,"lon":-2.21992500,"rng_nm":25,"alt_fmsl":288,"id":"JW","desc":"Jersey NDB"},
+{"type":"NDB","hdg_t":43.5,"dist_nm":22.7,"freq":383,"lat":49.70887800,"lon":-2.19970000,"rng_nm":30,"alt_fmsl":331,"id":"ALD","desc":"ALDERNEY NDB"},
+{"type":"VOR","hdg_t":120.2,"dist_nm":25.3,"freq":112.2,"lat":49.22111100,"lon":-2.04611100,"rng_nm":130,"alt_fmsl":276,"id":"JSY","desc":"JERSEY VOR-DME"},
+{"type":"NDB","hdg_t":75.3,"dist_nm":49.5,"freq":373,"lat":49.63777777,"lon":-1.37222222,"rng_nm":25,"alt_fmsl":377,"id":"MP","desc":"Cherbourg Maupertus NDB"},
+{"type":"NDB","hdg_t":213.2,"dist_nm":51.2,"freq":345,"lat":48.71927800,"lon":-3.30777800,"rng_nm":50,"alt_fmsl":297,"id":"LN","desc":"LANNION NDB"},
+{"type":"NDB","hdg_t":187.7,"dist_nm":52.4,"freq":353,"lat":48.56955000,"lon":-2.78033000,"rng_nm":50,"alt_fmsl":453,"id":"SB","desc":"Saint Brieuc NDB"},
+{"type":"VOR","hdg_t":157.8,"dist_nm":54.9,"freq":114.3,"lat":48.58605700,"lon":-2.08232900,"rng_nm":80,"alt_fmsl":213,"id":"DIN","desc":"DINARD PLEURTUIT SAINT MALO VOR-DME"},
+{"type":"NDB","hdg_t":158.8,"dist_nm":61.1,"freq":390,"lat":48.48402000,"lon":-2.05049000,"rng_nm":50,"alt_fmsl":217,"id":"DR","desc":"Dinard NDB"},
+{"type":"NDB","hdg_t":224.5,"dist_nm":65.8,"freq":371,"lat":48.64669400,"lon":-3.76269400,"rng_nm":22,"alt_fmsl":277,"id":"MLX","desc":"MORLAIX NDB"},
+{"type":"VOR","hdg_t":329.4,"dist_nm":67.4,"freq":112.05,"lat":50.39861100,"lon":-3.49361100,"rng_nm":85,"alt_fmsl":215,"id":"BHD","desc":"BERRY HEAD VOR-DME"},
+{"type":"VOR","hdg_t":211.2,"dist_nm":77.1,"freq":112.5,"lat":48.33263900,"lon":-3.60247200,"rng_nm":60,"alt_fmsl":588,"id":"ARE","desc":"MONTS D ARREE VOR"},
+{"type":"SDME","hdg_t":229,"dist_nm":82,"freq":115.15,"lat":48.52827800,"lon":-4.15630500,"rng_nm":195,"alt_fmsl":364,"id":"LDV","desc":"LANDIVISIAU DME"},
+{"type":"NDB","hdg_t":315.9,"dist_nm":83.4,"freq":396,"lat":50.42436700,"lon":-4.11233300,"rng_nm":20,"alt_fmsl":0,"id":"PY","desc":"PLYMOUTH NDB"},
+{"type":"NDB","hdg_t":185.3,"dist_nm":83.4,"freq":377,"lat":48.05111111,"lon":-2.79444444,"rng_nm":25,"alt_fmsl":394,"id":"PNT","desc":"Pontivy NDB"},
+{"type":"NDB","hdg_t":341.5,"dist_nm":83.5,"freq":337,"lat":50.75215300,"lon":-3.29504700,"rng_nm":15,"alt_fmsl":25,"id":"EX","desc":"Exeter LOM"},
+{"type":"VOR","hdg_t":99.7,"dist_nm":85.7,"freq":114.45,"lat":49.17319444,"lon":-0.45527778,"rng_nm":80,"alt_fmsl":275,"id":"CEN","desc":"CAEN CARPIQUET VOR"},
+{"type":"NDB","hdg_t":19.6,"dist_nm":85.8,"freq":339,"lat":50.77767222,"lon":-1.84248611,"rng_nm":20,"alt_fmsl":30,"id":"BIA","desc":"BOURNEMOUTH NDB"},
+{"type":"NDB","hdg_t":207.7,"dist_nm":86.2,"freq":395,"lat":48.16000000,"lon":-3.60250000,"rng_nm":25,"alt_fmsl":722,"id":"GSG","desc":"Guiscriff Scaer NDB"},
+{"type":"NDB","hdg_t":229.8,"dist_nm":87.9,"freq":338,"lat":48.47769500,"lon":-4.28550000,"rng_nm":22,"alt_fmsl":312,"id":"GU","desc":"BREST NDB"},
+{"type":"VOR","hdg_t":157,"dist_nm":88.8,"freq":109.25,"lat":48.06925000,"lon":-1.74166700,"rng_nm":150,"alt_fmsl":126,"id":"REN","desc":"RENNES SAINT JACQUES VOR-DME"},
+{"type":"NDB","hdg_t":101.2,"dist_nm":91.6,"freq":404,"lat":49.11566700,"lon":-0.32125000,"rng_nm":25,"alt_fmsl":0,"id":"CNE","desc":"CAEN NDB"},
+{"type":"NDB","hdg_t":153.6,"dist_nm":92.3,"freq":349,"lat":48.05277777,"lon":-1.58444444,"rng_nm":25,"alt_fmsl":167,"id":"RS","desc":"Rennes Saint Jacques NDB"},
+{"type":"NDB","hdg_t":231,"dist_nm":93.2,"freq":387,"lat":48.44469500,"lon":-4.41650000,"rng_nm":22,"alt_fmsl":363,"id":"BGP","desc":"GUIPAVAS(BREST) NDB"},
+{"type":"NDB","hdg_t":10.4,"dist_nm":93.5,"freq":349,"lat":50.96620300,"lon":-2.15516700,"rng_nm":10,"alt_fmsl":0,"id":"COM","desc":"COMPT0N ABBAS NDB"},
+{"type":"SDME","hdg_t":359.1,"dist_nm":94.3,"freq":111,"lat":51.00501400,"lon":-2.63875300,"rng_nm":130,"alt_fmsl":113,"id":"VLN","desc":"YEOVILTON TACAN"},
+{"type":"NDB","hdg_t":37.1,"dist_nm":94.5,"freq":426,"lat":50.68082200,"lon":-1.10603200,"rng_nm":15,"alt_fmsl":0,"id":"IW","desc":"BEMBRIDGE NDB"}
+]
+}

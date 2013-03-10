@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UOHH","name":"Khatanga","lat":71.9780595,"lon":102.4905125,"rwys":1,"ils":1,"index":4630648,"path":"e100n70/e102n71"
+,"runways":[
+{"len_m":2729,"wid_m":48.16,"hdg":64,"surf":"Concrete","rwy1":"06","lat1":71.97287200,"lon1":102.45473600,"rwy2":"24","lat2":71.98324700,"lon2":102.52628900}
+]
+,"radios":[
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":118.1,"desc":"KRUG"},
+{"type":"APP","freq":129,"desc":"KRUG"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":71.98500000,"lon":102.54166700,"rng_nm":18,"alt_fmsl":95,"hdg":65.77,"id":"IOA","rwy":"06","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":71.97500000,"lon":102.46333300,"rng_nm":10,"alt_fmsl":95,"id":"IOA","rwy":"06","desc":"GS","gs":2.8},
+{"type":"OM","freq":0,"lat":71.95000000,"lon":102.31000000,"rng_nm":0,"alt_fmsl":95,"id":"----","rwy":"06","desc":"OM"},
+{"type":"MM","freq":0,"lat":71.97000000,"lon":102.43666700,"rng_nm":0,"alt_fmsl":95,"id":"----","rwy":"06","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":64.7,"dist_nm":2.8,"freq":332,"lat":71.99833300,"lon":102.63000000,"rng_nm":80,"alt_fmsl":0,"id":"ZT","desc":"KHATANGA NDB"},
+{"type":"NDB","hdg_t":243.4,"dist_nm":3.7,"freq":332,"lat":71.95000000,"lon":102.31000000,"rng_nm":80,"alt_fmsl":0,"id":"OA","desc":"KHATANGA NDB"},
+{"type":"NDB","hdg_t":131,"dist_nm":291.5,"freq":257,"lat":68.49883270,"lon":112.48217010,"rng_nm":50,"alt_fmsl":639,"id":"L","desc":"OLENEK NDB"},
+{"type":"NDB","hdg_t":131.2,"dist_nm":292.7,"freq":300,"lat":68.47333527,"lon":112.48633575,"rng_nm":80,"alt_fmsl":315,"id":"NL","desc":"OLENEK NDB"},
+{"type":"NDB","hdg_t":249.5,"dist_nm":338.8,"freq":535,"lat":69.35166700,"lon":87.40833300,"rng_nm":80,"alt_fmsl":0,"id":"BF","desc":"NORILSK NDB"},
+{"type":"NDB","hdg_t":249.4,"dist_nm":340.1,"freq":260,"lat":69.33166504,"lon":87.37183380,"rng_nm":30,"alt_fmsl":505,"id":"B","desc":"Norilsk NDB"},
+{"type":"NDB","hdg_t":249.2,"dist_nm":342.9,"freq":260,"lat":69.29000092,"lon":87.29483032,"rng_nm":30,"alt_fmsl":505,"id":"A","desc":"Norilsk NDB"},
+{"type":"NDB","hdg_t":249.1,"dist_nm":344.3,"freq":535,"lat":69.26833300,"lon":87.25500000,"rng_nm":80,"alt_fmsl":0,"id":"AP","desc":"NORILSK NDB"},
+{"type":"NDB","hdg_t":252.3,"dist_nm":357.3,"freq":700,"lat":69.41666700,"lon":86.23333300,"rng_nm":80,"alt_fmsl":0,"id":"BI","desc":"Dudinka NDB"},
+{"type":"NDB","hdg_t":144.2,"dist_nm":393.7,"freq":255,"lat":66.37566376,"lon":112.04833221,"rng_nm":50,"alt_fmsl":1660,"id":"W","desc":"Poliarny NDB"}
+]
+}

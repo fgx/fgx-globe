@@ -1,0 +1,41 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SEQU","name":"Quito - Mariscal Sucre Intl","lat":-0.1411445,"lon":-78.488214,"rwys":1,"ils":1,"index":1660532,"path":"w080s10/w079s01"
+,"runways":[
+{"len_m":3119,"wid_m":46.02,"hdg":171,"surf":"Asphalt","rwy1":"17","lat1":-0.12719700,"lon1":-78.49031100,"rwy2":"35","lat2":-0.15509200,"lon2":-78.48611700}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"QUITO TWR"},
+{"type":"APP","freq":119.7,"desc":"QUITO APP"},
+{"type":"APP","freq":121.2,"desc":"QUITO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":-0.12583300,"lon":-78.49055600,"rng_nm":18,"alt_fmsl":9223,"hdg":351.37,"id":"IQO","rwy":"35","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":-0.14750000,"lon":-78.48666700,"rng_nm":10,"alt_fmsl":9223,"id":"IQO","rwy":"35","desc":"GS","gs":3.2},
+{"type":"OM","freq":0,"lat":-0.23305600,"lon":-78.47694400,"rng_nm":0,"alt_fmsl":9223,"id":"----","rwy":"35","desc":"OM"},
+{"type":"MM","freq":0,"lat":-0.17472200,"lon":-78.48305600,"rng_nm":0,"alt_fmsl":9223,"id":"----","rwy":"35","desc":"MM"},
+{"type":"DME","freq":110.5,"lat":-0.14750000,"lon":-78.48666700,"rng_nm":18,"alt_fmsl":9228,"id":"IQO","rwy":"35","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":171.2,"dist_nm":2,"freq":350,"lat":-0.17472200,"lon":-78.48305600,"rng_nm":25,"alt_fmsl":0,"id":"UIO","desc":"QUITO NDB"},
+{"type":"VOR","hdg_t":173.6,"dist_nm":5.6,"freq":114.8,"lat":-0.23561111,"lon":-78.47783333,"rng_nm":130,"alt_fmsl":10033,"id":"QMS","desc":"MONJAS SUR VOR-DME"},
+{"type":"VOR","hdg_t":347.2,"dist_nm":6.2,"freq":115.3,"lat":-0.03861111,"lon":-78.51133333,"rng_nm":130,"alt_fmsl":11778,"id":"QIT","desc":"CONDORCOCHA VOR-DME"},
+{"type":"NDB","hdg_t":73.5,"dist_nm":12.1,"freq":290,"lat":-0.08333300,"lon":-78.29388900,"rng_nm":50,"alt_fmsl":0,"id":"ZUI","desc":"ASCAZUBI NDB"},
+{"type":"NDB","hdg_t":54.7,"dist_nm":31.4,"freq":400,"lat":0.16333333,"lon":-78.06055556,"rng_nm":50,"alt_fmsl":0,"id":"OLM","desc":"OLMEDO NDB"},
+{"type":"VOR","hdg_t":189.4,"dist_nm":47.3,"freq":117.1,"lat":-0.92419444,"lon":-78.61752778,"rng_nm":130,"alt_fmsl":9140,"id":"LTV","desc":"LATACUNGA VOR-DME"},
+{"type":"NDB","hdg_t":141.7,"dist_nm":64,"freq":465,"lat":-0.98416700,"lon":-77.82833300,"rng_nm":300,"alt_fmsl":1708,"id":"TNA","desc":"TENA NDB"},
+{"type":"NDB","hdg_t":184.7,"dist_nm":64.2,"freq":360,"lat":-1.21323900,"lon":-78.57658600,"rng_nm":50,"alt_fmsl":8427,"id":"AMB","desc":"AMBATO NDB"},
+{"type":"NDB","hdg_t":39.8,"dist_nm":75,"freq":418,"lat":0.82388889,"lon":-77.68722222,"rng_nm":50,"alt_fmsl":0,"id":"TLC","desc":"TULCAN NDB"},
+{"type":"NDB","hdg_t":39.3,"dist_nm":77,"freq":244,"lat":0.85598900,"lon":-77.67498300,"rng_nm":25,"alt_fmsl":9760,"id":"SLI","desc":"SAN LUIS NDB"},
+{"type":"VOR","hdg_t":39.3,"dist_nm":77.2,"freq":113.6,"lat":0.85919444,"lon":-77.67325000,"rng_nm":130,"alt_fmsl":9763,"id":"IPI","desc":"IPIALES VOR-DME"},
+{"type":"VOR","hdg_t":161.9,"dist_nm":86.1,"freq":113.1,"lat":-1.51388889,"lon":-78.04472222,"rng_nm":130,"alt_fmsl":3257,"id":"PAV","desc":"PASTAZA VOR-DME"},
+{"type":"NDB","hdg_t":161.9,"dist_nm":86.3,"freq":340,"lat":-1.51622800,"lon":-78.04328300,"rng_nm":100,"alt_fmsl":3465,"id":"PTZ","desc":"PASTAZA NDB"},
+{"type":"NDB","hdg_t":186.3,"dist_nm":90.9,"freq":212,"lat":-1.65527800,"lon":-78.65583300,"rng_nm":50,"alt_fmsl":9151,"id":"RIO","desc":"RIOBAMBA NDB"},
+{"type":"NDB","hdg_t":101.4,"dist_nm":91.5,"freq":322,"lat":-0.44455556,"lon":-76.99594444,"rng_nm":50,"alt_fmsl":0,"id":"COC","desc":"COCA NDB"},
+{"type":"NDB","hdg_t":314,"dist_nm":95.4,"freq":215,"lat":0.97083300,"lon":-79.62944400,"rng_nm":300,"alt_fmsl":32,"id":"ESM","desc":"ESMERALDAS NDB"},
+{"type":"NDB","hdg_t":82.5,"dist_nm":96,"freq":353,"lat":0.06666700,"lon":-76.90333300,"rng_nm":100,"alt_fmsl":0,"id":"LAG","desc":"LAGO AGRIO NDB"},
+{"type":"VOR","hdg_t":314.6,"dist_nm":96.1,"freq":115.7,"lat":0.98908333,"lon":-79.62669444,"rng_nm":130,"alt_fmsl":26,"id":"ESV","desc":"ESMERALDAS VOR-DME"},
+{"type":"NDB","hdg_t":82,"dist_nm":97.5,"freq":412,"lat":0.08388900,"lon":-76.88027800,"rng_nm":50,"alt_fmsl":981,"id":"LAR","desc":"LAGO AGRIO NDB"},
+{"type":"VOR","hdg_t":81.5,"dist_nm":99.1,"freq":112.3,"lat":0.10222222,"lon":-76.85611111,"rng_nm":130,"alt_fmsl":1020,"id":"LAV","desc":"LAGO AGRIO VOR-DME"}
+]
+}

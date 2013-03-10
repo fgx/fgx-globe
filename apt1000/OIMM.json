@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OIMM","name":"Mashhad Intl","lat":36.23525775,"lon":59.6409755,"rwys":2,"ils":1,"index":3923850,"path":"e050n30/e059n36"
+,"runways":[
+{"len_m":3925,"wid_m":45.11,"hdg":133,"surf":"Asphalt","rwy1":"14R","lat1":36.24676700,"lon1":59.62436900,"rwy2":"32L","lat2":36.22236700,"lon2":59.65598900},
+{"len_m":3811,"wid_m":45.11,"hdg":133,"surf":"Asphalt","rwy1":"14L","lat1":36.24779400,"lon1":59.62642200,"rwy2":"32R","lat2":36.22410300,"lon2":59.65712200}
+]
+,"radios":[
+{"type":"ATIS","freq":126.4,"desc":"ATIS"},
+{"type":"TWR","freq":121.9,"desc":"TWR"},
+{"type":"TWR","freq":121.7,"desc":"TWR"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":127.3,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":36.25019400,"lon":59.62330600,"rng_nm":18,"alt_fmsl":3263,"hdg":313.72,"id":"IMSD","rwy":"32R","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":36.22552800,"lon":59.65344400,"rng_nm":10,"alt_fmsl":3264,"id":"IMSD","rwy":"32R","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":36.22552800,"lon":59.65344400,"rng_nm":18,"alt_fmsl":3258,"id":"IMSD","rwy":"32R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":109.3,"dist_nm":0.3,"freq":111.9,"lat":36.23311100,"lon":59.64850000,"rng_nm":130,"alt_fmsl":3246,"id":"MSD","desc":"MASHHAD TACAN"},
+{"type":"NDB","hdg_t":204.7,"dist_nm":0.4,"freq":385,"lat":36.22861100,"lon":59.63719400,"rng_nm":50,"alt_fmsl":3270,"id":"MSD","desc":"MASHHAD NDB"},
+{"type":"VOR","hdg_t":117.7,"dist_nm":0.5,"freq":114,"lat":36.23116700,"lon":59.65058300,"rng_nm":130,"alt_fmsl":3264,"id":"MSD","desc":"MASHHAD VOR-DME"},
+{"type":"NDB","hdg_t":76.9,"dist_nm":71.1,"freq":334,"lat":36.49538900,"lon":61.07413900,"rng_nm":25,"alt_fmsl":945,"id":"SRS","desc":"SARAKHS NDB"},
+{"type":"NDB","hdg_t":268.4,"dist_nm":99.5,"freq":255,"lat":36.17177800,"lon":57.59336100,"rng_nm":75,"alt_fmsl":3010,"id":"SBZ","desc":"SABZEVAR NDB"},
+{"type":"VOR","hdg_t":268.3,"dist_nm":100.5,"freq":117,"lat":36.16983300,"lon":57.57097200,"rng_nm":130,"alt_fmsl":3010,"id":"SBZ","desc":"SABZEVAR VOR-DME"},
+{"type":"NDB","hdg_t":330.6,"dist_nm":118.8,"freq":295,"lat":37.95833300,"lon":58.41333300,"rng_nm":50,"alt_fmsl":0,"id":"PQ","desc":"ASHGABAT NDB"},
+{"type":"VOR","hdg_t":329.8,"dist_nm":121.7,"freq":114.5,"lat":37.98500000,"lon":58.35166700,"rng_nm":130,"alt_fmsl":710,"id":"ASB","desc":"ASHGABAT VOR-DME"},
+{"type":"NDB","hdg_t":329.7,"dist_nm":123,"freq":320,"lat":38.00333300,"lon":58.33500000,"rng_nm":50,"alt_fmsl":0,"id":"GH","desc":"ASHGABAT NDB"},
+{"type":"NDB","hdg_t":329.2,"dist_nm":123.8,"freq":407,"lat":38.00500000,"lon":58.30666700,"rng_nm":50,"alt_fmsl":689,"id":"AD","desc":"ASHGABAT NDB"}
+]
+}

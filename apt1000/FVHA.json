@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"FVHA","name":"Harare Intl","lat":-17.931806,"lon":31.0928475,"rwys":1,"ils":1,"index":3461632,"path":"e030s20/e031s18"
+,"runways":[
+{"len_m":4720,"wid_m":46.02,"hdg":45,"surf":"Asphalt","rwy1":"05","lat1":-17.94688100,"lon1":31.07708900,"rwy2":"23","lat2":-17.91673100,"lon2":31.10860600}
+]
+,"radios":[
+{"type":"GND","freq":127.3,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-17.90992500,"lon":31.11568900,"rng_nm":18,"alt_fmsl":4887,"hdg":44.81,"id":"ISB","rwy":"05","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-17.94572200,"lon":31.07989400,"rng_nm":10,"alt_fmsl":4887,"id":"ISB","rwy":"05","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-17.99427200,"lon":31.02756700,"rng_nm":0,"alt_fmsl":4887,"id":"----","rwy":"05","desc":"OM"},
+{"type":"MM","freq":0,"lat":-17.95376700,"lon":31.06989200,"rng_nm":0,"alt_fmsl":4887,"id":"----","rwy":"05","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":225,"dist_nm":1.8,"freq":330,"lat":-17.95376700,"lon":31.06989200,"rng_nm":25,"alt_fmsl":0,"id":"SI","desc":"HARARE NDB"},
+{"type":"VOR","hdg_t":44.9,"dist_nm":2,"freq":113.1,"lat":-17.90718300,"lon":31.11853900,"rng_nm":130,"alt_fmsl":4887,"id":"VSB","desc":"HARARE VOR-DME"},
+{"type":"NDB","hdg_t":224.9,"dist_nm":5.2,"freq":346,"lat":-17.99427200,"lon":31.02756700,"rng_nm":25,"alt_fmsl":0,"id":"OL","desc":"HARARE NDB"},
+{"type":"NDB","hdg_t":318.5,"dist_nm":14.3,"freq":414,"lat":-17.75138900,"lon":30.92663900,"rng_nm":25,"alt_fmsl":0,"id":"CP","desc":"CHARLES PRINCE NDB"},
+{"type":"NDB","hdg_t":119.9,"dist_nm":16.2,"freq":284,"lat":-18.06731100,"lon":31.33928600,"rng_nm":25,"alt_fmsl":0,"id":"BZ","desc":"HARARE NDB"},
+{"type":"NDB","hdg_t":275.1,"dist_nm":23.6,"freq":373,"lat":-17.89568100,"lon":30.68188300,"rng_nm":25,"alt_fmsl":0,"id":"NZ","desc":"NORTON NDB"},
+{"type":"NDB","hdg_t":21.2,"dist_nm":26.1,"freq":363,"lat":-17.52452800,"lon":31.25784700,"rng_nm":25,"alt_fmsl":0,"id":"KU","desc":"MAKUMBI NDB"},
+{"type":"NDB","hdg_t":230.5,"dist_nm":94.8,"freq":385,"lat":-18.93524000,"lon":29.80465600,"rng_nm":75,"alt_fmsl":0,"id":"RC","desc":"KWEKWE NDB"},
+{"type":"NDB","hdg_t":128.9,"dist_nm":99.2,"freq":379,"lat":-18.97166700,"lon":32.45000000,"rng_nm":25,"alt_fmsl":0,"id":"GR","desc":"MUTARE GRAND REEF NDB"},
+{"type":"NDB","hdg_t":296.1,"dist_nm":100,"freq":341,"lat":-17.18638900,"lon":29.52944400,"rng_nm":25,"alt_fmsl":0,"id":"SL","desc":"SOLERA NDB"}
+]
+}

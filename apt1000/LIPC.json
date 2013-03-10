@@ -1,0 +1,59 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LIPC","name":"Cervia","lat":44.2242935,"lon":12.3072335,"rwys":1,"ils":1,"index":3154313,"path":"e010n40/e012n44"
+,"runways":[
+{"len_m":3048,"wid_m":45.11,"hdg":116,"surf":"Asphalt","rwy1":"12","lat1":44.23036100,"lon1":12.29012500,"rwy2":"30","lat2":44.21822600,"lon2":12.32434200}
+]
+,"radios":[
+{"type":"TWR","freq":122.1,"desc":"TWR"},
+{"type":"APP","freq":118.15,"desc":"ROMAGNA APP"},
+{"type":"APP","freq":122.1,"desc":"ROMAGNA APP"},
+{"type":"APP","freq":118.57,"desc":"ROMAGNA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.35,"lat":44.21744400,"lon":12.32658600,"rng_nm":18,"alt_fmsl":12,"hdg":116.32,"id":"CER","rwy":"12","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.35,"lat":44.22928100,"lon":12.29532500,"rng_nm":10,"alt_fmsl":19,"id":"CER","rwy":"12","desc":"GS","gs":3.01},
+{"type":"DME","freq":110.35,"lat":44.22928100,"lon":12.29532500,"rng_nm":18,"alt_fmsl":18,"id":"CER","rwy":"12","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":116.3,"dist_nm":2.4,"freq":113.6,"lat":44.20646400,"lon":12.35715300,"rng_nm":40,"alt_fmsl":53,"id":"CEV","desc":"CERVIA TACAN"},
+{"type":"NDB","hdg_t":295.4,"dist_nm":6,"freq":387,"lat":44.26766700,"lon":12.18011100,"rng_nm":25,"alt_fmsl":21,"id":"CEV","desc":"CERVIA NDB"},
+{"type":"VOR","hdg_t":260,"dist_nm":10.5,"freq":115.75,"lat":44.19374400,"lon":12.06766300,"rng_nm":40,"alt_fmsl":118,"id":"FOL","desc":"FORLI VOR-DME"},
+{"type":"NDB","hdg_t":135.3,"dist_nm":12.2,"freq":335,"lat":44.07902700,"lon":12.50600000,"rng_nm":75,"alt_fmsl":49,"id":"RIM","desc":"RIMINI NDB"},
+{"type":"NDB","hdg_t":275,"dist_nm":16.5,"freq":423,"lat":44.24813600,"lon":11.92464000,"rng_nm":25,"alt_fmsl":134,"id":"FOR","desc":"FORLI NDB"},
+{"type":"VOR","hdg_t":133,"dist_nm":18.3,"freq":116.2,"lat":44.01512700,"lon":12.61661900,"rng_nm":40,"alt_fmsl":72,"id":"RIM","desc":"RIMINI VORTAC"},
+{"type":"NDB","hdg_t":320.2,"dist_nm":46.1,"freq":427,"lat":44.81444400,"lon":11.61638900,"rng_nm":50,"alt_fmsl":20,"id":"FER","desc":"FERRARA NDB"},
+{"type":"VOR","hdg_t":293.5,"dist_nm":47.5,"freq":117.1,"lat":44.53693700,"lon":11.29055300,"rng_nm":40,"alt_fmsl":154,"id":"BOA","desc":"BOLOGNA VOR-DME"},
+{"type":"NDB","hdg_t":358.7,"dist_nm":50.8,"freq":408,"lat":45.07166700,"lon":12.28138900,"rng_nm":50,"alt_fmsl":0,"id":"CHI","desc":"CHIOGGIA NDB"},
+{"type":"VOR","hdg_t":358.7,"dist_nm":50.8,"freq":114.1,"lat":45.07109200,"lon":12.28139600,"rng_nm":80,"alt_fmsl":33,"id":"CHI","desc":"CHIOGGIA VOR-DME"},
+{"type":"NDB","hdg_t":293.7,"dist_nm":51.8,"freq":413,"lat":44.56722200,"lon":11.20027600,"rng_nm":60,"alt_fmsl":95,"id":"BOA","desc":"BOLOGNA NDB"},
+{"type":"VOR","hdg_t":242.9,"dist_nm":53.9,"freq":112.5,"lat":43.80986786,"lon":11.20049953,"rng_nm":130,"alt_fmsl":121,"id":"PRT","desc":"PERETOLA VOR-DME"},
+{"type":"VOR","hdg_t":258.6,"dist_nm":57.5,"freq":115.2,"lat":44.02718100,"lon":11.00331400,"rng_nm":200,"alt_fmsl":4350,"id":"FRZ","desc":"FIRENZE VORTAC"},
+{"type":"NDB","hdg_t":127.3,"dist_nm":58.4,"freq":357,"lat":43.62822200,"lon":13.37352800,"rng_nm":25,"alt_fmsl":13,"id":"FAL","desc":"FALCONARA NDB"},
+{"type":"NDB","hdg_t":126.7,"dist_nm":63.3,"freq":374,"lat":43.58666700,"lon":13.47222200,"rng_nm":100,"alt_fmsl":797,"id":"ANC","desc":"ANCONA NDB"},
+{"type":"VOR","hdg_t":126.7,"dist_nm":63.3,"freq":110.65,"lat":43.58638900,"lon":13.47111100,"rng_nm":100,"alt_fmsl":843,"id":"ANC","desc":"ANCONA VOR-DME"},
+{"type":"NDB","hdg_t":172.4,"dist_nm":67.9,"freq":398,"lat":43.10197200,"lon":12.51072200,"rng_nm":50,"alt_fmsl":669,"id":"PRU","desc":"PERUGIA NDB"},
+{"type":"VOR","hdg_t":172.3,"dist_nm":67.9,"freq":109.4,"lat":43.10171000,"lon":12.51188400,"rng_nm":50,"alt_fmsl":709,"id":"PRU","desc":"PERUGIA VOR-DME"},
+{"type":"NDB","hdg_t":344.4,"dist_nm":73,"freq":332,"lat":45.39669400,"lon":11.84472200,"rng_nm":25,"alt_fmsl":0,"id":"PDA","desc":"PADOVA NDB"},
+{"type":"NDB","hdg_t":359,"dist_nm":73.5,"freq":379,"lat":45.44910800,"lon":12.27691700,"rng_nm":25,"alt_fmsl":0,"id":"VEN","desc":"VENEZIA NDB"},
+{"type":"NDB","hdg_t":56.7,"dist_nm":73.7,"freq":351,"lat":44.88920800,"lon":13.75351700,"rng_nm":50,"alt_fmsl":27,"id":"PLA","desc":"PULA NDB"},
+{"type":"VOR","hdg_t":218.5,"dist_nm":74.1,"freq":110.2,"lat":43.25281700,"lon":11.25268600,"rng_nm":25,"alt_fmsl":636,"id":"SIE","desc":"SIENA VOR-DME"},
+{"type":"VOR","hdg_t":1.8,"dist_nm":77.7,"freq":115.3,"lat":45.51897900,"lon":12.36814600,"rng_nm":40,"alt_fmsl":29,"id":"TES","desc":"TESSERA VOR-DME"},
+{"type":"VOR","hdg_t":59.3,"dist_nm":79.8,"freq":111.25,"lat":44.89236700,"lon":13.91812800,"rng_nm":100,"alt_fmsl":189,"id":"PUL","desc":"PULA VOR-DME"},
+{"type":"NDB","hdg_t":43.6,"dist_nm":82.4,"freq":369,"lat":45.21018300,"lon":13.64897500,"rng_nm":25,"alt_fmsl":236,"id":"VRS","desc":"VRSAR NDB"},
+{"type":"NDB","hdg_t":60.5,"dist_nm":83.3,"freq":265,"lat":44.89535300,"lon":14.00823900,"rng_nm":50,"alt_fmsl":56,"id":"KAV","desc":"KAVRAN NDB"},
+{"type":"NDB","hdg_t":353.9,"dist_nm":84.3,"freq":301,"lat":45.62247000,"lon":12.09563800,"rng_nm":25,"alt_fmsl":61,"id":"TRE","desc":"TREVISO NDB"},
+{"type":"SDME","hdg_t":354.7,"dist_nm":88.1,"freq":111.7,"lat":45.68750000,"lon":12.11694400,"rng_nm":25,"alt_fmsl":189,"id":"ISA","desc":"ISTRANA TACAN"},
+{"type":"NDB","hdg_t":357.8,"dist_nm":88.5,"freq":340,"lat":45.69858300,"lon":12.22836100,"rng_nm":50,"alt_fmsl":75,"id":"ISA","desc":"ISTRANA NDB"},
+{"type":"NDB","hdg_t":342.5,"dist_nm":88.9,"freq":417,"lat":45.63694400,"lon":11.67472200,"rng_nm":50,"alt_fmsl":150,"id":"VIC","desc":"VICENZA NDB"},
+{"type":"VOR","hdg_t":342.6,"dist_nm":88.9,"freq":113.4,"lat":45.63719900,"lon":11.67637600,"rng_nm":80,"alt_fmsl":213,"id":"VIC","desc":"VICENZA VOR-DME"},
+{"type":"VOR","hdg_t":249.1,"dist_nm":89.3,"freq":112.1,"lat":43.67719700,"lon":10.39055100,"rng_nm":40,"alt_fmsl":39,"id":"PIS","desc":"PISA VOR-DME"},
+{"type":"VOR","hdg_t":320.3,"dist_nm":92.8,"freq":115.8,"lat":45.40791700,"lon":10.90622200,"rng_nm":60,"alt_fmsl":239,"id":"VIL","desc":"VILLAFRANCA VORTAC"},
+{"type":"NDB","hdg_t":309.4,"dist_nm":93.5,"freq":382,"lat":45.20169400,"lon":10.60413900,"rng_nm":25,"alt_fmsl":109,"id":"GAZ","desc":"GAZOLDO NDB"},
+{"type":"NDB","hdg_t":293.2,"dist_nm":93.5,"freq":306,"lat":44.82228851,"lon":10.29326916,"rng_nm":50,"alt_fmsl":163,"id":"PAR","desc":"PARMA NDB"},
+{"type":"NDB","hdg_t":36.1,"dist_nm":93.6,"freq":388,"lat":45.47746400,"lon":13.61492200,"rng_nm":25,"alt_fmsl":10,"id":"PZ","desc":"PORTOROZ NDB"},
+{"type":"NDB","hdg_t":78.2,"dist_nm":94.9,"freq":429,"lat":44.52709700,"lon":14.47284700,"rng_nm":50,"alt_fmsl":239,"id":"LOS","desc":"LOSINJ NDB"},
+{"type":"NDB","hdg_t":247,"dist_nm":95.1,"freq":379,"lat":43.58922100,"lon":10.29708200,"rng_nm":25,"alt_fmsl":1,"id":"PIS","desc":"PISA NDB"},
+{"type":"VOR","hdg_t":186.7,"dist_nm":97,"freq":114.4,"lat":42.61833300,"lon":12.04861100,"rng_nm":100,"alt_fmsl":2080,"id":"BOL","desc":"BOLSENA VORTAC"},
+{"type":"NDB","hdg_t":65,"dist_nm":99.2,"freq":433,"lat":44.90288100,"lon":14.41654700,"rng_nm":50,"alt_fmsl":0,"id":"CRE","desc":"CRES NDB"}
+]
+}

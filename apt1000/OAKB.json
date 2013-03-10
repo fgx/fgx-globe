@@ -1,0 +1,36 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OAKB","name":"Kabul Intl","lat":34.56467745875,"lon":69.21228745,"rwys":1,"ils":1,"index":4087584,"path":"e060n30/e069n34"
+,"runways":[
+{"len_m":3505,"wid_m":49.99,"hdg":107,"surf":"Asphalt","rwy1":"11","lat1":34.57058025,"lon1":69.19405600,"rwy2":"29","lat2":34.56116970,"lon2":69.23052232}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":21,"wid_m":21.03,"hdg":69,"surf":"Asphalt","lat1":34.56074018,"lon1":69.22505671},
+{"rwy1":"H2","len_m":21,"wid_m":21.03,"hdg":69,"surf":"Asphalt","lat1":34.56229765,"lon1":69.21343692},
+{"rwy1":"H3","len_m":21,"wid_m":21.03,"hdg":69,"surf":"Asphalt","lat1":34.56371713,"lon1":69.20902296},
+{"rwy1":"H4","len_m":21,"wid_m":21.03,"hdg":69,"surf":"Asphalt","lat1":34.56549361,"lon1":69.20346657},
+{"rwy1":"H5","len_m":21,"wid_m":21.03,"hdg":69,"surf":"Asphalt","lat1":34.56684899,"lon1":69.19921649},
+{"rwy1":"H6","len_m":21,"wid_m":21.03,"hdg":69,"surf":"Asphalt","lat1":34.56576813,"lon1":69.21966211},
+{"rwy1":"H7","len_m":21,"wid_m":21.03,"hdg":69,"surf":"Asphalt","lat1":34.56667900,"lon1":69.21614868}
+]
+,"radios":[
+{"type":"GND","freq":120.32,"desc":"Ground Control"},
+{"type":"TWR","freq":118.1,"desc":"Kabul Tower"},
+{"type":"APP","freq":133.35,"desc":"Bagram Approach Control"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":34.57119400,"lon":69.19152800,"rng_nm":18,"alt_fmsl":5962,"hdg":287.33,"id":"OAKB","rwy":"29","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.5,"lat":34.56294400,"lon":69.22808300,"rng_nm":10,"alt_fmsl":5943,"id":"OAKB","rwy":"29","desc":"GS","gs":3.85}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":106.4,"dist_nm":4,"freq":112,"lat":34.54561100,"lon":69.29038900,"rng_nm":40,"alt_fmsl":5879,"id":"KBL","desc":"KABUL VOR-DME"},
+{"type":"SDME","hdg_t":6.1,"dist_nm":22.7,"freq":115.8,"lat":34.94300000,"lon":69.26150000,"rng_nm":25,"alt_fmsl":4907,"id":"BGM","desc":"BAGRAM TACAN"},
+{"type":"NDB","hdg_t":132.4,"dist_nm":58.2,"freq":273,"lat":33.90540000,"lon":70.07245000,"rng_nm":25,"alt_fmsl":5802,"id":"PC","desc":"PARACHINAR NDB"},
+{"type":"NDB","hdg_t":145.1,"dist_nm":115.4,"freq":257,"lat":32.97638900,"lon":70.52094400,"rng_nm":50,"alt_fmsl":1325,"id":"BN","desc":"BANNU NDB"},
+{"type":"NDB","hdg_t":105.9,"dist_nm":118.9,"freq":308,"lat":33.99583300,"lon":71.50444400,"rng_nm":150,"alt_fmsl":1257,"id":"PS","desc":"PESHAWAR NDB"},
+{"type":"VOR","hdg_t":106.4,"dist_nm":119.9,"freq":114.3,"lat":33.97537200,"lon":71.51715600,"rng_nm":130,"alt_fmsl":1257,"id":"PS","desc":"PESHAWAR VOR-DME"},
+{"type":"NDB","hdg_t":83.7,"dist_nm":156,"freq":357,"lat":34.80895000,"lon":72.35222200,"rng_nm":50,"alt_fmsl":0,"id":"SS","desc":"SAIDU SHARIF NDB"},
+{"type":"NDB","hdg_t":134.7,"dist_nm":168,"freq":240,"lat":32.56627800,"lon":71.56616500,"rng_nm":75,"alt_fmsl":0,"id":"MI","desc":"MIANWALI NDB"},
+{"type":"VOR","hdg_t":151.6,"dist_nm":179.7,"freq":113.1,"lat":31.91263900,"lon":70.88567500,"rng_nm":130,"alt_fmsl":594,"id":"DI","desc":"D I KHAN VOR"},
+{"type":"NDB","hdg_t":151.5,"dist_nm":180,"freq":286,"lat":31.90871100,"lon":70.88848900,"rng_nm":150,"alt_fmsl":685,"id":"DI","desc":"D I KHAN NDB"}
+]
+}

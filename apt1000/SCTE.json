@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SCTE","name":"El Tepual Intl","lat":-41.4388875,"lon":-73.09395556,"rwys":1,"ils":1,"index":1739811,"path":"w080s50/w074s42"
+,"runways":[
+{"len_m":2655,"wid_m":45.11,"hdg":181,"surf":"Concrete","rwy1":"17","lat1":-41.42693611,"lon1":-73.09353056,"rwy2":"35","lat2":-41.45083889,"lon2":-73.09438056}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"PUERTO MONTT TWR"},
+{"type":"APP","freq":123.7,"desc":"PUERTO MONTT APP"},
+{"type":"APP","freq":128.3,"desc":"PUERTO MONTT APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":-41.42571700,"lon":-73.09348600,"rng_nm":18,"alt_fmsl":264,"hdg":1.53,"id":"IMON","rwy":"35","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":-41.44752500,"lon":-73.09570300,"rng_nm":10,"alt_fmsl":317,"id":"IMON","rwy":"35","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-41.52500000,"lon":-73.09694400,"rng_nm":0,"alt_fmsl":264,"id":"----","rwy":"35","desc":"OM"},
+{"type":"DME","freq":115.7,"lat":-41.42583300,"lon":-73.09361100,"rng_nm":18,"alt_fmsl":294,"id":"IMON","rwy":"35","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":77.6,"dist_nm":0.3,"freq":400,"lat":-41.43777800,"lon":-73.08722200,"rng_nm":150,"alt_fmsl":294,"id":"TEP","desc":"PUERTO MONTT NDB"},
+{"type":"VOR","hdg_t":8.8,"dist_nm":0.5,"freq":115.7,"lat":-41.42916700,"lon":-73.09194400,"rng_nm":130,"alt_fmsl":285,"id":"MON","desc":"PUERTO MONTT VOR-DME"},
+{"type":"NDB","hdg_t":181.5,"dist_nm":1.2,"freq":305,"lat":-41.46055600,"lon":-73.09472200,"rng_nm":25,"alt_fmsl":0,"id":"ON","desc":"EL TEPUAL NDB"},
+{"type":"NDB","hdg_t":181.4,"dist_nm":5.1,"freq":325,"lat":-41.52500000,"lon":-73.09694400,"rng_nm":50,"alt_fmsl":0,"id":"MO","desc":"TRAPEN NDB"},
+{"type":"NDB","hdg_t":2.4,"dist_nm":48.4,"freq":225,"lat":-40.63111100,"lon":-73.04861100,"rng_nm":25,"alt_fmsl":0,"id":"OSO","desc":"OSORNO NDB"},
+{"type":"VOR","hdg_t":2,"dist_nm":49.3,"freq":116.5,"lat":-40.61583300,"lon":-73.05611100,"rng_nm":40,"alt_fmsl":177,"id":"OSO","desc":"OSORNO VOR-DME"},
+{"type":"NDB","hdg_t":77.8,"dist_nm":85.5,"freq":330,"lat":-41.12420800,"lon":-71.24851400,"rng_nm":25,"alt_fmsl":0,"id":"OB","desc":"SAN CARLOS DE BARILOCHE NDB"},
+{"type":"VOR","hdg_t":78.8,"dist_nm":88,"freq":117.4,"lat":-41.14027800,"lon":-71.18888900,"rng_nm":175,"alt_fmsl":2776,"id":"BAR","desc":"SAN CARLOS DE BARILOCHE VOR-DME"},
+{"type":"NDB","hdg_t":79,"dist_nm":88.2,"freq":305,"lat":-41.14264400,"lon":-71.18251400,"rng_nm":25,"alt_fmsl":2774,"id":"B","desc":"SAN CARLOS DE BARILOCHE NDB"},
+{"type":"NDB","hdg_t":169.3,"dist_nm":90.7,"freq":234,"lat":-42.92472200,"lon":-72.71527800,"rng_nm":150,"alt_fmsl":0,"id":"TEN","desc":"CHAITEN NDB"}
+]
+}

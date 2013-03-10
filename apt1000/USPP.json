@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"USPP","name":"Bolshoye Savino","lat":57.914517,"lon":56.021214,"rwys":1,"ils":1,"index":3876088,"path":"e050n50/e056n57"
+,"runways":[
+{"len_m":3205,"wid_m":49.07,"hdg":45,"surf":"Concrete","rwy1":"03","lat1":57.90451700,"lon1":56.00176700,"rwy2":"21","lat2":57.92451700,"lon2":56.04066100}
+]
+,"radios":[
+{"type":"ATIS","freq":126.4,"desc":"PERM ATIS"},
+{"type":"GND","freq":121.7,"desc":"PERM TAXIING"},
+{"type":"TWR","freq":124,"desc":"PREM START"},
+{"type":"APP","freq":127.1,"desc":"PERM APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":57.90000000,"lon":55.99833300,"rng_nm":18,"alt_fmsl":404,"hdg":222.51,"id":"IPX","rwy":"21","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":57.92333300,"lon":56.03666700,"rng_nm":10,"alt_fmsl":150,"id":"IPX","rwy":"21","desc":"GS","gs":2.7},
+{"type":"OM","freq":0,"lat":57.95000000,"lon":56.09000000,"rng_nm":0,"alt_fmsl":404,"id":"----","rwy":"21","desc":"OM"},
+{"type":"MM","freq":0,"lat":57.93166700,"lon":56.05500000,"rng_nm":0,"alt_fmsl":404,"id":"----","rwy":"21","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":225.5,"dist_nm":2.8,"freq":705,"lat":57.88166700,"lon":55.95833300,"rng_nm":80,"alt_fmsl":0,"id":"BK","desc":"PERM NDB"},
+{"type":"NDB","hdg_t":45.8,"dist_nm":3,"freq":705,"lat":57.95000000,"lon":56.09000000,"rng_nm":80,"alt_fmsl":0,"id":"PX","desc":"PERM NDB"},
+{"type":"NDB","hdg_t":134.9,"dist_nm":22.2,"freq":672,"lat":57.65166700,"lon":56.51000000,"rng_nm":80,"alt_fmsl":0,"id":"KT","desc":"KUKUSHTAN NDB"},
+{"type":"NDB","hdg_t":294.9,"dist_nm":36.5,"freq":940,"lat":58.16666700,"lon":54.97833300,"rng_nm":80,"alt_fmsl":0,"id":"MN","desc":"MENDELEYEVO NDB"},
+{"type":"NDB","hdg_t":121.6,"dist_nm":117.7,"freq":435,"lat":56.85000000,"lon":59.06666700,"rng_nm":80,"alt_fmsl":0,"id":"BI","desc":"BISERT NDB"},
+{"type":"NDB","hdg_t":129.5,"dist_nm":134.4,"freq":825,"lat":56.45000000,"lon":59.13333300,"rng_nm":80,"alt_fmsl":0,"id":"MH","desc":"MIKHAYLOVSK NDB"},
+{"type":"NDB","hdg_t":194.7,"dist_nm":151.2,"freq":380,"lat":55.47583300,"lon":54.89361100,"rng_nm":80,"alt_fmsl":0,"id":"DT","desc":"DYURTYULI NDB"},
+{"type":"NDB","hdg_t":132.2,"dist_nm":161.9,"freq":350,"lat":56.05000000,"lon":59.58333300,"rng_nm":80,"alt_fmsl":0,"id":"NZ","desc":"NYAZEPETROVSK NDB"},
+{"type":"NDB","hdg_t":112.7,"dist_nm":168.1,"freq":786,"lat":56.74500000,"lon":60.71833300,"rng_nm":80,"alt_fmsl":0,"id":"EL","desc":"YEKATERINBURG NDB"},
+{"type":"NDB","hdg_t":112.7,"dist_nm":168.1,"freq":370,"lat":56.74500000,"lon":60.72000000,"rng_nm":80,"alt_fmsl":0,"id":"KQ","desc":"YEKATERINBURG NDB"}
+]
+}

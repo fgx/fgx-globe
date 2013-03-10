@@ -1,0 +1,37 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"FACT","name":"Cape Town International","lat":-33.970501,"lon":18.6044045,"rwys":2,"ils":2,"index":3247618,"path":"e010s40/e018s34"
+,"runways":[
+{"len_m":3200,"wid_m":60.96,"hdg":345,"surf":"Asphalt","rwy1":"01","lat1":-33.98801792,"lon1":18.60902345,"rwy2":"19","lat2":-33.96011808,"lon2":18.60017855},
+{"len_m":1701,"wid_m":46.02,"hdg":135,"surf":"Asphalt","rwy1":"16","lat1":-33.96148864,"lon1":18.59772199,"rwy2":"34","lat2":-33.97237936,"lon2":18.61069401}
+]
+,"radios":[
+{"type":"ATIS","freq":127,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.7,"desc":"ARSA RDR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-33.95669200,"lon":18.59905100,"rng_nm":18,"alt_fmsl":151,"hdg":345.21,"id":"CTI","rwy":"01","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.1,"lat":-33.99015000,"lon":18.60965900,"rng_nm":18,"alt_fmsl":151,"hdg":165.33,"id":"KSI","rwy":"19","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-33.98434100,"lon":18.60950900,"rng_nm":10,"alt_fmsl":151,"id":"CTI","rwy":"01","desc":"GS","gs":3},
+{"type":"GS","freq":109.1,"lat":-33.96259300,"lon":18.60226100,"rng_nm":10,"alt_fmsl":151,"id":"KSI","rwy":"19","desc":"GS","gs":3.2},
+{"type":"OM","freq":0,"lat":-33.87612500,"lon":18.57329200,"rng_nm":0,"alt_fmsl":151,"id":"----","rwy":"19","desc":"OM"},
+{"type":"DME","freq":110.3,"lat":-33.98434200,"lon":18.60950800,"rng_nm":18,"alt_fmsl":151,"id":"CT","rwy":"01","desc":"DME-ILS"},
+{"type":"DME","freq":109.1,"lat":-33.96259200,"lon":18.60226100,"rng_nm":18,"alt_fmsl":151,"id":"KS","rwy":"19","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":28.1,"dist_nm":0,"freq":115.7,"lat":-33.96953300,"lon":18.60502500,"rng_nm":100,"alt_fmsl":151,"id":"CTV","desc":"CAPE TOWN VORTAC"},
+{"type":"NDB","hdg_t":344.6,"dist_nm":5.8,"freq":462,"lat":-33.87612900,"lon":18.57329000,"rng_nm":25,"alt_fmsl":0,"id":"CB","desc":"Cape Town NDB"},
+{"type":"VOR","hdg_t":310.4,"dist_nm":15.7,"freq":117.6,"lat":-33.79956900,"lon":18.36447200,"rng_nm":100,"alt_fmsl":39,"id":"RIV","desc":"ROBBEN ISLAND VOR-DME"},
+{"type":"VOR","hdg_t":351.6,"dist_nm":43.6,"freq":113,"lat":-33.24928600,"lon":18.47812500,"rng_nm":100,"alt_fmsl":217,"id":"SVV","desc":"SOMERSVELD VOR"},
+{"type":"NDB","hdg_t":41.3,"dist_nm":44.2,"freq":247,"lat":-33.41391700,"lon":19.18690300,"rng_nm":100,"alt_fmsl":0,"id":"WY","desc":"WOLSELEY NDB"},
+{"type":"NDB","hdg_t":65.8,"dist_nm":44.5,"freq":335,"lat":-33.66333300,"lon":19.41666700,"rng_nm":50,"alt_fmsl":0,"id":"WC","desc":"WORCESTER NDB"},
+{"type":"NDB","hdg_t":96.2,"dist_nm":50,"freq":270,"lat":-34.05732800,"lon":19.60325000,"rng_nm":60,"alt_fmsl":0,"id":"GE","desc":"GREYTON NDB"},
+{"type":"VOR","hdg_t":339.3,"dist_nm":63.1,"freq":117,"lat":-32.98285600,"lon":18.16387200,"rng_nm":100,"alt_fmsl":106,"id":"LWV","desc":"LANGEBAANWEG VORTAC"},
+{"type":"NDB","hdg_t":338.7,"dist_nm":63.5,"freq":345,"lat":-32.98087200,"lon":18.14899700,"rng_nm":75,"alt_fmsl":0,"id":"LW","desc":"LANGEBAANWEG NDB"},
+{"type":"NDB","hdg_t":358.7,"dist_nm":75.1,"freq":267,"lat":-32.71666700,"lon":18.57166700,"rng_nm":50,"alt_fmsl":0,"id":"KK","desc":"KAPTEINSKOP NDB"},
+{"type":"VOR","hdg_t":113.6,"dist_nm":88.9,"freq":115.4,"lat":-34.55611900,"lon":20.24713900,"rng_nm":100,"alt_fmsl":43,"id":"OBV","desc":"OVERBERG VORTAC"},
+{"type":"NDB","hdg_t":114.6,"dist_nm":91.5,"freq":427,"lat":-34.59562200,"lon":20.28484400,"rng_nm":50,"alt_fmsl":22,"id":"OB","desc":"OVERBERG NDB"},
+{"type":"VOR","hdg_t":94.3,"dist_nm":96.8,"freq":114.4,"lat":-34.07722200,"lon":20.54305600,"rng_nm":100,"alt_fmsl":0,"id":"SWV","desc":"SWELLENDAM VOR"}
+]
+}

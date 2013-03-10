@@ -1,0 +1,37 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SBPA","name":"Salgado Filho","lat":-29.994428,"lon":-51.17142596,"rwys":1,"ils":1,"index":2100995,"path":"w060s30/w052s30"
+,"runways":[
+{"len_m":2285,"wid_m":42.06,"hdg":91,"surf":"Asphalt","rwy1":"11","lat1":-29.99414205,"lon1":-51.18326698,"rwy2":"29","lat2":-29.99471395,"lon2":-51.15958495}
+]
+,"radios":[
+{"type":"ATIS","freq":127.85,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"PALEGRE TWR"},
+{"type":"APP","freq":119,"desc":"PALEGRE APP"},
+{"type":"APP","freq":120.1,"desc":"PALEGRE APP"},
+{"type":"APP","freq":120.55,"desc":"PALEGRE APP"},
+{"type":"APP","freq":128.9,"desc":"PALEGRE APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-29.99450000,"lon":-51.15783300,"rng_nm":18,"alt_fmsl":11,"hdg":90.92,"id":"IPA","rwy":"11","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-29.99533300,"lon":-51.17983300,"rng_nm":10,"alt_fmsl":11,"id":"IPA","rwy":"11","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-29.99300000,"lon":-51.28166700,"rng_nm":0,"alt_fmsl":11,"id":"----","rwy":"11","desc":"OM"},
+{"type":"MM","freq":0,"lat":-29.99400000,"lon":-51.19583300,"rng_nm":0,"alt_fmsl":11,"id":"----","rwy":"11","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":301,"dist_nm":0.1,"freq":330,"lat":-29.99316700,"lon":-51.17383300,"rng_nm":50,"alt_fmsl":11,"id":"PAG","desc":"PORTO ALEGRE NDB"},
+{"type":"VOR","hdg_t":106,"dist_nm":0.3,"freq":114,"lat":-29.99600000,"lon":-51.16516700,"rng_nm":160,"alt_fmsl":11,"id":"POR","desc":"PORTO ALEGRE VOR-DME"},
+{"type":"NDB","hdg_t":271.1,"dist_nm":1.2,"freq":395,"lat":-29.99400000,"lon":-51.19583300,"rng_nm":25,"alt_fmsl":0,"id":"IA","desc":"PESTANA NDB"},
+{"type":"NDB","hdg_t":91.7,"dist_nm":1.4,"freq":315,"lat":-29.99516700,"lon":-51.14333300,"rng_nm":50,"alt_fmsl":11,"id":"PA","desc":"SALGADO NDB"},
+{"type":"VOR","hdg_t":26.6,"dist_nm":2.9,"freq":113.6,"lat":-29.95016100,"lon":-51.14590300,"rng_nm":130,"alt_fmsl":26,"id":"COA","desc":"CANOAS VOR-DME"},
+{"type":"NDB","hdg_t":30.8,"dist_nm":3.4,"freq":250,"lat":-29.94466700,"lon":-51.13733300,"rng_nm":50,"alt_fmsl":26,"id":"OAS","desc":"CANOAS NDB"},
+{"type":"NDB","hdg_t":270.8,"dist_nm":5.7,"freq":345,"lat":-29.99300000,"lon":-51.28166700,"rng_nm":50,"alt_fmsl":0,"id":"IP","desc":"GUAIBA NDB"},
+{"type":"NDB","hdg_t":91.3,"dist_nm":10.2,"freq":275,"lat":-29.99816700,"lon":-50.97516700,"rng_nm":50,"alt_fmsl":0,"id":"FGR","desc":"FIGUEIRAS NDB"},
+{"type":"NDB","hdg_t":46.2,"dist_nm":28.1,"freq":360,"lat":-29.66850000,"lon":-50.78183300,"rng_nm":50,"alt_fmsl":0,"id":"TQA","desc":"TAQUARA NDB"},
+{"type":"NDB","hdg_t":289.4,"dist_nm":36.5,"freq":265,"lat":-29.78966700,"lon":-51.83083300,"rng_nm":60,"alt_fmsl":0,"id":"KRI","desc":"QUARI NDB"},
+{"type":"VOR","hdg_t":358.9,"dist_nm":47.6,"freq":112.3,"lat":-29.19800000,"lon":-51.18866700,"rng_nm":130,"alt_fmsl":2472,"id":"CXS","desc":"DO SUL VOR-DME"},
+{"type":"NDB","hdg_t":356.2,"dist_nm":51,"freq":1690,"lat":-29.14400000,"lon":-51.23416700,"rng_nm":50,"alt_fmsl":0,"id":"CXS","desc":"DO SUL NDB"},
+{"type":"NDB","hdg_t":90.3,"dist_nm":53.4,"freq":300,"lat":-29.99633300,"lon":-50.14500000,"rng_nm":300,"alt_fmsl":0,"id":"FB","desc":"TRAMANDAI NDB"},
+{"type":"NDB","hdg_t":64.3,"dist_nm":79.3,"freq":230,"lat":-29.41433100,"lon":-49.80671900,"rng_nm":25,"alt_fmsl":93,"id":"TOR","desc":"TORRES NDB"}
+]
+}

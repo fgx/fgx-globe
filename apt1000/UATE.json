@@ -1,0 +1,38 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UATE","name":"Aktau","lat":43.859388025,"lon":51.0911122,"rwys":2,"ils":2,"index":3793264,"path":"e050n40/e051n43"
+,"runways":[
+{"len_m":2969,"wid_m":46.02,"hdg":122,"surf":"Dirt","rwy1":"12L","lat1":43.86762114,"lon1":51.07689987,"rwy2":"30R","lat2":43.85307850,"lon2":51.10789245},
+{"len_m":2644,"wid_m":45.11,"hdg":122,"surf":"Asphalt","rwy1":"12","lat1":43.86656627,"lon1":51.07683355,"rwy2":"30","lat2":43.85370423,"lon2":51.10451323}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":29,"wid_m":29.87,"hdg":51,"surf":"Concrete","lat1":43.85994873,"lon1":51.08672934},
+{"rwy1":"H2","len_m":21,"wid_m":24.08,"hdg":51,"surf":"Asphalt","lat1":43.85711830,"lon1":51.09464991}
+]
+,"radios":[
+{"type":"ATIS","freq":130.1,"desc":"ATIS"},
+{"type":"TWR","freq":120.7,"desc":"TWR"},
+{"type":"APP","freq":124.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":43.84810800,"lon":51.11777200,"rng_nm":18,"alt_fmsl":73,"hdg":122.03,"id":"IAU","rwy":"12","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.1,"lat":43.87184200,"lon":51.06649700,"rng_nm":18,"alt_fmsl":73,"hdg":303.48,"id":"ITA","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":43.86602200,"lon":51.08280300,"rng_nm":10,"alt_fmsl":73,"id":"IAU","rwy":"12","desc":"GS","gs":3},
+{"type":"GS","freq":111.1,"lat":43.85636700,"lon":51.10366900,"rng_nm":10,"alt_fmsl":73,"id":"ITA","rwy":"30","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":43.88629400,"lon":51.03521900,"rng_nm":0,"alt_fmsl":73,"id":"----","rwy":"12","desc":"OM"},
+{"type":"OM","freq":0,"lat":43.83431100,"lon":51.14724200,"rng_nm":0,"alt_fmsl":73,"id":"----","rwy":"30","desc":"OM"},
+{"type":"MM","freq":0,"lat":43.87222200,"lon":51.06561100,"rng_nm":0,"alt_fmsl":73,"id":"----","rwy":"12","desc":"MM"},
+{"type":"MM","freq":0,"lat":43.84790000,"lon":51.11830800,"rng_nm":0,"alt_fmsl":73,"id":"----","rwy":"30","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":95.6,"dist_nm":0.4,"freq":113.3,"lat":43.85861100,"lon":51.10194400,"rng_nm":130,"alt_fmsl":59,"id":"AKT","desc":"AKTAU VOR-DME"},
+{"type":"NDB","hdg_t":121.6,"dist_nm":2.8,"freq":670,"lat":43.83431100,"lon":51.14724200,"rng_nm":50,"alt_fmsl":0,"id":"TA","desc":"AKTAU NDB"},
+{"type":"NDB","hdg_t":303.6,"dist_nm":2.9,"freq":670,"lat":43.88629400,"lon":51.03521900,"rng_nm":50,"alt_fmsl":0,"id":"AU","desc":"AKTAU NDB"},
+{"type":"NDB","hdg_t":247.6,"dist_nm":162.7,"freq":365,"lat":42.77500000,"lon":47.68500000,"rng_nm":80,"alt_fmsl":0,"id":"SM","desc":"MAKHACHKALA NDB"},
+{"type":"NDB","hdg_t":249.5,"dist_nm":163.4,"freq":365,"lat":42.85500000,"lon":47.62000000,"rng_nm":80,"alt_fmsl":0,"id":"HC","desc":"MAKHACHKALA NDB"},
+{"type":"NDB","hdg_t":252.4,"dist_nm":164.7,"freq":822,"lat":42.97500000,"lon":47.52333300,"rng_nm":80,"alt_fmsl":0,"id":"TA","desc":"MAKHACHKALA NDB"},
+{"type":"NDB","hdg_t":323.8,"dist_nm":174.7,"freq":905,"lat":46.18333300,"lon":48.61666700,"rng_nm":80,"alt_fmsl":0,"id":"ZG","desc":"ZELENGA NDB"},
+{"type":"NDB","hdg_t":307.9,"dist_nm":186.1,"freq":722,"lat":45.71666700,"lon":47.60000000,"rng_nm":80,"alt_fmsl":0,"id":"YO","desc":"BIRYUCHA KOSA NDB"},
+{"type":"NDB","hdg_t":271,"dist_nm":189.9,"freq":455,"lat":43.83333300,"lon":46.71666700,"rng_nm":80,"alt_fmsl":0,"id":"KZ","desc":"KIZLYAR NDB"},
+{"type":"NDB","hdg_t":319.5,"dist_nm":193.6,"freq":650,"lat":46.27666700,"lon":48.07333300,"rng_nm":80,"alt_fmsl":0,"id":"BJ","desc":"ASTRAKHAN NDB"}
+]
+}

@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LCLK","name":"Larnaca","lat":34.8751155,"lon":33.624832,"rwys":1,"ils":1,"index":3497786,"path":"e030n30/e033n34"
+,"runways":[
+{"len_m":2977,"wid_m":45.11,"hdg":45,"surf":"Asphalt","rwy1":"04","lat1":34.86567500,"lon1":33.61326100,"rwy2":"22","lat2":34.88455600,"lon2":33.63640300}
+]
+,"radios":[
+{"type":"TWR","freq":119.4,"desc":"TWR"},
+{"type":"APP","freq":121.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":34.86166700,"lon":33.60833300,"rng_nm":18,"alt_fmsl":8,"hdg":225.17,"id":"ILC","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":34.87983300,"lon":33.63250000,"rng_nm":10,"alt_fmsl":24,"id":"ILC","rwy":"22","desc":"GS","gs":2.75},
+{"type":"DME","freq":110.3,"lat":34.87983300,"lon":33.63250000,"rng_nm":18,"alt_fmsl":20,"id":"ILC","rwy":"22","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":139.6,"dist_nm":0.1,"freq":112.8,"lat":34.87333300,"lon":33.62666700,"rng_nm":200,"alt_fmsl":20,"id":"LCA","desc":"LARNACA VOR-DME"},
+{"type":"NDB","hdg_t":227.1,"dist_nm":4.7,"freq":432,"lat":34.82166700,"lon":33.55500000,"rng_nm":150,"alt_fmsl":8,"id":"LCA","desc":"LARNACA NDB"},
+{"type":"NDB","hdg_t":39.6,"dist_nm":8.3,"freq":343,"lat":34.98223100,"lon":33.73284200,"rng_nm":50,"alt_fmsl":0,"id":"DKA","desc":"DHEKELIA NDB"},
+{"type":"SDME","hdg_t":241.7,"dist_nm":37.2,"freq":116,"lat":34.57933300,"lon":32.96283300,"rng_nm":200,"alt_fmsl":237,"id":"AKR","desc":"AKROTIRI TACAN"},
+{"type":"VOR","hdg_t":260.2,"dist_nm":56.1,"freq":117.9,"lat":34.71166700,"lon":32.50666700,"rng_nm":130,"alt_fmsl":53,"id":"PHA","desc":"PAFOS VOR-DME"},
+{"type":"SDME","hdg_t":261.8,"dist_nm":56.9,"freq":113.2,"lat":34.73514700,"lon":32.48424600,"rng_nm":25,"alt_fmsl":41,"id":"PHA","desc":"PAFOS TACAN"},
+{"type":"NDB","hdg_t":260.9,"dist_nm":57.4,"freq":328,"lat":34.71833300,"lon":32.47833300,"rng_nm":100,"alt_fmsl":0,"id":"PHA","desc":"PAFOS NDB"},
+{"type":"VOR","hdg_t":107.9,"dist_nm":108.4,"freq":116.2,"lat":34.29898300,"lon":35.69968300,"rng_nm":200,"alt_fmsl":725,"id":"CAK","desc":"CHEKKA VOR-DME"},
+{"type":"NDB","hdg_t":121.7,"dist_nm":109,"freq":351,"lat":33.90231700,"lon":35.48135000,"rng_nm":100,"alt_fmsl":32,"id":"BOD","desc":"BEIRUT NDB"},
+{"type":"NDB","hdg_t":123.1,"dist_nm":110.8,"freq":312,"lat":33.84896700,"lon":35.48301700,"rng_nm":50,"alt_fmsl":72,"id":"BAB","desc":"BEIRUT NDB"}
+]
+}

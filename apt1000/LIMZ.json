@@ -1,0 +1,59 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LIMZ","name":"Levaldigi","lat":44.547603,"lon":7.6233225,"rwys":1,"ils":1,"index":3072418,"path":"e000n40/e007n44"
+,"runways":[
+{"len_m":2104,"wid_m":45.11,"hdg":32,"surf":"Asphalt","rwy1":"03","lat1":44.53962500,"lon1":7.61619200,"rwy2":"21","lat2":44.55558100,"lon2":7.63045300}
+]
+,"radios":[
+{"type":"TWR","freq":119.55,"desc":"CUNEO INFO"}
+]
+,"ils":[
+{"type":"ILS","freq":110.95,"lat":44.53680600,"lon":7.61366700,"rng_nm":18,"alt_fmsl":1267,"hdg":212.50,"id":"LEV","rwy":"21","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.95,"lat":44.55383300,"lon":7.62711100,"rng_nm":10,"alt_fmsl":1267,"id":"LEV","rwy":"21","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":44.62780600,"lon":7.69505600,"rng_nm":0,"alt_fmsl":1267,"id":"----","rwy":"21","desc":"OM"},
+{"type":"MM","freq":0,"lat":44.56269400,"lon":7.63683300,"rng_nm":0,"alt_fmsl":1267,"id":"----","rwy":"21","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":239.1,"dist_nm":0.3,"freq":371,"lat":44.54421400,"lon":7.61540300,"rng_nm":25,"alt_fmsl":1252,"id":"LEV","desc":"LEVALDIGI NDB"},
+{"type":"NDB","hdg_t":24,"dist_nm":24.7,"freq":392,"lat":44.92472200,"lon":7.86055600,"rng_nm":50,"alt_fmsl":817,"id":"TOP","desc":"TORINO NDB"},
+{"type":"VOR","hdg_t":24.1,"dist_nm":24.8,"freq":114.5,"lat":44.92525400,"lon":7.86165600,"rng_nm":100,"alt_fmsl":853,"id":"TOP","desc":"TORINO VOR-DME"},
+{"type":"NDB","hdg_t":1.5,"dist_nm":34.5,"freq":357,"lat":45.12352800,"lon":7.64533300,"rng_nm":25,"alt_fmsl":836,"id":"CAS","desc":"CASELLE NDB"},
+{"type":"VOR","hdg_t":143.8,"dist_nm":37,"freq":116.95,"lat":44.04816900,"lon":8.12761700,"rng_nm":40,"alt_fmsl":136,"id":"ALB","desc":"ALBENGA VOR-DME"},
+{"type":"NDB","hdg_t":138.6,"dist_nm":39.1,"freq":420,"lat":44.05583300,"lon":8.22111100,"rng_nm":50,"alt_fmsl":3,"id":"ABN","desc":"ALBENGA NDB"},
+{"type":"VOR","hdg_t":1.5,"dist_nm":40.3,"freq":116.75,"lat":45.21969500,"lon":7.64957300,"rng_nm":45,"alt_fmsl":1007,"id":"CSL","desc":"CASELLE VOR-DME"},
+{"type":"VOR","hdg_t":199,"dist_nm":49.2,"freq":112.4,"lat":43.77063900,"lon":7.25438900,"rng_nm":200,"alt_fmsl":2822,"id":"NIZ","desc":"NICE COTE D AZUR VOR-DME"},
+{"type":"NDB","hdg_t":194.6,"dist_nm":50.9,"freq":399,"lat":43.72538900,"lon":7.32663900,"rng_nm":50,"alt_fmsl":0,"id":"LEZ","desc":"NICE NDB"},
+{"type":"VOR","hdg_t":98.1,"dist_nm":52.1,"freq":108.6,"lat":44.41733300,"lon":8.82363900,"rng_nm":40,"alt_fmsl":33,"id":"SES","desc":"SESTRI VOR-DME"},
+{"type":"VOR","hdg_t":198,"dist_nm":56,"freq":109.65,"lat":43.65957100,"lon":7.22445000,"rng_nm":200,"alt_fmsl":12,"id":"AZR","desc":"NICE COTE D AZUR VOR-DME"},
+{"type":"VOR","hdg_t":201,"dist_nm":57.9,"freq":109.2,"lat":43.64525000,"lon":7.14591700,"rng_nm":40,"alt_fmsl":13,"id":"CGS","desc":"CAGNES SUR MER VOR-DME"},
+{"type":"NDB","hdg_t":21,"dist_nm":58.8,"freq":350,"lat":45.46219400,"lon":8.12336100,"rng_nm":25,"alt_fmsl":773,"id":"BLA","desc":"BIELLA CERRIONE NDB"},
+{"type":"VOR","hdg_t":19.5,"dist_nm":60.3,"freq":116.1,"lat":45.49420500,"lon":8.10057500,"rng_nm":30,"alt_fmsl":921,"id":"BLA","desc":"BIELLA VOR-DME"},
+{"type":"NDB","hdg_t":200.5,"dist_nm":61.2,"freq":338,"lat":43.59022200,"lon":7.12908300,"rng_nm":40,"alt_fmsl":0,"id":"NC","desc":"NICE/COTE D'AZUR NDB"},
+{"type":"VOR","hdg_t":66,"dist_nm":62.7,"freq":115.5,"lat":44.96442300,"lon":8.97027000,"rng_nm":40,"alt_fmsl":384,"id":"VOG","desc":"VOGHERA VOR-DME"},
+{"type":"NDB","hdg_t":66.1,"dist_nm":62.8,"freq":333,"lat":44.96388900,"lon":8.97222200,"rng_nm":50,"alt_fmsl":341,"id":"VOG","desc":"VOGHERA NDB"},
+{"type":"NDB","hdg_t":96.2,"dist_nm":63.1,"freq":318,"lat":44.42388900,"lon":9.08333300,"rng_nm":100,"alt_fmsl":2854,"id":"GEN","desc":"GENOVA NDB"},
+{"type":"VOR","hdg_t":96.2,"dist_nm":63.1,"freq":112.8,"lat":44.42444400,"lon":9.08233300,"rng_nm":60,"alt_fmsl":2515,"id":"GEN","desc":"GENOVA VOR-DME"},
+{"type":"NDB","hdg_t":202.3,"dist_nm":66.3,"freq":385,"lat":43.52277778,"lon":7.04527778,"rng_nm":25,"alt_fmsl":98,"id":"CSC","desc":"Cannes Mandelieu NDB"},
+{"type":"VOR","hdg_t":209,"dist_nm":67.5,"freq":111.4,"lat":43.56036100,"lon":6.87094400,"rng_nm":60,"alt_fmsl":0,"id":"CNM","desc":"CANNES-Tanneron VOR"},
+{"type":"NDB","hdg_t":40.5,"dist_nm":69.9,"freq":323,"lat":45.42861100,"lon":8.70083300,"rng_nm":25,"alt_fmsl":436,"id":"CAM","desc":"CAMERI NDB"},
+{"type":"NDB","hdg_t":43,"dist_nm":72.4,"freq":292,"lat":45.42413900,"lon":8.79386100,"rng_nm":25,"alt_fmsl":0,"id":"NOV","desc":"NOVARA NDB"},
+{"type":"NDB","hdg_t":262.6,"dist_nm":72.5,"freq":297,"lat":44.38138888,"lon":5.95027777,"rng_nm":25,"alt_fmsl":1870,"id":"GA","desc":"Gap Tallard NDB"},
+{"type":"VOR","hdg_t":350.5,"dist_nm":72.9,"freq":109.25,"lat":45.74572200,"lon":7.33858300,"rng_nm":40,"alt_fmsl":774,"id":"SCS","desc":"AOSTA VOR-DME"},
+{"type":"VOR","hdg_t":243.5,"dist_nm":73.6,"freq":113.85,"lat":43.99138900,"lon":6.10083300,"rng_nm":150,"alt_fmsl":3027,"id":"DGN","desc":"DIGNE VOR"},
+{"type":"SDME","hdg_t":35.2,"dist_nm":75.4,"freq":115,"lat":45.57022200,"lon":8.65752500,"rng_nm":50,"alt_fmsl":692,"id":"CAM","desc":"CAMERI TACAN"},
+{"type":"NDB","hdg_t":38.4,"dist_nm":76.8,"freq":364,"lat":45.54583200,"lon":8.75627800,"rng_nm":25,"alt_fmsl":583,"id":"MAL","desc":"MALPENSA NDB"},
+{"type":"VOR","hdg_t":35.3,"dist_nm":80.8,"freq":113.35,"lat":45.64076600,"lon":8.73482700,"rng_nm":80,"alt_fmsl":764,"id":"MMP","desc":"MALPENSA VOR-DME"},
+{"type":"NDB","hdg_t":212.6,"dist_nm":82.5,"freq":428,"lat":43.38459400,"lon":6.60635600,"rng_nm":40,"alt_fmsl":1500,"id":"MUS","desc":"NICE COTE D AZUR NDB"},
+{"type":"NDB","hdg_t":214.7,"dist_nm":84.3,"freq":378,"lat":43.38686100,"lon":6.52516700,"rng_nm":50,"alt_fmsl":0,"id":"LU","desc":"LE LUC NDB"},
+{"type":"NDB","hdg_t":55.4,"dist_nm":85.5,"freq":386,"lat":45.34436100,"lon":9.28858300,"rng_nm":25,"alt_fmsl":292,"id":"LIN","desc":"LINATE NDB"},
+{"type":"VOR","hdg_t":41.5,"dist_nm":88.7,"freq":113.7,"lat":45.64596000,"lon":9.02161000,"rng_nm":100,"alt_fmsl":800,"id":"SRN","desc":"SARONNO VOR-DME"},
+{"type":"NDB","hdg_t":41.5,"dist_nm":88.8,"freq":330,"lat":45.64666700,"lon":9.02277800,"rng_nm":25,"alt_fmsl":758,"id":"SRN","desc":"SARONNO NDB"},
+{"type":"VOR","hdg_t":51.4,"dist_nm":89.1,"freq":112.25,"lat":45.46124100,"lon":9.27532900,"rng_nm":25,"alt_fmsl":387,"id":"LIN","desc":"LINATE VOR-DME"},
+{"type":"VOR","hdg_t":209.4,"dist_nm":91.1,"freq":116.5,"lat":43.21947200,"lon":6.60180600,"rng_nm":200,"alt_fmsl":1089,"id":"STP","desc":"SAINT TROPEZ VOR-DME"},
+{"type":"NDB","hdg_t":62.8,"dist_nm":91.3,"freq":400,"lat":45.22627800,"lon":9.54119400,"rng_nm":25,"alt_fmsl":217,"id":"COD","desc":"CODOGNO NDB"},
+{"type":"VOR","hdg_t":220.7,"dist_nm":91.6,"freq":113,"lat":43.38277800,"lon":6.25591700,"rng_nm":100,"alt_fmsl":266,"id":"LUC","desc":"LE LUC LE CANNET VOR-DME"},
+{"type":"SDME","hdg_t":75.3,"dist_nm":92.4,"freq":117.4,"lat":44.91722200,"lon":9.72055600,"rng_nm":130,"alt_fmsl":484,"id":"PIA","desc":"PIACENZA TACAN"},
+{"type":"NDB","hdg_t":252.6,"dist_nm":96,"freq":348,"lat":44.05069400,"lon":5.50347200,"rng_nm":15,"alt_fmsl":0,"id":"SCL","desc":"SAINT CHRISTOL NDB"},
+{"type":"NDB","hdg_t":77.5,"dist_nm":96.2,"freq":440,"lat":44.87166600,"lon":9.82666700,"rng_nm":40,"alt_fmsl":647,"id":"PIA","desc":"PIACENZA NDB"},
+{"type":"NDB","hdg_t":310.8,"dist_nm":96.9,"freq":346,"lat":45.59250000,"lon":5.88361100,"rng_nm":25,"alt_fmsl":840,"id":"CH","desc":"Chambery Aix les Bains NDB"}
+]
+}

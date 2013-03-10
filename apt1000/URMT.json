@@ -1,0 +1,36 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"URMT","name":"Shpakovskoye","lat":45.109257,"lon":42.1128265,"rwys":1,"ils":2,"index":3645888,"path":"e040n40/e042n45"
+,"runways":[
+{"len_m":2635,"wid_m":47.85,"hdg":76,"surf":"Asphalt","rwy1":"07","lat1":45.10641400,"lon1":42.09657200,"rwy2":"25","lat2":45.11210000,"lon2":42.12908100}
+]
+,"radios":[
+{"type":"TWR","freq":120.9,"desc":"STAVROPOL TWR"},
+{"type":"TWR","freq":124,"desc":"STAVROPOL TWR"},
+{"type":"APP","freq":120.3,"desc":"STAVROPOL APP"},
+{"type":"APP","freq":124,"desc":"STAVROPOL APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":45.11500000,"lon":42.14333300,"rng_nm":18,"alt_fmsl":1486,"hdg":75.43,"id":"IOP","rwy":"07","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.7,"lat":45.10500000,"lon":42.08666700,"rng_nm":18,"alt_fmsl":1486,"hdg":256.64,"id":"IKT","rwy":"25","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":45.10500000,"lon":42.10166700,"rng_nm":10,"alt_fmsl":1486,"id":"IOP","rwy":"07","desc":"GS","gs":3.2},
+{"type":"GS","freq":110.7,"lat":45.10833300,"lon":42.12666700,"rng_nm":10,"alt_fmsl":1486,"id":"IKT","rwy":"25","desc":"GS","gs":2.7},
+{"type":"OM","freq":0,"lat":45.09833300,"lon":42.05000000,"rng_nm":0,"alt_fmsl":1486,"id":"----","rwy":"07","desc":"OM"},
+{"type":"OM","freq":0,"lat":45.12166700,"lon":42.18166700,"rng_nm":0,"alt_fmsl":1486,"id":"----","rwy":"25","desc":"OM"},
+{"type":"MM","freq":0,"lat":45.10500000,"lon":42.08500000,"rng_nm":0,"alt_fmsl":1486,"id":"----","rwy":"07","desc":"MM"},
+{"type":"MM","freq":0,"lat":45.11500000,"lon":42.14500000,"rng_nm":0,"alt_fmsl":1486,"id":"----","rwy":"25","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":256.2,"dist_nm":2.7,"freq":730,"lat":45.09833300,"lon":42.05000000,"rng_nm":80,"alt_fmsl":0,"id":"OP","desc":"STAVROPOL NDB"},
+{"type":"NDB","hdg_t":75.6,"dist_nm":3,"freq":730,"lat":45.12166700,"lon":42.18166700,"rng_nm":80,"alt_fmsl":0,"id":"KT","desc":"STAVROPOL NDB"},
+{"type":"NDB","hdg_t":142.5,"dist_nm":39,"freq":866,"lat":44.59166700,"lon":42.66666700,"rng_nm":80,"alt_fmsl":0,"id":"SN","desc":"SULTANSKOYE NDB"},
+{"type":"NDB","hdg_t":142.7,"dist_nm":63.8,"freq":583,"lat":44.25833300,"lon":43.00833300,"rng_nm":80,"alt_fmsl":0,"id":"MD","desc":"MINERALNYYE VODY NDB"},
+{"type":"NDB","hdg_t":205.1,"dist_nm":65.6,"freq":1210,"lat":44.11666700,"lon":41.46666700,"rng_nm":80,"alt_fmsl":0,"id":"PR","desc":"PEREDOVAYA NDB"},
+{"type":"NDB","hdg_t":140.5,"dist_nm":70.6,"freq":583,"lat":44.19500000,"lon":43.15166700,"rng_nm":80,"alt_fmsl":0,"id":"MW","desc":"MINERALNYYE VODY NDB"},
+{"type":"NDB","hdg_t":161.5,"dist_nm":73.7,"freq":995,"lat":43.94166700,"lon":42.65000000,"rng_nm":80,"alt_fmsl":0,"id":"KW","desc":"KISLOVODSK NDB"},
+{"type":"NDB","hdg_t":132.7,"dist_nm":83.5,"freq":1182,"lat":44.15500000,"lon":43.53333300,"rng_nm":80,"alt_fmsl":0,"id":"TP","desc":"TEPLORECHENSKY NDB"},
+{"type":"NDB","hdg_t":297,"dist_nm":88.6,"freq":507,"lat":45.76666700,"lon":40.23333300,"rng_nm":80,"alt_fmsl":0,"id":"ND","desc":"BOLSHEVIK NDB"},
+{"type":"NDB","hdg_t":251.2,"dist_nm":88.9,"freq":682,"lat":44.61666700,"lon":40.14666700,"rng_nm":80,"alt_fmsl":0,"id":"MA","desc":"MAYKOP NDB"},
+{"type":"NDB","hdg_t":277.1,"dist_nm":93.7,"freq":324,"lat":45.28333300,"lon":39.91666700,"rng_nm":80,"alt_fmsl":0,"id":"RF","desc":"LADOZHSKAYA NDB"},
+{"type":"NDB","hdg_t":297.6,"dist_nm":96,"freq":528,"lat":45.83333300,"lon":40.08333300,"rng_nm":80,"alt_fmsl":0,"id":"UH","desc":"TIKHORETSK NDB"}
+]
+}

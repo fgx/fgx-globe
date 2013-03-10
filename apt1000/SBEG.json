@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SBEG","name":"Eduardo Gomes","lat":-3.038611,"lon":-60.0497225,"rwys":1,"ils":1,"index":1955263,"path":"w070s10/w061s04"
+,"runways":[
+{"len_m":2704,"wid_m":45.11,"hdg":90,"surf":"Asphalt","rwy1":"10","lat1":-3.03858300,"lon1":-60.06188900,"rwy2":"28","lat2":-3.03863900,"lon2":-60.03755600}
+]
+,"radios":[
+{"type":"ATIS","freq":127.65,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"APP","freq":119.1,"desc":"MANAUS APP"},
+{"type":"APP","freq":119.7,"desc":"MANAUS APP"},
+{"type":"APP","freq":120.4,"desc":"MANAUS APP"},
+{"type":"APP","freq":122.8,"desc":"MANAUS APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-3.03883300,"lon":-60.03600000,"rng_nm":18,"alt_fmsl":275,"hdg":90.55,"id":"IEG","rwy":"10","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-3.04016700,"lon":-60.06033300,"rng_nm":10,"alt_fmsl":275,"id":"IEG","rwy":"10","desc":"GS","gs":3.04},
+{"type":"OM","freq":0,"lat":-3.03800000,"lon":-60.12316700,"rng_nm":0,"alt_fmsl":275,"id":"----","rwy":"10","desc":"OM"},
+{"type":"MM","freq":0,"lat":-3.03850000,"lon":-60.07050000,"rng_nm":0,"alt_fmsl":275,"id":"----","rwy":"10","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":-3.03883300,"lon":-60.03600000,"rng_nm":18,"alt_fmsl":264,"id":"IEG","rwy":"10","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":215.3,"dist_nm":0.2,"freq":340,"lat":-3.04183300,"lon":-60.05200000,"rng_nm":50,"alt_fmsl":0,"id":"MAN","desc":"MANAUS NDB"},
+{"type":"VOR","hdg_t":271.2,"dist_nm":4.5,"freq":115.8,"lat":-3.03700000,"lon":-60.12483300,"rng_nm":200,"alt_fmsl":108,"id":"MNS","desc":"MANAUS VOR-DME"},
+{"type":"NDB","hdg_t":151.5,"dist_nm":7,"freq":410,"lat":-3.14280800,"lon":-59.99360300,"rng_nm":70,"alt_fmsl":474,"id":"PEL","desc":"PELADA NDB"},
+{"type":"NDB","hdg_t":92.9,"dist_nm":94.2,"freq":320,"lat":-3.11932500,"lon":-58.48089700,"rng_nm":75,"alt_fmsl":142,"id":"YTC","desc":"ITACOATIARA NDB"},
+{"type":"NDB","hdg_t":204,"dist_nm":181,"freq":310,"lat":-5.80716700,"lon":-61.28200000,"rng_nm":65,"alt_fmsl":0,"id":"MCR","desc":"MANICORE NDB"},
+{"type":"VOR","hdg_t":83.6,"dist_nm":197.9,"freq":114.1,"lat":-2.66728100,"lon":-56.77310800,"rng_nm":130,"alt_fmsl":87,"id":"PRI","desc":"PARINTINS VOR-DME"},
+{"type":"NDB","hdg_t":305.4,"dist_nm":211.9,"freq":225,"lat":-0.97550000,"lon":-62.92083300,"rng_nm":200,"alt_fmsl":112,"id":"BRL","desc":"BARCELOS NDB"},
+{"type":"VOR","hdg_t":144.5,"dist_nm":234.6,"freq":112.2,"lat":-6.23566700,"lon":-57.77050000,"rng_nm":135,"alt_fmsl":323,"id":"JAC","desc":"JACAREACANGA VOR-DME"},
+{"type":"NDB","hdg_t":144.5,"dist_nm":234.7,"freq":360,"lat":-6.23866700,"lon":-57.77400000,"rng_nm":75,"alt_fmsl":323,"id":"JAC","desc":"JACAREACANGA NDB"},
+{"type":"NDB","hdg_t":67.1,"dist_nm":238.1,"freq":205,"lat":-1.48633300,"lon":-56.39783300,"rng_nm":100,"alt_fmsl":287,"id":"PTT","desc":"TROMBETAS NDB"}
+]
+}

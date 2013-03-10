@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SASA","name":"Salta","lat":-24.85553175,"lon":-65.48361575,"rwys":2,"ils":1,"index":1871946,"path":"w070s30/w066s25"
+,"runways":[
+{"len_m":2988,"wid_m":45.11,"hdg":11,"surf":"Asphalt","rwy1":"02","lat1":-24.87283300,"lon1":-65.48993600,"rwy2":"20","lat2":-24.84637200,"lon2":-65.48414700},
+{"len_m":2399,"wid_m":29.87,"hdg":52,"surf":"Asphalt","rwy1":"06","lat1":-24.85809400,"lon1":-65.48957200,"rwy2":"24","lat2":-24.84482800,"lon2":-65.47080800}
+]
+,"radios":[
+{"type":"TWR","freq":128.85,"desc":"TWR/APP"},
+{"type":"TWR","freq":118.4,"desc":"TWR/APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-24.84465300,"lon":-65.48388300,"rng_nm":18,"alt_fmsl":4088,"hdg":11.03,"id":"SA","rwy":"02","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-24.87107500,"lon":-65.49093100,"rng_nm":10,"alt_fmsl":4088,"id":"SA","rwy":"02","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-24.93341700,"lon":-65.50246900,"rng_nm":0,"alt_fmsl":4088,"id":"----","rwy":"02","desc":"OM"},
+{"type":"MM","freq":0,"lat":-24.88308100,"lon":-65.49224400,"rng_nm":0,"alt_fmsl":4088,"id":"----","rwy":"02","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":355,"dist_nm":0.1,"freq":116.7,"lat":-24.85226700,"lon":-65.48392800,"rng_nm":185,"alt_fmsl":4062,"id":"SAL","desc":"SALTA VOR-DME"},
+{"type":"NDB","hdg_t":237.2,"dist_nm":0.8,"freq":305,"lat":-24.86358900,"lon":-65.49735600,"rng_nm":16,"alt_fmsl":4062,"id":"L","desc":"SALTA NDB"},
+{"type":"NDB","hdg_t":233.3,"dist_nm":4.1,"freq":340,"lat":-24.89667200,"lon":-65.54418600,"rng_nm":25,"alt_fmsl":0,"id":"OL","desc":"SALTA NDB"},
+{"type":"NDB","hdg_t":44.8,"dist_nm":33.2,"freq":315,"lat":-24.46083300,"lon":-65.05538900,"rng_nm":25,"alt_fmsl":0,"id":"OJ","desc":"JUJUY NDB"},
+{"type":"NDB","hdg_t":39.8,"dist_nm":34.2,"freq":330,"lat":-24.41600000,"lon":-65.08325000,"rng_nm":25,"alt_fmsl":0,"id":"J","desc":"JUJUY NDB"},
+{"type":"VOR","hdg_t":37.8,"dist_nm":34.9,"freq":112.9,"lat":-24.39361100,"lon":-65.09277800,"rng_nm":186,"alt_fmsl":3000,"id":"JUJ","desc":"JUJUY VOR-DME"},
+{"type":"NDB","hdg_t":32.2,"dist_nm":120.2,"freq":285,"lat":-23.14944400,"lon":-64.32416700,"rng_nm":189,"alt_fmsl":1171,"id":"ORA","desc":"ORAN NDB"},
+{"type":"VOR","hdg_t":170.3,"dist_nm":120.7,"freq":114.1,"lat":-26.84583300,"lon":-65.10833300,"rng_nm":185,"alt_fmsl":1483,"id":"TUC","desc":"TUCUMAN VOR-DME"},
+{"type":"NDB","hdg_t":171,"dist_nm":124.9,"freq":322,"lat":-26.91858300,"lon":-65.11997200,"rng_nm":25,"alt_fmsl":0,"id":"OU","desc":"TENIENTE BENJAMIN MATIENZO NDB"},
+{"type":"NDB","hdg_t":27.5,"dist_nm":140.4,"freq":400,"lat":-22.76880800,"lon":-64.31206600,"rng_nm":50,"alt_fmsl":1250,"id":"BJO","desc":"BERMEJO NDB"}
+]
+}

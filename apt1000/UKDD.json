@@ -1,0 +1,44 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UKDD","name":"Dnipropetrovsk Intl","lat":48.357222,"lon":35.100556,"rwys":1,"ils":2,"index":3531408,"path":"e030n40/e035n48"
+,"runways":[
+{"len_m":2860,"wid_m":43.89,"hdg":89,"surf":"Concrete","rwy1":"09","lat1":48.35722200,"lon1":35.08125768,"rwy2":"27","lat2":48.35722200,"lon2":35.11985432}
+]
+,"radios":[
+{"type":"GND","freq":121.8,"desc":"GND"},
+{"type":"TWR","freq":118.6,"desc":"TWR"},
+{"type":"APP","freq":119.4,"desc":"RADAR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":48.35972200,"lon":35.10416700,"rng_nm":18,"alt_fmsl":481,"hdg":80.68,"id":"IDP","rwy":"09","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":48.35722200,"lon":35.07361100,"rng_nm":18,"alt_fmsl":481,"hdg":269.98,"id":"IDR","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":48.35583300,"lon":35.08583300,"rng_nm":10,"alt_fmsl":481,"id":"IDP","rwy":"09","desc":"GS","gs":2.5},
+{"type":"GS","freq":110.3,"lat":48.35611100,"lon":35.11611100,"rng_nm":10,"alt_fmsl":481,"id":"IDR","rwy":"27","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":48.35702600,"lon":35.02445800,"rng_nm":0,"alt_fmsl":481,"id":"----","rwy":"09","desc":"OM"},
+{"type":"OM","freq":0,"lat":48.35702800,"lon":35.17307100,"rng_nm":0,"alt_fmsl":481,"id":"----","rwy":"27","desc":"OM"},
+{"type":"MM","freq":0,"lat":48.35702700,"lon":35.06751400,"rng_nm":0,"alt_fmsl":481,"id":"----","rwy":"09","desc":"MM"},
+{"type":"MM","freq":0,"lat":48.35702800,"lon":35.13168100,"rng_nm":0,"alt_fmsl":481,"id":"----","rwy":"27","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":29.5,"dist_nm":0.1,"freq":112.5,"lat":48.35952700,"lon":35.10251400,"rng_nm":130,"alt_fmsl":509,"id":"DNP","desc":"DNIPROPETROVSK VOR-DME"},
+{"type":"NDB","hdg_t":90.5,"dist_nm":1.2,"freq":687,"lat":48.35702800,"lon":35.13168100,"rng_nm":25,"alt_fmsl":0,"id":"R","desc":"DNIPROPETROVSK NDB"},
+{"type":"NDB","hdg_t":269.5,"dist_nm":1.3,"freq":687,"lat":48.35702700,"lon":35.06751400,"rng_nm":25,"alt_fmsl":0,"id":"P","desc":"DNIPROPETROVSK NDB"},
+{"type":"NDB","hdg_t":90.2,"dist_nm":2.9,"freq":335,"lat":48.35702800,"lon":35.17307100,"rng_nm":25,"alt_fmsl":0,"id":"DR","desc":"DNIPROPETROVSK NDB"},
+{"type":"NDB","hdg_t":269.8,"dist_nm":3,"freq":335,"lat":48.35702600,"lon":35.02445800,"rng_nm":25,"alt_fmsl":0,"id":"DP","desc":"DNIPROPETROVSK NDB"},
+{"type":"NDB","hdg_t":298.8,"dist_nm":28.3,"freq":1083,"lat":48.58313300,"lon":34.47833300,"rng_nm":75,"alt_fmsl":0,"id":"AU","desc":"AULY NDB"},
+{"type":"NDB","hdg_t":160.1,"dist_nm":28.5,"freq":295,"lat":47.90980100,"lon":35.34114300,"rng_nm":25,"alt_fmsl":0,"id":"ZP","desc":"ZAPORIZHZHIA NDB"},
+{"type":"NDB","hdg_t":162.1,"dist_nm":29.7,"freq":608,"lat":47.88563400,"lon":35.32642100,"rng_nm":25,"alt_fmsl":0,"id":"P","desc":"ZAPORIZHZHIA NDB"},
+{"type":"NDB","hdg_t":165,"dist_nm":31.6,"freq":608,"lat":47.84702200,"lon":35.30281100,"rng_nm":25,"alt_fmsl":0,"id":"A","desc":"ZAPORIZHZHIA NDB"},
+{"type":"NDB","hdg_t":166.8,"dist_nm":33,"freq":295,"lat":47.82118800,"lon":35.28670000,"rng_nm":25,"alt_fmsl":0,"id":"ZA","desc":"ZAPORIZHZHIA NDB"},
+{"type":"NDB","hdg_t":204.5,"dist_nm":35.5,"freq":518,"lat":47.81812400,"lon":34.73502700,"rng_nm":75,"alt_fmsl":0,"id":"TM","desc":"TOMAKIVKA NDB"},
+{"type":"NDB","hdg_t":340.8,"dist_nm":37,"freq":643,"lat":48.93981000,"lon":34.79332500,"rng_nm":75,"alt_fmsl":0,"id":"TP","desc":"TOPCHYNE NDB"},
+{"type":"NDB","hdg_t":12.3,"dist_nm":63.4,"freq":778,"lat":49.38816000,"lon":35.44665100,"rng_nm":75,"alt_fmsl":0,"id":"GR","desc":"KRASNOHRAD NDB"},
+{"type":"NDB","hdg_t":35.4,"dist_nm":74.8,"freq":430,"lat":49.36817100,"lon":36.20666100,"rng_nm":75,"alt_fmsl":0,"id":"LI","desc":"LYKHACHEVE NDB"},
+{"type":"NDB","hdg_t":258.7,"dist_nm":77.3,"freq":340,"lat":48.08977300,"lon":33.21472300,"rng_nm":25,"alt_fmsl":0,"id":"RG","desc":"KRYVYI RIH NDB"},
+{"type":"NDB","hdg_t":257.5,"dist_nm":77.8,"freq":697,"lat":48.06310600,"lon":33.21111300,"rng_nm":25,"alt_fmsl":0,"id":"G","desc":"KRYVYI RIH NDB"},
+{"type":"SDME","hdg_t":257,"dist_nm":78,"freq":116,"lat":48.05088400,"lon":33.21166900,"rng_nm":40,"alt_fmsl":397,"id":"KVR","desc":"KRYVYI RIH DME"},
+{"type":"NDB","hdg_t":255.9,"dist_nm":78.6,"freq":697,"lat":48.02338300,"lon":33.20555800,"rng_nm":50,"alt_fmsl":0,"id":"O","desc":"KRYVYI RIH NDB"},
+{"type":"NDB","hdg_t":254.6,"dist_nm":79.3,"freq":340,"lat":47.99227200,"lon":33.20111500,"rng_nm":25,"alt_fmsl":0,"id":"RO","desc":"KRYVYI RIH NDB"},
+{"type":"NDB","hdg_t":112.3,"dist_nm":92.9,"freq":815,"lat":47.74815800,"lon":37.22339400,"rng_nm":75,"alt_fmsl":0,"id":"PW","desc":"PAVLIVKA NDB"},
+{"type":"NDB","hdg_t":10.3,"dist_nm":95.2,"freq":735,"lat":49.91650400,"lon":35.54330100,"rng_nm":75,"alt_fmsl":0,"id":"KW","desc":"KOVIAHY NDB"}
+]
+}

@@ -1,0 +1,41 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LFKB","name":"Bastia Poretta","lat":42.552508,"lon":9.483709,"rwys":1,"ils":1,"index":3105057,"path":"e000n40/e009n42"
+,"runways":[
+{"len_m":2519,"wid_m":45.11,"hdg":162,"surf":"Concrete","rwy1":"16","lat1":42.56333900,"lon1":9.47916800,"rwy2":"34","lat2":42.54167700,"lon2":9.48825000}
+]
+,"radios":[
+{"type":"ATIS","freq":125.92,"desc":"LFKB ATIS"},
+{"type":"GND","freq":121.82,"desc":"BASTIA GND"},
+{"type":"TWR","freq":118,"desc":"BASTIA TWR"},
+{"type":"APP","freq":123.82,"desc":"BASTIA APP"},
+{"type":"APP","freq":127.25,"desc":"BASTIA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.35,"lat":42.56835800,"lon":9.47704400,"rng_nm":27,"alt_fmsl":25,"hdg":342.81,"id":"BP","rwy":"34","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.35,"lat":42.54478300,"lon":9.48856400,"rng_nm":27,"alt_fmsl":25,"id":"BP","rwy":"34","desc":"GS","gs":3},
+{"type":"DME","freq":111.35,"lat":42.54478300,"lon":9.48856400,"rng_nm":18,"alt_fmsl":69,"id":"BAS","rwy":"34","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":342.3,"dist_nm":1.3,"freq":114.15,"lat":42.57369300,"lon":9.47458800,"rng_nm":80,"alt_fmsl":36,"id":"BTA","desc":"BASTIA PORETTA VOR-DME"},
+{"type":"NDB","hdg_t":162.5,"dist_nm":7.9,"freq":369,"lat":42.42583333,"lon":9.53750000,"rng_nm":25,"alt_fmsl":33,"id":"BP","desc":"Bastia Poretta NDB"},
+{"type":"NDB","hdg_t":273,"dist_nm":30,"freq":375,"lat":42.57697200,"lon":8.80658300,"rng_nm":40,"alt_fmsl":0,"id":"CV","desc":"CALVI NDB"},
+{"type":"SDME","hdg_t":184.6,"dist_nm":37,"freq":114,"lat":41.93747200,"lon":9.41622200,"rng_nm":25,"alt_fmsl":28,"id":"SZA","desc":"SOLENZARA TACAN"},
+{"type":"NDB","hdg_t":186.1,"dist_nm":37.3,"freq":349,"lat":41.93333300,"lon":9.39400000,"rng_nm":50,"alt_fmsl":28,"id":"SZA","desc":"SOLENZARA NDB"},
+{"type":"NDB","hdg_t":74.6,"dist_nm":41.7,"freq":360,"lat":42.73250000,"lon":10.39388900,"rng_nm":100,"alt_fmsl":1194,"id":"ELB","desc":"ELBA NDB"},
+{"type":"VOR","hdg_t":74.8,"dist_nm":41.7,"freq":114.7,"lat":42.73068600,"lon":10.39572500,"rng_nm":200,"alt_fmsl":1388,"id":"ELB","desc":"ELBA VORTAC"},
+{"type":"NDB","hdg_t":219.5,"dist_nm":46.7,"freq":365,"lat":41.94916500,"lon":8.81833400,"rng_nm":75,"alt_fmsl":0,"id":"RO","desc":"AJACCIO NDB"},
+{"type":"NDB","hdg_t":218.7,"dist_nm":48.8,"freq":365,"lat":41.91527777,"lon":8.80111111,"rng_nm":25,"alt_fmsl":13,"id":"RB","desc":"Ajaccio Campo dell Oro NDB"},
+{"type":"NDB","hdg_t":225,"dist_nm":55.1,"freq":341,"lat":41.89880600,"lon":8.61208300,"rng_nm":50,"alt_fmsl":0,"id":"IS","desc":"AJACCIO/CAMPO DELL ORO NDB"},
+{"type":"VOR","hdg_t":214.2,"dist_nm":56.5,"freq":114.8,"lat":41.77052800,"lon":8.77466700,"rng_nm":200,"alt_fmsl":2142,"id":"AJO","desc":"AJACCIO VOR-DME"},
+{"type":"NDB","hdg_t":216.9,"dist_nm":56.6,"freq":387,"lat":41.79527777,"lon":8.72416666,"rng_nm":25,"alt_fmsl":295,"id":"CT","desc":"Ajaccio Campo dell Oro NDB"},
+{"type":"NDB","hdg_t":190.3,"dist_nm":57.9,"freq":325,"lat":41.60138888,"lon":9.25333333,"rng_nm":25,"alt_fmsl":50,"id":"FA","desc":"Figari Sud Corse NDB"},
+{"type":"VOR","hdg_t":195.9,"dist_nm":65.4,"freq":116.7,"lat":41.50219400,"lon":9.08341700,"rng_nm":40,"alt_fmsl":87,"id":"FGI","desc":"FIGARI VOR-DME"},
+{"type":"NDB","hdg_t":207.3,"dist_nm":67,"freq":394,"lat":41.55777800,"lon":8.79888900,"rng_nm":15,"alt_fmsl":0,"id":"SNE","desc":"SENETOSE NDB"},
+{"type":"NDB","hdg_t":81.8,"dist_nm":68.8,"freq":406,"lat":42.70527800,"lon":11.02527800,"rng_nm":50,"alt_fmsl":6,"id":"GRO","desc":"GROSSETO NDB"},
+{"type":"NDB","hdg_t":29.6,"dist_nm":71.7,"freq":379,"lat":43.58922100,"lon":10.29708200,"rng_nm":25,"alt_fmsl":1,"id":"PIS","desc":"PISA NDB"},
+{"type":"VOR","hdg_t":30.2,"dist_nm":78.3,"freq":112.1,"lat":43.67719700,"lon":10.39055100,"rng_nm":40,"alt_fmsl":39,"id":"PIS","desc":"PISA VOR-DME"},
+{"type":"VOR","hdg_t":61,"dist_nm":88.5,"freq":110.2,"lat":43.25281700,"lon":11.25268600,"rng_nm":25,"alt_fmsl":636,"id":"SIE","desc":"SIENA VOR-DME"},
+{"type":"NDB","hdg_t":179.5,"dist_nm":99.4,"freq":357,"lat":40.89358400,"lon":9.50230500,"rng_nm":50,"alt_fmsl":37,"id":"SME","desc":"SMERALDA NDB"},
+{"type":"VOR","hdg_t":179.5,"dist_nm":99.7,"freq":113.9,"lat":40.88992600,"lon":9.50114600,"rng_nm":40,"alt_fmsl":56,"id":"SME","desc":"SMERALDA VOR-DME"}
+]
+}

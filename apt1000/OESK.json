@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OESK","name":"Al Jouf","lat":29.785132,"lon":40.1000045,"rwys":1,"ils":1,"index":3612144,"path":"e040n20/e040n29"
+,"runways":[
+{"len_m":3662,"wid_m":44.81,"hdg":99,"surf":"Asphalt","rwy1":"10","lat1":29.78793100,"lon1":40.08134200,"rwy2":"28","lat2":29.78233300,"lon2":40.11866700}
+]
+,"radios":[
+{"type":"CTAF","freq":122.8,"desc":"CTAF"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.9,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":29.78844200,"lon":40.07781700,"rng_nm":18,"alt_fmsl":2229,"hdg":279.77,"id":"IAJF","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":29.78382800,"lon":40.11595000,"rng_nm":10,"alt_fmsl":2229,"id":"IAJF","rwy":"28","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":29.78382800,"lon":40.11595000,"rng_nm":18,"alt_fmsl":2229,"id":"IAJF","rwy":"28","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":279.7,"dist_nm":1.3,"freq":117.8,"lat":29.78900000,"lon":40.07422200,"rng_nm":130,"alt_fmsl":2261,"id":"AJF","desc":"AL JOUF VORTAC"},
+{"type":"VOR","hdg_t":286.9,"dist_nm":70.8,"freq":112.3,"lat":30.12277800,"lon":38.79805600,"rng_nm":130,"alt_fmsl":1810,"id":"ASH","desc":"AL-SHIGAR VOR-DME"},
+{"type":"VOR","hdg_t":38.5,"dist_nm":86.2,"freq":113.3,"lat":30.90802800,"lon":41.14222200,"rng_nm":130,"alt_fmsl":1811,"id":"AAR","desc":"ARAR VORTAC"},
+{"type":"VOR","hdg_t":328.6,"dist_nm":134.2,"freq":116.1,"lat":31.69330600,"lon":38.73469400,"rng_nm":130,"alt_fmsl":2808,"id":"TRF","desc":"TURAIF VOR-DME"},
+{"type":"VOR","hdg_t":148.9,"dist_nm":164.1,"freq":113.5,"lat":27.42508300,"lon":41.68277800,"rng_nm":130,"alt_fmsl":3324,"id":"HIL","desc":"HAIL VORTAC"},
+{"type":"VOR","hdg_t":304.4,"dist_nm":175.2,"freq":114.7,"lat":31.41263900,"lon":37.28655600,"rng_nm":130,"alt_fmsl":1816,"id":"GRY","desc":"GURIAT VORTAC"},
+{"type":"VOR","hdg_t":92.3,"dist_nm":177.8,"freq":116.8,"lat":29.62019400,"lon":43.49797200,"rng_nm":130,"alt_fmsl":1460,"id":"RAF","desc":"RAFHA VOR-DME"},
+{"type":"VOR","hdg_t":246,"dist_nm":202.2,"freq":115.7,"lat":28.36730600,"lon":36.60697200,"rng_nm":130,"alt_fmsl":2569,"id":"TBK","desc":"TABUK VORTAC"},
+{"type":"VOR","hdg_t":192.5,"dist_nm":205.3,"freq":116.7,"lat":26.43416700,"lon":39.26916700,"rng_nm":130,"alt_fmsl":3835,"id":"HLF","desc":"HALAIFA VOR-DME"},
+{"type":"VOR","hdg_t":293.7,"dist_nm":226.9,"freq":112.9,"lat":31.24844700,"lon":36.05953100,"rng_nm":130,"alt_fmsl":2627,"id":"QTR","desc":"QATRANEH VOR-DME"}
+]
+}

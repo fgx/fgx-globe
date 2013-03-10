@@ -1,0 +1,82 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EKCH","name":"Kastrup","lat":55.61291491,"lon":12.6409612633333,"rwys":3,"ils":6,"index":3155042,"path":"e010n50/e012n55"
+,"runways":[
+{"len_m":3302,"wid_m":45.11,"hdg":41,"surf":"Asphalt","rwy1":"04R","lat1":55.60309915,"lon1":12.63304283,"rwy2":"22L","lat2":55.62541071,"lon2":12.66757916},
+{"len_m":3618,"wid_m":45.11,"hdg":41,"surf":"Asphalt","rwy1":"04L","lat1":55.59219876,"lon1":12.60353493,"rwy2":"22R","lat2":55.61664301,"lon2":12.64136621},
+{"len_m":3070,"wid_m":45.11,"hdg":123,"surf":"Asphalt","rwy1":"12","lat1":55.62761327,"lon1":12.62972864,"rwy2":"30","lat2":55.61252458,"lon2":12.67051579}
+]
+,"radios":[
+{"type":"ATIS","freq":122.75,"desc":"ATIS"},
+{"type":"ATIS","freq":122.85,"desc":"ATIS"},
+{"type":"CLD","freq":119.9,"desc":"CLD"},
+{"type":"GND","freq":121.6,"desc":"GND"},
+{"type":"GND","freq":121.72,"desc":"GND"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"TWR","freq":118.57,"desc":"TWR"},
+{"type":"TWR","freq":118.7,"desc":"TWR"},
+{"type":"TWR","freq":119.35,"desc":"TWR"},
+{"type":"TWR","freq":127.07,"desc":"COPENHAGEN INFO"},
+{"type":"APP","freq":119.1,"desc":"FINAL"},
+{"type":"APP","freq":119.8,"desc":"COPENHAGEN APP"},
+{"type":"DEP","freq":120.25,"desc":"DEP"},
+{"type":"DEP","freq":124.97,"desc":"DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":55.61808100,"lon":12.64356100,"rng_nm":18,"alt_fmsl":17,"hdg":41.16,"id":"CH","rwy":"04L","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.3,"lat":55.62796100,"lon":12.67152800,"rng_nm":18,"alt_fmsl":17,"hdg":41.18,"id":"NE","rwy":"04R","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.9,"lat":55.60968600,"lon":12.67819700,"rng_nm":18,"alt_fmsl":17,"hdg":123.25,"id":"KA","rwy":"12","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.5,"lat":55.60091700,"lon":12.62966900,"rng_nm":18,"alt_fmsl":17,"hdg":221.14,"id":"OXS","rwy":"22L","desc":"ILS-cat-III"},
+{"type":"ILS","freq":110.9,"lat":55.58982500,"lon":12.59986400,"rng_nm":18,"alt_fmsl":17,"hdg":221.14,"id":"KLK","rwy":"22R","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.9,"lat":55.62785600,"lon":12.62909200,"rng_nm":18,"alt_fmsl":17,"hdg":303.23,"id":"OY","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":55.59325300,"lon":12.60832500,"rng_nm":10,"alt_fmsl":17,"id":"CH","rwy":"04L","desc":"GS","gs":3},
+{"type":"GS","freq":109.3,"lat":55.60455600,"lon":12.63786700,"rng_nm":10,"alt_fmsl":17,"id":"NE","rwy":"04R","desc":"GS","gs":3},
+{"type":"GS","freq":109.9,"lat":55.62161700,"lon":12.64161400,"rng_nm":10,"alt_fmsl":17,"id":"KA","rwy":"12","desc":"GS","gs":3},
+{"type":"GS","freq":109.5,"lat":55.62235000,"lon":12.66600300,"rng_nm":10,"alt_fmsl":17,"id":"OXS","rwy":"22L","desc":"GS","gs":3},
+{"type":"GS","freq":110.9,"lat":55.60968100,"lon":12.63373100,"rng_nm":10,"alt_fmsl":17,"id":"KLK","rwy":"22R","desc":"GS","gs":3},
+{"type":"GS","freq":108.9,"lat":55.61413600,"lon":12.66183600,"rng_nm":10,"alt_fmsl":17,"id":"OY","rwy":"30","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":55.56638900,"lon":12.57444400,"rng_nm":0,"alt_fmsl":17,"id":"----","rwy":"04R","desc":"OM"},
+{"type":"MM","freq":0,"lat":55.59111100,"lon":12.61444400,"rng_nm":0,"alt_fmsl":17,"id":"----","rwy":"04R","desc":"MM"},
+{"type":"DME","freq":110.5,"lat":55.59330300,"lon":12.60820800,"rng_nm":18,"alt_fmsl":14,"id":"CH","rwy":"04L","desc":"DME-ILS"},
+{"type":"DME","freq":109.9,"lat":55.62166100,"lon":12.64164700,"rng_nm":18,"alt_fmsl":14,"id":"KA","rwy":"12","desc":"DME-ILS"},
+{"type":"DME","freq":109.5,"lat":55.62240800,"lon":12.66590800,"rng_nm":18,"alt_fmsl":7,"id":"OXS","rwy":"22L","desc":"DME-ILS"},
+{"type":"DME","freq":110.9,"lat":55.60973100,"lon":12.63363600,"rng_nm":18,"alt_fmsl":14,"id":"KLK","rwy":"22R","desc":"DME-ILS"},
+{"type":"DME","freq":108.9,"lat":55.61419200,"lon":12.66191400,"rng_nm":18,"alt_fmsl":9,"id":"OY","rwy":"30","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":214.6,"dist_nm":1.6,"freq":112.5,"lat":55.59051900,"lon":12.61360300,"rng_nm":60,"alt_fmsl":29,"id":"KAS","desc":"KASTRUP VOR-DME"},
+{"type":"SDME","hdg_t":300.3,"dist_nm":21.3,"freq":114,"lat":55.79123600,"lon":12.09576100,"rng_nm":200,"alt_fmsl":87,"id":"VLL","desc":"VAERLOSE TACAN"},
+{"type":"NDB","hdg_t":271.8,"dist_nm":21.9,"freq":368,"lat":55.62313100,"lon":11.99716900,"rng_nm":30,"alt_fmsl":0,"id":"RK","desc":"ROSKILDE NDB"},
+{"type":"VOR","hdg_t":100.3,"dist_nm":25.5,"freq":113,"lat":55.53452800,"lon":13.37950000,"rng_nm":80,"alt_fmsl":270,"id":"SUP","desc":"STURUP VOR-DME"},
+{"type":"VOR","hdg_t":335.6,"dist_nm":32.5,"freq":112.6,"lat":56.10558600,"lon":12.24150300,"rng_nm":60,"alt_fmsl":0,"id":"NOA","desc":"NORA VOR"},
+{"type":"VOR","hdg_t":356.1,"dist_nm":33.4,"freq":116.2,"lat":56.16886100,"lon":12.57377800,"rng_nm":100,"alt_fmsl":39,"id":"SVD","desc":"SVEDA VOR-DME"},
+{"type":"VOR","hdg_t":110.8,"dist_nm":33.5,"freq":116.4,"lat":55.41130600,"lon":13.55752800,"rng_nm":60,"alt_fmsl":0,"id":"ALM","desc":"ALMA VOR"},
+{"type":"VOR","hdg_t":33.6,"dist_nm":34,"freq":113.4,"lat":56.08308300,"lon":13.20111100,"rng_nm":25,"alt_fmsl":154,"id":"LJU","desc":"LJUNGBYHED VOR-DME"},
+{"type":"VOR","hdg_t":253.5,"dist_nm":35.9,"freq":112.8,"lat":55.43936400,"lon":11.63153100,"rng_nm":80,"alt_fmsl":136,"id":"KOR","desc":"KORSA VOR-DME"},
+{"type":"VOR","hdg_t":30.9,"dist_nm":37.6,"freq":116.9,"lat":56.14833300,"lon":13.21644400,"rng_nm":60,"alt_fmsl":0,"id":"VEY","desc":"VEDBY VOR"},
+{"type":"VOR","hdg_t":193.8,"dist_nm":37.8,"freq":114.9,"lat":55.00150000,"lon":12.37921100,"rng_nm":60,"alt_fmsl":90,"id":"CDA","desc":"CODAN VOR-DME"},
+{"type":"NDB","hdg_t":12.4,"dist_nm":40.2,"freq":417,"lat":56.26611110,"lon":12.90072220,"rng_nm":50,"alt_fmsl":0,"id":"AH","desc":"Angelholm NDB"},
+{"type":"SDME","hdg_t":9.4,"dist_nm":41.7,"freq":111.3,"lat":56.29698181,"lon":12.84676647,"rng_nm":40,"alt_fmsl":60,"id":"DB","desc":"Angelholm DME"},
+{"type":"VOR","hdg_t":283.8,"dist_nm":41.9,"freq":117.4,"lat":55.77409400,"lon":11.43918900,"rng_nm":60,"alt_fmsl":-12,"id":"TNO","desc":"TRANO VOR-DME"},
+{"type":"NDB","hdg_t":5.4,"dist_nm":44.3,"freq":370,"lat":56.34655560,"lon":12.76641670,"rng_nm":50,"alt_fmsl":0,"id":"LB","desc":"Angelholm NDB"},
+{"type":"NDB","hdg_t":71.7,"dist_nm":51.1,"freq":375,"lat":55.87122220,"lon":14.07819440,"rng_nm":50,"alt_fmsl":0,"id":"KD","desc":"Kristianstad NDB"},
+{"type":"NDB","hdg_t":5,"dist_nm":62.7,"freq":421,"lat":56.65252780,"lon":12.80827780,"rng_nm":50,"alt_fmsl":0,"id":"MF","desc":"Halmstad NDB"},
+{"type":"VOR","hdg_t":269.1,"dist_nm":67.6,"freq":115.5,"lat":55.58101100,"lon":10.65298900,"rng_nm":60,"alt_fmsl":24,"id":"ODN","desc":"ODIN VOR-DME"},
+{"type":"NDB","hdg_t":215.9,"dist_nm":67.7,"freq":366,"lat":54.69548300,"lon":11.49835300,"rng_nm":15,"alt_fmsl":0,"id":"MB","desc":"Maribo LOM"},
+{"type":"VOR","hdg_t":162.1,"dist_nm":69.4,"freq":108.45,"lat":54.51096900,"lon":13.24932800,"rng_nm":60,"alt_fmsl":41,"id":"TRT","desc":"TRENT VOR-DME"},
+{"type":"NDB","hdg_t":5.3,"dist_nm":71.5,"freq":336,"lat":56.79697220,"lon":12.84222220,"rng_nm":50,"alt_fmsl":0,"id":"LT","desc":"Halmstad NDB"},
+{"type":"NDB","hdg_t":266.6,"dist_nm":74.4,"freq":423,"lat":55.52012500,"lon":10.46255800,"rng_nm":20,"alt_fmsl":56,"id":"FE","desc":"Odense LOM"},
+{"type":"NDB","hdg_t":303.5,"dist_nm":74.8,"freq":374,"lat":56.28795300,"lon":10.77527500,"rng_nm":20,"alt_fmsl":0,"id":"TU","desc":"AARHUS NDB"},
+{"type":"SDME","hdg_t":178.1,"dist_nm":76.5,"freq":115.4,"lat":54.34042200,"lon":12.70975300,"rng_nm":25,"alt_fmsl":45,"id":"BHD","desc":"BARTH DME"},
+{"type":"NDB","hdg_t":178.8,"dist_nm":76.6,"freq":373,"lat":54.33836900,"lon":12.68610300,"rng_nm":30,"alt_fmsl":45,"id":"BTH","desc":"BARTH NDB"},
+{"type":"VOR","hdg_t":113.5,"dist_nm":79.6,"freq":112,"lat":55.06557800,"lon":14.75869200,"rng_nm":80,"alt_fmsl":79,"id":"ROE","desc":"RONNE VOR-DME"},
+{"type":"NDB","hdg_t":300.8,"dist_nm":84.9,"freq":324,"lat":56.31862500,"lon":10.45933100,"rng_nm":20,"alt_fmsl":0,"id":"ML","desc":"AARHUS NDB"},
+{"type":"NDB","hdg_t":113.4,"dist_nm":85,"freq":334,"lat":55.02819200,"lon":14.90049700,"rng_nm":20,"alt_fmsl":55,"id":"FAU","desc":"Ronne LOM"},
+{"type":"NDB","hdg_t":27.3,"dist_nm":91.9,"freq":325,"lat":56.96461110,"lon":13.92955560,"rng_nm":50,"alt_fmsl":0,"id":"F","desc":"Ljungby NDB"},
+{"type":"NDB","hdg_t":67.2,"dist_nm":94.7,"freq":380,"lat":56.19511100,"lon":15.24716700,"rng_nm":25,"alt_fmsl":0,"id":"LF","desc":"RONNEBY NDB"},
+{"type":"NDB","hdg_t":27,"dist_nm":95.1,"freq":359,"lat":57.01583330,"lon":13.95780560,"rng_nm":50,"alt_fmsl":0,"id":"OF","desc":"Ljungby NDB"},
+{"type":"SDME","hdg_t":65.3,"dist_nm":96.3,"freq":109.2,"lat":56.25256700,"lon":15.25815000,"rng_nm":130,"alt_fmsl":197,"id":"RON","desc":"Ronneby DME"},
+{"type":"VOR","hdg_t":216.4,"dist_nm":96.8,"freq":112.2,"lat":54.30546100,"lon":11.00518600,"rng_nm":60,"alt_fmsl":119,"id":"MIC","desc":"MICHAELSDORF VOR"},
+{"type":"NDB","hdg_t":62.7,"dist_nm":99.2,"freq":318,"lat":56.33977800,"lon":15.28602800,"rng_nm":25,"alt_fmsl":0,"id":"LP","desc":"RONNEBY NDB"}
+]
+}

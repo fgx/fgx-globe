@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYXJ","name":"Fort St John","lat":56.23842375,"lon":-120.739988,"rwys":2,"ils":1,"index":976009,"path":"w130n50/w121n56"
+,"runways":[
+{"len_m":2072,"wid_m":45.72,"hdg":135,"surf":"Asphalt","rwy1":"11","lat1":56.24500000,"lon1":-120.75333300,"rwy2":"29","lat2":56.23166700,"lon2":-120.73000000},
+{"len_m":2042,"wid_m":60.96,"hdg":44,"surf":"Asphalt","rwy1":"02","lat1":56.23202800,"lon1":-120.74995000,"rwy2":"20","lat2":56.24500000,"lon2":-120.72666900}
+]
+,"radios":[
+{"type":"ATIS","freq":128.5,"desc":"ATIS"},
+{"type":"TWR","freq":118.5,"desc":"MF ST JOHN RDO"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":56.24630000,"lon":-120.75557700,"rng_nm":18,"alt_fmsl":2234,"hdg":315.82,"id":"IXJ","rwy":"29","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":56.23449700,"lon":-120.73230700,"rng_nm":10,"alt_fmsl":2237,"id":"IXJ","rwy":"29","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":308.3,"dist_nm":4.4,"freq":326,"lat":56.28444444,"lon":-120.84472222,"rng_nm":50,"alt_fmsl":0,"id":"XJ","desc":"FORT ST JOHN NDB"},
+{"type":"NDB","hdg_t":135.8,"dist_nm":4.5,"freq":246,"lat":56.18388900,"lon":-120.64500000,"rng_nm":25,"alt_fmsl":0,"id":"ZXJ","desc":"TAYLOR NDB"},
+{"type":"VOR","hdg_t":297.8,"dist_nm":5.8,"freq":114.2,"lat":56.28411111,"lon":-120.89563889,"rng_nm":130,"alt_fmsl":2674,"id":"YXJ","desc":"FORT SAINT JOHN VOR-DME"},
+{"type":"NDB","hdg_t":143.3,"dist_nm":38.1,"freq":394,"lat":55.72777778,"lon":-120.06833333,"rng_nm":50,"alt_fmsl":0,"id":"DQ","desc":"DAWSON CREEK NDB"},
+{"type":"NDB","hdg_t":219.7,"dist_nm":42.3,"freq":210,"lat":55.69444444,"lon":-121.53750000,"rng_nm":50,"alt_fmsl":0,"id":"F6","desc":"CHETWYND NDB"},
+{"type":"NDB","hdg_t":185.3,"dist_nm":73.1,"freq":346,"lat":55.02611100,"lon":-120.93611100,"rng_nm":50,"alt_fmsl":3075,"id":"N9","desc":"TUMBLER NDB"},
+{"type":"NDB","hdg_t":96.2,"dist_nm":77.7,"freq":295,"lat":56.07555600,"lon":-118.44055600,"rng_nm":50,"alt_fmsl":2190,"id":"8C","desc":"FAIRVIEW NDB-DME"},
+{"type":"SDME","hdg_t":96.2,"dist_nm":77.7,"freq":111.4,"lat":56.07555600,"lon":-118.44055600,"rng_nm":50,"alt_fmsl":2190,"id":"8C","desc":"FAIRVIEW NDB-DME"},
+{"type":"VOR","hdg_t":137,"dist_nm":86.3,"freq":113.1,"lat":55.17422222,"lon":-119.03019444,"rng_nm":130,"alt_fmsl":2515,"id":"YQU","desc":"GRANDE PRAIRIE VOR-DME"},
+{"type":"NDB","hdg_t":134.5,"dist_nm":93,"freq":221,"lat":55.13777778,"lon":-118.81416667,"rng_nm":50,"alt_fmsl":0,"id":"QU","desc":"GRANDE PRAIRIE NDB"},
+{"type":"NDB","hdg_t":33.6,"dist_nm":95,"freq":317,"lat":57.54500000,"lon":-119.11138900,"rng_nm":25,"alt_fmsl":2280,"id":"A5","desc":"CHINCHAGA NDB"},
+{"type":"NDB","hdg_t":236.3,"dist_nm":98.7,"freq":284,"lat":55.30500000,"lon":-123.13750000,"rng_nm":50,"alt_fmsl":0,"id":"2U","desc":"MACKENZIE NDB"}
+]
+}

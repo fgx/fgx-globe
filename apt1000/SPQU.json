@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SPQU","name":"Rodriguez Ballon","lat":-16.340578,"lon":-71.5708025,"rwys":1,"ils":1,"index":1774187,"path":"w080s20/w072s17"
+,"runways":[
+{"len_m":2978,"wid_m":45.11,"hdg":93,"surf":"Asphalt","rwy1":"09","lat1":-16.33983900,"lon1":-71.58471900,"rwy2":"27","lat2":-16.34131700,"lon2":-71.55688600}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.7,"desc":"AREQUIPA TWR"},
+{"type":"APP","freq":118.7,"desc":"AREQUIPA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":-16.34144400,"lon":-71.55451400,"rng_nm":18,"alt_fmsl":8405,"hdg":93.17,"id":"IARB","rwy":"09","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":-16.34094400,"lon":-71.58261100,"rng_nm":10,"alt_fmsl":8405,"id":"IARB","rwy":"09","desc":"GS","gs":3},
+{"type":"DME","freq":109.7,"lat":-16.34094400,"lon":-71.58261100,"rng_nm":18,"alt_fmsl":8405,"id":"IARB","rwy":"09","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":273.7,"dist_nm":1.5,"freq":113.7,"lat":-16.33888900,"lon":-71.59750000,"rng_nm":150,"alt_fmsl":8405,"id":"EQU","desc":"AREQUIPA VOR-DME"},
+{"type":"VOR","hdg_t":266.7,"dist_nm":32.5,"freq":113.5,"lat":-16.37111100,"lon":-72.13361100,"rng_nm":100,"alt_fmsl":0,"id":"UAS","desc":"SIHUAS VOR"},
+{"type":"VOR","hdg_t":171.1,"dist_nm":81.6,"freq":112.5,"lat":-17.69113300,"lon":-71.35055600,"rng_nm":130,"alt_fmsl":72,"id":"ILO","desc":"ILO VOR"},
+{"type":"VOR","hdg_t":57.7,"dist_nm":97.2,"freq":115.55,"lat":-15.46805600,"lon":-70.15111100,"rng_nm":120,"alt_fmsl":12552,"id":"JUL","desc":"JULIACA VOR-DME"},
+{"type":"NDB","hdg_t":272.5,"dist_nm":116,"freq":202,"lat":-16.24361100,"lon":-73.57861100,"rng_nm":50,"alt_fmsl":0,"id":"ACO","desc":"ATICO NDB"},
+{"type":"VOR","hdg_t":144.2,"dist_nm":126.7,"freq":116.8,"lat":-18.05791400,"lon":-70.27632800,"rng_nm":50,"alt_fmsl":1277,"id":"TCA","desc":"TACNA VOR-DME"},
+{"type":"VOR","hdg_t":150,"dist_nm":140.1,"freq":116.5,"lat":-18.36944400,"lon":-70.34638900,"rng_nm":130,"alt_fmsl":88,"id":"ARI","desc":"ARICA VOR-DME"},
+{"type":"NDB","hdg_t":150.1,"dist_nm":140.2,"freq":305,"lat":-18.37166700,"lon":-70.34722200,"rng_nm":25,"alt_fmsl":0,"id":"R","desc":"ARICA NDB"},
+{"type":"VOR","hdg_t":359.6,"dist_nm":160.7,"freq":115.6,"lat":-13.64944400,"lon":-71.58638900,"rng_nm":50,"alt_fmsl":13631,"id":"URC","desc":"URCOS VOR-DME"},
+{"type":"VOR","hdg_t":351.3,"dist_nm":170.4,"freq":114.9,"lat":-13.51916700,"lon":-72.01000000,"rng_nm":40,"alt_fmsl":12745,"id":"ZCO","desc":"CUSCO VOR-DME"}
+]
+}

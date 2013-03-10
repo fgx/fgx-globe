@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DTMB","name":"Monastir Habib Bourguiba Intl","lat":35.757843,"lon":10.754025,"rwys":1,"ils":1,"index":3121011,"path":"e010n30/e010n35"
+,"runways":[
+{"len_m":2938,"wid_m":45.11,"hdg":73,"surf":"Asphalt","rwy1":"07","lat1":35.75410800,"lon1":10.73843600,"rwy2":"25","lat2":35.76157800,"lon2":10.76961400}
+]
+,"radios":[
+{"type":"TWR","freq":118.3,"desc":"BOURGUIBA TWR"},
+{"type":"APP","freq":119.3,"desc":"BOURGUIBA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":35.76213900,"lon":10.77197200,"rng_nm":18,"alt_fmsl":9,"hdg":73.57,"id":"MIS","rwy":"07","desc":"ILS-cat-II"},
+{"type":"GS","freq":109.9,"lat":35.75600000,"lon":10.74141700,"rng_nm":10,"alt_fmsl":9,"id":"MIS","rwy":"07","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":35.72547200,"lon":10.62330600,"rng_nm":0,"alt_fmsl":9,"id":"----","rwy":"07","desc":"OM"},
+{"type":"MM","freq":0,"lat":35.75150000,"lon":10.72752800,"rng_nm":0,"alt_fmsl":9,"id":"----","rwy":"07","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":238.9,"dist_nm":0.3,"freq":113.1,"lat":35.75491700,"lon":10.74805600,"rng_nm":130,"alt_fmsl":32,"id":"MON","desc":"MONASTIR VOR-DME"},
+{"type":"VOR","hdg_t":182.9,"dist_nm":62.4,"freq":114,"lat":34.71611400,"lon":10.68889200,"rng_nm":130,"alt_fmsl":85,"id":"SFX","desc":"SFAX VOR"},
+{"type":"NDB","hdg_t":155.7,"dist_nm":66.5,"freq":308,"lat":34.74333300,"lon":11.30611100,"rng_nm":100,"alt_fmsl":0,"id":"KR","desc":"EL ATTAYA NDB"},
+{"type":"NDB","hdg_t":341.4,"dist_nm":67.4,"freq":385,"lat":36.82486100,"lon":10.30963900,"rng_nm":50,"alt_fmsl":0,"id":"KDN","desc":"TUNIS NDB"},
+{"type":"VOR","hdg_t":13.2,"dist_nm":70,"freq":112.7,"lat":36.89555600,"lon":11.08833300,"rng_nm":150,"alt_fmsl":0,"id":"CBN","desc":"CAP BON VOR"},
+{"type":"VOR","hdg_t":338.9,"dist_nm":70.2,"freq":116.5,"lat":36.85158300,"lon":10.23033300,"rng_nm":130,"alt_fmsl":53,"id":"TUC","desc":"TUNIS VOR-DME"},
+{"type":"NDB","hdg_t":341.1,"dist_nm":74.8,"freq":325,"lat":36.93983300,"lon":10.25122200,"rng_nm":50,"alt_fmsl":19,"id":"TS","desc":"TUNIS NDB"},
+{"type":"NDB","hdg_t":42.4,"dist_nm":86,"freq":335,"lat":36.81136300,"lon":11.96102700,"rng_nm":100,"alt_fmsl":609,"id":"PAN","desc":"PANTELLERIA NDB"},
+{"type":"VOR","hdg_t":42.5,"dist_nm":86.3,"freq":116.1,"lat":36.81444000,"lon":11.96583200,"rng_nm":100,"alt_fmsl":623,"id":"PAN","desc":"PANTELLERIA VOR-DME"},
+{"type":"NDB","hdg_t":99,"dist_nm":92.3,"freq":373,"lat":35.50044600,"lon":12.61588800,"rng_nm":50,"alt_fmsl":41,"id":"LPD","desc":"LAMPEDUSA NDB"},
+{"type":"VOR","hdg_t":99,"dist_nm":93,"freq":108.6,"lat":35.49971400,"lon":12.63083100,"rng_nm":25,"alt_fmsl":92,"id":"LPD","desc":"LAMPEDUSA VOR-DME"},
+{"type":"VOR","hdg_t":235.9,"dist_nm":94.5,"freq":115.3,"lat":34.86333300,"lon":9.16777800,"rng_nm":130,"alt_fmsl":0,"id":"BAN","desc":"SIDI BEN AOUN VOR"}
+]
+}

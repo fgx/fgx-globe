@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LRSB","name":"Sibiu","lat":45.785596,"lon":24.0913415,"rwys":1,"ils":1,"index":3351024,"path":"e020n40/e024n45"
+,"runways":[
+{"len_m":1986,"wid_m":29.87,"hdg":91,"surf":"Concrete","rwy1":"09","lat1":45.78576400,"lon1":24.07857200,"rwy2":"27","lat2":45.78542800,"lon2":24.10411100}
+]
+,"radios":[
+{"type":"TWR","freq":122.7,"desc":"TWR"},
+{"type":"APP","freq":122.7,"desc":"APP"},
+{"type":"APP","freq":121.3,"desc":"PRECISON"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":45.78613281,"lon":24.06299973,"rng_nm":18,"alt_fmsl":1495,"hdg":271.24,"id":"ISB","rwy":"27","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.7,"lat":45.78461838,"lon":24.09828377,"rng_nm":10,"alt_fmsl":1495,"id":"ISB","rwy":"27","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":207.7,"dist_nm":0.3,"freq":114,"lat":45.78088379,"lon":24.08779907,"rng_nm":50,"alt_fmsl":1495,"id":"SBI","desc":"SIBIU VOR-DME"},
+{"type":"NDB","hdg_t":90.7,"dist_nm":2.5,"freq":381,"lat":45.78501100,"lon":24.15258100,"rng_nm":100,"alt_fmsl":1414,"id":"SIB","desc":"SIBIU NDB"},
+{"type":"NDB","hdg_t":12.6,"dist_nm":40.6,"freq":428,"lat":46.44691400,"lon":24.30658300,"rng_nm":80,"alt_fmsl":942,"id":"TGM","desc":"TARGU MURES NDB"},
+{"type":"VOR","hdg_t":273.4,"dist_nm":47.1,"freq":109.8,"lat":45.82801400,"lon":22.96891400,"rng_nm":100,"alt_fmsl":810,"id":"DVA","desc":"DEVA VOR-DME"},
+{"type":"VOR","hdg_t":216.6,"dist_nm":53.9,"freq":115.3,"lat":45.06079700,"lon":23.33407200,"rng_nm":150,"alt_fmsl":899,"id":"TGJ","desc":"TARGU JIU VOR-DME"},
+{"type":"VOR","hdg_t":348.3,"dist_nm":62.1,"freq":111.2,"lat":46.80011900,"lon":23.78725300,"rng_nm":175,"alt_fmsl":1549,"id":"CLJ","desc":"CLUJ VOR-DME"},
+{"type":"VOR","hdg_t":101.3,"dist_nm":63.3,"freq":117.6,"lat":45.56755000,"lon":25.56468100,"rng_nm":175,"alt_fmsl":5866,"id":"BRV","desc":"BRASOV VOR-DME"},
+{"type":"NDB","hdg_t":256.4,"dist_nm":83.7,"freq":330,"lat":45.44288300,"lon":22.16328900,"rng_nm":50,"alt_fmsl":758,"id":"CRS","desc":"CARANSEBES NDB"},
+{"type":"NDB","hdg_t":182.7,"dist_nm":88,"freq":417,"lat":44.31953900,"lon":23.99218300,"rng_nm":50,"alt_fmsl":505,"id":"EA","desc":"CRAIOVA NDB"},
+{"type":"VOR","hdg_t":184.7,"dist_nm":88.3,"freq":110.2,"lat":44.31860000,"lon":23.92275000,"rng_nm":100,"alt_fmsl":634,"id":"CRV","desc":"CRAIOVA VOR-DME"},
+{"type":"VOR","hdg_t":122.4,"dist_nm":95.2,"freq":113.2,"lat":44.91856100,"lon":25.97702800,"rng_nm":80,"alt_fmsl":545,"id":"STJ","desc":"STREJNIC VOR-DME"}
+]
+}

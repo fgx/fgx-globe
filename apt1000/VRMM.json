@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VRMM","name":"Male Intl","lat":4.1918315,"lon":73.529128,"rwys":1,"ils":1,"index":4151180,"path":"e070n00/e073n04"
+,"runways":[
+{"len_m":3198,"wid_m":45.11,"hdg":179,"surf":"Asphalt","rwy1":"18","lat1":4.20629400,"lon1":73.52888900,"rwy2":"36","lat2":4.17736900,"lon2":73.52936700}
+]
+,"radios":[
+{"type":"GND","freq":121.6,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":108.7,"lat":4.20762800,"lon":73.52914400,"rng_nm":18,"alt_fmsl":5,"hdg":359.58,"id":"IML","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.7,"lat":4.18279700,"lon":73.52827500,"rng_nm":10,"alt_fmsl":5,"id":"IML","rwy":"36","desc":"GS","gs":3},
+{"type":"DME","freq":108.7,"lat":4.18279700,"lon":73.52827500,"rng_nm":18,"alt_fmsl":22,"id":"IML","rwy":"36","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":44.8,"dist_nm":0.1,"freq":114.7,"lat":4.19339200,"lon":73.53067200,"rng_nm":200,"alt_fmsl":22,"id":"MLE","desc":"MALE VOR-DME"},
+{"type":"NDB","hdg_t":124.2,"dist_nm":0.1,"freq":252,"lat":4.19047200,"lon":73.53111700,"rng_nm":200,"alt_fmsl":4,"id":"ML","desc":"MALE NDB"},
+{"type":"NDB","hdg_t":180.2,"dist_nm":139.5,"freq":260,"lat":1.85444400,"lon":73.52080600,"rng_nm":50,"alt_fmsl":0,"id":"KD","desc":"KADHDHOO NDB"},
+{"type":"NDB","hdg_t":351.9,"dist_nm":153.9,"freq":267,"lat":6.74391100,"lon":73.16651900,"rng_nm":50,"alt_fmsl":0,"id":"HA","desc":"HANIMAADHOO NDB"},
+{"type":"NDB","hdg_t":188.2,"dist_nm":222.9,"freq":274,"lat":0.49577800,"lon":72.99525800,"rng_nm":50,"alt_fmsl":0,"id":"KA","desc":"KAADEDHDHOO NDB"},
+{"type":"VOR","hdg_t":184.4,"dist_nm":292.5,"freq":113.4,"lat":-0.69427200,"lon":73.15549400,"rng_nm":130,"alt_fmsl":6,"id":"GAN","desc":"GAN ISLAND VOR-DME"},
+{"type":"NDB","hdg_t":184.3,"dist_nm":292.7,"freq":317,"lat":-0.69766400,"lon":73.16395800,"rng_nm":50,"alt_fmsl":0,"id":"GN","desc":"GAN ISLAND NDB"},
+{"type":"VOR","hdg_t":38.2,"dist_nm":326.4,"freq":115.1,"lat":8.47480600,"lon":76.92472200,"rng_nm":130,"alt_fmsl":15,"id":"TVM","desc":"TRIVANDRUM VOR-DME"},
+{"type":"VOR","hdg_t":25.3,"dist_nm":380.4,"freq":114.6,"lat":9.94468300,"lon":76.27286700,"rng_nm":130,"alt_fmsl":8,"id":"CCN","desc":"COCHIN VOR-DME"},
+{"type":"NDB","hdg_t":44.5,"dist_nm":381.2,"freq":376,"lat":8.72561100,"lon":78.02569400,"rng_nm":50,"alt_fmsl":0,"id":"TU","desc":"TUTICORIN NDB"}
+]
+}

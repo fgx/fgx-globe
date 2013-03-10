@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UMII","name":"Vitebsk","lat":55.126497,"lon":30.3496415,"rwys":1,"ils":1,"index":3449929,"path":"e030n50/e030n55"
+,"runways":[
+{"len_m":2606,"wid_m":42.06,"hdg":61,"surf":"Asphalt","rwy1":"06","lat1":55.12100000,"lon1":30.33160000,"rwy2":"24","lat2":55.13199400,"lon2":30.36768300}
+]
+,"radios":[
+{"type":"APP","freq":120.4,"desc":"APP"},
+{"type":"APP","freq":124,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.9,"lat":55.11833300,"lon":30.32666700,"rng_nm":18,"alt_fmsl":683,"hdg":239.76,"id":"IUU","rwy":"24","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.9,"lat":55.13000000,"lon":30.36666700,"rng_nm":10,"alt_fmsl":683,"id":"IUU","rwy":"24","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":55.15000000,"lon":30.43000000,"rng_nm":0,"alt_fmsl":683,"id":"----","rwy":"24","desc":"OM"},
+{"type":"MM","freq":0,"lat":55.13666700,"lon":30.38166700,"rng_nm":0,"alt_fmsl":683,"id":"----","rwy":"24","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":125.2,"dist_nm":0.1,"freq":112.7,"lat":55.12500000,"lon":30.35333300,"rng_nm":130,"alt_fmsl":663,"id":"VTB","desc":"VITEBSK VOR-DME"},
+{"type":"NDB","hdg_t":241,"dist_nm":2.8,"freq":524,"lat":55.10333300,"lon":30.27666700,"rng_nm":80,"alt_fmsl":0,"id":"WS","desc":"VITEBSK NDB"},
+{"type":"NDB","hdg_t":62.9,"dist_nm":3.1,"freq":524,"lat":55.15000000,"lon":30.43000000,"rng_nm":80,"alt_fmsl":0,"id":"UU","desc":"VITEBSK NDB"},
+{"type":"NDB","hdg_t":188.9,"dist_nm":69.3,"freq":485,"lat":53.98666700,"lon":30.04500000,"rng_nm":80,"alt_fmsl":0,"id":"UF","desc":"MOGILEV NDB"},
+{"type":"NDB","hdg_t":185.7,"dist_nm":72.4,"freq":485,"lat":53.92666700,"lon":30.14500000,"rng_nm":80,"alt_fmsl":0,"id":"CO","desc":"MOGILEV NDB"},
+{"type":"VOR","hdg_t":6.5,"dist_nm":75.7,"freq":108.2,"lat":56.37833300,"lon":30.60833300,"rng_nm":130,"alt_fmsl":0,"id":"WKL","desc":"VELIKIYE LUKI VOR"},
+{"type":"NDB","hdg_t":62.6,"dist_nm":98.3,"freq":1290,"lat":55.85000000,"lon":32.93333300,"rng_nm":80,"alt_fmsl":0,"id":"TU","desc":"BELY NDB"},
+{"type":"NDB","hdg_t":229.8,"dist_nm":110.1,"freq":635,"lat":53.92166700,"lon":27.97500000,"rng_nm":80,"alt_fmsl":0,"id":"VX","desc":"MINSK-2 NDB"},
+{"type":"NDB","hdg_t":226.6,"dist_nm":110.4,"freq":635,"lat":53.84333300,"lon":28.09166700,"rng_nm":80,"alt_fmsl":0,"id":"GH","desc":"MINSK-2 NDB"},
+{"type":"VOR","hdg_t":228.4,"dist_nm":110.4,"freq":113.6,"lat":53.88500000,"lon":28.02166700,"rng_nm":130,"alt_fmsl":692,"id":"MNS","desc":"MINSK-2 VOR-DME"}
+]
+}

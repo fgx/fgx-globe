@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SAZR","name":"Santa Rosa","lat":-36.5883205,"lon":-64.2756945,"rwys":1,"ils":1,"index":1887578,"path":"w070s40/w065s37"
+,"runways":[
+{"len_m":2299,"wid_m":29.87,"hdg":11,"surf":"Asphalt","rwy1":"01","lat1":-36.59848300,"lon1":-64.27818300,"rwy2":"19","lat2":-36.57815800,"lon2":-64.27320600}
+]
+,"radios":[
+{"type":"TWR","freq":118.3,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-36.60094400,"lon":-64.27894400,"rng_nm":18,"alt_fmsl":630,"hdg":191.43,"id":"SR","rwy":"19","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.3,"lat":-36.58101400,"lon":-64.27572800,"rng_nm":10,"alt_fmsl":630,"id":"SR","rwy":"19","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":-36.56833300,"lon":-64.27000000,"rng_nm":0,"alt_fmsl":630,"id":"----","rwy":"19","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":-36.58101400,"lon":-64.27572800,"rng_nm":18,"alt_fmsl":640,"id":"SR","rwy":"19","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":26.6,"dist_nm":0.3,"freq":112.5,"lat":-36.58372200,"lon":-64.27283300,"rng_nm":189,"alt_fmsl":630,"id":"OSA","desc":"SANTA ROSA VOR-DME"},
+{"type":"NDB","hdg_t":12.9,"dist_nm":1.2,"freq":300,"lat":-36.56833300,"lon":-64.27000000,"rng_nm":50,"alt_fmsl":630,"id":"O","desc":"SANTA ROSA NDB"},
+{"type":"NDB","hdg_t":26.1,"dist_nm":58.2,"freq":307,"lat":-35.71500000,"lon":-63.75027800,"rng_nm":25,"alt_fmsl":0,"id":"G","desc":"GENERAL PICO NDB"},
+{"type":"VOR","hdg_t":25.5,"dist_nm":59.4,"freq":112.2,"lat":-35.69277800,"lon":-63.75083300,"rng_nm":185,"alt_fmsl":459,"id":"GPI","desc":"GENERAL PICO VOR"},
+{"type":"NDB","hdg_t":25.1,"dist_nm":59.5,"freq":285,"lat":-35.68750000,"lon":-63.75805600,"rng_nm":189,"alt_fmsl":456,"id":"GPI","desc":"GENERAL PICO NDB"},
+{"type":"NDB","hdg_t":69.8,"dist_nm":125.4,"freq":265,"lat":-35.84111100,"lon":-61.86083300,"rng_nm":230,"alt_fmsl":279,"id":"PEH","desc":"PEHUAJO NDB"},
+{"type":"VOR","hdg_t":17.2,"dist_nm":153.2,"freq":116.3,"lat":-34.14111100,"lon":-63.36250000,"rng_nm":185,"alt_fmsl":449,"id":"LYE","desc":"LABOULAYE VOR"},
+{"type":"NDB","hdg_t":141.7,"dist_nm":158.9,"freq":260,"lat":-38.65166700,"lon":-62.18166700,"rng_nm":25,"alt_fmsl":0,"id":"OC","desc":"COMANDANTE ESPORA NDB"},
+{"type":"NDB","hdg_t":142.1,"dist_nm":162.1,"freq":280,"lat":-38.70666700,"lon":-62.16000000,"rng_nm":25,"alt_fmsl":246,"id":"C","desc":"COMANDANTE ESPORA NDB"},
+{"type":"VOR","hdg_t":142.3,"dist_nm":162.7,"freq":114.3,"lat":-38.72000000,"lon":-62.15833300,"rng_nm":175,"alt_fmsl":246,"id":"BCA","desc":"BAHIA BLANCA VOR-DME"}
+]
+}

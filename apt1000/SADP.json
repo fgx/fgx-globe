@@ -1,0 +1,47 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SADP","name":"El Palomar","lat":-34.6095225666667,"lon":-58.60568503,"rwys":1,"ils":1,"index":1986009,"path":"w060s40/w059s35"
+,"runways":[
+{"len_m":2106,"wid_m":49.07,"hdg":156,"surf":"Concrete","rwy1":"16","lat1":-34.60119451,"lon1":-58.61715117,"rwy2":"34","lat2":-34.61863283,"lon2":-58.60807214}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":21,"wid_m":21.03,"hdg":-58,"surf":"Concrete","lat1":-34.61262313,"lon1":-58.60372013},
+{"rwy1":"H2","len_m":21,"wid_m":21.03,"hdg":-58,"surf":"Concrete","lat1":-34.60603090,"lon1":-58.60072331}
+]
+,"radios":[
+{"type":"TWR","freq":120.3,"desc":"Palomar TWR"},
+{"type":"TWR","freq":118.9,"desc":"Palomar TWR AUX"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":-34.62045800,"lon":-58.60714400,"rng_nm":18,"alt_fmsl":59,"hdg":156.85,"id":"PR","rwy":"16","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":-34.60500000,"lon":-58.61333300,"rng_nm":10,"alt_fmsl":59,"id":"PR","rwy":"16","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-34.54166700,"lon":-58.64833300,"rng_nm":0,"alt_fmsl":59,"id":"----","rwy":"16","desc":"OM"},
+{"type":"MM","freq":0,"lat":-34.58833300,"lon":-58.62500000,"rng_nm":0,"alt_fmsl":59,"id":"----","rwy":"16","desc":"MM"},
+{"type":"DME","freq":110.5,"lat":-34.60500000,"lon":-58.61333300,"rng_nm":18,"alt_fmsl":59,"id":"PR","rwy":"16","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":244.3,"dist_nm":0.4,"freq":115.2,"lat":-34.61277800,"lon":-58.61388900,"rng_nm":175,"alt_fmsl":58,"id":"PAL","desc":"EL PALOMAR VOR-DME"},
+{"type":"NDB","hdg_t":322.9,"dist_nm":1.5,"freq":315,"lat":-34.58833300,"lon":-58.62500000,"rng_nm":25,"alt_fmsl":0,"id":"L","desc":"EL PALOMAR NDB"},
+{"type":"NDB","hdg_t":47.8,"dist_nm":7.9,"freq":260,"lat":-34.52011490,"lon":-58.48653412,"rng_nm":25,"alt_fmsl":53,"id":"OP","desc":"AEROPARQUE JORGE NEWBERY NDB"},
+{"type":"NDB","hdg_t":65.3,"dist_nm":9,"freq":280,"lat":-34.54641700,"lon":-58.43950000,"rng_nm":25,"alt_fmsl":20,"id":"P","desc":"AEROPARQUE JORGE NEWBERY NDB"},
+{"type":"VOR","hdg_t":286.9,"dist_nm":9.5,"freq":112.9,"lat":-34.56277800,"lon":-58.79055600,"rng_nm":185,"alt_fmsl":105,"id":"ENO","desc":"MARIANO MORENO VOR-DME"},
+{"type":"VOR","hdg_t":6.4,"dist_nm":9.5,"freq":114.4,"lat":-34.45138900,"lon":-58.58416700,"rng_nm":185,"alt_fmsl":49,"id":"FDO","desc":"SAN FERNANDO VOR-DME"},
+{"type":"NDB","hdg_t":293.8,"dist_nm":10.5,"freq":395,"lat":-34.53833300,"lon":-58.80000000,"rng_nm":25,"alt_fmsl":92,"id":"Z","desc":"MARIANO MORENO NDB"},
+{"type":"NDB","hdg_t":186.6,"dist_nm":11.7,"freq":330,"lat":-34.80483246,"lon":-58.63344574,"rng_nm":25,"alt_fmsl":31,"id":"OC","desc":"MINISTRO PISTARINI NDB"},
+{"type":"NDB","hdg_t":82.9,"dist_nm":11.8,"freq":375,"lat":-34.58491516,"lon":-58.36888885,"rng_nm":25,"alt_fmsl":37,"id":"N","desc":"AEROPARQUE NDB"},
+{"type":"NDB","hdg_t":170.7,"dist_nm":12.5,"freq":305,"lat":-34.81705475,"lon":-58.56466675,"rng_nm":25,"alt_fmsl":66,"id":"C","desc":"MINISTRO PISTARINI NDB"},
+{"type":"NDB","hdg_t":305.1,"dist_nm":13.1,"freq":295,"lat":-34.48333300,"lon":-58.82166700,"rng_nm":25,"alt_fmsl":0,"id":"OZ","desc":"MARIANO MORENO NDB"},
+{"type":"VOR","hdg_t":164.8,"dist_nm":13.3,"freq":116.5,"lat":-34.82416534,"lon":-58.53527832,"rng_nm":185,"alt_fmsl":66,"id":"EZE","desc":"EZEIZA VOR-DME"},
+{"type":"NDB","hdg_t":163.5,"dist_nm":14.5,"freq":237,"lat":-34.84163900,"lon":-58.52236100,"rng_nm":25,"alt_fmsl":66,"id":"A","desc":"MINISTRO PISTARINI NDB"},
+{"type":"NDB","hdg_t":163.6,"dist_nm":17.5,"freq":270,"lat":-34.89027786,"lon":-58.50602722,"rng_nm":25,"alt_fmsl":81,"id":"OA","desc":"MINISTRO PISTARINI NDB"},
+{"type":"NDB","hdg_t":108.6,"dist_nm":19,"freq":210,"lat":-34.71083300,"lon":-58.24027800,"rng_nm":162,"alt_fmsl":7,"id":"ILM","desc":"QUILMES NDB"},
+{"type":"NDB","hdg_t":121.6,"dist_nm":41,"freq":250,"lat":-34.96666700,"lon":-57.89777800,"rng_nm":81,"alt_fmsl":72,"id":"PTA","desc":"LA PLATA NDB"},
+{"type":"VOR","hdg_t":122.3,"dist_nm":41.2,"freq":113.7,"lat":-34.97583300,"lon":-57.89833300,"rng_nm":170,"alt_fmsl":69,"id":"PTA","desc":"LA PLATA VOR"},
+{"type":"NDB","hdg_t":77.5,"dist_nm":42.4,"freq":203,"lat":-34.45394400,"lon":-57.77008300,"rng_nm":30,"alt_fmsl":0,"id":"COL","desc":"COLONIA NDB"},
+{"type":"VOR","hdg_t":299.3,"dist_nm":47.3,"freq":117.7,"lat":-34.21944400,"lon":-59.43555600,"rng_nm":185,"alt_fmsl":98,"id":"SNT","desc":"SAN ANTONIO DE ARECO VOR-DME"},
+{"type":"NDB","hdg_t":296.4,"dist_nm":48.3,"freq":340,"lat":-34.24777800,"lon":-59.47555600,"rng_nm":162,"alt_fmsl":98,"id":"SNT","desc":"SAN ANTONIO DE ARECO NDB"},
+{"type":"VOR","hdg_t":174.2,"dist_nm":68.7,"freq":115.6,"lat":-35.75111100,"lon":-58.46388900,"rng_nm":185,"alt_fmsl":57,"id":"GBE","desc":"GENERAL BELGRANO VOR"},
+{"type":"NDB","hdg_t":125.1,"dist_nm":77.9,"freq":325,"lat":-35.35277800,"lon":-57.30722200,"rng_nm":216,"alt_fmsl":52,"id":"PDI","desc":"PUNTA INDIO NDB"},
+{"type":"VOR","hdg_t":124.3,"dist_nm":79,"freq":114.1,"lat":-35.34611100,"lon":-57.27555600,"rng_nm":140,"alt_fmsl":52,"id":"PDI","desc":"PUNTA INDIO VOR-DME"},
+{"type":"VOR","hdg_t":359.7,"dist_nm":95.8,"freq":113.2,"lat":-33.00972200,"lon":-58.61416700,"rng_nm":175,"alt_fmsl":75,"id":"GUA","desc":"GUALEGUAYCHU VOR-DME"}
+]
+}

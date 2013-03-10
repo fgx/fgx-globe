@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PAKN","name":"King Salmon","lat":58.677088,"lon":-156.64992025,"rwys":2,"ils":1,"index":386345,"path":"w160n50/w157n58"
+,"runways":[
+{"len_m":2591,"wid_m":45.72,"hdg":131,"surf":"Asphalt","rwy1":"11","lat1":58.68393900,"lon1":-156.66472800,"rwy2":"29","lat2":58.66841900,"lon2":-156.63146100},
+{"len_m":1224,"wid_m":30.48,"hdg":196,"surf":"Asphalt","rwy1":"18","lat1":58.68327200,"lon1":-156.64878100,"rwy2":"36","lat2":58.67272200,"lon2":-156.65471100}
+]
+,"radios":[
+{"type":"ATIS","freq":128.8,"desc":"ATIS"},
+{"type":"CTAF","freq":121.9,"desc":"CTAF"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.3,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":58.66570800,"lon":-156.62565800,"rng_nm":18,"alt_fmsl":72,"hdg":131.93,"id":"IAKN","rwy":"11","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":58.68259400,"lon":-156.65830300,"rng_nm":10,"alt_fmsl":58,"id":"IAKN","rwy":"11","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":58.73716700,"lon":-156.77830800,"rng_nm":0,"alt_fmsl":72,"id":"----","rwy":"11","desc":"OM"},
+{"type":"MM","freq":0,"lat":58.69040000,"lon":-156.67858900,"rng_nm":0,"alt_fmsl":72,"id":"----","rwy":"11","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":311.8,"dist_nm":4.2,"freq":112.8,"lat":58.72472222,"lon":-156.75233333,"rng_nm":130,"alt_fmsl":95,"id":"AKN","desc":"KING SALMON VORTAC"},
+{"type":"NDB","hdg_t":312,"dist_nm":5.4,"freq":355,"lat":58.73716667,"lon":-156.77830556,"rng_nm":50,"alt_fmsl":0,"id":"AUB","desc":"CHINOOK NDB"},
+{"type":"NDB","hdg_t":312,"dist_nm":5.4,"freq":355,"lat":58.73716700,"lon":-156.77830800,"rng_nm":50,"alt_fmsl":0,"id":"AK","desc":"SALDO NDB"},
+{"type":"NDB","hdg_t":57.4,"dist_nm":38.6,"freq":334,"lat":59.01772222,"lon":-155.60038889,"rng_nm":50,"alt_fmsl":0,"id":"HCP","desc":"KULIK LAKE NDB"},
+{"type":"NDB","hdg_t":288.9,"dist_nm":62.2,"freq":429,"lat":58.99961111,"lon":-158.54830556,"rng_nm":50,"alt_fmsl":0,"id":"BTS","desc":"WOOD RIVER NDB"},
+{"type":"VOR","hdg_t":288.6,"dist_nm":62.3,"freq":116.4,"lat":58.99422222,"lon":-158.55222222,"rng_nm":130,"alt_fmsl":81,"id":"DLG","desc":"DILLINGHAM VOR-DME"},
+{"type":"NDB","hdg_t":39,"dist_nm":83.8,"freq":411,"lat":59.74808333,"lon":-154.90963889,"rng_nm":50,"alt_fmsl":0,"id":"ILI","desc":"ILIAMNA NDB"},
+{"type":"NDB","hdg_t":282.9,"dist_nm":118.3,"freq":393,"lat":59.06408333,"lon":-160.37408333,"rng_nm":50,"alt_fmsl":0,"id":"TOG","desc":"TOGIAK NDB"},
+{"type":"NDB","hdg_t":212.5,"dist_nm":121.8,"freq":371,"lat":56.95427778,"lon":-158.64755556,"rng_nm":50,"alt_fmsl":0,"id":"PDN","desc":"PORT HEIDEN NDB"},
+{"type":"VOR","hdg_t":109.7,"dist_nm":147,"freq":117.1,"lat":57.77502778,"lon":-152.33977778,"rng_nm":130,"alt_fmsl":130,"id":"ODK","desc":"KODIAK VOR-DME"}
+]
+}

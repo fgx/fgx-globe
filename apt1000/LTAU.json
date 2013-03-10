@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LTAU","name":"Erkilet","lat":38.7703845,"lon":35.4954275,"rwys":1,"ils":1,"index":3530801,"path":"e030n30/e035n38"
+,"runways":[
+{"len_m":2999,"wid_m":44.20,"hdg":76,"surf":"Concrete","rwy1":"07","lat1":38.76719700,"lon1":35.47865800,"rwy2":"25","lat2":38.77357200,"lon2":35.51219700}
+]
+,"radios":[
+{"type":"GND","freq":121.95,"desc":"GND"},
+{"type":"TWR","freq":122.1,"desc":"TWR"},
+{"type":"APP","freq":122.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":38.76666700,"lon":35.47555600,"rng_nm":18,"alt_fmsl":3453,"hdg":256.40,"id":"IKSR","rwy":"25","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.3,"lat":38.77194400,"lon":35.50916700,"rng_nm":10,"alt_fmsl":3463,"id":"IKSR","rwy":"25","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":38.79472200,"lon":35.62305600,"rng_nm":0,"alt_fmsl":3453,"id":"----","rwy":"25","desc":"OM"},
+{"type":"MM","freq":0,"lat":38.77583300,"lon":35.52444400,"rng_nm":0,"alt_fmsl":3453,"id":"----","rwy":"25","desc":"MM"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":244,"dist_nm":0.9,"freq":116.9,"lat":38.76357500,"lon":35.47752800,"rng_nm":25,"alt_fmsl":3525,"id":"KSR","desc":"KAYSERI TACAN"},
+{"type":"VOR","hdg_t":75.7,"dist_nm":1.2,"freq":116.3,"lat":38.77558900,"lon":35.52168100,"rng_nm":40,"alt_fmsl":3489,"id":"KSR","desc":"KAYSERI VOR-DME"},
+{"type":"VOR","hdg_t":47.1,"dist_nm":34,"freq":115.1,"lat":39.15527800,"lon":36.02916700,"rng_nm":130,"alt_fmsl":5000,"id":"GEM","desc":"GEMEREK VOR-DME"},
+{"type":"NDB","hdg_t":270,"dist_nm":44.7,"freq":371,"lat":38.76750000,"lon":34.54083300,"rng_nm":75,"alt_fmsl":3100,"id":"TZK","desc":"TUZKOY NDB"},
+{"type":"VOR","hdg_t":270,"dist_nm":44.7,"freq":115.3,"lat":38.76750000,"lon":34.54083300,"rng_nm":75,"alt_fmsl":3100,"id":"TZK","desc":"TUZKOY VOR-DME"},
+{"type":"NDB","hdg_t":46.3,"dist_nm":89.2,"freq":310,"lat":39.78944400,"lon":36.89333300,"rng_nm":75,"alt_fmsl":0,"id":"SIV","desc":"SIVAS NDB"},
+{"type":"VOR","hdg_t":46.3,"dist_nm":89.2,"freq":114.2,"lat":39.78944400,"lon":36.89333300,"rng_nm":130,"alt_fmsl":5279,"id":"SIV","desc":"SIVAS VOR-DME"},
+{"type":"NDB","hdg_t":23.4,"dist_nm":100.5,"freq":403,"lat":40.30583300,"lon":36.36694400,"rng_nm":25,"alt_fmsl":1831,"id":"TKT","desc":"TOKAT NDB-DME"},
+{"type":"SDME","hdg_t":23.4,"dist_nm":100.5,"freq":115,"lat":40.30583300,"lon":36.36694400,"rng_nm":25,"alt_fmsl":1831,"id":"TKT","desc":"TOKAT NDB-DME"},
+{"type":"NDB","hdg_t":136.4,"dist_nm":101,"freq":374,"lat":37.53805600,"lon":36.95361100,"rng_nm":75,"alt_fmsl":1723,"id":"KHM","desc":"KAHRAMANMARAS NDB"}
+]
+}

@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"FIMP","name":"Sir Seewoosagur Ramgoolam Intl","lat":-20.4302345,"lon":57.6836015,"rwys":1,"ils":1,"index":3887461,"path":"e050s30/e057s21"
+,"runways":[
+{"len_m":3364,"wid_m":45.11,"hdg":117,"surf":"Asphalt","rwy1":"14","lat1":-20.42331800,"lon1":57.66925000,"rwy2":"32","lat2":-20.43715100,"lon2":57.69795300}
+]
+,"radios":[
+{"type":"ATIS","freq":126.2,"desc":"ATIS"},
+{"type":"TWR","freq":129.3,"desc":"INFO"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":-20.43833300,"lon":57.70000000,"rng_nm":18,"alt_fmsl":186,"hdg":117.52,"id":"IPL","rwy":"14","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":-20.42500000,"lon":57.67500000,"rng_nm":10,"alt_fmsl":186,"id":"IPL","rwy":"14","desc":"GS","gs":3.5},
+{"type":"OM","freq":0,"lat":-20.39419400,"lon":57.60877800,"rng_nm":0,"alt_fmsl":186,"id":"----","rwy":"14","desc":"OM"},
+{"type":"MM","freq":0,"lat":-20.42027800,"lon":57.66291700,"rng_nm":0,"alt_fmsl":186,"id":"----","rwy":"14","desc":"MM"},
+{"type":"DME","freq":109.9,"lat":-20.42487200,"lon":57.67513300,"rng_nm":18,"alt_fmsl":186,"id":"IPL","rwy":"14","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":145.5,"dist_nm":0.7,"freq":343,"lat":-20.44016800,"lon":57.69083300,"rng_nm":300,"alt_fmsl":0,"id":"MS","desc":"PLAISANCE NDB"},
+{"type":"VOR","hdg_t":296.9,"dist_nm":1.3,"freq":113.7,"lat":-20.42002800,"lon":57.66233300,"rng_nm":300,"alt_fmsl":488,"id":"PLS","desc":"PLAISANCE VOR-DME"},
+{"type":"NDB","hdg_t":296.7,"dist_nm":19.6,"freq":258,"lat":-20.28161200,"lon":57.37172200,"rng_nm":100,"alt_fmsl":0,"id":"FF","desc":"FLIC - EN - FLAC NDB"},
+{"type":"VOR","hdg_t":349.4,"dist_nm":25.2,"freq":114.8,"lat":-20.01472300,"lon":57.60136100,"rng_nm":25,"alt_fmsl":294,"id":"GBY","desc":"GRAND BAY VOR-DME"},
+{"type":"NDB","hdg_t":256.7,"dist_nm":124.4,"freq":382,"lat":-20.89275000,"lon":55.52619400,"rng_nm":400,"alt_fmsl":0,"id":"FXR","desc":"ST DENIS GILLOT NDB"},
+{"type":"VOR","hdg_t":257,"dist_nm":125.2,"freq":112.9,"lat":-20.88483300,"lon":55.50980600,"rng_nm":130,"alt_fmsl":57,"id":"SDG","desc":"ST DENIS GILLOT VOR-DME"},
+{"type":"VOR","hdg_t":247,"dist_nm":137.9,"freq":115.9,"lat":-21.31641700,"lon":55.41716700,"rng_nm":40,"alt_fmsl":52,"id":"PRF","desc":"ST PIERRE PIERREFONDS VOR-DME"},
+{"type":"NDB","hdg_t":248.3,"dist_nm":139.9,"freq":352,"lat":-21.27755600,"lon":55.36225000,"rng_nm":75,"alt_fmsl":0,"id":"SP","desc":"PIERREFONDS/ETANG NDB"},
+{"type":"NDB","hdg_t":83.8,"dist_nm":323,"freq":302,"lat":-19.75994600,"lon":63.36038900,"rng_nm":250,"alt_fmsl":0,"id":"RS","desc":"RODRIGUES NDB"},
+{"type":"NDB","hdg_t":325.7,"dist_nm":326,"freq":366,"lat":-15.89564200,"lon":54.51081400,"rng_nm":100,"alt_fmsl":0,"id":"FXT","desc":"TROMELIN NDB"}
+]
+}

@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LECO","name":"A Coruna","lat":43.302264,"lon":-8.37708573,"rwys":1,"ils":1,"index":2810194,"path":"w010n40/w009n43"
+,"runways":[
+{"len_m":1941,"wid_m":45.11,"hdg":31,"surf":"Asphalt","rwy1":"04","lat1":43.29477658,"lon1":-8.38325303,"rwy2":"22","lat2":43.30975142,"lon2":-8.37091842}
+]
+,"radios":[
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"APP","freq":120.2,"desc":"SANTIAGO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":43.29372800,"lon":-8.38409400,"rng_nm":18,"alt_fmsl":329,"hdg":210.89,"id":"LCO","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":43.30721700,"lon":-8.37210000,"rng_nm":10,"alt_fmsl":323,"id":"LCO","rwy":"22","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":43.30721700,"lon":-8.37208300,"rng_nm":18,"alt_fmsl":293,"id":"LCO","rwy":"22","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":29.4,"dist_nm":4.3,"freq":401,"lat":43.36536400,"lon":-8.32826400,"rng_nm":50,"alt_fmsl":0,"id":"COA","desc":"LA CORUNA NDB"},
+{"type":"VOR","hdg_t":28.6,"dist_nm":6.4,"freq":115.1,"lat":43.39615800,"lon":-8.30682200,"rng_nm":130,"alt_fmsl":415,"id":"LRA","desc":"LA CORUNA VOR-DME"},
+{"type":"VOR","hdg_t":185.4,"dist_nm":22.6,"freq":116.4,"lat":42.92687500,"lon":-8.42539200,"rng_nm":130,"alt_fmsl":1283,"id":"STG","desc":"SANTIAGO VOR-DME"},
+{"type":"NDB","hdg_t":185.4,"dist_nm":23.7,"freq":417,"lat":42.90776400,"lon":-8.42845300,"rng_nm":40,"alt_fmsl":0,"id":"SNO","desc":"SANTIAGO NDB"},
+{"type":"VOR","hdg_t":189.6,"dist_nm":59.6,"freq":113.6,"lat":42.32130800,"lon":-8.60163600,"rng_nm":130,"alt_fmsl":912,"id":"VGO","desc":"VIGO VOR-DME"},
+{"type":"NDB","hdg_t":189.6,"dist_nm":59.8,"freq":345,"lat":42.31819400,"lon":-8.60324400,"rng_nm":20,"alt_fmsl":0,"id":"VI","desc":"VIGO NDB"},
+{"type":"NDB","hdg_t":189.9,"dist_nm":67.9,"freq":433,"lat":42.18604200,"lon":-8.63900000,"rng_nm":40,"alt_fmsl":0,"id":"VON","desc":"VIGO NDB"},
+{"type":"VOR","hdg_t":80.4,"dist_nm":103.7,"freq":112.4,"lat":43.56459200,"lon":-6.03066900,"rng_nm":130,"alt_fmsl":440,"id":"VES","desc":"ASTURIAS VOR-DME"},
+{"type":"NDB","hdg_t":80.7,"dist_nm":103.8,"freq":325,"lat":43.55784200,"lon":-6.02839200,"rng_nm":60,"alt_fmsl":0,"id":"AST","desc":"ASTURIAS NDB"},
+{"type":"NDB","hdg_t":81.5,"dist_nm":107.9,"freq":387,"lat":43.53908300,"lon":-5.93052800,"rng_nm":40,"alt_fmsl":0,"id":"AV","desc":"ASTURIAS NDB"}
+]
+}

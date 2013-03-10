@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WMKI","name":"Ipoh/sultan Azlan Shaw","lat":4.5679725,"lon":101.0921945,"rwys":1,"ils":1,"index":4609952,"path":"e100n00/e101n04"
+,"runways":[
+{"len_m":1798,"wid_m":36.88,"hdg":41,"surf":"Asphalt","rwy1":"04","lat1":4.56187300,"lon1":101.08683600,"rwy2":"22","lat2":4.57407200,"lon2":101.09755300}
+]
+,"radios":[
+{"type":"TWR","freq":122.1,"desc":"IPOH TWR"},
+{"type":"TWR","freq":121.6,"desc":"IPOH TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":4.57670800,"lon":101.09986700,"rng_nm":18,"alt_fmsl":130,"hdg":41.21,"id":"IPO","rwy":"04","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":4.56308300,"lon":101.08971900,"rng_nm":10,"alt_fmsl":130,"id":"IPO","rwy":"04","desc":"GS","gs":3},
+{"type":"DME","freq":110.5,"lat":4.56308300,"lon":101.08971900,"rng_nm":18,"alt_fmsl":130,"id":"IPO","rwy":"04","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":15.7,"dist_nm":0.3,"freq":117.3,"lat":4.57302800,"lon":101.09361100,"rng_nm":130,"alt_fmsl":128,"id":"VIH","desc":"IPOH VOR-DME"},
+{"type":"VOR","hdg_t":221.2,"dist_nm":6.8,"freq":112.8,"lat":4.48222200,"lon":101.01722200,"rng_nm":25,"alt_fmsl":0,"id":"VPS","desc":"IPOH VOR"},
+{"type":"NDB","hdg_t":187.2,"dist_nm":34.3,"freq":315,"lat":3.99666700,"lon":101.02000000,"rng_nm":50,"alt_fmsl":0,"id":"TA","desc":"TELOK INTAN NDB"},
+{"type":"NDB","hdg_t":309.7,"dist_nm":36.9,"freq":270,"lat":4.96333300,"lon":100.61833300,"rng_nm":50,"alt_fmsl":0,"id":"PR","desc":"PARIT BUNTAR NDB"},
+{"type":"NDB","hdg_t":313.7,"dist_nm":65.4,"freq":406,"lat":5.32630600,"lon":100.30205600,"rng_nm":50,"alt_fmsl":0,"id":"PNG","desc":"PENANG NDB"},
+{"type":"VOR","hdg_t":310.5,"dist_nm":65.4,"freq":116.2,"lat":5.27963900,"lon":100.26038900,"rng_nm":25,"alt_fmsl":11,"id":"VPG","desc":"PENANG VOR-DME"},
+{"type":"SDME","hdg_t":322.2,"dist_nm":68.3,"freq":113.5,"lat":5.47186100,"lon":100.39313900,"rng_nm":130,"alt_fmsl":11,"id":"BTR","desc":"BUTTERWORTH TACAN"},
+{"type":"VOR","hdg_t":322.3,"dist_nm":68.4,"freq":113.3,"lat":5.47630600,"lon":100.39369400,"rng_nm":130,"alt_fmsl":11,"id":"VBT","desc":"BUTTERWORTH VORTAC"},
+{"type":"VOR","hdg_t":163.5,"dist_nm":77.3,"freq":114.7,"lat":3.32480600,"lon":101.45691700,"rng_nm":25,"alt_fmsl":359,"id":"VBA","desc":"BATU ARANG VOR-DME"},
+{"type":"NDB","hdg_t":164.1,"dist_nm":79,"freq":205,"lat":3.29508300,"lon":101.45191700,"rng_nm":50,"alt_fmsl":0,"id":"CE","desc":"CALEDONIAN NDB"},
+{"type":"NDB","hdg_t":162.9,"dist_nm":85.4,"freq":338,"lat":3.19980600,"lon":101.50833300,"rng_nm":50,"alt_fmsl":0,"id":"NM","desc":"KUALA LUMPUR NDB"},
+{"type":"NDB","hdg_t":161.8,"dist_nm":92.9,"freq":355,"lat":3.08813900,"lon":101.57355600,"rng_nm":50,"alt_fmsl":0,"id":"SM","desc":"KUALA LUMPUR NDB"},
+{"type":"NDB","hdg_t":161.1,"dist_nm":98.1,"freq":255,"lat":3.01138900,"lon":101.62022200,"rng_nm":50,"alt_fmsl":0,"id":"KL","desc":"KAYELL NDB"}
+]
+}

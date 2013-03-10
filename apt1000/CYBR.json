@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYBR","name":"Brandon Muni","lat":49.9092828333333,"lon":-99.9495163333333,"rwys":3,"ils":1,"index":1319672,"path":"w100n40/w100n49"
+,"runways":[
+{"len_m":1981,"wid_m":45.72,"hdg":88,"surf":"Asphalt","rwy1":"08","lat1":49.90710600,"lon1":-99.96591700,"rwy2":"26","lat2":49.90750000,"lon2":-99.93834200},
+{"len_m":914,"wid_m":18.29,"hdg":148,"surf":"Gravel","rwy1":"14","lat1":49.91353300,"lon1":-99.94888300,"rwy2":"32","lat2":49.90652200,"lon2":-99.94223300},
+{"len_m":829,"wid_m":30.48,"hdg":20,"surf":"Asphalt","rwy1":"02","lat1":49.90702500,"lon1":-99.95288100,"rwy2":"20","lat2":49.91401100,"lon2":-99.94884200}
+]
+,"radios":[
+{"type":"TWR","freq":122.1,"desc":"MF"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":49.90753190,"lon":-99.93611066,"rng_nm":18,"alt_fmsl":1343,"hdg":88.73,"id":"IBR","rwy":"08","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":49.90634415,"lon":-99.96163061,"rng_nm":10,"alt_fmsl":1343,"id":"IBR","rwy":"08","desc":"GS","gs":3},
+{"type":"DME","freq":110.1,"lat":49.90634415,"lon":-99.96163061,"rng_nm":18,"alt_fmsl":1343,"id":"IBR","rwy":"08","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":76.2,"dist_nm":0.1,"freq":113.8,"lat":49.90988889,"lon":-99.94566667,"rng_nm":130,"alt_fmsl":1346,"id":"YBR","desc":"BRANDON VOR-DME"},
+{"type":"NDB","hdg_t":269.1,"dist_nm":4.8,"freq":233,"lat":49.90802778,"lon":-100.07375000,"rng_nm":50,"alt_fmsl":0,"id":"BR","desc":"BRANDON NDB"},
+{"type":"VOR","hdg_t":56.4,"dist_nm":56.4,"freq":112.2,"lat":50.42222222,"lon":-98.72372222,"rng_nm":130,"alt_fmsl":935,"id":"VLR","desc":"LANGRUTH VOR-DME"},
+{"type":"VOR","hdg_t":89.8,"dist_nm":65.2,"freq":114.6,"lat":49.89966667,"lon":-98.26725000,"rng_nm":130,"alt_fmsl":900,"id":"YPG","desc":"PORTAGE VOR-DME"},
+{"type":"NDB","hdg_t":75.6,"dist_nm":65.3,"freq":269,"lat":50.16666667,"lon":-98.30722222,"rng_nm":50,"alt_fmsl":0,"id":"UDE","desc":"DELTA NDB"},
+{"type":"NDB","hdg_t":92.7,"dist_nm":68.8,"freq":353,"lat":49.84177778,"lon":-98.17963889,"rng_nm":50,"alt_fmsl":0,"id":"PG","desc":"PORTAGE NDB"},
+{"type":"NDB","hdg_t":298.9,"dist_nm":70.2,"freq":304,"lat":50.46500800,"lon":-101.55183100,"rng_nm":50,"alt_fmsl":1585,"id":"D4","desc":"ROCANVILLE NDB"},
+{"type":"NDB","hdg_t":356.6,"dist_nm":71.5,"freq":224,"lat":51.09805556,"lon":-100.06166667,"rng_nm":50,"alt_fmsl":0,"id":"DN","desc":"DAUPHIN NDB"},
+{"type":"VOR","hdg_t":356.8,"dist_nm":71.9,"freq":116.1,"lat":51.10500000,"lon":-100.05263889,"rng_nm":130,"alt_fmsl":1022,"id":"YDN","desc":"DAUPHIN VOR-DME"},
+{"type":"NDB","hdg_t":315.2,"dist_nm":72.9,"freq":263,"lat":50.76416700,"lon":-101.29638900,"rng_nm":25,"alt_fmsl":1825,"id":"3Z","desc":"RUSSELL NDB"},
+{"type":"NDB","hdg_t":260.9,"dist_nm":92,"freq":310,"lat":49.64556700,"lon":-102.28103600,"rng_nm":50,"alt_fmsl":2074,"id":"8A","desc":"CARLYLE NDB"}
+]
+}

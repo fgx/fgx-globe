@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ENLI","name":"Lista","lat":58.0997095,"lon":6.6260195,"rwys":1,"ils":1,"index":3056898,"path":"e000n50/e006n58"
+,"runways":[
+{"len_m":2989,"wid_m":45.11,"hdg":131,"surf":"Concrete","rwy1":"14","lat1":58.10853600,"lon1":6.60692200,"rwy2":"32","lat2":58.09088300,"lon2":6.64511700}
+]
+,"radios":[
+{"type":"TWR","freq":126.45,"desc":"AFIS"},
+{"type":"TWR","freq":118.7,"desc":"AFIS"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":58.09032200,"lon":6.64632800,"rng_nm":18,"alt_fmsl":48,"hdg":131.19,"id":"LI","rwy":"14","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":58.10658600,"lon":6.61495600,"rng_nm":10,"alt_fmsl":29,"id":"LI","rwy":"14","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":58.11289700,"lon":6.59746900,"rng_nm":0,"alt_fmsl":48,"id":"----","rwy":"14","desc":"MM"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":356.3,"dist_nm":0.1,"freq":109.3,"lat":58.10148900,"lon":6.62580600,"rng_nm":130,"alt_fmsl":48,"id":"LST","desc":"LISTA TACAN"},
+{"type":"NDB","hdg_t":131.1,"dist_nm":2.5,"freq":383,"lat":58.07156900,"lon":6.68682500,"rng_nm":50,"alt_fmsl":25,"id":"LST","desc":"LISTA NDB"},
+{"type":"VOR","hdg_t":90.7,"dist_nm":40.8,"freq":112.1,"lat":58.08449700,"lon":7.90830800,"rng_nm":130,"alt_fmsl":410,"id":"SVA","desc":"SVENSHEIA VOR-DME"},
+{"type":"NDB","hdg_t":86.2,"dist_nm":43.7,"freq":372,"lat":58.14001700,"lon":7.99902800,"rng_nm":40,"alt_fmsl":55,"id":"ODR","desc":"ODDEROY NDB"},
+{"type":"NDB","hdg_t":315.5,"dist_nm":44.7,"freq":319,"lat":58.62717200,"lon":5.62823900,"rng_nm":50,"alt_fmsl":0,"id":"VAR","desc":"VARHAUG NDB"},
+{"type":"NDB","hdg_t":75.7,"dist_nm":52.2,"freq":345,"lat":58.30406100,"lon":8.22721700,"rng_nm":25,"alt_fmsl":0,"id":"BN","desc":"BIRKELAND NDB"},
+{"type":"VOR","hdg_t":326.7,"dist_nm":56,"freq":116.85,"lat":58.87505800,"lon":5.64015300,"rng_nm":130,"alt_fmsl":56,"id":"ZOL","desc":"SOLA VOR-DME"},
+{"type":"SDME","hdg_t":326.6,"dist_nm":56.1,"freq":112.25,"lat":58.87580800,"lon":5.63526100,"rng_nm":25,"alt_fmsl":62,"id":"SOA","desc":"SOLA TACAN"},
+{"type":"NDB","hdg_t":329.2,"dist_nm":60.2,"freq":352,"lat":58.95715600,"lon":5.63538300,"rng_nm":25,"alt_fmsl":0,"id":"ZO","desc":"SOLA NDB"},
+{"type":"NDB","hdg_t":334,"dist_nm":69.4,"freq":378,"lat":59.13323900,"lon":5.64190000,"rng_nm":25,"alt_fmsl":10,"id":"RSY","desc":"RENNESOY NDB"},
+{"type":"NDB","hdg_t":331.3,"dist_nm":81.2,"freq":275,"lat":59.27929200,"lon":5.35933900,"rng_nm":25,"alt_fmsl":0,"id":"VG","desc":"VAGA NDB"},
+{"type":"VOR","hdg_t":329.8,"dist_nm":87.2,"freq":115.15,"lat":59.34653300,"lon":5.20169400,"rng_nm":130,"alt_fmsl":102,"id":"KRM","desc":"KARMOY VOR-DME"},
+{"type":"NDB","hdg_t":132.7,"dist_nm":89.1,"freq":394,"lat":57.07691100,"lon":8.62372500,"rng_nm":15,"alt_fmsl":0,"id":"TW","desc":"Thisted LOM"},
+{"type":"NDB","hdg_t":130,"dist_nm":95.8,"freq":331,"lat":57.05351400,"lon":8.86441700,"rng_nm":40,"alt_fmsl":0,"id":"TE","desc":"THISTED NDB"}
+]
+}

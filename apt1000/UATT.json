@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UATT","name":"Aktyubinsk","lat":50.245624,"lon":57.2071155,"rwys":1,"ils":2,"index":3891976,"path":"e050n50/e057n50"
+,"runways":[
+{"len_m":3096,"wid_m":59.74,"hdg":135,"surf":"Concrete","rwy1":"13","lat1":50.25549200,"lon1":57.19180600,"rwy2":"31","lat2":50.23575600,"lon2":57.22242500}
+]
+,"radios":[
+{"type":"TWR","freq":120.9,"desc":"TWR"},
+{"type":"APP","freq":120.9,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.7,"lat":50.23010600,"lon":57.23118100,"rng_nm":18,"alt_fmsl":738,"hdg":135.25,"id":"IAT","rwy":"13","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.5,"lat":50.26218900,"lon":57.18139700,"rng_nm":18,"alt_fmsl":738,"hdg":315.20,"id":"ITU","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.7,"lat":50.25305600,"lon":57.19194400,"rng_nm":10,"alt_fmsl":738,"id":"IAT","rwy":"13","desc":"GS","gs":2.67},
+{"type":"GS","freq":110.5,"lat":50.23722200,"lon":57.21750000,"rng_nm":10,"alt_fmsl":738,"id":"ITU","rwy":"31","desc":"GS","gs":2.67},
+{"type":"OM","freq":0,"lat":50.28093900,"lon":57.15226900,"rng_nm":0,"alt_fmsl":738,"id":"----","rwy":"13","desc":"OM"},
+{"type":"OM","freq":0,"lat":50.21105300,"lon":57.26074400,"rng_nm":0,"alt_fmsl":738,"id":"----","rwy":"31","desc":"OM"},
+{"type":"MM","freq":0,"lat":50.26246100,"lon":57.18097800,"rng_nm":0,"alt_fmsl":738,"id":"----","rwy":"13","desc":"MM"},
+{"type":"MM","freq":0,"lat":50.22983900,"lon":57.23159700,"rng_nm":0,"alt_fmsl":738,"id":"----","rwy":"31","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":319.5,"dist_nm":1.3,"freq":113.4,"lat":50.26305600,"lon":57.18388900,"rng_nm":130,"alt_fmsl":735,"id":"AKB","desc":"AKTYUBINSK VOR-DME"},
+{"type":"NDB","hdg_t":135.1,"dist_nm":2.9,"freq":323,"lat":50.21105300,"lon":57.26074400,"rng_nm":50,"alt_fmsl":0,"id":"TU","desc":"AKTYUBINSK LOM"},
+{"type":"NDB","hdg_t":315.1,"dist_nm":2.9,"freq":323,"lat":50.28093900,"lon":57.15226900,"rng_nm":50,"alt_fmsl":0,"id":"AT","desc":"AKTYUBINSK LOM"},
+{"type":"NDB","hdg_t":45.1,"dist_nm":69.9,"freq":385,"lat":51.06000000,"lon":58.51833300,"rng_nm":80,"alt_fmsl":0,"id":"SF","desc":"ORSK NDB"},
+{"type":"NDB","hdg_t":47.4,"dist_nm":75.1,"freq":385,"lat":51.08333300,"lon":58.67000000,"rng_nm":80,"alt_fmsl":0,"id":"OR","desc":"ORSK NDB"},
+{"type":"NDB","hdg_t":344.7,"dist_nm":86.4,"freq":1005,"lat":51.63333300,"lon":56.60000000,"rng_nm":80,"alt_fmsl":0,"id":"VL","desc":"ZHELTOYE NDB"},
+{"type":"NDB","hdg_t":326.4,"dist_nm":112.5,"freq":415,"lat":51.79500000,"lon":55.53666700,"rng_nm":80,"alt_fmsl":0,"id":"LM","desc":"ORENBURG NDB"},
+{"type":"NDB","hdg_t":324.1,"dist_nm":115.9,"freq":415,"lat":51.79500000,"lon":55.38333300,"rng_nm":80,"alt_fmsl":0,"id":"WP","desc":"ORENBURG NDB"},
+{"type":"NDB","hdg_t":318.9,"dist_nm":162.3,"freq":730,"lat":52.25000000,"lon":54.31666700,"rng_nm":80,"alt_fmsl":0,"id":"PO","desc":"PRETORIA NDB"},
+{"type":"NDB","hdg_t":146.8,"dist_nm":171.1,"freq":440,"lat":47.83361100,"lon":59.51972200,"rng_nm":50,"alt_fmsl":0,"id":"EL","desc":"SHALKAR NDB"}
+]
+}

@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OISS","name":"Shiraz Shahid Dastghaib Intl","lat":29.539241,"lon":52.589784,"rwys":2,"ils":1,"index":3808738,"path":"e050n20/e052n29"
+,"runways":[
+{"len_m":4372,"wid_m":45.11,"hdg":114,"surf":"Asphalt","rwy1":"11L","lat1":29.54925600,"lon1":52.57009200,"rwy2":"29R","lat2":29.53293900,"lon2":52.61116100},
+{"len_m":4282,"wid_m":45.11,"hdg":114,"surf":"Asphalt","rwy1":"11R","lat1":29.54533600,"lon1":52.56880800,"rwy2":"29L","lat2":29.52943300,"lon2":52.60907500}
+]
+,"radios":[
+{"type":"ATIS","freq":127,"desc":"ATIS"},
+{"type":"TWR","freq":121.9,"desc":"TWR"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":134.1,"desc":"APP"},
+{"type":"APP","freq":131.4,"desc":"APP"},
+{"type":"APP","freq":119,"desc":"APP"},
+{"type":"APP","freq":125.4,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":29.54691700,"lon":52.56480600,"rng_nm":18,"alt_fmsl":4933,"hdg":294.40,"id":"ISYZ","rwy":"29L","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":29.52947200,"lon":52.60530600,"rng_nm":10,"alt_fmsl":4864,"id":"ISYZ","rwy":"29L","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":29.52947200,"lon":52.60530600,"rng_nm":18,"alt_fmsl":4868,"id":"ISYZ","rwy":"29L","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":316.4,"dist_nm":0,"freq":117.8,"lat":29.54016700,"lon":52.58877800,"rng_nm":130,"alt_fmsl":4920,"id":"SYZ","desc":"SHIRAZ SHAHID DASTGHAIB VOR-DME"},
+{"type":"SDME","hdg_t":301.1,"dist_nm":0.3,"freq":114.7,"lat":29.54216700,"lon":52.58425000,"rng_nm":130,"alt_fmsl":4892,"id":"SYZ","desc":"SHIRAZ SHAHID DASTGHAIB TACAN"},
+{"type":"NDB","hdg_t":115.8,"dist_nm":4.7,"freq":205,"lat":29.50455600,"lon":52.67152800,"rng_nm":40,"alt_fmsl":4805,"id":"SR","desc":"SHIRAZ SHAHID DASTGHAIB NDB"},
+{"type":"NDB","hdg_t":122.6,"dist_nm":70.8,"freq":216,"lat":28.89611100,"lon":53.72277800,"rng_nm":25,"alt_fmsl":4261,"id":"FSA","desc":"FASA NDB"},
+{"type":"NDB","hdg_t":137.2,"dist_nm":77.4,"freq":374,"lat":28.58538900,"lon":53.58408300,"rng_nm":50,"alt_fmsl":3350,"id":"JRM","desc":"JAHROM NDB"},
+{"type":"NDB","hdg_t":322.3,"dist_nm":88.1,"freq":235,"lat":30.70138900,"lon":51.54902800,"rng_nm":25,"alt_fmsl":5939,"id":"YSJ","desc":"YASOUJ NDB-DME"},
+{"type":"SDME","hdg_t":322.3,"dist_nm":88.1,"freq":116.55,"lat":30.70138900,"lon":51.54902800,"rng_nm":25,"alt_fmsl":5939,"id":"YSJ","desc":"YASOUJ NDB-DME"},
+{"type":"NDB","hdg_t":250,"dist_nm":98.9,"freq":341,"lat":28.96225000,"lon":50.82275000,"rng_nm":75,"alt_fmsl":68,"id":"BUZ","desc":"BUSHEHR NDB"},
+{"type":"VOR","hdg_t":249.6,"dist_nm":99,"freq":117.45,"lat":28.95138900,"lon":50.82608300,"rng_nm":130,"alt_fmsl":24,"id":"BUZ","desc":"BUSHEHR VOR-DME"},
+{"type":"SDME","hdg_t":249.8,"dist_nm":99.2,"freq":112.2,"lat":28.95536100,"lon":50.82080600,"rng_nm":130,"alt_fmsl":12,"id":"BUZ","desc":"BUSHEHR TACAN"}
+]
+}

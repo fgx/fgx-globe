@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VVDN","name":"Danang Intl","lat":16.04390125,"lon":108.1994005,"rwys":2,"ils":1,"index":4725377,"path":"e100n10/e108n16"
+,"runways":[
+{"len_m":3048,"wid_m":45.11,"hdg":172,"surf":"Asphalt","rwy1":"17L","lat1":16.05767800,"lon1":108.19840800,"rwy2":"35R","lat2":16.03039400,"lon2":108.20236900},
+{"len_m":3048,"wid_m":45.11,"hdg":172,"surf":"Asphalt","rwy1":"17R","lat1":16.05740800,"lon1":108.19643300,"rwy2":"35L","lat2":16.03012500,"lon2":108.20039200}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"GND","freq":121.6,"desc":"GND"},
+{"type":"TWR","freq":125,"desc":"TWR"},
+{"type":"APP","freq":119.5,"desc":"APP"},
+{"type":"APP","freq":125.3,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":16.06042500,"lon":108.19800800,"rng_nm":18,"alt_fmsl":30,"hdg":352.06,"id":"DAD","rwy":"35R","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":16.03334700,"lon":108.20293100,"rng_nm":10,"alt_fmsl":36,"id":"DAD","rwy":"35R","desc":"GS","gs":3},
+{"type":"DME","freq":110.5,"lat":16.03334700,"lon":108.20293100,"rng_nm":18,"alt_fmsl":33,"id":"DAD","rwy":"35R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":352.7,"dist_nm":0.5,"freq":114.4,"lat":16.05276400,"lon":108.19822800,"rng_nm":94,"alt_fmsl":33,"id":"DAN","desc":"DANANG VOR-DME"},
+{"type":"NDB","hdg_t":170.1,"dist_nm":1.6,"freq":234,"lat":16.01708600,"lon":108.20423300,"rng_nm":50,"alt_fmsl":0,"id":"D","desc":"DANANG NDB"},
+{"type":"NDB","hdg_t":173.2,"dist_nm":3.9,"freq":212,"lat":15.97757200,"lon":108.20747800,"rng_nm":248,"alt_fmsl":0,"id":"DJ","desc":"DANANG NDB"},
+{"type":"NDB","hdg_t":310.4,"dist_nm":32.4,"freq":440,"lat":16.39583300,"lon":107.77194400,"rng_nm":54,"alt_fmsl":0,"id":"PB","desc":"PHUBAI NDB"},
+{"type":"VOR","hdg_t":306.7,"dist_nm":35.7,"freq":115.8,"lat":16.40111100,"lon":107.70277800,"rng_nm":162,"alt_fmsl":44,"id":"HUE","desc":"PHUBAI VOR-DME"},
+{"type":"NDB","hdg_t":142.1,"dist_nm":47.7,"freq":300,"lat":15.41227500,"lon":108.70447800,"rng_nm":50,"alt_fmsl":0,"id":"CQ","desc":"CHU LAI NDB"},
+{"type":"NDB","hdg_t":227.3,"dist_nm":109.2,"freq":212,"lat":14.80000000,"lon":106.81666700,"rng_nm":75,"alt_fmsl":218,"id":"AP","desc":"Attopeu NDB"},
+{"type":"NDB","hdg_t":185.2,"dist_nm":122.2,"freq":282,"lat":14.00666700,"lon":108.00888900,"rng_nm":54,"alt_fmsl":0,"id":"PK","desc":"PLEIKU NDB"},
+{"type":"VOR","hdg_t":158.4,"dist_nm":133.9,"freq":116.3,"lat":13.95722200,"lon":109.04250000,"rng_nm":94,"alt_fmsl":80,"id":"PCA","desc":"PHUCAT VOR-DME"},
+{"type":"NDB","hdg_t":157.8,"dist_nm":140.3,"freq":250,"lat":13.86555600,"lon":109.10583300,"rng_nm":135,"alt_fmsl":0,"id":"PC","desc":"PHUCAT NDB"}
+]
+}

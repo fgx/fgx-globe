@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EFKI","name":"Kajaani","lat":64.2854705,"lon":27.6924165,"rwys":1,"ils":1,"index":3401361,"path":"e020n60/e027n64"
+,"runways":[
+{"len_m":2499,"wid_m":47.85,"hdg":79,"surf":"Asphalt","rwy1":"07","lat1":64.28344700,"lon1":27.66703600,"rwy2":"25","lat2":64.28749400,"lon2":27.71779700}
+]
+,"radios":[
+{"type":"TWR","freq":118.1,"desc":"AFIS"},
+{"type":"TWR","freq":119.7,"desc":"AFIS"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":64.28810300,"lon":27.72547800,"rng_nm":18,"alt_fmsl":483,"hdg":79.62,"id":"KI","rwy":"07","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":64.28497800,"lon":27.67244400,"rng_nm":10,"alt_fmsl":483,"id":"KI","rwy":"07","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":64.28497800,"lon":27.67244400,"rng_nm":18,"alt_fmsl":500,"id":"KI","rwy":"07","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":259.5,"dist_nm":0.9,"freq":114.9,"lat":64.28253600,"lon":27.65577500,"rng_nm":130,"alt_fmsl":447,"id":"KNI","desc":"KAINUU VOR-DME"},
+{"type":"NDB","hdg_t":260.1,"dist_nm":4.3,"freq":337,"lat":64.27306100,"lon":27.52986700,"rng_nm":30,"alt_fmsl":483,"id":"KAJ","desc":"KAJAANI NDB"},
+{"type":"NDB","hdg_t":303.8,"dist_nm":66.5,"freq":290,"lat":64.88449700,"lon":25.53162800,"rng_nm":30,"alt_fmsl":0,"id":"TP","desc":"TANGO-PAPA NDB"},
+{"type":"VOR","hdg_t":303.8,"dist_nm":71.7,"freq":113.3,"lat":64.93155300,"lon":25.35928300,"rng_nm":130,"alt_fmsl":66,"id":"OUK","desc":"OULU VOR-DME"},
+{"type":"NDB","hdg_t":303.7,"dist_nm":76,"freq":350,"lat":64.96632200,"lon":25.21117200,"rng_nm":30,"alt_fmsl":0,"id":"LAA","desc":"LAANILA NDB"},
+{"type":"VOR","hdg_t":177.5,"dist_nm":78.6,"freq":113,"lat":62.97976900,"lon":27.81384400,"rng_nm":25,"alt_fmsl":481,"id":"VEH","desc":"VEHKAA VOR-DME"},
+{"type":"NDB","hdg_t":264.6,"dist_nm":80.5,"freq":332,"lat":64.12950800,"lon":24.64276700,"rng_nm":25,"alt_fmsl":0,"id":"VA","desc":"VICTOR-ALFA NDB"},
+{"type":"NDB","hdg_t":176.4,"dist_nm":82.1,"freq":310,"lat":62.92246700,"lon":27.87795300,"rng_nm":30,"alt_fmsl":0,"id":"KUR","desc":"KURKI NDB"},
+{"type":"NDB","hdg_t":152.7,"dist_nm":107.5,"freq":325,"lat":62.68605800,"lon":29.47208300,"rng_nm":30,"alt_fmsl":0,"id":"JOE","desc":"JOENSUU NDB"},
+{"type":"VOR","hdg_t":20.1,"dist_nm":109.9,"freq":114.4,"lat":65.99173100,"lon":29.23583600,"rng_nm":50,"alt_fmsl":923,"id":"KLA","desc":"KANTOLA VOR-DME"}
+]
+}

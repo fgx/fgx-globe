@@ -1,0 +1,35 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KPQI","name":"Northern Maine Rgnl At Presque Isle","lat":46.68870775,"lon":-68.044263,"rwys":2,"ils":1,"index":1827371,"path":"w070n40/w069n46"
+,"runways":[
+{"len_m":2266,"wid_m":45.72,"hdg":345,"surf":"Asphalt","rwy1":"01","lat1":46.68121700,"lon1":-68.04558300,"rwy2":"19","lat2":46.70097500,"lon2":-68.05291100},
+{"len_m":1826,"wid_m":45.72,"hdg":75,"surf":"Asphalt","rwy1":"10","lat1":46.68428900,"lon1":-68.05084700,"rwy2":"28","lat2":46.68835000,"lon2":-68.02771100}
+]
+,"radios":[
+{"type":"ATIS","freq":118.02,"desc":"AWOS 3"},
+{"type":"CTAF","freq":122.8,"desc":"CTAF/UNICOM"},
+{"type":"CLD","freq":121.6,"desc":"BOSTON CLNC DEL"}
+]
+,"ils":[
+{"type":"ILS","freq":108.7,"lat":46.70266700,"lon":-68.05354400,"rng_nm":18,"alt_fmsl":534,"hdg":345.71,"id":"IPGI","rwy":"01","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.7,"lat":46.68360800,"lon":-68.04516900,"rng_nm":10,"alt_fmsl":460,"id":"IPGI","rwy":"01","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":46.61021700,"lon":-68.01868300,"rng_nm":0,"alt_fmsl":534,"id":"----","rwy":"01","desc":"OM"},
+{"type":"MM","freq":0,"lat":46.67100000,"lon":-68.04177800,"rng_nm":0,"alt_fmsl":534,"id":"----","rwy":"01","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":167.4,"dist_nm":4.8,"freq":278,"lat":46.61044444,"lon":-68.01888889,"rng_nm":50,"alt_fmsl":0,"id":"PQ","desc":"EXCAL NDB"},
+{"type":"VOR","hdg_t":338,"dist_nm":5.5,"freq":116.4,"lat":46.77419444,"lon":-68.09452778,"rng_nm":130,"alt_fmsl":590,"id":"PQI","desc":"PRESQUE ISLE VOR-DME"},
+{"type":"NDB","hdg_t":41.4,"dist_nm":12.1,"freq":220,"lat":46.84058333,"lon":-67.84838889,"rng_nm":50,"alt_fmsl":0,"id":"LIF","desc":"LIMESTONE NDB"},
+{"type":"NDB","hdg_t":12.9,"dist_nm":31.9,"freq":404,"lat":47.20777778,"lon":-67.86972222,"rng_nm":50,"alt_fmsl":0,"id":"YSL","desc":"ST LEONARD NDB"},
+{"type":"VOR","hdg_t":167.2,"dist_nm":39.9,"freq":116.1,"lat":46.03950000,"lon":-67.83416667,"rng_nm":130,"alt_fmsl":860,"id":"HUL","desc":"HOULTON VOR-DME"},
+{"type":"NDB","hdg_t":198.8,"dist_nm":65.8,"freq":344,"lat":45.64861111,"lon":-68.55030556,"rng_nm":50,"alt_fmsl":0,"id":"LNT","desc":"MILNOT NDB"},
+{"type":"VOR","hdg_t":196.7,"dist_nm":68.9,"freq":117.9,"lat":45.58672222,"lon":-68.51547222,"rng_nm":130,"alt_fmsl":550,"id":"MLT","desc":"MILLINOCKET VOR-DME"},
+{"type":"NDB","hdg_t":127,"dist_nm":75.8,"freq":326,"lat":45.91722222,"lon":-66.60000000,"rng_nm":50,"alt_fmsl":0,"id":"FC","desc":"FREDERICTON NDB"},
+{"type":"SDME","hdg_t":127.9,"dist_nm":79.5,"freq":111.3,"lat":45.86305600,"lon":-66.54777800,"rng_nm":25,"alt_fmsl":79,"id":"IDC","desc":"FREDERICTON DME"},
+{"type":"NDB","hdg_t":194.6,"dist_nm":82.5,"freq":216,"lat":45.35644444,"lon":-68.53697222,"rng_nm":50,"alt_fmsl":0,"id":"LRG","desc":"LINCOLN NDB"},
+{"type":"VOR","hdg_t":124.5,"dist_nm":82.7,"freq":113,"lat":45.89477778,"lon":-66.41888889,"rng_nm":130,"alt_fmsl":52,"id":"YFC","desc":"FREDERICTON VOR-DME"},
+{"type":"VOR","hdg_t":169.9,"dist_nm":82.8,"freq":114.3,"lat":45.32919444,"lon":-67.70419444,"rng_nm":40,"alt_fmsl":398,"id":"PNN","desc":"PRINCETON VOR-DME"},
+{"type":"NDB","hdg_t":316.3,"dist_nm":89.9,"freq":201,"lat":47.76363889,"lon":-69.57811111,"rng_nm":50,"alt_fmsl":0,"id":"RI","desc":"RIVIERE-DU-LOUP NDB"},
+{"type":"VOR","hdg_t":315.9,"dist_nm":90,"freq":113.9,"lat":47.75752778,"lon":-69.58977778,"rng_nm":130,"alt_fmsl":0,"id":"YRI","desc":"RIVIERE DU LOUP VOR"},
+{"type":"NDB","hdg_t":224.7,"dist_nm":97.6,"freq":236,"lat":45.52172222,"lon":-69.67450000,"rng_nm":50,"alt_fmsl":0,"id":"XQA","desc":"SQUAW NDB"}
+]
+}

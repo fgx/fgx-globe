@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PABE","name":"Bethel","lat":60.7797665,"lon":-161.839998,"rwys":2,"ils":1,"index":304560,"path":"w170n60/w162n60"
+,"runways":[
+{"len_m":1950,"wid_m":45.72,"hdg":203,"surf":"Asphalt","rwy1":"18","lat1":60.78782800,"lon1":-161.82924700,"rwy2":"36","lat2":60.77176900,"lon2":-161.84350600},
+{"len_m":566,"wid_m":22.86,"hdg":128,"surf":"Gravel","rwy1":"11","lat1":60.78131900,"lon1":-161.84768900,"rwy2":"29","lat2":60.77815000,"lon2":-161.83955000}
+]
+,"radios":[
+{"type":"ATIS","freq":119.8,"desc":"ATIS"},
+{"type":"CTAF","freq":118.7,"desc":"CTAF/BETHEL WX"},
+{"type":"CTAF","freq":122,"desc":"CTAF/BETHEL WX"},
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.7,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":111.5,"lat":60.76849200,"lon":-161.84641100,"rng_nm":18,"alt_fmsl":92,"hdg":203.42,"id":"IBET","rwy":"18","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.5,"lat":60.78513900,"lon":-161.82919700,"rng_nm":10,"alt_fmsl":96,"id":"IBET","rwy":"18","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":60.79664200,"lon":-161.82142500,"rng_nm":0,"alt_fmsl":92,"id":"----","rwy":"18","desc":"MM"},
+{"type":"DME","freq":111.5,"lat":60.76855000,"lon":-161.84760600,"rng_nm":18,"alt_fmsl":127,"id":"IBET","rwy":"18","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":56.5,"dist_nm":0.5,"freq":114.1,"lat":60.78483333,"lon":-161.82433333,"rng_nm":130,"alt_fmsl":98,"id":"BET","desc":"BETHEL VORTAC"},
+{"type":"NDB","hdg_t":305.7,"dist_nm":1.1,"freq":251,"lat":60.79130556,"lon":-161.87275000,"rng_nm":50,"alt_fmsl":0,"id":"OSE","desc":"OSCARVILLE NDB"},
+{"type":"NDB","hdg_t":52.1,"dist_nm":81.3,"freq":359,"lat":61.59016667,"lon":-159.59791667,"rng_nm":50,"alt_fmsl":0,"id":"ANI","desc":"ANIAK NDB"},
+{"type":"NDB","hdg_t":332,"dist_nm":87.5,"freq":230,"lat":62.05836111,"lon":-163.29161111,"rng_nm":50,"alt_fmsl":0,"id":"SMA","desc":"ST MARYS NDB"},
+{"type":"NDB","hdg_t":156.1,"dist_nm":112.2,"freq":393,"lat":59.06408333,"lon":-160.37408333,"rng_nm":50,"alt_fmsl":0,"id":"TOG","desc":"TOGIAK NDB"},
+{"type":"NDB","hdg_t":22,"dist_nm":121.5,"freq":365,"lat":62.64141667,"lon":-160.19002778,"rng_nm":50,"alt_fmsl":0,"id":"ANV","desc":"ANVIK NDB"},
+{"type":"NDB","hdg_t":183.2,"dist_nm":127.9,"freq":385,"lat":58.65677778,"lon":-162.07144444,"rng_nm":50,"alt_fmsl":0,"id":"EHM","desc":"CAPE NEWENHAM NDB"},
+{"type":"NDB","hdg_t":261.5,"dist_nm":131.6,"freq":323,"lat":60.38502778,"lon":-166.21477778,"rng_nm":50,"alt_fmsl":0,"id":"AIX","desc":"NANWAK NDB"},
+{"type":"VOR","hdg_t":291.3,"dist_nm":132.4,"freq":115.2,"lat":61.51436111,"lon":-166.13450000,"rng_nm":130,"alt_fmsl":13,"id":"HPB","desc":"HOOPER BAY VOR-DME"},
+{"type":"NDB","hdg_t":298.7,"dist_nm":134.1,"freq":275,"lat":61.79058333,"lon":-165.96958333,"rng_nm":50,"alt_fmsl":0,"id":"CZF","desc":"CAPE ROMANZOF NDB"}
+]
+}

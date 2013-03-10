@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WAAA","name":"Ujung Pandang Hasanuddin","lat":-5.0616305,"lon":119.554043,"rwys":1,"ils":2,"index":4904252,"path":"e110s10/e119s06"
+,"runways":[
+{"len_m":2498,"wid_m":45.11,"hdg":130,"surf":"Asphalt","rwy1":"13","lat1":-5.05428900,"lon1":119.54547800,"rwy2":"31","lat2":-5.06897200,"lon2":119.56260800}
+]
+,"radios":[
+{"type":"ATIS","freq":126.25,"desc":"ATIS"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.4,"desc":"UJUNG PANDANG APP"},
+{"type":"APP","freq":120.6,"desc":"UJUNG PANDANG APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.3,"lat":-5.07017500,"lon":119.56403900,"rng_nm":18,"alt_fmsl":36,"hdg":130.67,"id":"IUPG","rwy":"13","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.3,"lat":-5.05343300,"lon":119.54447800,"rng_nm":18,"alt_fmsl":44,"hdg":310.71,"id":"IMKS","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.3,"lat":-5.05679200,"lon":119.54687200,"rng_nm":10,"alt_fmsl":44,"id":"IUPG","rwy":"13","desc":"GS","gs":2.9},
+{"type":"GS","freq":111.3,"lat":-5.06802200,"lon":119.55981100,"rng_nm":10,"alt_fmsl":36,"id":"IMKS","rwy":"31","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":-5.04818300,"lon":119.53842200,"rng_nm":0,"alt_fmsl":36,"id":"----","rwy":"13","desc":"MM"},
+{"type":"DME","freq":111.3,"lat":-5.06232500,"lon":119.55343600,"rng_nm":18,"alt_fmsl":36,"id":"IUPG","rwy":"13","desc":"DME-ILS"},
+{"type":"DME","freq":111.3,"lat":-5.06232500,"lon":119.55343600,"rng_nm":18,"alt_fmsl":36,"id":"IMKS","rwy":"31","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":310.4,"dist_nm":2.1,"freq":114.7,"lat":-5.03780556,"lon":119.52619444,"rng_nm":130,"alt_fmsl":27,"id":"MKS","desc":"MAKASSAR VOR-DME"},
+{"type":"NDB","hdg_t":239.4,"dist_nm":2.4,"freq":375,"lat":-5.08245600,"lon":119.51879200,"rng_nm":50,"alt_fmsl":0,"id":"OJ","desc":"HASANUDDIN NDB"},
+{"type":"NDB","hdg_t":7.5,"dist_nm":121.4,"freq":401,"lat":-3.04437200,"lon":119.81874700,"rng_nm":50,"alt_fmsl":2707,"id":"MK","desc":"PONGTIKU NDB"},
+{"type":"NDB","hdg_t":348,"dist_nm":151.2,"freq":235,"lat":-2.58333300,"lon":119.03333300,"rng_nm":50,"alt_fmsl":16,"id":"MU","desc":"MAMUJU NDB"},
+{"type":"NDB","hdg_t":71.3,"dist_nm":180.8,"freq":215,"lat":-4.08649200,"lon":122.41136900,"rng_nm":50,"alt_fmsl":180,"id":"NI","desc":"KENDARI NDB"},
+{"type":"NDB","hdg_t":98.7,"dist_nm":181.3,"freq":274,"lat":-5.51666700,"lon":122.55000000,"rng_nm":60,"alt_fmsl":164,"id":"BR","desc":"BAU BAU NDB"},
+{"type":"NDB","hdg_t":85.2,"dist_nm":183,"freq":348,"lat":-4.80000000,"lon":122.60000000,"rng_nm":50,"alt_fmsl":14,"id":"MN","desc":"MUNA NDB"},
+{"type":"VOR","hdg_t":71.3,"dist_nm":183.4,"freq":115,"lat":-4.07563600,"lon":122.45298600,"rng_nm":130,"alt_fmsl":448,"id":"KDI","desc":"KENDARI VOR-DME"},
+{"type":"NDB","hdg_t":35.6,"dist_nm":186.8,"freq":205,"lat":-2.51666700,"lon":121.36666700,"rng_nm":50,"alt_fmsl":1387,"id":"SA","desc":"SOROAKO NDB"},
+{"type":"NDB","hdg_t":174.4,"dist_nm":205.6,"freq":238,"lat":-8.48952200,"lon":119.88741700,"rng_nm":50,"alt_fmsl":66,"id":"LB","desc":"LABUHAN BAJO NDB"}
+]
+}

@@ -1,0 +1,25 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYQY","name":"Sydney","lat":46.160915215,"lon":-60.045266635,"rwys":2,"ils":2,"index":1958411,"path":"w070n40/w061n46"
+,"runways":[
+{"len_m":2159,"wid_m":60.96,"hdg":45,"surf":"Asphalt","rwy1":"07","lat1":46.15373926,"lon1":-60.06119010,"rwy2":"25","lat2":46.16723274,"lon2":-60.04108049},
+{"len_m":1829,"wid_m":46.02,"hdg":345,"surf":"Asphalt","rwy1":"01","lat1":46.15338518,"lon1":-60.03638126,"rwy2":"19","lat2":46.16930368,"lon2":-60.04241469}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":46.16988373,"lon":-60.03715134,"rng_nm":18,"alt_fmsl":203,"hdg":45.89,"id":"IQY","rwy":"07","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.5,"lat":46.14968491,"lon":-60.03498459,"rng_nm":18,"alt_fmsl":203,"hdg":165.29,"id":"INO","rwy":"19","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":46.15626526,"lon":-60.05938339,"rng_nm":10,"alt_fmsl":203,"id":"IQY","rwy":"07","desc":"GS","gs":3},
+{"type":"GS","freq":109.5,"lat":46.16654968,"lon":-60.03974915,"rng_nm":10,"alt_fmsl":203,"id":"INO","rwy":"19","desc":"GS","gs":2.7}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":224,"dist_nm":0.6,"freq":114.9,"lat":46.15336111,"lon":-60.05577778,"rng_nm":130,"alt_fmsl":258,"id":"YQY","desc":"SYDNEY VOR-DME"},
+{"type":"NDB","hdg_t":348.9,"dist_nm":4.1,"freq":201,"lat":46.22950800,"lon":-60.06451400,"rng_nm":25,"alt_fmsl":0,"id":"ZYD","desc":"GLACE BAY NDB"},
+{"type":"NDB","hdg_t":43.7,"dist_nm":4.1,"freq":263,"lat":46.21138889,"lon":-59.97555556,"rng_nm":50,"alt_fmsl":0,"id":"QY","desc":"SYDNEY NDB"},
+{"type":"NDB","hdg_t":227.5,"dist_nm":4.8,"freq":219,"lat":46.10645600,"lon":-60.13090000,"rng_nm":25,"alt_fmsl":0,"id":"ZQY","desc":"BRAS D OR NDB"},
+{"type":"NDB","hdg_t":239.8,"dist_nm":59.5,"freq":229,"lat":45.65527778,"lon":-61.26944444,"rng_nm":50,"alt_fmsl":0,"id":"PD","desc":"PORT HAWKESBURY NDB"},
+{"type":"VOR","hdg_t":317.5,"dist_nm":104.3,"freq":112,"lat":47.43033333,"lon":-61.77405556,"rng_nm":130,"alt_fmsl":63,"id":"YGR","desc":"GRINDSTONE VOR-DME"},
+{"type":"NDB","hdg_t":314.1,"dist_nm":105.8,"freq":370,"lat":47.37488889,"lon":-61.90713889,"rng_nm":50,"alt_fmsl":0,"id":"GR","desc":"GRINDSTONE NDB"},
+{"type":"NDB","hdg_t":253.9,"dist_nm":113,"freq":338,"lat":45.61166667,"lon":-62.62527778,"rng_nm":50,"alt_fmsl":317,"id":"5Y","desc":"TRENTON NDB"},
+{"type":"NDB","hdg_t":276.1,"dist_nm":128.1,"freq":400,"lat":46.34979200,"lon":-63.11208600,"rng_nm":25,"alt_fmsl":0,"id":"ZYG","desc":"CAVENDISH NDB"},
+{"type":"VOR","hdg_t":274.7,"dist_nm":128.3,"freq":113.8,"lat":46.29750000,"lon":-63.11972222,"rng_nm":130,"alt_fmsl":212,"id":"YYG","desc":"CHARLOTTETOWN VOR-DME"}
+]
+}

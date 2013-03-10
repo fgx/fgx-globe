@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PGUM","name":"Guam Intl","lat":13.48387425,"lon":144.79717075,"rwys":2,"ils":1,"index":5315038,"path":"e140n10/e144n13"
+,"runways":[
+{"len_m":3052,"wid_m":45.72,"hdg":64,"surf":"Asphalt","rwy1":"06L","lat1":13.47890800,"lon1":144.78398300,"rwy2":"24R","lat2":13.49058900,"lon2":144.80952500},
+{"len_m":3052,"wid_m":45.72,"hdg":64,"surf":"Asphalt","rwy1":"06R","lat1":13.47716100,"lon1":144.78481700,"rwy2":"24L","lat2":13.48883900,"lon2":144.81035800}
+]
+,"radios":[
+{"type":"ATIS","freq":119,"desc":"ATIS"},
+{"type":"CLD","freq":121.9,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"AGANA TWR"},
+{"type":"APP","freq":118.7,"desc":"APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":13.49326300,"lon":144.81464600,"rng_nm":18,"alt_fmsl":297,"hdg":64.30,"id":"IGUM","rwy":"06L","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":13.48077300,"lon":144.78635400,"rng_nm":10,"alt_fmsl":680,"id":"IGUM","rwy":"06L","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":13.44310900,"lon":144.71168600,"rng_nm":0,"alt_fmsl":297,"id":"----","rwy":"06L","desc":"OM"},
+{"type":"MM","freq":0,"lat":13.47655600,"lon":144.77873500,"rng_nm":0,"alt_fmsl":297,"id":"----","rwy":"06L","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":13.49423800,"lon":144.81433200,"rng_nm":18,"alt_fmsl":317,"id":"IGUM","rwy":"06L","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":242.7,"dist_nm":3.9,"freq":385,"lat":13.45350000,"lon":144.73691667,"rng_nm":50,"alt_fmsl":0,"id":"AJA","desc":"MT MACAJNA NDB"},
+{"type":"VOR","hdg_t":244.8,"dist_nm":4.1,"freq":115.3,"lat":13.45450000,"lon":144.73333300,"rng_nm":130,"alt_fmsl":658,"id":"UNZ","desc":"NIMITZ VORTAC"},
+{"type":"VOR","hdg_t":244.8,"dist_nm":4.1,"freq":115.8,"lat":13.45455556,"lon":144.73330556,"rng_nm":130,"alt_fmsl":658,"id":"UNZ","desc":"NIMITZ VORTAC"},
+{"type":"SDME","hdg_t":53.6,"dist_nm":10.8,"freq":111.7,"lat":13.59121900,"lon":144.94658100,"rng_nm":130,"alt_fmsl":660,"id":"UAM","desc":"ANDERSEN TACAN"},
+{"type":"NDB","hdg_t":32.1,"dist_nm":48.5,"freq":332,"lat":14.17166667,"lon":145.23991667,"rng_nm":50,"alt_fmsl":0,"id":"GRO","desc":"ROTA NDB"},
+{"type":"NDB","hdg_t":28.5,"dist_nm":110.8,"freq":312,"lat":15.11144444,"lon":145.71033333,"rng_nm":50,"alt_fmsl":0,"id":"SN","desc":"SAIPAN(LMM/NDB) NDB"},
+{"type":"NDB","hdg_t":239.6,"dist_nm":461.2,"freq":317,"lat":9.49944444,"lon":138.08847222,"rng_nm":50,"alt_fmsl":0,"id":"YP","desc":"YAP NDB"},
+{"type":"NDB","hdg_t":130.1,"dist_nm":550.2,"freq":375,"lat":7.45716667,"lon":151.84050000,"rng_nm":50,"alt_fmsl":0,"id":"TKK","desc":"TRUK NDB"},
+{"type":"NDB","hdg_t":344.1,"dist_nm":703.1,"freq":360,"lat":24.77222222,"lon":141.30750000,"rng_nm":50,"alt_fmsl":0,"id":"OX","desc":"IWOTO NDB"},
+{"type":"SDME","hdg_t":344.2,"dist_nm":703.6,"freq":109.8,"lat":24.78416700,"lon":141.31666700,"rng_nm":50,"alt_fmsl":410,"id":"IJT","desc":"IWO JIMA TACAN"}
+]
+}

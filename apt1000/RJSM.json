@@ -1,0 +1,43 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RJSM","name":"Misawa Ab","lat":40.7032195,"lon":141.3683625,"rwys":1,"ils":2,"index":5267625,"path":"e140n40/e141n40"
+,"runways":[
+{"len_m":3051,"wid_m":45.72,"hdg":95,"surf":"Asphalt","rwy1":"10","lat1":40.70444200,"lon1":141.35037800,"rwy2":"28","lat2":40.70199700,"lon2":141.38634700}
+]
+,"radios":[
+{"type":"ATIS","freq":128.4,"desc":"ATIS"},
+{"type":"CLD","freq":118.65,"desc":"CLNC DEL"},
+{"type":"GND","freq":126.2,"desc":"GND"},
+{"type":"GND","freq":118.65,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"TWR","freq":125.3,"desc":"TWR"},
+{"type":"APP","freq":124.05,"desc":"TCA"},
+{"type":"APP","freq":125.3,"desc":"APP"},
+{"type":"APP","freq":120.7,"desc":"APP"},
+{"type":"DEP","freq":125.3,"desc":"DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":40.70173300,"lon":141.39020800,"rng_nm":18,"alt_fmsl":88,"hdg":95.14,"id":"IMAS","rwy":"10","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.7,"lat":40.70470300,"lon":141.34654200,"rng_nm":18,"alt_fmsl":108,"hdg":275.11,"id":"IMIS","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":40.70558600,"lon":141.35386100,"rng_nm":10,"alt_fmsl":111,"id":"IMAS","rwy":"10","desc":"GS","gs":2.5},
+{"type":"GS","freq":109.7,"lat":40.70341900,"lon":141.38255600,"rng_nm":10,"alt_fmsl":101,"id":"IMIS","rwy":"28","desc":"GS","gs":2.5}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":86.4,"dist_nm":0.5,"freq":115.4,"lat":40.70382200,"lon":141.38110800,"rng_nm":100,"alt_fmsl":142,"id":"MIS","desc":"MISAWA VORTAC"},
+{"type":"SDME","hdg_t":152.2,"dist_nm":9.9,"freq":108.6,"lat":40.55583300,"lon":141.47000000,"rng_nm":150,"alt_fmsl":180,"id":"HVT","desc":"HACHINOHE TACAN"},
+{"type":"NDB","hdg_t":151.2,"dist_nm":10.4,"freq":381,"lat":40.55027800,"lon":141.47833300,"rng_nm":50,"alt_fmsl":152,"id":"JC","desc":"HACHINOHE NDB"},
+{"type":"VOR","hdg_t":303.4,"dist_nm":11.5,"freq":114.9,"lat":40.80891400,"lon":141.15736400,"rng_nm":100,"alt_fmsl":444,"id":"MWE","desc":"TOHOKU VOR-DME"},
+{"type":"VOR","hdg_t":274.2,"dist_nm":30.3,"freq":114.1,"lat":40.73879200,"lon":140.70533300,"rng_nm":100,"alt_fmsl":764,"id":"MRE","desc":"AOMORI VOR-DME"},
+{"type":"SDME","hdg_t":341.6,"dist_nm":33.3,"freq":114.85,"lat":41.23083300,"lon":141.13583300,"rng_nm":75,"alt_fmsl":44,"id":"OMT","desc":"OMINATO TACAN"},
+{"type":"NDB","hdg_t":342.6,"dist_nm":33.8,"freq":353,"lat":41.24166700,"lon":141.14527800,"rng_nm":50,"alt_fmsl":0,"id":"OM","desc":"OMINATO NDB"},
+{"type":"VOR","hdg_t":237,"dist_nm":55.1,"freq":114.75,"lat":40.19834200,"lon":140.36185600,"rng_nm":25,"alt_fmsl":308,"id":"ODE","desc":"ODATE NOSHIRO VOR-DME"},
+{"type":"VOR","hdg_t":151.7,"dist_nm":56.9,"freq":116.6,"lat":39.86563900,"lon":141.95106700,"rng_nm":100,"alt_fmsl":628,"id":"MQE","desc":"MIYAKO VOR-DME"},
+{"type":"NDB","hdg_t":152.2,"dist_nm":57.3,"freq":209,"lat":39.85573600,"lon":141.94583300,"rng_nm":200,"alt_fmsl":0,"id":"MQ","desc":"MIYAKO NDB"},
+{"type":"VOR","hdg_t":339.4,"dist_nm":68.6,"freq":112.3,"lat":41.77403100,"lon":140.83221700,"rng_nm":100,"alt_fmsl":300,"id":"HWE","desc":"HAKODATE VOR-DME"},
+{"type":"NDB","hdg_t":339,"dist_nm":68.9,"freq":388,"lat":41.77536400,"lon":140.81944700,"rng_nm":25,"alt_fmsl":151,"id":"HW","desc":"HAKODATE NDB"},
+{"type":"NDB","hdg_t":187.8,"dist_nm":71.3,"freq":328,"lat":39.52450000,"lon":141.15783300,"rng_nm":75,"alt_fmsl":298,"id":"HP","desc":"HANAMAKI NDB"},
+{"type":"SDME","hdg_t":307.4,"dist_nm":72.9,"freq":112.1,"lat":41.43536900,"lon":140.08484200,"rng_nm":25,"alt_fmsl":656,"id":"WMT","desc":"MATSUMAE TACAN"},
+{"type":"VOR","hdg_t":188.1,"dist_nm":76.8,"freq":112.8,"lat":39.43335800,"lon":141.13350000,"rng_nm":100,"alt_fmsl":339,"id":"HPE","desc":"HANAMAKI VOR-DME"},
+{"type":"VOR","hdg_t":225.7,"dist_nm":84.4,"freq":116.1,"lat":39.71156700,"lon":140.06230800,"rng_nm":100,"alt_fmsl":54,"id":"ATE","desc":"AKITA VOR-DME"},
+{"type":"VOR","hdg_t":220.2,"dist_nm":84.8,"freq":110.65,"lat":39.61712800,"lon":140.18693600,"rng_nm":25,"alt_fmsl":286,"id":"UWE","desc":"YUWA VOR-DME"}
+]
+}

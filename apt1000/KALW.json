@@ -1,0 +1,40 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KALW","name":"Walla Walla Rgnl","lat":46.09491442,"lon":-118.28914027,"rwys":3,"ils":1,"index":1008130,"path":"w120n40/w119n46"
+,"runways":[
+{"len_m":1989,"wid_m":46.02,"hdg":36,"surf":"Asphalt","rwy1":"02","lat1":46.08532200,"lon1":-118.29167800,"rwy2":"20","lat2":46.09976700,"lon2":-118.27648900},
+{"len_m":2011,"wid_m":46.02,"hdg":179,"surf":"Asphalt","rwy1":"16","lat1":46.10218597,"lon1":-118.29476100,"rwy2":"34","lat2":46.08408655,"lon2":-118.29461362},
+{"len_m":1367,"wid_m":46.02,"hdg":89,"surf":"Asphalt","rwy1":"07","lat1":46.09902800,"lon1":-118.29749200,"rwy2":"25","lat2":46.09909700,"lon2":-118.27980800}
+]
+,"radios":[
+{"type":"ATIS","freq":135.87,"desc":"ASOS"},
+{"type":"CTAF","freq":118.5,"desc":"CTAF"},
+{"type":"GND","freq":121.6,"desc":"GND"},
+{"type":"TWR","freq":118.5,"desc":"TWR"},
+{"type":"APP","freq":133.15,"desc":"CHINOOK APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.7,"lat":46.08285600,"lon":-118.29426700,"rng_nm":18,"alt_fmsl":1148,"hdg":216.09,"id":"IALW","rwy":"20","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.7,"lat":46.09691100,"lon":-118.27789400,"rng_nm":10,"alt_fmsl":1193,"id":"IALW","rwy":"20","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":46.17556400,"lon":-118.19636100,"rng_nm":0,"alt_fmsl":1148,"id":"----","rwy":"20","desc":"OM"},
+{"type":"MM","freq":0,"lat":46.10686100,"lon":-118.26900600,"rng_nm":0,"alt_fmsl":1148,"id":"----","rwy":"20","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":196.5,"dist_nm":0.4,"freq":116.4,"lat":46.08697222,"lon":-118.29252778,"rng_nm":40,"alt_fmsl":1179,"id":"ALW","desc":"WALLA WALLA VOR-DME"},
+{"type":"NDB","hdg_t":38.6,"dist_nm":6.1,"freq":353,"lat":46.17555556,"lon":-118.19636111,"rng_nm":50,"alt_fmsl":0,"id":"AL","desc":"TRINA NDB"},
+{"type":"NDB","hdg_t":296.1,"dist_nm":33.4,"freq":331,"lat":46.33813889,"lon":-119.01252778,"rng_nm":50,"alt_fmsl":0,"id":"PS","desc":"DUNEZ NDB"},
+{"type":"VOR","hdg_t":286.6,"dist_nm":35.9,"freq":108.4,"lat":46.26297222,"lon":-119.11572222,"rng_nm":40,"alt_fmsl":404,"id":"PSC","desc":"PASCO VOR-DME"},
+{"type":"VOR","hdg_t":229,"dist_nm":36.1,"freq":114.7,"lat":45.69841667,"lon":-118.93869444,"rng_nm":130,"alt_fmsl":1559,"id":"PDT","desc":"PENDLETON VORTAC"},
+{"type":"NDB","hdg_t":292.6,"dist_nm":43.6,"freq":260,"lat":46.37047222,"lon":-119.25911111,"rng_nm":50,"alt_fmsl":0,"id":"RL","desc":"RIBOO NDB"},
+{"type":"NDB","hdg_t":162.9,"dist_nm":47.1,"freq":296,"lat":45.34250000,"lon":-117.96275000,"rng_nm":50,"alt_fmsl":0,"id":"LGD","desc":"LA GRANDE NDB"},
+{"type":"VOR","hdg_t":51.4,"dist_nm":56.2,"freq":109,"lat":46.67430556,"lon":-117.22350000,"rng_nm":40,"alt_fmsl":2720,"id":"PUW","desc":"PULLMAN VOR-DME"},
+{"type":"VOR","hdg_t":73.2,"dist_nm":61.5,"freq":108.2,"lat":46.38155556,"lon":-116.86950000,"rng_nm":40,"alt_fmsl":1723,"id":"MQG","desc":"NEZ PERCE VOR-DME"},
+{"type":"NDB","hdg_t":326.7,"dist_nm":73.5,"freq":408,"lat":47.11572222,"lon":-119.27450000,"rng_nm":50,"alt_fmsl":0,"id":"MW","desc":"PELLY NDB"},
+{"type":"VOR","hdg_t":164.7,"dist_nm":77.9,"freq":115.3,"lat":44.84061111,"lon":-117.80786111,"rng_nm":130,"alt_fmsl":3380,"id":"BKE","desc":"BAKER CITY VOR-DME"},
+{"type":"VOR","hdg_t":327.9,"dist_nm":79.3,"freq":115,"lat":47.21086111,"lon":-119.31680556,"rng_nm":130,"alt_fmsl":1194,"id":"MWH","desc":"MOSES LAKE VOR-DME"},
+{"type":"VOR","hdg_t":329.1,"dist_nm":90.1,"freq":112.6,"lat":47.37791667,"lon":-119.42400000,"rng_nm":130,"alt_fmsl":1250,"id":"EPH","desc":"EPHRATA VORTAC"},
+{"type":"NDB","hdg_t":287.3,"dist_nm":90.4,"freq":371,"lat":46.52563889,"lon":-120.37219444,"rng_nm":50,"alt_fmsl":0,"id":"YK","desc":"DONNY NDB"},
+{"type":"VOR","hdg_t":16.9,"dist_nm":92.3,"freq":115.5,"lat":47.56494444,"lon":-117.62688889,"rng_nm":130,"alt_fmsl":2756,"id":"GEG","desc":"SPOKANE VORTAC"},
+{"type":"VOR","hdg_t":288.4,"dist_nm":94,"freq":116,"lat":46.57025000,"lon":-120.44463889,"rng_nm":130,"alt_fmsl":984,"id":"YKM","desc":"YAKIMA VORTAC"},
+{"type":"SDME","hdg_t":15.6,"dist_nm":94.5,"freq":111.4,"lat":47.61069400,"lon":-117.66230300,"rng_nm":40,"alt_fmsl":2460,"id":"SKA","desc":"FAIRCHILD TACAN"}
+]
+}

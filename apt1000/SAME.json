@@ -1,0 +1,35 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SAME","name":"El Plumerillo","lat":-32.83354399,"lon":-68.796002545,"rwys":1,"ils":1,"index":1822280,"path":"w070s40/w069s33"
+,"runways":[
+{"len_m":3013,"wid_m":53.95,"hdg":180,"surf":"Concrete","rwy1":"18","lat1":-32.81816900,"lon1":-68.79270700,"rwy2":"36","lat2":-32.84533800,"lon2":-68.79317500}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":29,"wid_m":29.87,"hdg":-68,"surf":"Concrete","lat1":-32.83533448,"lon1":-68.79906409}
+]
+,"radios":[
+{"type":"ATIS","freq":118.9,"desc":"MENDOZA ATIS"},
+{"type":"GND","freq":121.95,"desc":"MENDOZA GND"},
+{"type":"TWR","freq":118.65,"desc":"MENDOZA TWR"},
+{"type":"TWR","freq":126.6,"desc":"MENDOZA CTR"},
+{"type":"APP","freq":118.65,"desc":"MENDOZA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":-32.81669200,"lon":-68.79263900,"rng_nm":18,"alt_fmsl":2310,"hdg":0.90,"id":"DO","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":-32.84147200,"lon":-68.79172200,"rng_nm":10,"alt_fmsl":2311,"id":"DO","rwy":"36","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-32.94316700,"lon":-68.79447200,"rng_nm":0,"alt_fmsl":2310,"id":"----","rwy":"36","desc":"OM"},
+{"type":"MM","freq":0,"lat":-32.85494400,"lon":-68.79261100,"rng_nm":0,"alt_fmsl":2310,"id":"----","rwy":"36","desc":"MM"},
+{"type":"DME","freq":109.9,"lat":-32.84147200,"lon":-68.79169400,"rng_nm":18,"alt_fmsl":2311,"id":"DO","rwy":"36","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":69.8,"dist_nm":0.2,"freq":114.9,"lat":-32.83194400,"lon":-68.79083300,"rng_nm":185,"alt_fmsl":2306,"id":"DOZ","desc":"MENDOZA VOR-DME"},
+{"type":"NDB","hdg_t":172.3,"dist_nm":1.2,"freq":395,"lat":-32.85494400,"lon":-68.79261100,"rng_nm":25,"alt_fmsl":0,"id":"D","desc":"EL PLUMERILLO NDB"},
+{"type":"VOR","hdg_t":14.1,"dist_nm":78.3,"freq":113.1,"lat":-31.56388900,"lon":-68.42138900,"rng_nm":178,"alt_fmsl":1959,"id":"JUA","desc":"SAN JUAN VOR-DME"},
+{"type":"NDB","hdg_t":14.1,"dist_nm":79.6,"freq":305,"lat":-31.54333300,"lon":-68.41666700,"rng_nm":25,"alt_fmsl":1959,"id":"J","desc":"SAN JUAN NDB"},
+{"type":"VOR","hdg_t":266.6,"dist_nm":103.2,"freq":113.9,"lat":-32.91833300,"lon":-70.83722200,"rng_nm":130,"alt_fmsl":4270,"id":"TBN","desc":"TABON VOR-DME"},
+{"type":"VOR","hdg_t":246.8,"dist_nm":104,"freq":112.3,"lat":-33.50219400,"lon":-70.70290800,"rng_nm":130,"alt_fmsl":1684,"id":"STI","desc":"LOS CERRILLOS VOR-DME"},
+{"type":"NDB","hdg_t":253.7,"dist_nm":104.4,"freq":220,"lat":-33.30487500,"lon":-70.79003300,"rng_nm":25,"alt_fmsl":0,"id":"UE","desc":"LO CASTRO NDB"},
+{"type":"VOR","hdg_t":250.1,"dist_nm":106.1,"freq":116.1,"lat":-33.41973600,"lon":-70.78438100,"rng_nm":130,"alt_fmsl":1572,"id":"AMB","desc":"SANTIAGO VOR-DME"},
+{"type":"VOR","hdg_t":250.4,"dist_nm":106.8,"freq":117.2,"lat":-33.41472200,"lon":-70.80138900,"rng_nm":25,"alt_fmsl":1545,"id":"PDH","desc":"PUDAHUEL VOR-DME"},
+{"type":"VOR","hdg_t":169.2,"dist_nm":107,"freq":116.9,"lat":-34.58944400,"lon":-68.39472200,"rng_nm":178,"alt_fmsl":2444,"id":"SRA","desc":"SAN RAFAEL VOR"}
+]
+}

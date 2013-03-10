@@ -1,0 +1,66 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RJTA","name":"Atsugi Naf","lat":35.4546165,"lon":139.4501545,"rwys":1,"ils":1,"index":5234521,"path":"e130n30/e139n35"
+,"runways":[
+{"len_m":2436,"wid_m":45.72,"hdg":359,"surf":"Concrete","rwy1":"01","lat1":35.44363600,"lon1":139.45035300,"rwy2":"19","lat2":35.46559700,"lon2":139.44995600}
+]
+,"radios":[
+{"type":"TWR","freq":126.2,"desc":"TWR"},
+{"type":"APP","freq":123.8,"desc":"YOKOTA APP"},
+{"type":"APP","freq":118.3,"desc":"YOKOTA APP"},
+{"type":"DEP","freq":122.1,"desc":"YOKOTA DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.3,"lat":35.46843100,"lon":139.44983600,"rng_nm":18,"alt_fmsl":184,"hdg":359.03,"id":"IAG","rwy":"01","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.3,"lat":35.44577800,"lon":139.44893100,"rng_nm":10,"alt_fmsl":46,"id":"IAG","rwy":"01","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":35.43437500,"lon":139.45040800,"rng_nm":0,"alt_fmsl":184,"id":"----","rwy":"01","desc":"MM"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":160.8,"dist_nm":0.5,"freq":115.1,"lat":35.44583300,"lon":139.45388900,"rng_nm":25,"alt_fmsl":236,"id":"NJA","desc":"ATSUGI TACAN"},
+{"type":"NDB","hdg_t":323.2,"dist_nm":4.5,"freq":379,"lat":35.51504700,"lon":139.39498900,"rng_nm":75,"alt_fmsl":368,"id":"XR","desc":"KASTNER NDB-DME"},
+{"type":"SDME","hdg_t":323.2,"dist_nm":4.5,"freq":109.8,"lat":35.51504700,"lon":139.39498900,"rng_nm":75,"alt_fmsl":368,"id":"XR","desc":"KASTNER NDB-DME"},
+{"type":"NDB","hdg_t":35.2,"dist_nm":7.7,"freq":357,"lat":35.55967500,"lon":139.54117800,"rng_nm":100,"alt_fmsl":0,"id":"RB","desc":"EDA NDB"},
+{"type":"NDB","hdg_t":334.2,"dist_nm":8.3,"freq":401,"lat":35.57976700,"lon":139.37625800,"rng_nm":50,"alt_fmsl":0,"id":"DF","desc":"ZAMA NDB"},
+{"type":"VOR","hdg_t":150.4,"dist_nm":13.6,"freq":116.2,"lat":35.25582500,"lon":139.58752200,"rng_nm":25,"alt_fmsl":490,"id":"HYE","desc":"YOKOSUKA VOR-DME"},
+{"type":"NDB","hdg_t":351.1,"dist_nm":15.9,"freq":366,"lat":35.71833300,"lon":139.39972200,"rng_nm":50,"alt_fmsl":313,"id":"TN","desc":"SHIN-TACHIKAWA NDB"},
+{"type":"NDB","hdg_t":67.1,"dist_nm":16.1,"freq":337,"lat":35.55881700,"lon":139.75453900,"rng_nm":100,"alt_fmsl":23,"id":"HM","desc":"HANEDA NDB"},
+{"type":"VOR","hdg_t":66.9,"dist_nm":16.5,"freq":112.2,"lat":35.56231700,"lon":139.76115000,"rng_nm":25,"alt_fmsl":63,"id":"HME","desc":"HANEDA VOR-DME"},
+{"type":"NDB","hdg_t":152.1,"dist_nm":17.3,"freq":249,"lat":35.19907800,"lon":139.61465300,"rng_nm":100,"alt_fmsl":0,"id":"YU","desc":"YOKOSUKA NDB"},
+{"type":"SDME","hdg_t":344.5,"dist_nm":18.2,"freq":113.8,"lat":35.74897200,"lon":139.35026400,"rng_nm":50,"alt_fmsl":438,"id":"YOK","desc":"YOKOTA TACAN"},
+{"type":"VOR","hdg_t":63.4,"dist_nm":20,"freq":111,"lat":35.60398100,"lon":139.81758300,"rng_nm":100,"alt_fmsl":126,"id":"DYE","desc":"DAIBA VOR-DME"},
+{"type":"VOR","hdg_t":97.8,"dist_nm":22.4,"freq":114.5,"lat":35.40236400,"lon":139.90343600,"rng_nm":25,"alt_fmsl":45,"id":"KZE","desc":"KISARAZU VOR-DME"},
+{"type":"SDME","hdg_t":355.7,"dist_nm":23.1,"freq":110.6,"lat":35.84000000,"lon":139.41500000,"rng_nm":75,"alt_fmsl":319,"id":"YLT","desc":"IRUMA TACAN"},
+{"type":"NDB","hdg_t":16,"dist_nm":28.9,"freq":228,"lat":35.91838600,"lon":139.61413600,"rng_nm":100,"alt_fmsl":0,"id":"MI","desc":"OMIYA NDB"},
+{"type":"SDME","hdg_t":52.6,"dist_nm":34.3,"freq":108.2,"lat":35.80194400,"lon":140.01000000,"rng_nm":25,"alt_fmsl":130,"id":"SHT","desc":"SHIMOFUSA TACAN"},
+{"type":"NDB","hdg_t":142.7,"dist_nm":34.6,"freq":373,"lat":34.99393300,"lon":139.87510000,"rng_nm":150,"alt_fmsl":0,"id":"PQ","desc":"TATEYAMA NDB"},
+{"type":"SDME","hdg_t":146.5,"dist_nm":34.6,"freq":108.8,"lat":34.97083300,"lon":139.83805600,"rng_nm":50,"alt_fmsl":502,"id":"TET","desc":"TATEYAMA TACAN"},
+{"type":"VOR","hdg_t":144.1,"dist_nm":37.5,"freq":112.5,"lat":34.94639400,"lon":139.89552800,"rng_nm":100,"alt_fmsl":621,"id":"PQE","desc":"TATEYAMA VOR-DME"},
+{"type":"VOR","hdg_t":29.5,"dist_nm":38.3,"freq":117,"lat":36.01092500,"lon":139.83917200,"rng_nm":100,"alt_fmsl":115,"id":"SYE","desc":"SEKIYADO VOR-DME"},
+{"type":"VOR","hdg_t":41.9,"dist_nm":38.7,"freq":114,"lat":35.93482500,"lon":139.98145300,"rng_nm":100,"alt_fmsl":132,"id":"SNE","desc":"MORIYA VOR-DME"},
+{"type":"VOR","hdg_t":186,"dist_nm":40.1,"freq":109.85,"lat":34.78774200,"lon":139.36485000,"rng_nm":100,"alt_fmsl":155,"id":"OSE","desc":"MIHARA VOR-DME"},
+{"type":"NDB","hdg_t":350.9,"dist_nm":43,"freq":283,"lat":36.16393900,"lon":139.31102800,"rng_nm":100,"alt_fmsl":0,"id":"AY","desc":"KUMAGAYA NDB"},
+{"type":"VOR","hdg_t":63.3,"dist_nm":44.3,"freq":112.7,"lat":35.78358600,"lon":140.26298600,"rng_nm":100,"alt_fmsl":97,"id":"TYE","desc":"SAKURA VOR-DME"},
+{"type":"VOR","hdg_t":182.3,"dist_nm":44.5,"freq":113.1,"lat":34.71225300,"lon":139.41401700,"rng_nm":100,"alt_fmsl":2078,"id":"XAC","desc":"OSHIMA VORTAC"},
+{"type":"NDB","hdg_t":183.3,"dist_nm":45.9,"freq":214,"lat":34.68882200,"lon":139.39656400,"rng_nm":150,"alt_fmsl":0,"id":"XA","desc":"OSHIMA NDB"},
+{"type":"VOR","hdg_t":109.4,"dist_nm":48,"freq":115.7,"lat":35.18354400,"lon":140.37075000,"rng_nm":100,"alt_fmsl":365,"id":"OJC","desc":"ONJUKU VORTAC"},
+{"type":"VOR","hdg_t":65.9,"dist_nm":48.7,"freq":117.9,"lat":35.78234700,"lon":140.36253600,"rng_nm":150,"alt_fmsl":153,"id":"NRE","desc":"NARITA VOR-DME"},
+{"type":"VOR","hdg_t":64.5,"dist_nm":49.9,"freq":117.3,"lat":35.80896100,"lon":140.37538900,"rng_nm":25,"alt_fmsl":164,"id":"HKE","desc":"HOKUSO VOR-DME"},
+{"type":"VOR","hdg_t":47.1,"dist_nm":50.1,"freq":116,"lat":36.02120000,"lon":140.20550000,"rng_nm":100,"alt_fmsl":114,"id":"TLE","desc":"AMI VOR-DME"},
+{"type":"SDME","hdg_t":46.6,"dist_nm":64.4,"freq":113.3,"lat":36.18833300,"lon":140.41500000,"rng_nm":75,"alt_fmsl":137,"id":"HUT","desc":"HYAKURI TACAN"},
+{"type":"NDB","hdg_t":17.8,"dist_nm":65.2,"freq":389,"lat":36.48981700,"lon":139.86339200,"rng_nm":100,"alt_fmsl":0,"id":"JD","desc":"NIKKO NDB"},
+{"type":"VOR","hdg_t":187.6,"dist_nm":66.8,"freq":116.5,"lat":34.34810000,"lon":139.27125300,"rng_nm":130,"alt_fmsl":999,"id":"NJC","desc":"NIIJIMA VORTAC"},
+{"type":"SDME","hdg_t":17.9,"dist_nm":66.9,"freq":112.15,"lat":36.51694400,"lon":139.87555600,"rng_nm":130,"alt_fmsl":406,"id":"JDT","desc":"UTSUNOMIYA TACAN"},
+{"type":"VOR","hdg_t":75.7,"dist_nm":68,"freq":113.6,"lat":35.72646900,"lon":140.79942800,"rng_nm":100,"alt_fmsl":236,"id":"CVC","desc":"CHOSHI VORTAC"},
+{"type":"NDB","hdg_t":236.7,"dist_nm":68.5,"freq":344,"lat":34.82225600,"lon":138.28933100,"rng_nm":150,"alt_fmsl":23,"id":"YZ","desc":"YAIZU NDB"},
+{"type":"SDME","hdg_t":236.3,"dist_nm":68.5,"freq":109.2,"lat":34.81444400,"lon":138.29583300,"rng_nm":75,"alt_fmsl":78,"id":"YZT","desc":"SHIZUHAMA TACAN"},
+{"type":"VOR","hdg_t":178.2,"dist_nm":80,"freq":109,"lat":34.11902778,"lon":139.49847222,"rng_nm":130,"alt_fmsl":144,"id":"MJE","desc":"MIYAKEJIMA VOR-DME"},
+{"type":"VOR","hdg_t":176.1,"dist_nm":83,"freq":108.65,"lat":34.07104200,"lon":139.56128900,"rng_nm":100,"alt_fmsl":63,"id":"MOE","desc":"OYAMA VOR-DME"},
+{"type":"VOR","hdg_t":19.6,"dist_nm":83.6,"freq":109.4,"lat":36.76838600,"lon":140.03329200,"rng_nm":100,"alt_fmsl":882,"id":"BTE","desc":"BATOH VOR-DME"},
+{"type":"VOR","hdg_t":19.5,"dist_nm":84.5,"freq":114.8,"lat":36.78267200,"lon":140.03580000,"rng_nm":100,"alt_fmsl":761,"id":"NZE","desc":"NASU VOR-DME"},
+{"type":"VOR","hdg_t":299.8,"dist_nm":85.6,"freq":117.6,"lat":36.15597500,"lon":137.91981700,"rng_nm":100,"alt_fmsl":2260,"id":"MBE","desc":"MATSUMOTO VOR-DME"},
+{"type":"VOR","hdg_t":29.2,"dist_nm":88.7,"freq":115.3,"lat":36.74436700,"lon":140.34985000,"rng_nm":100,"alt_fmsl":1480,"id":"GOC","desc":"DAIGO VORTAC"},
+{"type":"NDB","hdg_t":29.1,"dist_nm":90,"freq":221,"lat":36.76396400,"lon":140.35936900,"rng_nm":50,"alt_fmsl":0,"id":"GO","desc":"DAIGO NDB"},
+{"type":"NDB","hdg_t":304.1,"dist_nm":90.3,"freq":387,"lat":36.29066700,"lon":137.90816700,"rng_nm":75,"alt_fmsl":1807,"id":"MH","desc":"MATSUMOTO NDB"},
+{"type":"SDME","hdg_t":244.1,"dist_nm":95.5,"freq":114.7,"lat":34.74722200,"lon":137.71000000,"rng_nm":50,"alt_fmsl":233,"id":"LHT","desc":"HAMAMATSU TACAN"},
+{"type":"VOR","hdg_t":244.5,"dist_nm":96.8,"freq":110,"lat":34.74786900,"lon":137.68065800,"rng_nm":100,"alt_fmsl":211,"id":"LHE","desc":"HAMAMATSU VOR-DME"}
+]
+}

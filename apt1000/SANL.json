@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SANL","name":"Capitan V. Almandos Almonacid","lat":-29.382961,"lon":-66.79664145,"rwys":1,"ils":1,"index":1855264,"path":"w070s30/w067s30"
+,"runways":[
+{"len_m":2853,"wid_m":29.87,"hdg":28,"surf":"Asphalt","rwy1":"03","lat1":-29.39431474,"lon1":-66.80356954,"rwy2":"21","lat2":-29.37160727,"lon2":-66.78971335}
+]
+,"radios":[
+{"type":"TWR","freq":118.4,"desc":"LA RIOJA TWR"},
+{"type":"TWR","freq":118.45,"desc":"LA RIOJA TWR"},
+{"type":"APP","freq":118.4,"desc":"LA RIOJA APP"},
+{"type":"APP","freq":118.45,"desc":"LA RIOJA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":-29.39444400,"lon":-66.80361100,"rng_nm":18,"alt_fmsl":1433,"hdg":207.94,"id":"LR","rwy":"21","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":-29.37336900,"lon":-66.78928300,"rng_nm":10,"alt_fmsl":1433,"id":"LR","rwy":"21","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":-29.35851100,"lon":-66.78154700,"rng_nm":0,"alt_fmsl":1433,"id":"----","rwy":"21","desc":"MM"},
+{"type":"DME","freq":110.1,"lat":-29.37336900,"lon":-66.78928300,"rng_nm":18,"alt_fmsl":1437,"id":"LR","rwy":"21","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":87.1,"dist_nm":0.2,"freq":410,"lat":-29.38277800,"lon":-66.79250000,"rng_nm":189,"alt_fmsl":1415,"id":"LAR","desc":"LA RIOJA NDB"},
+{"type":"VOR","hdg_t":227.2,"dist_nm":0.4,"freq":113.5,"lat":-29.38861100,"lon":-66.80361100,"rng_nm":185,"alt_fmsl":1437,"id":"LAR","desc":"LA RIOJA VOR"},
+{"type":"NDB","hdg_t":28.4,"dist_nm":1.6,"freq":307,"lat":-29.35851100,"lon":-66.78154700,"rng_nm":25,"alt_fmsl":1394,"id":"L","desc":"LA RIOJA NDB"},
+{"type":"VOR","hdg_t":286.7,"dist_nm":35.4,"freq":116.5,"lat":-29.21111100,"lon":-67.44250000,"rng_nm":177,"alt_fmsl":3099,"id":"ITO","desc":"CHILECITO VOR"},
+{"type":"NDB","hdg_t":50.2,"dist_nm":70.8,"freq":282,"lat":-28.62166700,"lon":-65.76500000,"rng_nm":25,"alt_fmsl":1476,"id":"N","desc":"CATAMARCA NDB"},
+{"type":"NDB","hdg_t":49.5,"dist_nm":72.2,"freq":235,"lat":-28.59583300,"lon":-65.75611100,"rng_nm":189,"alt_fmsl":1522,"id":"CAT","desc":"CATAMARCA NDB"},
+{"type":"VOR","hdg_t":49.3,"dist_nm":73,"freq":114.3,"lat":-28.58361100,"lon":-65.74666700,"rng_nm":178,"alt_fmsl":1522,"id":"CAT","desc":"CATAMARCA VOR-DME"},
+{"type":"NDB","hdg_t":212.6,"dist_nm":154.2,"freq":305,"lat":-31.54333300,"lon":-68.41666700,"rng_nm":25,"alt_fmsl":1959,"id":"J","desc":"SAN JUAN NDB"},
+{"type":"VOR","hdg_t":212.4,"dist_nm":155.3,"freq":113.1,"lat":-31.56388900,"lon":-68.42138900,"rng_nm":178,"alt_fmsl":1959,"id":"JUA","desc":"SAN JUAN VOR-DME"},
+{"type":"NDB","hdg_t":54.4,"dist_nm":161.9,"freq":330,"lat":-27.78500000,"lon":-64.32166700,"rng_nm":50,"alt_fmsl":653,"id":"D","desc":"SANTIAGO DEL ESTERO NDB"}
+]
+}

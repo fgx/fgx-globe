@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UEEE","name":"Yakutsk","lat":62.09324875,"lon":129.7706781,"rwys":2,"ils":1,"index":5072385,"path":"e120n60/e129n62"
+,"runways":[
+{"len_m":2496,"wid_m":49.07,"hdg":29,"surf":"Concrete","rwy1":"05L","lat1":62.08268600,"lon1":129.75350300,"rwy2":"23R","lat2":62.10217200,"lon2":129.77707500},
+{"len_m":3397,"wid_m":60.05,"hdg":36,"surf":"Asphalt","rwy1":"05R","lat1":62.08188449,"lon1":129.75652105,"rwy2":"23L","lat2":62.10625251,"lon2":129.79561334}
+]
+,"radios":[
+{"type":"GND","freq":121.7,"desc":"Yakutsk Taxiing"},
+{"type":"TWR","freq":120,"desc":"Yakutsk Start"},
+{"type":"TWR","freq":120.3,"desc":"Yakutsk Krug"},
+{"type":"APP","freq":129.3,"desc":"Yakutsk Podhod"}
+]
+,"ils":[
+{"type":"ILS","freq":111.7,"lat":62.07333300,"lon":129.74333300,"rng_nm":18,"alt_fmsl":325,"hdg":216.60,"id":"IMF","rwy":"23L","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.7,"lat":62.10333300,"lon":129.79333300,"rng_nm":10,"alt_fmsl":325,"id":"IMF","rwy":"23L","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":62.13333300,"lon":129.84000000,"rng_nm":0,"alt_fmsl":325,"id":"----","rwy":"23L","desc":"OM"},
+{"type":"MM","freq":0,"lat":62.11333300,"lon":129.80666700,"rng_nm":0,"alt_fmsl":325,"id":"----","rwy":"23L","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":105,"dist_nm":0.3,"freq":112.3,"lat":62.09166667,"lon":129.78319444,"rng_nm":130,"alt_fmsl":320,"id":"UTS","desc":"Yakutsk VOR-DME"},
+{"type":"NDB","hdg_t":212.6,"dist_nm":1.1,"freq":685,"lat":62.07666779,"lon":129.74800110,"rng_nm":30,"alt_fmsl":331,"id":"V","desc":"YAKUTSK NDB"},
+{"type":"NDB","hdg_t":40,"dist_nm":1.5,"freq":685,"lat":62.11333466,"lon":129.80667114,"rng_nm":30,"alt_fmsl":312,"id":"M","desc":"YAKUTSK NDB"},
+{"type":"NDB","hdg_t":26.4,"dist_nm":2.6,"freq":290,"lat":62.13333300,"lon":129.81333300,"rng_nm":80,"alt_fmsl":0,"id":"UD","desc":"YAKUTSK NDB"},
+{"type":"NDB","hdg_t":215.5,"dist_nm":2.9,"freq":334,"lat":62.05333328,"lon":129.71000671,"rng_nm":80,"alt_fmsl":395,"id":"VD","desc":"YAKUTSK NDB"},
+{"type":"NDB","hdg_t":38.9,"dist_nm":3.1,"freq":334,"lat":62.13333300,"lon":129.84000000,"rng_nm":80,"alt_fmsl":0,"id":"MF","desc":"YAKUTSK NDB"},
+{"type":"NDB","hdg_t":268.2,"dist_nm":6.5,"freq":391,"lat":62.08966827,"lon":129.54016113,"rng_nm":22,"alt_fmsl":637,"id":"N","desc":"Magan NDB"},
+{"type":"NDB","hdg_t":283.6,"dist_nm":6.7,"freq":479,"lat":62.11966705,"lon":129.53733826,"rng_nm":75,"alt_fmsl":636,"id":"CW","desc":"Magan NDB"},
+{"type":"NDB","hdg_t":258,"dist_nm":7.6,"freq":715,"lat":62.06666565,"lon":129.50500488,"rng_nm":37,"alt_fmsl":637,"id":"NE","desc":"Magan NDB"},
+{"type":"NDB","hdg_t":5.5,"dist_nm":8.4,"freq":171,"lat":62.23333333,"lon":129.80000000,"rng_nm":80,"alt_fmsl":250,"id":"BS","desc":"Yakutsk NDB"}
+]
+}

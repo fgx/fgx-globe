@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WBKS","name":"Sandakan","lat":5.900897,"lon":118.059486,"rwys":1,"ils":1,"index":4888568,"path":"e110n00/e118n05"
+,"runways":[
+{"len_m":2138,"wid_m":46.02,"hdg":80,"surf":"Asphalt","rwy1":"08","lat1":5.89932200,"lon1":118.04996100,"rwy2":"26","lat2":5.90247200,"lon2":118.06901100}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":121.05,"desc":"TWR"},
+{"type":"APP","freq":123.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":5.90295300,"lon":118.07172200,"rng_nm":18,"alt_fmsl":46,"hdg":80.48,"id":"ISKN","rwy":"08","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":5.90085000,"lon":118.05246100,"rng_nm":10,"alt_fmsl":46,"id":"ISKN","rwy":"08","desc":"GS","gs":3},
+{"type":"DME","freq":109.3,"lat":5.90085000,"lon":118.05246100,"rng_nm":18,"alt_fmsl":46,"id":"ISKN","rwy":"08","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":59.7,"dist_nm":0.6,"freq":114,"lat":5.90605600,"lon":118.06830600,"rng_nm":130,"alt_fmsl":46,"id":"VSN","desc":"SANDAKAN VOR-DME"},
+{"type":"NDB","hdg_t":262.8,"dist_nm":3.8,"freq":340,"lat":5.89300000,"lon":117.99636100,"rng_nm":50,"alt_fmsl":0,"id":"SN","desc":"SANDAKAN NDB"},
+{"type":"NDB","hdg_t":162.4,"dist_nm":54.8,"freq":334,"lat":5.02475000,"lon":118.33633300,"rng_nm":50,"alt_fmsl":0,"id":"LHD","desc":"LAHAD DATU NDB"},
+{"type":"VOR","hdg_t":177,"dist_nm":94.2,"freq":115.6,"lat":4.32451700,"lon":118.13991100,"rng_nm":130,"alt_fmsl":65,"id":"VTW","desc":"TAWAU VOR-DME"},
+{"type":"NDB","hdg_t":178.5,"dist_nm":95.6,"freq":278,"lat":4.29962800,"lon":118.09969400,"rng_nm":50,"alt_fmsl":0,"id":"TWU","desc":"TAWAU NDB"},
+{"type":"VOR","hdg_t":270,"dist_nm":121.3,"freq":113.1,"lat":5.89966700,"lon":116.02994400,"rng_nm":130,"alt_fmsl":180,"id":"VJN","desc":"KOTA KINABALU VOR-DME"},
+{"type":"NDB","hdg_t":270,"dist_nm":121.4,"freq":400,"lat":5.89966700,"lon":116.02827800,"rng_nm":50,"alt_fmsl":0,"id":"JSL","desc":"KOTA KINABALU NDB"},
+{"type":"NDB","hdg_t":184.5,"dist_nm":146.6,"freq":220,"lat":3.45333300,"lon":117.86500000,"rng_nm":50,"alt_fmsl":16,"id":"BU","desc":"BUNYU NDB"},
+{"type":"NDB","hdg_t":190.8,"dist_nm":156.4,"freq":398,"lat":3.32694200,"lon":117.57061100,"rng_nm":50,"alt_fmsl":20,"id":"OT","desc":"TARAKAN NDB"},
+{"type":"VOR","hdg_t":190.9,"dist_nm":156.6,"freq":116.6,"lat":3.32560600,"lon":117.56163300,"rng_nm":100,"alt_fmsl":20,"id":"TRK","desc":"TARAKAN VOR-DME"}
+]
+}

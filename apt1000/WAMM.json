@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WAMM","name":"Manado Sam Ratulangi","lat":1.547371,"lon":124.925156,"rwys":1,"ils":2,"index":4986599,"path":"e120n00/e124n01"
+,"runways":[
+{"len_m":2649,"wid_m":45.11,"hdg":181,"surf":"Asphalt","rwy1":"18","lat1":1.55934417,"lon1":124.92555961,"rwy2":"36","lat2":1.53539783,"lon2":124.92475239}
+]
+,"radios":[
+{"type":"ATIS","freq":126.4,"desc":"ATIS"},
+{"type":"TWR","freq":118.1,"desc":"RATULANGI TWR"},
+{"type":"APP","freq":119,"desc":"MANADO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.1,"lat":1.53414200,"lon":124.92472500,"rng_nm":18,"alt_fmsl":264,"hdg":181.90,"id":"IMNO","rwy":"18","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.5,"lat":1.56071700,"lon":124.92560000,"rng_nm":18,"alt_fmsl":264,"hdg":1.92,"id":"ITDO","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.1,"lat":1.55660600,"lon":124.92651900,"rng_nm":10,"alt_fmsl":264,"id":"IMNO","rwy":"18","desc":"GS","gs":3.25},
+{"type":"GS","freq":110.5,"lat":1.53801700,"lon":124.92593900,"rng_nm":10,"alt_fmsl":264,"id":"ITDO","rwy":"36","desc":"GS","gs":3.25}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":19.1,"dist_nm":0.4,"freq":114.2,"lat":1.55518300,"lon":124.92784700,"rng_nm":130,"alt_fmsl":270,"id":"MNO","desc":"MANADO VOR-DME"},
+{"type":"NDB","hdg_t":196.3,"dist_nm":3.3,"freq":290,"lat":1.49361900,"lon":124.90948300,"rng_nm":50,"alt_fmsl":0,"id":"PN","desc":"MANADO NDB"},
+{"type":"NDB","hdg_t":232.6,"dist_nm":6.5,"freq":255,"lat":1.48082800,"lon":124.83853900,"rng_nm":50,"alt_fmsl":0,"id":"MD","desc":"MANADO NDB"},
+{"type":"VOR","hdg_t":172.3,"dist_nm":13.5,"freq":114.8,"lat":1.32325000,"lon":124.95489200,"rng_nm":130,"alt_fmsl":2373,"id":"MWB","desc":"MANADO VOR-DME"},
+{"type":"NDB","hdg_t":15.7,"dist_nm":132.5,"freq":400,"lat":3.68416700,"lon":125.52611100,"rng_nm":60,"alt_fmsl":16,"id":"TA","desc":"TAHUNA NDB"},
+{"type":"NDB","hdg_t":246.5,"dist_nm":135.9,"freq":285,"lat":0.64078100,"lon":122.85061700,"rng_nm":50,"alt_fmsl":59,"id":"NN","desc":"GORONTALO NDB"},
+{"type":"VOR","hdg_t":246.6,"dist_nm":135.9,"freq":113.5,"lat":0.64463100,"lon":122.84804400,"rng_nm":130,"alt_fmsl":59,"id":"GTL","desc":"GORONTALO VOR-DME"},
+{"type":"NDB","hdg_t":106.1,"dist_nm":153.5,"freq":265,"lat":0.83079700,"lon":127.37904700,"rng_nm":50,"alt_fmsl":49,"id":"TR","desc":"TERNATE NDB"},
+{"type":"NDB","hdg_t":84.1,"dist_nm":172.7,"freq":201,"lat":1.83805600,"lon":127.78638900,"rng_nm":50,"alt_fmsl":180,"id":"GL","desc":"GALELA NDB"},
+{"type":"NDB","hdg_t":96.8,"dist_nm":179.6,"freq":382,"lat":1.18713900,"lon":127.89357200,"rng_nm":50,"alt_fmsl":13,"id":"KU","desc":"KUABANG NDB"}
+]
+}

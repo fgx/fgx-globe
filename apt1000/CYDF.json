@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYDF","name":"Deer Lake","lat":49.2093797333333,"lon":-57.3968234833333,"rwys":1,"ils":1,"index":2007754,"path":"w060n40/w058n49"
+,"runways":[
+{"len_m":1827,"wid_m":46.02,"hdg":46,"surf":"Asphalt","rwy1":"07","lat1":49.20533352,"lon1":-57.40033150,"rwy2":"25","lat2":49.21666648,"lon2":-57.38216000}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":17,"wid_m":22.86,"hdg":-57,"surf":"Asphalt","lat1":49.20862887,"lon1":-57.39969964},
+{"rwy1":"H2","len_m":17,"wid_m":22.86,"hdg":-57,"surf":"Asphalt","lat1":49.20851033,"lon1":-57.39952506}
+]
+,"radios":[
+{"type":"CTAF","freq":122.2,"desc":"MF"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":49.20415115,"lon":-57.40223312,"rng_nm":18,"alt_fmsl":72,"hdg":226.30,"id":"IDF","rwy":"25","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":49.21503448,"lon":-57.38718414,"rng_nm":10,"alt_fmsl":72,"id":"IDF","rwy":"25","desc":"GS","gs":2.7}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":233.4,"dist_nm":2.9,"freq":350,"lat":49.18000000,"lon":-57.45722222,"rng_nm":50,"alt_fmsl":0,"id":"DF","desc":"DEER LAKE NDB"},
+{"type":"NDB","hdg_t":47.2,"dist_nm":4.7,"freq":335,"lat":49.26306400,"lon":-57.30806400,"rng_nm":25,"alt_fmsl":0,"id":"FK","desc":"JUNCTION NDB"},
+{"type":"VOR","hdg_t":79.1,"dist_nm":7.3,"freq":113.3,"lat":49.23236111,"lon":-57.21327778,"rng_nm":130,"alt_fmsl":450,"id":"YDF","desc":"DEER LAKE VOR-DME"},
+{"type":"NDB","hdg_t":70,"dist_nm":50.4,"freq":364,"lat":49.49000000,"lon":-56.18472200,"rng_nm":50,"alt_fmsl":250,"id":"2B","desc":"SPRINGDALE NDB"},
+{"type":"NDB","hdg_t":226.2,"dist_nm":54.2,"freq":340,"lat":48.58140600,"lon":-58.38032800,"rng_nm":25,"alt_fmsl":0,"id":"ZJT","desc":"HARMON NDB"},
+{"type":"VOR","hdg_t":233.7,"dist_nm":62.8,"freq":113.1,"lat":48.58247222,"lon":-58.66919444,"rng_nm":130,"alt_fmsl":1184,"id":"YJT","desc":"STEPHENVILLE VOR-DME"},
+{"type":"NDB","hdg_t":233.8,"dist_nm":67,"freq":390,"lat":48.54333333,"lon":-58.75500000,"rng_nm":50,"alt_fmsl":0,"id":"JT","desc":"STEPHENVILLE NDB"},
+{"type":"NDB","hdg_t":96.7,"dist_nm":108.6,"freq":280,"lat":48.96444444,"lon":-54.66833333,"rng_nm":50,"alt_fmsl":0,"id":"QX","desc":"GANDER NDB"},
+{"type":"SDME","hdg_t":96.8,"dist_nm":112.9,"freq":109.5,"lat":48.95055600,"lon":-54.56027800,"rng_nm":25,"alt_fmsl":496,"id":"IQX","desc":"GANDER DME"},
+{"type":"VOR","hdg_t":98.2,"dist_nm":114.4,"freq":112.7,"lat":48.89958333,"lon":-54.53500000,"rng_nm":130,"alt_fmsl":588,"id":"YQX","desc":"GANDER VOR-DME"}
+]
+}

@@ -1,0 +1,36 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DTTA","name":"Carthage","lat":36.8512675,"lon":10.230027,"rwys":2,"ils":2,"index":3121072,"path":"e010n30/e010n36"
+,"runways":[
+{"len_m":3194,"wid_m":45.11,"hdg":12,"surf":"Asphalt","rwy1":"01","lat1":36.83913100,"lon1":10.22375600,"rwy2":"19","lat2":36.86725000,"lon2":10.23141100},
+{"len_m":2852,"wid_m":45.11,"hdg":112,"surf":"Asphalt","rwy1":"11","lat1":36.85425600,"lon1":10.21769400,"rwy2":"29","lat2":36.84443300,"lon2":10.24724700}
+]
+,"radios":[
+{"type":"ATIS","freq":118.67,"desc":"TUNIS ATIS"},
+{"type":"GND","freq":121.9,"desc":"TUNIS GND"},
+{"type":"TWR","freq":118.1,"desc":"TUNIS TWR"},
+{"type":"APP","freq":121.2,"desc":"TUNIS APP"},
+{"type":"APP","freq":119.5,"desc":"TUNIS APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":36.83686100,"lon":10.22313900,"rng_nm":18,"alt_fmsl":13,"hdg":192.29,"id":"TSI","rwy":"19","desc":"ILS-cat-II"},
+{"type":"ILS","freq":108.5,"lat":36.85511100,"lon":10.21511100,"rng_nm":18,"alt_fmsl":22,"hdg":292.54,"id":"TKE","rwy":"29","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.3,"lat":36.86397200,"lon":10.23191700,"rng_nm":10,"alt_fmsl":22,"id":"TSI","rwy":"19","desc":"GS","gs":3},
+{"type":"GS","freq":108.5,"lat":36.84727800,"lon":10.24241700,"rng_nm":10,"alt_fmsl":22,"id":"TKE","rwy":"29","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":36.93983300,"lon":10.25122200,"rng_nm":0,"alt_fmsl":13,"id":"----","rwy":"19","desc":"OM"},
+{"type":"MM","freq":0,"lat":36.87663900,"lon":10.23397200,"rng_nm":0,"alt_fmsl":13,"id":"----","rwy":"19","desc":"MM"},
+{"type":"DME","freq":108.5,"lat":36.84727800,"lon":10.24241700,"rng_nm":18,"alt_fmsl":22,"id":"TKE","rwy":"29","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":37.9,"dist_nm":0,"freq":116.5,"lat":36.85158300,"lon":10.23033300,"rng_nm":130,"alt_fmsl":53,"id":"TUC","desc":"TUNIS VOR-DME"},
+{"type":"NDB","hdg_t":112.4,"dist_nm":4.1,"freq":385,"lat":36.82486100,"lon":10.30963900,"rng_nm":50,"alt_fmsl":0,"id":"KDN","desc":"TUNIS NDB"},
+{"type":"NDB","hdg_t":10.8,"dist_nm":5.4,"freq":325,"lat":36.93983300,"lon":10.25122200,"rng_nm":50,"alt_fmsl":19,"id":"TS","desc":"TUNIS NDB"},
+{"type":"VOR","hdg_t":316,"dist_nm":32,"freq":114.2,"lat":37.23527800,"lon":9.76555600,"rng_nm":130,"alt_fmsl":12,"id":"BIZ","desc":"BIZERTE VOR-DME"},
+{"type":"NDB","hdg_t":326.7,"dist_nm":34.3,"freq":310,"lat":37.33000000,"lon":9.83611100,"rng_nm":100,"alt_fmsl":0,"id":"BC","desc":"CAP BLANC NDB"},
+{"type":"VOR","hdg_t":86,"dist_nm":41.4,"freq":112.7,"lat":36.89555600,"lon":11.08833300,"rng_nm":150,"alt_fmsl":0,"id":"CBN","desc":"CAP BON VOR"},
+{"type":"VOR","hdg_t":277,"dist_nm":65.2,"freq":113.3,"lat":36.97816700,"lon":8.88358300,"rng_nm":130,"alt_fmsl":236,"id":"TBK","desc":"TABARKA VOR-DME"},
+{"type":"NDB","hdg_t":277,"dist_nm":65.4,"freq":350,"lat":36.97808300,"lon":8.87863900,"rng_nm":50,"alt_fmsl":0,"id":"TK","desc":"TABARKA 7 NOVEMBRE NDB"},
+{"type":"VOR","hdg_t":158.9,"dist_nm":70.3,"freq":113.1,"lat":35.75491700,"lon":10.74805600,"rng_nm":130,"alt_fmsl":32,"id":"MON","desc":"MONASTIR VOR-DME"},
+{"type":"NDB","hdg_t":91.1,"dist_nm":83.4,"freq":335,"lat":36.81136300,"lon":11.96102700,"rng_nm":100,"alt_fmsl":609,"id":"PAN","desc":"PANTELLERIA NDB"},
+{"type":"VOR","hdg_t":90.9,"dist_nm":83.6,"freq":116.1,"lat":36.81444000,"lon":11.96583200,"rng_nm":100,"alt_fmsl":623,"id":"PAN","desc":"PANTELLERIA VOR-DME"}
+]
+}

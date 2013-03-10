@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KMSO","name":"Missoula Intl","lat":46.91623825,"lon":-114.08974225,"rwys":2,"ils":1,"index":1073723,"path":"w120n40/w115n46"
+,"runways":[
+{"len_m":2895,"wid_m":45.72,"hdg":130,"surf":"Asphalt","rwy1":"11","lat1":46.92484400,"lon1":-114.10655800,"rwy2":"29","lat2":46.90794200,"lon2":-114.07763900},
+{"len_m":1405,"wid_m":22.86,"hdg":89,"surf":"Asphalt","rwy1":"07","lat1":46.91601100,"lon1":-114.09661100,"rwy2":"25","lat2":46.91615600,"lon2":-114.07816100}
+]
+,"radios":[
+{"type":"ATIS","freq":126.65,"desc":"ATIS"},
+{"type":"CTAF","freq":118.4,"desc":"CTAF"},
+{"type":"CTAF","freq":122.95,"desc":"UNICOM"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.4,"desc":"TWR"},
+{"type":"APP","freq":124.9,"desc":"SPOKANE APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":46.90732956,"lon":-114.07659149,"rng_nm":25,"alt_fmsl":3197,"hdg":130.56,"id":"IMSO","rwy":"11","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":46.92391205,"lon":-114.10249329,"rng_nm":20,"alt_fmsl":3191,"id":"IMSO","rwy":"11","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":46.97913100,"lon":-114.19783100,"rng_nm":0,"alt_fmsl":3197,"id":"----","rwy":"11","desc":"OM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":153.1,"dist_nm":0.5,"freq":112.8,"lat":46.90797222,"lon":-114.08363889,"rng_nm":40,"alt_fmsl":3202,"id":"MSO","desc":"MISSOULA VOR-DME"},
+{"type":"NDB","hdg_t":310.4,"dist_nm":16.5,"freq":521,"lat":47.09436111,"lon":-114.39677778,"rng_nm":50,"alt_fmsl":0,"id":"INE","desc":"KONNA NDB"},
+{"type":"NDB","hdg_t":193.5,"dist_nm":17.2,"freq":275,"lat":46.63609700,"lon":-114.18789400,"rng_nm":50,"alt_fmsl":2936,"id":"PLS","desc":"POLSON NDB"},
+{"type":"VOR","hdg_t":113.9,"dist_nm":40.8,"freq":117.1,"lat":46.63609700,"lon":-113.18659400,"rng_nm":40,"alt_fmsl":4150,"id":"DRU","desc":"DRUMMOND VOR"},
+{"type":"VOR","hdg_t":297.5,"dist_nm":71.4,"freq":117.8,"lat":47.45691667,"lon":-115.64605556,"rng_nm":130,"alt_fmsl":6100,"id":"MLP","desc":"MULLAN PASS VOR-DME"},
+{"type":"NDB","hdg_t":348.2,"dist_nm":73.1,"freq":515,"lat":48.10827778,"lon":-114.46125000,"rng_nm":50,"alt_fmsl":0,"id":"SAK","desc":"SMITH LAKE NDB"},
+{"type":"VOR","hdg_t":133.1,"dist_nm":76.9,"freq":111.6,"lat":46.03200000,"lon":-112.74752778,"rng_nm":40,"alt_fmsl":5780,"id":"CPN","desc":"COPPERTOWN VOR-DME"},
+{"type":"VOR","hdg_t":357.4,"dist_nm":77.9,"freq":113.2,"lat":48.21411111,"lon":-114.17588889,"rng_nm":130,"alt_fmsl":2984,"id":"FCA","desc":"KALISPELL VOR-DME"},
+{"type":"VOR","hdg_t":101.1,"dist_nm":90,"freq":117.7,"lat":46.60683333,"lon":-111.95347222,"rng_nm":130,"alt_fmsl":3823,"id":"HLN","desc":"HELENA VORTAC"},
+{"type":"NDB","hdg_t":101,"dist_nm":90.7,"freq":335,"lat":46.60666667,"lon":-111.93716667,"rng_nm":50,"alt_fmsl":0,"id":"CVP","desc":"CAPITOL NDB"},
+{"type":"NDB","hdg_t":54.4,"dist_nm":95.2,"freq":269,"lat":47.82247222,"lon":-112.17102778,"rng_nm":50,"alt_fmsl":0,"id":"CII","desc":"CHOTEAU NDB"},
+{"type":"NDB","hdg_t":101.3,"dist_nm":98.4,"freq":386,"lat":46.56888889,"lon":-111.75805556,"rng_nm":50,"alt_fmsl":0,"id":"HAU","desc":"HAUSER NDB"}
+]
+}

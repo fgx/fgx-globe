@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KRKS","name":"Rock Springs Sweetwater Co","lat":41.594067055,"lon":-109.065540085,"rwys":2,"ils":1,"index":1155299,"path":"w110n40/w110n41"
+,"runways":[
+{"len_m":3048,"wid_m":46.02,"hdg":103,"surf":"Asphalt","rwy1":"09","lat1":41.59768222,"lon1":-109.08222701,"rwy2":"27","lat2":41.59139133,"lon2":-109.04664247},
+{"len_m":1594,"wid_m":22.86,"hdg":45,"surf":"Asphalt","rwy1":"03","lat1":41.58854066,"lon1":-109.07343086,"rwy2":"21","lat2":41.59865400,"lon2":-109.05986000}
+]
+,"radios":[
+{"type":"ATIS","freq":118.37,"desc":"ASOS"},
+{"type":"CTAF","freq":122.8,"desc":"CTAF/UNICOM"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":41.59832800,"lon":-109.08595300,"rng_nm":18,"alt_fmsl":6722,"hdg":283.26,"id":"IRKS","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":41.59150000,"lon":-109.05048600,"rng_nm":10,"alt_fmsl":6756,"id":"IRKS","rwy":"27","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":41.58958300,"lon":-109.03633300,"rng_nm":0,"alt_fmsl":6722,"id":"----","rwy":"27","desc":"MM"},
+{"type":"DME","freq":109.3,"lat":41.59767200,"lon":-109.08646700,"rng_nm":18,"alt_fmsl":6737,"id":"IRKS","rwy":"27","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":95.8,"dist_nm":2.2,"freq":116,"lat":41.59022222,"lon":-109.01533333,"rng_nm":130,"alt_fmsl":6785,"id":"OCS","desc":"ROCK SPRINGS VOR-DME"},
+{"type":"VOR","hdg_t":258.5,"dist_nm":62.6,"freq":108.6,"lat":41.37844444,"lon":-110.42408333,"rng_nm":40,"alt_fmsl":7060,"id":"FBR","desc":"FORT BRIDGER VOR-DME"},
+{"type":"VOR","hdg_t":81.2,"dist_nm":67.4,"freq":115,"lat":41.75572222,"lon":-107.58197222,"rng_nm":130,"alt_fmsl":7050,"id":"CKW","desc":"CHEROKEE VOR-DME"},
+{"type":"VOR","hdg_t":322,"dist_nm":75.2,"freq":116.5,"lat":42.57944444,"lon":-110.10922222,"rng_nm":130,"alt_fmsl":6949,"id":"BPI","desc":"BIG PINEY VOR-DME"},
+{"type":"VOR","hdg_t":195,"dist_nm":75.4,"freq":108.2,"lat":40.37902778,"lon":-109.49330556,"rng_nm":40,"alt_fmsl":5344,"id":"VEL","desc":"VERNAL VOR-DME"},
+{"type":"NDB","hdg_t":335.5,"dist_nm":79.1,"freq":392,"lat":42.79275000,"lon":-109.80602778,"rng_nm":50,"alt_fmsl":0,"id":"PNA","desc":"WENZ NDB"},
+{"type":"VOR","hdg_t":80.7,"dist_nm":84.6,"freq":109.4,"lat":41.80480556,"lon":-107.20430556,"rng_nm":25,"alt_fmsl":6751,"id":"RWL","desc":"RAWLINS VOR-DME"},
+{"type":"VOR","hdg_t":258.4,"dist_nm":91.4,"freq":109.6,"lat":41.27250000,"lon":-111.04677778,"rng_nm":25,"alt_fmsl":7145,"id":"EVW","desc":"EVANSTON VOR-DME"},
+{"type":"NDB","hdg_t":21.4,"dist_nm":91.6,"freq":217,"lat":43.01413889,"lon":-108.30519444,"rng_nm":50,"alt_fmsl":0,"id":"RI","desc":"KLINT NDB"},
+{"type":"VOR","hdg_t":16.8,"dist_nm":92.3,"freq":108.8,"lat":43.06575000,"lon":-108.45552778,"rng_nm":40,"alt_fmsl":5450,"id":"RIW","desc":"RIVERTON VOR-DME"},
+{"type":"VOR","hdg_t":209.4,"dist_nm":99.2,"freq":112.7,"lat":40.14908333,"lon":-110.12702778,"rng_nm":130,"alt_fmsl":5401,"id":"MTU","desc":"MYTON VOR-DME"}
+]
+}

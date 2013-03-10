@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DNIL","name":"Ilorin","lat":8.440115,"lon":4.4939685,"rwys":1,"ils":1,"index":3020955,"path":"e000n00/e004n08"
+,"runways":[
+{"len_m":3099,"wid_m":60.05,"hdg":49,"surf":"Asphalt","rwy1":"05","lat1":8.43096900,"lon1":4.48330600,"rwy2":"23","lat2":8.44926100,"lon2":4.50463100}
+]
+,"radios":[
+{"type":"TWR","freq":121.7,"desc":"TWR"},
+{"type":"TWR","freq":121.2,"desc":"TWR"},
+{"type":"APP","freq":121.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":8.45074800,"lon":4.50523200,"rng_nm":18,"alt_fmsl":1102,"hdg":47.64,"id":"IIL","rwy":"05","desc":"ILS-cat-II"},
+{"type":"GS","freq":109.9,"lat":8.43393300,"lon":4.48395100,"rng_nm":10,"alt_fmsl":1161,"id":"IIL","rwy":"05","desc":"GS","gs":3},
+{"type":"IM","freq":0,"lat":8.42532000,"lon":4.47559800,"rng_nm":0,"alt_fmsl":1102,"id":"----","rwy":"05","desc":"IM"},
+{"type":"DME","freq":112.3,"lat":8.43393300,"lon":4.48395100,"rng_nm":18,"alt_fmsl":1126,"id":"IIL","rwy":"05","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":231,"dist_nm":1.4,"freq":371,"lat":8.42532000,"lon":4.47559800,"rng_nm":25,"alt_fmsl":0,"id":"IL","desc":"ILORIN NDB"},
+{"type":"VOR","hdg_t":230.5,"dist_nm":4.8,"freq":112.3,"lat":8.38836700,"lon":4.43087800,"rng_nm":130,"alt_fmsl":1266,"id":"IL","desc":"ILORIN VOR-DME"},
+{"type":"NDB","hdg_t":209.8,"dist_nm":69.2,"freq":400,"lat":7.43373300,"lon":3.91588300,"rng_nm":25,"alt_fmsl":0,"id":"IB","desc":"IBADAN NDB"},
+{"type":"NDB","hdg_t":205.2,"dist_nm":70.1,"freq":310,"lat":7.37801700,"lon":3.99149400,"rng_nm":25,"alt_fmsl":0,"id":"IN","desc":"IBADAN NDB"},
+{"type":"VOR","hdg_t":205.7,"dist_nm":72.4,"freq":112.1,"lat":7.34743600,"lon":3.96571700,"rng_nm":130,"alt_fmsl":748,"id":"IBA","desc":"IBADAN VOR-DME"},
+{"type":"VOR","hdg_t":316.8,"dist_nm":85.2,"freq":114.3,"lat":9.48020800,"lon":3.51059400,"rng_nm":130,"alt_fmsl":1149,"id":"GW","desc":"GWASERO VOR-DME"},
+{"type":"NDB","hdg_t":146.6,"dist_nm":86.6,"freq":276,"lat":7.22672200,"lon":5.29322200,"rng_nm":50,"alt_fmsl":0,"id":"AK","desc":"AKURE NDB"},
+{"type":"VOR","hdg_t":66.2,"dist_nm":98.7,"freq":112.7,"lat":9.10216700,"lon":6.01751100,"rng_nm":40,"alt_fmsl":450,"id":"BDA","desc":"BIDA VOR-DME"},
+{"type":"NDB","hdg_t":170,"dist_nm":117.5,"freq":345,"lat":6.50048900,"lon":4.83256700,"rng_nm":25,"alt_fmsl":0,"id":"OK","desc":"OKITIPUPA NDB"},
+{"type":"VOR","hdg_t":296.6,"dist_nm":124.4,"freq":112.8,"lat":9.37011100,"lon":2.61908300,"rng_nm":40,"alt_fmsl":0,"id":"PA","desc":"PARAKOU VOR"}
+]
+}

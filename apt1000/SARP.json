@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SARP","name":"Posadas","lat":-27.3858375,"lon":-55.9707265,"rwys":1,"ils":1,"index":2035616,"path":"w060s30/w056s28"
+,"runways":[
+{"len_m":2257,"wid_m":29.87,"hdg":359,"surf":"Asphalt","rwy1":"01","lat1":-27.39602200,"lon1":-55.97059200,"rwy2":"19","lat2":-27.37565300,"lon2":-55.97086100}
+]
+,"radios":[
+{"type":"TWR","freq":120.1,"desc":"TWR/APP"},
+{"type":"TWR","freq":118.5,"desc":"TWR/APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":-27.39730600,"lon":-55.97033300,"rng_nm":18,"alt_fmsl":430,"hdg":178.76,"id":"PO","rwy":"19","desc":"ILS-cat-II"},
+{"type":"GS","freq":109.9,"lat":-27.37841700,"lon":-55.96941700,"rng_nm":10,"alt_fmsl":430,"id":"PO","rwy":"19","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":-27.37841700,"lon":-55.96941700,"rng_nm":18,"alt_fmsl":429,"id":"PO","rwy":"19","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":78.5,"dist_nm":0,"freq":114.9,"lat":-27.38555600,"lon":-55.96916700,"rng_nm":185,"alt_fmsl":429,"id":"POS","desc":"POSADAS VOR-DME"},
+{"type":"NDB","hdg_t":178.6,"dist_nm":1.2,"freq":307,"lat":-27.40625000,"lon":-55.97019400,"rng_nm":25,"alt_fmsl":0,"id":"P","desc":"POSADAS NDB"},
+{"type":"NDB","hdg_t":119.6,"dist_nm":109.6,"freq":280,"lat":-28.27931700,"lon":-54.17193900,"rng_nm":50,"alt_fmsl":1056,"id":"SAN","desc":"SANTO ANGELO NDB"},
+{"type":"VOR","hdg_t":39.2,"dist_nm":127,"freq":114.1,"lat":-25.73449700,"lon":-54.48571100,"rng_nm":176,"alt_fmsl":935,"id":"IGU","desc":"CATARATAS DEL IGUAZU VOR-DME"},
+{"type":"NDB","hdg_t":40.2,"dist_nm":127.7,"freq":310,"lat":-25.74805600,"lon":-54.44766700,"rng_nm":25,"alt_fmsl":916,"id":"Z","desc":"CATARATAS DEL IGAUZU NDB"},
+{"type":"NDB","hdg_t":27.7,"dist_nm":128.6,"freq":200,"lat":-25.47916700,"lon":-54.86583300,"rng_nm":200,"alt_fmsl":0,"id":"CDE","desc":"CIUDAD DEL ESTE NDB"},
+{"type":"VOR","hdg_t":27.9,"dist_nm":130,"freq":116.3,"lat":-25.46000000,"lon":-54.85000000,"rng_nm":130,"alt_fmsl":888,"id":"VES","desc":"CIUDAD DEL ESTE VOR-DME"},
+{"type":"NDB","hdg_t":36.5,"dist_nm":133.6,"freq":395,"lat":-25.58416700,"lon":-54.50250000,"rng_nm":25,"alt_fmsl":0,"id":"QQ","desc":"IGUACU NDB"},
+{"type":"VOR","hdg_t":36.5,"dist_nm":133.6,"freq":112.1,"lat":-25.58333300,"lon":-54.50350000,"rng_nm":200,"alt_fmsl":787,"id":"FOZ","desc":"FOZ VOR-DME"},
+{"type":"NDB","hdg_t":34.5,"dist_nm":134.1,"freq":410,"lat":-25.53116700,"lon":-54.57050000,"rng_nm":150,"alt_fmsl":0,"id":"FOZ","desc":"FOZ NDB"}
+]
+}

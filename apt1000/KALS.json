@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KALS","name":"San Luis Valley Rgnl Bergman Fld","lat":37.43479375,"lon":-105.86550475,"rwys":2,"ils":1,"index":1220568,"path":"w110n30/w106n37"
+,"runways":[
+{"len_m":2596,"wid_m":30.48,"hdg":31,"surf":"Asphalt","rwy1":"02","lat1":37.42518300,"lon1":-105.87560800,"rwy2":"20","lat2":37.44513100,"lon2":-105.86027800},
+{"len_m":975,"wid_m":30.48,"hdg":76,"surf":"Turf/grass","rwy1":"06","lat1":37.43339200,"lon1":-105.86841900,"rwy2":"24","lat2":37.43546900,"lon2":-105.85771400}
+]
+,"radios":[
+{"type":"ATIS","freq":135.17,"desc":"ASOS"},
+{"type":"CTAF","freq":122.8,"desc":"CTAF/UNICOM"}
+]
+,"ils":[
+{"type":"ILS","freq":111.9,"lat":37.44749700,"lon":-105.85827500,"rng_nm":18,"alt_fmsl":7539,"hdg":31.67,"id":"IVQR","rwy":"02","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.9,"lat":37.42680300,"lon":-105.87267800,"rng_nm":10,"alt_fmsl":7538,"id":"IVQR","rwy":"02","desc":"GS","gs":3.04},
+{"type":"OM","freq":0,"lat":37.35442500,"lon":-105.93101100,"rng_nm":0,"alt_fmsl":7539,"id":"----","rwy":"02","desc":"OM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":155,"dist_nm":5.6,"freq":113.9,"lat":37.34916667,"lon":-105.81552778,"rng_nm":130,"alt_fmsl":7535,"id":"ALS","desc":"ALAMOSA VORTAC"},
+{"type":"NDB","hdg_t":213,"dist_nm":5.7,"freq":400,"lat":37.35442500,"lon":-105.93101100,"rng_nm":25,"alt_fmsl":0,"id":"VQ","desc":"BESAQ NDB"},
+{"type":"VOR","hdg_t":182.2,"dist_nm":49.5,"freq":117.6,"lat":36.60877778,"lon":-105.90633333,"rng_nm":40,"alt_fmsl":7860,"id":"TAS","desc":"TAOS VORTAC"},
+{"type":"NDB","hdg_t":95.5,"dist_nm":73.6,"freq":329,"lat":37.30611111,"lon":-104.33336111,"rng_nm":50,"alt_fmsl":0,"id":"TAD","desc":"TRINIDAD NDB"},
+{"type":"VOR","hdg_t":139.4,"dist_nm":74,"freq":116.4,"lat":36.49138889,"lon":-104.87200000,"rng_nm":130,"alt_fmsl":6550,"id":"CIM","desc":"CIMARRON VORTAC"},
+{"type":"NDB","hdg_t":48.3,"dist_nm":77,"freq":302,"lat":38.28397222,"lon":-104.64708333,"rng_nm":50,"alt_fmsl":0,"id":"PU","desc":"MERTZ NDB"},
+{"type":"VOR","hdg_t":317.9,"dist_nm":82.6,"freq":114.9,"lat":38.45216667,"lon":-107.03980556,"rng_nm":130,"alt_fmsl":8730,"id":"HBU","desc":"BLUE MESA VOR-DME"},
+{"type":"VOR","hdg_t":52.5,"dist_nm":85.4,"freq":116.7,"lat":38.29425000,"lon":-104.42944444,"rng_nm":130,"alt_fmsl":4759,"id":"PUB","desc":"PUEBLO VORTAC"},
+{"type":"NDB","hdg_t":53.9,"dist_nm":88.2,"freq":373,"lat":38.29086111,"lon":-104.35502778,"rng_nm":50,"alt_fmsl":0,"id":"TF","desc":"ARUBA NDB"},
+{"type":"NDB","hdg_t":34.9,"dist_nm":91.2,"freq":335,"lat":38.67833333,"lon":-104.75330556,"rng_nm":50,"alt_fmsl":0,"id":"IHS","desc":"IRONHORSE NDB"},
+{"type":"VOR","hdg_t":34.7,"dist_nm":91.2,"freq":108.8,"lat":38.68069444,"lon":-104.75688889,"rng_nm":25,"alt_fmsl":5829,"id":"FCS","desc":"BUTTS VOR-DME"},
+{"type":"VOR","hdg_t":259.9,"dist_nm":91.7,"freq":108.2,"lat":37.15325000,"lon":-107.74961111,"rng_nm":40,"alt_fmsl":6660,"id":"DRO","desc":"DURANGO VOR-DME"},
+{"type":"NDB","hdg_t":35.4,"dist_nm":93,"freq":407,"lat":38.69430556,"lon":-104.71633333,"rng_nm":50,"alt_fmsl":0,"id":"CO","desc":"PETEY NDB"}
+]
+}

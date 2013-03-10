@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PAYA","name":"Yakutat","lat":59.503248,"lon":-139.66125,"rwys":2,"ils":1,"index":664929,"path":"w140n50/w140n59"
+,"runways":[
+{"len_m":2360,"wid_m":45.72,"hdg":135,"surf":"Asphalt","rwy1":"11","lat1":59.51145300,"lon1":-139.66468900,"rwy2":"29","lat2":59.49646400,"lon2":-139.63521900},
+{"len_m":1973,"wid_m":45.72,"hdg":44,"surf":"Concrete","rwy1":"02","lat1":59.49627200,"lon1":-139.68486400,"rwy2":"20","lat2":59.50880300,"lon2":-139.66022800}
+]
+,"radios":[
+{"type":"ATIS","freq":135.75,"desc":"ASOS"},
+{"type":"CTAF","freq":123.6,"desc":"CTAF"}
+]
+,"ils":[
+{"type":"ILS","freq":111.1,"lat":59.49452500,"lon":-139.63141400,"rng_nm":18,"alt_fmsl":24,"hdg":135.08,"id":"IYAK","rwy":"11","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.1,"lat":59.50971400,"lon":-139.66075600,"rng_nm":10,"alt_fmsl":31,"id":"IYAK","rwy":"11","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":59.55499200,"lon":-139.74966100,"rng_nm":0,"alt_fmsl":24,"id":"----","rwy":"11","desc":"OM"},
+{"type":"MM","freq":0,"lat":59.51725000,"lon":-139.67609700,"rng_nm":0,"alt_fmsl":24,"id":"----","rwy":"11","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":41.2,"dist_nm":0.6,"freq":113.3,"lat":59.51083333,"lon":-139.64813889,"rng_nm":130,"alt_fmsl":35,"id":"YAK","desc":"YAKUTAT VOR-DME"},
+{"type":"NDB","hdg_t":319.9,"dist_nm":3.1,"freq":385,"lat":59.54363889,"lon":-139.72816667,"rng_nm":50,"alt_fmsl":0,"id":"OCC","desc":"OCEAN CAPE NDB"},
+{"type":"NDB","hdg_t":293.4,"dist_nm":92.6,"freq":209,"lat":60.08616667,"lon":-142.48875000,"rng_nm":50,"alt_fmsl":0,"id":"CYT","desc":"YAKATAGA NDB"},
+{"type":"NDB","hdg_t":10,"dist_nm":112.3,"freq":341,"lat":61.34027778,"lon":-138.98333333,"rng_nm":50,"alt_fmsl":0,"id":"DB","desc":"BURWASH NDB"},
+{"type":"NDB","hdg_t":95.8,"dist_nm":131,"freq":245,"lat":59.21208333,"lon":-135.43086111,"rng_nm":50,"alt_fmsl":0,"id":"HNS","desc":"HAINES NDB"},
+{"type":"NDB","hdg_t":116.1,"dist_nm":139,"freq":219,"lat":58.42163889,"lon":-135.70611111,"rng_nm":50,"alt_fmsl":0,"id":"GAV","desc":"GUSTAVUS NDB"},
+{"type":"VOR","hdg_t":61.7,"dist_nm":151.6,"freq":116.6,"lat":60.61888889,"lon":-135.13888889,"rng_nm":130,"alt_fmsl":5285,"id":"YXY","desc":"WHITEHORSE VOR-DME"},
+{"type":"NDB","hdg_t":66.6,"dist_nm":155.2,"freq":329,"lat":60.43944444,"lon":-134.86138889,"rng_nm":50,"alt_fmsl":0,"id":"PJ","desc":"ROBINSON NDB"},
+{"type":"NDB","hdg_t":62,"dist_nm":155.5,"freq":353,"lat":60.63638889,"lon":-135.00888889,"rng_nm":50,"alt_fmsl":0,"id":"ZXY","desc":"KLONDIKE NDB"},
+{"type":"VOR","hdg_t":118.2,"dist_nm":158.6,"freq":114,"lat":58.17766667,"lon":-135.25886111,"rng_nm":130,"alt_fmsl":40,"id":"SSR","desc":"SISTERS ISLAND VORTAC"}
+]
+}

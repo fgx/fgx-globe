@@ -1,0 +1,39 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KDLF","name":"Laughlin Afb","lat":29.3595213333333,"lon":-100.778257666667,"rwys":3,"ils":2,"index":1301968,"path":"w110n20/w101n29"
+,"runways":[
+{"len_m":2698,"wid_m":45.72,"hdg":135,"surf":"Asphalt","rwy1":"13C","lat1":29.36745300,"lon1":-100.78790800,"rwy2":"31C","lat2":29.35010800,"lon2":-100.76841100},
+{"len_m":2534,"wid_m":45.72,"hdg":135,"surf":"Asphalt","rwy1":"13L","lat1":29.36822200,"lon1":-100.78436900,"rwy2":"31R","lat2":29.35192800,"lon2":-100.76605300},
+{"len_m":1900,"wid_m":45.72,"hdg":135,"surf":"Asphalt","rwy1":"13R","lat1":29.36581700,"lon1":-100.78826900,"rwy2":"31L","lat2":29.35360000,"lon2":-100.77453600}
+]
+,"radios":[
+{"type":"CLD","freq":120.5,"desc":"CLNC DEL"},
+{"type":"TWR","freq":125.2,"desc":"TWR"},
+{"type":"APP","freq":119.6,"desc":"DEL RIO APP"},
+{"type":"DEP","freq":119.6,"desc":"DEL RIO DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":29.34778900,"lon":-100.76580300,"rng_nm":18,"alt_fmsl":107,"hdg":135.59,"id":"IDLF","rwy":"13C","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.9,"lat":29.36947800,"lon":-100.79017800,"rng_nm":18,"alt_fmsl":108,"hdg":315.59,"id":"IILH","rwy":"31C","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":29.36676400,"lon":-100.78481400,"rng_nm":10,"alt_fmsl":108,"id":"IDLF","rwy":"13C","desc":"GS","gs":3},
+{"type":"GS","freq":108.9,"lat":29.35295800,"lon":-100.76940600,"rng_nm":10,"alt_fmsl":107,"id":"IILH","rwy":"31C","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":29.37436000,"lon":-100.79565000,"rng_nm":0,"alt_fmsl":107,"id":"----","rwy":"13C","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":76.5,"dist_nm":0.3,"freq":114.4,"lat":29.36088889,"lon":-100.77172222,"rng_nm":130,"alt_fmsl":1071,"id":"DLF","desc":"LAUGHLIN VORTAC"},
+{"type":"NDB","hdg_t":138,"dist_nm":12.1,"freq":269,"lat":29.20858333,"lon":-100.62397222,"rng_nm":50,"alt_fmsl":0,"id":"BRX","desc":"LA FONDA RANCH NDB"},
+{"type":"NDB","hdg_t":124.7,"dist_nm":22.4,"freq":356,"lat":29.14525000,"lon":-100.42758333,"rng_nm":50,"alt_fmsl":0,"id":"PFO","desc":"SPOFFORD NDB"},
+{"type":"VOR","hdg_t":163.7,"dist_nm":45.3,"freq":113.6,"lat":28.63183333,"lon":-100.53838889,"rng_nm":130,"alt_fmsl":901,"id":"PNG","desc":"PIEDRAS VOR-DME"},
+{"type":"VOR","hdg_t":32.4,"dist_nm":46.5,"freq":111.2,"lat":30.01461111,"lon":-100.29983333,"rng_nm":40,"alt_fmsl":2310,"id":"RSG","desc":"ROCKSPRINGS VORTAC"},
+{"type":"NDB","hdg_t":123.3,"dist_nm":48.7,"freq":385,"lat":28.90997222,"lon":-100.00561111,"rng_nm":50,"alt_fmsl":0,"id":"CPZ","desc":"CHAPARROSA RANCH NDB"},
+{"type":"NDB","hdg_t":117.6,"dist_nm":54.9,"freq":223,"lat":28.92997222,"lon":-99.85477778,"rng_nm":50,"alt_fmsl":0,"id":"LKX","desc":"LA PRYOR NDB"},
+{"type":"NDB","hdg_t":100.8,"dist_nm":56.2,"freq":281,"lat":29.17772222,"lon":-99.72569444,"rng_nm":50,"alt_fmsl":0,"id":"UVA","desc":"UVALDE NDB"},
+{"type":"NDB","hdg_t":134.7,"dist_nm":70.8,"freq":343,"lat":28.52244444,"lon":-99.82727778,"rng_nm":50,"alt_fmsl":0,"id":"DMD","desc":"DIMMIT CO NDB"},
+{"type":"NDB","hdg_t":5.3,"dist_nm":73.4,"freq":371,"lat":30.58180556,"lon":-100.64694444,"rng_nm":50,"alt_fmsl":0,"id":"SOA","desc":"SONORA NDB"},
+{"type":"VOR","hdg_t":90,"dist_nm":83.9,"freq":109.4,"lat":29.34911111,"lon":-99.17788889,"rng_nm":40,"alt_fmsl":947,"id":"HDO","desc":"HONDO VOR-DME"},
+{"type":"NDB","hdg_t":89,"dist_nm":84.2,"freq":329,"lat":29.37341667,"lon":-99.17202778,"rng_nm":50,"alt_fmsl":0,"id":"HMA","desc":"HONDO NDB"},
+{"type":"VOR","hdg_t":67.2,"dist_nm":88.4,"freq":117.5,"lat":29.92233333,"lon":-99.21450000,"rng_nm":130,"alt_fmsl":2080,"id":"CSI","desc":"CENTER POINT VORTAC"},
+{"type":"VOR","hdg_t":33.7,"dist_nm":89.4,"freq":116,"lat":30.59802778,"lon":-99.81752778,"rng_nm":130,"alt_fmsl":2280,"id":"JCT","desc":"JUNCTION VORTAC"},
+{"type":"NDB","hdg_t":97.3,"dist_nm":97.4,"freq":359,"lat":29.13833333,"lon":-98.93925000,"rng_nm":50,"alt_fmsl":0,"id":"HHH","desc":"DEVINE NDB"},
+{"type":"NDB","hdg_t":69.7,"dist_nm":98.2,"freq":263,"lat":29.91500000,"lon":-99.00941667,"rng_nm":50,"alt_fmsl":0,"id":"ER","desc":"SHEIN NDB"}
+]
+}

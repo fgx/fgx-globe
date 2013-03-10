@@ -1,0 +1,39 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ENAT","name":"Alta","lat":69.977351,"lon":23.365433,"rwys":1,"ils":1,"index":3336184,"path":"e020n60/e023n69"
+,"runways":[
+{"len_m":2184,"wid_m":39.93,"hdg":121,"surf":"Asphalt","rwy1":"11","lat1":69.98241900,"lon1":23.34099400,"rwy2":"29","lat2":69.97228300,"lon2":23.38987200}
+]
+,"radios":[
+{"type":"ATIS","freq":118.17,"desc":"ATIS"},
+{"type":"TWR","freq":120.4,"desc":"TWR"},
+{"type":"TWR","freq":118.1,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":108.9,"lat":69.97190300,"lon":23.39170600,"rng_nm":18,"alt_fmsl":9,"hdg":121.22,"id":"AT","rwy":"11","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.9,"lat":69.98110000,"lon":23.35243100,"rng_nm":10,"alt_fmsl":10,"id":"AT","rwy":"11","desc":"GS","gs":3.7},
+{"type":"OM","freq":0,"lat":70.05929700,"lon":22.99716900,"rng_nm":0,"alt_fmsl":9,"id":"----","rwy":"11","desc":"OM"},
+{"type":"MM","freq":0,"lat":69.99228900,"lon":23.29316100,"rng_nm":0,"alt_fmsl":9,"id":"----","rwy":"11","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":83.9,"dist_nm":0.1,"freq":117.4,"lat":69.97758100,"lon":23.37181700,"rng_nm":130,"alt_fmsl":32,"id":"ATA","desc":"ALTA VOR-DME"},
+{"type":"NDB","hdg_t":301.1,"dist_nm":1.7,"freq":358,"lat":69.99228900,"lon":23.29316100,"rng_nm":25,"alt_fmsl":44,"id":"ALA","desc":"ALTA NDB"},
+{"type":"NDB","hdg_t":303.2,"dist_nm":9,"freq":330,"lat":70.05929700,"lon":22.99716900,"rng_nm":25,"alt_fmsl":30,"id":"TV","desc":"TALVIK NDB"},
+{"type":"SDME","hdg_t":80.1,"dist_nm":33.4,"freq":111,"lat":70.06544400,"lon":24.96988100,"rng_nm":130,"alt_fmsl":42,"id":"BNK","desc":"BANAK TACAN"},
+{"type":"NDB","hdg_t":79.2,"dist_nm":33.7,"freq":345,"lat":70.07433600,"lon":24.97949200,"rng_nm":50,"alt_fmsl":42,"id":"BNR","desc":"BANAK NDB"},
+{"type":"VOR","hdg_t":69,"dist_nm":34.6,"freq":114.4,"lat":70.17626400,"lon":24.94840300,"rng_nm":130,"alt_fmsl":103,"id":"BNA","desc":"BANAK VOR-DME"},
+{"type":"NDB","hdg_t":321.4,"dist_nm":39.8,"freq":386,"lat":70.48978900,"lon":22.13245300,"rng_nm":25,"alt_fmsl":0,"id":"HK","desc":"HASVIK NDB"},
+{"type":"VOR","hdg_t":8.4,"dist_nm":44.2,"freq":112.4,"lat":70.70424400,"lon":23.69074400,"rng_nm":25,"alt_fmsl":1254,"id":"HMF","desc":"HAMMERFEST VOR-DME"},
+{"type":"NDB","hdg_t":11.7,"dist_nm":45.7,"freq":318,"lat":70.72038900,"lon":23.83228300,"rng_nm":50,"alt_fmsl":0,"id":"FOR","desc":"FORSOL NDB"},
+{"type":"NDB","hdg_t":267.5,"dist_nm":48.9,"freq":378,"lat":69.92638300,"lon":21.00302800,"rng_nm":25,"alt_fmsl":0,"id":"HTK","desc":"HESTVIK NDB"},
+{"type":"SDME","hdg_t":258.4,"dist_nm":51.2,"freq":109.3,"lat":69.79118347,"lon":20.95335007,"rng_nm":18,"alt_fmsl":10,"id":"SR","desc":"ENSR DME"},
+{"type":"SDME","hdg_t":187.2,"dist_nm":58.1,"freq":109.6,"lat":69.01885300,"lon":23.02297200,"rng_nm":130,"alt_fmsl":1262,"id":"KNO","desc":"KAUTOKEINO TACAN"},
+{"type":"NDB","hdg_t":39.2,"dist_nm":81.5,"freq":308,"lat":71.00741400,"lon":25.99594700,"rng_nm":50,"alt_fmsl":0,"id":"HLN","desc":"HELNES NDB"},
+{"type":"NDB","hdg_t":265.7,"dist_nm":90.9,"freq":362,"lat":69.81156700,"lon":19.00308300,"rng_nm":25,"alt_fmsl":0,"id":"KV","desc":"KVALSUND NDB"},
+{"type":"VOR","hdg_t":261.7,"dist_nm":92.2,"freq":113.8,"lat":69.70278900,"lon":18.99675300,"rng_nm":130,"alt_fmsl":545,"id":"TRO","desc":"TROMSO VOR-DME"},
+{"type":"NDB","hdg_t":262.4,"dist_nm":93.1,"freq":268,"lat":69.71886700,"lon":18.94256900,"rng_nm":25,"alt_fmsl":0,"id":"TM","desc":"LANES NDB"},
+{"type":"NDB","hdg_t":177.6,"dist_nm":93.7,"freq":375,"lat":68.42232200,"lon":23.53668900,"rng_nm":30,"alt_fmsl":0,"id":"HET","desc":"HETTA NDB"},
+{"type":"VOR","hdg_t":178.7,"dist_nm":96.1,"freq":117.1,"lat":68.38126700,"lon":23.46175800,"rng_nm":130,"alt_fmsl":1127,"id":"ENO","desc":"ENODAK VOR-DME"},
+{"type":"VOR","hdg_t":78.6,"dist_nm":97.7,"freq":113.6,"lat":70.23425600,"lon":28.07019400,"rng_nm":130,"alt_fmsl":941,"id":"SDA","desc":"SEIDA VOR-DME"},
+{"type":"NDB","hdg_t":255.4,"dist_nm":98.9,"freq":283,"lat":69.50520600,"lon":18.82169700,"rng_nm":25,"alt_fmsl":0,"id":"KBV","desc":"KOBBE NDB"}
+]
+}

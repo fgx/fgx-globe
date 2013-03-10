@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UMGG","name":"Gomel","lat":52.5270255,"lon":31.0164705,"rwys":1,"ils":2,"index":3466144,"path":"e030n50/e031n52"
+,"runways":[
+{"len_m":2568,"wid_m":42.98,"hdg":110,"surf":"Asphalt","rwy1":"11","lat1":52.53112200,"lon1":30.99877800,"rwy2":"29","lat2":52.52292900,"lon2":31.03416300}
+]
+,"radios":[
+{"type":"TWR","freq":118.1,"desc":"GOMEL TOWER"},
+{"type":"APP","freq":126.1,"desc":"GOMEL APPROACH"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":52.52099900,"lon":31.04250100,"rng_nm":18,"alt_fmsl":471,"hdg":110.82,"id":"IGM","rwy":"11","desc":"ILS-cat-I"},
+{"type":"ILS","freq":108.7,"lat":52.53267700,"lon":30.99205700,"rng_nm":18,"alt_fmsl":471,"hdg":290.82,"id":"IMV","rwy":"29","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":52.53159200,"lon":31.00410100,"rng_nm":10,"alt_fmsl":471,"id":"IGM","rwy":"11","desc":"GS","gs":2.7},
+{"type":"GS","freq":108.7,"lat":52.52531100,"lon":31.03087500,"rng_nm":10,"alt_fmsl":471,"id":"IMV","rwy":"29","desc":"GS","gs":2.7},
+{"type":"OM","freq":0,"lat":52.54329900,"lon":30.94525300,"rng_nm":0,"alt_fmsl":471,"id":"----","rwy":"11","desc":"OM"},
+{"type":"OM","freq":0,"lat":52.51240500,"lon":31.07972400,"rng_nm":0,"alt_fmsl":471,"id":"----","rwy":"29","desc":"OM"},
+{"type":"MM","freq":0,"lat":52.53456800,"lon":30.98413600,"rng_nm":0,"alt_fmsl":471,"id":"----","rwy":"11","desc":"MM"},
+{"type":"MM","freq":0,"lat":52.51925000,"lon":31.05013700,"rng_nm":0,"alt_fmsl":471,"id":"----","rwy":"29","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":110.7,"dist_nm":1.3,"freq":113.1,"lat":52.51925000,"lon":31.05013700,"rng_nm":130,"alt_fmsl":482,"id":"GOL","desc":"GOMEL VOR-DME"},
+{"type":"NDB","hdg_t":110.7,"dist_nm":2.4,"freq":247,"lat":52.51240500,"lon":31.07972400,"rng_nm":80,"alt_fmsl":0,"id":"MV","desc":"GOMEL NDB"},
+{"type":"NDB","hdg_t":290.5,"dist_nm":2.7,"freq":247,"lat":52.54329900,"lon":30.94525300,"rng_nm":80,"alt_fmsl":0,"id":"GM","desc":"GOMEL NDB"},
+{"type":"NDB","hdg_t":109,"dist_nm":59.6,"freq":435,"lat":52.19316300,"lon":32.54484400,"rng_nm":75,"alt_fmsl":0,"id":"SM","desc":"SEMENIVKA NDB"},
+{"type":"NDB","hdg_t":339.8,"dist_nm":89.7,"freq":485,"lat":53.92666700,"lon":30.14500000,"rng_nm":80,"alt_fmsl":0,"id":"CO","desc":"MOGILEV NDB"},
+{"type":"NDB","hdg_t":338.6,"dist_nm":94.4,"freq":485,"lat":53.98666700,"lon":30.04500000,"rng_nm":80,"alt_fmsl":0,"id":"UF","desc":"MOGILEV NDB"},
+{"type":"NDB","hdg_t":180.9,"dist_nm":94.9,"freq":490,"lat":50.94645200,"lon":30.97654200,"rng_nm":75,"alt_fmsl":0,"id":"KO","desc":"KOSHANY NDB"},
+{"type":"NDB","hdg_t":182.4,"dist_nm":114.1,"freq":1290,"lat":50.62811200,"lon":30.88988700,"rng_nm":75,"alt_fmsl":0,"id":"BO","desc":"BOHDANIVKA NDB"},
+{"type":"NDB","hdg_t":196.3,"dist_nm":117.2,"freq":534,"lat":50.65032400,"lon":30.15404500,"rng_nm":25,"alt_fmsl":0,"id":"LC","desc":"ANTONOV NDB"},
+{"type":"NDB","hdg_t":195.7,"dist_nm":118.5,"freq":257,"lat":50.62560100,"lon":30.17293500,"rng_nm":50,"alt_fmsl":0,"id":"C","desc":"ANTONOV NDB"}
+]
+}

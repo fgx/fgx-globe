@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"FMMT","name":"Toamasina","lat":-18.1095165,"lon":49.392536,"rwys":1,"ils":1,"index":3756539,"path":"e040s20/e049s19"
+,"runways":[
+{"len_m":2205,"wid_m":39.93,"hdg":353,"surf":"Asphalt","rwy1":"01","lat1":-18.11942200,"lon1":49.39365000,"rwy2":"19","lat2":-18.09961100,"lon2":49.39142200}
+]
+,"radios":[
+{"type":"TWR","freq":118.3,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-18.12205600,"lon":49.39400000,"rng_nm":18,"alt_fmsl":22,"hdg":173.77,"id":"TO","rwy":"19","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.3,"lat":-18.10219400,"lon":49.39277800,"rng_nm":10,"alt_fmsl":22,"id":"TO","rwy":"19","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-18.04069400,"lon":49.38497200,"rng_nm":0,"alt_fmsl":22,"id":"----","rwy":"19","desc":"OM"},
+{"type":"MM","freq":0,"lat":-18.09138900,"lon":49.39052800,"rng_nm":0,"alt_fmsl":22,"id":"----","rwy":"19","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":152.5,"dist_nm":0.5,"freq":358,"lat":-18.11802800,"lon":49.39716700,"rng_nm":50,"alt_fmsl":0,"id":"VSM","desc":"TOAMASINA NDB"},
+{"type":"VOR","hdg_t":173.6,"dist_nm":0.8,"freq":113.1,"lat":-18.12425000,"lon":49.39425000,"rng_nm":130,"alt_fmsl":22,"id":"MT","desc":"TOAMASINA VOR"},
+{"type":"NDB","hdg_t":353.9,"dist_nm":1,"freq":331,"lat":-18.09138900,"lon":49.39052800,"rng_nm":25,"alt_fmsl":0,"id":"MV","desc":"TOAMASINA NDB"},
+{"type":"NDB","hdg_t":353.9,"dist_nm":4.1,"freq":394,"lat":-18.04069400,"lon":49.38497200,"rng_nm":25,"alt_fmsl":0,"id":"TO","desc":"TOAMASINA NDB"},
+{"type":"NDB","hdg_t":206.2,"dist_nm":46.4,"freq":267,"lat":-18.80589100,"lon":49.03179300,"rng_nm":50,"alt_fmsl":0,"id":"MMY","desc":"MAROMAMY NDB"},
+{"type":"NDB","hdg_t":21.7,"dist_nm":65.6,"freq":290,"lat":-17.08913900,"lon":49.81647200,"rng_nm":25,"alt_fmsl":0,"id":"SM","desc":"SAINTE MARIE NDB"},
+{"type":"NDB","hdg_t":232.6,"dist_nm":83.4,"freq":371,"lat":-18.95342100,"lon":48.22550200,"rng_nm":50,"alt_fmsl":0,"id":"TE","desc":"MORAMANGA NDB"},
+{"type":"NDB","hdg_t":247.2,"dist_nm":110.3,"freq":370,"lat":-18.81563900,"lon":47.60452800,"rng_nm":25,"alt_fmsl":0,"id":"NT","desc":"ANTANANARIVO IVATO NDB"},
+{"type":"VOR","hdg_t":248.4,"dist_nm":114.6,"freq":114.5,"lat":-18.80333300,"lon":47.51866700,"rng_nm":130,"alt_fmsl":4198,"id":"TNV","desc":"IVATO VOR-DME"},
+{"type":"NDB","hdg_t":248.1,"dist_nm":117.7,"freq":276,"lat":-18.83466700,"lon":47.47202800,"rng_nm":50,"alt_fmsl":0,"id":"TAN","desc":"ANTANETIBE NDB"}
+]
+}

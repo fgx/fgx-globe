@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HSSS","name":"Khartoum","lat":15.589499,"lon":32.5531595,"rwys":1,"ils":2,"index":3480164,"path":"e030n10/e032n15"
+,"runways":[
+{"len_m":2978,"wid_m":45.11,"hdg":179,"surf":"Asphalt","rwy1":"18","lat1":15.60295600,"lon1":32.55303300,"rwy2":"36","lat2":15.57604200,"lon2":32.55328600}
+]
+,"radios":[
+{"type":"TWR","freq":119.2,"desc":"TWR"},
+{"type":"APP","freq":118.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":15.57468300,"lon":32.55300800,"rng_nm":18,"alt_fmsl":1265,"hdg":180.05,"id":"KIS","rwy":"18","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.7,"lat":15.60468900,"lon":32.55300800,"rng_nm":18,"alt_fmsl":1265,"hdg":359.46,"id":"KIN","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":15.59971100,"lon":32.55189700,"rng_nm":10,"alt_fmsl":1265,"id":"KIS","rwy":"18","desc":"GS","gs":3},
+{"type":"GS","freq":109.7,"lat":15.57890600,"lon":32.55437800,"rng_nm":10,"alt_fmsl":1265,"id":"KIN","rwy":"36","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":179.4,"dist_nm":1.3,"freq":112.1,"lat":15.56608900,"lon":32.55337500,"rng_nm":50,"alt_fmsl":1280,"id":"KTM","desc":"KHARTOUM VOR-DME"},
+{"type":"VOR","hdg_t":85.5,"dist_nm":30.1,"freq":115.7,"lat":15.62832500,"lon":33.07282500,"rng_nm":130,"alt_fmsl":1465,"id":"SGD","desc":"SHEIK ELGUNIED VOR-DME"},
+{"type":"NDB","hdg_t":176.1,"dist_nm":145,"freq":400,"lat":13.16736900,"lon":32.71737800,"rng_nm":25,"alt_fmsl":0,"id":"KNA","desc":"KENANA NDB"},
+{"type":"NDB","hdg_t":34,"dist_nm":153.5,"freq":273,"lat":17.71387800,"lon":34.05365900,"rng_nm":75,"alt_fmsl":0,"id":"ATB","desc":"ATBARA NDB"},
+{"type":"VOR","hdg_t":172.2,"dist_nm":154.3,"freq":115.4,"lat":13.02869100,"lon":32.90715700,"rng_nm":130,"alt_fmsl":1303,"id":"KNA","desc":"KENANA VOR-DME"},
+{"type":"VOR","hdg_t":346.2,"dist_nm":176,"freq":116,"lat":18.44977200,"lon":31.81865800,"rng_nm":130,"alt_fmsl":881,"id":"MRW","desc":"MEROWE VOR-DME"},
+{"type":"NDB","hdg_t":223.1,"dist_nm":198.2,"freq":279,"lat":13.15672500,"lon":30.23880800,"rng_nm":100,"alt_fmsl":0,"id":"OBD","desc":"EL OBEID NDB"},
+{"type":"VOR","hdg_t":223,"dist_nm":198.8,"freq":115.8,"lat":13.14768600,"lon":30.23343900,"rng_nm":130,"alt_fmsl":1942,"id":"OBD","desc":"EL OBEID VOR-DME"},
+{"type":"VOR","hdg_t":93,"dist_nm":218.4,"freq":114.8,"lat":15.36351700,"lon":36.31681700,"rng_nm":40,"alt_fmsl":1672,"id":"KSL","desc":"KASSALA VOR-DME"},
+{"type":"VOR","hdg_t":330.7,"dist_nm":246.9,"freq":112.3,"lat":19.18257200,"lon":30.42728300,"rng_nm":130,"alt_fmsl":802,"id":"DOG","desc":"DONGOLA VOR-DME"}
+]
+}

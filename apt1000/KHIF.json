@@ -1,0 +1,40 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KHIF","name":"Hill Afb","lat":41.123939,"lon":-111.973043,"rwys":1,"ils":1,"index":1122496,"path":"w120n40/w112n41"
+,"runways":[
+{"len_m":4113,"wid_m":60.96,"hdg":152,"surf":"Asphalt","rwy1":"14","lat1":41.14042200,"lon1":-111.98421400,"rwy2":"32","lat2":41.10745600,"lon2":-111.96187200}
+]
+,"radios":[
+{"type":"ATIS","freq":134.92,"desc":"ATIS"},
+{"type":"CLD","freq":124.1,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.6,"desc":"GND"},
+{"type":"TWR","freq":127.15,"desc":"TWR"},
+{"type":"APP","freq":121.1,"desc":"SALT LAKE CITY APP"},
+{"type":"APP","freq":124.9,"desc":"SALT LAKE CITY APP"},
+{"type":"APP","freq":126,"desc":"SALT LAKE CITY APP"},
+{"type":"APP","freq":126.8,"desc":"SALT LAKE CITY APP"},
+{"type":"DEP","freq":121.1,"desc":"SALT LAKE CITY DEP"},
+{"type":"DEP","freq":124.9,"desc":"SALT LAKE CITY DEP"},
+{"type":"DEP","freq":126.8,"desc":"SALT LAKE CITY DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":41.10404700,"lon":-111.95958100,"rng_nm":35,"alt_fmsl":4775,"hdg":152.98,"id":"IHIF","rwy":"14","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":41.13716700,"lon":-111.98049700,"rng_nm":10,"alt_fmsl":4780,"id":"IHIF","rwy":"14","desc":"GS","gs":2.8},
+{"type":"MM","freq":0,"lat":41.14939000,"lon":-111.99049700,"rng_nm":0,"alt_fmsl":4775,"id":"----","rwy":"14","desc":"MM"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":115.8,"dist_nm":0.4,"freq":111.2,"lat":41.12050300,"lon":-111.96368100,"rng_nm":40,"alt_fmsl":4806,"id":"HIF","desc":"HILL TACAN"},
+{"type":"VOR","hdg_t":316.6,"dist_nm":8.2,"freq":115.7,"lat":41.22408333,"lon":-112.09825000,"rng_nm":40,"alt_fmsl":4223,"id":"OGD","desc":"OGDEN VORTAC"},
+{"type":"VOR","hdg_t":181.4,"dist_nm":16.4,"freq":116.8,"lat":40.85025000,"lon":-111.98191667,"rng_nm":130,"alt_fmsl":4220,"id":"TCH","desc":"WASATCH VORTAC"},
+{"type":"NDB","hdg_t":348.6,"dist_nm":23.9,"freq":294,"lat":41.51580556,"lon":-112.07808333,"rng_nm":50,"alt_fmsl":0,"id":"BMC","desc":"BRIGHAM CITY NDB"},
+{"type":"NDB","hdg_t":209.1,"dist_nm":35.1,"freq":371,"lat":40.61077778,"lon":-112.34769444,"rng_nm":50,"alt_fmsl":0,"id":"TVY","desc":"TOOELE NDB"},
+{"type":"VOR","hdg_t":357.6,"dist_nm":40.1,"freq":112.9,"lat":41.79288889,"lon":-112.00977778,"rng_nm":40,"alt_fmsl":5358,"id":"LHO","desc":"BRIGHAM CITY VOR-DME"},
+{"type":"VOR","hdg_t":77.7,"dist_nm":42.8,"freq":109.6,"lat":41.27250000,"lon":-111.04677778,"rng_nm":25,"alt_fmsl":7145,"id":"EVW","desc":"EVANSTON VOR-DME"},
+{"type":"VOR","hdg_t":178.3,"dist_nm":50.9,"freq":116.6,"lat":40.27488889,"lon":-111.94052778,"rng_nm":130,"alt_fmsl":7690,"id":"FFU","desc":"FAIRFIELD VORTAC"},
+{"type":"VOR","hdg_t":168,"dist_nm":55.7,"freq":108.4,"lat":40.21494444,"lon":-111.72133333,"rng_nm":25,"alt_fmsl":4493,"id":"PVU","desc":"PROVO VOR-DME"},
+{"type":"VOR","hdg_t":341.7,"dist_nm":68,"freq":117.4,"lat":42.19988889,"lon":-112.45122222,"rng_nm":130,"alt_fmsl":7330,"id":"MLD","desc":"MALAD CITY VOR-DME"},
+{"type":"SDME","hdg_t":218,"dist_nm":70.7,"freq":113.2,"lat":40.19159900,"lon":-112.92216800,"rng_nm":25,"alt_fmsl":4372,"id":"MIJ","desc":"MICHAEL TACAN"},
+{"type":"VOR","hdg_t":77.2,"dist_nm":71.7,"freq":108.6,"lat":41.37844444,"lon":-110.42408333,"rng_nm":40,"alt_fmsl":7060,"id":"FBR","desc":"FORT BRIDGER VOR-DME"},
+{"type":"VOR","hdg_t":254.2,"dist_nm":84.5,"freq":112.3,"lat":40.72611111,"lon":-113.75741667,"rng_nm":130,"alt_fmsl":4220,"id":"BVL","desc":"BONNEVILLE VORTAC"},
+{"type":"VOR","hdg_t":280.2,"dist_nm":85.7,"freq":113.6,"lat":41.36294444,"lon":-113.84061111,"rng_nm":130,"alt_fmsl":4400,"id":"LCU","desc":"LUCIN VORTAC"}
+]
+}

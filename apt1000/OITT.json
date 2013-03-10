@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OITT","name":"Tabriz Intl","lat":38.1329905,"lon":46.234937,"rwys":2,"ils":1,"index":3710984,"path":"e040n30/e046n38"
+,"runways":[
+{"len_m":3603,"wid_m":45.11,"hdg":128,"surf":"Asphalt","rwy1":"12L","lat1":38.14385600,"lon1":46.21957200,"rwy2":"30R","lat2":38.12345000,"lon2":46.25154200},
+{"len_m":3516,"wid_m":29.87,"hdg":128,"surf":"Asphalt","rwy1":"12R","lat1":38.14226700,"lon1":46.21870300,"rwy2":"30L","lat2":38.12238900,"lon2":46.24993100}
+]
+,"radios":[
+{"type":"ATIS","freq":127,"desc":"INFO"},
+{"type":"TWR","freq":121.9,"desc":"TWR"},
+{"type":"TWR","freq":121.7,"desc":"TWR"},
+{"type":"TWR","freq":124.1,"desc":"TWR"},
+{"type":"APP","freq":122.5,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":38.14654200,"lon":46.21533900,"rng_nm":18,"alt_fmsl":4459,"hdg":309.03,"id":"ITBZ","rwy":"30R","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":38.12620600,"lon":46.24998100,"rng_nm":10,"alt_fmsl":4459,"id":"ITBZ","rwy":"30R","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":38.12620600,"lon":46.24998100,"rng_nm":18,"alt_fmsl":4459,"id":"ITBZ","rwy":"30R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":332.3,"dist_nm":0.4,"freq":112,"lat":38.13908300,"lon":46.23088900,"rng_nm":130,"alt_fmsl":4490,"id":"TBZ","desc":"TABRIZ VORTAC"},
+{"type":"NDB","hdg_t":160.9,"dist_nm":0.8,"freq":300,"lat":38.12016700,"lon":46.24055600,"rng_nm":25,"alt_fmsl":4432,"id":"TBZ","desc":"TABRIZ NDB"},
+{"type":"NDB","hdg_t":185.3,"dist_nm":47.3,"freq":363,"lat":37.34602800,"lon":46.14275000,"rng_nm":25,"alt_fmsl":4382,"id":"SHD","desc":"SAHAND NDB-DME"},
+{"type":"SDME","hdg_t":185.3,"dist_nm":47.3,"freq":116,"lat":37.34602800,"lon":46.14275000,"rng_nm":25,"alt_fmsl":4382,"id":"SHD","desc":"SAHAND NDB-DME"},
+{"type":"NDB","hdg_t":6.2,"dist_nm":48.5,"freq":787,"lat":38.93888900,"lon":46.34722200,"rng_nm":50,"alt_fmsl":0,"id":"MGR","desc":"MEGRI NDB"},
+{"type":"VOR","hdg_t":244.2,"dist_nm":60.8,"freq":113.5,"lat":37.68719400,"lon":45.08433300,"rng_nm":130,"alt_fmsl":4265,"id":"UMH","desc":"UROMIYEH VOR-DME"},
+{"type":"NDB","hdg_t":286.9,"dist_nm":62.3,"freq":288,"lat":38.42969400,"lon":44.96911100,"rng_nm":25,"alt_fmsl":0,"id":"KHY","desc":"KHOY NDB"},
+{"type":"NDB","hdg_t":243.6,"dist_nm":62.3,"freq":370,"lat":37.66550000,"lon":45.06094400,"rng_nm":75,"alt_fmsl":4343,"id":"UMH","desc":"UROMIYEH NDB"},
+{"type":"NDB","hdg_t":330.5,"dist_nm":71.1,"freq":493,"lat":39.16508300,"lon":45.48594400,"rng_nm":50,"alt_fmsl":0,"id":"NO","desc":"NAKHCHIVAN NDB"},
+{"type":"NDB","hdg_t":329.7,"dist_nm":76,"freq":680,"lat":39.22591700,"lon":45.41433300,"rng_nm":80,"alt_fmsl":0,"id":"NT","desc":"NAKHCHIVAN NDB"}
+]
+}

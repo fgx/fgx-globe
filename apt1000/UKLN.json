@@ -1,0 +1,38 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UKLN","name":"Chernivtsi Intl","lat":48.2593225,"lon":25.9808305,"rwys":1,"ils":2,"index":3367571,"path":"e020n40/e025n48"
+,"runways":[
+{"len_m":2221,"wid_m":42.06,"hdg":152,"surf":"Asphalt","rwy1":"15","lat1":48.26821700,"lon1":25.97402200,"rwy2":"33","lat2":48.25042800,"lon2":25.98763900}
+]
+,"radios":[
+{"type":"TWR","freq":121.3,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":48.24222200,"lon":25.99361100,"rng_nm":18,"alt_fmsl":826,"hdg":153.36,"id":"ICN","rwy":"15","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":48.27638900,"lon":25.96750000,"rng_nm":18,"alt_fmsl":826,"hdg":332.68,"id":"ICR","rwy":"33","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":48.26472200,"lon":25.97805600,"rng_nm":10,"alt_fmsl":826,"id":"ICN","rwy":"15","desc":"GS","gs":3},
+{"type":"GS","freq":110.3,"lat":48.25111100,"lon":25.98472200,"rng_nm":10,"alt_fmsl":826,"id":"ICR","rwy":"33","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":48.29800200,"lon":25.94825900,"rng_nm":0,"alt_fmsl":826,"id":"----","rwy":"15","desc":"OM"},
+{"type":"OM","freq":0,"lat":48.21300200,"lon":26.01492900,"rng_nm":0,"alt_fmsl":826,"id":"----","rwy":"33","desc":"OM"},
+{"type":"MM","freq":0,"lat":48.27633500,"lon":25.96659400,"rng_nm":0,"alt_fmsl":826,"id":"----","rwy":"15","desc":"MM"},
+{"type":"MM","freq":0,"lat":48.24133600,"lon":26.01492800,"rng_nm":0,"alt_fmsl":826,"id":"----","rwy":"33","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":330.8,"dist_nm":1.1,"freq":509,"lat":48.27633500,"lon":25.96659400,"rng_nm":25,"alt_fmsl":0,"id":"N","desc":"CHERNIVTSI NDB"},
+{"type":"NDB","hdg_t":128.2,"dist_nm":1.7,"freq":509,"lat":48.24133600,"lon":26.01492800,"rng_nm":25,"alt_fmsl":0,"id":"R","desc":"CHERNIVTSI NDB"},
+{"type":"NDB","hdg_t":330.6,"dist_nm":2.6,"freq":805,"lat":48.29800200,"lon":25.94825900,"rng_nm":25,"alt_fmsl":0,"id":"CN","desc":"CHERNIVTSI NDB"},
+{"type":"NDB","hdg_t":153.8,"dist_nm":3,"freq":805,"lat":48.21300200,"lon":26.01492900,"rng_nm":25,"alt_fmsl":0,"id":"CR","desc":"CHERNIVTSI NDB"},
+{"type":"NDB","hdg_t":43.5,"dist_nm":36,"freq":732,"lat":48.69301800,"lon":26.60491800,"rng_nm":50,"alt_fmsl":0,"id":"KP","desc":"KAMENETS NDB"},
+{"type":"VOR","hdg_t":156.3,"dist_nm":38.4,"freq":112.3,"lat":47.67232500,"lon":26.36083300,"rng_nm":175,"alt_fmsl":1302,"id":"SCV","desc":"SUCEAVA VOR-DME"},
+{"type":"NDB","hdg_t":307.5,"dist_nm":60.9,"freq":290,"lat":48.87132500,"lon":24.75989800,"rng_nm":25,"alt_fmsl":0,"id":"IF","desc":"IVANO-FRANKOVSK NDB"},
+{"type":"NDB","hdg_t":306.9,"dist_nm":62.7,"freq":598,"lat":48.87965800,"lon":24.71489700,"rng_nm":25,"alt_fmsl":0,"id":"F","desc":"IVANO-FRANKOVSK NDB"},
+{"type":"VOR","hdg_t":306.6,"dist_nm":63.6,"freq":114.2,"lat":48.88465800,"lon":24.68989700,"rng_nm":40,"alt_fmsl":937,"id":"IVF","desc":"IVANO FRANKIVSK VOR-DME"},
+{"type":"NDB","hdg_t":306,"dist_nm":64.9,"freq":598,"lat":48.88799100,"lon":24.65489600,"rng_nm":25,"alt_fmsl":0,"id":"V","desc":"IVANO-FRANKOVSK NDB"},
+{"type":"NDB","hdg_t":305.5,"dist_nm":66.5,"freq":290,"lat":48.89465700,"lon":24.61322900,"rng_nm":25,"alt_fmsl":0,"id":"IV","desc":"IVANO-FRANKOVSK NDB"},
+{"type":"NDB","hdg_t":107,"dist_nm":74.7,"freq":790,"lat":47.88129700,"lon":27.75001900,"rng_nm":75,"alt_fmsl":0,"id":"LC","desc":"BALTI NDB"},
+{"type":"NDB","hdg_t":80.7,"dist_nm":75,"freq":406,"lat":48.44469900,"lon":27.83660300,"rng_nm":75,"alt_fmsl":0,"id":"MO","desc":"MOHYLIV PODILSKYI NDB"},
+{"type":"NDB","hdg_t":107.9,"dist_nm":75.9,"freq":389,"lat":47.85567800,"lon":27.76947500,"rng_nm":25,"alt_fmsl":0,"id":"L","desc":"BALTI NDB"},
+{"type":"NDB","hdg_t":109.1,"dist_nm":77.6,"freq":389,"lat":47.82130300,"lon":27.79536400,"rng_nm":25,"alt_fmsl":0,"id":"B","desc":"BALTI NDB"},
+{"type":"NDB","hdg_t":109.8,"dist_nm":78.8,"freq":790,"lat":47.79794200,"lon":27.81399700,"rng_nm":25,"alt_fmsl":0,"id":"BL","desc":"BALTI NDB"},
+{"type":"NDB","hdg_t":132.9,"dist_nm":89.3,"freq":391,"lat":47.23427200,"lon":27.57968100,"rng_nm":50,"alt_fmsl":292,"id":"IAS","desc":"IASI NDB"}
+]
+}

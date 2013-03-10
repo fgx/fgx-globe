@@ -1,0 +1,38 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYAM","name":"Sault Ste Marie","lat":46.484317875,"lon":-84.508282415,"rwys":2,"ils":1,"index":1565209,"path":"w090n40/w085n46"
+,"runways":[
+{"len_m":1831,"wid_m":60.96,"hdg":32,"surf":"Asphalt","rwy1":"04","lat1":46.47819113,"lon1":-84.51333230,"rwy2":"22","lat2":46.49202856,"lon2":-84.50038088},
+{"len_m":1834,"wid_m":60.96,"hdg":107,"surf":"Asphalt","rwy1":"12","lat1":46.48605363,"lon1":-84.52108134,"rwy2":"30","lat2":46.48099818,"lon2":-84.49833514}
+]
+,"radios":[
+{"type":"ATIS","freq":133.05,"desc":"ATIS"},
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.8,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":46.48058319,"lon":-84.49645233,"rng_nm":18,"alt_fmsl":630,"hdg":107.89,"id":"IAM","rwy":"12","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":46.48424911,"lon":-84.51811981,"rng_nm":10,"alt_fmsl":630,"id":"IAM","rwy":"12","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":290.8,"dist_nm":4.7,"freq":286,"lat":46.51225600,"lon":-84.61492500,"rng_nm":25,"alt_fmsl":0,"id":"ZSM","desc":"GROS CAP NDB"},
+{"type":"VOR","hdg_t":118.3,"dist_nm":9.1,"freq":112.2,"lat":46.41211111,"lon":-84.31486111,"rng_nm":130,"alt_fmsl":687,"id":"SSM","desc":"SAULT STE MARIE VOR-DME"},
+{"type":"NDB","hdg_t":188.8,"dist_nm":9.2,"freq":400,"lat":46.33252778,"lon":-84.54247222,"rng_nm":50,"alt_fmsl":0,"id":"CI","desc":"KOLOE NDB"},
+{"type":"VOR","hdg_t":255.7,"dist_nm":40.9,"freq":108.2,"lat":46.31244444,"lon":-85.46355556,"rng_nm":25,"alt_fmsl":869,"id":"ERY","desc":"NEWBERRY VOR-DME"},
+{"type":"VOR","hdg_t":187.2,"dist_nm":51.6,"freq":111.8,"lat":45.63063889,"lon":-84.66411111,"rng_nm":40,"alt_fmsl":840,"id":"PLN","desc":"PELLSTON VORTAC"},
+{"type":"NDB","hdg_t":223.1,"dist_nm":64.6,"freq":382,"lat":45.69333333,"lon":-85.55863889,"rng_nm":50,"alt_fmsl":0,"id":"SJX","desc":"ST JAMES NDB"},
+{"type":"NDB","hdg_t":155.7,"dist_nm":70.9,"freq":215,"lat":45.40425000,"lon":-83.81844444,"rng_nm":50,"alt_fmsl":0,"id":"PZQ","desc":"ROGERS CITY NDB"},
+{"type":"VOR","hdg_t":246.8,"dist_nm":75.7,"freq":110.4,"lat":45.97633333,"lon":-86.17344444,"rng_nm":40,"alt_fmsl":680,"id":"ISQ","desc":"SCHOOLCRAFT CO VOR-DME"},
+{"type":"NDB","hdg_t":204.4,"dist_nm":77.8,"freq":392,"lat":45.30180556,"lon":-85.27002778,"rng_nm":50,"alt_fmsl":0,"id":"CVX","desc":"CHARLEVOIX NDB"},
+{"type":"NDB","hdg_t":94.2,"dist_nm":78.2,"freq":276,"lat":46.37202778,"lon":-82.62875000,"rng_nm":50,"alt_fmsl":0,"id":"YEL","desc":"ELLIOT LAKE NDB"},
+{"type":"NDB","hdg_t":192.5,"dist_nm":80.9,"freq":263,"lat":45.16670000,"lon":-84.92192200,"rng_nm":25,"alt_fmsl":707,"id":"BFA","desc":"BOYNE FALLS NDB"},
+{"type":"NDB","hdg_t":112.2,"dist_nm":85.6,"freq":245,"lat":45.92833333,"lon":-82.61527778,"rng_nm":50,"alt_fmsl":0,"id":"YZE","desc":"GORE BAY NDB"},
+{"type":"NDB","hdg_t":30,"dist_nm":88.5,"freq":335,"lat":47.75583333,"lon":-83.41277778,"rng_nm":50,"alt_fmsl":0,"id":"YLD","desc":"CHAPLEAU NDB"},
+{"type":"VOR","hdg_t":185.3,"dist_nm":88.7,"freq":109.2,"lat":45.01250000,"lon":-84.70427778,"rng_nm":40,"alt_fmsl":1318,"id":"GLR","desc":"GAYLORD VOR-DME"},
+{"type":"VOR","hdg_t":351.8,"dist_nm":88.9,"freq":112.7,"lat":47.95066667,"lon":-84.82280556,"rng_nm":130,"alt_fmsl":1263,"id":"YXZ","desc":"WAWA VOR-DME"},
+{"type":"NDB","hdg_t":188.2,"dist_nm":89.1,"freq":375,"lat":45.01455556,"lon":-84.80797222,"rng_nm":50,"alt_fmsl":0,"id":"GL","desc":"BANGU NDB"},
+{"type":"NDB","hdg_t":354.1,"dist_nm":92.7,"freq":205,"lat":48.02113889,"lon":-84.74358333,"rng_nm":50,"alt_fmsl":0,"id":"XZ","desc":"WAWA NDB"},
+{"type":"VOR","hdg_t":154.2,"dist_nm":93.1,"freq":108.8,"lat":45.08277778,"lon":-83.55700000,"rng_nm":40,"alt_fmsl":677,"id":"APN","desc":"ALPENA VORTAC"},
+{"type":"NDB","hdg_t":156.1,"dist_nm":99.7,"freq":206,"lat":44.96077778,"lon":-83.56008333,"rng_nm":50,"alt_fmsl":0,"id":"AP","desc":"FELPS NDB"},
+{"type":"NDB","hdg_t":198.1,"dist_nm":99.9,"freq":251,"lat":44.89938889,"lon":-85.23966667,"rng_nm":50,"alt_fmsl":0,"id":"CXK","desc":"CLAM LAKE NDB"}
+]
+}

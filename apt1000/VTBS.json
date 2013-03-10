@@ -1,0 +1,53 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VTBS","name":"Bangkok Suvarnabhumi Intl","lat":13.68045552,"lon":100.74751202,"rwys":2,"ils":4,"index":4594157,"path":"e100n10/e100n13"
+,"runways":[
+{"len_m":3997,"wid_m":60.96,"hdg":14,"surf":"Asphalt","rwy1":"01R","lat1":13.65632979,"lon1":100.75173386,"rwy2":"19L","lat2":13.69134900,"lon2":100.76084429},
+{"len_m":3698,"wid_m":60.96,"hdg":14,"surf":"Asphalt","rwy1":"01L","lat1":13.67087849,"lon1":100.73449980,"rwy2":"19R","lat2":13.70326479,"lon2":100.74297012}
+]
+,"radios":[
+{"type":"ATIS","freq":127.8,"desc":"SUVARNABHUMI AIRPORT"},
+{"type":"GND","freq":121.65,"desc":"GND"},
+{"type":"GND","freq":121.75,"desc":"GND"},
+{"type":"GND","freq":121.95,"desc":"GND"},
+{"type":"TWR","freq":118.2,"desc":"TWR"},
+{"type":"TWR","freq":119,"desc":"TWR"},
+{"type":"APP","freq":124.7,"desc":"SUVARNABHUMI ARR"},
+{"type":"APP","freq":122.35,"desc":"BANGKOK APP CTL"},
+{"type":"APP","freq":124.35,"desc":"BANGKOK APP CTL"}
+]
+,"ils":[
+{"type":"ILS","freq":109.1,"lat":13.70619400,"lon":100.74383300,"rng_nm":18,"alt_fmsl":5,"hdg":14.40,"id":"ISWS","rwy":"01L","desc":"ILS-cat-II"},
+{"type":"ILS","freq":110.1,"lat":13.69425000,"lon":100.76169400,"rng_nm":18,"alt_fmsl":5,"hdg":14.32,"id":"ISES","rwy":"01R","desc":"ILS-cat-II"},
+{"type":"ILS","freq":110.5,"lat":13.65416700,"lon":100.75116700,"rng_nm":18,"alt_fmsl":5,"hdg":194.19,"id":"ISEN","rwy":"19L","desc":"ILS-cat-II"},
+{"type":"ILS","freq":109.5,"lat":13.66875000,"lon":100.73400000,"rng_nm":18,"alt_fmsl":5,"hdg":194.17,"id":"ISWN","rwy":"19R","desc":"ILS-cat-II"},
+{"type":"GS","freq":109.1,"lat":13.67438900,"lon":100.73433300,"rng_nm":10,"alt_fmsl":5,"id":"ISWS","rwy":"01L","desc":"GS","gs":3},
+{"type":"GS","freq":110.1,"lat":13.65927800,"lon":100.75363900,"rng_nm":10,"alt_fmsl":5,"id":"ISES","rwy":"01R","desc":"GS","gs":3},
+{"type":"GS","freq":110.5,"lat":13.68861100,"lon":100.76136100,"rng_nm":10,"alt_fmsl":6,"id":"ISEN","rwy":"19L","desc":"GS","gs":3},
+{"type":"GS","freq":109.5,"lat":13.70108300,"lon":100.74136100,"rng_nm":10,"alt_fmsl":5,"id":"ISWN","rwy":"19R","desc":"GS","gs":3},
+{"type":"DME","freq":109.1,"lat":13.70619400,"lon":100.74383300,"rng_nm":18,"alt_fmsl":5,"id":"ISWS","rwy":"01L","desc":"DME-ILS"},
+{"type":"DME","freq":110.1,"lat":13.69425000,"lon":100.76169400,"rng_nm":18,"alt_fmsl":5,"id":"ISES","rwy":"01R","desc":"DME-ILS"},
+{"type":"DME","freq":110.5,"lat":13.65416700,"lon":100.75116700,"rng_nm":18,"alt_fmsl":5,"id":"ISEN","rwy":"19L","desc":"DME-ILS"},
+{"type":"DME","freq":109.5,"lat":13.66875000,"lon":100.73400000,"rng_nm":18,"alt_fmsl":5,"id":"ISWN","rwy":"19R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":223.8,"dist_nm":1.6,"freq":111.4,"lat":13.66070300,"lon":100.72813800,"rng_nm":130,"alt_fmsl":5,"id":"SVB","desc":"SUVARNABHUMI INTL VOR-DME"},
+{"type":"VOR","hdg_t":325.2,"dist_nm":15.4,"freq":117.7,"lat":13.89355600,"lon":100.59619400,"rng_nm":100,"alt_fmsl":54,"id":"BKK","desc":"BANGKOK VOR-DME"},
+{"type":"NDB","hdg_t":343.2,"dist_nm":19.5,"freq":293,"lat":13.99463900,"lon":100.65088900,"rng_nm":25,"alt_fmsl":0,"id":"BK","desc":"BANGKOK NDB"},
+{"type":"NDB","hdg_t":53.9,"dist_nm":44.7,"freq":201,"lat":14.11998200,"lon":101.36827500,"rng_nm":75,"alt_fmsl":0,"id":"PB","desc":"PRACHIN BURI NDB"},
+{"type":"SDME","hdg_t":296.8,"dist_nm":54.5,"freq":115.1,"lat":14.09107500,"lon":99.91234400,"rng_nm":50,"alt_fmsl":33,"id":"KPS","desc":"KAMPHAENG SAEN TACAN"},
+{"type":"NDB","hdg_t":302.4,"dist_nm":54.6,"freq":251,"lat":14.17051400,"lon":99.95650400,"rng_nm":50,"alt_fmsl":0,"id":"KPS","desc":"KAMPHAENG SAEN NDB"},
+{"type":"VOR","hdg_t":302.1,"dist_nm":54.8,"freq":114.5,"lat":14.16718100,"lon":99.95095000,"rng_nm":50,"alt_fmsl":33,"id":"KPS","desc":"KAMPHAENG SAEN VOR-DME"},
+{"type":"SDME","hdg_t":165.7,"dist_nm":61.9,"freq":115.8,"lat":12.67484700,"lon":101.00682800,"rng_nm":50,"alt_fmsl":59,"id":"BUT","desc":"U TAPHAO TACAN"},
+{"type":"VOR","hdg_t":166.4,"dist_nm":62.1,"freq":110.8,"lat":12.66842100,"lon":100.99667400,"rng_nm":50,"alt_fmsl":20,"id":"BUT","desc":"U TAPHAO VOR-DME"},
+{"type":"NDB","hdg_t":166.7,"dist_nm":62.4,"freq":414,"lat":12.66342100,"lon":100.99167500,"rng_nm":40,"alt_fmsl":0,"id":"UP","desc":"U TAPHAO NDB"},
+{"type":"SDME","hdg_t":355.9,"dist_nm":71.8,"freq":116.8,"lat":14.88055600,"lon":100.66111100,"rng_nm":25,"alt_fmsl":98,"id":"LOB","desc":"LOP BURI TACAN"},
+{"type":"NDB","hdg_t":355.9,"dist_nm":72.2,"freq":280,"lat":14.88630100,"lon":100.66001800,"rng_nm":25,"alt_fmsl":0,"id":"LB","desc":"LOP BURI NDB"},
+{"type":"VOR","hdg_t":355.3,"dist_nm":76.1,"freq":117.3,"lat":14.95042200,"lon":100.64222200,"rng_nm":50,"alt_fmsl":95,"id":"SPN","desc":"SA PRAN NAK VOR"},
+{"type":"VOR","hdg_t":134.5,"dist_nm":76.5,"freq":112.5,"lat":12.78008300,"lon":101.67825000,"rng_nm":50,"alt_fmsl":11,"id":"RYN","desc":"RAYONG VOR-DME"},
+{"type":"NDB","hdg_t":217.1,"dist_nm":77.5,"freq":213,"lat":12.64315600,"lon":99.94961100,"rng_nm":50,"alt_fmsl":0,"id":"HN","desc":"HUA HIN NDB"},
+{"type":"VOR","hdg_t":216.8,"dist_nm":77.9,"freq":113.3,"lat":12.63445600,"lon":99.95117500,"rng_nm":50,"alt_fmsl":62,"id":"HHN","desc":"HUA HIN VOR-DME"},
+{"type":"NDB","hdg_t":86.5,"dist_nm":91.5,"freq":270,"lat":13.76861100,"lon":102.31194400,"rng_nm":50,"alt_fmsl":0,"id":"WN","desc":"WATTHANA NAKHON NDB"},
+{"type":"NDB","hdg_t":344.6,"dist_nm":98.4,"freq":350,"lat":15.26913900,"lon":100.29751400,"rng_nm":25,"alt_fmsl":0,"id":"TL","desc":"TAKHLI NDB"},
+{"type":"SDME","hdg_t":344.7,"dist_nm":98.7,"freq":114.8,"lat":15.27463100,"lon":100.29908100,"rng_nm":50,"alt_fmsl":107,"id":"TKL","desc":"TAKHLI TACAN"}
+]
+}

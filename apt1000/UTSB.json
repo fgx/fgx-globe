@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UTSB","name":"Bukhara","lat":39.775,"lon":64.4833335,"rwys":1,"ils":1,"index":4006001,"path":"e060n30/e064n39"
+,"runways":[
+{"len_m":3015,"wid_m":44.81,"hdg":10,"surf":"Asphalt","rwy1":"01","lat1":39.76166700,"lon1":64.48000000,"rwy2":"19","lat2":39.78833300,"lon2":64.48666700}
+]
+,"radios":[
+{"type":"TWR","freq":119.4,"desc":"TWR"},
+{"type":"TWR","freq":120.1,"desc":"TWR"},
+{"type":"APP","freq":124.6,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":39.79500000,"lon":64.48833300,"rng_nm":18,"alt_fmsl":753,"hdg":10.88,"id":"IUH","rwy":"01","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":39.76277800,"lon":64.48166700,"rng_nm":10,"alt_fmsl":736,"id":"IUH","rwy":"01","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":39.72833300,"lon":64.47166700,"rng_nm":0,"alt_fmsl":753,"id":"----","rwy":"01","desc":"OM"},
+{"type":"MM","freq":0,"lat":39.75333300,"lon":64.47833300,"rng_nm":0,"alt_fmsl":753,"id":"----","rwy":"01","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":190.1,"dist_nm":1.3,"freq":390,"lat":39.75333300,"lon":64.47833300,"rng_nm":50,"alt_fmsl":0,"id":"U","desc":"BUKHARA NDB"},
+{"type":"NDB","hdg_t":190.9,"dist_nm":2.8,"freq":795,"lat":39.72833300,"lon":64.47166700,"rng_nm":50,"alt_fmsl":0,"id":"UH","desc":"BUKHARA NDB"},
+{"type":"NDB","hdg_t":10.5,"dist_nm":2.9,"freq":795,"lat":39.82333300,"lon":64.49500000,"rng_nm":50,"alt_fmsl":0,"id":"BR","desc":"BUKHARA NDB"},
+{"type":"NDB","hdg_t":228,"dist_nm":56.6,"freq":326,"lat":39.14000000,"lon":63.58000000,"rng_nm":50,"alt_fmsl":0,"id":"NQ","desc":"TURKMENABAT NDB"},
+{"type":"VOR","hdg_t":224.8,"dist_nm":57.6,"freq":109.2,"lat":39.09000000,"lon":63.61166700,"rng_nm":130,"alt_fmsl":646,"id":"LBA","desc":"TURKMENABAT VOR-DME"},
+{"type":"NDB","hdg_t":221.9,"dist_nm":58.9,"freq":326,"lat":39.04000000,"lon":63.64000000,"rng_nm":50,"alt_fmsl":0,"id":"UT","desc":"TURKMENABAT NDB"},
+{"type":"NDB","hdg_t":129.9,"dist_nm":67.1,"freq":365,"lat":39.05000000,"lon":65.58500000,"rng_nm":50,"alt_fmsl":0,"id":"YU","desc":"KASAN NDB"},
+{"type":"NDB","hdg_t":49.3,"dist_nm":73.3,"freq":470,"lat":40.56666700,"lon":65.70000000,"rng_nm":50,"alt_fmsl":0,"id":"HK","desc":"NURATA NDB"},
+{"type":"SDME","hdg_t":129.9,"dist_nm":87.4,"freq":114.4,"lat":38.82931100,"lon":65.91333900,"rng_nm":25,"alt_fmsl":1365,"id":"UTV","desc":"KARSHI TACAN"},
+{"type":"NDB","hdg_t":90.6,"dist_nm":88.9,"freq":598,"lat":39.74333300,"lon":66.40500000,"rng_nm":50,"alt_fmsl":0,"id":"DY","desc":"NAGORNAYA NDB"}
+]
+}

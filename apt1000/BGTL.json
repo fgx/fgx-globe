@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"BGTL","name":"Thule Air Base","lat":76.531203,"lon":-68.7031625,"rwys":1,"ils":1,"index":1829280,"path":"w070n70/w069n76"
+,"runways":[
+{"len_m":3047,"wid_m":42.67,"hdg":84,"surf":"Asphalt","rwy1":"08T","lat1":76.53000600,"lon1":-68.76151100,"rwy2":"26T","lat2":76.53240000,"lon2":-68.64481400}
+]
+,"radios":[
+{"type":"CLD","freq":119.9,"desc":"CLNC DEL"},
+{"type":"GND","freq":119.9,"desc":"GND"},
+{"type":"TWR","freq":126.2,"desc":"TWR"},
+{"type":"APP","freq":134.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":76.53263092,"lon":-68.63301849,"rng_nm":18,"alt_fmsl":251,"hdg":85.06,"id":"IITL","rwy":"08T","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":76.53109741,"lon":-68.75268555,"rng_nm":10,"alt_fmsl":251,"id":"IITL","rwy":"08T","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":83.8,"dist_nm":6.5,"freq":111,"lat":76.54241900,"lon":-68.23921900,"rng_nm":130,"alt_fmsl":1294,"id":"THT","desc":"THULE VORTAC"},
+{"type":"NDB","hdg_t":351.8,"dist_nm":57.7,"freq":336,"lat":77.47912500,"lon":-69.32591900,"rng_nm":25,"alt_fmsl":0,"id":"QQ","desc":"QAANAAQ NDB"},
+{"type":"SDME","hdg_t":351.3,"dist_nm":58.3,"freq":108.35,"lat":77.48738900,"lon":-69.37295300,"rng_nm":130,"alt_fmsl":83,"id":"QN","desc":"QAANAAQ DME"},
+{"type":"NDB","hdg_t":275,"dist_nm":199.6,"freq":365,"lat":76.42329200,"lon":-82.88740800,"rng_nm":50,"alt_fmsl":146,"id":"YGZ","desc":"GRISE FIORD NDB"},
+{"type":"NDB","hdg_t":217.1,"dist_nm":273.9,"freq":214,"lat":72.69305556,"lon":-77.95083333,"rng_nm":50,"alt_fmsl":0,"id":"YIO","desc":"POND INLET NDB"},
+{"type":"NDB","hdg_t":322.8,"dist_nm":294.5,"freq":205,"lat":79.99083333,"lon":-85.89833333,"rng_nm":50,"alt_fmsl":0,"id":"YEU","desc":"EUREKA NDB"},
+{"type":"NDB","hdg_t":132.1,"dist_nm":300.2,"freq":399,"lat":72.79261100,"lon":-56.14601900,"rng_nm":200,"alt_fmsl":0,"id":"UP","desc":"UPERNAVIK NDB"},
+{"type":"NDB","hdg_t":179.4,"dist_nm":364.3,"freq":256,"lat":70.48527778,"lon":-68.52666667,"rng_nm":50,"alt_fmsl":0,"id":"YCY","desc":"CLYDE RIVER NDB"},
+{"type":"SDME","hdg_t":7.8,"dist_nm":367,"freq":110.7,"lat":82.51733600,"lon":-62.31166700,"rng_nm":130,"alt_fmsl":72,"id":"ULT","desc":"ALERT TACAN"},
+{"type":"NDB","hdg_t":7.9,"dist_nm":367.7,"freq":305,"lat":82.52583333,"lon":-62.21138889,"rng_nm":50,"alt_fmsl":0,"id":"LT","desc":"ALERT NDB"}
+]
+}

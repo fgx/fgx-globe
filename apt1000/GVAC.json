@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"GVAC","name":"Sal Amilcar Cabral Intl","lat":16.73820825,"lon":-22.9505,"rwys":2,"ils":1,"index":2579112,"path":"w030n10/w023n16"
+,"runways":[
+{"len_m":3283,"wid_m":45.11,"hdg":359,"surf":"Asphalt","rwy1":"01","lat1":16.72133300,"lon1":-22.94883300,"rwy2":"19","lat2":16.75100000,"lon2":-22.94900000},
+{"len_m":1490,"wid_m":45.11,"hdg":57,"surf":"Asphalt","rwy1":"07","lat1":16.73666700,"lon1":-22.95800000,"rwy2":"25","lat2":16.74383300,"lon2":-22.94616700}
+]
+,"radios":[
+{"type":"TWR","freq":119.7,"desc":"TWR"},
+{"type":"APP","freq":119.7,"desc":"SAL APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":16.75394400,"lon":-22.94908300,"rng_nm":18,"alt_fmsl":177,"hdg":359.58,"id":"SL","rwy":"01","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":16.72677800,"lon":-22.94775000,"rng_nm":10,"alt_fmsl":177,"id":"SL","rwy":"01","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":200.2,"dist_nm":0,"freq":115.3,"lat":16.73676900,"lon":-22.95105000,"rng_nm":130,"alt_fmsl":176,"id":"CVS","desc":"SAL VOR-DME"},
+{"type":"NDB","hdg_t":177.2,"dist_nm":2.1,"freq":274,"lat":16.70177800,"lon":-22.94869400,"rng_nm":350,"alt_fmsl":0,"id":"SAL","desc":"SAL NDB"},
+{"type":"NDB","hdg_t":174.1,"dist_nm":35.2,"freq":341,"lat":16.15111100,"lon":-22.88805600,"rng_nm":50,"alt_fmsl":0,"id":"BVT","desc":"RABIL NDB"},
+{"type":"NDB","hdg_t":262.4,"dist_nm":77.4,"freq":357,"lat":16.56272200,"lon":-24.28319400,"rng_nm":50,"alt_fmsl":0,"id":"NCL","desc":"SAO NICOLAU NDB"},
+{"type":"VOR","hdg_t":196,"dist_nm":111.8,"freq":116.6,"lat":14.93909400,"lon":-23.48212200,"rng_nm":200,"alt_fmsl":340,"id":"SNT","desc":"PRAIA VOR-DME"},
+{"type":"NDB","hdg_t":196.2,"dist_nm":112.9,"freq":349,"lat":14.92259400,"lon":-23.49621900,"rng_nm":50,"alt_fmsl":230,"id":"PRA","desc":"PRAIA NDB"},
+{"type":"NDB","hdg_t":272.8,"dist_nm":121.8,"freq":333,"lat":16.82886100,"lon":-25.06511100,"rng_nm":50,"alt_fmsl":0,"id":"SVT","desc":"SAO VICENTE NDB"},
+{"type":"VOR","hdg_t":109.8,"dist_nm":338.4,"freq":113.1,"lat":14.74483300,"lon":-17.47477800,"rng_nm":130,"alt_fmsl":111,"id":"YF","desc":"DAKAR VOR-DME"},
+{"type":"NDB","hdg_t":110.1,"dist_nm":338.6,"freq":323,"lat":14.71666700,"lon":-17.48333300,"rng_nm":25,"alt_fmsl":144,"id":"SDS","desc":"DAKAR NDB"},
+{"type":"NDB","hdg_t":95.3,"dist_nm":376.7,"freq":355,"lat":16.04908300,"lon":-16.45713900,"rng_nm":25,"alt_fmsl":68,"id":"SLO","desc":"SAINT LOUIS NDB"}
+]
+}

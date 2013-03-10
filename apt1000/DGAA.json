@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DGAA","name":"Accra_kotoka_intl","lat":5.602578,"lon":-0.16760158,"rwys":1,"ils":1,"index":2938854,"path":"w010n00/w001n05"
+,"runways":[
+{"len_m":3389,"wid_m":60.96,"hdg":22,"surf":"Asphalt","rwy1":"03","lat1":5.58838023,"lon1":-0.17336539,"rwy2":"21","lat2":5.61677577,"lon2":-0.16183777}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"ACCRA GND"},
+{"type":"TWR","freq":118.6,"desc":"ACCRA TWR"},
+{"type":"APP","freq":119.5,"desc":"ACCRA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":5.58835000,"lon":-0.17415300,"rng_nm":18,"alt_fmsl":204,"hdg":203.32,"id":"IACA","rwy":"21","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":5.61263100,"lon":-0.16299200,"rng_nm":10,"alt_fmsl":204,"id":"IACA","rwy":"21","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":5.67617200,"lon":-0.13803300,"rng_nm":0,"alt_fmsl":204,"id":"----","rwy":"21","desc":"OM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":21.2,"dist_nm":2,"freq":113.1,"lat":5.63411400,"lon":-0.15534400,"rng_nm":130,"alt_fmsl":205,"id":"ACC","desc":"ACCRA VOR-DME"},
+{"type":"NDB","hdg_t":21.9,"dist_nm":4.7,"freq":409,"lat":5.67617200,"lon":-0.13803300,"rng_nm":50,"alt_fmsl":0,"id":"AA","desc":"ACCRA NDB"},
+{"type":"NDB","hdg_t":68.2,"dist_nm":91,"freq":379,"lat":6.16519400,"lon":1.24775000,"rng_nm":50,"alt_fmsl":0,"id":"LME","desc":"LOME NDB"},
+{"type":"VOR","hdg_t":67.9,"dist_nm":92.6,"freq":115.3,"lat":6.18408300,"lon":1.26877800,"rng_nm":130,"alt_fmsl":86,"id":"LM","desc":"LOME VOR-DME"},
+{"type":"NDB","hdg_t":246.7,"dist_nm":104,"freq":375,"lat":4.91308100,"lon":-1.76490000,"rng_nm":25,"alt_fmsl":0,"id":"TI","desc":"TAKORADI NDB"},
+{"type":"VOR","hdg_t":307.9,"dist_nm":107.6,"freq":113.9,"lat":6.70856900,"lon":-1.59065800,"rng_nm":130,"alt_fmsl":942,"id":"KSI","desc":"KUMASI VOR-DME"},
+{"type":"NDB","hdg_t":309,"dist_nm":108.8,"freq":271,"lat":6.74785000,"lon":-1.58390000,"rng_nm":25,"alt_fmsl":0,"id":"KL","desc":"KUMASI NDB"},
+{"type":"VOR","hdg_t":16.7,"dist_nm":150.3,"freq":115.9,"lat":8.01333300,"lon":0.56150000,"rng_nm":130,"alt_fmsl":323,"id":"PAM","desc":"PAMPA VOR-DME"},
+{"type":"VOR","hdg_t":73.3,"dist_nm":159.6,"freq":113.3,"lat":6.36213900,"lon":2.39325000,"rng_nm":130,"alt_fmsl":39,"id":"TYE","desc":"COTONOU VOR-DME"},
+{"type":"NDB","hdg_t":73.2,"dist_nm":160.3,"freq":284,"lat":6.37080600,"lon":2.40250000,"rng_nm":50,"alt_fmsl":0,"id":"CO","desc":"COTONOU NDB"}
+]
+}

@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EFRO","name":"Rovaniemi","lat":66.564822,"lon":25.8304195,"rwys":1,"ils":1,"index":3368737,"path":"e020n60/e025n66"
+,"runways":[
+{"len_m":3001,"wid_m":60.05,"hdg":37,"surf":"Asphalt","rwy1":"03","lat1":66.55410000,"lon1":25.80998600,"rwy2":"21","lat2":66.57554400,"lon2":25.85085300}
+]
+,"radios":[
+{"type":"GND","freq":118.52,"desc":"GND"},
+{"type":"TWR","freq":119.7,"desc":"TWR"},
+{"type":"TWR","freq":118.7,"desc":"TWR"},
+{"type":"APP","freq":125.8,"desc":"APP"},
+{"type":"APP","freq":129.9,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.7,"lat":66.55153600,"lon":25.80510800,"rng_nm":18,"alt_fmsl":632,"hdg":217.13,"id":"RO","rwy":"21","desc":"ILS-cat-II"},
+{"type":"GS","freq":111.7,"lat":66.57446100,"lon":25.84539400,"rng_nm":10,"alt_fmsl":632,"id":"RO","rwy":"21","desc":"GS","gs":3},
+{"type":"DME","freq":111.7,"lat":66.57446100,"lon":25.84539400,"rng_nm":18,"alt_fmsl":673,"id":"RO","rwy":"21","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":240.2,"dist_nm":0.2,"freq":117.7,"lat":66.56253900,"lon":25.82040800,"rng_nm":50,"alt_fmsl":661,"id":"ROI","desc":"ROVANI VOR-DME"},
+{"type":"NDB","hdg_t":36.9,"dist_nm":5.5,"freq":416,"lat":66.63888300,"lon":25.97102200,"rng_nm":30,"alt_fmsl":0,"id":"TOR","desc":"TORAMO NDB"},
+{"type":"NDB","hdg_t":217.2,"dist_nm":7.2,"freq":377,"lat":66.46910000,"lon":25.64880000,"rng_nm":30,"alt_fmsl":0,"id":"PA","desc":"PAPA-ALFA NDB"},
+{"type":"NDB","hdg_t":215.1,"dist_nm":52.5,"freq":373,"lat":65.84646100,"lon":24.60290800,"rng_nm":25,"alt_fmsl":0,"id":"KEM","desc":"KEMI NDB"},
+{"type":"NDB","hdg_t":17.2,"dist_nm":57.2,"freq":368,"lat":67.47180300,"lon":26.56687500,"rng_nm":30,"alt_fmsl":0,"id":"SK","desc":"SIERRA-KILO NDB"},
+{"type":"NDB","hdg_t":341.4,"dist_nm":67.3,"freq":328,"lat":67.62307200,"lon":24.89746700,"rng_nm":30,"alt_fmsl":0,"id":"KIT","desc":"KITTILA NDB"},
+{"type":"NDB","hdg_t":303.1,"dist_nm":80.2,"freq":390,"lat":67.26772220,"lon":22.94272220,"rng_nm":50,"alt_fmsl":0,"id":"PAJ","desc":"Pajala NDB"},
+{"type":"NDB","hdg_t":110.2,"dist_nm":85,"freq":340,"lat":66.04221900,"lon":29.09266400,"rng_nm":30,"alt_fmsl":0,"id":"KS","desc":"KILO-SIERRA NDB"},
+{"type":"VOR","hdg_t":111.1,"dist_nm":89.4,"freq":114.4,"lat":65.99173100,"lon":29.23583600,"rng_nm":50,"alt_fmsl":923,"id":"KLA","desc":"KANTOLA VOR-DME"},
+{"type":"NDB","hdg_t":189.3,"dist_nm":97.4,"freq":350,"lat":64.96632200,"lon":25.21117200,"rng_nm":30,"alt_fmsl":0,"id":"LAA","desc":"LAANILA NDB"},
+{"type":"VOR","hdg_t":186.9,"dist_nm":99,"freq":113.3,"lat":64.93155300,"lon":25.35928300,"rng_nm":130,"alt_fmsl":66,"id":"OUK","desc":"OULU VOR-DME"}
+]
+}

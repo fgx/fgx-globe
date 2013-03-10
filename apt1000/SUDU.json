@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SUDU","name":"Santa Bernardina Intl","lat":-33.35956575,"lon":-56.50141025,"rwys":2,"ils":1,"index":2018857,"path":"w060s40/w057s34"
+,"runways":[
+{"len_m":2280,"wid_m":45.11,"hdg":23,"surf":"Asphalt","rwy1":"03","lat1":-33.36939400,"lon1":-56.50461900,"rwy2":"21","lat2":-33.35050300,"lon2":-56.49493300},
+{"len_m":1452,"wid_m":29.87,"hdg":86,"surf":"Asphalt","rwy1":"09","lat1":-33.35956900,"lon1":-56.51083300,"rwy2":"27","lat2":-33.35879700,"lon2":-56.49525600}
+]
+,"radios":[
+{"type":"TWR","freq":120.4,"desc":"DURAZNO TWR"},
+{"type":"TWR","freq":126.2,"desc":"DURAZNO TWR"},
+{"type":"APP","freq":120.4,"desc":"DURAZNO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":-33.37180600,"lon":-56.50588900,"rng_nm":18,"alt_fmsl":305,"hdg":203.25,"id":"IDUR","rwy":"21","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":-33.35386100,"lon":-56.49522200,"rng_nm":10,"alt_fmsl":305,"id":"IDUR","rwy":"21","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-33.27038900,"lon":-56.45386100,"rng_nm":0,"alt_fmsl":305,"id":"----","rwy":"21","desc":"OM"},
+{"type":"MM","freq":0,"lat":-33.34316700,"lon":-56.49116700,"rng_nm":0,"alt_fmsl":305,"id":"----","rwy":"21","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":53.5,"dist_nm":0.3,"freq":117.5,"lat":-33.35625000,"lon":-56.49605600,"rng_nm":130,"alt_fmsl":295,"id":"DUR","desc":"DURAZNO VOR-DME"},
+{"type":"NDB","hdg_t":27.6,"dist_nm":1.1,"freq":298,"lat":-33.34316700,"lon":-56.49116700,"rng_nm":25,"alt_fmsl":305,"id":"MP","desc":"DURAZNO NDB"},
+{"type":"NDB","hdg_t":200.5,"dist_nm":2,"freq":277,"lat":-33.39161100,"lon":-56.51569400,"rng_nm":25,"alt_fmsl":305,"id":"BD","desc":"DURAZNO NDB"},
+{"type":"NDB","hdg_t":269.7,"dist_nm":2.4,"freq":245,"lat":-33.35975000,"lon":-56.54975000,"rng_nm":60,"alt_fmsl":0,"id":"DO","desc":"DURAZNO NDB"},
+{"type":"NDB","hdg_t":172.1,"dist_nm":86.4,"freq":395,"lat":-34.78952800,"lon":-56.26302800,"rng_nm":40,"alt_fmsl":174,"id":"ASI","desc":"ADAMI NDB"},
+{"type":"NDB","hdg_t":164.4,"dist_nm":87.6,"freq":380,"lat":-34.76841700,"lon":-56.02608300,"rng_nm":25,"alt_fmsl":0,"id":"CAR","desc":"CARRASCO NDB"},
+{"type":"NDB","hdg_t":162.1,"dist_nm":89.7,"freq":280,"lat":-34.78469400,"lon":-55.94341700,"rng_nm":13,"alt_fmsl":0,"id":"CA","desc":"CARRASCO NDB"},
+{"type":"NDB","hdg_t":164.4,"dist_nm":91,"freq":260,"lat":-34.82344400,"lon":-56.00627800,"rng_nm":13,"alt_fmsl":0,"id":"AR","desc":"CARRASCO NDB"},
+{"type":"NDB","hdg_t":223.6,"dist_nm":91.1,"freq":203,"lat":-34.45394400,"lon":-57.77008300,"rng_nm":30,"alt_fmsl":0,"id":"COL","desc":"COLONIA NDB"},
+{"type":"VOR","hdg_t":165,"dist_nm":91.3,"freq":116.9,"lat":-34.83272200,"lon":-56.02513900,"rng_nm":130,"alt_fmsl":98,"id":"CRR","desc":"CARRASCO VOR-DME"},
+{"type":"NDB","hdg_t":306.5,"dist_nm":99.2,"freq":360,"lat":-32.36266700,"lon":-58.06936100,"rng_nm":100,"alt_fmsl":157,"id":"PN","desc":"PAYSANDU NDB"}
+]
+}

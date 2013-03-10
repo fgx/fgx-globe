@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OMFJ","name":"Fujairah Intl","lat":25.1121165,"lon":56.324217,"rwys":1,"ils":1,"index":3873985,"path":"e050n20/e056n25"
+,"runways":[
+{"len_m":3750,"wid_m":45.11,"hdg":112,"surf":"Asphalt","rwy1":"11","lat1":25.11857500,"lon1":56.30703100,"rwy2":"29","lat2":25.10565800,"lon2":56.34140300}
+]
+,"radios":[
+{"type":"GND","freq":119.45,"desc":"GND"},
+{"type":"TWR","freq":124.6,"desc":"TWR"},
+{"type":"APP","freq":129.4,"desc":"RADAR"}
+]
+,"ils":[
+{"type":"ILS","freq":111.5,"lat":25.11977800,"lon":56.30383300,"rng_nm":18,"alt_fmsl":152,"hdg":292.53,"id":"IFJR","rwy":"29","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.5,"lat":25.10555600,"lon":56.33838900,"rng_nm":10,"alt_fmsl":152,"id":"IFJR","rwy":"29","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":112.3,"dist_nm":1.5,"freq":400,"lat":25.10222200,"lon":56.35058300,"rng_nm":75,"alt_fmsl":0,"id":"FUJ","desc":"FUJAIRAH NDB"},
+{"type":"VOR","hdg_t":112.4,"dist_nm":1.6,"freq":114.7,"lat":25.10169400,"lon":56.35194400,"rng_nm":130,"alt_fmsl":54,"id":"FJR","desc":"FUJAIRAH VOR-DME"},
+{"type":"VOR","hdg_t":324.2,"dist_nm":35.1,"freq":113.6,"lat":25.58843100,"lon":55.94632500,"rng_nm":200,"alt_fmsl":149,"id":"RAV","desc":"RAS AL KHAIMAH VOR-DME"},
+{"type":"VOR","hdg_t":286.7,"dist_nm":45.6,"freq":112.3,"lat":25.33015800,"lon":55.52042800,"rng_nm":200,"alt_fmsl":130,"id":"SHJ","desc":"SHARJAH VOR-DME"},
+{"type":"VOR","hdg_t":279.4,"dist_nm":52.8,"freq":115.7,"lat":25.25450800,"lon":55.36572200,"rng_nm":130,"alt_fmsl":37,"id":"DUB","desc":"DUBAI VOR-DME"},
+{"type":"VOR","hdg_t":217.7,"dist_nm":64.3,"freq":112.6,"lat":24.25975000,"lon":55.60636100,"rng_nm":130,"alt_fmsl":842,"id":"ALN","desc":"AL AIN VOR-DME"},
+{"type":"NDB","hdg_t":217.4,"dist_nm":64.9,"freq":399,"lat":24.24861100,"lon":55.60427800,"rng_nm":25,"alt_fmsl":0,"id":"AIN","desc":"AL AIN NDB"},
+{"type":"NDB","hdg_t":303.2,"dist_nm":84.1,"freq":285,"lat":25.87780600,"lon":55.02294400,"rng_nm":25,"alt_fmsl":23,"id":"ABM","desc":"ABUMUSA ISLAND NDB"},
+{"type":"SDME","hdg_t":67.7,"dist_nm":85.5,"freq":116.3,"lat":25.64617200,"lon":57.78385800,"rng_nm":25,"alt_fmsl":13,"id":"JSK","desc":"JASK TACAN"},
+{"type":"VOR","hdg_t":246.7,"dist_nm":99.9,"freq":113,"lat":24.44319400,"lon":54.64647200,"rng_nm":100,"alt_fmsl":68,"id":"AUH","desc":"ABU DHABI VOR-DME"}
+]
+}

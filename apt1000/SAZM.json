@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SAZM","name":"Mar Del Plata Brig Gen D Bartolome","lat":-37.9341905,"lon":-57.5733955,"rwys":1,"ils":1,"index":2002177,"path":"w060s40/w058s38"
+,"runways":[
+{"len_m":2197,"wid_m":60.05,"hdg":122,"surf":"Asphalt","rwy1":"13","lat1":-37.92886400,"lon1":-57.58393300,"rwy2":"31","lat2":-37.93951700,"lon2":-57.56285800}
+]
+,"radios":[
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":120.5,"desc":"TWR/APP"},
+{"type":"APP","freq":124.4,"desc":"CON"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":-37.94091700,"lon":-57.55994400,"rng_nm":18,"alt_fmsl":71,"hdg":122.49,"id":"MP","rwy":"13","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":-37.93158300,"lon":-57.58152800,"rng_nm":10,"alt_fmsl":71,"id":"MP","rwy":"13","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-37.89588900,"lon":-57.64900000,"rng_nm":0,"alt_fmsl":71,"id":"----","rwy":"13","desc":"OM"},
+{"type":"MM","freq":0,"lat":-37.92418100,"lon":-57.59302800,"rng_nm":0,"alt_fmsl":71,"id":"----","rwy":"13","desc":"MM"},
+{"type":"DME","freq":109.5,"lat":-37.93158300,"lon":-57.58152800,"rng_nm":18,"alt_fmsl":70,"id":"MP","rwy":"13","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":332,"dist_nm":0.3,"freq":116.2,"lat":-37.92972200,"lon":-57.57638900,"rng_nm":175,"alt_fmsl":73,"id":"MDP","desc":"MAR DEL PLATA VOR-DME"},
+{"type":"NDB","hdg_t":198,"dist_nm":0.3,"freq":385,"lat":-37.93944400,"lon":-57.57555600,"rng_nm":162,"alt_fmsl":72,"id":"MDP","desc":"MAR DEL PLATA NDB"},
+{"type":"NDB","hdg_t":32.1,"dist_nm":49.4,"freq":242,"lat":-37.23472200,"lon":-57.02388900,"rng_nm":189,"alt_fmsl":33,"id":"GES","desc":"VILLA GESELL NDB"},
+{"type":"VOR","hdg_t":297.7,"dist_nm":89.6,"freq":115.9,"lat":-37.22500000,"lon":-59.22944400,"rng_nm":175,"alt_fmsl":574,"id":"DIL","desc":"TANDIL VOR-DME"},
+{"type":"NDB","hdg_t":298.3,"dist_nm":90,"freq":255,"lat":-37.20833300,"lon":-59.22666700,"rng_nm":25,"alt_fmsl":574,"id":"D","desc":"TANDIL NDB"},
+{"type":"NDB","hdg_t":300,"dist_nm":91.3,"freq":300,"lat":-37.15833300,"lon":-59.22166700,"rng_nm":25,"alt_fmsl":0,"id":"OD","desc":"TANDIL NDB"},
+{"type":"NDB","hdg_t":27.4,"dist_nm":93.2,"freq":365,"lat":-36.54972200,"lon":-56.68388900,"rng_nm":189,"alt_fmsl":13,"id":"STR","desc":"SANTA TERESITA NDB"},
+{"type":"VOR","hdg_t":341.5,"dist_nm":137.6,"freq":115.6,"lat":-35.75111100,"lon":-58.46388900,"rng_nm":185,"alt_fmsl":57,"id":"GBE","desc":"GENERAL BELGRANO VOR"},
+{"type":"NDB","hdg_t":295.4,"dist_nm":141.4,"freq":405,"lat":-36.88851700,"lon":-60.22723300,"rng_nm":173,"alt_fmsl":551,"id":"OLA","desc":"OLAVARRIA NDB"},
+{"type":"NDB","hdg_t":4.8,"dist_nm":155.2,"freq":325,"lat":-35.35277800,"lon":-57.30722200,"rng_nm":216,"alt_fmsl":52,"id":"PDI","desc":"PUNTA INDIO NDB"}
+]
+}

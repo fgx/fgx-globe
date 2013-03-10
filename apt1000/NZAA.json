@@ -1,0 +1,42 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"NZAA","name":"Auckland International","lat":-37.010794,"lon":174.787331,"rwys":2,"ils":2,"index":5803323,"path":"e170s40/e174s38"
+,"runways":[
+{"len_m":3689,"wid_m":46.33,"hdg":71,"surf":"Concrete","rwy1":"05R","lat1":-37.01747887,"lon1":174.76657685,"rwy2":"23L","lat2":-37.00666913,"lon2":174.80578115},
+{"len_m":3310,"wid_m":47.85,"hdg":70,"surf":"Concrete","rwy1":"05L","lat1":-37.01437678,"lon1":174.77090021,"rwy2":"23R","lat2":-37.00465122,"lon2":174.80606579}
+]
+,"radios":[
+{"type":"ATIS","freq":127.8,"desc":"ATIS"},
+{"type":"CLD","freq":128.2,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.7,"desc":"TWR"},
+{"type":"APP","freq":124.3,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-37.00600400,"lon":174.80818200,"rng_nm":18,"alt_fmsl":23,"hdg":70.93,"id":"IAA","rwy":"05R","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.9,"lat":-37.01784900,"lon":174.76519800,"rng_nm":18,"alt_fmsl":23,"hdg":250.98,"id":"IMG","rwy":"23L","desc":"ILS-cat-I"},
+{"type":"LOC","freq":110.1,"lat":-37.00464600,"lon":174.80607600,"rng_nm":18,"alt_fmsl":23,"id":"ISL","rwy":"05L","desc":"LOC"},
+{"type":"LOC","freq":109.5,"lat":-37.01580400,"lon":174.76574700,"rng_nm":18,"alt_fmsl":23,"id":"ITR","rwy":"23R","desc":"LOC"},
+{"type":"GS","freq":110.3,"lat":-37.01647600,"lon":174.77639800,"rng_nm":10,"alt_fmsl":23,"id":"IAA","rwy":"05R","desc":"GS","gs":3},
+{"type":"GS","freq":109.9,"lat":-37.00884600,"lon":174.80204800,"rng_nm":10,"alt_fmsl":23,"id":"IMG","rwy":"23L","desc":"GS","gs":3},
+{"type":"DME","freq":110.3,"lat":-37.01649900,"lon":174.77438400,"rng_nm":18,"alt_fmsl":23,"id":"IAA","rwy":"05R","desc":"DME-ILS"},
+{"type":"DME","freq":109.9,"lat":-37.00861700,"lon":174.80290200,"rng_nm":18,"alt_fmsl":23,"id":"IMG","rwy":"23L","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":73.7,"dist_nm":1.3,"freq":114.8,"lat":-37.00463889,"lon":174.81363889,"rng_nm":130,"alt_fmsl":29,"id":"AA","desc":"AUCKLAND VOR-DME"},
+{"type":"NDB","hdg_t":250.7,"dist_nm":9,"freq":398,"lat":-37.06040800,"lon":174.60965300,"rng_nm":60,"alt_fmsl":0,"id":"OT","desc":"WESTPOINT NDB"},
+{"type":"NDB","hdg_t":71.1,"dist_nm":11.5,"freq":334,"lat":-36.94812200,"lon":175.01466900,"rng_nm":60,"alt_fmsl":0,"id":"HD","desc":"WHITFORD NDB"},
+{"type":"VOR","hdg_t":330.6,"dist_nm":15.3,"freq":108.8,"lat":-36.78680600,"lon":174.63077800,"rng_nm":50,"alt_fmsl":100,"id":"WP","desc":"WHENUAPAI VORTAC"},
+{"type":"NDB","hdg_t":175.2,"dist_nm":15.4,"freq":254,"lat":-37.26765000,"lon":174.81406900,"rng_nm":20,"alt_fmsl":0,"id":"WI","desc":"WAIUKU NDB"},
+{"type":"NDB","hdg_t":126.9,"dist_nm":22.7,"freq":350,"lat":-37.23834400,"lon":175.16683900,"rng_nm":25,"alt_fmsl":0,"id":"SY","desc":"SURREY NDB"},
+{"type":"NDB","hdg_t":114.2,"dist_nm":26.8,"freq":314,"lat":-37.19381100,"lon":175.29863300,"rng_nm":50,"alt_fmsl":0,"id":"RD","desc":"MIRANDA NDB"},
+{"type":"NDB","hdg_t":35.5,"dist_nm":56.3,"freq":274,"lat":-36.24411700,"lon":175.46144700,"rng_nm":50,"alt_fmsl":0,"id":"GB","desc":"GREAT BARRIER NDB"},
+{"type":"VOR","hdg_t":152.5,"dist_nm":56.7,"freq":114,"lat":-37.84926400,"lon":175.33852800,"rng_nm":50,"alt_fmsl":172,"id":"HN","desc":"HAMILTON VOR-DME"},
+{"type":"NDB","hdg_t":153.1,"dist_nm":57.1,"freq":390,"lat":-37.86064200,"lon":175.33091700,"rng_nm":60,"alt_fmsl":0,"id":"HN","desc":"HAMILTON NDB"},
+{"type":"NDB","hdg_t":342.7,"dist_nm":70.5,"freq":366,"lat":-35.88547500,"lon":174.35733600,"rng_nm":70,"alt_fmsl":0,"id":"SF","desc":"SPRINGFIELD NDB"},
+{"type":"NDB","hdg_t":344.3,"dist_nm":77,"freq":326,"lat":-35.77183100,"lon":174.36179400,"rng_nm":50,"alt_fmsl":133,"id":"WR","desc":"WHANGAREI NDB-DME"},
+{"type":"SDME","hdg_t":344.3,"dist_nm":77,"freq":117.3,"lat":-35.77134400,"lon":174.36191900,"rng_nm":50,"alt_fmsl":133,"id":"WR","desc":"WHANGAREI NDB-DME"},
+{"type":"NDB","hdg_t":121.1,"dist_nm":78.1,"freq":346,"lat":-37.67756700,"lon":176.19122200,"rng_nm":40,"alt_fmsl":13,"id":"TG","desc":"TAURANGA NDB-DME"},
+{"type":"SDME","hdg_t":121.1,"dist_nm":78.1,"freq":113.2,"lat":-37.67756700,"lon":176.19122200,"rng_nm":40,"alt_fmsl":13,"id":"TG","desc":"TAURANGA NDB-DME"},
+{"type":"VOR","hdg_t":132.5,"dist_nm":98.1,"freq":112.1,"lat":-38.10805000,"lon":176.31391400,"rng_nm":50,"alt_fmsl":935,"id":"RO","desc":"ROTORUA VOR-DME"}
+]
+}

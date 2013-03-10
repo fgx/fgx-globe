@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SAWG","name":"Rio Gallegos","lat":-51.6088735,"lon":-69.312636,"rwys":1,"ils":1,"index":1804698,"path":"w070s60/w070s52"
+,"runways":[
+{"len_m":3547,"wid_m":45.11,"hdg":85,"surf":"Concrete","rwy1":"07","lat1":-51.61010000,"lon1":-69.33816400,"rwy2":"25","lat2":-51.60764700,"lon2":-69.28710800}
+]
+,"radios":[
+{"type":"APP","freq":119.1,"desc":"APP/TWR"},
+{"type":"APP","freq":124.7,"desc":"CON"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-51.61027800,"lon":-69.34280600,"rng_nm":18,"alt_fmsl":61,"hdg":265.67,"id":"GL","rwy":"25","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.3,"lat":-51.60918600,"lon":-69.29193300,"rng_nm":10,"alt_fmsl":61,"id":"GL","rwy":"25","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":-51.60702800,"lon":-69.27411100,"rng_nm":0,"alt_fmsl":61,"id":"----","rwy":"25","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":-51.60918600,"lon":-69.29193300,"rng_nm":18,"alt_fmsl":61,"id":"GL","rwy":"25","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":259,"dist_nm":0.6,"freq":116.7,"lat":-51.61098600,"lon":-69.33016700,"rng_nm":185,"alt_fmsl":62,"id":"GAL","desc":"RIO GALLEGOS VOR-DME"},
+{"type":"NDB","hdg_t":132.5,"dist_nm":1.4,"freq":330,"lat":-51.62500000,"lon":-69.28444400,"rng_nm":810,"alt_fmsl":62,"id":"GAL","desc":"RIO GALLEGOS NDB"},
+{"type":"NDB","hdg_t":85.6,"dist_nm":1.4,"freq":255,"lat":-51.60702800,"lon":-69.27411100,"rng_nm":25,"alt_fmsl":62,"id":"G","desc":"RIO GALLEGOS NDB"},
+{"type":"NDB","hdg_t":181.7,"dist_nm":67.8,"freq":225,"lat":-52.73805600,"lon":-69.36916700,"rng_nm":50,"alt_fmsl":0,"id":"SOM","desc":"CERRO SOMBRERO NDB"},
+{"type":"NDB","hdg_t":16.5,"dist_nm":99.3,"freq":245,"lat":-50.02166700,"lon":-68.57944400,"rng_nm":189,"alt_fmsl":364,"id":"SCZ","desc":"SANTA CRUZ NDB"},
+{"type":"NDB","hdg_t":17.2,"dist_nm":100.3,"freq":282,"lat":-50.01166700,"lon":-68.54333300,"rng_nm":25,"alt_fmsl":0,"id":"Z","desc":"SANTA CRUZ NDB"},
+{"type":"NDB","hdg_t":213,"dist_nm":100.3,"freq":300,"lat":-53.00055600,"lon":-70.82111100,"rng_nm":25,"alt_fmsl":0,"id":"AS","desc":"PUNTA ARENAS NDB"},
+{"type":"VOR","hdg_t":213.4,"dist_nm":101.2,"freq":114.1,"lat":-53.00373600,"lon":-70.85368100,"rng_nm":130,"alt_fmsl":137,"id":"NAS","desc":"PUNTA ARENAS VOR-DME"},
+{"type":"NDB","hdg_t":213.5,"dist_nm":101.7,"freq":270,"lat":-53.01017500,"lon":-70.86386700,"rng_nm":235,"alt_fmsl":144,"id":"NAS","desc":"PUNTA ARENAS NDB"},
+{"type":"NDB","hdg_t":200.7,"dist_nm":105.5,"freq":340,"lat":-53.24666700,"lon":-70.35222200,"rng_nm":50,"alt_fmsl":0,"id":"CFM","desc":"CAPITAN FUENTES MARTINEZ NDB"}
+]
+}

@@ -1,0 +1,46 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RKTP","name":"Seosan Ab","lat":36.70475325,"lon":126.4860625,"rwys":2,"ils":1,"index":5021609,"path":"e120n30/e126n36"
+,"runways":[
+{"len_m":2728,"wid_m":45.72,"hdg":24,"surf":"Concrete","rwy1":"03L","lat1":36.69397200,"lon1":126.47860800,"rwy2":"21R","lat2":36.71631900,"lon2":126.49133900},
+{"len_m":2732,"wid_m":45.72,"hdg":24,"surf":"Concrete","rwy1":"03R","lat1":36.69316900,"lon1":126.48078100,"rwy2":"21L","lat2":36.71555300,"lon2":126.49352200}
+]
+,"radios":[
+{"type":"ATIS","freq":130.3,"desc":"ATIS"},
+{"type":"TWR","freq":126.2,"desc":"HAEMI TWR"},
+{"type":"TWR","freq":136.77,"desc":"HAEMI TWR"},
+{"type":"APP","freq":124.6,"desc":"HAEMI APP"},
+{"type":"DEP","freq":124.6,"desc":"DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.5,"lat":36.71791100,"lon":126.49484300,"rng_nm":18,"alt_fmsl":39,"hdg":24.51,"id":"ISAN","rwy":"03R","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.5,"lat":36.69498100,"lon":126.48327600,"rng_nm":10,"alt_fmsl":39,"id":"ISAN","rwy":"03R","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":36.68586300,"lon":126.47694400,"rng_nm":0,"alt_fmsl":39,"id":"----","rwy":"03R","desc":"MM"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":330,"dist_nm":0.3,"freq":111.5,"lat":36.71006100,"lon":126.48226400,"rng_nm":25,"alt_fmsl":39,"id":"SAN","desc":"SEOSAN TACAN"},
+{"type":"VOR","hdg_t":58.3,"dist_nm":30.1,"freq":108.2,"lat":36.96776400,"lon":127.02086900,"rng_nm":25,"alt_fmsl":47,"id":"PTK","desc":"PYEONGTAEK VOR-DME"},
+{"type":"NDB","hdg_t":59.4,"dist_nm":30.3,"freq":381,"lat":36.96146400,"lon":127.02963300,"rng_nm":50,"alt_fmsl":38,"id":"RE","desc":"PYEONGTAEK NDB"},
+{"type":"VOR","hdg_t":48.2,"dist_nm":34.9,"freq":114.7,"lat":37.09190000,"lon":127.02974700,"rng_nm":100,"alt_fmsl":34,"id":"OSN","desc":"OSAN VORTAC"},
+{"type":"VOR","hdg_t":130.3,"dist_nm":40.3,"freq":117.5,"lat":36.26722200,"lon":127.11888900,"rng_nm":40,"alt_fmsl":104,"id":"NSN","desc":"NONSAN VOR-DME"},
+{"type":"SDME","hdg_t":37.5,"dist_nm":40.5,"freq":108.5,"lat":37.23990800,"lon":127.00146900,"rng_nm":25,"alt_fmsl":86,"id":"SWN","desc":"SUWON TACAN"},
+{"type":"VOR","hdg_t":356.7,"dist_nm":47.4,"freq":113.8,"lat":37.49491700,"lon":126.43033300,"rng_nm":25,"alt_fmsl":23,"id":"NCN","desc":"INCHEON VOR-DME"},
+{"type":"VOR","hdg_t":26.4,"dist_nm":47.5,"freq":115.5,"lat":37.41388900,"lon":126.92861100,"rng_nm":125,"alt_fmsl":900,"id":"SEL","desc":"ANYANG VORTAC"},
+{"type":"VOR","hdg_t":172.6,"dist_nm":47.9,"freq":112.8,"lat":35.91036700,"lon":126.61136700,"rng_nm":100,"alt_fmsl":61,"id":"KUZ","desc":"KUNSAN VORTAC"},
+{"type":"VOR","hdg_t":88.7,"dist_nm":48.6,"freq":109,"lat":36.71777800,"lon":127.49416700,"rng_nm":25,"alt_fmsl":191,"id":"CHO","desc":"CHEONGJU VOR-DME"},
+{"type":"SDME","hdg_t":89.3,"dist_nm":48.7,"freq":110.5,"lat":36.70933300,"lon":127.49716700,"rng_nm":25,"alt_fmsl":191,"id":"CHJ","desc":"CHEONGJU TACAN"},
+{"type":"NDB","hdg_t":99.4,"dist_nm":49.5,"freq":351,"lat":36.56486100,"lon":127.49738900,"rng_nm":50,"alt_fmsl":388,"id":"CW","desc":"SEONGMU NDB"},
+{"type":"SDME","hdg_t":34.2,"dist_nm":52.6,"freq":110.9,"lat":37.42883300,"lon":127.10550000,"rng_nm":25,"alt_fmsl":133,"id":"SOL","desc":"SEOUL TACAN"},
+{"type":"VOR","hdg_t":34.2,"dist_nm":53,"freq":113,"lat":37.43520300,"lon":127.11017800,"rng_nm":25,"alt_fmsl":82,"id":"KSM","desc":"SEOUL VOR-DME"},
+{"type":"VOR","hdg_t":15.9,"dist_nm":53.1,"freq":113.6,"lat":37.55752800,"lon":126.79202800,"rng_nm":25,"alt_fmsl":49,"id":"KIP","desc":"GIMPO VOR-DME"},
+{"type":"VOR","hdg_t":57.8,"dist_nm":56.4,"freq":117.2,"lat":37.20169400,"lon":127.48255300,"rng_nm":25,"alt_fmsl":255,"id":"ICN","desc":"ICHEON VOR"},
+{"type":"VOR","hdg_t":20.9,"dist_nm":66.9,"freq":114.9,"lat":37.74797200,"lon":126.98825000,"rng_nm":130,"alt_fmsl":1368,"id":"YJU","desc":"YANGJU VOR-DME"},
+{"type":"SDME","hdg_t":73.3,"dist_nm":70.4,"freq":111.3,"lat":37.03308900,"lon":127.89191900,"rng_nm":25,"alt_fmsl":281,"id":"JWN","desc":"JUNGWON TACAN"},
+{"type":"NDB","hdg_t":59.6,"dist_nm":78.9,"freq":274,"lat":37.36166700,"lon":127.91027800,"rng_nm":15,"alt_fmsl":329,"id":"WJ","desc":"WONJU NDB"},
+{"type":"SDME","hdg_t":56.8,"dist_nm":85,"freq":111.6,"lat":37.47125800,"lon":127.97756100,"rng_nm":25,"alt_fmsl":481,"id":"WNJ","desc":"WONJU TACAN"},
+{"type":"VOR","hdg_t":56.6,"dist_nm":85.1,"freq":110.2,"lat":37.47583300,"lon":127.97500000,"rng_nm":130,"alt_fmsl":474,"id":"HGS","desc":"WONJU VOR-DME"},
+{"type":"VOR","hdg_t":92.2,"dist_nm":88.8,"freq":114.8,"lat":36.63202800,"lon":128.32538900,"rng_nm":130,"alt_fmsl":400,"id":"CUN","desc":"YECHEON VOR-DME"},
+{"type":"SDME","hdg_t":92.1,"dist_nm":90.7,"freq":108.9,"lat":36.63412800,"lon":128.36439200,"rng_nm":25,"alt_fmsl":354,"id":"YCN","desc":"YECHEON TACAN"},
+{"type":"VOR","hdg_t":170.3,"dist_nm":95.9,"freq":114.4,"lat":35.12616700,"lon":126.81222200,"rng_nm":100,"alt_fmsl":42,"id":"KWA","desc":"GWANGJU VOR-DME"},
+{"type":"SDME","hdg_t":170.7,"dist_nm":96.2,"freq":114.1,"lat":35.11883100,"lon":126.80038300,"rng_nm":100,"alt_fmsl":40,"id":"KWJ","desc":"GWANGJU TACAN"}
+]
+}

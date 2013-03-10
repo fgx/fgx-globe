@@ -1,0 +1,44 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LTAI","name":"Antalya","lat":36.8995981666667,"lon":30.7975073333333,"rwys":3,"ils":3,"index":3448763,"path":"e030n30/e030n36"
+,"runways":[
+{"len_m":3387,"wid_m":45.11,"hdg":186,"surf":"Concrete","rwy1":"18C","lat1":36.91548100,"lon1":30.79474700,"rwy2":"36C","lat2":36.88514400,"lon2":30.79058900},
+{"len_m":3400,"wid_m":45.11,"hdg":186,"surf":"Concrete","rwy1":"18L","lat1":36.91135000,"lon1":30.81140600,"rwy2":"36R","lat2":36.88089700,"lon2":30.80721400},
+{"len_m":2977,"wid_m":45.11,"hdg":186,"surf":"Asphalt","rwy1":"18R","lat1":36.91569200,"lon1":30.79236900,"rwy2":"36L","lat2":36.88902500,"lon2":30.78871900}
+]
+,"radios":[
+{"type":"ATIS","freq":118.27,"desc":"ATIS"},
+{"type":"CLD","freq":123.17,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":126.1,"desc":"TWR"},
+{"type":"APP","freq":128.3,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":108.7,"lat":36.88222200,"lon":30.79027800,"rng_nm":18,"alt_fmsl":177,"hdg":186.13,"id":"IATY","rwy":"18C","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":36.91888900,"lon":30.79527800,"rng_nm":18,"alt_fmsl":177,"hdg":6.34,"id":"IAYT","rwy":"36C","desc":"ILS-cat-II"},
+{"type":"ILS","freq":108.1,"lat":36.91416700,"lon":30.81166700,"rng_nm":18,"alt_fmsl":177,"hdg":6.11,"id":"IALY","rwy":"36R","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.7,"lat":36.91250000,"lon":30.79305600,"rng_nm":10,"alt_fmsl":177,"id":"IATY","rwy":"18C","desc":"GS","gs":3},
+{"type":"GS","freq":110.3,"lat":36.88777800,"lon":30.79222200,"rng_nm":10,"alt_fmsl":177,"id":"IAYT","rwy":"36C","desc":"GS","gs":3},
+{"type":"GS","freq":108.1,"lat":36.88333300,"lon":30.80888900,"rng_nm":10,"alt_fmsl":177,"id":"IALY","rwy":"36R","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":37.00000000,"lon":30.80416700,"rng_nm":0,"alt_fmsl":177,"id":"----","rwy":"18C","desc":"OM"},
+{"type":"MM","freq":0,"lat":36.92444400,"lon":30.79611100,"rng_nm":0,"alt_fmsl":177,"id":"----","rwy":"18C","desc":"MM"},
+{"type":"MM","freq":0,"lat":36.87555600,"lon":30.78916700,"rng_nm":0,"alt_fmsl":177,"id":"----","rwy":"36C","desc":"MM"},
+{"type":"MM","freq":0,"lat":36.87222200,"lon":30.80666700,"rng_nm":0,"alt_fmsl":177,"id":"----","rwy":"36R","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":36.88777800,"lon":30.79222200,"rng_nm":18,"alt_fmsl":54,"id":"IAYT","rwy":"36C","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":323.4,"dist_nm":1.1,"freq":115.5,"lat":36.91555600,"lon":30.78277800,"rng_nm":130,"alt_fmsl":177,"id":"AYT","desc":"ANTALYA TACAN"},
+{"type":"VOR","hdg_t":358.8,"dist_nm":1.3,"freq":114,"lat":36.92138900,"lon":30.79694400,"rng_nm":130,"alt_fmsl":167,"id":"AYT","desc":"ANTALYA VOR-DME"},
+{"type":"VOR","hdg_t":159.8,"dist_nm":1.3,"freq":113.6,"lat":36.87888900,"lon":30.80694400,"rng_nm":25,"alt_fmsl":177,"id":"LRA","desc":"LARA VOR-DME"},
+{"type":"NDB","hdg_t":196,"dist_nm":1.4,"freq":302,"lat":36.87615800,"lon":30.78912200,"rng_nm":25,"alt_fmsl":0,"id":"YT","desc":"ANTALYA NDB"},
+{"type":"SDME","hdg_t":195.5,"dist_nm":1.4,"freq":109.1,"lat":36.87555600,"lon":30.78916700,"rng_nm":50,"alt_fmsl":0,"id":"ANT","desc":"ANTALYA DME"},
+{"type":"NDB","hdg_t":265.2,"dist_nm":16.5,"freq":413,"lat":36.87616100,"lon":30.45523300,"rng_nm":25,"alt_fmsl":0,"id":"GEY","desc":"ANTALYA NDB"},
+{"type":"VOR","hdg_t":339.9,"dist_nm":60.7,"freq":117.5,"lat":37.85111100,"lon":30.35833300,"rng_nm":75,"alt_fmsl":2841,"id":"IPT","desc":"ISPARTA VOR-DME"},
+{"type":"NDB","hdg_t":339.9,"dist_nm":60.8,"freq":349,"lat":37.85333300,"lon":30.35833300,"rng_nm":100,"alt_fmsl":0,"id":"IPT","desc":"ISPARTA NDB"},
+{"type":"NDB","hdg_t":232.8,"dist_nm":74.4,"freq":416,"lat":36.14222200,"lon":29.57611100,"rng_nm":25,"alt_fmsl":0,"id":"KZO","desc":"KASTELORIZO NDB"},
+{"type":"NDB","hdg_t":315.8,"dist_nm":74.7,"freq":433,"lat":37.78972200,"lon":29.70416700,"rng_nm":50,"alt_fmsl":2828,"id":"CRD","desc":"CARDAK NDB"},
+{"type":"VOR","hdg_t":315.8,"dist_nm":74.7,"freq":112,"lat":37.78972200,"lon":29.70416700,"rng_nm":50,"alt_fmsl":2828,"id":"CRD","desc":"CARDAK VOR-DME"},
+{"type":"SDME","hdg_t":264,"dist_nm":97.4,"freq":115.3,"lat":36.71283900,"lon":28.78894200,"rng_nm":25,"alt_fmsl":55,"id":"DAL","desc":"DALAMAN TACAN"},
+{"type":"NDB","hdg_t":263.2,"dist_nm":97.9,"freq":346,"lat":36.68955300,"lon":28.78192800,"rng_nm":25,"alt_fmsl":20,"id":"DAL","desc":"DALAMAN NDB"},
+{"type":"VOR","hdg_t":263.2,"dist_nm":97.9,"freq":114.7,"lat":36.68955300,"lon":28.78192800,"rng_nm":130,"alt_fmsl":33,"id":"DAL","desc":"DALAMAN VOR-DME"}
+]
+}

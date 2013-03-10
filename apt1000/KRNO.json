@@ -1,0 +1,43 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KRNO","name":"Reno Tahoe Intl","lat":39.4988366566667,"lon":-119.768015713333,"rwys":3,"ils":2,"index":991320,"path":"w120n30/w120n39"
+,"runways":[
+{"len_m":3352,"wid_m":46.02,"hdg":180,"surf":"Concrete","rwy1":"16R","lat1":39.51385299,"lon1":-119.76921488,"rwy2":"34L","lat2":39.48365599,"lon2":-119.76929588},
+{"len_m":2742,"wid_m":46.02,"hdg":180,"surf":"Concrete","rwy1":"16L","lat1":39.51384799,"lon1":-119.76673488,"rwy2":"34R","lat2":39.48914499,"lon2":-119.76679888},
+{"len_m":1859,"wid_m":46.02,"hdg":90,"surf":"Concrete","rwy1":"07","lat1":39.49629499,"lon1":-119.77883488,"rwy2":"25","lat2":39.49622299,"lon2":-119.75721488}
+]
+,"radios":[
+{"type":"ATIS","freq":135.8,"desc":"ATIS"},
+{"type":"CTAF","freq":122.95,"desc":"UNICOM"},
+{"type":"CLD","freq":124.9,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.7,"desc":"TWR"},
+{"type":"APP","freq":119.2,"desc":"APP/DEP"},
+{"type":"APP","freq":126.3,"desc":"APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.9,"lat":39.48042200,"lon":-119.76930600,"rng_nm":25,"alt_fmsl":4420,"hdg":180.12,"id":"IRNO","rwy":"16R","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.9,"lat":39.51666667,"lon":-119.76920100,"rng_nm":25,"alt_fmsl":4410,"hdg":0.12,"id":"IAGY","rwy":"34L","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.9,"lat":39.50780600,"lon":-119.76823900,"rng_nm":10,"alt_fmsl":4408,"id":"IRNO","rwy":"16R","desc":"GS","gs":3.1},
+{"type":"GS","freq":109.9,"lat":39.48730000,"lon":-119.76823900,"rng_nm":10,"alt_fmsl":4408,"id":"IAGY","rwy":"34L","desc":"GS","gs":3.54},
+{"type":"OM","freq":0,"lat":39.60763300,"lon":-119.76893900,"rng_nm":0,"alt_fmsl":4420,"id":"----","rwy":"16R","desc":"OM"},
+{"type":"MM","freq":0,"lat":39.51954200,"lon":-119.76920600,"rng_nm":0,"alt_fmsl":4420,"id":"----","rwy":"16R","desc":"MM"},
+{"type":"DME","freq":110.9,"lat":39.48001400,"lon":-119.76826400,"rng_nm":18,"alt_fmsl":4410,"id":"IRNO","rwy":"16R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":357.4,"dist_nm":1.2,"freq":351,"lat":39.51954200,"lon":-119.76920600,"rng_nm":15,"alt_fmsl":4400,"id":"NO","desc":"Josef NDB"},
+{"type":"VOR","hdg_t":69.4,"dist_nm":5.5,"freq":117.9,"lat":39.53127778,"lon":-119.65608333,"rng_nm":130,"alt_fmsl":5949,"id":"FMG","desc":"MUSTANG VORTAC"},
+{"type":"VOR","hdg_t":230.8,"dist_nm":30.1,"freq":113.2,"lat":39.18033333,"lon":-120.26961111,"rng_nm":40,"alt_fmsl":8850,"id":"SWR","desc":"SQUAW VALLEY VOR-DME"},
+{"type":"VOR","hdg_t":88,"dist_nm":35.7,"freq":114.1,"lat":39.51641667,"lon":-118.99769444,"rng_nm":40,"alt_fmsl":4085,"id":"HZN","desc":"HAZEN VORTAC"},
+{"type":"VOR","hdg_t":339,"dist_nm":49.3,"freq":109,"lat":40.26786111,"lon":-120.15197222,"rng_nm":25,"alt_fmsl":4006,"id":"AHC","desc":"AMEDEE VOR-DME"},
+{"type":"SDME","hdg_t":95.3,"dist_nm":49.6,"freq":113.5,"lat":39.41686400,"lon":-118.70486900,"rng_nm":130,"alt_fmsl":3929,"id":"NFL","desc":"FALLON TACAN"},
+{"type":"VOR","hdg_t":224.9,"dist_nm":65.2,"freq":115.5,"lat":38.72472222,"lon":-120.74925000,"rng_nm":40,"alt_fmsl":2583,"id":"HNW","desc":"HANGTOWN VOR-DME"},
+{"type":"VOR","hdg_t":55.3,"dist_nm":66.6,"freq":116.5,"lat":40.12491667,"lon":-118.57763889,"rng_nm":40,"alt_fmsl":4784,"id":"LLC","desc":"LOVELOCK VORTAC"},
+{"type":"SDME","hdg_t":254.8,"dist_nm":80.8,"freq":108.6,"lat":39.13475400,"lon":-121.44065500,"rng_nm":25,"alt_fmsl":165,"id":"BAB","desc":"BEALE TACAN"},
+{"type":"VOR","hdg_t":254.6,"dist_nm":87.4,"freq":110.8,"lat":39.09863889,"lon":-121.57305556,"rng_nm":25,"alt_fmsl":62,"id":"MYV","desc":"MARYSVILLE VOR-DME"},
+{"type":"NDB","hdg_t":257.6,"dist_nm":87.9,"freq":222,"lat":39.16939100,"lon":-121.60984800,"rng_nm":25,"alt_fmsl":64,"id":"MY","desc":"HALOW NDB"},
+{"type":"VOR","hdg_t":237.4,"dist_nm":91.2,"freq":109.2,"lat":38.66738889,"lon":-121.40416667,"rng_nm":25,"alt_fmsl":72,"id":"MCC","desc":"MC CLELLAN VOR-DME"},
+{"type":"NDB","hdg_t":244.3,"dist_nm":95.3,"freq":230,"lat":38.79494444,"lon":-121.59936111,"rng_nm":50,"alt_fmsl":0,"id":"SM","desc":"METRE NDB"},
+{"type":"VOR","hdg_t":280.9,"dist_nm":97.9,"freq":109.8,"lat":39.78983333,"lon":-121.84719444,"rng_nm":25,"alt_fmsl":215,"id":"CIC","desc":"CHICO VOR-DME"},
+{"type":"VOR","hdg_t":124,"dist_nm":98.5,"freq":115.1,"lat":38.56530556,"lon":-118.03286111,"rng_nm":130,"alt_fmsl":7860,"id":"MVA","desc":"MINA VORTAC"}
+]
+}

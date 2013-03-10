@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HLLS","name":"Sebha","lat":26.989074,"lon":14.46622975,"rwys":2,"ils":1,"index":3185977,"path":"e010n20/e014n26"
+,"runways":[
+{"len_m":3589,"wid_m":45.11,"hdg":132,"surf":"Asphalt","rwy1":"13","lat1":27.00447500,"lon1":14.45137800,"rwy2":"31","lat2":26.98251900,"lon2":14.47797200},
+{"len_m":1705,"wid_m":29.87,"hdg":61,"surf":"Asphalt","rwy1":"06","lat1":26.98093300,"lon1":14.46026100,"rwy2":"24","lat2":26.98836900,"lon2":14.47530800}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":119.1,"desc":"TWR"},
+{"type":"APP","freq":119.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":26.98158566,"lon":14.47910549,"rng_nm":18,"alt_fmsl":1427,"hdg":132.82,"id":"ISBH","rwy":"13","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":27.00321437,"lon":14.45426401,"rng_nm":10,"alt_fmsl":1427,"id":"ISBH","rwy":"13","desc":"GS","gs":2.5},
+{"type":"OM","freq":0,"lat":27.04865200,"lon":14.39786324,"rng_nm":0,"alt_fmsl":1427,"id":"----","rwy":"13","desc":"OM"},
+{"type":"MM","freq":0,"lat":27.00900597,"lon":14.44588931,"rng_nm":0,"alt_fmsl":1427,"id":"----","rwy":"13","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":128.4,"dist_nm":1.8,"freq":114.7,"lat":26.96964200,"lon":14.49356400,"rng_nm":130,"alt_fmsl":1394,"id":"SEB","desc":"SEBHA VOR-DME"},
+{"type":"NDB","hdg_t":48.9,"dist_nm":2.3,"freq":283,"lat":27.01451700,"lon":14.49880600,"rng_nm":150,"alt_fmsl":0,"id":"SEB","desc":"SEBHA NDB"},
+{"type":"NDB","hdg_t":255.9,"dist_nm":93.4,"freq":291,"lat":26.59916700,"lon":12.78055600,"rng_nm":100,"alt_fmsl":0,"id":"UBR","desc":"UBARI NDB"},
+{"type":"NDB","hdg_t":31.1,"dist_nm":150.5,"freq":397,"lat":29.13333300,"lon":15.95000000,"rng_nm":75,"alt_fmsl":919,"id":"HON","desc":"HON NDB"},
+{"type":"NDB","hdg_t":330.7,"dist_nm":175.1,"freq":415,"lat":29.53333300,"lon":12.83333300,"rng_nm":25,"alt_fmsl":0,"id":"GW","desc":"AL HAMADA NDB"},
+{"type":"NDB","hdg_t":57.1,"dist_nm":179.1,"freq":270,"lat":28.58333300,"lon":17.31666700,"rng_nm":25,"alt_fmsl":0,"id":"PRC","desc":"ZELLA 74 NDB"},
+{"type":"NDB","hdg_t":68.4,"dist_nm":207.9,"freq":245,"lat":28.21666700,"lon":18.11666700,"rng_nm":25,"alt_fmsl":0,"id":"PRB","desc":"SABAH 74 NDB"},
+{"type":"NDB","hdg_t":347.3,"dist_nm":209,"freq":337,"lat":30.39472200,"lon":13.58583300,"rng_nm":150,"alt_fmsl":0,"id":"GRT","desc":"GHERIAT NDB"},
+{"type":"NDB","hdg_t":52,"dist_nm":235.9,"freq":410,"lat":29.36666700,"lon":18.01666700,"rng_nm":25,"alt_fmsl":0,"id":"VH","desc":"HOFRA V10 NDB"},
+{"type":"VOR","hdg_t":50.2,"dist_nm":236,"freq":116.1,"lat":29.46742800,"lon":17.93160300,"rng_nm":40,"alt_fmsl":250,"id":"DHR","desc":"DAHRA VOR-DME"}
+]
+}

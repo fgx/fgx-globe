@@ -1,0 +1,39 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VTSS","name":"Songkhla Hat Yai Intl","lat":6.9325135,"lon":100.3929765,"rwys":1,"ils":1,"index":4593723,"path":"e100n00/e100n06"
+,"runways":[
+{"len_m":3045,"wid_m":45.11,"hdg":82,"surf":"Asphalt","rwy1":"08","lat1":6.93083300,"lon1":100.37930000,"rwy2":"26","lat2":6.93419400,"lon2":100.40665300}
+]
+,"radios":[
+{"type":"ATIS","freq":128.8,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":126.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":6.93029700,"lon":100.37503900,"rng_nm":18,"alt_fmsl":65,"hdg":262.92,"id":"IHTY","rwy":"26","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":6.93300800,"lon":100.40534400,"rng_nm":10,"alt_fmsl":58,"id":"IHTY","rwy":"26","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":6.93029700,"lon":100.37503900,"rng_nm":18,"alt_fmsl":124,"id":"IHTY","rwy":"26","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":195,"dist_nm":0.1,"freq":115.7,"lat":6.93021900,"lon":100.39235900,"rng_nm":50,"alt_fmsl":90,"id":"HTY","desc":"HAT YAI TACAN"},
+{"type":"NDB","hdg_t":313.6,"dist_nm":0.3,"freq":328,"lat":6.93638900,"lon":100.38890800,"rng_nm":50,"alt_fmsl":0,"id":"HY","desc":"HAT YAI NDB"},
+{"type":"VOR","hdg_t":287.3,"dist_nm":0.3,"freq":115.3,"lat":6.93409700,"lon":100.38790800,"rng_nm":50,"alt_fmsl":122,"id":"HTY","desc":"HAT YAI VOR-DME"},
+{"type":"NDB","hdg_t":39.5,"dist_nm":19.7,"freq":410,"lat":7.18805600,"lon":100.60416700,"rng_nm":75,"alt_fmsl":12,"id":"SK","desc":"SONGKHLA NDB"},
+{"type":"VOR","hdg_t":39.4,"dist_nm":19.8,"freq":113.5,"lat":7.18879200,"lon":100.60419700,"rng_nm":50,"alt_fmsl":12,"id":"SKL","desc":"SONGKHLA VOR-DME"},
+{"type":"VOR","hdg_t":179.6,"dist_nm":44.5,"freq":113.6,"lat":6.18566700,"lon":100.39700000,"rng_nm":130,"alt_fmsl":15,"id":"VAS","desc":"ALOR STAR VOR-DME"},
+{"type":"NDB","hdg_t":100.7,"dist_nm":45.8,"freq":201,"lat":6.78845800,"lon":101.14791900,"rng_nm":50,"alt_fmsl":0,"id":"PT","desc":"PATTANI NDB"},
+{"type":"NDB","hdg_t":181.5,"dist_nm":46.1,"freq":385,"lat":6.15919400,"lon":100.37155600,"rng_nm":50,"alt_fmsl":0,"id":"AT","desc":"ALOR STAR NDB"},
+{"type":"VOR","hdg_t":228.2,"dist_nm":51.7,"freq":114.1,"lat":6.35541700,"lon":99.74738900,"rng_nm":25,"alt_fmsl":57,"id":"VPL","desc":"LANGKAWI VOR-DME"},
+{"type":"NDB","hdg_t":227.4,"dist_nm":53.9,"freq":344,"lat":6.32055600,"lon":99.72777800,"rng_nm":50,"alt_fmsl":0,"id":"LK","desc":"LANGKAWI NDB"},
+{"type":"VOR","hdg_t":307,"dist_nm":57.2,"freq":116.6,"lat":7.50893600,"lon":99.62601900,"rng_nm":50,"alt_fmsl":67,"id":"TRN","desc":"TRANG VOR-DME"},
+{"type":"NDB","hdg_t":306.9,"dist_nm":57.6,"freq":248,"lat":7.51183100,"lon":99.62009400,"rng_nm":25,"alt_fmsl":0,"id":"TR","desc":"TRANG NDB"},
+{"type":"VOR","hdg_t":106.6,"dist_nm":84.2,"freq":116.3,"lat":6.52728900,"lon":101.74513300,"rng_nm":50,"alt_fmsl":18,"id":"NTW","desc":"NARATHIWAT VOR-DME"},
+{"type":"NDB","hdg_t":106.7,"dist_nm":84.5,"freq":383,"lat":6.52239200,"lon":101.74854200,"rng_nm":50,"alt_fmsl":0,"id":"NT","desc":"NARATHIWAT NDB"},
+{"type":"VOR","hdg_t":179.9,"dist_nm":86.9,"freq":113.3,"lat":5.47630600,"lon":100.39369400,"rng_nm":130,"alt_fmsl":11,"id":"VBT","desc":"BUTTERWORTH VORTAC"},
+{"type":"SDME","hdg_t":179.9,"dist_nm":87.2,"freq":113.5,"lat":5.47186100,"lon":100.39313900,"rng_nm":130,"alt_fmsl":11,"id":"BTR","desc":"BUTTERWORTH TACAN"},
+{"type":"NDB","hdg_t":344.3,"dist_nm":94.8,"freq":345,"lat":8.46166700,"lon":99.96166700,"rng_nm":25,"alt_fmsl":0,"id":"NS","desc":"CHA IAN NDB"},
+{"type":"NDB","hdg_t":183.2,"dist_nm":96,"freq":406,"lat":5.32630600,"lon":100.30205600,"rng_nm":50,"alt_fmsl":0,"id":"PNG","desc":"PENANG NDB"},
+{"type":"VOR","hdg_t":184.5,"dist_nm":99,"freq":116.2,"lat":5.27963900,"lon":100.26038900,"rng_nm":25,"alt_fmsl":11,"id":"VPG","desc":"PENANG VOR-DME"},
+{"type":"VOR","hdg_t":344.5,"dist_nm":99.6,"freq":117.4,"lat":8.54165300,"lon":99.94685300,"rng_nm":130,"alt_fmsl":13,"id":"NKS","desc":"NAKHON SI THAMMARAT VOR-DME"}
+]
+}

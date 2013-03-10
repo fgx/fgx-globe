@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VTPO","name":"Sukhothai","lat":17.237992,"lon":99.818182,"rwys":1,"ils":1,"index":4577998,"path":"e090n10/e099n17"
+,"runways":[
+{"len_m":2100,"wid_m":45.11,"hdg":181,"surf":"Asphalt","rwy1":"18","lat1":17.24747800,"lon1":99.81836400,"rwy2":"36","lat2":17.22850600,"lon2":99.81800000}
+]
+,"radios":[
+{"type":"GND","freq":127,"desc":"GND"},
+{"type":"TWR","freq":118.7,"desc":"TWR"},
+{"type":"APP","freq":120.7,"desc":"PHITSANULOK APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":17.24944700,"lon":99.81856400,"rng_nm":18,"alt_fmsl":176,"hdg":1.47,"id":"ISKT","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":17.23085300,"lon":99.81724400,"rng_nm":10,"alt_fmsl":179,"id":"ISKT","rwy":"36","desc":"GS","gs":3},
+{"type":"DME","freq":109.5,"lat":17.24940300,"lon":99.81923300,"rng_nm":18,"alt_fmsl":176,"id":"ISKT","rwy":"36","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":126.9,"dist_nm":0.2,"freq":292,"lat":17.23522500,"lon":99.82200800,"rng_nm":50,"alt_fmsl":181,"id":"THS","desc":"SUKHOTHAI NDB-DME"},
+{"type":"SDME","hdg_t":121.4,"dist_nm":0.2,"freq":110.3,"lat":17.23563100,"lon":99.82219200,"rng_nm":50,"alt_fmsl":181,"id":"THS","desc":"SUKHOTHAI NDB-DME"},
+{"type":"NDB","hdg_t":135,"dist_nm":37.2,"freq":263,"lat":16.79595600,"lon":100.27572800,"rng_nm":50,"alt_fmsl":145,"id":"PL","desc":"PHITSANULOK NDB"},
+{"type":"SDME","hdg_t":135.3,"dist_nm":37.4,"freq":115.2,"lat":16.79142100,"lon":100.27503500,"rng_nm":50,"alt_fmsl":144,"id":"PSL","desc":"PHITSANULOK TACAN"},
+{"type":"NDB","hdg_t":238.2,"dist_nm":38.3,"freq":332,"lat":16.89951100,"lon":99.25219700,"rng_nm":25,"alt_fmsl":0,"id":"TK","desc":"TAK NDB"},
+{"type":"VOR","hdg_t":135.6,"dist_nm":38.9,"freq":114.1,"lat":16.77037200,"lon":100.29130600,"rng_nm":50,"alt_fmsl":145,"id":"PSL","desc":"PHITSANULOK VOR-DME"},
+{"type":"NDB","hdg_t":20.2,"dist_nm":56.7,"freq":340,"lat":18.12948300,"lon":100.16136400,"rng_nm":50,"alt_fmsl":0,"id":"PR","desc":"PHRAE NDB"},
+{"type":"VOR","hdg_t":20.3,"dist_nm":57.1,"freq":111.8,"lat":18.13410600,"lon":100.16620800,"rng_nm":130,"alt_fmsl":538,"id":"PAE","desc":"PHRAE VOR-DME"},
+{"type":"NDB","hdg_t":344,"dist_nm":64.6,"freq":395,"lat":18.27802200,"lon":99.50746700,"rng_nm":50,"alt_fmsl":809,"id":"LP","desc":"LAMPANG NDB"},
+{"type":"VOR","hdg_t":343.8,"dist_nm":64.6,"freq":114.7,"lat":18.27687500,"lon":99.50240000,"rng_nm":50,"alt_fmsl":809,"id":"LPN","desc":"LAMPANG VOR-DME"},
+{"type":"NDB","hdg_t":246.6,"dist_nm":80.1,"freq":316,"lat":16.70193600,"lon":98.53979200,"rng_nm":50,"alt_fmsl":690,"id":"MS","desc":"MAE SOT NDB"},
+{"type":"VOR","hdg_t":246.4,"dist_nm":80.1,"freq":116.7,"lat":16.69868600,"lon":98.54210600,"rng_nm":50,"alt_fmsl":690,"id":"MST","desc":"MAE SOT VOR-DME"},
+{"type":"VOR","hdg_t":112.7,"dist_nm":86,"freq":115.4,"lat":16.67601700,"lon":101.19670000,"rng_nm":50,"alt_fmsl":450,"id":"PCB","desc":"PHETCHABUN VOR-DME"},
+{"type":"NDB","hdg_t":113.4,"dist_nm":86.1,"freq":283,"lat":16.66086900,"lon":101.19036100,"rng_nm":25,"alt_fmsl":0,"id":"PH","desc":"PHETCHABUN NDB"}
+]
+}

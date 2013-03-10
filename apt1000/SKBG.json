@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SKBG","name":"Palonegro","lat":7.12653797,"lon":-73.183337815,"rwys":1,"ils":1,"index":1742926,"path":"w080n00/w074n07"
+,"runways":[
+{"len_m":2260,"wid_m":49.99,"hdg":159,"surf":"Asphalt","rwy1":"17","lat1":7.13605600,"lon1":-73.18838900,"rwy2":"35","lat2":7.11694400,"lon2":-73.18113900}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":32,"wid_m":32.00,"hdg":-73,"surf":"Transparent","lat1":7.12657594,"lon1":-73.18191163}
+]
+,"radios":[
+{"type":"TWR","freq":118.3,"desc":"Tower Frequency"},
+{"type":"APP","freq":119,"desc":"Approach Frequency"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":7.13717561,"lon":-73.18881358,"rng_nm":18,"alt_fmsl":3897,"hdg":339.37,"id":"IBGA","rwy":"35","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":7.11922125,"lon":-73.18288893,"rng_nm":10,"alt_fmsl":3897,"id":"IBGA","rwy":"35","desc":"GS","gs":3},
+{"type":"DME","freq":110.7,"lat":7.11922125,"lon":-73.18288893,"rng_nm":18,"alt_fmsl":3897,"id":"IBGA","rwy":"35","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":348.1,"dist_nm":0.3,"freq":113.5,"lat":7.13155556,"lon":-73.18438889,"rng_nm":130,"alt_fmsl":3958,"id":"BGA","desc":"BUCARAMANGA VOR-DME"},
+{"type":"NDB","hdg_t":159.4,"dist_nm":15.8,"freq":400,"lat":6.87755556,"lon":-73.08975000,"rng_nm":50,"alt_fmsl":0,"id":"PIE","desc":"PIEDECUESTA NDB"},
+{"type":"VOR","hdg_t":261,"dist_nm":37.5,"freq":115.9,"lat":7.02852778,"lon":-73.80550000,"rng_nm":130,"alt_fmsl":424,"id":"EJA","desc":"BARRANCABERMEJA VOR-DME"},
+{"type":"VOR","hdg_t":39.5,"dist_nm":62.5,"freq":113.3,"lat":7.93361111,"lon":-72.51388889,"rng_nm":130,"alt_fmsl":1070,"id":"CUC","desc":"CUCUTA VOR-DME"},
+{"type":"NDB","hdg_t":38.2,"dist_nm":62.8,"freq":264,"lat":7.95305600,"lon":-72.52916700,"rng_nm":50,"alt_fmsl":0,"id":"UC","desc":"CUCUTA NDB"},
+{"type":"NDB","hdg_t":33.4,"dist_nm":65.1,"freq":395,"lat":8.03694400,"lon":-72.57972200,"rng_nm":50,"alt_fmsl":0,"id":"CU","desc":"CUCUTA NDB"},
+{"type":"NDB","hdg_t":55.3,"dist_nm":71.1,"freq":310,"lat":7.80305600,"lon":-72.19977800,"rng_nm":50,"alt_fmsl":3281,"id":"PRM","desc":"PARAMILLO NDB"},
+{"type":"SDME","hdg_t":69,"dist_nm":74.3,"freq":115.3,"lat":7.56972200,"lon":-72.01869400,"rng_nm":130,"alt_fmsl":1083,"id":"STD","desc":"SANTO DOMINGO TACAN"},
+{"type":"NDB","hdg_t":72,"dist_nm":76.4,"freq":237,"lat":7.51891667,"lon":-71.96358333,"rng_nm":50,"alt_fmsl":0,"id":"EPL","desc":"EL PINAL NDB"},
+{"type":"NDB","hdg_t":97.3,"dist_nm":79.5,"freq":388,"lat":6.95519444,"lon":-71.86016667,"rng_nm":50,"alt_fmsl":0,"id":"SVA","desc":"SARAVENA NDB"},
+{"type":"VOR","hdg_t":39.1,"dist_nm":86,"freq":113,"lat":8.24183333,"lon":-72.26994444,"rng_nm":130,"alt_fmsl":322,"id":"LFA","desc":"LA FRIA VOR-DME"},
+{"type":"NDB","hdg_t":171.5,"dist_nm":87.5,"freq":355,"lat":5.67694444,"lon":-72.96777778,"rng_nm":50,"alt_fmsl":0,"id":"SOG","desc":"SOGAMOSO NDB"},
+{"type":"VOR","hdg_t":266,"dist_nm":91.2,"freq":115.4,"lat":7.01986111,"lon":-74.70983333,"rng_nm":130,"alt_fmsl":2407,"id":"OTU","desc":"OTU VOR-DME"},
+{"type":"NDB","hdg_t":115.1,"dist_nm":94.4,"freq":270,"lat":6.45150000,"lon":-71.75225000,"rng_nm":50,"alt_fmsl":0,"id":"TME","desc":"TAME NDB"}
+]
+}

@@ -1,0 +1,39 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KVBG","name":"Vandenberg Afb","lat":34.737328,"lon":-120.58429311,"rwys":1,"ils":2,"index":974633,"path":"w130n30/w121n34"
+,"runways":[
+{"len_m":4574,"wid_m":60.96,"hdg":136,"surf":"Concrete","rwy1":"12","lat1":34.75229145,"lon1":-120.60147300,"rwy2":"30","lat2":34.72236455,"lon2":-120.56711322}
+]
+,"radios":[
+{"type":"ATIS","freq":133.12,"desc":"ATIS"},
+{"type":"CTAF","freq":124.95,"desc":"CTAF"},
+{"type":"GND","freq":121.75,"desc":"GND/CLNC DEL"},
+{"type":"TWR","freq":124.95,"desc":"TWR"},
+{"type":"APP","freq":124.15,"desc":"SANTA BARB APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":34.71968100,"lon":-120.56403600,"rng_nm":18,"alt_fmsl":369,"hdg":136.68,"id":"IBVD","rwy":"12","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.1,"lat":34.75428100,"lon":-120.60376900,"rng_nm":18,"alt_fmsl":369,"hdg":316.65,"id":"IVBG","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":34.74967500,"lon":-120.59973600,"rng_nm":10,"alt_fmsl":369,"id":"IBVD","rwy":"12","desc":"GS","gs":3},
+{"type":"GS","freq":110.1,"lat":34.72407500,"lon":-120.57136400,"rng_nm":10,"alt_fmsl":369,"id":"IVBG","rwy":"30","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":167.9,"dist_nm":0.2,"freq":112.25,"lat":34.73255000,"lon":-120.58305600,"rng_nm":40,"alt_fmsl":370,"id":"VBG","desc":"VANDENBERG TACAN"},
+{"type":"VOR","hdg_t":13.5,"dist_nm":13.2,"freq":111,"lat":34.95236111,"lon":-120.52147222,"rng_nm":25,"alt_fmsl":0,"id":"GLJ","desc":"GUADALUPE VOR"},
+{"type":"VOR","hdg_t":116.6,"dist_nm":27.3,"freq":113.8,"lat":34.53133333,"lon":-120.09108333,"rng_nm":40,"alt_fmsl":2616,"id":"GVO","desc":"GAVIOTA VORTAC"},
+{"type":"VOR","hdg_t":344.4,"dist_nm":32,"freq":112.4,"lat":35.25225000,"lon":-120.75955556,"rng_nm":40,"alt_fmsl":1463,"id":"MQO","desc":"MORRO BAY VORTAC"},
+{"type":"VOR","hdg_t":58.7,"dist_nm":41.3,"freq":117.5,"lat":35.09308333,"lon":-119.86558333,"rng_nm":40,"alt_fmsl":3870,"id":"FLW","desc":"FELLOWS VORTAC"},
+{"type":"VOR","hdg_t":108.4,"dist_nm":42.5,"freq":114.9,"lat":34.50952778,"lon":-119.77100000,"rng_nm":130,"alt_fmsl":3623,"id":"RZS","desc":"SAN MARCUS VORTAC"},
+{"type":"VOR","hdg_t":357.8,"dist_nm":56,"freq":114.3,"lat":35.67247222,"lon":-120.62711111,"rng_nm":40,"alt_fmsl":817,"id":"PRB","desc":"PASO ROBLES VORTAC"},
+{"type":"VOR","hdg_t":28.4,"dist_nm":62.1,"freq":117.1,"lat":35.64697222,"lon":-119.97861111,"rng_nm":130,"alt_fmsl":710,"id":"AVE","desc":"AVENAL VORTAC"},
+{"type":"NDB","hdg_t":338.1,"dist_nm":79,"freq":209,"lat":35.96116667,"lon":-121.18916667,"rng_nm":50,"alt_fmsl":0,"id":"HGT","desc":"HUNTER LIGGETT NDB"},
+{"type":"VOR","hdg_t":112.6,"dist_nm":80.3,"freq":115.8,"lat":34.21252778,"lon":-119.09436111,"rng_nm":40,"alt_fmsl":63,"id":"CMA","desc":"CAMARILLO VOR-DME"},
+{"type":"SDME","hdg_t":116.4,"dist_nm":81.3,"freq":110.6,"lat":34.12329200,"lon":-119.12197800,"rng_nm":25,"alt_fmsl":6,"id":"NTD","desc":"POINT MUGU TACAN"},
+{"type":"VOR","hdg_t":357.3,"dist_nm":84.1,"freq":110,"lat":36.14038889,"lon":-120.66491667,"rng_nm":40,"alt_fmsl":0,"id":"ROM","desc":"PRIEST VOR"},
+{"type":"VOR","hdg_t":115.6,"dist_nm":84.8,"freq":108.2,"lat":34.11505556,"lon":-119.04950000,"rng_nm":40,"alt_fmsl":1560,"id":"VTU","desc":"VENTURA VOR-DME"},
+{"type":"VOR","hdg_t":86.8,"dist_nm":85.2,"freq":116.1,"lat":34.80402778,"lon":-118.86136111,"rng_nm":40,"alt_fmsl":4920,"id":"GMN","desc":"GORMAN VORTAC"},
+{"type":"VOR","hdg_t":58.1,"dist_nm":85.7,"freq":115.4,"lat":35.48455556,"lon":-119.09730556,"rng_nm":130,"alt_fmsl":548,"id":"EHF","desc":"SHAFTER VORTAC"},
+{"type":"VOR","hdg_t":104.6,"dist_nm":87.4,"freq":112.5,"lat":34.35669444,"lon":-118.88127778,"rng_nm":40,"alt_fmsl":2200,"id":"FIM","desc":"FILLMORE VORTAC"},
+{"type":"NDB","hdg_t":32.6,"dist_nm":94.8,"freq":205,"lat":36.06605556,"lon":-119.53094444,"rng_nm":50,"alt_fmsl":0,"id":"COR","desc":"SALYER FARMS NDB"},
+{"type":"VOR","hdg_t":91.3,"dist_nm":99.3,"freq":108.4,"lat":34.68297222,"lon":-118.57694444,"rng_nm":40,"alt_fmsl":5790,"id":"LHS","desc":"LAKE HUGHES VORTAC"}
+]
+}

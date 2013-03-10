@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DTKA","name":"Tabarka 7 Novembre","lat":36.9801655,"lon":8.875125,"rwys":1,"ils":1,"index":3088315,"path":"e000n30/e008n36"
+,"runways":[
+{"len_m":2864,"wid_m":45.11,"hdg":93,"surf":"Asphalt","rwy1":"09","lat1":36.98085300,"lon1":8.85906100,"rwy2":"27","lat2":36.97947800,"lon2":8.89118900}
+]
+,"radios":[
+{"type":"TWR","freq":119.25,"desc":"TWR"},
+{"type":"APP","freq":119.25,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":36.98094400,"lon":8.85705600,"rng_nm":18,"alt_fmsl":230,"hdg":273.07,"id":"TAB","rwy":"27","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.7,"lat":36.97827800,"lon":8.88763900,"rng_nm":10,"alt_fmsl":230,"id":"TAB","rwy":"27","desc":"GS","gs":3},
+{"type":"DME","freq":110.7,"lat":36.97827800,"lon":8.88763900,"rng_nm":18,"alt_fmsl":252,"id":"TAB","rwy":"27","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":126.4,"dist_nm":0.2,"freq":350,"lat":36.97808300,"lon":8.87863900,"rng_nm":50,"alt_fmsl":0,"id":"TK","desc":"TABARKA 7 NOVEMBRE NDB"},
+{"type":"VOR","hdg_t":106.4,"dist_nm":0.4,"freq":113.3,"lat":36.97816700,"lon":8.88358300,"rng_nm":130,"alt_fmsl":236,"id":"TBK","desc":"TABARKA VOR-DME"},
+{"type":"VOR","hdg_t":70,"dist_nm":45.3,"freq":114.2,"lat":37.23527800,"lon":9.76555600,"rng_nm":130,"alt_fmsl":12,"id":"BIZ","desc":"BIZERTE VOR-DME"},
+{"type":"NDB","hdg_t":65.2,"dist_nm":50.6,"freq":310,"lat":37.33000000,"lon":9.83611100,"rng_nm":100,"alt_fmsl":0,"id":"BC","desc":"CAP BLANC NDB"},
+{"type":"NDB","hdg_t":259.6,"dist_nm":52.5,"freq":366,"lat":36.81805600,"lon":7.80250000,"rng_nm":60,"alt_fmsl":0,"id":"ANB","desc":"ANNABA NDB"},
+{"type":"VOR","hdg_t":259.6,"dist_nm":52.6,"freq":113.5,"lat":36.81666700,"lon":7.80000000,"rng_nm":130,"alt_fmsl":16,"id":"ANB","desc":"ANNABA VOR-DME"},
+{"type":"VOR","hdg_t":96.3,"dist_nm":65.6,"freq":116.5,"lat":36.85158300,"lon":10.23033300,"rng_nm":130,"alt_fmsl":53,"id":"TUC","desc":"TUNIS VOR-DME"},
+{"type":"NDB","hdg_t":91.6,"dist_nm":66.2,"freq":325,"lat":36.93983300,"lon":10.25122200,"rng_nm":50,"alt_fmsl":19,"id":"TS","desc":"TUNIS NDB"},
+{"type":"NDB","hdg_t":97.2,"dist_nm":69.6,"freq":385,"lat":36.82486100,"lon":10.30963900,"rng_nm":50,"alt_fmsl":0,"id":"KDN","desc":"TUNIS NDB"},
+{"type":"VOR","hdg_t":203.4,"dist_nm":99.3,"freq":114.5,"lat":35.45666700,"lon":8.06861100,"rng_nm":130,"alt_fmsl":2605,"id":"TBS","desc":"TEBESSA VOR-DME"}
+]
+}

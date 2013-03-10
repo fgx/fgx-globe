@@ -1,0 +1,41 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"YAMB","name":"Amberley Military","lat":-27.6369132075,"lon":152.712608265,"rwys":4,"ils":1,"index":5443474,"path":"e150s30/e152s28"
+,"runways":[
+{"len_m":476,"wid_m":35.05,"hdg":102,"surf":"Turf/grass","rwy1":"10","lat1":-27.63476962,"lon1":152.71245512,"rwy2":"28","lat2":-27.63572993,"lon2":152.71716502},
+{"len_m":3185,"wid_m":46.02,"hdg":158,"surf":"Asphalt","rwy1":"15","lat1":-27.62119298,"lon1":152.70507569,"rwy2":"33","lat2":-27.64799443,"lon2":152.71674918},
+{"len_m":1523,"wid_m":46.02,"hdg":54,"surf":"Asphalt","rwy1":"04","lat1":-27.64461099,"lon1":152.70788851,"rwy2":"22","lat2":-27.63660200,"lon2":152.72043300},
+{"len_m":687,"wid_m":34.14,"hdg":158,"surf":"Turf/grass","rwy1":"15R","lat1":-27.63431187,"lon1":152.70928467,"rwy2":"33L","lat2":-27.64009384,"lon2":152.71181490}
+]
+,"radios":[
+{"type":"GND","freq":121.92,"desc":"AMBERLEY GND"},
+{"type":"TWR","freq":118.3,"desc":"AMBERLEY TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":-27.65000000,"lon":152.71777800,"rng_nm":18,"alt_fmsl":91,"hdg":158.66,"id":"IAM","rwy":"15","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":-27.62388900,"lon":152.70833300,"rng_nm":10,"alt_fmsl":84,"id":"IAM","rwy":"15","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-27.53916700,"lon":152.66888900,"rng_nm":0,"alt_fmsl":91,"id":"----","rwy":"15","desc":"OM"},
+{"type":"MM","freq":0,"lat":-27.61361100,"lon":152.70250000,"rng_nm":0,"alt_fmsl":91,"id":"----","rwy":"15","desc":"MM"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":146.7,"dist_nm":0.3,"freq":114.7,"lat":-27.64166700,"lon":152.71611100,"rng_nm":25,"alt_fmsl":91,"id":"AMB","desc":"AMBERLEY TACAN"},
+{"type":"NDB","hdg_t":140.7,"dist_nm":0.9,"freq":359,"lat":-27.64888900,"lon":152.72361100,"rng_nm":85,"alt_fmsl":91,"id":"AMB","desc":"AMBERLEY NDB"},
+{"type":"NDB","hdg_t":76.2,"dist_nm":16.6,"freq":419,"lat":-27.57027800,"lon":153.01611100,"rng_nm":30,"alt_fmsl":63,"id":"AF","desc":"ARCHERFIELD NDB"},
+{"type":"NDB","hdg_t":153,"dist_nm":22,"freq":374,"lat":-27.96611100,"lon":152.90083300,"rng_nm":50,"alt_fmsl":0,"id":"BML","desc":"BROMELTON NDB"},
+{"type":"NDB","hdg_t":56.2,"dist_nm":24.7,"freq":302,"lat":-27.40638900,"lon":153.09805600,"rng_nm":70,"alt_fmsl":0,"id":"BN","desc":"BRISBANE NDB"},
+{"type":"VOR","hdg_t":54.6,"dist_nm":27.9,"freq":113.2,"lat":-27.36583333,"lon":153.13916667,"rng_nm":130,"alt_fmsl":28,"id":"BN","desc":"BRISBANE VOR-DME"},
+{"type":"VOR","hdg_t":157.4,"dist_nm":29.3,"freq":117.8,"lat":-28.08981700,"lon":152.92478900,"rng_nm":130,"alt_fmsl":0,"id":"LAV","desc":"LARAVALE VOR"},
+{"type":"VOR","hdg_t":102.8,"dist_nm":33.9,"freq":116.5,"lat":-27.76138900,"lon":153.33444400,"rng_nm":130,"alt_fmsl":0,"id":"JCW","desc":"JACOBS WELL VOR"},
+{"type":"NDB","hdg_t":277.3,"dist_nm":43,"freq":386,"lat":-27.54194400,"lon":151.91194400,"rng_nm":25,"alt_fmsl":2086,"id":"TWB","desc":"TOOWOOMBA NDB"},
+{"type":"NDB","hdg_t":350,"dist_nm":43.6,"freq":392,"lat":-26.91888900,"lon":152.57277800,"rng_nm":35,"alt_fmsl":0,"id":"KCY","desc":"KILCOY NDB"},
+{"type":"NDB","hdg_t":127.1,"dist_nm":52.4,"freq":278,"lat":-28.16485800,"lon":153.50111400,"rng_nm":60,"alt_fmsl":17,"id":"CG","desc":"COOLANGATTA NDB"},
+{"type":"VOR","hdg_t":127.3,"dist_nm":52.7,"freq":112.3,"lat":-28.16888889,"lon":153.50388889,"rng_nm":130,"alt_fmsl":33,"id":"CG","desc":"COOLANGATTA VOR-DME"},
+{"type":"VOR","hdg_t":2.8,"dist_nm":53.4,"freq":115.9,"lat":-26.74472200,"lon":152.76138900,"rng_nm":130,"alt_fmsl":0,"id":"MLY","desc":"MALENY VOR"},
+{"type":"NDB","hdg_t":283.6,"dist_nm":53.6,"freq":254,"lat":-27.42138900,"lon":151.73722200,"rng_nm":65,"alt_fmsl":1335,"id":"OK","desc":"OAKEY NDB"},
+{"type":"VOR","hdg_t":285,"dist_nm":53.9,"freq":112.9,"lat":-27.40000000,"lon":151.73750000,"rng_nm":130,"alt_fmsl":1335,"id":"OK","desc":"OAKEY VOR-DME"},
+{"type":"VOR","hdg_t":18.1,"dist_nm":65.3,"freq":114.2,"lat":-26.59766666,"lon":153.09033333,"rng_nm":130,"alt_fmsl":25,"id":"SU","desc":"SUNSHINE COAST VOR-DME"},
+{"type":"NDB","hdg_t":18,"dist_nm":65.7,"freq":380,"lat":-26.59222200,"lon":153.09166700,"rng_nm":50,"alt_fmsl":15,"id":"SU","desc":"Sunshine Coast NDB"},
+{"type":"NDB","hdg_t":157.9,"dist_nm":76.6,"freq":239,"lat":-28.82305600,"lon":153.25750000,"rng_nm":25,"alt_fmsl":0,"id":"LIS","desc":"LISMORE NDB"},
+{"type":"NDB","hdg_t":323.5,"dist_nm":78.5,"freq":209,"lat":-26.57861100,"lon":151.84444400,"rng_nm":40,"alt_fmsl":1492,"id":"KRY","desc":"KINGAROY NDB"},
+{"type":"NDB","hdg_t":148,"dist_nm":84.6,"freq":206,"lat":-28.83444400,"lon":153.56250000,"rng_nm":25,"alt_fmsl":0,"id":"BNA","desc":"BALLINA NDB"}
+]
+}

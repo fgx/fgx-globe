@@ -1,0 +1,40 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LEIB","name":"Ibiza","lat":38.87287064,"lon":1.37304468,"rwys":1,"ils":2,"index":2973745,"path":"e000n30/e001n38"
+,"runways":[
+{"len_m":2793,"wid_m":45.11,"hdg":61,"surf":"Asphalt","rwy1":"06","lat1":38.86695488,"lon1":1.35884036,"rwy2":"24","lat2":38.87878640,"lon2":1.38724900}
+]
+,"radios":[
+{"type":"GND","freq":121.8,"desc":"GND"},
+{"type":"TWR","freq":118.5,"desc":"TWR"},
+{"type":"APP","freq":118.12,"desc":"APP"},
+{"type":"APP","freq":119.8,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.1,"lat":38.87938835,"lon":1.38893074,"rng_nm":18,"alt_fmsl":20,"hdg":62.00,"id":"IBI","rwy":"06","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.5,"lat":38.86570000,"lon":1.35586900,"rng_nm":18,"alt_fmsl":15,"hdg":241.81,"id":"IBZ","rwy":"24","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.1,"lat":38.86895784,"lon":1.36148456,"rng_nm":10,"alt_fmsl":20,"id":"IBI","rwy":"06","desc":"GS","gs":3},
+{"type":"GS","freq":109.5,"lat":38.87650800,"lon":1.38500300,"rng_nm":10,"alt_fmsl":69,"id":"IBZ","rwy":"24","desc":"GS","gs":3},
+{"type":"DME","freq":111.1,"lat":38.86895784,"lon":1.36148456,"rng_nm":18,"alt_fmsl":20,"id":"IBI","rwy":"06","desc":"DME-ILS"},
+{"type":"DME","freq":109.5,"lat":38.87650800,"lon":1.38500300,"rng_nm":18,"alt_fmsl":69,"id":"IBZ","rwy":"24","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":230.9,"dist_nm":0.4,"freq":117.8,"lat":38.86834400,"lon":1.36591400,"rng_nm":25,"alt_fmsl":30,"id":"IBA","desc":"IBIZA VOR-DME"},
+{"type":"NDB","hdg_t":62.2,"dist_nm":1.3,"freq":335,"lat":38.88375000,"lon":1.39945800,"rng_nm":25,"alt_fmsl":0,"id":"Z","desc":"IBIZA NDB"},
+{"type":"NDB","hdg_t":60.7,"dist_nm":5.2,"freq":394,"lat":38.91546900,"lon":1.47041100,"rng_nm":60,"alt_fmsl":0,"id":"IZA","desc":"IBIZA NDB"},
+{"type":"NDB","hdg_t":49.3,"dist_nm":62.6,"freq":384,"lat":39.54944200,"lon":2.39585600,"rng_nm":30,"alt_fmsl":0,"id":"ADX","desc":"ANDRAITX NDB"},
+{"type":"VOR","hdg_t":62,"dist_nm":72.9,"freq":113.3,"lat":39.43518600,"lon":2.75829400,"rng_nm":40,"alt_fmsl":505,"id":"MJV","desc":"PALMA DE MALLORCA VOR-DME"},
+{"type":"SDME","hdg_t":56.5,"dist_nm":75.6,"freq":108.4,"lat":39.55969400,"lon":2.73325000,"rng_nm":25,"alt_fmsl":32,"id":"SSJ","desc":"PALMA DE MALLORCA TACAN"},
+{"type":"VOR","hdg_t":56.6,"dist_nm":76.3,"freq":117.7,"lat":39.56467800,"lon":2.74662800,"rng_nm":25,"alt_fmsl":26,"id":"JOA","desc":"PALMA DE MALLORCA VOR-DME"},
+{"type":"NDB","hdg_t":56.7,"dist_nm":80.3,"freq":307,"lat":39.59936400,"lon":2.82117500,"rng_nm":25,"alt_fmsl":0,"id":"PA","desc":"PALMA DE MALLORCA NDB"},
+{"type":"NDB","hdg_t":56.8,"dist_nm":85.3,"freq":351,"lat":39.64138300,"lon":2.91561900,"rng_nm":50,"alt_fmsl":0,"id":"CST","desc":"COSTIX NDB"},
+{"type":"NDB","hdg_t":293.4,"dist_nm":87,"freq":340,"lat":39.43742500,"lon":-0.34646100,"rng_nm":50,"alt_fmsl":0,"id":"PND","desc":"VALENCIA NDB"},
+{"type":"NDB","hdg_t":303.6,"dist_nm":87.9,"freq":356,"lat":39.67418300,"lon":-0.20780600,"rng_nm":50,"alt_fmsl":0,"id":"SGO","desc":"SAGUNTO NDB"},
+{"type":"NDB","hdg_t":317.1,"dist_nm":92.4,"freq":290,"lat":39.99611300,"lon":0.01000000,"rng_nm":150,"alt_fmsl":0,"id":"CTE","desc":"CASTELLON NDB"},
+{"type":"NDB","hdg_t":293.6,"dist_nm":92.7,"freq":400,"lat":39.47967800,"lon":-0.45617800,"rng_nm":15,"alt_fmsl":0,"id":"B","desc":"VALENCIA NDB"},
+{"type":"NDB","hdg_t":68.6,"dist_nm":93.9,"freq":401,"lat":39.42732500,"lon":3.25671900,"rng_nm":30,"alt_fmsl":0,"id":"PTC","desc":"PORTO COLOM LOM"},
+{"type":"VOR","hdg_t":293.5,"dist_nm":94,"freq":116.1,"lat":39.48564700,"lon":-0.48304400,"rng_nm":130,"alt_fmsl":200,"id":"VLC","desc":"VALENCIA VOR-DME"},
+{"type":"NDB","hdg_t":298.1,"dist_nm":97,"freq":386,"lat":39.62300000,"lon":-0.47208300,"rng_nm":50,"alt_fmsl":0,"id":"EBT","desc":"VALENCIA NDB"},
+{"type":"VOR","hdg_t":248.9,"dist_nm":98.3,"freq":113.8,"lat":38.26828100,"lon":-0.57011400,"rng_nm":130,"alt_fmsl":166,"id":"ALT","desc":"ALICANTE VOR-DME"},
+{"type":"VOR","hdg_t":249.7,"dist_nm":98.6,"freq":114.65,"lat":38.28613600,"lon":-0.58660000,"rng_nm":130,"alt_fmsl":192,"id":"ATE","desc":"ALICANTE VOR-DME"}
+]
+}

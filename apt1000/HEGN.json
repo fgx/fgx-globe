@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HEGN","name":"Hurghada Intl","lat":27.1783085,"lon":33.799397,"rwys":1,"ils":1,"index":3497291,"path":"e030n20/e033n27"
+,"runways":[
+{"len_m":4000,"wid_m":45.11,"hdg":165,"surf":"Asphalt","rwy1":"16","lat1":27.19576100,"lon1":33.79424700,"rwy2":"34","lat2":27.16085600,"lon2":33.80454700}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":119.6,"desc":"TWR"},
+{"type":"APP","freq":123.4,"desc":"RADAR"},
+{"type":"APP","freq":119.1,"desc":"RADAR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":27.19791100,"lon":33.79526400,"rng_nm":18,"alt_fmsl":56,"hdg":347.43,"id":"HIL","rwy":"34","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.3,"lat":27.16348600,"lon":33.80417200,"rng_nm":10,"alt_fmsl":64,"id":"HIL","rwy":"34","desc":"GS","gs":3},
+{"type":"DME","freq":110.3,"lat":27.16348600,"lon":33.80417200,"rng_nm":18,"alt_fmsl":30,"id":"HIL","rwy":"34","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":258.4,"dist_nm":0.1,"freq":116.5,"lat":27.17775800,"lon":33.79639400,"rng_nm":150,"alt_fmsl":98,"id":"HGD","desc":"HURGHADA VOR-DME"},
+{"type":"NDB","hdg_t":33,"dist_nm":56.5,"freq":335,"lat":27.97000000,"lon":34.38027800,"rng_nm":100,"alt_fmsl":210,"id":"SKH","desc":"SHARM EL SHEIKH NDB"},
+{"type":"VOR","hdg_t":33.5,"dist_nm":58.9,"freq":114.2,"lat":27.99805600,"lon":34.41333300,"rng_nm":200,"alt_fmsl":130,"id":"SHM","desc":"SHARM EL SHEIKH VOR-DME"},
+{"type":"NDB","hdg_t":8.6,"dist_nm":91.1,"freq":262,"lat":28.68436100,"lon":34.05994400,"rng_nm":150,"alt_fmsl":4440,"id":"CAT","desc":"ST CATHERINE NDB"},
+{"type":"VOR","hdg_t":213.2,"dist_nm":101.9,"freq":114.4,"lat":25.74938900,"lon":32.76858300,"rng_nm":150,"alt_fmsl":332,"id":"LXR","desc":"LUXOR VOR-DME"},
+{"type":"NDB","hdg_t":213.8,"dist_nm":103.4,"freq":364,"lat":25.73788900,"lon":32.73763900,"rng_nm":75,"alt_fmsl":284,"id":"LO","desc":"LUXOR NDB"},
+{"type":"VOR","hdg_t":156.4,"dist_nm":103.9,"freq":115.5,"lat":25.58277800,"lon":34.56555600,"rng_nm":25,"alt_fmsl":265,"id":"MAK","desc":"MARSA ALAM VOR-DME"},
+{"type":"NDB","hdg_t":22.4,"dist_nm":120.1,"freq":288,"lat":29.03222200,"lon":34.67111100,"rng_nm":150,"alt_fmsl":70,"id":"NWB","desc":"NUWEIBAA NDB"},
+{"type":"VOR","hdg_t":267.2,"dist_nm":148.4,"freq":117.7,"lat":27.03122200,"lon":31.03250000,"rng_nm":200,"alt_fmsl":850,"id":"AST","desc":"ASYUT VOR-DME"},
+{"type":"NDB","hdg_t":18.8,"dist_nm":153.7,"freq":315,"lat":29.60669400,"lon":34.74833300,"rng_nm":100,"alt_fmsl":2542,"id":"TBA","desc":"TABA NDB"}
+]
+}

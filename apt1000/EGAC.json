@@ -1,0 +1,55 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EGAC","name":"Belfast City","lat":54.618108,"lon":-5.872575,"rwys":1,"ils":1,"index":2860064,"path":"w010n50/w006n54"
+,"runways":[
+{"len_m":1834,"wid_m":45.11,"hdg":34,"surf":"Asphalt","rwy1":"04","lat1":54.61135800,"lon1":-5.88071900,"rwy2":"22","lat2":54.62485800,"lon2":-5.86443100}
+]
+,"radios":[
+{"type":"ATIS","freq":136.62,"desc":"ATIS"},
+{"type":"TWR","freq":122.82,"desc":"BELFAST TWR"},
+{"type":"APP","freq":130.85,"desc":"BELFAST APP"}
+]
+,"ils":[
+{"type":"ILS","freq":108.1,"lat":54.61070800,"lon":-5.88135300,"rng_nm":18,"alt_fmsl":15,"hdg":214.69,"id":"IBFH","rwy":"22","desc":"ILS-cat-I"},
+{"type":"LOC","freq":108.1,"lat":54.62633100,"lon":-5.86266900,"rng_nm":18,"alt_fmsl":15,"id":"HBD","rwy":"04","desc":"LOC"},
+{"type":"GS","freq":108.1,"lat":54.62331900,"lon":-5.86853600,"rng_nm":10,"alt_fmsl":50,"id":"IBFH","rwy":"22","desc":"GS","gs":3},
+{"type":"DME","freq":108.1,"lat":54.61952500,"lon":-5.87498300,"rng_nm":18,"alt_fmsl":30,"id":"HBD","rwy":"04","desc":"DME-ILS"},
+{"type":"DME","freq":108.1,"lat":54.61952500,"lon":-5.87498300,"rng_nm":18,"alt_fmsl":30,"id":"IBFH","rwy":"22","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":301.2,"dist_nm":8.6,"freq":332,"lat":54.69264700,"lon":-6.08535800,"rng_nm":15,"alt_fmsl":0,"id":"OY","desc":"ALDERGROVE NDB"},
+{"type":"VOR","hdg_t":281.8,"dist_nm":12.7,"freq":117.2,"lat":54.66111100,"lon":-6.23000000,"rng_nm":200,"alt_fmsl":194,"id":"BEL","desc":"BELFAST VOR-DME"},
+{"type":"SDME","hdg_t":304.3,"dist_nm":47.6,"freq":109.15,"lat":55.06083300,"lon":-7.01333300,"rng_nm":25,"alt_fmsl":18,"id":"BKL","desc":"BALLYKELLY TACAN"},
+{"type":"VOR","hdg_t":8.8,"dist_nm":49.4,"freq":116,"lat":55.43000000,"lon":-5.65027800,"rng_nm":150,"alt_fmsl":95,"id":"MAC","desc":"MACHRIHANISH VOR-DME"},
+{"type":"NDB","hdg_t":7.3,"dist_nm":49.5,"freq":380,"lat":55.43563100,"lon":-5.68807200,"rng_nm":15,"alt_fmsl":44,"id":"CBL","desc":"CAMPBELTOWN NDB"},
+{"type":"VOR","hdg_t":129.9,"dist_nm":51.1,"freq":112.2,"lat":54.06686700,"lon":-4.76347500,"rng_nm":130,"alt_fmsl":573,"id":"IOM","desc":"ISLE OF MAN VOR-DME"},
+{"type":"NDB","hdg_t":125.8,"dist_nm":54.4,"freq":359,"lat":54.08108300,"lon":-4.62288900,"rng_nm":20,"alt_fmsl":55,"id":"RWY","desc":"ISLE OF MAN NDB"},
+{"type":"NDB","hdg_t":120,"dist_nm":56.2,"freq":366,"lat":54.14111100,"lon":-4.49166700,"rng_nm":25,"alt_fmsl":0,"id":"CAR","desc":"CARNANE NDB"},
+{"type":"VOR","hdg_t":41.5,"dist_nm":56.2,"freq":117.5,"lat":55.31333300,"lon":-4.78388900,"rng_nm":130,"alt_fmsl":600,"id":"TRN","desc":"TURNBERRY VOR-DME"},
+{"type":"NDB","hdg_t":192.2,"dist_nm":59.6,"freq":334,"lat":53.64811100,"lon":-6.22666900,"rng_nm":30,"alt_fmsl":100,"id":"GMN","desc":"GORMANSTON NDB-DME"},
+{"type":"SDME","hdg_t":192.5,"dist_nm":59.7,"freq":112.9,"lat":53.64681700,"lon":-6.23491400,"rng_nm":30,"alt_fmsl":100,"id":"GMN","desc":"GORMANSTON NDB-DME"},
+{"type":"NDB","hdg_t":258.4,"dist_nm":63.3,"freq":357,"lat":54.39424200,"lon":-7.64336700,"rng_nm":15,"alt_fmsl":0,"id":"EKN","desc":"ENNISKILLEN NDB"},
+{"type":"SDME","hdg_t":258.7,"dist_nm":63.6,"freq":116.75,"lat":54.39864700,"lon":-7.65360800,"rng_nm":20,"alt_fmsl":176,"id":"EKN","desc":"ENNISKILLEN DME"},
+{"type":"NDB","hdg_t":348.6,"dist_nm":65.3,"freq":395,"lat":55.68286400,"lon":-6.24947800,"rng_nm":20,"alt_fmsl":58,"id":"LAY","desc":"ISLAY NDB"},
+{"type":"SDME","hdg_t":348.6,"dist_nm":65.3,"freq":109.95,"lat":55.68296700,"lon":-6.24941400,"rng_nm":25,"alt_fmsl":70,"id":"ISY","desc":"ISLAY DME"},
+{"type":"NDB","hdg_t":187.3,"dist_nm":67,"freq":326,"lat":53.51186100,"lon":-6.11053300,"rng_nm":30,"alt_fmsl":0,"id":"RSH","desc":"RUSH NDB"},
+{"type":"NDB","hdg_t":59.6,"dist_nm":67.9,"freq":399,"lat":55.17750000,"lon":-4.16861100,"rng_nm":35,"alt_fmsl":0,"id":"NGY","desc":"NEW GALLOWAY NDB"},
+{"type":"NDB","hdg_t":197.4,"dist_nm":68.5,"freq":407,"lat":53.52869400,"lon":-6.44746400,"rng_nm":45,"alt_fmsl":0,"id":"GAR","desc":"GARRISTOWN NDB"},
+{"type":"VOR","hdg_t":193,"dist_nm":68.9,"freq":114.9,"lat":53.49937500,"lon":-6.30710800,"rng_nm":100,"alt_fmsl":200,"id":"DUB","desc":"DUBLIN VOR-DME"},
+{"type":"NDB","hdg_t":35.9,"dist_nm":69.1,"freq":426,"lat":55.54435300,"lon":-4.68155300,"rng_nm":30,"alt_fmsl":0,"id":"PW","desc":"PRESTWICK NDB"},
+{"type":"NDB","hdg_t":39.4,"dist_nm":69.6,"freq":355,"lat":55.50608900,"lon":-4.57725300,"rng_nm":15,"alt_fmsl":0,"id":"PIK","desc":"PRESTWICK NDB"},
+{"type":"NDB","hdg_t":187.5,"dist_nm":72.9,"freq":397,"lat":53.41379200,"lon":-6.13835800,"rng_nm":15,"alt_fmsl":0,"id":"OP","desc":"OP NDB"},
+{"type":"VOR","hdg_t":192.1,"dist_nm":73.3,"freq":111.2,"lat":53.42361100,"lon":-6.30277800,"rng_nm":150,"alt_fmsl":280,"id":"DAP","desc":"DUBLIN VOR-DME"},
+{"type":"SDME","hdg_t":191.2,"dist_nm":73.3,"freq":108.9,"lat":53.42006700,"lon":-6.27052500,"rng_nm":100,"alt_fmsl":200,"id":"ID","desc":"DUBLIN DME"},
+{"type":"NDB","hdg_t":195.6,"dist_nm":74,"freq":316,"lat":53.43017500,"lon":-6.42880000,"rng_nm":15,"alt_fmsl":282,"id":"OE","desc":"DUBLIN NDB"},
+{"type":"VOR","hdg_t":196.3,"dist_nm":79.1,"freq":114.7,"lat":53.35276900,"lon":-6.49391400,"rng_nm":30,"alt_fmsl":200,"id":"WST","desc":"WESTON VOR-DME"},
+{"type":"NDB","hdg_t":185.9,"dist_nm":81.4,"freq":378,"lat":53.26956100,"lon":-6.10644400,"rng_nm":50,"alt_fmsl":0,"id":"KLY","desc":"KILLINEY NDB"},
+{"type":"VOR","hdg_t":194.6,"dist_nm":81.8,"freq":115.8,"lat":53.29989400,"lon":-6.44777800,"rng_nm":60,"alt_fmsl":300,"id":"BAL","desc":"BALDONNEL VOR-DME"},
+{"type":"VOR","hdg_t":84.9,"dist_nm":88.4,"freq":115.2,"lat":54.72194400,"lon":-3.34055600,"rng_nm":130,"alt_fmsl":700,"id":"DCS","desc":"DEAN CROSS VOR-DME"},
+{"type":"NDB","hdg_t":287.6,"dist_nm":89.3,"freq":361,"lat":55.04400600,"lon":-8.33927500,"rng_nm":25,"alt_fmsl":0,"id":"CFN","desc":"DONEGAL NDB"},
+{"type":"VOR","hdg_t":32.4,"dist_nm":89.8,"freq":115.4,"lat":55.87050300,"lon":-4.44572500,"rng_nm":130,"alt_fmsl":37,"id":"GOW","desc":"GLASGOW VOR-DME"},
+{"type":"NDB","hdg_t":32.7,"dist_nm":90,"freq":331,"lat":55.86976900,"lon":-4.43363100,"rng_nm":25,"alt_fmsl":26,"id":"GLW","desc":"GLASGOW NDB"},
+{"type":"SDME","hdg_t":149.5,"dist_nm":94.3,"freq":108.4,"lat":53.25742200,"lon":-4.54413900,"rng_nm":130,"alt_fmsl":101,"id":"VYL","desc":"VALLEY TACAN"},
+{"type":"NDB","hdg_t":259,"dist_nm":97.3,"freq":384,"lat":54.27871400,"lon":-8.59111100,"rng_nm":25,"alt_fmsl":15,"id":"SLG","desc":"SLIGO NDB-DME"},
+{"type":"SDME","hdg_t":259,"dist_nm":97.3,"freq":109,"lat":54.27871400,"lon":-8.59111100,"rng_nm":25,"alt_fmsl":15,"id":"SLG","desc":"SLIGO NDB-DME"}
+]
+}

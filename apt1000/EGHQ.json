@@ -1,0 +1,38 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EGHQ","name":"Newquay","lat":50.44075878,"lon":-4.99533419,"rwys":1,"ils":1,"index":2876184,"path":"w010n50/w005n50"
+,"runways":[
+{"len_m":2751,"wid_m":45.11,"hdg":120,"surf":"Asphalt","rwy1":"12","lat1":50.44703900,"lon1":-5.01201400,"rwy2":"30","lat2":50.43447856,"lon2":-4.97865439}
+]
+,"radios":[
+{"type":"ATIS","freq":127.4,"desc":"Newquay Information"},
+{"type":"GND","freq":121.95,"desc":"Newquay Ground"},
+{"type":"TWR","freq":127.92,"desc":"Newquay Radar"},
+{"type":"TWR","freq":134.37,"desc":"Newquay Tower"},
+{"type":"APP","freq":133.4,"desc":"Newquay Approach"}
+]
+,"ils":[
+{"type":"ILS","freq":108.7,"lat":50.44951400,"lon":-5.01861100,"rng_nm":18,"alt_fmsl":390,"hdg":300.58,"id":"ISM","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.7,"lat":50.43696100,"lon":-4.98147200,"rng_nm":10,"alt_fmsl":390,"id":"ISM","rwy":"30","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":50.39033300,"lon":-4.86188100,"rng_nm":0,"alt_fmsl":390,"id":"----","rwy":"30","desc":"OM"},
+{"type":"MM","freq":0,"lat":50.42998600,"lon":-4.96677800,"rng_nm":0,"alt_fmsl":390,"id":"----","rwy":"30","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":3.9,"dist_nm":0.4,"freq":356,"lat":50.44811900,"lon":-4.99454700,"rng_nm":25,"alt_fmsl":0,"id":"SM","desc":"ST MAWGAN NDB"},
+{"type":"SDME","hdg_t":254.2,"dist_nm":1.3,"freq":112.6,"lat":50.43446100,"lon":-5.03025300,"rng_nm":200,"alt_fmsl":323,"id":"SMG","desc":"ST MAWGAN TACAN"},
+{"type":"VOR","hdg_t":233.7,"dist_nm":30.7,"freq":114.2,"lat":50.13625600,"lon":-5.63698600,"rng_nm":130,"alt_fmsl":800,"id":"LND","desc":"LANDS END VOR-DME"},
+{"type":"NDB","hdg_t":91.3,"dist_nm":33.8,"freq":396,"lat":50.42436700,"lon":-4.11233300,"rng_nm":20,"alt_fmsl":0,"id":"PY","desc":"PLYMOUTH NDB"},
+{"type":"VOR","hdg_t":91.9,"dist_nm":57.6,"freq":112.05,"lat":50.39861100,"lon":-3.49361100,"rng_nm":85,"alt_fmsl":215,"id":"BHD","desc":"BERRY HEAD VOR-DME"},
+{"type":"NDB","hdg_t":238.1,"dist_nm":59.1,"freq":321,"lat":49.91410000,"lon":-6.29113100,"rng_nm":15,"alt_fmsl":0,"id":"STM","desc":"ST MARYS NDB"},
+{"type":"NDB","hdg_t":73.2,"dist_nm":67.6,"freq":337,"lat":50.75215300,"lon":-3.29504700,"rng_nm":15,"alt_fmsl":25,"id":"EX","desc":"Exeter LOM"},
+{"type":"NDB","hdg_t":26.4,"dist_nm":78.1,"freq":320,"lat":51.60222200,"lon":-4.06583300,"rng_nm":15,"alt_fmsl":0,"id":"SWN","desc":"SWANSEA NDB"},
+{"type":"NDB","hdg_t":26.4,"dist_nm":78.1,"freq":321,"lat":51.60198600,"lon":-4.06610000,"rng_nm":50,"alt_fmsl":260,"id":"SWN","desc":"Swansea NDB"},
+{"type":"SDME","hdg_t":26.4,"dist_nm":78.2,"freq":109.2,"lat":51.60361100,"lon":-4.06527800,"rng_nm":40,"alt_fmsl":299,"id":"SWZ","desc":"SWANSEA DME"},
+{"type":"NDB","hdg_t":18.4,"dist_nm":80.7,"freq":341,"lat":51.71366800,"lon":-4.31113000,"rng_nm":20,"alt_fmsl":0,"id":"PMB","desc":"PEMBREY NDB"},
+{"type":"SDME","hdg_t":45,"dist_nm":82.9,"freq":114.8,"lat":51.40640300,"lon":-3.43497500,"rng_nm":25,"alt_fmsl":178,"id":"SAT","desc":"ST ATHAN TACAN"},
+{"type":"NDB","hdg_t":0.6,"dist_nm":83.5,"freq":328,"lat":51.83187800,"lon":-4.96808900,"rng_nm":10,"alt_fmsl":0,"id":"HAV","desc":"HAVERFORDWEST NDB"},
+{"type":"SDME","hdg_t":0.6,"dist_nm":83.5,"freq":116.75,"lat":51.83200600,"lon":-4.97011700,"rng_nm":10,"alt_fmsl":201,"id":"HDW","desc":"HAVERFORDWEST DME"},
+{"type":"NDB","hdg_t":47,"dist_nm":85,"freq":388,"lat":51.39337800,"lon":-3.33790300,"rng_nm":20,"alt_fmsl":0,"id":"CDF","desc":"Cardiff NDB"},
+{"type":"VOR","hdg_t":358.9,"dist_nm":93.3,"freq":113.1,"lat":51.99472200,"lon":-5.04027800,"rng_nm":85,"alt_fmsl":600,"id":"STU","desc":"STRUMBLE VOR-DME"},
+{"type":"SDME","hdg_t":68.4,"dist_nm":96,"freq":111,"lat":51.00501400,"lon":-2.63875300,"rng_nm":130,"alt_fmsl":113,"id":"VLN","desc":"YEOVILTON TACAN"}
+]
+}

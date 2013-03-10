@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"TTCP","name":"Tobago/crown Point Intl","lat":11.14966,"lon":-60.832196,"rwys":1,"ils":1,"index":1956169,"path":"w070n10/w061n11"
+,"runways":[
+{"len_m":2744,"wid_m":45.11,"hdg":94,"surf":"Asphalt","rwy1":"11","lat1":11.15055600,"lon1":-60.84472500,"rwy2":"29","lat2":11.14876400,"lon2":-60.81966700}
+]
+,"radios":[
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.4,"desc":"TWR"},
+{"type":"APP","freq":119,"desc":"PIARCO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":11.14866120,"lon":-60.81823002,"rng_nm":18,"alt_fmsl":36,"hdg":94.17,"id":"ITAB","rwy":"11","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":11.14933566,"lon":-60.83919810,"rng_nm":10,"alt_fmsl":36,"id":"ITAB","rwy":"11","desc":"GS","gs":3},
+{"type":"DME","freq":109.3,"lat":11.14866120,"lon":-60.81823002,"rng_nm":18,"alt_fmsl":36,"id":"ITAB","rwy":"11","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":210.3,"dist_nm":0.1,"freq":323,"lat":11.14741667,"lon":-60.83352778,"rng_nm":50,"alt_fmsl":0,"id":"TAB","desc":"CROWN POINT NDB"},
+{"type":"NDB","hdg_t":226.5,"dist_nm":47.9,"freq":382,"lat":10.59672222,"lon":-61.42066667,"rng_nm":50,"alt_fmsl":0,"id":"TRI","desc":"PIARCO NDB"},
+{"type":"NDB","hdg_t":268.7,"dist_nm":48.7,"freq":250,"lat":11.13128300,"lon":-61.65897800,"rng_nm":50,"alt_fmsl":0,"id":"BGH","desc":"BGH NDB"},
+{"type":"VOR","hdg_t":219,"dist_nm":52.5,"freq":116.9,"lat":10.46638889,"lon":-61.39236111,"rng_nm":130,"alt_fmsl":88,"id":"POS","desc":"PIARCO VOR-DME"},
+{"type":"VOR","hdg_t":312.2,"dist_nm":75.7,"freq":117.1,"lat":12.00127778,"lon":-61.78544444,"rng_nm":130,"alt_fmsl":40,"id":"GND","desc":"MAURICE BISHOP VOR-DME"},
+{"type":"NDB","hdg_t":312.6,"dist_nm":75.8,"freq":362,"lat":12.00928900,"lon":-61.78103700,"rng_nm":50,"alt_fmsl":30,"id":"GND","desc":"POINT SALINES NDB"},
+{"type":"NDB","hdg_t":248.5,"dist_nm":93.8,"freq":370,"lat":10.57116700,"lon":-62.31088900,"rng_nm":25,"alt_fmsl":59,"id":"GUI","desc":"GUIRIA NDB"},
+{"type":"NDB","hdg_t":342.1,"dist_nm":97,"freq":302,"lat":12.69619444,"lon":-61.33933333,"rng_nm":50,"alt_fmsl":0,"id":"CAI","desc":"CANOUAN NDB"},
+{"type":"NDB","hdg_t":349,"dist_nm":121.1,"freq":403,"lat":13.14063889,"lon":-61.22616667,"rng_nm":50,"alt_fmsl":0,"id":"SV","desc":"E.T. JOSHUA NDB"},
+{"type":"NDB","hdg_t":34.3,"dist_nm":139.2,"freq":345,"lat":13.07133333,"lon":-59.49052778,"rng_nm":50,"alt_fmsl":0,"id":"BGI","desc":"ADAMS NDB"}
+]
+}

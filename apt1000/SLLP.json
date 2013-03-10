@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SLLP","name":"La Paz","lat":-16.50935625,"lon":-68.19055125,"rwys":2,"ils":1,"index":1823326,"path":"w070s20/w069s17"
+,"runways":[
+{"len_m":3999,"wid_m":46.02,"hdg":91,"surf":"Concrete","rwy1":"10","lat1":-16.51274400,"lon1":-68.21097500,"rwy2":"28","lat2":-16.51393100,"lon2":-68.17353600},
+{"len_m":2049,"wid_m":91.44,"hdg":97,"surf":"Dirt","rwy1":"10L","lat1":-16.50413900,"lon1":-68.19836100,"rwy2":"28R","lat2":-16.50661100,"lon2":-68.17933300}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.3,"desc":"LA PAZ TWR"},
+{"type":"APP","freq":119.5,"desc":"LA PAZ APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-16.51405300,"lon":-68.16970600,"rng_nm":18,"alt_fmsl":13313,"hdg":91.89,"id":"ILPA","rwy":"10","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-16.51166900,"lon":-68.20789400,"rng_nm":10,"alt_fmsl":13313,"id":"ILPA","rwy":"10","desc":"GS","gs":2.4},
+{"type":"MM","freq":0,"lat":-16.51243300,"lon":-68.22078600,"rng_nm":0,"alt_fmsl":13313,"id":"----","rwy":"10","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":85.8,"dist_nm":1.2,"freq":350,"lat":-16.50786100,"lon":-68.16908100,"rng_nm":100,"alt_fmsl":13297,"id":"LPZ","desc":"LA PAZ NDB"},
+{"type":"NDB","hdg_t":265,"dist_nm":1.7,"freq":330,"lat":-16.51183400,"lon":-68.21995200,"rng_nm":25,"alt_fmsl":0,"id":"R","desc":"LA PAZ NDB"},
+{"type":"VOR","hdg_t":266.2,"dist_nm":2.4,"freq":115.7,"lat":-16.51204700,"lon":-68.23344700,"rng_nm":180,"alt_fmsl":13313,"id":"PAZ","desc":"LA PAZ VOR-DME"},
+{"type":"VOR","hdg_t":163.9,"dist_nm":22.9,"freq":114.1,"lat":-16.87918100,"lon":-68.08026900,"rng_nm":130,"alt_fmsl":13412,"id":"CAL","desc":"CALAMARCA VOR-DME"},
+{"type":"NDB","hdg_t":55.3,"dist_nm":32.9,"freq":305,"lat":-16.19517200,"lon":-67.72103800,"rng_nm":50,"alt_fmsl":0,"id":"CRC","desc":"COROICO NDB"},
+{"type":"NDB","hdg_t":143.9,"dist_nm":106.9,"freq":420,"lat":-17.95378800,"lon":-67.09158300,"rng_nm":50,"alt_fmsl":12146,"id":"ORU","desc":"ORURO NDB"},
+{"type":"NDB","hdg_t":353.1,"dist_nm":109.7,"freq":240,"lat":-14.68544300,"lon":-68.41661100,"rng_nm":100,"alt_fmsl":0,"id":"APB","desc":"APOLO NDB"},
+{"type":"NDB","hdg_t":115.9,"dist_nm":122.8,"freq":402,"lat":-17.39935100,"lon":-66.26459600,"rng_nm":25,"alt_fmsl":0,"id":"R","desc":"COCHABAMBA NDB"},
+{"type":"NDB","hdg_t":19.5,"dist_nm":127,"freq":330,"lat":-14.50434000,"lon":-67.45990100,"rng_nm":50,"alt_fmsl":0,"id":"RBQ","desc":"RURRENABAQUE NDB"},
+{"type":"NDB","hdg_t":115.3,"dist_nm":127.7,"freq":320,"lat":-17.41356900,"lon":-66.17713300,"rng_nm":100,"alt_fmsl":8360,"id":"CBB","desc":"COCHABAMBA NDB"}
+]
+}

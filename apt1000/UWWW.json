@@ -1,0 +1,50 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UWWW","name":"Kurumoch","lat":53.50490475,"lon":50.164434,"rwys":2,"ils":3,"index":3777504,"path":"e050n50/e050n53"
+,"runways":[
+{"len_m":3003,"wid_m":45.11,"hdg":159,"surf":"Concrete","rwy1":"15","lat1":53.51857200,"lon1":50.16902200,"rwy2":"33","lat2":53.49321900,"lon2":50.18453300},
+{"len_m":2592,"wid_m":60.05,"hdg":61,"surf":"Asphalt","rwy1":"05","lat1":53.49840600,"lon1":50.13488100,"rwy2":"23","lat2":53.50942200,"lon2":50.16930000}
+]
+,"radios":[
+{"type":"ATIS","freq":134.9,"desc":"SAMARA ATIS"},
+{"type":"GND","freq":119,"desc":"SAMARA TAXIING"},
+{"type":"GND","freq":128.7,"desc":"SAMARA TAXIING"},
+{"type":"TWR","freq":118.2,"desc":"SAMARA TWR"},
+{"type":"TWR","freq":128.7,"desc":"SAMARA TWR"},
+{"type":"APP","freq":128,"desc":"SAMARA KRUG"},
+{"type":"APP","freq":128.7,"desc":"SAMARA KRUG"},
+{"type":"APP","freq":124.6,"desc":"SAMARA APP"},
+{"type":"APP","freq":118.7,"desc":"SAMARA APP"},
+{"type":"APP","freq":128.7,"desc":"SAMARA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.9,"lat":53.48500000,"lon":50.19000000,"rng_nm":18,"alt_fmsl":477,"hdg":159.62,"id":"IWG","rwy":"15","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.7,"lat":53.49333300,"lon":50.12166700,"rng_nm":18,"alt_fmsl":477,"hdg":240.39,"id":"IFK","rwy":"23","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.1,"lat":53.52666700,"lon":50.16500000,"rng_nm":18,"alt_fmsl":477,"hdg":340.84,"id":"IAZ","rwy":"33","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.9,"lat":53.51666700,"lon":50.17333300,"rng_nm":10,"alt_fmsl":477,"id":"IWG","rwy":"15","desc":"GS","gs":2.7},
+{"type":"GS","freq":109.7,"lat":53.50833300,"lon":50.16500000,"rng_nm":10,"alt_fmsl":477,"id":"IFK","rwy":"23","desc":"GS","gs":2.7},
+{"type":"GS","freq":111.1,"lat":53.49666700,"lon":50.18333300,"rng_nm":10,"alt_fmsl":477,"id":"IAZ","rwy":"33","desc":"GS","gs":2.7},
+{"type":"OM","freq":0,"lat":53.55333300,"lon":50.14833300,"rng_nm":0,"alt_fmsl":477,"id":"----","rwy":"15","desc":"OM"},
+{"type":"OM","freq":0,"lat":53.52666700,"lon":50.22166700,"rng_nm":0,"alt_fmsl":477,"id":"----","rwy":"23","desc":"OM"},
+{"type":"OM","freq":0,"lat":53.46166700,"lon":50.20500000,"rng_nm":0,"alt_fmsl":477,"id":"----","rwy":"33","desc":"OM"},
+{"type":"MM","freq":0,"lat":53.52666900,"lon":50.16500300,"rng_nm":0,"alt_fmsl":477,"id":"----","rwy":"15","desc":"MM"},
+{"type":"MM","freq":0,"lat":53.51333300,"lon":50.18500000,"rng_nm":0,"alt_fmsl":477,"id":"----","rwy":"23","desc":"MM"},
+{"type":"MM","freq":0,"lat":53.48333300,"lon":50.19000000,"rng_nm":0,"alt_fmsl":477,"id":"----","rwy":"33","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":57.4,"dist_nm":2.4,"freq":287,"lat":53.52666700,"lon":50.22166700,"rng_nm":80,"alt_fmsl":0,"id":"FK","desc":"SAMARA NDB"},
+{"type":"NDB","hdg_t":348.8,"dist_nm":2.9,"freq":287,"lat":53.55333300,"lon":50.14833300,"rng_nm":80,"alt_fmsl":0,"id":"WG","desc":"SAMARA NDB"},
+{"type":"NDB","hdg_t":150.7,"dist_nm":2.9,"freq":287,"lat":53.46166700,"lon":50.20500000,"rng_nm":80,"alt_fmsl":0,"id":"AZ","desc":"SAMARA NDB"},
+{"type":"NDB","hdg_t":244.1,"dist_nm":3.4,"freq":287,"lat":53.48000000,"lon":50.07833300,"rng_nm":80,"alt_fmsl":0,"id":"BE","desc":"SAMARA NDB"},
+{"type":"NDB","hdg_t":145.8,"dist_nm":17.2,"freq":190,"lat":53.26666700,"lon":50.43333300,"rng_nm":80,"alt_fmsl":0,"id":"ND","desc":"SMYSHLYAYEVKA NDB"},
+{"type":"NDB","hdg_t":292.5,"dist_nm":28.2,"freq":885,"lat":53.68333300,"lon":49.43333300,"rng_nm":80,"alt_fmsl":0,"id":"KS","desc":"NIZHNEYE SANCHELEEVO NDB"},
+{"type":"NDB","hdg_t":253.6,"dist_nm":32.3,"freq":1112,"lat":53.35000000,"lon":49.30000000,"rng_nm":80,"alt_fmsl":0,"id":"RL","desc":"ZHIGULI NDB"},
+{"type":"NDB","hdg_t":56.4,"dist_nm":43.4,"freq":515,"lat":53.90000000,"lon":51.18333300,"rng_nm":80,"alt_fmsl":0,"id":"SL","desc":"SUKHODOL NDB"},
+{"type":"NDB","hdg_t":13.9,"dist_nm":44.1,"freq":915,"lat":54.21666700,"lon":50.46666700,"rng_nm":80,"alt_fmsl":0,"id":"UF","desc":"KOSHKI NDB"},
+{"type":"NDB","hdg_t":312.6,"dist_nm":47.2,"freq":995,"lat":54.03333300,"lon":49.18333300,"rng_nm":80,"alt_fmsl":0,"id":"DW","desc":"NIKOLSKOYE NDB"},
+{"type":"NDB","hdg_t":186.7,"dist_nm":56.7,"freq":460,"lat":52.56666700,"lon":49.98333300,"rng_nm":80,"alt_fmsl":0,"id":"GB","desc":"VOLCHANKA NDB"},
+{"type":"NDB","hdg_t":316,"dist_nm":71.3,"freq":408,"lat":54.35166700,"lon":48.75333300,"rng_nm":80,"alt_fmsl":0,"id":"UL","desc":"ULYANOVSK NDB"},
+{"type":"VOR","hdg_t":319,"dist_nm":72.1,"freq":113.7,"lat":54.40333300,"lon":48.81500000,"rng_nm":130,"alt_fmsl":240,"id":"UWS","desc":"ULYANOVSK VOR-DME"},
+{"type":"NDB","hdg_t":321.4,"dist_nm":73.4,"freq":408,"lat":54.45333300,"lon":48.85833300,"rng_nm":80,"alt_fmsl":0,"id":"WN","desc":"ULYANOVSK NDB"},
+{"type":"NDB","hdg_t":354,"dist_nm":83.3,"freq":445,"lat":54.88333300,"lon":49.91666700,"rng_nm":80,"alt_fmsl":0,"id":"RD","desc":"BAZARNYE MATAKI NDB"}
+]
+}

@@ -1,0 +1,36 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HEAZ","name":"Almaza Afb","lat":30.092404,"lon":31.3601705,"rwys":2,"ils":1,"index":3464705,"path":"e030n30/e031n30"
+,"runways":[
+{"len_m":2042,"wid_m":45.11,"hdg":179,"surf":"Asphalt","rwy1":"18","lat1":30.10193600,"lon1":31.36004400,"rwy2":"36","lat2":30.08351400,"lon2":31.36008300},
+{"len_m":1193,"wid_m":49.99,"hdg":45,"surf":"Asphalt","rwy1":"05","lat1":30.08833300,"lon1":31.35583300,"rwy2":"23","lat2":30.09583300,"lon2":31.36472200}
+]
+,"radios":[
+{"type":"TWR","freq":118.1,"desc":"CAIRO TWR"},
+{"type":"TWR","freq":119.55,"desc":"CAIRO TWR"},
+{"type":"TWR","freq":132.9,"desc":"TWR"},
+{"type":"APP","freq":119.05,"desc":"CAIRO APP"},
+{"type":"APP","freq":119.55,"desc":"CAIRO APP"},
+{"type":"APP","freq":120.7,"desc":"CAIRO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":30.10433300,"lon":31.36097200,"rng_nm":18,"alt_fmsl":262,"hdg":2.12,"id":"IALZ","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":30.08746900,"lon":31.36094200,"rng_nm":10,"alt_fmsl":336,"id":"IALZ","rwy":"36","desc":"GS","gs":3.9}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":265.1,"dist_nm":0.1,"freq":116.3,"lat":30.09219200,"lon":31.35727200,"rng_nm":25,"alt_fmsl":304,"id":"MXR","desc":"ALMAZA TACAN"},
+{"type":"NDB","hdg_t":181.9,"dist_nm":1.1,"freq":490,"lat":30.07401100,"lon":31.35944700,"rng_nm":50,"alt_fmsl":0,"id":"A","desc":"ALMAZA NDB"},
+{"type":"VOR","hdg_t":90.2,"dist_nm":1.4,"freq":115.2,"lat":30.09230600,"lon":31.38841700,"rng_nm":150,"alt_fmsl":460,"id":"CVO","desc":"CAIRO VOR-DME"},
+{"type":"NDB","hdg_t":16.1,"dist_nm":4.6,"freq":310,"lat":30.16694400,"lon":31.38500000,"rng_nm":25,"alt_fmsl":0,"id":"ALI","desc":"CAIRO NDB"},
+{"type":"VOR","hdg_t":42.8,"dist_nm":4.8,"freq":112.5,"lat":30.15200000,"lon":31.42388900,"rng_nm":150,"alt_fmsl":200,"id":"CAI","desc":"CAIRO VOR-DME"},
+{"type":"NDB","hdg_t":235.7,"dist_nm":5.3,"freq":317,"lat":30.04213900,"lon":31.27544400,"rng_nm":25,"alt_fmsl":260,"id":"MKT","desc":"CAIRO NDB"},
+{"type":"SDME","hdg_t":273.5,"dist_nm":23.3,"freq":116.7,"lat":30.11550000,"lon":30.91166700,"rng_nm":130,"alt_fmsl":550,"id":"BLA","desc":"CAIRO WEST TACAN"},
+{"type":"NDB","hdg_t":238.7,"dist_nm":32.3,"freq":340,"lat":29.81119200,"lon":30.83033300,"rng_nm":100,"alt_fmsl":840,"id":"OCT","desc":"OCTOBER NDB"},
+{"type":"VOR","hdg_t":230.7,"dist_nm":65.4,"freq":117.3,"lat":29.39750000,"lon":30.39305600,"rng_nm":150,"alt_fmsl":50,"id":"FYM","desc":"FAYOUM VOR-DME"},
+{"type":"VOR","hdg_t":32.3,"dist_nm":84.2,"freq":112.7,"lat":31.27880600,"lon":32.23780600,"rng_nm":200,"alt_fmsl":30,"id":"PSD","desc":"PORT SAID VOR-DME"},
+{"type":"VOR","hdg_t":351.9,"dist_nm":86.8,"freq":116.9,"lat":31.52888900,"lon":31.12250000,"rng_nm":200,"alt_fmsl":10,"id":"BLT","desc":"BALTIM VOR-DME"},
+{"type":"NDB","hdg_t":299.4,"dist_nm":96.5,"freq":563,"lat":30.87666700,"lon":29.73166700,"rng_nm":100,"alt_fmsl":144,"id":"DJ","desc":"BORG EL ARAB NDB"},
+{"type":"NDB","hdg_t":299.8,"dist_nm":98,"freq":273,"lat":30.89833300,"lon":29.71250000,"rng_nm":25,"alt_fmsl":0,"id":"D","desc":"INNER BEACON NDB"},
+{"type":"VOR","hdg_t":312.2,"dist_nm":98,"freq":115.9,"lat":31.18694400,"lon":29.95036100,"rng_nm":150,"alt_fmsl":10,"id":"AXD","desc":"ALEXANDRIA VOR-DME"},
+{"type":"NDB","hdg_t":312.5,"dist_nm":98.3,"freq":403,"lat":31.19491700,"lon":29.95252800,"rng_nm":100,"alt_fmsl":60,"id":"AXD","desc":"ALEXANDRIA NDB"}
+]
+}

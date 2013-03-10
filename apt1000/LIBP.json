@@ -1,0 +1,57 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LIBP","name":"Pescara","lat":42.43125669,"lon":14.18303008,"rwys":1,"ils":1,"index":3186968,"path":"e010n40/e014n42"
+,"runways":[
+{"len_m":2421,"wid_m":45.11,"hdg":37,"surf":"Asphalt","rwy1":"04","lat1":42.42258819,"lon1":14.17411549,"rwy2":"22","lat2":42.43992518,"lon2":14.19194467}
+]
+,"radios":[
+{"type":"TWR","freq":118.45,"desc":"TWR"},
+{"type":"APP","freq":120.05,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":42.42152800,"lon":14.17288900,"rng_nm":18,"alt_fmsl":48,"hdg":217.39,"id":"IPS","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":42.43697200,"lon":14.18680600,"rng_nm":10,"alt_fmsl":48,"id":"IPS","rwy":"22","desc":"GS","gs":3},
+{"type":"DME","freq":110.7,"lat":42.43702800,"lon":14.18658300,"rng_nm":18,"alt_fmsl":48,"id":"IPS","rwy":"22","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":12.1,"dist_nm":0.2,"freq":115.9,"lat":42.43610900,"lon":14.18444300,"rng_nm":80,"alt_fmsl":59,"id":"PES","desc":"PESCARA VOR-DME"},
+{"type":"NDB","hdg_t":3.7,"dist_nm":0.3,"freq":342,"lat":42.43630600,"lon":14.18347200,"rng_nm":25,"alt_fmsl":29,"id":"PES","desc":"PESCARA NDB"},
+{"type":"VOR","hdg_t":220.2,"dist_nm":61.7,"freq":115.6,"lat":41.64214100,"lon":13.29493500,"rng_nm":50,"alt_fmsl":633,"id":"FRS","desc":"FROSINONE VOR-DME"},
+{"type":"NDB","hdg_t":220.5,"dist_nm":61.8,"freq":371,"lat":41.64383300,"lon":13.28966700,"rng_nm":25,"alt_fmsl":595,"id":"FRS","desc":"FROSINONE NDB"},
+{"type":"NDB","hdg_t":187.9,"dist_nm":68.7,"freq":316,"lat":41.29583300,"lon":13.97166700,"rng_nm":50,"alt_fmsl":3195,"id":"TEA","desc":"TEANO NDB"},
+{"type":"VOR","hdg_t":188,"dist_nm":68.7,"freq":112.9,"lat":41.29665200,"lon":13.97054900,"rng_nm":100,"alt_fmsl":3300,"id":"TEA","desc":"TEANO VOR-DME"},
+{"type":"NDB","hdg_t":248.5,"dist_nm":69.3,"freq":388,"lat":41.99969400,"lon":12.73891700,"rng_nm":25,"alt_fmsl":330,"id":"GUI","desc":"GUIDONIA NDB"},
+{"type":"NDB","hdg_t":335.9,"dist_nm":76,"freq":374,"lat":43.58666700,"lon":13.47222200,"rng_nm":100,"alt_fmsl":797,"id":"ANC","desc":"ANCONA NDB"},
+{"type":"VOR","hdg_t":335.9,"dist_nm":76,"freq":110.65,"lat":43.58638900,"lon":13.47111100,"rng_nm":100,"alt_fmsl":843,"id":"ANC","desc":"ANCONA VOR-DME"},
+{"type":"NDB","hdg_t":225.9,"dist_nm":77.6,"freq":379,"lat":41.52444500,"lon":12.94361100,"rng_nm":25,"alt_fmsl":46,"id":"LAT","desc":"LATINA NDB"},
+{"type":"NDB","hdg_t":227,"dist_nm":77.7,"freq":393,"lat":41.54116700,"lon":12.91955600,"rng_nm":50,"alt_fmsl":61,"id":"ITA","desc":"LATINA NDB"},
+{"type":"VOR","hdg_t":227,"dist_nm":77.8,"freq":111.2,"lat":41.54109800,"lon":12.91805500,"rng_nm":60,"alt_fmsl":85,"id":"LAT","desc":"LATINA VOR-DME"},
+{"type":"NDB","hdg_t":245.4,"dist_nm":79.9,"freq":412,"lat":41.86494500,"lon":12.56080500,"rng_nm":40,"alt_fmsl":203,"id":"CIA","desc":"CIAMPINO NDB"},
+{"type":"NDB","hdg_t":333.8,"dist_nm":80.1,"freq":357,"lat":43.62822200,"lon":13.37352800,"rng_nm":25,"alt_fmsl":13,"id":"FAL","desc":"FALCONARA NDB"},
+{"type":"VOR","hdg_t":242.7,"dist_nm":80.5,"freq":110.8,"lat":41.80472200,"lon":12.58805600,"rng_nm":40,"alt_fmsl":374,"id":"ROM","desc":"ROMA VOR-DME"},
+{"type":"NDB","hdg_t":249.4,"dist_nm":80.9,"freq":285,"lat":41.94469400,"lon":12.49005600,"rng_nm":30,"alt_fmsl":66,"id":"URB","desc":"URBE NDB"},
+{"type":"NDB","hdg_t":257.7,"dist_nm":82.3,"freq":301,"lat":42.12500000,"lon":12.38027800,"rng_nm":50,"alt_fmsl":1354,"id":"CMP","desc":"CAMPAGNANO NDB"},
+{"type":"VOR","hdg_t":257.6,"dist_nm":82.3,"freq":111.4,"lat":42.12388700,"lon":12.38166700,"rng_nm":20,"alt_fmsl":1434,"id":"CMP","desc":"CAMPAGNANO VOR-DME"},
+{"type":"SDME","hdg_t":182.9,"dist_nm":82.3,"freq":117.5,"lat":41.06001700,"lon":14.08871700,"rng_nm":25,"alt_fmsl":29,"id":"GRA","desc":"GRAZZANISE TACAN"},
+{"type":"NDB","hdg_t":183,"dist_nm":82.4,"freq":343,"lat":41.05833300,"lon":14.08500000,"rng_nm":25,"alt_fmsl":20,"id":"GRA","desc":"GRAZZANISE NDB"},
+{"type":"VOR","hdg_t":299.1,"dist_nm":84,"freq":109.4,"lat":43.10171000,"lon":12.51188400,"rng_nm":50,"alt_fmsl":709,"id":"PRU","desc":"PERUGIA VOR-DME"},
+{"type":"NDB","hdg_t":299.1,"dist_nm":84.1,"freq":398,"lat":43.10197200,"lon":12.51072200,"rng_nm":50,"alt_fmsl":669,"id":"PRU","desc":"PERUGIA NDB"},
+{"type":"NDB","hdg_t":134.3,"dist_nm":85.1,"freq":340,"lat":41.43097200,"lon":15.53141500,"rng_nm":25,"alt_fmsl":271,"id":"FOG","desc":"FOGGIA NDB"},
+{"type":"VOR","hdg_t":134.4,"dist_nm":85.1,"freq":115.8,"lat":41.42945300,"lon":15.53134000,"rng_nm":40,"alt_fmsl":305,"id":"FGG","desc":"FOGGIA VOR-DME"},
+{"type":"SDME","hdg_t":127.5,"dist_nm":86.8,"freq":115.25,"lat":41.53789700,"lon":15.70998100,"rng_nm":40,"alt_fmsl":185,"id":"MNL","desc":"AMENDOLA TACAN"},
+{"type":"VOR","hdg_t":109.8,"dist_nm":88.8,"freq":112.6,"lat":41.91274200,"lon":16.04914400,"rng_nm":80,"alt_fmsl":1010,"id":"VIE","desc":"VIESTE VOR-DME"},
+{"type":"NDB","hdg_t":109.8,"dist_nm":88.9,"freq":405,"lat":41.91333300,"lon":16.05111100,"rng_nm":100,"alt_fmsl":899,"id":"VIE","desc":"VIESTE NDB"},
+{"type":"NDB","hdg_t":246.8,"dist_nm":89.3,"freq":354,"lat":41.83141700,"lon":12.35111600,"rng_nm":25,"alt_fmsl":173,"id":"FE","desc":"FIUMICINO NDB"},
+{"type":"NDB","hdg_t":240.3,"dist_nm":89.5,"freq":339,"lat":41.67972200,"lon":12.45283300,"rng_nm":25,"alt_fmsl":175,"id":"PRA","desc":"PRATICA DI MARE NDB"},
+{"type":"SDME","hdg_t":237.8,"dist_nm":89.7,"freq":108.7,"lat":41.62156700,"lon":12.49377200,"rng_nm":40,"alt_fmsl":135,"id":"TPR","desc":"PRATICA DI MARE TACAN"},
+{"type":"NDB","hdg_t":174.2,"dist_nm":90.5,"freq":351,"lat":40.92860800,"lon":14.38305400,"rng_nm":25,"alt_fmsl":81,"id":"POM","desc":"POMIGLIANO NDB"},
+{"type":"VOR","hdg_t":174.2,"dist_nm":90.5,"freq":117.85,"lat":40.92818200,"lon":14.38354900,"rng_nm":25,"alt_fmsl":108,"id":"POM","desc":"POMIGLIANO VOR-DME"},
+{"type":"NDB","hdg_t":250.9,"dist_nm":92.3,"freq":421,"lat":41.91072200,"lon":12.23455600,"rng_nm":25,"alt_fmsl":208,"id":"FN","desc":"FIUMICINO NDB"},
+{"type":"NDB","hdg_t":126.4,"dist_nm":92.7,"freq":334,"lat":41.50000000,"lon":15.83777800,"rng_nm":25,"alt_fmsl":16,"id":"AME","desc":"AMENDOLA NDB"},
+{"type":"NDB","hdg_t":271,"dist_nm":94.4,"freq":480,"lat":42.44000000,"lon":12.05694400,"rng_nm":15,"alt_fmsl":0,"id":"VIB","desc":"VITERBO NDB"},
+{"type":"NDB","hdg_t":250.2,"dist_nm":94.5,"freq":345,"lat":41.88086000,"lon":12.19877700,"rng_nm":25,"alt_fmsl":5,"id":"FW","desc":"FIUMICINO NDB"},
+{"type":"NDB","hdg_t":247.2,"dist_nm":94.6,"freq":321,"lat":41.80527800,"lon":12.23638900,"rng_nm":50,"alt_fmsl":10,"id":"OST","desc":"OSTIA NDB"},
+{"type":"VOR","hdg_t":247.2,"dist_nm":94.6,"freq":114.9,"lat":41.80387600,"lon":12.23749600,"rng_nm":80,"alt_fmsl":46,"id":"OST","desc":"OSTIA VOR-DME"},
+{"type":"SDME","hdg_t":130.2,"dist_nm":94.7,"freq":114.3,"lat":41.39972200,"lon":15.78416700,"rng_nm":130,"alt_fmsl":86,"id":"ORT","desc":"ORTANOVA TACAN"},
+{"type":"VOR","hdg_t":277.4,"dist_nm":95.3,"freq":114.4,"lat":42.61833300,"lon":12.04861100,"rng_nm":100,"alt_fmsl":2080,"id":"BOL","desc":"BOLSENA VORTAC"}
+]
+}

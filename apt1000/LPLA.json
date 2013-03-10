@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LPLA","name":"Lajes","lat":38.76441,"lon":-27.093482,"rwys":1,"ils":2,"index":2498611,"path":"w030n30/w028n38"
+,"runways":[
+{"len_m":3311,"wid_m":60.05,"hdg":140,"surf":"Asphalt","rwy1":"15","lat1":38.77595300,"lon1":-27.10555000,"rwy2":"33","lat2":38.75286700,"lon2":-27.08141400}
+]
+,"radios":[
+{"type":"ATIS","freq":120.3,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":122.1,"desc":"TWR"},
+{"type":"APP","freq":135,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":38.75066100,"lon":-27.07911100,"rng_nm":18,"alt_fmsl":180,"hdg":140.82,"id":"DK","rwy":"15","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.5,"lat":38.77804200,"lon":-27.10772800,"rng_nm":18,"alt_fmsl":158,"hdg":320.81,"id":"OZ","rwy":"33","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":38.77463300,"lon":-27.10186900,"rng_nm":10,"alt_fmsl":159,"id":"DK","rwy":"15","desc":"GS","gs":3},
+{"type":"GS","freq":111.5,"lat":38.75596100,"lon":-27.08293900,"rng_nm":10,"alt_fmsl":180,"id":"OZ","rwy":"33","desc":"GS","gs":3.2}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":170.4,"dist_nm":0.2,"freq":116.2,"lat":38.76036900,"lon":-27.09261100,"rng_nm":10,"alt_fmsl":172,"id":"TRM","desc":"TERMINAL TACAN"},
+{"type":"VOR","hdg_t":336.3,"dist_nm":1.2,"freq":112.3,"lat":38.78394400,"lon":-27.10438900,"rng_nm":130,"alt_fmsl":255,"id":"LM","desc":"LAJES VOR"},
+{"type":"NDB","hdg_t":320.6,"dist_nm":1.4,"freq":341,"lat":38.78315800,"lon":-27.11314700,"rng_nm":50,"alt_fmsl":32,"id":"GP","desc":"LAJES NDB"},
+{"type":"SDME","hdg_t":198.5,"dist_nm":3.2,"freq":110.8,"lat":38.71333300,"lon":-27.11541700,"rng_nm":250,"alt_fmsl":1785,"id":"LAJ","desc":"LAJES TACAN"},
+{"type":"NDB","hdg_t":294.5,"dist_nm":48.1,"freq":428,"lat":39.09382800,"lon":-28.03080600,"rng_nm":25,"alt_fmsl":0,"id":"GC","desc":"GRACIOSA NDB"},
+{"type":"NDB","hdg_t":259,"dist_nm":62.7,"freq":420,"lat":38.55819400,"lon":-28.40322200,"rng_nm":25,"alt_fmsl":0,"id":"PI","desc":"PICO NDB"},
+{"type":"VOR","hdg_t":258.9,"dist_nm":73.4,"freq":112.7,"lat":38.51941700,"lon":-28.62356100,"rng_nm":130,"alt_fmsl":485,"id":"VFL","desc":"HORTA VORTAC"},
+{"type":"NDB","hdg_t":259,"dist_nm":73.6,"freq":360,"lat":38.51986100,"lon":-28.62949400,"rng_nm":25,"alt_fmsl":0,"id":"HT","desc":"HORTA NDB"},
+{"type":"NDB","hdg_t":259.5,"dist_nm":76.2,"freq":380,"lat":38.52251100,"lon":-28.68587800,"rng_nm":25,"alt_fmsl":0,"id":"FIL","desc":"HORTA NDB"},
+{"type":"VOR","hdg_t":130.6,"dist_nm":83.7,"freq":114.5,"lat":37.84611100,"lon":-25.75805600,"rng_nm":130,"alt_fmsl":2789,"id":"VMG","desc":"SAO MIGUEL VORTAC"},
+{"type":"NDB","hdg_t":132.1,"dist_nm":91.1,"freq":351,"lat":37.73500000,"lon":-25.67500000,"rng_nm":25,"alt_fmsl":0,"id":"PD","desc":"PONTA DELGADA NDB"},
+{"type":"NDB","hdg_t":130.2,"dist_nm":94,"freq":371,"lat":37.74138900,"lon":-25.58388900,"rng_nm":200,"alt_fmsl":0,"id":"MGL","desc":"PONTA DELGADA NDB"}
+]
+}

@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VTCT","name":"Chiang Rai Intl","lat":19.95234,"lon":99.882928,"rwys":1,"ils":1,"index":4578175,"path":"e090n10/e099n19"
+,"runways":[
+{"len_m":3001,"wid_m":45.11,"hdg":29,"surf":"Asphalt","rwy1":"03","lat1":19.94048600,"lon1":99.87597500,"rwy2":"21","lat2":19.96419400,"lon2":99.88988100}
+]
+,"radios":[
+{"type":"TWR","freq":118.4,"desc":"TWR"},
+{"type":"APP","freq":120.05,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":19.96653300,"lon":99.89125000,"rng_nm":18,"alt_fmsl":1275,"hdg":28.87,"id":"ICTR","rwy":"03","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":19.94238900,"lon":99.87850000,"rng_nm":10,"alt_fmsl":1280,"id":"ICTR","rwy":"03","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":19.93136100,"lon":99.87055600,"rng_nm":0,"alt_fmsl":1275,"id":"----","rwy":"03","desc":"MM"},
+{"type":"DME","freq":109.5,"lat":19.96653300,"lon":99.89125000,"rng_nm":18,"alt_fmsl":1280,"id":"ICTR","rwy":"03","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":174.2,"dist_nm":0.2,"freq":116.5,"lat":19.94823600,"lon":99.88336700,"rng_nm":40,"alt_fmsl":1295,"id":"CTR","desc":"CHIANG RAI VOR-DME"},
+{"type":"NDB","hdg_t":1.1,"dist_nm":0.4,"freq":277,"lat":19.95974200,"lon":99.88308100,"rng_nm":50,"alt_fmsl":0,"id":"CT","desc":"CHIANG RAI NDB"},
+{"type":"NDB","hdg_t":4.9,"dist_nm":31,"freq":375,"lat":20.47041700,"lon":99.93063900,"rng_nm":50,"alt_fmsl":0,"id":"TL","desc":"TACHILEIK NDB"},
+{"type":"NDB","hdg_t":314.9,"dist_nm":49.3,"freq":312,"lat":20.53444400,"lon":99.26272200,"rng_nm":40,"alt_fmsl":0,"id":"MS","desc":"MONG HSAT NDB"},
+{"type":"NDB","hdg_t":350.1,"dist_nm":81.9,"freq":400,"lat":21.30272200,"lon":99.63269400,"rng_nm":50,"alt_fmsl":0,"id":"KG","desc":"KENGTUNG NDB"},
+{"type":"VOR","hdg_t":143,"dist_nm":85.2,"freq":115.7,"lat":18.80910000,"lon":100.78258600,"rng_nm":50,"alt_fmsl":685,"id":"NAN","desc":"NAN VOR-DME"},
+{"type":"NDB","hdg_t":143.2,"dist_nm":85.7,"freq":355,"lat":18.80033300,"lon":100.78285600,"rng_nm":50,"alt_fmsl":0,"id":"NN","desc":"NAN NDB"},
+{"type":"SDME","hdg_t":216.5,"dist_nm":87.6,"freq":116.2,"lat":18.77123600,"lon":98.96683200,"rng_nm":50,"alt_fmsl":1035,"id":"CHM","desc":"CHIANG MAI TACAN"},
+{"type":"VOR","hdg_t":216.5,"dist_nm":88,"freq":116.9,"lat":18.76611900,"lon":98.96126400,"rng_nm":50,"alt_fmsl":1043,"id":"CMA","desc":"CHIANG MAI VOR-DME"},
+{"type":"NDB","hdg_t":216.2,"dist_nm":88.2,"freq":255,"lat":18.75981100,"lon":98.96721100,"rng_nm":50,"alt_fmsl":1035,"id":"CGM","desc":"CHIANG MAI NDB"}
+]
+}

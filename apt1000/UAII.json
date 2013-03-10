@@ -1,0 +1,43 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UAII","name":"Shymkent","lat":42.364236,"lon":69.4791155,"rwys":1,"ils":2,"index":4088081,"path":"e060n40/e069n42"
+,"runways":[
+{"len_m":2799,"wid_m":43.89,"hdg":106,"surf":"Concrete","rwy1":"10","lat1":42.36776100,"lon1":69.46280000,"rwy2":"28","lat2":42.36071100,"lon2":69.49543100}
+]
+,"radios":[
+{"type":"TWR","freq":118.7,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":111.7,"lat":42.35927800,"lon":69.50208100,"rng_nm":18,"alt_fmsl":1385,"hdg":106.31,"id":"IEN","rwy":"10","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":42.36921700,"lon":69.45605800,"rng_nm":18,"alt_fmsl":1385,"hdg":286.29,"id":"IIM","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.7,"lat":42.36550600,"lon":69.46550000,"rng_nm":10,"alt_fmsl":1385,"id":"IEN","rwy":"10","desc":"GS","gs":2.4},
+{"type":"GS","freq":110.3,"lat":42.36006400,"lon":69.49105000,"rng_nm":10,"alt_fmsl":1385,"id":"IIM","rwy":"28","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":42.37762800,"lon":69.41686900,"rng_nm":0,"alt_fmsl":1385,"id":"----","rwy":"10","desc":"OM"},
+{"type":"OM","freq":0,"lat":42.35053600,"lon":69.54255000,"rng_nm":0,"alt_fmsl":1385,"id":"----","rwy":"28","desc":"OM"},
+{"type":"MM","freq":0,"lat":42.37015600,"lon":69.45157200,"rng_nm":0,"alt_fmsl":1385,"id":"----","rwy":"10","desc":"MM"},
+{"type":"MM","freq":0,"lat":42.35829200,"lon":69.50666900,"rng_nm":0,"alt_fmsl":1385,"id":"----","rwy":"28","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":106.4,"dist_nm":1.1,"freq":113,"lat":42.35861100,"lon":69.50472200,"rng_nm":130,"alt_fmsl":1430,"id":"SMK","desc":"SHYMKENT VOR-DME"},
+{"type":"NDB","hdg_t":106.2,"dist_nm":1.2,"freq":733,"lat":42.35829200,"lon":69.50666900,"rng_nm":25,"alt_fmsl":0,"id":"I","desc":"SHYMKENT NDB"},
+{"type":"NDB","hdg_t":286.1,"dist_nm":1.2,"freq":733,"lat":42.37015600,"lon":69.45157200,"rng_nm":25,"alt_fmsl":0,"id":"E","desc":"SHYMKENT NDB"},
+{"type":"NDB","hdg_t":286.2,"dist_nm":2.8,"freq":360,"lat":42.37762800,"lon":69.41686900,"rng_nm":50,"alt_fmsl":0,"id":"EN","desc":"SHYMKENT NDB"},
+{"type":"NDB","hdg_t":106.2,"dist_nm":2.9,"freq":360,"lat":42.35053600,"lon":69.54255000,"rng_nm":50,"alt_fmsl":0,"id":"IM","desc":"SHYMKENT NDB"},
+{"type":"NDB","hdg_t":251.2,"dist_nm":60.3,"freq":605,"lat":42.03333300,"lon":68.20000000,"rng_nm":50,"alt_fmsl":0,"id":"MK","desc":"KHODZHATUGAY NDB"},
+{"type":"NDB","hdg_t":207.5,"dist_nm":66.2,"freq":820,"lat":41.38333300,"lon":68.80000000,"rng_nm":50,"alt_fmsl":0,"id":"VQ","desc":"KOMINTERN NDB"},
+{"type":"NDB","hdg_t":185.3,"dist_nm":66.2,"freq":285,"lat":41.26456400,"lon":69.34371400,"rng_nm":50,"alt_fmsl":0,"id":"FD","desc":"TASHKENT NDB"},
+{"type":"NDB","hdg_t":186.5,"dist_nm":66.5,"freq":588,"lat":41.26144400,"lon":69.31025000,"rng_nm":50,"alt_fmsl":0,"id":"F","desc":"YUZHNY NDB"},
+{"type":"VOR","hdg_t":187.3,"dist_nm":66.7,"freq":113.2,"lat":41.26000000,"lon":69.29000000,"rng_nm":130,"alt_fmsl":1414,"id":"TKT","desc":"TASHKENT VOR-DME"},
+{"type":"NDB","hdg_t":188.9,"dist_nm":67.4,"freq":259,"lat":41.25275000,"lon":69.24794400,"rng_nm":50,"alt_fmsl":0,"id":"Z","desc":"YUZHNY NDB"},
+{"type":"NDB","hdg_t":190.1,"dist_nm":67.7,"freq":285,"lat":41.25166700,"lon":69.21500000,"rng_nm":50,"alt_fmsl":0,"id":"NG","desc":"TASHKENT NDB"},
+{"type":"NDB","hdg_t":190,"dist_nm":67.8,"freq":340,"lat":41.25000000,"lon":69.21833300,"rng_nm":50,"alt_fmsl":0,"id":"ZW","desc":"TASHKENT NDB"},
+{"type":"NDB","hdg_t":190.1,"dist_nm":71.9,"freq":743,"lat":41.18333300,"lon":69.20000000,"rng_nm":50,"alt_fmsl":0,"id":"SR","desc":"SERGELI NDB"},
+{"type":"NDB","hdg_t":319.1,"dist_nm":74.5,"freq":415,"lat":43.30000000,"lon":68.36666700,"rng_nm":50,"alt_fmsl":0,"id":"TS","desc":"TURKESTAN NDB"},
+{"type":"NDB","hdg_t":183,"dist_nm":82.9,"freq":725,"lat":40.98333300,"lon":69.38333300,"rng_nm":50,"alt_fmsl":0,"id":"UA","desc":"TOYTEPA NDB"},
+{"type":"NDB","hdg_t":41.1,"dist_nm":84.4,"freq":905,"lat":43.41666700,"lon":70.75000000,"rng_nm":50,"alt_fmsl":0,"id":"OL","desc":"AKKOL NDB"},
+{"type":"NDB","hdg_t":69.4,"dist_nm":85.9,"freq":1030,"lat":42.85321900,"lon":71.30333300,"rng_nm":50,"alt_fmsl":0,"id":"YL","desc":"TARAZ NDB"},
+{"type":"NDB","hdg_t":69.4,"dist_nm":85.9,"freq":1030,"lat":42.85333300,"lon":71.30333300,"rng_nm":50,"alt_fmsl":0,"id":"MB","desc":"TARAZ NDB"},
+{"type":"NDB","hdg_t":170.4,"dist_nm":88,"freq":490,"lat":40.91666700,"lon":69.80000000,"rng_nm":50,"alt_fmsl":0,"id":"SW","desc":"KARAKHTAY NDB"},
+{"type":"NDB","hdg_t":201.3,"dist_nm":99.4,"freq":535,"lat":40.81666700,"lon":68.68333300,"rng_nm":50,"alt_fmsl":0,"id":"CV","desc":"SYRDARYA NDB"},
+{"type":"NDB","hdg_t":214.4,"dist_nm":99.9,"freq":193,"lat":40.98333300,"lon":68.23333300,"rng_nm":50,"alt_fmsl":0,"id":"RC","desc":"MAKHTALY NDB"}
+]
+}

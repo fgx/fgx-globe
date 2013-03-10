@@ -1,0 +1,43 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"YSTW","name":"Tamworth","lat":-31.0821801183333,"lon":150.845398586667,"rwys":4,"ils":1,"index":5410491,"path":"e150s40/e150s32"
+,"runways":[
+{"len_m":1108,"wid_m":21.95,"hdg":132,"surf":"Asphalt","rwy1":"12R","lat1":-31.08132193,"lon1":150.83282285,"rwy2":"30L","lat2":-31.08812523,"lon2":150.84133002},
+{"len_m":2199,"wid_m":45.11,"hdg":132,"surf":"Asphalt","rwy1":"12L","lat1":-31.07103754,"lon1":150.83694678,"rwy2":"30R","lat2":-31.08453500,"lon2":150.85384100},
+{"len_m":842,"wid_m":31.09,"hdg":73,"surf":"Transparent","rwy1":"06","lat1":-31.08311754,"lon1":150.84284277,"rwy2":"24","lat2":-31.08093057,"lon2":150.85130067},
+{"len_m":986,"wid_m":31.09,"hdg":8,"surf":"Transparent","rwy1":"18","lat1":-31.08623774,"lon1":150.84509971,"rwy2":"36","lat2":-31.07742557,"lon2":150.84654580}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":14,"wid_m":14.94,"hdg":150,"surf":"Concrete","lat1":-31.08336584,"lon1":150.84829990},
+{"rwy1":"H2","len_m":14,"wid_m":14.94,"hdg":150,"surf":"Concrete","lat1":-31.08334931,"lon1":150.84872681}
+]
+,"radios":[
+{"type":"ATIS","freq":123.8,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":119.4,"desc":"Tower"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":-31.07000000,"lon":150.83583300,"rng_nm":18,"alt_fmsl":1334,"hdg":313.31,"id":"ITW","rwy":"30R","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":-31.08138900,"lon":150.85222200,"rng_nm":10,"alt_fmsl":1334,"id":"ITW","rwy":"30R","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-31.14583300,"lon":150.93055600,"rng_nm":0,"alt_fmsl":1334,"id":"----","rwy":"30R","desc":"OM"},
+{"type":"MM","freq":0,"lat":-31.09111100,"lon":150.86194400,"rng_nm":0,"alt_fmsl":1334,"id":"----","rwy":"30R","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":311.9,"dist_nm":0.9,"freq":341,"lat":-31.07115600,"lon":150.83115600,"rng_nm":75,"alt_fmsl":0,"id":"TW","desc":"TAMWORTH NDB"},
+{"type":"VOR","hdg_t":320.3,"dist_nm":1.2,"freq":116,"lat":-31.06620300,"lon":150.83002200,"rng_nm":50,"alt_fmsl":1344,"id":"TW","desc":"TAMWORTH VOR-DME"},
+{"type":"NDB","hdg_t":213.8,"dist_nm":29.6,"freq":386,"lat":-31.49283100,"lon":150.52378600,"rng_nm":40,"alt_fmsl":0,"id":"QDI","desc":"QUIRINDI NDB"},
+{"type":"NDB","hdg_t":283.8,"dist_nm":31.7,"freq":407,"lat":-30.95416700,"lon":150.24833300,"rng_nm":35,"alt_fmsl":0,"id":"GDH","desc":"GUNNEDAH NDB"},
+{"type":"NDB","hdg_t":122.1,"dist_nm":34.3,"freq":326,"lat":-31.38639400,"lon":151.41238600,"rng_nm":60,"alt_fmsl":0,"id":"MSO","desc":"MOUNT SANDON NDB"},
+{"type":"VOR","hdg_t":122.2,"dist_nm":34.3,"freq":115.3,"lat":-31.38751700,"lon":151.41079400,"rng_nm":130,"alt_fmsl":0,"id":"MSO","desc":"MOUNT SANDON VOR"},
+{"type":"NDB","hdg_t":50.3,"dist_nm":51.8,"freq":401,"lat":-30.52777800,"lon":151.61527800,"rng_nm":35,"alt_fmsl":3552,"id":"ARM","desc":"ARMIDALE NDB-DME"},
+{"type":"SDME","hdg_t":50.3,"dist_nm":51.8,"freq":112.6,"lat":-30.52777800,"lon":151.61527800,"rng_nm":35,"alt_fmsl":3552,"id":"ARM","desc":"ARMIDALE NDB-DME"},
+{"type":"NDB","hdg_t":180.7,"dist_nm":57,"freq":209,"lat":-32.03474700,"lon":150.83103300,"rng_nm":40,"alt_fmsl":0,"id":"SCO","desc":"SCONE NDB"},
+{"type":"NDB","hdg_t":310.7,"dist_nm":69.4,"freq":413,"lat":-30.32074400,"lon":149.83114200,"rng_nm":50,"alt_fmsl":0,"id":"NBR","desc":"NARRABRI NDB"},
+{"type":"NDB","hdg_t":12.1,"dist_nm":73.2,"freq":260,"lat":-29.88472200,"lon":151.14000000,"rng_nm":40,"alt_fmsl":0,"id":"IVL","desc":"INVERELL NDB"},
+{"type":"NDB","hdg_t":259.2,"dist_nm":82.3,"freq":200,"lat":-31.33002800,"lon":149.27066900,"rng_nm":45,"alt_fmsl":2110,"id":"CBB","desc":"COONABARABRAN NDB"},
+{"type":"VOR","hdg_t":66.1,"dist_nm":85.8,"freq":116.2,"lat":-30.49245600,"lon":152.35920300,"rng_nm":130,"alt_fmsl":0,"id":"PLO","desc":"POINT LOOKOUT VOR"},
+{"type":"NDB","hdg_t":66.2,"dist_nm":87.8,"freq":296,"lat":-30.48206700,"lon":152.39732500,"rng_nm":40,"alt_fmsl":0,"id":"PLO","desc":"POINT LOOKOUT NDB"},
+{"type":"NDB","hdg_t":166.6,"dist_nm":90.5,"freq":290,"lat":-32.55222200,"lon":151.25750000,"rng_nm":60,"alt_fmsl":0,"id":"SGT","desc":"SINGLETON NDB"},
+{"type":"NDB","hdg_t":27.8,"dist_nm":95.2,"freq":212,"lat":-29.67222200,"lon":151.69500000,"rng_nm":30,"alt_fmsl":0,"id":"GLI","desc":"GLEN INNES NDB"},
+{"type":"NDB","hdg_t":119.9,"dist_nm":98.1,"freq":371,"lat":-31.88949400,"lon":152.50948100,"rng_nm":70,"alt_fmsl":0,"id":"TRE","desc":"TAREE NDB"}
+]
+}

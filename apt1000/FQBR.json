@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"FQBR","name":"Beira","lat":-19.7973105,"lon":34.908847,"rwys":3,"ils":1,"index":3510671,"path":"e030s20/e034s20"
+,"runways":[
+{"len_m":2395,"wid_m":45.11,"hdg":104,"surf":"Asphalt","rwy1":"12","lat1":-19.79364400,"lon1":34.89650800,"rwy2":"30","lat2":-19.79919200,"lon2":34.91860300},
+{"len_m":1740,"wid_m":45.11,"hdg":159,"surf":"Asphalt","rwy1":"17","lat1":-19.79158300,"lon1":34.90658300,"rwy2":"35","lat2":-19.80633300,"lon2":34.91233300},
+{"len_m":918,"wid_m":45.11,"hdg":44,"surf":"Asphalt","rwy1":"06","lat1":-19.79952800,"lon1":34.90647200,"rwy2":"24","lat2":-19.79358300,"lon2":34.91258300}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":127.9,"desc":"TETE INFO"},
+{"type":"TWR","freq":125.9,"desc":"TETE INFO"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.9,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-19.79989600,"lon":34.92174400,"rng_nm":18,"alt_fmsl":33,"hdg":104.75,"id":"BR","rwy":"12","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-19.79545200,"lon":34.89924300,"rng_nm":10,"alt_fmsl":33,"id":"BR","rwy":"12","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":285.3,"dist_nm":2.1,"freq":113.7,"lat":-19.78766700,"lon":34.87175000,"rng_nm":150,"alt_fmsl":47,"id":"VBR","desc":"BEIRA VOR-DME"},
+{"type":"NDB","hdg_t":285.7,"dist_nm":3.4,"freq":327,"lat":-19.78156400,"lon":34.85007500,"rng_nm":150,"alt_fmsl":0,"id":"BR","desc":"BEIRA NDB"},
+{"type":"NDB","hdg_t":318.7,"dist_nm":13.7,"freq":387,"lat":-19.62379900,"lon":34.74840500,"rng_nm":60,"alt_fmsl":0,"id":"DO","desc":"DONDO NDB"},
+{"type":"NDB","hdg_t":296,"dist_nm":93.3,"freq":282,"lat":-19.10439400,"lon":33.43336800,"rng_nm":25,"alt_fmsl":0,"id":"CH","desc":"CHIMOIO NDB"},
+{"type":"NDB","hdg_t":170.8,"dist_nm":131.4,"freq":370,"lat":-21.96751400,"lon":35.28342200,"rng_nm":100,"alt_fmsl":0,"id":"VL","desc":"VILANKULO NDB"},
+{"type":"NDB","hdg_t":291.5,"dist_nm":137.5,"freq":405,"lat":-18.93944400,"lon":32.65944400,"rng_nm":50,"alt_fmsl":0,"id":"MU","desc":"MUTARE NDB"},
+{"type":"NDB","hdg_t":289,"dist_nm":147.9,"freq":379,"lat":-18.97166700,"lon":32.45000000,"rng_nm":25,"alt_fmsl":0,"id":"GR","desc":"MUTARE GRAND REEF NDB"},
+{"type":"VOR","hdg_t":44,"dist_nm":161,"freq":112.3,"lat":-17.85115700,"lon":36.86679700,"rng_nm":150,"alt_fmsl":36,"id":"VQL","desc":"QUELIMANE VOR-DME"},
+{"type":"NDB","hdg_t":43.6,"dist_nm":162.3,"freq":267,"lat":-17.82115800,"lon":36.86679700,"rng_nm":150,"alt_fmsl":0,"id":"QL","desc":"QUELIMANE NDB"},
+{"type":"NDB","hdg_t":248.5,"dist_nm":201.6,"freq":233,"lat":-20.99758300,"lon":31.56511100,"rng_nm":25,"alt_fmsl":0,"id":"BI","desc":"BUFFALO RANGE NDB"}
+]
+}

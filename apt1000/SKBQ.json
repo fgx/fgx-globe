@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SKBQ","name":"Ernesto Cortissoz","lat":10.889589,"lon":-74.7808195,"rwys":1,"ils":1,"index":1726777,"path":"w080n10/w075n10"
+,"runways":[
+{"len_m":2997,"wid_m":45.11,"hdg":40,"surf":"Concrete","rwy1":"05","lat1":10.87925000,"lon1":-74.78968300,"rwy2":"23","lat2":10.89992800,"lon2":-74.77195600}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.1,"desc":"BARRANQUILLA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":10.90118600,"lon":-74.77095300,"rng_nm":18,"alt_fmsl":98,"hdg":39.98,"id":"IBAQ","rwy":"05","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":10.88245000,"lon":-74.78845800,"rng_nm":10,"alt_fmsl":98,"id":"IBAQ","rwy":"05","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":10.87179400,"lon":-74.79616900,"rng_nm":0,"alt_fmsl":98,"id":"----","rwy":"05","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":220.4,"dist_nm":1.3,"freq":264,"lat":10.87179400,"lon":-74.79616900,"rng_nm":25,"alt_fmsl":295,"id":"AQ","desc":"BARRANQUILLA NDB"},
+{"type":"VOR","hdg_t":220.2,"dist_nm":7.2,"freq":113.7,"lat":10.79666667,"lon":-74.86027778,"rng_nm":130,"alt_fmsl":295,"id":"BAQ","desc":"BARRANQUILLA VOR-DME"},
+{"type":"NDB","hdg_t":223.4,"dist_nm":7.3,"freq":244,"lat":10.80000000,"lon":-74.86666667,"rng_nm":50,"alt_fmsl":0,"id":"BA","desc":"BARRANQUILLA NDB"},
+{"type":"NDB","hdg_t":76.9,"dist_nm":31.4,"freq":287,"lat":11.00777800,"lon":-74.26138900,"rng_nm":200,"alt_fmsl":0,"id":"SMR","desc":"SANTA MARTA NDB"},
+{"type":"VOR","hdg_t":81.9,"dist_nm":32.3,"freq":116.6,"lat":10.96453900,"lon":-74.23836700,"rng_nm":100,"alt_fmsl":34,"id":"STA","desc":"SANTA MARTA VOR-DME"},
+{"type":"NDB","hdg_t":236.4,"dist_nm":53.1,"freq":255,"lat":10.39666700,"lon":-75.53083300,"rng_nm":50,"alt_fmsl":27,"id":"CT","desc":"CARTAGENA NDB"},
+{"type":"VOR","hdg_t":226.5,"dist_nm":59,"freq":112.3,"lat":10.20836111,"lon":-75.50608333,"rng_nm":130,"alt_fmsl":86,"id":"CTG","desc":"CARTAGENA VOR-DME"},
+{"type":"NDB","hdg_t":106.6,"dist_nm":94.6,"freq":325,"lat":10.43211700,"lon":-73.24681900,"rng_nm":200,"alt_fmsl":453,"id":"VUP","desc":"VALLEDUPAR NDB"},
+{"type":"VOR","hdg_t":110,"dist_nm":95.5,"freq":114.6,"lat":10.33777800,"lon":-73.26250000,"rng_nm":100,"alt_fmsl":453,"id":"VVP","desc":"VALLEDUPAR VOR-DME"},
+{"type":"VOR","hdg_t":182.3,"dist_nm":95.7,"freq":114.1,"lat":9.28722222,"lon":-74.84694444,"rng_nm":130,"alt_fmsl":164,"id":"MGN","desc":"MAGANGUE VOR-DME"}
+]
+}

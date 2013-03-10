@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYSB","name":"Sudbury","lat":46.62632025,"lon":-80.7981945,"rwys":2,"ils":1,"index":1630760,"path":"w090n40/w081n46"
+,"runways":[
+{"len_m":2003,"wid_m":60.96,"hdg":28,"surf":"Asphalt","rwy1":"04","lat1":46.61750000,"lon1":-80.80472500,"rwy2":"22","lat2":46.63333600,"lon2":-80.79222200},
+{"len_m":1530,"wid_m":45.72,"hdg":106,"surf":"Asphalt","rwy1":"12","lat1":46.62916700,"lon1":-80.80750000,"rwy2":"30","lat2":46.62527800,"lon2":-80.78833100}
+]
+,"radios":[
+{"type":"ATIS","freq":127.4,"desc":"ATIS"},
+{"type":"GND","freq":121.8,"desc":"GND"},
+{"type":"TWR","freq":125.5,"desc":"MF"},
+{"type":"TWR","freq":125.5,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":46.61578400,"lon":-80.80614500,"rng_nm":18,"alt_fmsl":1140,"hdg":208.58,"id":"ISB","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":46.63061900,"lon":-80.79280100,"rng_nm":10,"alt_fmsl":1140,"id":"ISB","rwy":"22","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":359.6,"dist_nm":0.1,"freq":112.3,"lat":46.62913889,"lon":-80.79822222,"rng_nm":130,"alt_fmsl":1152,"id":"YSB","desc":"SUDBURY VOR-DME"},
+{"type":"NDB","hdg_t":30.5,"dist_nm":3.9,"freq":344,"lat":46.68341667,"lon":-80.74930556,"rng_nm":50,"alt_fmsl":0,"id":"ZSB","desc":"NORANDA(SUDBURY) NDB"},
+{"type":"NDB","hdg_t":284.2,"dist_nm":5.3,"freq":362,"lat":46.64800000,"lon":-80.92275000,"rng_nm":50,"alt_fmsl":0,"id":"SB","desc":"SUDBURY NDB"},
+{"type":"NDB","hdg_t":108.1,"dist_nm":55.6,"freq":404,"lat":46.33097222,"lon":-79.52655556,"rng_nm":50,"alt_fmsl":0,"id":"ZYB","desc":"YELLEK(NORTH BAY) NDB"},
+{"type":"VOR","hdg_t":105,"dist_nm":58.6,"freq":115.4,"lat":46.36391667,"lon":-79.43641667,"rng_nm":130,"alt_fmsl":1207,"id":"YYB","desc":"NORTH BAY VOR-DME"},
+{"type":"NDB","hdg_t":223.3,"dist_nm":64.4,"freq":388,"lat":45.84147222,"lon":-81.85269444,"rng_nm":50,"alt_fmsl":0,"id":"H7","desc":"MANITOULIN EAST NDB"},
+{"type":"NDB","hdg_t":48.1,"dist_nm":75,"freq":230,"lat":47.45194444,"lon":-79.42416667,"rng_nm":50,"alt_fmsl":0,"id":"YBM","desc":"ST BRUNO DE GUIGU NDB"},
+{"type":"NDB","hdg_t":31.9,"dist_nm":77.1,"freq":257,"lat":47.71200000,"lon":-79.79116667,"rng_nm":50,"alt_fmsl":0,"id":"YXR","desc":"EARLTON NDB"},
+{"type":"NDB","hdg_t":259.2,"dist_nm":77.3,"freq":276,"lat":46.37202778,"lon":-82.62875000,"rng_nm":50,"alt_fmsl":0,"id":"YEL","desc":"ELLIOT LAKE NDB"},
+{"type":"NDB","hdg_t":241.6,"dist_nm":86.4,"freq":245,"lat":45.92833333,"lon":-82.61527778,"rng_nm":50,"alt_fmsl":0,"id":"YZE","desc":"GORE BAY NDB"},
+{"type":"NDB","hdg_t":153.3,"dist_nm":90.8,"freq":353,"lat":45.26888889,"lon":-79.83666667,"rng_nm":50,"alt_fmsl":0,"id":"F7","desc":"GEORGIAN BAY NDB"}
+]
+}

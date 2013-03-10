@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ROMY","name":"Miyako","lat":24.782821,"lon":125.295135,"rwys":1,"ils":1,"index":5004465,"path":"e120n20/e125n24"
+,"runways":[
+{"len_m":2000,"wid_m":46.02,"hdg":38,"surf":"Asphalt","rwy1":"04","lat1":24.77573600,"lon1":125.28900300,"rwy2":"22","lat2":24.78990600,"lon2":125.30126700}
+]
+,"radios":[
+{"type":"TWR","freq":118.2,"desc":"Miyako Tower"},
+{"type":"TWR","freq":126.2,"desc":"Miyako Tower"},
+{"type":"APP","freq":120.3,"desc":"Shimoji Approach"},
+{"type":"APP","freq":121.2,"desc":"Shimoji Approach"},
+{"type":"APP","freq":125,"desc":"Shimoji Approach"}
+]
+,"ils":[
+{"type":"ILS","freq":108.9,"lat":24.77406900,"lon":125.28755800,"rng_nm":18,"alt_fmsl":150,"hdg":218.16,"id":"IMY","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.9,"lat":24.78701100,"lon":125.30027500,"rng_nm":10,"alt_fmsl":165,"id":"IMY","rwy":"22","desc":"GS","gs":3},
+{"type":"DME","freq":108.9,"lat":24.78694700,"lon":125.30034400,"rng_nm":18,"alt_fmsl":150,"id":"IMY","rwy":"22","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":354.1,"dist_nm":0.3,"freq":340,"lat":24.78808300,"lon":125.29454700,"rng_nm":100,"alt_fmsl":150,"id":"MY","desc":"MIYAKO JIMA NDB"},
+{"type":"VOR","hdg_t":60.5,"dist_nm":0.3,"freq":117.5,"lat":24.78597222,"lon":125.30125000,"rng_nm":130,"alt_fmsl":198,"id":"MYC","desc":"MIYAKO JIMA VORTAC"},
+{"type":"VOR","hdg_t":285.8,"dist_nm":8.5,"freq":117.1,"lat":24.82193300,"lon":125.14380600,"rng_nm":100,"alt_fmsl":66,"id":"SJE","desc":"SHIMOJISHIMA VOR-DME"},
+{"type":"VOR","hdg_t":257,"dist_nm":34.8,"freq":110.65,"lat":24.65065600,"lon":124.67382200,"rng_nm":50,"alt_fmsl":59,"id":"RME","desc":"TARAMA VOR-DME"},
+{"type":"VOR","hdg_t":246.7,"dist_nm":66.1,"freq":117.7,"lat":24.34103100,"lon":124.18572800,"rng_nm":100,"alt_fmsl":114,"id":"GKE","desc":"ISHIGAKI VOR-DME"},
+{"type":"NDB","hdg_t":242.4,"dist_nm":92.4,"freq":332,"lat":24.06069700,"lon":123.80342800,"rng_nm":50,"alt_fmsl":0,"id":"HR","desc":"HATERUMA NDB"},
+{"type":"NDB","hdg_t":38.8,"dist_nm":121.9,"freq":295,"lat":26.36243600,"lon":126.71575800,"rng_nm":100,"alt_fmsl":0,"id":"KX","desc":"KUMEJIMA NDB"},
+{"type":"VOR","hdg_t":38.8,"dist_nm":122.5,"freq":116.7,"lat":26.37186900,"lon":126.72206400,"rng_nm":100,"alt_fmsl":42,"id":"KXC","desc":"KUMEJIMA VORTAC"},
+{"type":"VOR","hdg_t":261.9,"dist_nm":126.1,"freq":114.55,"lat":24.47091400,"lon":123.01220600,"rng_nm":130,"alt_fmsl":50,"id":"SOE","desc":"SONAI VOR-DME"},
+{"type":"VOR","hdg_t":261.8,"dist_nm":127,"freq":115.05,"lat":24.46492200,"lon":122.99773900,"rng_nm":100,"alt_fmsl":315,"id":"YNE","desc":"YONAGUNI VOR-DME"}
+]
+}

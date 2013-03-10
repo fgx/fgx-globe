@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RPVM","name":"Mactan Cebu Intl","lat":10.307564,"lon":123.9794385,"rwys":1,"ils":2,"index":4970775,"path":"e120n10/e123n10"
+,"runways":[
+{"len_m":3310,"wid_m":45.11,"hdg":44,"surf":"Asphalt","rwy1":"04","lat1":10.29695300,"lon1":123.96878300,"rwy2":"22","lat2":10.31817500,"lon2":123.99009400}
+]
+,"radios":[
+{"type":"ATIS","freq":126.6,"desc":"ATIS"},
+{"type":"CLD","freq":125.1,"desc":"CLNC"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":124.7,"desc":"APP"},
+{"type":"APP","freq":121.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":10.32005300,"lon":123.99198100,"rng_nm":18,"alt_fmsl":30,"hdg":44.65,"id":"IMT","rwy":"04","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.1,"lat":10.29543600,"lon":123.96726100,"rng_nm":18,"alt_fmsl":20,"hdg":224.65,"id":"IMCT","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":10.29816400,"lon":123.97153300,"rng_nm":10,"alt_fmsl":31,"id":"IMT","rwy":"04","desc":"GS","gs":3.1},
+{"type":"GS","freq":109.1,"lat":10.31545000,"lon":123.98889700,"rng_nm":10,"alt_fmsl":31,"id":"IMCT","rwy":"22","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":10.32005300,"lon":123.99198100,"rng_nm":18,"alt_fmsl":31,"id":"IMT","rwy":"04","desc":"DME-ILS"},
+{"type":"DME","freq":109.1,"lat":10.29543600,"lon":123.96726100,"rng_nm":18,"alt_fmsl":36,"id":"IMCT","rwy":"22","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":71.2,"dist_nm":0.3,"freq":331,"lat":10.30923300,"lon":123.98441700,"rng_nm":50,"alt_fmsl":36,"id":"MCT","desc":"MACTAN NDB"},
+{"type":"VOR","hdg_t":55.6,"dist_nm":0.6,"freq":114.3,"lat":10.31356700,"lon":123.98829700,"rng_nm":50,"alt_fmsl":36,"id":"MCT","desc":"MACTAN VOR-DME"},
+{"type":"VOR","hdg_t":296.3,"dist_nm":63.1,"freq":115.3,"lat":10.77527778,"lon":123.02052778,"rng_nm":130,"alt_fmsl":86,"id":"BCD","desc":"BACOLOD VOR-DME"},
+{"type":"VOR","hdg_t":287.6,"dist_nm":65.3,"freq":114.9,"lat":10.63759700,"lon":122.92461700,"rng_nm":25,"alt_fmsl":30,"id":"BC","desc":"BACOLOD VOR"},
+{"type":"VOR","hdg_t":214.4,"dist_nm":70.5,"freq":114.1,"lat":9.33366100,"lon":123.30640600,"rng_nm":50,"alt_fmsl":15,"id":"DG","desc":"DUMAGUETE VOR"},
+{"type":"VOR","hdg_t":48.1,"dist_nm":82.8,"freq":115.5,"lat":11.23200000,"lon":125.02600000,"rng_nm":130,"alt_fmsl":39,"id":"TAC","desc":"TACLOBAN VOR-DME"},
+{"type":"VOR","hdg_t":285.9,"dist_nm":88.2,"freq":116.3,"lat":10.70951400,"lon":122.54219400,"rng_nm":100,"alt_fmsl":27,"id":"IOO","desc":"ILOILO VOR-DME"},
+{"type":"NDB","hdg_t":110,"dist_nm":94.8,"freq":415,"lat":9.76005600,"lon":125.48268100,"rng_nm":40,"alt_fmsl":0,"id":"SU","desc":"SURIGAO NDB"},
+{"type":"VOR","hdg_t":316.9,"dist_nm":105.6,"freq":112.9,"lat":11.59692500,"lon":122.75511900,"rng_nm":100,"alt_fmsl":47,"id":"ROX","desc":"ROXAS VOR-DME"},
+{"type":"NDB","hdg_t":200.3,"dist_nm":108.7,"freq":389,"lat":8.60056500,"lon":123.34306100,"rng_nm":50,"alt_fmsl":12,"id":"DI","desc":"DIPOLOG NDB"}
+]
+}

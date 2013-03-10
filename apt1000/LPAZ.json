@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LPAZ","name":"Santa Maria","lat":36.9727315,"lon":-25.1705323333333,"rwys":3,"ils":1,"index":2531259,"path":"w030n30/w026n36"
+,"runways":[
+{"len_m":3059,"wid_m":60.05,"hdg":170,"surf":"Concrete","rwy1":"18","lat1":36.98500000,"lon1":-25.17333300,"rwy2":"36","lat2":36.95777800,"lon2":-25.16791700},
+{"len_m":1846,"wid_m":45.11,"hdg":135,"surf":"Asphalt","rwy1":"15","lat1":36.97361100,"lon1":-25.17583300,"rwy2":"33","lat2":36.96166700,"lon2":-25.16138900},
+{"len_m":1324,"wid_m":45.11,"hdg":27,"surf":"Asphalt","rwy1":"04","lat1":36.97388900,"lon1":-25.17583300,"rwy2":"22","lat2":36.98444400,"lon2":-25.16888900}
+]
+,"radios":[
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":36.95561400,"lon":-25.16747200,"rng_nm":18,"alt_fmsl":279,"hdg":170.95,"id":"MA","rwy":"18","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":36.98348600,"lon":-25.17156100,"rng_nm":10,"alt_fmsl":284,"id":"MA","rwy":"18","desc":"GS","gs":2.75},
+{"type":"MM","freq":0,"lat":36.99666700,"lon":-25.17555600,"rng_nm":0,"alt_fmsl":279,"id":"----","rwy":"18","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":161.5,"dist_nm":0.6,"freq":113.7,"lat":36.96277800,"lon":-25.16638900,"rng_nm":130,"alt_fmsl":24,"id":"VSM","desc":"SANTA MARIA VOR-DME"},
+{"type":"NDB","hdg_t":350.4,"dist_nm":1.4,"freq":323,"lat":36.99666700,"lon":-25.17555600,"rng_nm":300,"alt_fmsl":308,"id":"SMA","desc":"SANTA MARIA NDB"},
+{"type":"NDB","hdg_t":336.8,"dist_nm":50.1,"freq":371,"lat":37.74138900,"lon":-25.58388900,"rng_nm":200,"alt_fmsl":0,"id":"MGL","desc":"PONTA DELGADA NDB"},
+{"type":"NDB","hdg_t":332.3,"dist_nm":51.6,"freq":351,"lat":37.73500000,"lon":-25.67500000,"rng_nm":25,"alt_fmsl":0,"id":"PD","desc":"PONTA DELGADA NDB"},
+{"type":"VOR","hdg_t":331.9,"dist_nm":59.3,"freq":114.5,"lat":37.84611100,"lon":-25.75805600,"rng_nm":130,"alt_fmsl":2789,"id":"VMG","desc":"SAO MIGUEL VORTAC"},
+{"type":"SDME","hdg_t":319,"dist_nm":139.3,"freq":110.8,"lat":38.71333300,"lon":-27.11541700,"rng_nm":250,"alt_fmsl":1785,"id":"LAJ","desc":"LAJES TACAN"},
+{"type":"SDME","hdg_t":320.1,"dist_nm":140.7,"freq":116.2,"lat":38.76036900,"lon":-27.09261100,"rng_nm":10,"alt_fmsl":172,"id":"TRM","desc":"TERMINAL TACAN"},
+{"type":"VOR","hdg_t":320.3,"dist_nm":142.1,"freq":112.3,"lat":38.78394400,"lon":-27.10438900,"rng_nm":130,"alt_fmsl":255,"id":"LM","desc":"LAJES VOR"},
+{"type":"NDB","hdg_t":320.2,"dist_nm":142.4,"freq":341,"lat":38.78315800,"lon":-27.11314700,"rng_nm":50,"alt_fmsl":32,"id":"GP","desc":"LAJES NDB"},
+{"type":"NDB","hdg_t":302.6,"dist_nm":180.7,"freq":420,"lat":38.55819400,"lon":-28.40322200,"rng_nm":25,"alt_fmsl":0,"id":"PI","desc":"PICO NDB"}
+]
+}

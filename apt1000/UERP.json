@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UERP","name":"Poliarny","lat":66.4004305,"lon":112.03031985,"rwys":1,"ils":1,"index":4794136,"path":"e110n60/e112n66"
+,"runways":[
+{"len_m":3087,"wid_m":42.06,"hdg":163,"surf":"Concrete","rwy1":"17","lat1":66.41371777,"lon1":112.02061447,"rwy2":"35","lat2":66.38714323,"lon2":112.04002522}
+]
+,"radios":[
+{"type":"ATIS","freq":127.2,"desc":"Poliarny Meteo"},
+{"type":"APP","freq":132.1,"desc":"Poliarny Control"}
+]
+,"ils":[
+{"type":"ILS","freq":108.1,"lat":66.41670227,"lon":112.01833344,"rng_nm":50,"alt_fmsl":1665,"hdg":343.84,"id":"IWN","rwy":"35","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.1,"lat":66.38999939,"lon":112.04049683,"rng_nm":50,"alt_fmsl":1665,"id":"IWN","rwy":"35","desc":"GS","gs":2.7},
+{"type":"OM","freq":0,"lat":66.35333252,"lon":112.06549835,"rng_nm":0,"alt_fmsl":1665,"id":"----","rwy":"35","desc":"OM"},
+{"type":"MM","freq":0,"lat":66.37566376,"lon":112.04833221,"rng_nm":0,"alt_fmsl":1665,"id":"----","rwy":"35","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":163.7,"dist_nm":1.5,"freq":255,"lat":66.37566376,"lon":112.04833221,"rng_nm":50,"alt_fmsl":1660,"id":"W","desc":"Poliarny NDB"},
+{"type":"NDB","hdg_t":154.3,"dist_nm":2,"freq":525,"lat":66.37000000,"lon":112.06666700,"rng_nm":80,"alt_fmsl":0,"id":"WN","desc":"POLIARNY NDB"},
+{"type":"NDB","hdg_t":4.6,"dist_nm":125.2,"freq":300,"lat":68.47333527,"lon":112.48633575,"rng_nm":80,"alt_fmsl":315,"id":"NL","desc":"OLENEK NDB"},
+{"type":"NDB","hdg_t":4.5,"dist_nm":126.7,"freq":257,"lat":68.49883270,"lon":112.48217010,"rng_nm":50,"alt_fmsl":639,"id":"L","desc":"OLENEK NDB"},
+{"type":"NDB","hdg_t":165.8,"dist_nm":237.3,"freq":385,"lat":62.56166700,"lon":114.12166700,"rng_nm":80,"alt_fmsl":0,"id":"SG","desc":"MIRNY NDB"},
+{"type":"NDB","hdg_t":166.1,"dist_nm":237.9,"freq":770,"lat":62.54591751,"lon":114.07505035,"rng_nm":50,"alt_fmsl":1110,"id":"S","desc":"Mirny NDB"},
+{"type":"VOR","hdg_t":166.5,"dist_nm":238,"freq":113.8,"lat":62.54000000,"lon":114.02000000,"rng_nm":40,"alt_fmsl":1283,"id":"DEM","desc":"MIRNY VOR-DME"},
+{"type":"NDB","hdg_t":166.7,"dist_nm":238.9,"freq":770,"lat":62.52208328,"lon":113.99833679,"rng_nm":50,"alt_fmsl":1157,"id":"N","desc":"Mirny NDB"},
+{"type":"NDB","hdg_t":167,"dist_nm":239.4,"freq":385,"lat":62.51000000,"lon":113.95500000,"rng_nm":80,"alt_fmsl":0,"id":"NZ","desc":"MIRNY NDB"},
+{"type":"NDB","hdg_t":137.4,"dist_nm":245.2,"freq":346,"lat":63.26333237,"lon":118.15000153,"rng_nm":80,"alt_fmsl":406,"id":"NT","desc":"Nyurba NDB"}
+]
+}

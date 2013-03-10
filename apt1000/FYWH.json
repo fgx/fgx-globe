@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"FYWH","name":"Windhoek Hosea Kutako Intl","lat":-22.4818105,"lon":17.47156925,"rwys":2,"ils":1,"index":3231969,"path":"e010s30/e017s23"
+,"runways":[
+{"len_m":4573,"wid_m":45.11,"hdg":63,"surf":"Asphalt","rwy1":"08","lat1":-22.48975600,"lon1":17.44953900,"rwy2":"26","lat2":-22.47141100,"lon2":17.48935800},
+{"len_m":1523,"wid_m":29.87,"hdg":141,"surf":"Asphalt","rwy1":"16","lat1":-22.47767800,"lon1":17.46904700,"rwy2":"34","lat2":-22.48839700,"lon2":17.47833300}
+]
+,"radios":[
+{"type":"TWR","freq":118.1,"desc":"WINDHOEK TWR"},
+{"type":"APP","freq":120.5,"desc":"WINDHOEK APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-22.49100000,"lon":17.44705000,"rng_nm":18,"alt_fmsl":5640,"hdg":243.39,"id":"WD","rwy":"26","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-22.47180000,"lon":17.48651700,"rng_nm":10,"alt_fmsl":5640,"id":"WD","rwy":"26","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":206.9,"dist_nm":0.1,"freq":280,"lat":-22.48416700,"lon":17.47027800,"rng_nm":200,"alt_fmsl":5681,"id":"WH","desc":"WINDHOEK NDB"},
+{"type":"VOR","hdg_t":347.6,"dist_nm":0.2,"freq":114.5,"lat":-22.47750000,"lon":17.47055600,"rng_nm":100,"alt_fmsl":5612,"id":"WHV","desc":"WINDHOEK VOR-DME"},
+{"type":"NDB","hdg_t":338.7,"dist_nm":129.2,"freq":357,"lat":-20.46361100,"lon":16.64166700,"rng_nm":100,"alt_fmsl":0,"id":"OW","desc":"OTJIWARONGO NDB"},
+{"type":"NDB","hdg_t":269.8,"dist_nm":139.6,"freq":327,"lat":-22.46666700,"lon":14.95833300,"rng_nm":50,"alt_fmsl":0,"id":"AD","desc":"ARANDIS NDB"},
+{"type":"VOR","hdg_t":258.6,"dist_nm":159.6,"freq":113.6,"lat":-22.98211100,"lon":14.64455600,"rng_nm":100,"alt_fmsl":312,"id":"WBV","desc":"WALVIS BAY VOR-DME"},
+{"type":"NDB","hdg_t":258.8,"dist_nm":160.1,"freq":225,"lat":-22.97582500,"lon":14.63429700,"rng_nm":50,"alt_fmsl":0,"id":"WB","desc":"WALVIS BAY NDB"},
+{"type":"VOR","hdg_t":12,"dist_nm":175.9,"freq":115.7,"lat":-19.60277800,"lon":18.12138900,"rng_nm":130,"alt_fmsl":4636,"id":"GFV","desc":"GROOTFONTEIN VOR-DME"},
+{"type":"NDB","hdg_t":12.1,"dist_nm":176.1,"freq":215,"lat":-19.60083300,"lon":18.12722200,"rng_nm":150,"alt_fmsl":0,"id":"GF","desc":"GROOTFONTEIN NDB"},
+{"type":"NDB","hdg_t":4.2,"dist_nm":193.2,"freq":267,"lat":-19.25722200,"lon":17.72583300,"rng_nm":50,"alt_fmsl":4353,"id":"TM","desc":"TSUMEB NDB"},
+{"type":"NDB","hdg_t":79.4,"dist_nm":237.7,"freq":387,"lat":-21.69916900,"lon":21.65477200,"rng_nm":50,"alt_fmsl":3729,"id":"GZ","desc":"GHANZI NDB"}
+]
+}

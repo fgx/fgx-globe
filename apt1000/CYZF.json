@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYZF","name":"Yellowknife","lat":62.4656665,"lon":-114.44141675,"rwys":2,"ils":1,"index":1074713,"path":"w120n60/w115n62"
+,"runways":[
+{"len_m":2272,"wid_m":45.72,"hdg":175,"surf":"Asphalt","rwy1":"15","lat1":62.47316700,"lon1":-114.44400000,"rwy2":"33","lat2":62.45283300,"lon2":-114.44066700},
+{"len_m":1498,"wid_m":45.72,"hdg":116,"surf":"Asphalt","rwy1":"09","lat1":62.47133300,"lon1":-114.45350000,"rwy2":"27","lat2":62.46533300,"lon2":-114.42750000}
+]
+,"radios":[
+{"type":"ATIS","freq":128.4,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.5,"desc":"MF"},
+{"type":"TWR","freq":118.5,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":62.47471410,"lon":-114.44425269,"rng_nm":18,"alt_fmsl":675,"hdg":355.67,"id":"IZF","rwy":"33","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":62.45550595,"lon":-114.44288960,"rng_nm":10,"alt_fmsl":675,"id":"IZF","rwy":"33","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":106.8,"dist_nm":0.1,"freq":115.5,"lat":62.46500000,"lon":-114.43666667,"rng_nm":130,"alt_fmsl":712,"id":"YZF","desc":"YELLOWKNIFE VORTAC"},
+{"type":"NDB","hdg_t":176.6,"dist_nm":3.3,"freq":356,"lat":62.41055556,"lon":-114.43444444,"rng_nm":50,"alt_fmsl":0,"id":"ZF","desc":"YELLOWKNIFE NDB"},
+{"type":"NDB","hdg_t":83.2,"dist_nm":81.6,"freq":264,"lat":62.59472200,"lon":-111.51888900,"rng_nm":50,"alt_fmsl":570,"id":"A1","desc":"TALTHEILEI NARROWS NDB"},
+{"type":"NDB","hdg_t":163.4,"dist_nm":82.1,"freq":274,"lat":61.15416667,"lon":-113.63861111,"rng_nm":50,"alt_fmsl":0,"id":"FR","desc":"FORT RESOLUTION NDB"},
+{"type":"VOR","hdg_t":202.2,"dist_nm":105.5,"freq":113.9,"lat":60.83627778,"lon":-115.80327778,"rng_nm":130,"alt_fmsl":561,"id":"YHY","desc":"HAY RIVER VOR-DME"},
+{"type":"VOR","hdg_t":152.9,"dist_nm":163.6,"freq":112.4,"lat":60.02027778,"lon":-111.96944444,"rng_nm":130,"alt_fmsl":708,"id":"YSM","desc":"FORT SMITH VOR-DME"},
+{"type":"SDME","hdg_t":40.3,"dist_nm":165.7,"freq":111.25,"lat":64.50833300,"lon":-110.30666700,"rng_nm":25,"alt_fmsl":1413,"id":"2Z","desc":"DIAVIK DME"},
+{"type":"NDB","hdg_t":40.2,"dist_nm":165.8,"freq":382,"lat":64.51000000,"lon":-110.30666700,"rng_nm":25,"alt_fmsl":0,"id":"2Z","desc":"DIAVIK NDB"},
+{"type":"NDB","hdg_t":152.3,"dist_nm":167.7,"freq":254,"lat":59.97138889,"lon":-111.85694444,"rng_nm":50,"alt_fmsl":0,"id":"SM","desc":"FORT SMITH NDB"},
+{"type":"NDB","hdg_t":35.7,"dist_nm":169,"freq":350,"lat":64.69805600,"lon":-110.60916700,"rng_nm":50,"alt_fmsl":1540,"id":"4A","desc":"KOALA NDB-DME"}
+]
+}

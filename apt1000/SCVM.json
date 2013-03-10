@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SCVM","name":"Vina Del Mar","lat":-32.949611,"lon":-71.4785835,"rwys":1,"ils":1,"index":1773122,"path":"w080s40/w072s33"
+,"runways":[
+{"len_m":1755,"wid_m":29.87,"hdg":52,"surf":"Asphalt","rwy1":"05","lat1":-32.95444700,"lon1":-71.48601400,"rwy2":"23","lat2":-32.94477500,"lon2":-71.47115300}
+]
+,"radios":[
+{"type":"GND","freq":121.85,"desc":"GND"},
+{"type":"TWR","freq":118.4,"desc":"TWR"},
+{"type":"APP","freq":128.1,"desc":"SANTIAGO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":-32.94425800,"lon":-71.47035800,"rng_nm":18,"alt_fmsl":456,"hdg":52.20,"id":"IVDM","rwy":"05","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":-32.95331900,"lon":-71.48287800,"rng_nm":10,"alt_fmsl":456,"id":"IVDM","rwy":"05","desc":"GS","gs":3.2},
+{"type":"MM","freq":0,"lat":-32.96027800,"lon":-71.49500000,"rng_nm":0,"alt_fmsl":456,"id":"----","rwy":"05","desc":"MM"},
+{"type":"DME","freq":110.7,"lat":-32.94416700,"lon":-71.47027800,"rng_nm":18,"alt_fmsl":423,"id":"IVDM","rwy":"05","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":232.2,"dist_nm":3.5,"freq":390,"lat":-32.98565300,"lon":-71.53391100,"rng_nm":25,"alt_fmsl":609,"id":"SAL","desc":"SALINAS NDB"},
+{"type":"NDB","hdg_t":355.8,"dist_nm":12.6,"freq":384,"lat":-32.73888900,"lon":-71.49666700,"rng_nm":85,"alt_fmsl":46,"id":"ERO","desc":"QUINTERO NDB"},
+{"type":"VOR","hdg_t":355.9,"dist_nm":12.6,"freq":113.3,"lat":-32.73861100,"lon":-71.49611100,"rng_nm":130,"alt_fmsl":246,"id":"VTN","desc":"VENTANAS VOR-DME"},
+{"type":"VOR","hdg_t":86.8,"dist_nm":32.4,"freq":113.9,"lat":-32.91833300,"lon":-70.83722200,"rng_nm":130,"alt_fmsl":4270,"id":"TBN","desc":"TABON VOR-DME"},
+{"type":"NDB","hdg_t":121.7,"dist_nm":40.6,"freq":220,"lat":-33.30487500,"lon":-70.79003300,"rng_nm":25,"alt_fmsl":0,"id":"UE","desc":"LO CASTRO NDB"},
+{"type":"NDB","hdg_t":189,"dist_nm":42.5,"freq":355,"lat":-33.65111100,"lon":-71.61277800,"rng_nm":150,"alt_fmsl":245,"id":"SNO","desc":"SANTO DOMINGO NDB"},
+{"type":"VOR","hdg_t":189.3,"dist_nm":43.4,"freq":113.7,"lat":-33.66583300,"lon":-71.61944400,"rng_nm":130,"alt_fmsl":245,"id":"SNO","desc":"SANTO DOMINGO VOR-DME"},
+{"type":"VOR","hdg_t":129.4,"dist_nm":44,"freq":117.2,"lat":-33.41472200,"lon":-70.80138900,"rng_nm":25,"alt_fmsl":1545,"id":"PDH","desc":"PUDAHUEL VOR-DME"},
+{"type":"VOR","hdg_t":129,"dist_nm":44.8,"freq":116.1,"lat":-33.41973600,"lon":-70.78438100,"rng_nm":130,"alt_fmsl":1572,"id":"AMB","desc":"SANTIAGO VOR-DME"},
+{"type":"NDB","hdg_t":163.6,"dist_nm":45.4,"freq":317,"lat":-33.67750000,"lon":-71.22305600,"rng_nm":50,"alt_fmsl":541,"id":"PIL","desc":"MELIPILLA NDB"},
+{"type":"VOR","hdg_t":130.4,"dist_nm":51.1,"freq":112.3,"lat":-33.50219400,"lon":-70.70290800,"rng_nm":130,"alt_fmsl":1684,"id":"STI","desc":"LOS CERRILLOS VOR-DME"},
+{"type":"NDB","hdg_t":148.1,"dist_nm":51.7,"freq":240,"lat":-33.68305600,"lon":-70.93277800,"rng_nm":25,"alt_fmsl":0,"id":"TAL","desc":"TALAGANTE NDB"},
+{"type":"NDB","hdg_t":137.2,"dist_nm":52,"freq":323,"lat":-33.58533300,"lon":-70.77366700,"rng_nm":25,"alt_fmsl":0,"id":"CHE","desc":"CHENA NDB"}
+]
+}

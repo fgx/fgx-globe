@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EFVR","name":"Varkaus","lat":62.173311,"lon":27.86601,"rwys":1,"ils":1,"index":3401225,"path":"e020n60/e027n62"
+,"runways":[
+{"len_m":1999,"wid_m":45.11,"hdg":141,"surf":"Asphalt","rwy1":"14","lat1":62.18034700,"lon1":27.85410300,"rwy2":"32","lat2":62.16627500,"lon2":27.87791700}
+]
+,"radios":[
+{"type":"ATIS","freq":128.32,"desc":"ATIS"}
+]
+,"ils":[
+{"type":"ILS","freq":109.1,"lat":62.16516100,"lon":27.87980000,"rng_nm":18,"alt_fmsl":286,"hdg":141.71,"id":"VR","rwy":"14","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.1,"lat":62.17873300,"lon":27.85977800,"rng_nm":10,"alt_fmsl":286,"id":"VR","rwy":"14","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":62.22511100,"lon":27.78045000,"rng_nm":0,"alt_fmsl":286,"id":"----","rwy":"14","desc":"OM"},
+{"type":"MM","freq":0,"lat":62.19049400,"lon":27.83605000,"rng_nm":0,"alt_fmsl":286,"id":"----","rwy":"14","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":322.3,"dist_nm":3.9,"freq":370,"lat":62.22511100,"lon":27.78045000,"rng_nm":25,"alt_fmsl":0,"id":"JR","desc":"JULIETT-ROMEO NDB"},
+{"type":"VOR","hdg_t":113.7,"dist_nm":32.4,"freq":117.9,"lat":61.95268100,"lon":28.91406100,"rng_nm":25,"alt_fmsl":343,"id":"SVL","desc":"LINNA VOR-DME"},
+{"type":"NDB","hdg_t":0.4,"dist_nm":45,"freq":310,"lat":62.92246700,"lon":27.87795300,"rng_nm":30,"alt_fmsl":0,"id":"KUR","desc":"KURKI NDB"},
+{"type":"VOR","hdg_t":358.3,"dist_nm":48.5,"freq":113,"lat":62.97976900,"lon":27.81384400,"rng_nm":25,"alt_fmsl":481,"id":"VEH","desc":"VEHKAA VOR-DME"},
+{"type":"NDB","hdg_t":54.7,"dist_nm":54.3,"freq":325,"lat":62.68605800,"lon":29.47208300,"rng_nm":30,"alt_fmsl":0,"id":"JOE","desc":"JOENSUU NDB"},
+{"type":"VOR","hdg_t":58.1,"dist_nm":56.8,"freq":115.7,"lat":62.66049700,"lon":29.61052500,"rng_nm":50,"alt_fmsl":413,"id":"JNS","desc":"JOSIE VOR-DME"},
+{"type":"NDB","hdg_t":61.2,"dist_nm":59.7,"freq":401,"lat":62.63782500,"lon":29.75746400,"rng_nm":30,"alt_fmsl":0,"id":"JP","desc":"JULIETT-PAPA NDB"},
+{"type":"VOR","hdg_t":284.3,"dist_nm":64.5,"freq":112.3,"lat":62.42078600,"lon":25.62334200,"rng_nm":50,"alt_fmsl":696,"id":"LNE","desc":"LUONET VOR-DME"},
+{"type":"VOR","hdg_t":173.8,"dist_nm":68.6,"freq":112.5,"lat":61.03905300,"lon":28.11804700,"rng_nm":25,"alt_fmsl":363,"id":"VIL","desc":"VILMAS VOR-DME"},
+{"type":"NDB","hdg_t":176.3,"dist_nm":69.6,"freq":392,"lat":61.01848900,"lon":28.01573100,"rng_nm":30,"alt_fmsl":0,"id":"RAN","desc":"RANTA NDB"},
+{"type":"VOR","hdg_t":199.7,"dist_nm":81.3,"freq":114.6,"lat":60.89729400,"lon":26.92946700,"rng_nm":25,"alt_fmsl":355,"id":"UTT","desc":"UTTI VOR-DME"},
+{"type":"VOR","hdg_t":258.8,"dist_nm":88.7,"freq":115.2,"lat":61.85467500,"lon":24.80260600,"rng_nm":130,"alt_fmsl":484,"id":"HAL","desc":"HALLI VOR-DME"},
+{"type":"NDB","hdg_t":156.7,"dist_nm":98.8,"freq":458,"lat":60.65666700,"lon":29.18666700,"rng_nm":80,"alt_fmsl":0,"id":"WQ","desc":"VESCHEVO NDB"}
+]
+}

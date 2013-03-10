@@ -1,0 +1,85 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KAVL","name":"Asheville Rgnl","lat":35.436564,"lon":-82.540931425,"rwys":1,"ils":2,"index":1597273,"path":"w090n30/w083n35"
+,"runways":[
+{"len_m":2438,"wid_m":46.02,"hdg":159,"surf":"Asphalt","rwy1":"16","lat1":35.44649605,"lon1":-82.54644213,"rwy2":"34","lat2":35.42586720,"lon2":-82.53718092}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":14,"wid_m":14.94,"hdg":-82,"surf":"Concrete","lat1":35.43694637,"lon1":-82.54005132}
+]
+,"radios":[
+{"type":"ATIS","freq":120.2,"desc":"ATIS"},
+{"type":"CTAF","freq":121.1,"desc":"CTAF"},
+{"type":"CTAF","freq":122.95,"desc":"UNICOM"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":121.1,"desc":"TWR"},
+{"type":"APP","freq":124.65,"desc":"APP/DEP"},
+{"type":"APP","freq":125.8,"desc":"APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.9,"lat":35.42342200,"lon":-82.53608100,"rng_nm":18,"alt_fmsl":2140,"hdg":159.91,"id":"IIMO","rwy":"16","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.5,"lat":35.44745300,"lon":-82.54686900,"rng_nm":18,"alt_fmsl":2165,"hdg":339.91,"id":"IAVL","rwy":"34","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.9,"lat":35.44352800,"lon":-82.54608900,"rng_nm":10,"alt_fmsl":2165,"id":"IIMO","rwy":"16","desc":"GS","gs":3},
+{"type":"GS","freq":110.5,"lat":35.42805000,"lon":-82.53950000,"rng_nm":10,"alt_fmsl":2113,"id":"IAVL","rwy":"34","desc":"GS","gs":2.8},
+{"type":"OM","freq":0,"lat":35.53278300,"lon":-82.58744700,"rng_nm":0,"alt_fmsl":2140,"id":"----","rwy":"16","desc":"OM"},
+{"type":"OM","freq":0,"lat":35.35130600,"lon":-82.50489400,"rng_nm":0,"alt_fmsl":2165,"id":"----","rwy":"34","desc":"OM"},
+{"type":"MM","freq":0,"lat":35.45282200,"lon":-82.54957200,"rng_nm":0,"alt_fmsl":2140,"id":"----","rwy":"16","desc":"MM"},
+{"type":"MM","freq":0,"lat":35.41681400,"lon":-82.53311100,"rng_nm":0,"alt_fmsl":2165,"id":"----","rwy":"34","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":338.4,"dist_nm":6.1,"freq":357,"lat":35.53277778,"lon":-82.58744444,"rng_nm":50,"alt_fmsl":0,"id":"IM","desc":"KEANS NDB"},
+{"type":"NDB","hdg_t":160.7,"dist_nm":10.3,"freq":379,"lat":35.27275000,"lon":-82.47102778,"rng_nm":50,"alt_fmsl":0,"id":"BRA","desc":"BROAD RIVER NDB"},
+{"type":"VOR","hdg_t":97.6,"dist_nm":13.4,"freq":112.2,"lat":35.40650000,"lon":-82.26861111,"rng_nm":40,"alt_fmsl":3970,"id":"SUG","desc":"SUGARLOAF MOUNTAI VORTAC"},
+{"type":"VOR","hdg_t":310.3,"dist_nm":32.7,"freq":108.8,"lat":35.79011111,"lon":-83.05236111,"rng_nm":40,"alt_fmsl":4239,"id":"SOT","desc":"SNOWBIRD VORTAC"},
+{"type":"NDB","hdg_t":192.1,"dist_nm":38.3,"freq":408,"lat":34.81122222,"lon":-82.70352778,"rng_nm":50,"alt_fmsl":0,"id":"LQK","desc":"LAKE KEOWEE NDB"},
+{"type":"VOR","hdg_t":128.4,"dist_nm":38.6,"freq":115.7,"lat":35.03363889,"lon":-81.92700000,"rng_nm":130,"alt_fmsl":935,"id":"SPA","desc":"SPARTANBURG VORTAC"},
+{"type":"NDB","hdg_t":160.8,"dist_nm":39.3,"freq":287,"lat":34.81550000,"lon":-82.28013889,"rng_nm":50,"alt_fmsl":0,"id":"GS","desc":"GREER NDB"},
+{"type":"NDB","hdg_t":166.4,"dist_nm":40.4,"freq":521,"lat":34.78013889,"lon":-82.34977778,"rng_nm":50,"alt_fmsl":0,"id":"GM","desc":"JUDKY NDB"},
+{"type":"NDB","hdg_t":139.3,"dist_nm":42.1,"freq":248,"lat":34.90138889,"lon":-81.98538889,"rng_nm":50,"alt_fmsl":0,"id":"FRT","desc":"FAIRMONT NDB"},
+{"type":"NDB","hdg_t":173.8,"dist_nm":44.9,"freq":338,"lat":34.69102778,"lon":-82.44363889,"rng_nm":50,"alt_fmsl":0,"id":"GY","desc":"DYANA NDB"},
+{"type":"NDB","hdg_t":337.9,"dist_nm":45.2,"freq":263,"lat":36.13588889,"lon":-82.89036111,"rng_nm":50,"alt_fmsl":0,"id":"DYQ","desc":"DULANEY NDB"},
+{"type":"NDB","hdg_t":68.6,"dist_nm":45.6,"freq":391,"lat":35.71022222,"lon":-81.67136111,"rng_nm":50,"alt_fmsl":0,"id":"FIQ","desc":"FIDDLERS NDB"},
+{"type":"NDB","hdg_t":103.1,"dist_nm":47.5,"freq":417,"lat":35.25266667,"lon":-81.59880556,"rng_nm":50,"alt_fmsl":0,"id":"SLP","desc":"FIRST RIVER NDB"},
+{"type":"NDB","hdg_t":200.5,"dist_nm":48.7,"freq":257,"lat":34.67383333,"lon":-82.88683333,"rng_nm":50,"alt_fmsl":0,"id":"CEU","desc":"CLEMSON NDB"},
+{"type":"NDB","hdg_t":36.7,"dist_nm":53.7,"freq":320,"lat":36.15347222,"lon":-81.87983333,"rng_nm":50,"alt_fmsl":0,"id":"BAR","desc":"HEMLOCK NDB"},
+{"type":"NDB","hdg_t":13.9,"dist_nm":54.3,"freq":275,"lat":36.31594444,"lon":-82.27041667,"rng_nm":50,"alt_fmsl":0,"id":"EZT","desc":"ELIZABETHTON NDB"},
+{"type":"NDB","hdg_t":188.4,"dist_nm":56.8,"freq":230,"lat":34.49810600,"lon":-82.70853600,"rng_nm":25,"alt_fmsl":760,"id":"AND","desc":"ANDERSON NDB"},
+{"type":"NDB","hdg_t":2.1,"dist_nm":57.6,"freq":221,"lat":36.39872222,"lon":-82.49625000,"rng_nm":50,"alt_fmsl":0,"id":"BO","desc":"BOOIE NDB"},
+{"type":"VOR","hdg_t":220.2,"dist_nm":57.9,"freq":113.4,"lat":34.69586111,"lon":-83.29766667,"rng_nm":130,"alt_fmsl":1700,"id":"ODF","desc":"FOOTHILLS VORTAC"},
+{"type":"NDB","hdg_t":311.7,"dist_nm":60.9,"freq":346,"lat":36.11055556,"lon":-83.47563889,"rng_nm":50,"alt_fmsl":0,"id":"JXT","desc":"JEFFERSON NDB"},
+{"type":"VOR","hdg_t":191.2,"dist_nm":62.1,"freq":108.6,"lat":34.41919444,"lon":-82.78469444,"rng_nm":40,"alt_fmsl":736,"id":"ELW","desc":"ELECTRIC CITY VORTAC"},
+{"type":"NDB","hdg_t":152.1,"dist_nm":62.7,"freq":307,"lat":34.50818100,"lon":-81.94981700,"rng_nm":25,"alt_fmsl":695,"id":"LUX","desc":"LAURENS NDB"},
+{"type":"NDB","hdg_t":135.2,"dist_nm":63.1,"freq":326,"lat":34.68402778,"lon":-81.64233333,"rng_nm":50,"alt_fmsl":0,"id":"UOT","desc":"UNION CO NDB"},
+{"type":"VOR","hdg_t":18.3,"dist_nm":63.2,"freq":114.6,"lat":36.43705556,"lon":-82.12958333,"rng_nm":40,"alt_fmsl":4321,"id":"HMV","desc":"HOLSTON MOUNTAIN VORTAC"},
+{"type":"NDB","hdg_t":344.7,"dist_nm":63.3,"freq":329,"lat":36.45594444,"lon":-82.88436111,"rng_nm":50,"alt_fmsl":0,"id":"RVN","desc":"ROGERSVILLE NDB"},
+{"type":"NDB","hdg_t":70.5,"dist_nm":63.9,"freq":332,"lat":35.78652778,"lon":-81.30530556,"rng_nm":50,"alt_fmsl":0,"id":"HK","desc":"TAWBA NDB"},
+{"type":"NDB","hdg_t":9.1,"dist_nm":67.9,"freq":299,"lat":36.55541667,"lon":-82.31794444,"rng_nm":50,"alt_fmsl":0,"id":"TR","desc":"MOCCA NDB"},
+{"type":"VOR","hdg_t":67.4,"dist_nm":68.6,"freq":110.8,"lat":35.86886111,"lon":-81.24052778,"rng_nm":40,"alt_fmsl":1880,"id":"BZM","desc":"BARRETTS MOUNTAIN VOR-DME"},
+{"type":"NDB","hdg_t":101.7,"dist_nm":69.4,"freq":260,"lat":35.19147222,"lon":-81.15786111,"rng_nm":50,"alt_fmsl":0,"id":"GHJ","desc":"STONIA NDB"},
+{"type":"NDB","hdg_t":84.7,"dist_nm":71.5,"freq":432,"lat":35.53763889,"lon":-81.08647222,"rng_nm":50,"alt_fmsl":0,"id":"IZN","desc":"LINCOLNTON NDB"},
+{"type":"VOR","hdg_t":293.3,"dist_nm":71.8,"freq":116.4,"lat":35.90483333,"lon":-83.89472222,"rng_nm":130,"alt_fmsl":1290,"id":"VXV","desc":"VOLUNTEER VORTAC"},
+{"type":"VOR","hdg_t":164.8,"dist_nm":73.5,"freq":115.5,"lat":34.25155556,"lon":-82.15413889,"rng_nm":130,"alt_fmsl":630,"id":"GRD","desc":"GREENWOOD VORTAC"},
+{"type":"VOR","hdg_t":246.7,"dist_nm":73.7,"freq":109.8,"lat":34.94300000,"lon":-83.91569444,"rng_nm":40,"alt_fmsl":3660,"id":"HRS","desc":"HARRIS VORTAC"},
+{"type":"NDB","hdg_t":162.2,"dist_nm":74.3,"freq":239,"lat":34.25372222,"lon":-82.08622222,"rng_nm":50,"alt_fmsl":0,"id":"GIW","desc":"CORONACA NDB"},
+{"type":"NDB","hdg_t":221.9,"dist_nm":74.9,"freq":347,"lat":34.50150000,"lon":-83.54988889,"rng_nm":50,"alt_fmsl":0,"id":"AJR","desc":"HABERSHAM NDB"},
+{"type":"NDB","hdg_t":73.9,"dist_nm":74.9,"freq":280,"lat":35.77455300,"lon":-81.06496400,"rng_nm":25,"alt_fmsl":964,"id":"VW","desc":"TEMKY NDB"},
+{"type":"NDB","hdg_t":120.1,"dist_nm":76.6,"freq":220,"lat":34.78575000,"lon":-81.20083333,"rng_nm":50,"alt_fmsl":0,"id":"DCM","desc":"CHESTER NDB"},
+{"type":"NDB","hdg_t":284.1,"dist_nm":77.5,"freq":353,"lat":35.74222222,"lon":-84.08119444,"rng_nm":50,"alt_fmsl":0,"id":"TY","desc":"BENFI NDB"},
+{"type":"NDB","hdg_t":114,"dist_nm":78.9,"freq":227,"lat":34.89002778,"lon":-81.08091667,"rng_nm":50,"alt_fmsl":0,"id":"UZ","desc":"RALLY NDB"},
+{"type":"VOR","hdg_t":100.2,"dist_nm":79.4,"freq":115,"lat":35.19027778,"lon":-80.95175000,"rng_nm":40,"alt_fmsl":732,"id":"CLT","desc":"CHARLOTTE VOR-DME"},
+{"type":"NDB","hdg_t":341.3,"dist_nm":80.4,"freq":252,"lat":36.70703300,"lon":-83.07405800,"rng_nm":25,"alt_fmsl":1670,"id":"LQV","desc":"LONG HOLLOW NDB"},
+{"type":"NDB","hdg_t":146.1,"dist_nm":80.8,"freq":278,"lat":34.31152778,"lon":-81.63594444,"rng_nm":50,"alt_fmsl":0,"id":"EOE","desc":"ENOREE NDB"},
+{"type":"NDB","hdg_t":59.6,"dist_nm":81.2,"freq":209,"lat":36.11286111,"lon":-81.09808333,"rng_nm":50,"alt_fmsl":0,"id":"UKF","desc":"WILKI NDB"},
+{"type":"NDB","hdg_t":20.1,"dist_nm":82.8,"freq":236,"lat":36.73372222,"lon":-81.94905556,"rng_nm":50,"alt_fmsl":0,"id":"VJ","desc":"WHINE NDB"},
+{"type":"NDB","hdg_t":44.4,"dist_nm":84.2,"freq":410,"lat":36.43402778,"lon":-81.32180556,"rng_nm":50,"alt_fmsl":0,"id":"JU","desc":"ASHEE NDB"},
+{"type":"VOR","hdg_t":14.9,"dist_nm":86.1,"freq":110.2,"lat":36.82511111,"lon":-82.07897222,"rng_nm":40,"alt_fmsl":4200,"id":"GZG","desc":"GLADE SPRING VOR-DME"},
+{"type":"NDB","hdg_t":274.6,"dist_nm":90.4,"freq":361,"lat":35.54502778,"lon":-84.38300000,"rng_nm":50,"alt_fmsl":0,"id":"MNV","desc":"MADISONVILLE NDB"},
+{"type":"NDB","hdg_t":116.8,"dist_nm":93.2,"freq":400,"lat":34.72269444,"lon":-80.85916667,"rng_nm":50,"alt_fmsl":0,"id":"LKR","desc":"LANCASTER NDB"},
+{"type":"NDB","hdg_t":107.2,"dist_nm":94.8,"freq":204,"lat":34.95294444,"lon":-80.70519444,"rng_nm":50,"alt_fmsl":0,"id":"TWL","desc":"WESLEY NDB"},
+{"type":"NDB","hdg_t":200.8,"dist_nm":95,"freq":221,"lat":33.95138889,"lon":-83.21958333,"rng_nm":50,"alt_fmsl":0,"id":"BJT","desc":"BULLDOG NDB"},
+{"type":"NDB","hdg_t":210.7,"dist_nm":95.5,"freq":244,"lat":34.06222222,"lon":-83.52094444,"rng_nm":50,"alt_fmsl":0,"id":"DDA","desc":"COMMERCE NDB"},
+{"type":"NDB","hdg_t":304.8,"dist_nm":95.6,"freq":204,"lat":36.33783333,"lon":-84.16091667,"rng_nm":50,"alt_fmsl":0,"id":"JAU","desc":"JACKSBORO NDB"},
+{"type":"VOR","hdg_t":203.7,"dist_nm":97.2,"freq":109.6,"lat":33.94758333,"lon":-83.32475000,"rng_nm":130,"alt_fmsl":793,"id":"AHN","desc":"ATHENS VORTAC"},
+{"type":"NDB","hdg_t":133.2,"dist_nm":97.4,"freq":414,"lat":34.31441667,"lon":-81.11266667,"rng_nm":50,"alt_fmsl":0,"id":"FDW","desc":"WINNSBORO NDB"},
+{"type":"NDB","hdg_t":269.1,"dist_nm":99.1,"freq":242,"lat":35.39458333,"lon":-84.56163889,"rng_nm":50,"alt_fmsl":0,"id":"MMI","desc":"MC MINN CO NDB"}
+]
+}

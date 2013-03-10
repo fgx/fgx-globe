@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LICD","name":"Lampedusa","lat":35.4979665,"lon":12.6180765,"rwys":1,"ils":1,"index":3153754,"path":"e010n30/e012n35"
+,"runways":[
+{"len_m":1800,"wid_m":45.11,"hdg":80,"surf":"Asphalt","rwy1":"08","lat1":35.49664400,"lon1":12.60828600,"rwy2":"26","lat2":35.49928900,"lon2":12.62786700}
+]
+,"radios":[
+{"type":"TWR","freq":123.5,"desc":"INFO"},
+{"type":"TWR","freq":122.1,"desc":"INFO"}
+]
+,"ils":[
+{"type":"ILS","freq":111.3,"lat":35.49663000,"lon":12.60811900,"rng_nm":20,"alt_fmsl":70,"hdg":260.60,"id":"ILMA","rwy":"26","desc":"ILS-cat-I"},
+{"type":"DME","freq":111.3,"lat":35.49547400,"lon":12.60787500,"rng_nm":25,"alt_fmsl":70,"id":"ILMA","rwy":"26","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":324.1,"dist_nm":0.1,"freq":373,"lat":35.50044600,"lon":12.61588800,"rng_nm":50,"alt_fmsl":41,"id":"LPD","desc":"LAMPEDUSA NDB"},
+{"type":"VOR","hdg_t":80.4,"dist_nm":0.6,"freq":108.6,"lat":35.49971400,"lon":12.63083100,"rng_nm":25,"alt_fmsl":92,"id":"LPD","desc":"LAMPEDUSA VOR-DME"},
+{"type":"NDB","hdg_t":235.3,"dist_nm":78.8,"freq":308,"lat":34.74333300,"lon":11.30611100,"rng_nm":100,"alt_fmsl":0,"id":"KR","desc":"EL ATTAYA NDB"},
+{"type":"VOR","hdg_t":66.9,"dist_nm":83.9,"freq":115.7,"lat":36.03733300,"lon":14.20525000,"rng_nm":250,"alt_fmsl":532,"id":"GZO","desc":"GOZO VOR-DME"},
+{"type":"NDB","hdg_t":338.1,"dist_nm":84.9,"freq":335,"lat":36.81136300,"lon":11.96102700,"rng_nm":100,"alt_fmsl":609,"id":"PAN","desc":"PANTELLERIA NDB"},
+{"type":"VOR","hdg_t":338.3,"dist_nm":85,"freq":116.1,"lat":36.81444000,"lon":11.96583200,"rng_nm":100,"alt_fmsl":623,"id":"PAN","desc":"PANTELLERIA VOR-DME"},
+{"type":"VOR","hdg_t":280,"dist_nm":92.7,"freq":113.1,"lat":35.75491700,"lon":10.74805600,"rng_nm":130,"alt_fmsl":32,"id":"MON","desc":"MONASTIR VOR-DME"},
+{"type":"SDME","hdg_t":76.2,"dist_nm":93.5,"freq":109.7,"lat":35.85450000,"lon":14.48119400,"rng_nm":25,"alt_fmsl":300,"id":"LQ","desc":"LUQA DME"},
+{"type":"SDME","hdg_t":77,"dist_nm":94.3,"freq":110.5,"lat":35.83711100,"lon":14.50275000,"rng_nm":40,"alt_fmsl":300,"id":"LM","desc":"MALTA DME"},
+{"type":"NDB","hdg_t":77.9,"dist_nm":95.3,"freq":395,"lat":35.81550000,"lon":14.52913900,"rng_nm":999,"alt_fmsl":0,"id":"MLT","desc":"MALTA NDB"},
+{"type":"NDB","hdg_t":75.3,"dist_nm":96.7,"freq":416,"lat":35.89155600,"lon":14.53822200,"rng_nm":300,"alt_fmsl":0,"id":"LQA","desc":"LUQA NDB"}
+]
+}

@@ -1,0 +1,37 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KIDA","name":"Idaho Falls Rgnl","lat":43.5146405,"lon":-112.06830825,"rwys":2,"ils":1,"index":1106275,"path":"w120n40/w113n43"
+,"runways":[
+{"len_m":2743,"wid_m":45.72,"hdg":38,"surf":"Asphalt","rwy1":"02","lat1":43.50251400,"lon1":-112.08521400,"rwy2":"20","lat2":43.52196700,"lon2":-112.06432200},
+{"len_m":1234,"wid_m":22.86,"hdg":181,"surf":"Asphalt","rwy1":"17","lat1":43.52259200,"lon1":-112.06159400,"rwy2":"35","lat2":43.51148900,"lon2":-112.06210300}
+]
+,"radios":[
+{"type":"ATIS","freq":135.32,"desc":"ASOS"},
+{"type":"ATIS","freq":135.32,"desc":"ATIS"},
+{"type":"CTAF","freq":118.5,"desc":"CTAF"},
+{"type":"CTAF","freq":122.95,"desc":"UNICOM"},
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.5,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":111.1,"lat":43.50018900,"lon":-112.08770800,"rng_nm":18,"alt_fmsl":4731,"hdg":217.90,"id":"IIDA","rwy":"20","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.1,"lat":43.52053900,"lon":-112.06728600,"rng_nm":10,"alt_fmsl":4734,"id":"IIDA","rwy":"20","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":43.59784700,"lon":-111.98067500,"rng_nm":0,"alt_fmsl":4731,"id":"----","rwy":"20","desc":"OM"},
+{"type":"MM","freq":0,"lat":43.52969400,"lon":-112.05600000,"rng_nm":0,"alt_fmsl":4731,"id":"----","rwy":"20","desc":"MM"},
+{"type":"DME","freq":111.1,"lat":43.49968300,"lon":-112.08691700,"rng_nm":18,"alt_fmsl":4742,"id":"IIDA","rwy":"20","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":36.2,"dist_nm":0.3,"freq":113.85,"lat":43.51900000,"lon":-112.06391667,"rng_nm":130,"alt_fmsl":4724,"id":"IDA","desc":"IDAHO FALLS VOR-DME"},
+{"type":"NDB","hdg_t":37.4,"dist_nm":6.2,"freq":324,"lat":43.59783333,"lon":-111.98066667,"rng_nm":50,"alt_fmsl":0,"id":"ID","desc":"UCONN NDB"},
+{"type":"NDB","hdg_t":219.7,"dist_nm":6.4,"freq":350,"lat":43.43216667,"lon":-112.16252778,"rng_nm":50,"alt_fmsl":0,"id":"SWU","desc":"SWEDEN NDB"},
+{"type":"VOR","hdg_t":349.9,"dist_nm":34.9,"freq":116.9,"lat":44.08886111,"lon":-112.20933333,"rng_nm":130,"alt_fmsl":4915,"id":"DBS","desc":"DUBOIS VORTAC"},
+{"type":"NDB","hdg_t":210.8,"dist_nm":38.4,"freq":383,"lat":42.96375000,"lon":-112.51638889,"rng_nm":50,"alt_fmsl":0,"id":"PI","desc":"TYHEE NDB"},
+{"type":"VOR","hdg_t":213.7,"dist_nm":46.3,"freq":112.6,"lat":42.87038889,"lon":-112.65222222,"rng_nm":130,"alt_fmsl":4430,"id":"PIH","desc":"POCATELLO VOR-DME"},
+{"type":"VOR","hdg_t":83.2,"dist_nm":58.6,"freq":115.4,"lat":43.62102778,"lon":-110.73169444,"rng_nm":40,"alt_fmsl":6452,"id":"JAC","desc":"JACKSON VOR-DME"},
+{"type":"NDB","hdg_t":30.3,"dist_nm":73.9,"freq":415,"lat":44.57541667,"lon":-111.19755556,"rng_nm":50,"alt_fmsl":0,"id":"LO","desc":"TARGY NDB"},
+{"type":"VOR","hdg_t":75.4,"dist_nm":77.7,"freq":117.2,"lat":43.82827778,"lon":-110.33547222,"rng_nm":130,"alt_fmsl":7720,"id":"DNW","desc":"DUNOIR VOR-DME"},
+{"type":"VOR","hdg_t":192.2,"dist_nm":80.6,"freq":117.4,"lat":42.19988889,"lon":-112.45122222,"rng_nm":130,"alt_fmsl":7330,"id":"MLD","desc":"MALAD CITY VOR-DME"},
+{"type":"NDB","hdg_t":29.8,"dist_nm":81.5,"freq":338,"lat":44.68958333,"lon":-111.12108333,"rng_nm":50,"alt_fmsl":0,"id":"ESY","desc":"YELLOWSTONE NDB"},
+{"type":"NDB","hdg_t":264,"dist_nm":95.7,"freq":220,"lat":43.32977778,"lon":-114.24369444,"rng_nm":50,"alt_fmsl":0,"id":"HLE","desc":"HAILEY NDB"},
+{"type":"VOR","hdg_t":235.2,"dist_nm":96.9,"freq":114.1,"lat":42.58025000,"lon":-113.86586111,"rng_nm":40,"alt_fmsl":4226,"id":"BYI","desc":"BURLEY VOR-DME"}
+]
+}

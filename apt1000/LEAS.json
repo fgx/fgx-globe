@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LEAS","name":"Asturias","lat":43.56349648,"lon":-6.03467033,"rwys":1,"ils":1,"index":2842979,"path":"w010n40/w007n43"
+,"runways":[
+{"len_m":2204,"wid_m":45.11,"hdg":108,"surf":"Asphalt","rwy1":"11","lat1":43.56656748,"lon1":-6.04764133,"rwy2":"29","lat2":43.56042548,"lon2":-6.02169933}
+]
+,"radios":[
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.15,"desc":"TWR"},
+{"type":"APP","freq":118.15,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":43.56708100,"lon":-6.04946100,"rng_nm":18,"alt_fmsl":416,"hdg":288.30,"id":"AVS","rwy":"29","desc":"ILS-cat-III"},
+{"type":"GS","freq":110.1,"lat":43.56224400,"lon":-6.02463100,"rng_nm":10,"alt_fmsl":416,"id":"AVS","rwy":"29","desc":"GS","gs":3},
+{"type":"DME","freq":110.1,"lat":43.56235000,"lon":-6.02459400,"rng_nm":18,"alt_fmsl":430,"id":"AVS","rwy":"29","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":69.3,"dist_nm":0.1,"freq":112.4,"lat":43.56459200,"lon":-6.03066900,"rng_nm":130,"alt_fmsl":440,"id":"VES","desc":"ASTURIAS VOR-DME"},
+{"type":"NDB","hdg_t":141,"dist_nm":0.4,"freq":325,"lat":43.55784200,"lon":-6.02839200,"rng_nm":60,"alt_fmsl":0,"id":"AST","desc":"ASTURIAS NDB"},
+{"type":"NDB","hdg_t":107.8,"dist_nm":4.7,"freq":387,"lat":43.53908300,"lon":-5.93052800,"rng_nm":40,"alt_fmsl":0,"id":"AV","desc":"ASTURIAS NDB"},
+{"type":"VOR","hdg_t":163.4,"dist_nm":60.6,"freq":112,"lat":42.59376900,"lon":-5.64614400,"rng_nm":25,"alt_fmsl":3013,"id":"EON","desc":"LEON VOR-DME"},
+{"type":"NDB","hdg_t":163.6,"dist_nm":61,"freq":330,"lat":42.58661100,"lon":-5.64805600,"rng_nm":50,"alt_fmsl":0,"id":"LEN","desc":"LEON NDB"},
+{"type":"VOR","hdg_t":93.4,"dist_nm":93.3,"freq":115.3,"lat":43.44978100,"lon":-3.90241100,"rng_nm":130,"alt_fmsl":164,"id":"SNR","desc":"SANTANDER VOR-DME"},
+{"type":"NDB","hdg_t":93.8,"dist_nm":95.7,"freq":416,"lat":43.43504400,"lon":-3.84990000,"rng_nm":25,"alt_fmsl":0,"id":"SA","desc":"SANTANDER NDB"},
+{"type":"NDB","hdg_t":170.4,"dist_nm":99.1,"freq":292,"lat":41.93213900,"lon":-5.66688900,"rng_nm":20,"alt_fmsl":0,"id":"BRB","desc":"BARCIAL DEL BARCO NDB"},
+{"type":"VOR","hdg_t":265,"dist_nm":99.7,"freq":115.1,"lat":43.39615800,"lon":-8.30682200,"rng_nm":130,"alt_fmsl":415,"id":"LRA","desc":"LA CORUNA VOR-DME"},
+{"type":"NDB","hdg_t":264,"dist_nm":100.9,"freq":401,"lat":43.36536400,"lon":-8.32826400,"rng_nm":50,"alt_fmsl":0,"id":"COA","desc":"LA CORUNA NDB"}
+]
+}

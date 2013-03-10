@@ -1,0 +1,65 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LFBL","name":"Limoges Bellegarde","lat":45.861896,"lon":1.181368,"rwys":1,"ils":2,"index":2974192,"path":"e000n40/e001n45"
+,"runways":[
+{"len_m":2500,"wid_m":45.11,"hdg":33,"surf":"Asphalt","rwy1":"03","lat1":45.85248900,"lon1":1.17253900,"rwy2":"21","lat2":45.87130300,"lon2":1.19019700}
+]
+,"radios":[
+{"type":"ATIS","freq":128.07,"desc":"ATIS"},
+{"type":"TWR","freq":124.05,"desc":"LIMOGES INFO"},
+{"type":"TWR","freq":118.17,"desc":"LIMOGES TWR"},
+{"type":"APP","freq":119.2,"desc":"LIMOGES APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.29,"lat":45.87168500,"lon":1.19050100,"rng_nm":18,"alt_fmsl":1299,"hdg":33.10,"id":"LG","rwy":"03","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.1,"lat":45.85098300,"lon":1.17112800,"rng_nm":18,"alt_fmsl":1271,"hdg":213.16,"id":"LG","rwy":"21","desc":"ILS-cat-III"},
+{"type":"GS","freq":109.29,"lat":45.85309200,"lon":1.17454900,"rng_nm":10,"alt_fmsl":1299,"id":"LG","rwy":"03","desc":"GS","gs":3},
+{"type":"GS","freq":110.1,"lat":45.86940600,"lon":1.18656900,"rng_nm":10,"alt_fmsl":1271,"id":"LG","rwy":"21","desc":"GS","gs":3},
+{"type":"DME","freq":110.1,"lat":45.86940600,"lon":1.18656900,"rng_nm":18,"alt_fmsl":1340,"id":"LG","rwy":"21","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":213.8,"dist_nm":5.7,"freq":320,"lat":45.78250000,"lon":1.10527777,"rng_nm":25,"alt_fmsl":886,"id":"LSU","desc":"Limoges Bellegarde NDB"},
+{"type":"VOR","hdg_t":247.1,"dist_nm":7,"freq":114.5,"lat":45.81591700,"lon":1.02558300,"rng_nm":100,"alt_fmsl":1375,"id":"LMG","desc":"LIMOGES VOR-DME"},
+{"type":"NDB","hdg_t":34,"dist_nm":11.6,"freq":339,"lat":46.02222100,"lon":1.33694400,"rng_nm":75,"alt_fmsl":0,"id":"NOL","desc":"LIMOGES NDB"},
+{"type":"NDB","hdg_t":33.2,"dist_nm":12,"freq":424,"lat":46.03000000,"lon":1.34000000,"rng_nm":25,"alt_fmsl":1575,"id":"LOE","desc":"Limoges Bellegarde NDB"},
+{"type":"NDB","hdg_t":254.2,"dist_nm":32.9,"freq":404,"lat":45.71055555,"lon":0.42694444,"rng_nm":25,"alt_fmsl":397,"id":"AGO","desc":"Angouleme Brie Champniers NDB"},
+{"type":"NDB","hdg_t":195.2,"dist_nm":43.2,"freq":389,"lat":45.16638888,"lon":0.91277777,"rng_nm":25,"alt_fmsl":705,"id":"PX","desc":"Perigueux Bassillac NDB"},
+{"type":"NDB","hdg_t":160.8,"dist_nm":49.1,"freq":326,"lat":45.08805555,"lon":1.56027777,"rng_nm":25,"alt_fmsl":1083,"id":"RH","desc":"Brive la Roche NDB"},
+{"type":"NDB","hdg_t":60.8,"dist_nm":55,"freq":398,"lat":46.30277777,"lon":2.33722222,"rng_nm":25,"alt_fmsl":1450,"id":"LPD","desc":"Montlucon Gueret NDB"},
+{"type":"NDB","hdg_t":110,"dist_nm":55.5,"freq":416,"lat":45.53777777,"lon":2.41972222,"rng_nm":25,"alt_fmsl":2434,"id":"ULT","desc":"Ussel Thalamy NDB"},
+{"type":"VOR","hdg_t":319.8,"dist_nm":56.7,"freq":113.3,"lat":46.58100000,"lon":0.29819400,"rng_nm":60,"alt_fmsl":441,"id":"POI","desc":"POITIERS BIARD VOR"},
+{"type":"NDB","hdg_t":263.1,"dist_nm":56.8,"freq":346,"lat":45.74027777,"lon":-0.16111111,"rng_nm":25,"alt_fmsl":180,"id":"OC","desc":"Cognac Chateaubernard NDB"},
+{"type":"NDB","hdg_t":327.7,"dist_nm":59.9,"freq":363,"lat":46.70394400,"lon":0.40697200,"rng_nm":35,"alt_fmsl":316,"id":"PI","desc":"POITIERS NDB"},
+{"type":"NDB","hdg_t":60.2,"dist_nm":62.7,"freq":335,"lat":46.37261100,"lon":2.49266700,"rng_nm":50,"alt_fmsl":1049,"id":"MC","desc":"MONTLUCON NDB"},
+{"type":"NDB","hdg_t":260,"dist_nm":63.5,"freq":354,"lat":45.66930600,"lon":-0.30619400,"rng_nm":75,"alt_fmsl":113,"id":"CGC","desc":"COGNAC NDB"},
+{"type":"SDME","hdg_t":259.6,"dist_nm":63.7,"freq":116.2,"lat":45.66147200,"lon":-0.30786100,"rng_nm":160,"alt_fmsl":93,"id":"CGC","desc":"COGNAC TACAN"},
+{"type":"VOR","hdg_t":259.5,"dist_nm":63.8,"freq":114.65,"lat":45.65955600,"lon":-0.31163900,"rng_nm":100,"alt_fmsl":106,"id":"CNA","desc":"COGNAC CHATEAUBERNARD VOR-DME"},
+{"type":"VOR","hdg_t":38.6,"dist_nm":64,"freq":112.1,"lat":46.69141700,"lon":2.14958300,"rng_nm":100,"alt_fmsl":901,"id":"LCA","desc":"LA CHATRE VOR"},
+{"type":"NDB","hdg_t":201,"dist_nm":66.9,"freq":374,"lat":44.81947200,"lon":0.61927800,"rng_nm":10,"alt_fmsl":0,"id":"BGC","desc":"BERGERAC NDB"},
+{"type":"NDB","hdg_t":295.4,"dist_nm":68.1,"freq":329,"lat":46.34027000,"lon":-0.30027777,"rng_nm":25,"alt_fmsl":344,"id":"NS","desc":"Niort Souche NDB"},
+{"type":"NDB","hdg_t":21.5,"dist_nm":69.4,"freq":428,"lat":46.93661100,"lon":1.80113900,"rng_nm":50,"alt_fmsl":539,"id":"CTX","desc":"CHATEAUROUX NDB"},
+{"type":"NDB","hdg_t":136.8,"dist_nm":73.9,"freq":343,"lat":44.95583333,"lon":2.36805555,"rng_nm":25,"alt_fmsl":2310,"id":"AR","desc":"Aurillac NDB"},
+{"type":"NDB","hdg_t":160,"dist_nm":75.9,"freq":395,"lat":44.67083333,"lon":1.78694444,"rng_nm":25,"alt_fmsl":1053,"id":"FC","desc":"Figeac Livernon NDB"},
+{"type":"NDB","hdg_t":32.9,"dist_nm":83,"freq":375,"lat":47.01750000,"lon":2.28166666,"rng_nm":25,"alt_fmsl":509,"id":"BRG","desc":"Bourges NDB"},
+{"type":"VOR","hdg_t":92.3,"dist_nm":84.4,"freq":114.35,"lat":45.78747200,"lon":3.19219400,"rng_nm":100,"alt_fmsl":1093,"id":"CFA","desc":"CLERMONT FERRAND AUVERGNE VOR-DME"},
+{"type":"NDB","hdg_t":240.2,"dist_nm":84.7,"freq":361,"lat":45.14750000,"lon":-0.54991700,"rng_nm":25,"alt_fmsl":155,"id":"NB","desc":"BORDEAUX NDB"},
+{"type":"NDB","hdg_t":260.9,"dist_nm":87.3,"freq":427,"lat":45.61583333,"lon":-0.86666666,"rng_nm":25,"alt_fmsl":92,"id":"RY","desc":"Royan Medis NDB"},
+{"type":"NDB","hdg_t":173.5,"dist_nm":89.1,"freq":348,"lat":44.38527778,"lon":1.41555555,"rng_nm":25,"alt_fmsl":951,"id":"CL","desc":"Cahors Lalbenque NDB"},
+{"type":"NDB","hdg_t":228.8,"dist_nm":89.4,"freq":318,"lat":44.87058300,"lon":-0.39780600,"rng_nm":25,"alt_fmsl":251,"id":"BE","desc":"BORDEAUX NDB"},
+{"type":"NDB","hdg_t":13.2,"dist_nm":89.9,"freq":301,"lat":47.31983300,"lon":1.68802800,"rng_nm":15,"alt_fmsl":0,"id":"RTN","desc":"ROMORANTIN NDB"},
+{"type":"VOR","hdg_t":121.3,"dist_nm":90,"freq":109.8,"lat":45.06647200,"lon":2.99075000,"rng_nm":25,"alt_fmsl":3222,"id":"SFC","desc":"SAINT FLOUR/COLTINES VOR"},
+{"type":"NDB","hdg_t":271.7,"dist_nm":90.8,"freq":396,"lat":45.88805555,"lon":-0.98611111,"rng_nm":25,"alt_fmsl":49,"id":"ROC","desc":"Rochefort Saint Agnan NDB"},
+{"type":"VOR","hdg_t":218.9,"dist_nm":90.8,"freq":116.8,"lat":44.67680600,"lon":-0.15291700,"rng_nm":100,"alt_fmsl":405,"id":"SAU","desc":"SAUVETERRE DE GUYENNE VOR"},
+{"type":"NDB","hdg_t":91.3,"dist_nm":91.5,"freq":367,"lat":45.80472200,"lon":3.36161100,"rng_nm":22,"alt_fmsl":1089,"id":"CF","desc":"CLERMONT-FERRAND NDB"},
+{"type":"NDB","hdg_t":233.5,"dist_nm":92.3,"freq":393,"lat":44.93522200,"lon":-0.56225000,"rng_nm":50,"alt_fmsl":60,"id":"BD","desc":"BORDEAUX NDB"},
+{"type":"NDB","hdg_t":356.4,"dist_nm":93.5,"freq":341,"lat":47.41816700,"lon":1.04100000,"rng_nm":50,"alt_fmsl":354,"id":"AMB","desc":"AMBOISE NDB"},
+{"type":"SDME","hdg_t":39.4,"dist_nm":93.6,"freq":110.6,"lat":47.05808300,"lon":2.62986100,"rng_nm":150,"alt_fmsl":554,"id":"AVD","desc":"AVORD TACAN"},
+{"type":"NDB","hdg_t":79.4,"dist_nm":93.9,"freq":403,"lat":46.12750000,"lon":3.39500000,"rng_nm":22,"alt_fmsl":816,"id":"VZ","desc":"VICHY NDB"},
+{"type":"VOR","hdg_t":357.1,"dist_nm":94.1,"freq":113.7,"lat":47.42891700,"lon":1.06444400,"rng_nm":120,"alt_fmsl":387,"id":"AMB","desc":"AMBOISE VOR-DME"},
+{"type":"NDB","hdg_t":49.2,"dist_nm":94.9,"freq":306,"lat":46.88167000,"lon":2.92888955,"rng_nm":25,"alt_fmsl":679,"id":"AV","desc":"Avord NDB"},
+{"type":"SDME","hdg_t":348.9,"dist_nm":95.4,"freq":113.8,"lat":47.42218300,"lon":0.73089200,"rng_nm":150,"alt_fmsl":329,"id":"TUR","desc":"TOURS TACAN"},
+{"type":"NDB","hdg_t":282,"dist_nm":96.7,"freq":322,"lat":46.17609000,"lon":-1.08719000,"rng_nm":50,"alt_fmsl":72,"id":"RL","desc":"La Rochelle NDB"},
+{"type":"VOR","hdg_t":88.4,"dist_nm":99.4,"freq":117.5,"lat":45.88183400,"lon":3.55358300,"rng_nm":60,"alt_fmsl":2258,"id":"TIS","desc":"THIERS VOR-DME"},
+{"type":"SDME","hdg_t":88.4,"dist_nm":99.4,"freq":109,"lat":45.88183400,"lon":3.55358300,"rng_nm":195,"alt_fmsl":2000,"id":"TIS","desc":"THIERS DME"},
+{"type":"NDB","hdg_t":327.8,"dist_nm":99.5,"freq":372,"lat":47.25950000,"lon":-0.11436100,"rng_nm":50,"alt_fmsl":0,"id":"SR","desc":"SAUMUR NDB"}
+]
+}

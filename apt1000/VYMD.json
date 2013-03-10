@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VYMD","name":"Mandalay Intl","lat":21.7010095,"lon":95.9777945,"rwys":1,"ils":1,"index":4512751,"path":"e090n20/e095n21"
+,"runways":[
+{"len_m":4267,"wid_m":60.96,"hdg":170,"surf":"Concrete","rwy1":"17","lat1":21.72001900,"lon1":95.97440800,"rwy2":"35","lat2":21.68200000,"lon2":95.98118100}
+]
+,"radios":[
+{"type":"GND","freq":121.72,"desc":"GND"},
+{"type":"TWR","freq":118.6,"desc":"TWR"},
+{"type":"APP","freq":119.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":21.67890300,"lon":95.98171900,"rng_nm":18,"alt_fmsl":300,"hdg":170.62,"id":"IMIA","rwy":"17","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":21.71720000,"lon":95.97563600,"rng_nm":10,"alt_fmsl":286,"id":"IMIA","rwy":"17","desc":"GS","gs":3},
+{"type":"DME","freq":110.5,"lat":21.71720000,"lon":95.97563600,"rng_nm":18,"alt_fmsl":300,"id":"IMIA","rwy":"17","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":344,"dist_nm":0.6,"freq":116.3,"lat":21.71094400,"lon":95.97475000,"rng_nm":100,"alt_fmsl":300,"id":"MIA","desc":"MANDALAY VOR-DME"},
+{"type":"NDB","hdg_t":157.1,"dist_nm":0.7,"freq":259,"lat":21.68927800,"lon":95.98308300,"rng_nm":50,"alt_fmsl":0,"id":"MIA","desc":"MANDALAY NDB"},
+{"type":"VOR","hdg_t":31.2,"dist_nm":16.3,"freq":112.8,"lat":21.93427800,"lon":96.12975000,"rng_nm":100,"alt_fmsl":252,"id":"MDY","desc":"MANDALAY VOR-DME"},
+{"type":"NDB","hdg_t":184.5,"dist_nm":45.9,"freq":350,"lat":20.93433300,"lon":95.91311100,"rng_nm":75,"alt_fmsl":0,"id":"MKT","desc":"MEIKTILA NDB"},
+{"type":"NDB","hdg_t":242.3,"dist_nm":66.4,"freq":335,"lat":21.18097200,"lon":94.92822200,"rng_nm":50,"alt_fmsl":0,"id":"BGN","desc":"BAGAN NDB"},
+{"type":"NDB","hdg_t":141.2,"dist_nm":73.2,"freq":360,"lat":20.74272200,"lon":96.79302800,"rng_nm":100,"alt_fmsl":0,"id":"HHO","desc":"HEHO NDB"},
+{"type":"NDB","hdg_t":212.6,"dist_nm":108.7,"freq":305,"lat":20.16605600,"lon":94.93825000,"rng_nm":50,"alt_fmsl":0,"id":"MW","desc":"MAGWAY NDB"},
+{"type":"NDB","hdg_t":116,"dist_nm":109.7,"freq":260,"lat":20.88605600,"lon":97.73291700,"rng_nm":80,"alt_fmsl":0,"id":"NS","desc":"NAMSANG NDB"},
+{"type":"NDB","hdg_t":174.2,"dist_nm":124.7,"freq":390,"lat":19.62461100,"lon":96.19747300,"rng_nm":25,"alt_fmsl":302,"id":"EL","desc":"EL NDB"},
+{"type":"VOR","hdg_t":51.7,"dist_nm":124.7,"freq":116.8,"lat":22.98422200,"lon":97.74619400,"rng_nm":50,"alt_fmsl":2470,"id":"LSO","desc":"LASHIO VOR-DME"}
+]
+}

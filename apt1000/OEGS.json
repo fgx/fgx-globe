@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OEGS","name":"Gassim","lat":26.3028235,"lon":43.773911,"rwys":1,"ils":1,"index":3661075,"path":"e040n20/e043n26"
+,"runways":[
+{"len_m":2996,"wid_m":44.81,"hdg":152,"surf":"Asphalt","rwy1":"15","lat1":26.31483300,"lon1":43.76701400,"rwy2":"33","lat2":26.29081400,"lon2":43.78080800}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":131.5,"desc":"SAUDIA RDO"},
+{"type":"TWR","freq":118,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":26.28745600,"lon":43.78289200,"rng_nm":18,"alt_fmsl":2120,"hdg":152.53,"id":"IGAS","rwy":"15","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":26.31201100,"lon":43.76752800,"rng_nm":10,"alt_fmsl":2126,"id":"IGAS","rwy":"15","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":26.37902800,"lon":43.73055600,"rng_nm":0,"alt_fmsl":2120,"id":"----","rwy":"15","desc":"OM"},
+{"type":"MM","freq":0,"lat":26.32245000,"lon":43.76291700,"rng_nm":0,"alt_fmsl":2120,"id":"----","rwy":"15","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":132.5,"dist_nm":0.4,"freq":117.1,"lat":26.29808300,"lon":43.77963900,"rng_nm":130,"alt_fmsl":2159,"id":"GAS","desc":"GASSIM VORTAC"},
+{"type":"VOR","hdg_t":63,"dist_nm":100.4,"freq":113.7,"lat":27.05388900,"lon":45.44527800,"rng_nm":130,"alt_fmsl":1812,"id":"BPN","desc":"BOPAN VOR-DME"},
+{"type":"VOR","hdg_t":170.3,"dist_nm":112.4,"freq":116.1,"lat":24.44894400,"lon":44.11919400,"rng_nm":130,"alt_fmsl":3019,"id":"DAW","desc":"AL DAWADMI VOR-DME"},
+{"type":"NDB","hdg_t":145.6,"dist_nm":115.7,"freq":370,"lat":24.70000000,"lon":44.96833300,"rng_nm":25,"alt_fmsl":2530,"id":"PS6","desc":"PUMP STATION 6 NDB"},
+{"type":"VOR","hdg_t":301.3,"dist_nm":130.7,"freq":113.5,"lat":27.42508300,"lon":41.68277800,"rng_nm":130,"alt_fmsl":3324,"id":"HIL","desc":"HAIL VORTAC"},
+{"type":"VOR","hdg_t":44.9,"dist_nm":134.2,"freq":115.9,"lat":27.87950000,"lon":45.55677800,"rng_nm":25,"alt_fmsl":1342,"id":"KMC","desc":"KING KHALED MILITARY CITY VORTAC"},
+{"type":"VOR","hdg_t":162.3,"dist_nm":149,"freq":115.5,"lat":23.92677800,"lon":44.59650000,"rng_nm":130,"alt_fmsl":3370,"id":"RGB","desc":"RAGHBA VOR-DME"},
+{"type":"NDB","hdg_t":216.3,"dist_nm":151.7,"freq":607,"lat":24.25000000,"lon":42.13333300,"rng_nm":25,"alt_fmsl":3000,"id":"PS9","desc":"PUMP STATION 9 NDB"},
+{"type":"VOR","hdg_t":222.3,"dist_nm":158.5,"freq":115.1,"lat":24.33083300,"lon":41.82444400,"rng_nm":130,"alt_fmsl":3281,"id":"BDB","desc":"BIR DARB VOR-DME"},
+{"type":"VOR","hdg_t":45.5,"dist_nm":174.8,"freq":113.1,"lat":28.33052800,"lon":46.12947200,"rng_nm":130,"alt_fmsl":1185,"id":"HFR","desc":"HAFR AL-BATIN VORTAC"}
+]
+}

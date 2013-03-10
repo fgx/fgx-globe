@@ -1,0 +1,64 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LFMP","name":"Rivesaltes","lat":42.7389548333333,"lon":2.869551,"rwys":2,"ils":1,"index":2990379,"path":"e000n40/e002n42"
+,"runways":[
+{"len_m":2495,"wid_m":45.11,"hdg":148,"surf":"Asphalt","rwy1":"15","lat1":42.75416500,"lon1":2.86173200,"rwy2":"33","lat2":42.73505500,"lon2":2.87775000},
+{"len_m":1291,"wid_m":20.12,"hdg":127,"surf":"Asphalt","rwy1":"13","lat1":42.73989800,"lon1":2.86518800,"rwy2":"31","lat2":42.73283200,"lon2":2.87770600}
+]
+,"helipads":[
+{"rwy1":"H26","len_m":24,"wid_m":24.99,"hdg":2,"surf":"Turf/grass","lat1":42.73986100,"lon1":2.86719300},
+{"rwy1":"H27","len_m":24,"wid_m":24.99,"hdg":2,"surf":"Turf/grass","lat1":42.74003300,"lon1":2.86706400},
+{"rwy1":"H28","len_m":24,"wid_m":24.99,"hdg":2,"surf":"Turf/grass","lat1":42.74011000,"lon1":2.86681700},
+{"rwy1":"H29","len_m":14,"wid_m":14.94,"hdg":2,"surf":"Asphalt","lat1":42.73275000,"lon1":2.87504400}
+]
+,"radios":[
+{"type":"ATIS","freq":127.87,"desc":"LFMP ATIS"},
+{"type":"TWR","freq":118.3,"desc":"PERPIGNAN TWR"},
+{"type":"TWR","freq":121.9,"desc":"PERPIGNAN TWR"},
+{"type":"APP","freq":120.75,"desc":"PERPIGNAN APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.75,"lat":42.75574700,"lon":2.86035000,"rng_nm":18,"alt_fmsl":124,"hdg":328.30,"id":"PL","rwy":"33","desc":"ILS-cat-II"},
+{"type":"GS","freq":111.75,"lat":42.73938900,"lon":2.87578300,"rng_nm":10,"alt_fmsl":124,"id":"PL","rwy":"33","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":42.67916666,"lon":2.92444444,"rng_nm":0,"alt_fmsl":124,"id":"----","rwy":"33","desc":"OM"},
+{"type":"DME","freq":111.75,"lat":42.73938900,"lon":2.87578300,"rng_nm":18,"alt_fmsl":183,"id":"PL","rwy":"33","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":351.2,"dist_nm":0.6,"freq":116.25,"lat":42.75047200,"lon":2.86713900,"rng_nm":100,"alt_fmsl":151,"id":"PPG","desc":"PERPIGNAN RIVESALTES VOR-DME"},
+{"type":"NDB","hdg_t":145.8,"dist_nm":4.3,"freq":351,"lat":42.67916666,"lon":2.92444444,"rng_nm":25,"alt_fmsl":164,"id":"PL","desc":"Perpignan Rivesaltes NDB"},
+{"type":"NDB","hdg_t":27.1,"dist_nm":39.7,"freq":397,"lat":43.32722222,"lon":3.28305555,"rng_nm":25,"alt_fmsl":46,"id":"ZR","desc":"Beziers Vias NDB"},
+{"type":"NDB","hdg_t":315,"dist_nm":41.1,"freq":345,"lat":43.22250000,"lon":2.20777777,"rng_nm":25,"alt_fmsl":489,"id":"CS","desc":"Carcassonne Salvaza NDB"},
+{"type":"NDB","hdg_t":245.3,"dist_nm":41.7,"freq":418,"lat":42.44583333,"lon":2.01500000,"rng_nm":25,"alt_fmsl":4383,"id":"SAL","desc":"Sainte Leocadie NDB"},
+{"type":"NDB","hdg_t":183.7,"dist_nm":42.9,"freq":412,"lat":42.02497800,"lon":2.80721100,"rng_nm":50,"alt_fmsl":0,"id":"GRN","desc":"GERONA NDB"},
+{"type":"VOR","hdg_t":185.1,"dist_nm":48.6,"freq":114.1,"lat":41.93117800,"lon":2.77196700,"rng_nm":130,"alt_fmsl":535,"id":"GIR","desc":"GERONA VOR-DME"},
+{"type":"NDB","hdg_t":185.1,"dist_nm":48.8,"freq":330,"lat":41.92750200,"lon":2.77111100,"rng_nm":15,"alt_fmsl":0,"id":"G","desc":"GERONA NDB"},
+{"type":"NDB","hdg_t":162.4,"dist_nm":49.5,"freq":319,"lat":41.95151400,"lon":3.20307500,"rng_nm":50,"alt_fmsl":0,"id":"BAG","desc":"BAGUR NDB"},
+{"type":"VOR","hdg_t":162.2,"dist_nm":49.8,"freq":112.2,"lat":41.94768600,"lon":3.20885800,"rng_nm":130,"alt_fmsl":1082,"id":"BGR","desc":"BAGUR VOR-DME"},
+{"type":"NDB","hdg_t":291.1,"dist_nm":60,"freq":384,"lat":43.09277777,"lon":1.59611111,"rng_nm":25,"alt_fmsl":1421,"id":"PMR","desc":"Pamiers les Pujols NDB"},
+{"type":"NDB","hdg_t":331.8,"dist_nm":60.9,"freq":356,"lat":43.63250000,"lon":2.20916666,"rng_nm":25,"alt_fmsl":853,"id":"CVU","desc":"Castres Mazamet NDB"},
+{"type":"VOR","hdg_t":189.1,"dist_nm":66.7,"freq":115.35,"lat":41.64003100,"lon":2.63467200,"rng_nm":25,"alt_fmsl":1351,"id":"CLE","desc":"CALELLA VOR-DME"},
+{"type":"NDB","hdg_t":310.8,"dist_nm":68.6,"freq":415,"lat":43.48111100,"lon":1.67988900,"rng_nm":30,"alt_fmsl":898,"id":"TOE","desc":"TOULOUSE NDB"},
+{"type":"VOR","hdg_t":43.5,"dist_nm":69.9,"freq":114.45,"lat":43.57836100,"lon":3.97472200,"rng_nm":80,"alt_fmsl":7,"id":"FJR","desc":"MONPELLIER MEDITERRANEE VOR-DME"},
+{"type":"NDB","hdg_t":45.3,"dist_nm":70.2,"freq":339,"lat":43.55677800,"lon":4.01405600,"rng_nm":100,"alt_fmsl":16,"id":"FG","desc":"Mediterranee NDB"},
+{"type":"NDB","hdg_t":245.4,"dist_nm":71.8,"freq":340,"lat":42.23223600,"lon":1.40351900,"rng_nm":25,"alt_fmsl":0,"id":"SEO","desc":"SEO DE URGEL NDB"},
+{"type":"NDB","hdg_t":12.7,"dist_nm":73.4,"freq":315,"lat":43.93305555,"lon":3.24361111,"rng_nm":25,"alt_fmsl":2460,"id":"MIL","desc":"Millau Larzac NDB"},
+{"type":"NDB","hdg_t":307.6,"dist_nm":76.2,"freq":423,"lat":43.50727800,"lon":1.48677800,"rng_nm":30,"alt_fmsl":844,"id":"TS","desc":"TOULOUSE NDB"},
+{"type":"NDB","hdg_t":333.6,"dist_nm":78.7,"freq":323,"lat":43.91266632,"lon":2.06438327,"rng_nm":25,"alt_fmsl":542,"id":"AB","desc":"Albi le Sequestre NDB"},
+{"type":"VOR","hdg_t":205.1,"dist_nm":80.6,"freq":112,"lat":41.51985300,"lon":2.10975000,"rng_nm":130,"alt_fmsl":499,"id":"SLL","desc":"SABADELL VOR-DME"},
+{"type":"NDB","hdg_t":205.3,"dist_nm":80.7,"freq":367,"lat":41.51937800,"lon":2.10305000,"rng_nm":40,"alt_fmsl":0,"id":"SBD","desc":"SABADELL NDB"},
+{"type":"SDME","hdg_t":306.8,"dist_nm":81.8,"freq":116,"lat":43.54847200,"lon":1.36822200,"rng_nm":50,"alt_fmsl":597,"id":"TLU","desc":"TOULOUSE/FRANCAZAL TACAN"},
+{"type":"VOR","hdg_t":328.2,"dist_nm":86,"freq":115.8,"lat":43.95405600,"lon":1.82416700,"rng_nm":100,"alt_fmsl":979,"id":"GAI","desc":"GAILLAC-Castelneau de Montmirail VOR"},
+{"type":"NDB","hdg_t":301.4,"dist_nm":86.4,"freq":350,"lat":43.47944444,"lon":1.18166666,"rng_nm":25,"alt_fmsl":722,"id":"MUT","desc":"Muret Lherm NDB"},
+{"type":"VOR","hdg_t":310,"dist_nm":88.7,"freq":117.7,"lat":43.68083300,"lon":1.30980600,"rng_nm":120,"alt_fmsl":574,"id":"TOU","desc":"TOULOUSE BLAGNAC VOR-DME"},
+{"type":"NDB","hdg_t":305.8,"dist_nm":89.1,"freq":331,"lat":43.59722222,"lon":1.21138888,"rng_nm":25,"alt_fmsl":646,"id":"TLF","desc":"Toulouse Francazal NDB"},
+{"type":"SDME","hdg_t":47.8,"dist_nm":90.9,"freq":111.6,"lat":43.74583300,"lon":4.41955600,"rng_nm":50,"alt_fmsl":309,"id":"NIM","desc":"NIMES TACAN"},
+{"type":"VOR","hdg_t":201.8,"dist_nm":92.3,"freq":116.7,"lat":41.30712200,"lon":2.10780800,"rng_nm":130,"alt_fmsl":23,"id":"BCN","desc":"BARCELONA VOR-DME"},
+{"type":"NDB","hdg_t":301,"dist_nm":93.9,"freq":406,"lat":43.53061100,"lon":1.02527800,"rng_nm":30,"alt_fmsl":813,"id":"TW","desc":"TOULOUSE NDB"},
+{"type":"VOR","hdg_t":202.2,"dist_nm":94.1,"freq":114.3,"lat":41.28310300,"lon":2.08185800,"rng_nm":130,"alt_fmsl":43,"id":"PRA","desc":"EL PRAT VOR-DME"},
+{"type":"NDB","hdg_t":44.5,"dist_nm":95,"freq":354,"lat":43.85719400,"lon":4.40627800,"rng_nm":40,"alt_fmsl":0,"id":"NG","desc":"NIMES/GARONS NDB"},
+{"type":"NDB","hdg_t":319.7,"dist_nm":95.9,"freq":368,"lat":43.95000000,"lon":1.43885500,"rng_nm":50,"alt_fmsl":0,"id":"TLB","desc":"Toulouse NDB"},
+{"type":"NDB","hdg_t":353.2,"dist_nm":96.2,"freq":302,"lat":44.33194444,"lon":2.60722222,"rng_nm":25,"alt_fmsl":2066,"id":"ROM","desc":"Rodez Marcillac NDB"},
+{"type":"NDB","hdg_t":204.4,"dist_nm":96.7,"freq":338,"lat":41.26610900,"lon":1.98583300,"rng_nm":150,"alt_fmsl":0,"id":"QA","desc":"BARCELONA NDB"},
+{"type":"NDB","hdg_t":34.5,"dist_nm":97.1,"freq":402,"lat":44.06643900,"lon":4.14238300,"rng_nm":22,"alt_fmsl":712,"id":"DA","desc":"ALES NDB"},
+{"type":"NDB","hdg_t":314.3,"dist_nm":99.6,"freq":378,"lat":43.88972100,"lon":1.22750000,"rng_nm":75,"alt_fmsl":0,"id":"TN","desc":"TOULOUSE NDB"}
+]
+}

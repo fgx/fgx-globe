@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ROAH","name":"Naha","lat":26.1958155,"lon":127.645868,"rwys":1,"ils":1,"index":5037322,"path":"e120n20/e127n26"
+,"runways":[
+{"len_m":2999,"wid_m":45.72,"hdg":177,"surf":"Asphalt","rwy1":"18","lat1":26.20934200,"lon1":127.64523300,"rwy2":"36","lat2":26.18228900,"lon2":127.64650300}
+]
+,"radios":[
+{"type":"ATIS","freq":127.8,"desc":"ATIS"},
+{"type":"CLD","freq":122.07,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.8,"desc":"GND"},
+{"type":"TWR","freq":126.2,"desc":"TWR"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"TWR","freq":126.9,"desc":"CENTRAL WEST PACIFIC"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":26.21093100,"lon":127.64470800,"rng_nm":18,"alt_fmsl":52,"hdg":356.78,"id":"IOK","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":26.18518600,"lon":127.64516400,"rng_nm":10,"alt_fmsl":52,"id":"IOK","rwy":"36","desc":"GS","gs":2.75},
+{"type":"MM","freq":0,"lat":26.17279400,"lon":127.64695300,"rng_nm":0,"alt_fmsl":52,"id":"----","rwy":"36","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":26.18521900,"lon":127.64506400,"rng_nm":18,"alt_fmsl":31,"id":"IOK","rwy":"36","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":347.9,"dist_nm":0.7,"freq":116.5,"lat":26.20853100,"lon":127.64286700,"rng_nm":100,"alt_fmsl":57,"id":"NHC","desc":"NAHA VORTAC"},
+{"type":"NDB","hdg_t":169.5,"dist_nm":5.7,"freq":308,"lat":26.10175000,"lon":127.66511111,"rng_nm":50,"alt_fmsl":0,"id":"OK","desc":"OKINAWA NDB"},
+{"type":"SDME","hdg_t":51.1,"dist_nm":6.8,"freq":110.5,"lat":26.26708600,"lon":127.74415800,"rng_nm":50,"alt_fmsl":246,"id":"NFO","desc":"FUTENMA TACAN"},
+{"type":"VOR","hdg_t":104,"dist_nm":8.6,"freq":114.2,"lat":26.16086111,"lon":127.80083333,"rng_nm":130,"alt_fmsl":543,"id":"TIC","desc":"CHINEN VORTAC"},
+{"type":"VOR","hdg_t":34.4,"dist_nm":11.6,"freq":112,"lat":26.35679700,"lon":127.76831900,"rng_nm":100,"alt_fmsl":158,"id":"KAD","desc":"KADENA VORTAC"},
+{"type":"NDB","hdg_t":317.2,"dist_nm":32.4,"freq":268,"lat":26.59365600,"lon":127.23615800,"rng_nm":50,"alt_fmsl":44,"id":"AN","desc":"AGUNI NDB"},
+{"type":"VOR","hdg_t":282.1,"dist_nm":50.9,"freq":116.7,"lat":26.37186900,"lon":126.72206400,"rng_nm":100,"alt_fmsl":42,"id":"KXC","desc":"KUMEJIMA VORTAC"},
+{"type":"NDB","hdg_t":281.4,"dist_nm":51.1,"freq":295,"lat":26.36243600,"lon":126.71575800,"rng_nm":100,"alt_fmsl":0,"id":"KX","desc":"KUMEJIMA NDB"},
+{"type":"VOR","hdg_t":38.3,"dist_nm":64.9,"freq":112.25,"lat":27.04437500,"lon":128.39802500,"rng_nm":100,"alt_fmsl":63,"id":"YRE","desc":"YORON VOR-DME"},
+{"type":"VOR","hdg_t":37.1,"dist_nm":93.1,"freq":113.1,"lat":27.43288889,"lon":128.69897222,"rng_nm":130,"alt_fmsl":218,"id":"ONC","desc":"ERABU VORTAC"},
+{"type":"NDB","hdg_t":37.4,"dist_nm":93.2,"freq":398,"lat":27.42995000,"lon":128.70807500,"rng_nm":50,"alt_fmsl":0,"id":"ON","desc":"ERABU NDB"}
+]
+}

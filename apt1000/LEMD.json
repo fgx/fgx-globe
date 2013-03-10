@@ -1,0 +1,78 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LEMD","name":"Barajas","lat":40.490649,"lon":-3.5603594,"rwys":5,"ils":4,"index":2891929,"path":"w010n40/w004n40"
+,"runways":[
+{"len_m":3332,"wid_m":53.04,"hdg":179,"surf":"Concrete","rwy1":"18C","lat1":40.48715200,"lon1":-3.56281200,"rwy2":"36C","lat2":40.45714000,"lon2":-3.56253800},
+{"len_m":4110,"wid_m":60.05,"hdg":142,"surf":"Asphalt","rwy1":"15R","lat1":40.48465800,"lon1":-3.57586500,"rwy2":"33L","lat2":40.45540600,"lon2":-3.54616500},
+{"len_m":4348,"wid_m":60.05,"hdg":179,"surf":"Asphalt","rwy1":"18R","lat1":40.53163700,"lon1":-3.57480200,"rwy2":"36L","lat2":40.49247500,"lon2":-3.57458600},
+{"len_m":3500,"wid_m":60.05,"hdg":142,"surf":"Asphalt","rwy1":"15L","lat1":40.49384000,"lon1":-3.55688500,"rwy2":"33R","lat2":40.46893000,"lon2":-3.53158900},
+{"len_m":3497,"wid_m":60.05,"hdg":179,"surf":"Asphalt","rwy1":"18L","lat1":40.53337300,"lon1":-3.55926300,"rwy2":"36R","lat2":40.50187900,"lon2":-3.55908900}
+]
+,"radios":[
+{"type":"ATIS","freq":118.25,"desc":"LEMD ATIS"},
+{"type":"ATIS","freq":121.97,"desc":"LEMD ATIS"},
+{"type":"CLD","freq":130.07,"desc":"BARAJAS_TOWER CLD"},
+{"type":"GND","freq":121.7,"desc":"BARAJAS_TOWER GND"},
+{"type":"GND","freq":121.75,"desc":"BARAJAS_TOWER GND"},
+{"type":"GND","freq":121.85,"desc":"BARAJAS_TOWER GND"},
+{"type":"TWR","freq":118.07,"desc":"BARAJAS TWR"},
+{"type":"TWR","freq":118.15,"desc":"BARAJAS TWR"},
+{"type":"TWR","freq":120.15,"desc":"BARAJAS TWR"},
+{"type":"APP","freq":124.02,"desc":"MADRID APP"},
+{"type":"APP","freq":127.5,"desc":"MADRID APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.5,"lat":40.49839200,"lon":-3.55919200,"rng_nm":18,"alt_fmsl":2000,"hdg":179.91,"id":"IML","rwy":"18L","desc":"ILS-cat-III"},
+{"type":"ILS","freq":110.7,"lat":40.49015000,"lon":-3.57461400,"rng_nm":18,"alt_fmsl":1981,"hdg":179.80,"id":"IMR","rwy":"18R","desc":"ILS-cat-III"},
+{"type":"ILS","freq":109.9,"lat":40.48621700,"lon":-3.57738900,"rng_nm":18,"alt_fmsl":2000,"hdg":322.36,"id":"MAA","rwy":"33L","desc":"ILS-cat-III"},
+{"type":"ILS","freq":109.1,"lat":40.49511900,"lon":-3.56004700,"rng_nm":18,"alt_fmsl":2000,"hdg":320.42,"id":"MBB","rwy":"33R","desc":"ILS-cat-III"},
+{"type":"GS","freq":111.5,"lat":40.52542500,"lon":-3.55804400,"rng_nm":10,"alt_fmsl":2000,"id":"IML","rwy":"18L","desc":"GS","gs":3},
+{"type":"GS","freq":110.7,"lat":40.51992800,"lon":-3.57336700,"rng_nm":10,"alt_fmsl":1978,"id":"IMR","rwy":"18R","desc":"GS","gs":3},
+{"type":"GS","freq":109.9,"lat":40.46585000,"lon":-3.55488100,"rng_nm":10,"alt_fmsl":2000,"id":"MAA","rwy":"33L","desc":"GS","gs":3},
+{"type":"GS","freq":109.1,"lat":40.47625600,"lon":-3.53713100,"rng_nm":10,"alt_fmsl":2000,"id":"MBB","rwy":"33R","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":40.40078900,"lon":-3.49063900,"rng_nm":0,"alt_fmsl":2000,"id":"----","rwy":"33L","desc":"OM"},
+{"type":"DME","freq":111.5,"lat":40.52541900,"lon":-3.55822200,"rng_nm":18,"alt_fmsl":1916,"id":"IML","rwy":"18L","desc":"DME-ILS"},
+{"type":"DME","freq":110.7,"lat":40.51996900,"lon":-3.57383900,"rng_nm":18,"alt_fmsl":1986,"id":"IMR","rwy":"18R","desc":"DME-ILS"},
+{"type":"DME","freq":109.9,"lat":40.46570300,"lon":-3.55514200,"rng_nm":18,"alt_fmsl":1981,"id":"MAA","rwy":"33L","desc":"DME-ILS"},
+{"type":"DME","freq":109.1,"lat":40.47617500,"lon":-3.53727500,"rng_nm":18,"alt_fmsl":1886,"id":"MBB","rwy":"33R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":174.2,"dist_nm":1.2,"freq":116.45,"lat":40.46913900,"lon":-3.55752800,"rng_nm":130,"alt_fmsl":1969,"id":"BRA","desc":"BARAJAS VOR-DME"},
+{"type":"NDB","hdg_t":182.1,"dist_nm":2.6,"freq":308,"lat":40.44685600,"lon":-3.56255300,"rng_nm":15,"alt_fmsl":0,"id":"BJ","desc":"BARAJAS NDB"},
+{"type":"NDB","hdg_t":158.7,"dist_nm":2.7,"freq":355,"lat":40.44821100,"lon":-3.53881100,"rng_nm":25,"alt_fmsl":0,"id":"AA","desc":"MADRID NDB"},
+{"type":"VOR","hdg_t":348.5,"dist_nm":3.4,"freq":117.85,"lat":40.54642800,"lon":-3.57519200,"rng_nm":25,"alt_fmsl":2012,"id":"SSY","desc":"S.S. REYES VOR-DME"},
+{"type":"SDME","hdg_t":84.5,"dist_nm":5.2,"freq":112.5,"lat":40.49889400,"lon":-3.44548900,"rng_nm":25,"alt_fmsl":2011,"id":"TJZ","desc":"TORREJON TACAN"},
+{"type":"NDB","hdg_t":180.8,"dist_nm":6,"freq":326,"lat":40.38938300,"lon":-3.56225800,"rng_nm":15,"alt_fmsl":0,"id":"RS","desc":"BARAJAS NDB"},
+{"type":"NDB","hdg_t":149.3,"dist_nm":6.2,"freq":390,"lat":40.40078900,"lon":-3.49063900,"rng_nm":30,"alt_fmsl":0,"id":"MA","desc":"MADRID NDB"},
+{"type":"NDB","hdg_t":317,"dist_nm":7.7,"freq":417,"lat":40.58566900,"lon":-3.67651100,"rng_nm":30,"alt_fmsl":0,"id":"ACD","desc":"ALCOBENDAS NDB"},
+{"type":"VOR","hdg_t":64.2,"dist_nm":10.1,"freq":115.1,"lat":40.56408600,"lon":-3.36033300,"rng_nm":25,"alt_fmsl":2380,"id":"VJZ","desc":"TORREJON VOR-DME"},
+{"type":"NDB","hdg_t":63.3,"dist_nm":10.3,"freq":426,"lat":40.56813100,"lon":-3.35728600,"rng_nm":50,"alt_fmsl":0,"id":"TJA","desc":"TORREJON NDB"},
+{"type":"NDB","hdg_t":233,"dist_nm":12.2,"freq":285,"lat":40.36777800,"lon":-3.77340600,"rng_nm":25,"alt_fmsl":0,"id":"CVT","desc":"CUATRO VIENTOS NDB"},
+{"type":"VOR","hdg_t":319.3,"dist_nm":12.2,"freq":117.3,"lat":40.64597800,"lon":-3.73584400,"rng_nm":130,"alt_fmsl":2690,"id":"CNR","desc":"COLMENAR VOR-DME"},
+{"type":"VOR","hdg_t":212.3,"dist_nm":14.2,"freq":112.5,"lat":40.28918100,"lon":-3.72710000,"rng_nm":130,"alt_fmsl":0,"id":"VGE","desc":"GETAFE VOR"},
+{"type":"SDME","hdg_t":212.3,"dist_nm":14.2,"freq":112.05,"lat":40.28918100,"lon":-3.72710000,"rng_nm":130,"alt_fmsl":2029,"id":"VGE","desc":"GETAFE TACAN"},
+{"type":"NDB","hdg_t":213.4,"dist_nm":15.1,"freq":335,"lat":40.27989200,"lon":-3.74236700,"rng_nm":15,"alt_fmsl":0,"id":"L","desc":"GETAFE NDB"},
+{"type":"NDB","hdg_t":323.6,"dist_nm":15.5,"freq":319,"lat":40.69994200,"lon":-3.76281700,"rng_nm":25,"alt_fmsl":0,"id":"ECV","desc":"COLMENAR NDB"},
+{"type":"VOR","hdg_t":145.5,"dist_nm":17.2,"freq":116.95,"lat":40.25291400,"lon":-3.34803100,"rng_nm":130,"alt_fmsl":2513,"id":"PDT","desc":"PERALES VOR-DME"},
+{"type":"NDB","hdg_t":216.8,"dist_nm":21.7,"freq":421,"lat":40.19976900,"lon":-3.84426700,"rng_nm":30,"alt_fmsl":0,"id":"GE","desc":"GETAFE NDB"},
+{"type":"VOR","hdg_t":33.2,"dist_nm":26,"freq":113.95,"lat":40.85387200,"lon":-3.24663100,"rng_nm":130,"alt_fmsl":3119,"id":"RBO","desc":"ROBLEDILLO VOR-DME"},
+{"type":"VOR","hdg_t":257.1,"dist_nm":32.4,"freq":114.95,"lat":40.36867800,"lon":-4.24941700,"rng_nm":130,"alt_fmsl":2516,"id":"NVS","desc":"NAVAS VOR-DME"},
+{"type":"NDB","hdg_t":35,"dist_nm":34.7,"freq":291,"lat":40.96387800,"lon":-3.12246100,"rng_nm":30,"alt_fmsl":0,"id":"ARN","desc":"ARBANCON NDB"},
+{"type":"VOR","hdg_t":357,"dist_nm":39.6,"freq":115.4,"lat":41.15170300,"lon":-3.60466900,"rng_nm":130,"alt_fmsl":5659,"id":"SIE","desc":"SOMOSIERRA VOR-DME"},
+{"type":"NDB","hdg_t":174.7,"dist_nm":42.5,"freq":403,"lat":39.78315800,"lon":-3.47538900,"rng_nm":40,"alt_fmsl":0,"id":"TOB","desc":"VILLATOBAS NDB"},
+{"type":"VOR","hdg_t":174,"dist_nm":42.7,"freq":112.7,"lat":39.78076700,"lon":-3.46403300,"rng_nm":60,"alt_fmsl":2320,"id":"VTB","desc":"VILLATOBAS VOR-DME"},
+{"type":"VOR","hdg_t":98.3,"dist_nm":47,"freq":115.6,"lat":40.37196100,"lon":-2.54460800,"rng_nm":27,"alt_fmsl":3501,"id":"CJN","desc":"CASTEJON VOR-DME"},
+{"type":"VOR","hdg_t":229,"dist_nm":47.4,"freq":113.2,"lat":39.96945600,"lon":-4.33746900,"rng_nm":50,"alt_fmsl":1946,"id":"TLD","desc":"TOLEDO VOR-DME"},
+{"type":"NDB","hdg_t":229.5,"dist_nm":47.6,"freq":385,"lat":39.97278100,"lon":-4.34608300,"rng_nm":35,"alt_fmsl":0,"id":"TEO","desc":"TOLEDO NDB"},
+{"type":"NDB","hdg_t":97.3,"dist_nm":47.9,"freq":362,"lat":40.38389200,"lon":-2.52279700,"rng_nm":40,"alt_fmsl":0,"id":"CTE","desc":"CASTEJON NDB"},
+{"type":"VOR","hdg_t":39.9,"dist_nm":65.4,"freq":112.8,"lat":41.32356400,"lon":-2.62979200,"rng_nm":45,"alt_fmsl":3717,"id":"BAN","desc":"BARAHONA VOR-DME"},
+{"type":"NDB","hdg_t":290.8,"dist_nm":86,"freq":399,"lat":40.98881700,"lon":-5.32993100,"rng_nm":40,"alt_fmsl":0,"id":"MTN","desc":"SALAMANCA NDB"},
+{"type":"VOR","hdg_t":290.6,"dist_nm":92,"freq":112.2,"lat":41.01680800,"lon":-5.45644400,"rng_nm":130,"alt_fmsl":2982,"id":"BBI","desc":"SALAMANCA VOR-DME"},
+{"type":"NDB","hdg_t":185.6,"dist_nm":92.6,"freq":332,"lat":38.95216700,"lon":-3.75700000,"rng_nm":25,"alt_fmsl":0,"id":"EAL","desc":"ALMAGRO NDB"},
+{"type":"SDME","hdg_t":288,"dist_nm":92.8,"freq":113.3,"lat":40.95522200,"lon":-5.50248100,"rng_nm":130,"alt_fmsl":2595,"id":"TSC","desc":"SALAMANCA TACAN"},
+{"type":"SDME","hdg_t":321.6,"dist_nm":93.3,"freq":108.2,"lat":41.70411100,"lon":-4.84980600,"rng_nm":130,"alt_fmsl":2787,"id":"TVD","desc":"VALLADOLID TACAN"},
+{"type":"NDB","hdg_t":325.9,"dist_nm":94.4,"freq":342,"lat":41.78949200,"lon":-4.73908100,"rng_nm":40,"alt_fmsl":0,"id":"VLD","desc":"VALLADOLID NDB"},
+{"type":"VOR","hdg_t":345.1,"dist_nm":95.4,"freq":116.75,"lat":42.02760800,"lon":-4.10913100,"rng_nm":40,"alt_fmsl":3002,"id":"NEA","desc":"TABANERA VOR-DME"},
+{"type":"NDB","hdg_t":286.2,"dist_nm":97.4,"freq":423,"lat":40.92723900,"lon":-5.61659400,"rng_nm":40,"alt_fmsl":0,"id":"SCA","desc":"SALAMANCA NDB"},
+{"type":"VOR","hdg_t":191,"dist_nm":99.9,"freq":114.3,"lat":38.85386100,"lon":-3.97080600,"rng_nm":20,"alt_fmsl":2165,"id":"ADQ","desc":"CIUDAD REAL VOR-DME"}
+]
+}

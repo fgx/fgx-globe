@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HLLB","name":"Benina","lat":32.09685975,"lon":20.269438,"rwys":2,"ils":1,"index":3284609,"path":"e020n30/e020n32"
+,"runways":[
+{"len_m":3576,"wid_m":45.11,"hdg":150,"surf":"Asphalt","rwy1":"15L","lat1":32.11158100,"lon1":20.26149400,"rwy2":"33R","lat2":32.08351700,"lon2":20.28015800},
+{"len_m":3575,"wid_m":45.11,"hdg":150,"surf":"Asphalt","rwy1":"15R","lat1":32.11019400,"lon1":20.25870300,"rwy2":"33L","lat2":32.08214700,"lon2":20.27739700}
+]
+,"radios":[
+{"type":"GND","freq":121.3,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":127,"desc":"ARR"},
+{"type":"APP","freq":126.5,"desc":"BENGHAZI APP"},
+{"type":"APP","freq":129.2,"desc":"BENGHAZI APP"},
+{"type":"DEP","freq":127,"desc":"DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":32.08234905,"lon":20.28093799,"rng_nm":18,"alt_fmsl":433,"hdg":150.60,"id":"IBNI","rwy":"15L","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":32.10959513,"lon":20.26393001,"rng_nm":10,"alt_fmsl":433,"id":"IBNI","rwy":"15L","desc":"GS","gs":2.5},
+{"type":"OM","freq":0,"lat":32.17111570,"lon":20.22189377,"rng_nm":0,"alt_fmsl":433,"id":"----","rwy":"15L","desc":"OM"},
+{"type":"MM","freq":0,"lat":32.11738926,"lon":20.25763056,"rng_nm":0,"alt_fmsl":433,"id":"----","rwy":"15L","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":222.7,"dist_nm":0.6,"freq":342,"lat":32.08944400,"lon":20.26138900,"rng_nm":150,"alt_fmsl":433,"id":"BNA","desc":"BENINA NDB"},
+{"type":"VOR","hdg_t":334,"dist_nm":1.8,"freq":117.4,"lat":32.12500000,"lon":20.25333300,"rng_nm":130,"alt_fmsl":433,"id":"BNA","desc":"BENINA VOR-DME"},
+{"type":"NDB","hdg_t":187.4,"dist_nm":74.2,"freq":369,"lat":30.86666700,"lon":20.08333300,"rng_nm":25,"alt_fmsl":0,"id":"ZUE","desc":"ZUETINA NDB"},
+{"type":"NDB","hdg_t":63.9,"dist_nm":95.5,"freq":392,"lat":32.78694400,"lon":21.96583300,"rng_nm":150,"alt_fmsl":2157,"id":"LAB","desc":"LABRAQ NDB"},
+{"type":"NDB","hdg_t":199.8,"dist_nm":106.6,"freq":403,"lat":30.41833300,"lon":19.57250000,"rng_nm":25,"alt_fmsl":0,"id":"MB","desc":"MARSA BREGA NDB"},
+{"type":"NDB","hdg_t":223.4,"dist_nm":130.7,"freq":385,"lat":30.50000000,"lon":18.53333300,"rng_nm":25,"alt_fmsl":0,"id":"VR","desc":"RAS LANUF V40 NDB"},
+{"type":"NDB","hdg_t":228.7,"dist_nm":132.1,"freq":300,"lat":30.62527800,"lon":18.35138900,"rng_nm":25,"alt_fmsl":0,"id":"OJ","desc":"ESSIDER NDB"},
+{"type":"NDB","hdg_t":165,"dist_nm":161.7,"freq":310,"lat":29.48333300,"lon":21.06666700,"rng_nm":25,"alt_fmsl":0,"id":"VA","desc":"AMAL V12 NDB"},
+{"type":"NDB","hdg_t":158.5,"dist_nm":183.7,"freq":390,"lat":29.23333300,"lon":21.55000000,"rng_nm":25,"alt_fmsl":0,"id":"OV","desc":"NAFOORA M4 NDB"},
+{"type":"NDB","hdg_t":171.8,"dist_nm":185.1,"freq":334,"lat":29.03333300,"lon":20.76666700,"rng_nm":25,"alt_fmsl":0,"id":"OXY","desc":"ALPHA 103 NDB"}
+]
+}

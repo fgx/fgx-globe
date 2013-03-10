@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RJFG","name":"New Tanegashima","lat":30.6050665,"lon":130.991229,"rwys":1,"ils":1,"index":5086755,"path":"e130n30/e130n30"
+,"runways":[
+{"len_m":2033,"wid_m":44.81,"hdg":122,"surf":"Asphalt","rwy1":"13","lat1":30.60998900,"lon1":130.98228600,"rwy2":"31","lat2":30.60014400,"lon2":131.00017200}
+]
+,"radios":[
+{"type":"TWR","freq":118.75,"desc":"TANEGASHIMA"},
+{"type":"TWR","freq":126.2,"desc":"TANEGASHIMA"},
+{"type":"APP","freq":133.85,"desc":"FUKUOKA"},
+{"type":"APP","freq":132.6,"desc":"FUKUOKA"}
+]
+,"ils":[
+{"type":"ILS","freq":108.95,"lat":30.61113300,"lon":130.99743300,"rng_nm":18,"alt_fmsl":768,"hdg":296.17,"id":"ITN","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.95,"lat":30.60072500,"lon":130.99706100,"rng_nm":10,"alt_fmsl":768,"id":"ITN","rwy":"31","desc":"GS","gs":3},
+{"type":"DME","freq":108.95,"lat":30.60069200,"lon":130.99702500,"rng_nm":18,"alt_fmsl":776,"id":"ITN","rwy":"31","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":174.8,"dist_nm":0.1,"freq":115.4,"lat":30.60215600,"lon":130.99153300,"rng_nm":40,"alt_fmsl":808,"id":"TGE","desc":"NAKATANE VOR-DME"},
+{"type":"VOR","hdg_t":231.6,"dist_nm":21.7,"freq":117,"lat":30.37944700,"lon":130.66271700,"rng_nm":100,"alt_fmsl":190,"id":"YKE","desc":"YAKUSHIMA VOR-DME"},
+{"type":"VOR","hdg_t":233.9,"dist_nm":21.8,"freq":115.4,"lat":30.39008600,"lon":130.65122200,"rng_nm":100,"alt_fmsl":139,"id":"KYE","desc":"KAMIYAKU VOR-DME"},
+{"type":"NDB","hdg_t":350.7,"dist_nm":45.5,"freq":238,"lat":31.35638900,"lon":130.84861100,"rng_nm":50,"alt_fmsl":214,"id":"JA","desc":"KANOYA NDB"},
+{"type":"SDME","hdg_t":349.6,"dist_nm":46.1,"freq":113.8,"lat":31.36277800,"lon":130.83000000,"rng_nm":100,"alt_fmsl":252,"id":"JAT","desc":"KANOYA TACAN"},
+{"type":"VOR","hdg_t":352.9,"dist_nm":62.6,"freq":117.3,"lat":31.64388100,"lon":130.84210300,"rng_nm":100,"alt_fmsl":1499,"id":"KBE","desc":"KOKUBU VOR-DME"},
+{"type":"NDB","hdg_t":340.7,"dist_nm":65.9,"freq":390,"lat":31.64466400,"lon":130.56577200,"rng_nm":100,"alt_fmsl":0,"id":"HK","desc":"KAGOSHIMA NDB"},
+{"type":"VOR","hdg_t":342.2,"dist_nm":68.6,"freq":113.3,"lat":31.69722222,"lon":130.58294444,"rng_nm":130,"alt_fmsl":1909,"id":"HKC","desc":"KAGOSHIMA VOR-DME"},
+{"type":"VOR","hdg_t":349.2,"dist_nm":72.6,"freq":115.7,"lat":31.79754200,"lon":130.72610300,"rng_nm":100,"alt_fmsl":900,"id":"KGE","desc":"KAJIKI VOR-DME"},
+{"type":"VOR","hdg_t":16.6,"dist_nm":79.6,"freq":112.4,"lat":31.87872800,"lon":131.43746700,"rng_nm":100,"alt_fmsl":32,"id":"MZE","desc":"MIYAZAKI VOR-DME"},
+{"type":"SDME","hdg_t":14.9,"dist_nm":91.4,"freq":115,"lat":32.08027800,"lon":131.45361100,"rng_nm":100,"alt_fmsl":278,"id":"NHT","desc":"NYUTABARU TACAN"}
+]
+}

@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LTCG","name":"Trabzon","lat":40.99506,"lon":39.789701,"rwys":1,"ils":1,"index":3596475,"path":"e030n40/e039n40"
+,"runways":[
+{"len_m":2628,"wid_m":45.11,"hdg":112,"surf":"Asphalt","rwy1":"11","lat1":40.99954200,"lon1":39.77524400,"rwy2":"29","lat2":40.99057800,"lon2":39.80415800}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":122.1,"desc":"TWR"},
+{"type":"TWR","freq":120.1,"desc":"TWR"},
+{"type":"APP","freq":122.1,"desc":"APP"},
+{"type":"APP","freq":120.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.1,"lat":40.98972200,"lon":39.80666700,"rng_nm":18,"alt_fmsl":95,"hdg":112.50,"id":"ITBZ","rwy":"11","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.1,"lat":41.00000000,"lon":39.77888900,"rng_nm":10,"alt_fmsl":104,"id":"ITBZ","rwy":"11","desc":"GS","gs":3.3},
+{"type":"DME","freq":109.1,"lat":40.99916700,"lon":39.77888900,"rng_nm":18,"alt_fmsl":98,"id":"ITBZ","rwy":"11","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":87.1,"dist_nm":0.2,"freq":371,"lat":40.99527800,"lon":39.79555600,"rng_nm":75,"alt_fmsl":104,"id":"TBN","desc":"TRABZON NDB"},
+{"type":"VOR","hdg_t":87.1,"dist_nm":0.2,"freq":114.9,"lat":40.99527800,"lon":39.79555600,"rng_nm":130,"alt_fmsl":36,"id":"TBN","desc":"TRABZON VOR-DME"},
+{"type":"NDB","hdg_t":291.3,"dist_nm":15.6,"freq":392,"lat":41.08940800,"lon":39.46920200,"rng_nm":100,"alt_fmsl":104,"id":"AKC","desc":"TRABZON NDB"},
+{"type":"NDB","hdg_t":188.8,"dist_nm":78,"freq":430,"lat":39.70833300,"lon":39.52916700,"rng_nm":25,"alt_fmsl":3793,"id":"ERN","desc":"ERZINCAN NDB"},
+{"type":"VOR","hdg_t":188.8,"dist_nm":78,"freq":112.7,"lat":39.70833300,"lon":39.52916700,"rng_nm":80,"alt_fmsl":3757,"id":"ERN","desc":"ERZINCAN VOR-DME"},
+{"type":"SDME","hdg_t":134.4,"dist_nm":88,"freq":111.4,"lat":39.95880800,"lon":41.15311100,"rng_nm":25,"alt_fmsl":5763,"id":"ERZ","desc":"ERZURUM TACAN"},
+{"type":"NDB","hdg_t":133.3,"dist_nm":89.9,"freq":354,"lat":39.95638900,"lon":41.20694400,"rng_nm":75,"alt_fmsl":0,"id":"ERZ","desc":"ERZURUM NDB"},
+{"type":"VOR","hdg_t":133.3,"dist_nm":89.9,"freq":115.5,"lat":39.95750000,"lon":41.20722200,"rng_nm":130,"alt_fmsl":5774,"id":"ERZ","desc":"ERZURUM VOR-DME"},
+{"type":"NDB","hdg_t":65.6,"dist_nm":90.1,"freq":430,"lat":41.60083300,"lon":41.61388900,"rng_nm":75,"alt_fmsl":0,"id":"LU","desc":"BATUMI NDB"},
+{"type":"NDB","hdg_t":131.5,"dist_nm":92.7,"freq":434,"lat":39.96000000,"lon":41.29472200,"rng_nm":40,"alt_fmsl":0,"id":"ER","desc":"ERZURUM NDB"}
+]
+}

@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SYCJ","name":"Cheddi Jagan Intl","lat":6.49887425,"lon":-58.25455,"rwys":2,"ils":1,"index":1988637,"path":"w060n00/w059n06"
+,"runways":[
+{"len_m":2270,"wid_m":45.11,"hdg":44,"surf":"Asphalt","rwy1":"06","lat1":6.49189700,"lon1":-58.26080800,"rwy2":"24","lat2":6.50641900,"lon2":-58.24630300},
+{"len_m":1524,"wid_m":45.11,"hdg":89,"surf":"Asphalt","rwy1":"11","lat1":6.49858900,"lon1":-58.26243600,"rwy2":"29","lat2":6.49859200,"lon2":-58.24865300}
+]
+,"radios":[
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.3,"desc":"TIMEHRI TWR"},
+{"type":"APP","freq":119.4,"desc":"TIMEHRI APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":6.50921700,"lon":-58.24351100,"rng_nm":18,"alt_fmsl":95,"hdg":44.78,"id":"ITIM","rwy":"06","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":6.49392800,"lon":-58.25770000,"rng_nm":10,"alt_fmsl":95,"id":"ITIM","rwy":"06","desc":"GS","gs":2.5},
+{"type":"OM","freq":0,"lat":6.44806100,"lon":-58.30426900,"rng_nm":0,"alt_fmsl":95,"id":"----","rwy":"06","desc":"OM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":205.6,"dist_nm":0.4,"freq":113.5,"lat":6.49227778,"lon":-58.25772222,"rng_nm":130,"alt_fmsl":0,"id":"TIM","desc":"TIMEHRI VOR"},
+{"type":"NDB","hdg_t":26.2,"dist_nm":0.9,"freq":356,"lat":6.51293900,"lon":-58.24761700,"rng_nm":70,"alt_fmsl":0,"id":"TIM","desc":"TIMEHRI NDB"},
+{"type":"NDB","hdg_t":224.3,"dist_nm":4.2,"freq":305,"lat":6.44806100,"lon":-58.30426900,"rng_nm":50,"alt_fmsl":0,"id":"UIT","desc":"TIMEHRI NDB"},
+{"type":"NDB","hdg_t":180.5,"dist_nm":76.5,"freq":342,"lat":5.21632200,"lon":-58.26709900,"rng_nm":50,"alt_fmsl":0,"id":"KAI","desc":"KAIETEUR NDB"},
+{"type":"NDB","hdg_t":255.5,"dist_nm":145.8,"freq":406,"lat":5.88333300,"lon":-60.61666700,"rng_nm":70,"alt_fmsl":0,"id":"KAM","desc":"KAMARANG NDB"},
+{"type":"VOR","hdg_t":108.6,"dist_nm":193.9,"freq":114.3,"lat":5.45054200,"lon":-55.18437800,"rng_nm":130,"alt_fmsl":59,"id":"ZY","desc":"ZANDERIJ VOR-DME"},
+{"type":"NDB","hdg_t":258.2,"dist_nm":197.2,"freq":286,"lat":5.81666700,"lon":-61.48333300,"rng_nm":50,"alt_fmsl":0,"id":"LEA","desc":"LUEPA NDB"},
+{"type":"NDB","hdg_t":237.1,"dist_nm":197.7,"freq":245,"lat":4.69750000,"lon":-61.02783300,"rng_nm":200,"alt_fmsl":0,"id":"LDP","desc":"LA DIVINA PASTORA NDB"},
+{"type":"VOR","hdg_t":237.1,"dist_nm":197.8,"freq":117.7,"lat":4.69277800,"lon":-61.02755600,"rng_nm":130,"alt_fmsl":618,"id":"LDP","desc":"LA DIVINA PASTORA VOR-DME"},
+{"type":"NDB","hdg_t":274.2,"dist_nm":199.2,"freq":325,"lat":6.73305556,"lon":-61.58366667,"rng_nm":50,"alt_fmsl":0,"id":"ELO","desc":"EL DORADO NDB"}
+]
+}

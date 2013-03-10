@@ -1,0 +1,56 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SBSP","name":"Sao Paulo Congonhas","lat":-23.62669325,"lon":-46.655377,"rwys":2,"ils":1,"index":2183313,"path":"w050s30/w047s24"
+,"runways":[
+{"len_m":1947,"wid_m":44.81,"hdg":147,"surf":"Asphalt","rwy1":"17R","lat1":-23.61984200,"lon1":-46.66145300,"rwy2":"35L","lat2":-23.63462800,"lon2":-46.65112500},
+{"len_m":1436,"wid_m":44.81,"hdg":147,"surf":"Asphalt","rwy1":"17L","lat1":-23.62070300,"lon1":-46.65828600,"rwy2":"35R","lat2":-23.63160000,"lon2":-46.65064400}
+]
+,"radios":[
+{"type":"ATIS","freq":127.65,"desc":"ATIS"},
+{"type":"CLD","freq":120.6,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":127.15,"desc":"SAO PAULO TWR"},
+{"type":"APP","freq":129.5,"desc":"SAO PAULO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":-23.63766700,"lon":-46.64883300,"rng_nm":18,"alt_fmsl":2631,"hdg":147.03,"id":"ISP","rwy":"17R","desc":"ILS-cat-I"},
+{"type":"LOC","freq":110.1,"lat":-23.61933300,"lon":-46.66150000,"rng_nm":18,"alt_fmsl":2631,"id":"ICO","rwy":"35L","desc":"LOC"},
+{"type":"GS","freq":109.3,"lat":-23.62269200,"lon":-46.65742800,"rng_nm":10,"alt_fmsl":2631,"id":"ISP","rwy":"17R","desc":"GS","gs":2.9},
+{"type":"OM","freq":0,"lat":-23.54483300,"lon":-46.71166700,"rng_nm":0,"alt_fmsl":2631,"id":"----","rwy":"17R","desc":"OM"},
+{"type":"MM","freq":0,"lat":-23.61016700,"lon":-46.66750000,"rng_nm":0,"alt_fmsl":2631,"id":"----","rwy":"17R","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":140.9,"dist_nm":0,"freq":116.9,"lat":-23.62750000,"lon":-46.65466700,"rng_nm":200,"alt_fmsl":2631,"id":"CGO","desc":"CONGONHAS VOR-DME"},
+{"type":"NDB","hdg_t":149.3,"dist_nm":1.1,"freq":330,"lat":-23.64383300,"lon":-46.64433300,"rng_nm":50,"alt_fmsl":0,"id":"PP","desc":"METRO NDB"},
+{"type":"NDB","hdg_t":325.9,"dist_nm":1.1,"freq":250,"lat":-23.61016700,"lon":-46.66750000,"rng_nm":50,"alt_fmsl":0,"id":"SPO","desc":"SAO PAULO NDB"},
+{"type":"NDB","hdg_t":147.7,"dist_nm":5.5,"freq":200,"lat":-23.70566700,"lon":-46.60133300,"rng_nm":25,"alt_fmsl":0,"id":"DAD","desc":"DIADEMA NDB"},
+{"type":"NDB","hdg_t":327.6,"dist_nm":5.7,"freq":290,"lat":-23.54483300,"lon":-46.71166700,"rng_nm":145,"alt_fmsl":0,"id":"IS","desc":"MADA NDB"},
+{"type":"NDB","hdg_t":8.2,"dist_nm":7.2,"freq":260,"lat":-23.50683300,"lon":-46.63650000,"rng_nm":50,"alt_fmsl":2368,"id":"MAE","desc":"MARTE NDB"},
+{"type":"NDB","hdg_t":24.7,"dist_nm":10.8,"freq":410,"lat":-23.46216700,"lon":-46.57333300,"rng_nm":50,"alt_fmsl":0,"id":"IG","desc":"TUCA NDB"},
+{"type":"NDB","hdg_t":335.7,"dist_nm":13.5,"freq":220,"lat":-23.42058600,"lon":-46.75592200,"rng_nm":25,"alt_fmsl":0,"id":"PER","desc":"PERUS NDB"},
+{"type":"NDB","hdg_t":283.8,"dist_nm":15.1,"freq":270,"lat":-23.56550000,"lon":-46.92266700,"rng_nm":25,"alt_fmsl":0,"id":"TPV","desc":"ITAPEVI NDB"},
+{"type":"NDB","hdg_t":213.4,"dist_nm":16,"freq":525,"lat":-23.85066700,"lon":-46.81633300,"rng_nm":50,"alt_fmsl":0,"id":"EMB","desc":"EMBUGUACU NDB"},
+{"type":"VOR","hdg_t":299.3,"dist_nm":16.9,"freq":114.3,"lat":-23.48750000,"lon":-46.92333300,"rng_nm":200,"alt_fmsl":2428,"id":"STN","desc":"SANTANA VOR-DME"},
+{"type":"VOR","hdg_t":156.1,"dist_nm":17.2,"freq":116.7,"lat":-23.89100000,"lon":-46.52816700,"rng_nm":200,"alt_fmsl":2215,"id":"RDE","desc":"REDE VOR-DME"},
+{"type":"NDB","hdg_t":48.5,"dist_nm":19.7,"freq":240,"lat":-23.40766700,"lon":-46.38716700,"rng_nm":50,"alt_fmsl":0,"id":"IB","desc":"BONSUCESSO NDB"},
+{"type":"VOR","hdg_t":48.5,"dist_nm":19.8,"freq":116,"lat":-23.40633300,"lon":-46.38550000,"rng_nm":200,"alt_fmsl":2726,"id":"BCO","desc":"BONSUCESSO VOR-DME"},
+{"type":"NDB","hdg_t":133.4,"dist_nm":27.9,"freq":360,"lat":-23.94750000,"lon":-46.28700000,"rng_nm":50,"alt_fmsl":0,"id":"RR","desc":"VICENTE NDB"},
+{"type":"NDB","hdg_t":134.7,"dist_nm":30.3,"freq":375,"lat":-23.98333300,"lon":-46.26333300,"rng_nm":128,"alt_fmsl":0,"id":"SAT","desc":"SANTOS NDB"},
+{"type":"NDB","hdg_t":139.7,"dist_nm":33.2,"freq":305,"lat":-24.05050000,"lon":-46.26416700,"rng_nm":300,"alt_fmsl":0,"id":"NR","desc":"MOELA NDB"},
+{"type":"NDB","hdg_t":8.6,"dist_nm":39.6,"freq":385,"lat":-22.97079200,"lon":-46.54778900,"rng_nm":50,"alt_fmsl":2887,"id":"BGC","desc":"BRAGANCA NDB"},
+{"type":"VOR","hdg_t":280,"dist_nm":40.4,"freq":115.2,"lat":-23.50700000,"lon":-47.37816700,"rng_nm":200,"alt_fmsl":2018,"id":"SCB","desc":"SOROCABA VOR-DME"},
+{"type":"VOR","hdg_t":6.8,"dist_nm":40.5,"freq":116.2,"lat":-22.95313600,"lon":-46.56811700,"rng_nm":200,"alt_fmsl":2737,"id":"BGC","desc":"BRAGANCA VOR-DME"},
+{"type":"NDB","hdg_t":326.1,"dist_nm":41.1,"freq":395,"lat":-23.05394700,"lon":-47.06959200,"rng_nm":50,"alt_fmsl":0,"id":"KP","desc":"GRAMA NDB"},
+{"type":"VOR","hdg_t":324.6,"dist_nm":45.2,"freq":112,"lat":-23.00871400,"lon":-47.12904400,"rng_nm":200,"alt_fmsl":2170,"id":"CPN","desc":"CAMPINAS VOR-DME"},
+{"type":"NDB","hdg_t":280.4,"dist_nm":46.5,"freq":350,"lat":-23.48316700,"lon":-47.48466700,"rng_nm":50,"alt_fmsl":2077,"id":"SCB","desc":"SOROCABA NDB"},
+{"type":"NDB","hdg_t":323.8,"dist_nm":46.8,"freq":300,"lat":-22.99283300,"lon":-47.15516700,"rng_nm":50,"alt_fmsl":0,"id":"IP","desc":"JARDIM NDB"},
+{"type":"NDB","hdg_t":55.4,"dist_nm":48.5,"freq":230,"lat":-23.16450000,"lon":-45.93150000,"rng_nm":25,"alt_fmsl":0,"id":"IW","desc":"JAGUARI NDB"},
+{"type":"NDB","hdg_t":62.8,"dist_nm":49.1,"freq":230,"lat":-23.24972200,"lon":-45.86388900,"rng_nm":50,"alt_fmsl":0,"id":"SJC","desc":"SAO JOSE NDB"},
+{"type":"NDB","hdg_t":60.1,"dist_nm":49.4,"freq":365,"lat":-23.21283300,"lon":-45.87950000,"rng_nm":25,"alt_fmsl":0,"id":"IJ","desc":"VILA NDB"},
+{"type":"VOR","hdg_t":62.9,"dist_nm":49.7,"freq":112.8,"lat":-23.24633300,"lon":-45.85416700,"rng_nm":200,"alt_fmsl":2120,"id":"SJC","desc":"SAO JOSE VOR-DME"},
+{"type":"NDB","hdg_t":322.7,"dist_nm":50.2,"freq":370,"lat":-22.95750000,"lon":-47.20416700,"rng_nm":50,"alt_fmsl":0,"id":"IK","desc":"BENTO NDB"},
+{"type":"NDB","hdg_t":61.2,"dist_nm":71.8,"freq":430,"lat":-23.04566700,"lon":-45.51683300,"rng_nm":25,"alt_fmsl":1923,"id":"TBE","desc":"TAUBATE NDB"},
+{"type":"NDB","hdg_t":324.7,"dist_nm":87.4,"freq":280,"lat":-22.43016700,"lon":-47.56250000,"rng_nm":50,"alt_fmsl":0,"id":"RCL","desc":"RIO CLARO NDB"},
+{"type":"NDB","hdg_t":83.3,"dist_nm":87.8,"freq":295,"lat":-23.44916700,"lon":-45.07383300,"rng_nm":50,"alt_fmsl":13,"id":"UBT","desc":"UBATUBA NDB"},
+{"type":"NDB","hdg_t":58,"dist_nm":94,"freq":275,"lat":-22.78800000,"lon":-45.21533300,"rng_nm":50,"alt_fmsl":1761,"id":"GGT","desc":"GUARATINGUETA NDB"}
+]
+}

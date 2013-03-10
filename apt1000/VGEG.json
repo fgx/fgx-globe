@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VGEG","name":"Shah Amanat Intl","lat":22.24961,"lon":91.813286,"rwys":1,"ils":1,"index":4447243,"path":"e090n20/e091n22"
+,"runways":[
+{"len_m":2932,"wid_m":45.72,"hdg":48,"surf":"Asphalt","rwy1":"05","lat1":22.24081400,"lon1":91.80265300,"rwy2":"23","lat2":22.25840600,"lon2":91.82391900}
+]
+,"radios":[
+{"type":"ATIS","freq":127.6,"desc":"ATIS"},
+{"type":"GND","freq":121.8,"desc":"CHITTAGONG GND"},
+{"type":"TWR","freq":118.7,"desc":"CHITTAGONG TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":22.23910800,"lon":91.80054400,"rng_nm":18,"alt_fmsl":12,"hdg":228.26,"id":"ICG","rwy":"23","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.5,"lat":22.25563900,"lon":91.82233100,"rng_nm":10,"alt_fmsl":12,"id":"ICG","rwy":"23","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":22.24624200,"lon":91.80921700,"rng_nm":0,"alt_fmsl":12,"id":"----","rwy":"23","desc":"MM"},
+{"type":"DME","freq":110.5,"lat":22.25563900,"lon":91.82233100,"rng_nm":18,"alt_fmsl":12,"id":"ICG","rwy":"23","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":68.8,"dist_nm":0.2,"freq":287,"lat":22.25128100,"lon":91.81792500,"rng_nm":25,"alt_fmsl":0,"id":"EG","desc":"CHITTAGONG NDB"},
+{"type":"VOR","hdg_t":58.4,"dist_nm":0.9,"freq":113.4,"lat":22.25773600,"lon":91.82748100,"rng_nm":130,"alt_fmsl":45,"id":"CTG","desc":"CHITTAGONG VOR-DME"},
+{"type":"NDB","hdg_t":169.8,"dist_nm":48.3,"freq":396,"lat":21.45286700,"lon":91.96578300,"rng_nm":25,"alt_fmsl":0,"id":"CB","desc":"COXS BAZAR NDB"},
+{"type":"VOR","hdg_t":334.1,"dist_nm":78.7,"freq":115.5,"lat":23.43377800,"lon":91.19009200,"rng_nm":130,"alt_fmsl":25,"id":"CML","desc":"COMILLA VOR"},
+{"type":"NDB","hdg_t":334,"dist_nm":78.9,"freq":330,"lat":23.43619700,"lon":91.18772500,"rng_nm":25,"alt_fmsl":0,"id":"CM","desc":"COMILLA NDB"},
+{"type":"NDB","hdg_t":291.5,"dist_nm":90.3,"freq":368,"lat":22.79782200,"lon":90.29783600,"rng_nm":25,"alt_fmsl":0,"id":"BL","desc":"BARISAL NDB"},
+{"type":"NDB","hdg_t":342,"dist_nm":103,"freq":237,"lat":23.88734700,"lon":91.23438900,"rng_nm":50,"alt_fmsl":0,"id":"AT","desc":"AGARTALA NDB"},
+{"type":"VOR","hdg_t":342.1,"dist_nm":103,"freq":116.1,"lat":23.88956900,"lon":91.23972500,"rng_nm":130,"alt_fmsl":47,"id":"AAT","desc":"AGARTALA VOR-DME"},
+{"type":"VOR","hdg_t":25.2,"dist_nm":104.6,"freq":114.2,"lat":23.82972200,"lon":92.62594400,"rng_nm":130,"alt_fmsl":1372,"id":"LLP","desc":"LENGPUI VOR-DME"},
+{"type":"NDB","hdg_t":31.3,"dist_nm":104.7,"freq":366,"lat":23.74294700,"lon":92.80286700,"rng_nm":50,"alt_fmsl":0,"id":"AZ","desc":"AIZAWL NDB"}
+]
+}

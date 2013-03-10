@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LIBN","name":"Lecce","lat":40.238982,"lon":18.1330905,"rwys":1,"ils":1,"index":3252360,"path":"e010n40/e018n40"
+,"runways":[
+{"len_m":2067,"wid_m":60.05,"hdg":145,"surf":"Asphalt","rwy1":"14","lat1":40.24667900,"lon1":18.12625600,"rwy2":"32","lat2":40.23128500,"lon2":18.13992500}
+]
+,"radios":[
+{"type":"TWR","freq":122.1,"desc":"TWR"},
+{"type":"TWR","freq":119.55,"desc":"TWR"},
+{"type":"APP","freq":118.95,"desc":"APP"},
+{"type":"APP","freq":122.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.75,"lat":40.24804700,"lon":18.12502500,"rng_nm":18,"alt_fmsl":162,"hdg":325.84,"id":"GAL","rwy":"32","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.75,"lat":40.23398100,"lon":18.13573300,"rng_nm":10,"alt_fmsl":208,"id":"GAL","rwy":"32","desc":"GS","gs":3},
+{"type":"DME","freq":111.75,"lat":40.23408300,"lon":18.13567200,"rng_nm":18,"alt_fmsl":208,"id":"GAL","rwy":"32","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":348,"dist_nm":0.5,"freq":112.8,"lat":40.24721000,"lon":18.13082600,"rng_nm":40,"alt_fmsl":217,"id":"LCC","desc":"LECCE VORTAC"},
+{"type":"NDB","hdg_t":345.5,"dist_nm":22.7,"freq":363,"lat":40.60555600,"lon":18.00888900,"rng_nm":78,"alt_fmsl":16,"id":"BRD","desc":"BRINDISI NDB"},
+{"type":"VOR","hdg_t":345,"dist_nm":23,"freq":113.2,"lat":40.61083000,"lon":18.00277800,"rng_nm":200,"alt_fmsl":85,"id":"BRD","desc":"BRINDISI VORTAC"},
+{"type":"NDB","hdg_t":291,"dist_nm":34.8,"freq":331,"lat":40.44583300,"lon":17.42222200,"rng_nm":25,"alt_fmsl":367,"id":"GRT","desc":"GROTTAGLIE NDB"},
+{"type":"VOR","hdg_t":296.2,"dist_nm":36.9,"freq":110.2,"lat":40.50964700,"lon":17.40799000,"rng_nm":25,"alt_fmsl":230,"id":"TAG","desc":"GROTTAGLIE VOR-DME"},
+{"type":"SDME","hdg_t":301.2,"dist_nm":65.6,"freq":117.8,"lat":40.80125600,"lon":16.90125600,"rng_nm":130,"alt_fmsl":1183,"id":"GIO","desc":"GIOIA DEL COLLE TACAN"},
+{"type":"VOR","hdg_t":311.6,"dist_nm":82.3,"freq":116.4,"lat":41.14417100,"lon":16.77638300,"rng_nm":80,"alt_fmsl":121,"id":"BAR","desc":"BARI VOR-DME"},
+{"type":"NDB","hdg_t":308.3,"dist_nm":85.1,"freq":401,"lat":41.11030600,"lon":16.66044400,"rng_nm":25,"alt_fmsl":418,"id":"BPL","desc":"BARI PALESE NDB"},
+{"type":"VOR","hdg_t":213.4,"dist_nm":89,"freq":117.1,"lat":38.99611300,"lon":17.08305400,"rng_nm":150,"alt_fmsl":548,"id":"CRN","desc":"CROTONE VOR-DME"},
+{"type":"VOR","hdg_t":114.2,"dist_nm":90.3,"freq":108.8,"lat":39.60638900,"lon":19.90944400,"rng_nm":25,"alt_fmsl":29,"id":"GAR","desc":"GARITSA VOR-DME"},
+{"type":"NDB","hdg_t":114.8,"dist_nm":90.9,"freq":403,"lat":39.58777800,"lon":19.91166700,"rng_nm":25,"alt_fmsl":0,"id":"KEK","desc":"KERKIRA NDB"},
+{"type":"NDB","hdg_t":46.5,"dist_nm":99.2,"freq":380,"lat":41.36750000,"lon":19.72777800,"rng_nm":75,"alt_fmsl":0,"id":"KA","desc":"KA NDB"}
+]
+}

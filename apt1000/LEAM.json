@@ -1,0 +1,38 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LEAM","name":"Almeria","lat":36.8439345,"lon":-2.370097,"rwys":1,"ils":1,"index":2908082,"path":"w010n30/w003n36"
+,"runways":[
+{"len_m":3200,"wid_m":45.11,"hdg":73,"surf":"Asphalt","rwy1":"08","lat1":36.83972200,"lon1":-2.38725800,"rwy2":"26","lat2":36.84814700,"lon2":-2.35293600}
+]
+,"radios":[
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.35,"desc":"TWR"},
+{"type":"APP","freq":118.35,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":36.83911100,"lon":-2.38975000,"rng_nm":18,"alt_fmsl":70,"hdg":252.94,"id":"IAM","rwy":"26","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":36.84628300,"lon":-2.35668100,"rng_nm":10,"alt_fmsl":70,"id":"IAM","rwy":"26","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":36.87583300,"lon":-2.23990600,"rng_nm":0,"alt_fmsl":70,"id":"----","rwy":"26","desc":"OM"},
+{"type":"DME","freq":109.9,"lat":36.84629200,"lon":-2.35668100,"rng_nm":18,"alt_fmsl":95,"id":"IAM","rwy":"26","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":301.3,"dist_nm":0.5,"freq":310,"lat":36.84836900,"lon":-2.37915600,"rng_nm":60,"alt_fmsl":0,"id":"AMN","desc":"ALMERIA NDB"},
+{"type":"VOR","hdg_t":96.8,"dist_nm":5.3,"freq":114.1,"lat":36.83316700,"lon":-2.25942200,"rng_nm":130,"alt_fmsl":233,"id":"AMR","desc":"ALMERIA VOR-DME"},
+{"type":"NDB","hdg_t":73,"dist_nm":6.5,"freq":284,"lat":36.87583300,"lon":-2.23990600,"rng_nm":15,"alt_fmsl":0,"id":"AM","desc":"ALMERIA NDB"},
+{"type":"SDME","hdg_t":286.2,"dist_nm":63.1,"freq":113.1,"lat":37.13253300,"lon":-3.63380000,"rng_nm":25,"alt_fmsl":2304,"id":"TGR","desc":"ARMILLA TACAN"},
+{"type":"NDB","hdg_t":288.6,"dist_nm":66.1,"freq":412,"lat":37.18935000,"lon":-3.67771400,"rng_nm":20,"alt_fmsl":0,"id":"GRA","desc":"GRANADA NDB"},
+{"type":"NDB","hdg_t":281.7,"dist_nm":70.2,"freq":344,"lat":37.07347200,"lon":-3.80208300,"rng_nm":25,"alt_fmsl":0,"id":"ARM","desc":"ARMILLA NDB"},
+{"type":"VOR","hdg_t":285.1,"dist_nm":80.4,"freq":113.4,"lat":37.18317800,"lon":-3.99090600,"rng_nm":130,"alt_fmsl":1991,"id":"GDA","desc":"GRANADA VOR-DME"},
+{"type":"NDB","hdg_t":53.5,"dist_nm":84.7,"freq":381,"lat":37.67630600,"lon":-0.93927800,"rng_nm":40,"alt_fmsl":0,"id":"LCZ","desc":"MURCIA/SAN JAVIER NDB"},
+{"type":"NDB","hdg_t":39,"dist_nm":85.8,"freq":345,"lat":37.94991700,"lon":-1.23041700,"rng_nm":25,"alt_fmsl":245,"id":"ATR","desc":"ALCANTARILLA NDB"},
+{"type":"SDME","hdg_t":39,"dist_nm":85.8,"freq":116.6,"lat":37.95111100,"lon":-1.22916700,"rng_nm":40,"alt_fmsl":243,"id":"TRL","desc":"ALCANTARILLA TACAN"},
+{"type":"VOR","hdg_t":0.5,"dist_nm":90.9,"freq":115.2,"lat":38.36077800,"lon":-2.35275300,"rng_nm":130,"alt_fmsl":4793,"id":"YES","desc":"YESTE VOR-DME"},
+{"type":"NDB","hdg_t":52.8,"dist_nm":92,"freq":370,"lat":37.76183300,"lon":-0.82905600,"rng_nm":15,"alt_fmsl":11,"id":"O","desc":"MURCIA/SAN JAVIER NDB"},
+{"type":"VOR","hdg_t":52.5,"dist_nm":93.2,"freq":113,"lat":37.77977800,"lon":-0.81277800,"rng_nm":90,"alt_fmsl":11,"id":"VSJ","desc":"MURCIA/SAN JAVIER VOR-DME"},
+{"type":"NDB","hdg_t":197.3,"dist_nm":96.3,"freq":292,"lat":35.30780000,"lon":-2.95551700,"rng_nm":50,"alt_fmsl":381,"id":"MIA","desc":"MELILLA NDB"},
+{"type":"VOR","hdg_t":269.5,"dist_nm":96.3,"freq":112,"lat":36.81431100,"lon":-4.36951900,"rng_nm":130,"alt_fmsl":3396,"id":"MGA","desc":"MALAGA VOR-DME"},
+{"type":"SDME","hdg_t":197.3,"dist_nm":96.3,"freq":117.4,"lat":35.30739400,"lon":-2.95542200,"rng_nm":25,"alt_fmsl":381,"id":"MLL","desc":"MELILLA DME"},
+{"type":"VOR","hdg_t":197.1,"dist_nm":97.9,"freq":114.25,"lat":35.28043600,"lon":-2.95817200,"rng_nm":25,"alt_fmsl":200,"id":"MEL","desc":"MELILLA VOR-DME"},
+{"type":"VOR","hdg_t":322.9,"dist_nm":98.6,"freq":116.2,"lat":38.15251700,"lon":-3.62501100,"rng_nm":130,"alt_fmsl":1788,"id":"BLN","desc":"BAILEN VOR-DME"},
+{"type":"NDB","hdg_t":322.8,"dist_nm":98.7,"freq":418,"lat":38.15151100,"lon":-3.62917200,"rng_nm":30,"alt_fmsl":0,"id":"BAI","desc":"BAILEN NDB"}
+]
+}

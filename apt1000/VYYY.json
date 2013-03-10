@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VYYY","name":"Yangon Intl","lat":16.91084075,"lon":96.1356798,"rwys":1,"ils":1,"index":4528825,"path":"e090n10/e096n16"
+,"runways":[
+{"len_m":3418,"wid_m":60.96,"hdg":33,"surf":"Asphalt","rwy1":"03","lat1":16.89792613,"lon1":96.12688037,"rwy2":"21","lat2":16.92375537,"lon2":96.14447924}
+]
+,"radios":[
+{"type":"ATIS","freq":128.4,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"MINGALADON GND"},
+{"type":"TWR","freq":118.1,"desc":"MINGALADON TWR"},
+{"type":"APP","freq":119.7,"desc":"MINGALADON APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":16.89647200,"lon":96.12594200,"rng_nm":18,"alt_fmsl":65,"hdg":213.02,"id":"IYGN","rwy":"21","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":16.91372200,"lon":96.13907800,"rng_nm":10,"alt_fmsl":65,"id":"IYGN","rwy":"21","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":16.91372200,"lon":96.13907800,"rng_nm":18,"alt_fmsl":50,"id":"IYGN","rwy":"21","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":214.5,"dist_nm":2.6,"freq":397,"lat":16.87463900,"lon":96.10983300,"rng_nm":50,"alt_fmsl":0,"id":"MDS","desc":"MINGALADON NDB"},
+{"type":"NDB","hdg_t":30.7,"dist_nm":11.5,"freq":265,"lat":17.07630600,"lon":96.23816700,"rng_nm":125,"alt_fmsl":41,"id":"YGN","desc":"YANGON NDB"},
+{"type":"VOR","hdg_t":31.8,"dist_nm":12.2,"freq":112.3,"lat":17.08463900,"lon":96.24816700,"rng_nm":180,"alt_fmsl":41,"id":"HGU","desc":"HLEGU VOR-DME"},
+{"type":"VOR","hdg_t":41.7,"dist_nm":32.7,"freq":112.6,"lat":17.31961100,"lon":96.51647200,"rng_nm":180,"alt_fmsl":27,"id":"BGO","desc":"BAGO VOR-DME"},
+{"type":"NDB","hdg_t":265.3,"dist_nm":78.2,"freq":415,"lat":16.80127800,"lon":94.78000000,"rng_nm":50,"alt_fmsl":0,"id":"PTN","desc":"PATHEIN NDB"},
+{"type":"VOR","hdg_t":265.9,"dist_nm":78.4,"freq":115.6,"lat":16.81461100,"lon":94.77666700,"rng_nm":180,"alt_fmsl":20,"id":"PTN","desc":"PATHEIN VOR-DME"},
+{"type":"NDB","hdg_t":90.4,"dist_nm":88.5,"freq":365,"lat":16.89300000,"lon":97.67466700,"rng_nm":50,"alt_fmsl":0,"id":"PA","desc":"HPA AN NDB"},
+{"type":"NDB","hdg_t":107.5,"dist_nm":92,"freq":330,"lat":16.44136100,"lon":97.65802800,"rng_nm":50,"alt_fmsl":0,"id":"MM","desc":"MAWLAMYINE NDB"},
+{"type":"NDB","hdg_t":47.1,"dist_nm":102.1,"freq":280,"lat":18.06791700,"lon":97.44633300,"rng_nm":40,"alt_fmsl":0,"id":"PP","desc":"HPAPUN NDB"},
+{"type":"VOR","hdg_t":6.6,"dist_nm":128.5,"freq":115.1,"lat":19.04783300,"lon":96.39644400,"rng_nm":180,"alt_fmsl":150,"id":"TGO","desc":"TAUNGOO VOR-DME"}
+]
+}

@@ -1,0 +1,38 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYBL","name":"Campbell River","lat":49.9511821666667,"lon":-125.269781166667,"rwys":1,"ils":2,"index":893690,"path":"w130n40/w126n49"
+,"runways":[
+{"len_m":1533,"wid_m":46.02,"hdg":135,"surf":"Asphalt","rwy1":"11","lat1":49.95555600,"lon1":-125.27833900,"rwy2":"29","lat2":49.94578700,"lon2":-125.26326600}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":21,"wid_m":22.86,"hdg":-125,"surf":"Concrete","lat1":49.95080600,"lon1":-125.26793800},
+{"rwy1":"H2","len_m":14,"wid_m":14.94,"hdg":-125,"surf":"Concrete","lat1":49.95206900,"lon1":-125.27060300}
+]
+,"radios":[
+{"type":"ATIS","freq":128.55,"desc":"ATIS"},
+{"type":"CTAF","freq":122,"desc":"CTAF"},
+{"type":"TWR","freq":122,"desc":"MF CAMPBELL RDO"},
+{"type":"APP","freq":123.7,"desc":"COMOX TRML ARR/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.1,"lat":49.94567100,"lon":-125.26271800,"rng_nm":18,"alt_fmsl":309,"hdg":134.75,"id":"IBL","rwy":"11","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.1,"lat":49.94567100,"lon":-125.26271800,"rng_nm":18,"alt_fmsl":309,"hdg":134.38,"id":"IBL","rwy":"29","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.1,"lat":49.95369700,"lon":-125.27817500,"rng_nm":10,"alt_fmsl":344,"id":"IBL","rwy":"11","desc":"GS","gs":3},
+{"type":"GS","freq":109.1,"lat":49.95369700,"lon":-125.27817500,"rng_nm":10,"alt_fmsl":344,"id":"IBL","rwy":"29","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":288.6,"dist_nm":0.2,"freq":109.1,"lat":49.95250000,"lon":-125.27583300,"rng_nm":25,"alt_fmsl":347,"id":"IBL","desc":"CAMPBELL RIVER DME"},
+{"type":"NDB","hdg_t":314.3,"dist_nm":4.7,"freq":203,"lat":50.00644444,"lon":-125.35750000,"rng_nm":50,"alt_fmsl":0,"id":"YBL","desc":"CAMPBELL RIVER NDB"},
+{"type":"NDB","hdg_t":134.2,"dist_nm":16.9,"freq":400,"lat":49.75388889,"lon":-124.95805556,"rng_nm":50,"alt_fmsl":0,"id":"QQ","desc":"COMOX NDB"},
+{"type":"SDME","hdg_t":134.3,"dist_nm":20.4,"freq":110.4,"lat":49.71250000,"lon":-124.89444400,"rng_nm":130,"alt_fmsl":80,"id":"UQQ","desc":"COMOX TACAN"},
+{"type":"NDB","hdg_t":102.6,"dist_nm":30.5,"freq":382,"lat":49.83669444,"lon":-124.50138889,"rng_nm":50,"alt_fmsl":0,"id":"YPW","desc":"POWELL RIVER NDB"},
+{"type":"SDME","hdg_t":102.7,"dist_nm":30.6,"freq":109.3,"lat":49.83555600,"lon":-124.49916700,"rng_nm":25,"alt_fmsl":425,"id":"9S","desc":"POWELL RIVER BC DME"},
+{"type":"NDB","hdg_t":197.5,"dist_nm":56.9,"freq":359,"lat":49.04680556,"lon":-125.70411111,"rng_nm":50,"alt_fmsl":0,"id":"YAZ","desc":"TOFINO NDB"},
+{"type":"NDB","hdg_t":131.6,"dist_nm":73.6,"freq":251,"lat":49.12791667,"lon":-123.87169444,"rng_nm":50,"alt_fmsl":0,"id":"YCD","desc":"NANAIMO NDB"},
+{"type":"SDME","hdg_t":133.9,"dist_nm":76.6,"freq":111.45,"lat":49.05722200,"lon":-123.87166700,"rng_nm":25,"alt_fmsl":83,"id":"1CD","desc":"NANAIMO DME"},
+{"type":"VOR","hdg_t":299.4,"dist_nm":91.8,"freq":112,"lat":50.68425000,"lon":-127.36519444,"rng_nm":130,"alt_fmsl":39,"id":"YZT","desc":"PORT HARDY VOR-DME"},
+{"type":"NDB","hdg_t":118.8,"dist_nm":92.1,"freq":368,"lat":49.19138889,"lon":-123.21972222,"rng_nm":50,"alt_fmsl":0,"id":"ZVR","desc":"SEA ISLAND NDB"},
+{"type":"NDB","hdg_t":299.2,"dist_nm":94.3,"freq":242,"lat":50.69919444,"lon":-127.42700000,"rng_nm":50,"alt_fmsl":0,"id":"ZT","desc":"PORT HARDY NDB"},
+{"type":"VOR","hdg_t":121.5,"dist_nm":98.1,"freq":115.9,"lat":49.07733333,"lon":-123.14908333,"rng_nm":130,"alt_fmsl":17,"id":"YVR","desc":"VANCOUVER VOR-DME"},
+{"type":"NDB","hdg_t":117.5,"dist_nm":98.2,"freq":266,"lat":49.17286111,"lon":-123.05716667,"rng_nm":50,"alt_fmsl":0,"id":"VR","desc":"VANCOUVER NDB"}
+]
+}

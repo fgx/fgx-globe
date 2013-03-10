@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SAOC","name":"Rio Cuarto Area De Material","lat":-33.0923105,"lon":-64.26511375,"rwys":2,"ils":1,"index":1887802,"path":"w070s40/w065s34"
+,"runways":[
+{"len_m":2247,"wid_m":49.99,"hdg":44,"surf":"Asphalt","rwy1":"05","lat1":-33.09915800,"lon1":-64.27752800,"rwy2":"23","lat2":-33.08462800,"lon2":-64.26074400},
+{"len_m":2071,"wid_m":49.99,"hdg":178,"surf":"Asphalt","rwy1":"18","lat1":-33.08339200,"lon1":-64.26140000,"rwy2":"36","lat2":-33.10206400,"lon2":-64.26078300}
+]
+,"radios":[
+{"type":"APP","freq":118.75,"desc":"APP/TWR"},
+{"type":"APP","freq":118.7,"desc":"APP/TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.9,"lat":-33.08222200,"lon":-64.25750000,"rng_nm":18,"alt_fmsl":1380,"hdg":44.73,"id":"RC","rwy":"05","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.9,"lat":-33.09600000,"lon":-64.27500000,"rng_nm":10,"alt_fmsl":1380,"id":"RC","rwy":"05","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":47.2,"dist_nm":0,"freq":114.2,"lat":-33.09222200,"lon":-64.26500000,"rng_nm":178,"alt_fmsl":1378,"id":"TRC","desc":"RIO CUARTO VOR"},
+{"type":"NDB","hdg_t":203.2,"dist_nm":1.2,"freq":305,"lat":-33.11166700,"lon":-64.27500000,"rng_nm":25,"alt_fmsl":1381,"id":"R","desc":"RIO CUARTO NDB"},
+{"type":"NDB","hdg_t":219.4,"dist_nm":4.3,"freq":322,"lat":-33.14833300,"lon":-64.32000000,"rng_nm":25,"alt_fmsl":0,"id":"OR","desc":"RIO CUARTO NDB"},
+{"type":"VOR","hdg_t":312.5,"dist_nm":63.3,"freq":117.5,"lat":-32.37361100,"lon":-65.18333300,"rng_nm":130,"alt_fmsl":2021,"id":"SRC","desc":"SANTA ROSA DE CONLARA VOR-DME"},
+{"type":"VOR","hdg_t":235.4,"dist_nm":67.7,"freq":115.7,"lat":-33.72861100,"lon":-65.38111100,"rng_nm":185,"alt_fmsl":1591,"id":"RYD","desc":"VILLA REYNOLDS VOR-DME"},
+{"type":"NDB","hdg_t":235.7,"dist_nm":67.8,"freq":335,"lat":-33.72444400,"lon":-65.38583300,"rng_nm":259,"alt_fmsl":1591,"id":"RYD","desc":"VILLA REYNOLDS NDB"},
+{"type":"NDB","hdg_t":236,"dist_nm":68.6,"freq":295,"lat":-33.72833300,"lon":-65.40333300,"rng_nm":25,"alt_fmsl":1591,"id":"V","desc":"VILLA REYNOLDS NDB"},
+{"type":"NDB","hdg_t":235.5,"dist_nm":68.8,"freq":237,"lat":-33.73666700,"lon":-65.40000000,"rng_nm":25,"alt_fmsl":0,"id":"W","desc":"VILLA REYNOLDS NDB"},
+{"type":"VOR","hdg_t":144.4,"dist_nm":77.3,"freq":116.3,"lat":-34.14111100,"lon":-63.36250000,"rng_nm":185,"alt_fmsl":449,"id":"LYE","desc":"LABOULAYE VOR"},
+{"type":"NDB","hdg_t":326.6,"dist_nm":81.4,"freq":310,"lat":-31.95277800,"lon":-65.14250000,"rng_nm":173,"alt_fmsl":1915,"id":"LDR","desc":"VILLA DOLORES NDB"},
+{"type":"NDB","hdg_t":359.7,"dist_nm":99,"freq":242,"lat":-31.43833300,"lon":-64.27500000,"rng_nm":25,"alt_fmsl":0,"id":"B","desc":"ESCUELA DE AVIACION MILITAR NDB"}
+]
+}

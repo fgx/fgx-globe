@@ -1,0 +1,36 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UKHH","name":"Osnova Intl","lat":49.9247865,"lon":36.2899875,"rwys":1,"ils":2,"index":3547897,"path":"e030n40/e036n49"
+,"runways":[
+{"len_m":2219,"wid_m":50.29,"hdg":90,"surf":"Asphalt","rwy1":"08","lat1":49.92485600,"lon1":36.27453300,"rwy2":"26","lat2":49.92471700,"lon2":36.30544200}
+]
+,"radios":[
+{"type":"GND","freq":119,"desc":"KHARKIV GND"},
+{"type":"TWR","freq":118.1,"desc":"KHARKIV TWR"},
+{"type":"APP","freq":118.1,"desc":"KHARKIV RADAR"},
+{"type":"APP","freq":123.7,"desc":"KHARKIV RADAR"}
+]
+,"ils":[
+{"type":"ILS","freq":111.1,"lat":49.92500000,"lon":36.31138900,"rng_nm":18,"alt_fmsl":508,"hdg":89.67,"id":"IHR","rwy":"08","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.7,"lat":49.92472200,"lon":36.27250000,"rng_nm":18,"alt_fmsl":508,"hdg":270.00,"id":"IHA","rwy":"26","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.1,"lat":49.92611100,"lon":36.27666700,"rng_nm":10,"alt_fmsl":508,"id":"IHR","rwy":"08","desc":"GS","gs":2.8},
+{"type":"GS","freq":111.7,"lat":49.92638900,"lon":36.30611100,"rng_nm":10,"alt_fmsl":508,"id":"IHA","rwy":"26","desc":"GS","gs":2.8},
+{"type":"OM","freq":0,"lat":49.92456900,"lon":36.22164200,"rng_nm":0,"alt_fmsl":508,"id":"----","rwy":"08","desc":"OM"},
+{"type":"OM","freq":0,"lat":49.92457100,"lon":36.35942200,"rng_nm":0,"alt_fmsl":508,"id":"----","rwy":"26","desc":"OM"},
+{"type":"MM","freq":0,"lat":49.92457000,"lon":36.26303200,"rng_nm":0,"alt_fmsl":508,"id":"----","rwy":"08","desc":"MM"},
+{"type":"MM","freq":0,"lat":49.92429300,"lon":36.31969900,"rng_nm":0,"alt_fmsl":508,"id":"----","rwy":"26","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":303.2,"dist_nm":0.2,"freq":116.5,"lat":49.92679300,"lon":36.28525400,"rng_nm":130,"alt_fmsl":538,"id":"KHR","desc":"KHARKIV VOR-DME"},
+{"type":"NDB","hdg_t":269.2,"dist_nm":1,"freq":678,"lat":49.92457000,"lon":36.26303200,"rng_nm":75,"alt_fmsl":0,"id":"R","desc":"KHARKIV NDB"},
+{"type":"NDB","hdg_t":91.4,"dist_nm":1.1,"freq":678,"lat":49.92429300,"lon":36.31969900,"rng_nm":75,"alt_fmsl":0,"id":"A","desc":"KHARKIV NDB"},
+{"type":"NDB","hdg_t":269.7,"dist_nm":2.6,"freq":330,"lat":49.92456900,"lon":36.22164200,"rng_nm":75,"alt_fmsl":0,"id":"HR","desc":"KHARKIV NDB"},
+{"type":"NDB","hdg_t":90.2,"dist_nm":2.6,"freq":330,"lat":49.92457100,"lon":36.35942200,"rng_nm":75,"alt_fmsl":0,"id":"HA","desc":"KHARKIV NDB"},
+{"type":"NDB","hdg_t":269.3,"dist_nm":28.9,"freq":735,"lat":49.91650400,"lon":35.54330100,"rng_nm":75,"alt_fmsl":0,"id":"KW","desc":"KOVIAHY NDB"},
+{"type":"NDB","hdg_t":185.5,"dist_nm":33.5,"freq":430,"lat":49.36817100,"lon":36.20666100,"rng_nm":75,"alt_fmsl":0,"id":"LI","desc":"LYKHACHEVE NDB"},
+{"type":"NDB","hdg_t":18.5,"dist_nm":44.1,"freq":718,"lat":50.62166700,"lon":36.65833300,"rng_nm":80,"alt_fmsl":0,"id":"BX","desc":"BELGOROD NDB"},
+{"type":"NDB","hdg_t":11.4,"dist_nm":45.3,"freq":718,"lat":50.66500000,"lon":36.52666700,"rng_nm":80,"alt_fmsl":0,"id":"AN","desc":"BELGOROD NDB"},
+{"type":"NDB","hdg_t":225.8,"dist_nm":46,"freq":778,"lat":49.38816000,"lon":35.44665100,"rng_nm":75,"alt_fmsl":0,"id":"GR","desc":"KRASNOHRAD NDB"},
+{"type":"NDB","hdg_t":225.3,"dist_nm":83.2,"freq":643,"lat":48.93981000,"lon":34.79332500,"rng_nm":75,"alt_fmsl":0,"id":"TP","desc":"TOPCHYNE NDB"},
+{"type":"NDB","hdg_t":281.4,"dist_nm":94.6,"freq":672,"lat":50.21315100,"lon":33.88326900,"rng_nm":75,"alt_fmsl":0,"id":"RS","desc":"RASHIVKA NDB"}
+]
+}

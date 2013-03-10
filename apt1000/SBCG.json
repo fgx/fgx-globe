@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SBCG","name":"Campo Grande","lat":-20.4686655,"lon":-54.6725,"rwys":1,"ils":1,"index":2052450,"path":"w060s30/w055s21"
+,"runways":[
+{"len_m":2604,"wid_m":42.98,"hdg":41,"surf":"Asphalt","rwy1":"06","lat1":-20.47754200,"lon1":-54.68068900,"rwy2":"24","lat2":-20.45978900,"lon2":-54.66431100}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":120.2,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-20.45858300,"lon":-54.66270800,"rng_nm":18,"alt_fmsl":1833,"hdg":41.62,"id":"ICG","rwy":"06","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-20.47577200,"lon":-54.67802800,"rng_nm":10,"alt_fmsl":1833,"id":"ICG","rwy":"06","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-20.53066700,"lon":-54.73266700,"rng_nm":0,"alt_fmsl":1833,"id":"----","rwy":"06","desc":"OM"},
+{"type":"MM","freq":0,"lat":-20.48586100,"lon":-54.68932800,"rng_nm":0,"alt_fmsl":1833,"id":"----","rwy":"06","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":94.6,"dist_nm":0.1,"freq":115.7,"lat":-20.46883300,"lon":-54.67033300,"rng_nm":200,"alt_fmsl":1833,"id":"CGR","desc":"CAMPO GRANDE VOR-DME"},
+{"type":"NDB","hdg_t":222.6,"dist_nm":1.3,"freq":395,"lat":-20.48586100,"lon":-54.68932800,"rng_nm":50,"alt_fmsl":0,"id":"IG","desc":"SOJA NDB"},
+{"type":"NDB","hdg_t":33.6,"dist_nm":4.2,"freq":215,"lat":-20.40883300,"lon":-54.63033300,"rng_nm":50,"alt_fmsl":0,"id":"PP","desc":"MARACA NDB"},
+{"type":"NDB","hdg_t":222.4,"dist_nm":5,"freq":270,"lat":-20.53066700,"lon":-54.73266700,"rng_nm":100,"alt_fmsl":0,"id":"CGR","desc":"CAMPO GRANDE NDB"},
+{"type":"NDB","hdg_t":90,"dist_nm":51.9,"freq":245,"lat":-20.46716700,"lon":-53.75050000,"rng_nm":70,"alt_fmsl":0,"id":"RIB","desc":"RIBAS NDB"},
+{"type":"NDB","hdg_t":187.8,"dist_nm":104.3,"freq":285,"lat":-22.19733300,"lon":-54.92833300,"rng_nm":70,"alt_fmsl":1503,"id":"DOU","desc":"DOURA NDB"},
+{"type":"NDB","hdg_t":357.8,"dist_nm":117.5,"freq":205,"lat":-18.50383300,"lon":-54.75050000,"rng_nm":50,"alt_fmsl":0,"id":"CXM","desc":"COXIM NDB"},
+{"type":"NDB","hdg_t":204.7,"dist_nm":137.2,"freq":340,"lat":-22.55016700,"lon":-55.70716700,"rng_nm":50,"alt_fmsl":2156,"id":"PTP","desc":"PONTA PORA NDB"},
+{"type":"NDB","hdg_t":206.3,"dist_nm":145.2,"freq":353,"lat":-22.64194400,"lon":-55.83333300,"rng_nm":25,"alt_fmsl":1873,"id":"PJC","desc":"PEDRO JUAN CABALLERO NDB"},
+{"type":"NDB","hdg_t":220,"dist_nm":169.3,"freq":397,"lat":-22.62583300,"lon":-56.63472200,"rng_nm":100,"alt_fmsl":0,"id":"STA","desc":"SANTA TERESA NDB"}
+]
+}

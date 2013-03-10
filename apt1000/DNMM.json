@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DNMM","name":"Lagos Murtala Muhammed","lat":6.57737975,"lon":3.3213475,"rwys":2,"ils":2,"index":3004450,"path":"e000n00/e003n06"
+,"runways":[
+{"len_m":3899,"wid_m":60.05,"hdg":180,"surf":"Asphalt","rwy1":"18R","lat1":6.58778100,"lon1":3.31355600,"rwy2":"36L","lat2":6.55251900,"lon2":3.31355600},
+{"len_m":2742,"wid_m":45.11,"hdg":180,"surf":"Asphalt","rwy1":"18L","lat1":6.59700800,"lon1":3.32913900,"rwy2":"36R","lat2":6.57221100,"lon2":3.32913900}
+]
+,"radios":[
+{"type":"TWR","freq":120.9,"desc":"LAGOS WEST"},
+{"type":"APP","freq":124.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":6.56955600,"lon":3.32916700,"rng_nm":18,"alt_fmsl":92,"hdg":179.94,"id":"ILA","rwy":"18L","desc":"ILS-cat-II"},
+{"type":"ILS","freq":108.1,"lat":6.54922500,"lon":3.31359400,"rng_nm":18,"alt_fmsl":56,"hdg":179.94,"id":"ILB","rwy":"18R","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.3,"lat":6.59386900,"lon":3.32777800,"rng_nm":10,"alt_fmsl":177,"id":"ILA","rwy":"18L","desc":"GS","gs":3},
+{"type":"GS","freq":108.1,"lat":6.58466100,"lon":3.31207800,"rng_nm":10,"alt_fmsl":105,"id":"ILB","rwy":"18R","desc":"GS","gs":3},
+{"type":"DME","freq":108.1,"lat":6.59386900,"lon":3.32778100,"rng_nm":18,"alt_fmsl":135,"id":"ILA","rwy":"18L","desc":"DME-ILS"},
+{"type":"DME","freq":109.3,"lat":6.58466100,"lon":3.31207800,"rng_nm":18,"alt_fmsl":135,"id":"ILB","rwy":"18R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":12.7,"dist_nm":1.7,"freq":336,"lat":6.60648000,"lon":3.32792800,"rng_nm":25,"alt_fmsl":115,"id":"LA","desc":"LAGOS NDB"},
+{"type":"VOR","hdg_t":192.5,"dist_nm":2.1,"freq":112.9,"lat":6.54277800,"lon":3.31366900,"rng_nm":130,"alt_fmsl":95,"id":"LOS","desc":"LAGOS VOR-DME"},
+{"type":"VOR","hdg_t":2.6,"dist_nm":7.8,"freq":113.7,"lat":6.70846100,"lon":3.32745000,"rng_nm":130,"alt_fmsl":251,"id":"LAG","desc":"LAGOS VOR-DME"},
+{"type":"NDB","hdg_t":257.3,"dist_nm":56.2,"freq":284,"lat":6.37080600,"lon":2.40250000,"rng_nm":50,"alt_fmsl":0,"id":"CO","desc":"COTONOU NDB"},
+{"type":"VOR","hdg_t":256.9,"dist_nm":56.9,"freq":113.3,"lat":6.36213900,"lon":2.39325000,"rng_nm":130,"alt_fmsl":39,"id":"TYE","desc":"COTONOU VOR-DME"},
+{"type":"VOR","hdg_t":39.8,"dist_nm":59.9,"freq":112.1,"lat":7.34743600,"lon":3.96571700,"rng_nm":130,"alt_fmsl":748,"id":"IBA","desc":"IBADAN VOR-DME"},
+{"type":"NDB","hdg_t":34.7,"dist_nm":62.2,"freq":400,"lat":7.43373300,"lon":3.91588300,"rng_nm":25,"alt_fmsl":0,"id":"IB","desc":"IBADAN NDB"},
+{"type":"NDB","hdg_t":39.8,"dist_nm":62.3,"freq":310,"lat":7.37801700,"lon":3.99149400,"rng_nm":25,"alt_fmsl":0,"id":"IN","desc":"IBADAN NDB"},
+{"type":"NDB","hdg_t":92.8,"dist_nm":90.3,"freq":345,"lat":6.50048900,"lon":4.83256700,"rng_nm":25,"alt_fmsl":0,"id":"OK","desc":"OKITIPUPA NDB"},
+{"type":"NDB","hdg_t":71.6,"dist_nm":123.8,"freq":276,"lat":7.22672200,"lon":5.29322200,"rng_nm":50,"alt_fmsl":0,"id":"AK","desc":"AKURE NDB"}
+]
+}

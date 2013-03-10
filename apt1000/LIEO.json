@@ -1,0 +1,44 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LIEO","name":"Olbia Costa Smeralda","lat":40.898661,"lon":9.517629,"rwys":1,"ils":2,"index":3104954,"path":"e000n40/e009n40"
+,"runways":[
+{"len_m":2445,"wid_m":45.11,"hdg":55,"surf":"Asphalt","rwy1":"06","lat1":40.89241100,"lon1":9.50568600,"rwy2":"24","lat2":40.90491100,"lon2":9.52957200}
+]
+,"radios":[
+{"type":"TWR","freq":125.95,"desc":"TWR"},
+{"type":"TWR","freq":122.1,"desc":"TWR"},
+{"type":"APP","freq":118.97,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":40.90590800,"lon":9.53147500,"rng_nm":18,"alt_fmsl":36,"hdg":55.31,"id":"ISM","rwy":"06","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.3,"lat":40.89155000,"lon":9.50403000,"rng_nm":20,"alt_fmsl":36,"hdg":235.31,"id":"IOL","rwy":"24","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":40.89605000,"lon":9.50992500,"rng_nm":10,"alt_fmsl":36,"id":"ISM","rwy":"06","desc":"GS","gs":3.5},
+{"type":"GS","freq":111.3,"lat":40.90182000,"lon":9.52625000,"rng_nm":10,"alt_fmsl":36,"id":"IOL","rwy":"24","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":40.88966100,"lon":9.50039700,"rng_nm":0,"alt_fmsl":36,"id":"----","rwy":"06","desc":"MM"},
+{"type":"DME","freq":109.9,"lat":40.89605000,"lon":9.50992500,"rng_nm":18,"alt_fmsl":36,"id":"ISM","rwy":"06","desc":"DME-ILS"},
+{"type":"DME","freq":111.3,"lat":40.90182000,"lon":9.52625000,"rng_nm":25,"alt_fmsl":36,"id":"IOL","rwy":"24","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":246.4,"dist_nm":0.7,"freq":357,"lat":40.89358400,"lon":9.50230500,"rng_nm":50,"alt_fmsl":37,"id":"SME","desc":"SMERALDA NDB"},
+{"type":"VOR","hdg_t":235,"dist_nm":0.9,"freq":113.9,"lat":40.88992600,"lon":9.50114600,"rng_nm":40,"alt_fmsl":56,"id":"SME","desc":"SMERALDA VOR-DME"},
+{"type":"VOR","hdg_t":331.6,"dist_nm":41.1,"freq":116.7,"lat":41.50219400,"lon":9.08341700,"rng_nm":40,"alt_fmsl":87,"id":"FGI","desc":"FIGARI VOR-DME"},
+{"type":"NDB","hdg_t":344.2,"dist_nm":43.8,"freq":325,"lat":41.60138888,"lon":9.25333333,"rng_nm":25,"alt_fmsl":50,"id":"FA","desc":"Figari Sud Corse NDB"},
+{"type":"NDB","hdg_t":320.7,"dist_nm":51.1,"freq":394,"lat":41.55777800,"lon":8.79888900,"rng_nm":15,"alt_fmsl":0,"id":"SNE","desc":"SENETOSE NDB"},
+{"type":"NDB","hdg_t":257.8,"dist_nm":55.3,"freq":337,"lat":40.69833400,"lon":8.33138800,"rng_nm":150,"alt_fmsl":0,"id":"AH","desc":"ALGHERO NDB"},
+{"type":"NDB","hdg_t":254.8,"dist_nm":57.9,"freq":382,"lat":40.64000000,"lon":8.29166700,"rng_nm":50,"alt_fmsl":79,"id":"ALG","desc":"ALGHERO NDB"},
+{"type":"VOR","hdg_t":254.7,"dist_nm":58,"freq":111.65,"lat":40.63816000,"lon":8.29177500,"rng_nm":40,"alt_fmsl":101,"id":"AEA","desc":"ALGHERO VOR-DME"},
+{"type":"NDB","hdg_t":172.7,"dist_nm":59,"freq":289,"lat":39.92144400,"lon":9.67866700,"rng_nm":25,"alt_fmsl":17,"id":"ARB","desc":"ARBATAX NDB"},
+{"type":"VOR","hdg_t":254.8,"dist_nm":60.2,"freq":113.8,"lat":40.62805600,"lon":8.24388900,"rng_nm":150,"alt_fmsl":1447,"id":"ALG","desc":"ALGHERO VORTAC"},
+{"type":"VOR","hdg_t":327.5,"dist_nm":62.1,"freq":114.8,"lat":41.77052800,"lon":8.77466700,"rng_nm":200,"alt_fmsl":2142,"id":"AJO","desc":"AJACCIO VOR-DME"},
+{"type":"NDB","hdg_t":354.9,"dist_nm":62.2,"freq":349,"lat":41.93333300,"lon":9.39400000,"rng_nm":50,"alt_fmsl":28,"id":"SZA","desc":"SOLENZARA NDB"},
+{"type":"SDME","hdg_t":355.8,"dist_nm":62.4,"freq":114,"lat":41.93747200,"lon":9.41622200,"rng_nm":25,"alt_fmsl":28,"id":"SZA","desc":"SOLENZARA TACAN"},
+{"type":"NDB","hdg_t":326.5,"dist_nm":64.6,"freq":387,"lat":41.79527777,"lon":8.72416666,"rng_nm":25,"alt_fmsl":295,"id":"CT","desc":"Ajaccio Campo dell Oro NDB"},
+{"type":"NDB","hdg_t":332.2,"dist_nm":69,"freq":365,"lat":41.91527777,"lon":8.80111111,"rng_nm":25,"alt_fmsl":13,"id":"RB","desc":"Ajaccio Campo dell Oro NDB"},
+{"type":"NDB","hdg_t":333.6,"dist_nm":70.4,"freq":365,"lat":41.94916500,"lon":8.81833400,"rng_nm":75,"alt_fmsl":0,"id":"RO","desc":"AJACCIO NDB"},
+{"type":"NDB","hdg_t":213.9,"dist_nm":72.1,"freq":362,"lat":39.89666700,"lon":8.64527800,"rng_nm":25,"alt_fmsl":0,"id":"ORF","desc":"ORISTANO NDB"},
+{"type":"NDB","hdg_t":326,"dist_nm":72.5,"freq":341,"lat":41.89880600,"lon":8.61208300,"rng_nm":50,"alt_fmsl":0,"id":"IS","desc":"AJACCIO/CAMPO DELL ORO NDB"},
+{"type":"SDME","hdg_t":182.6,"dist_nm":73.7,"freq":109,"lat":39.66916700,"lon":9.44333300,"rng_nm":40,"alt_fmsl":1951,"id":"PED","desc":"PERDASDEFOGU TACAN"},
+{"type":"NDB","hdg_t":0.5,"dist_nm":91.5,"freq":369,"lat":42.42583333,"lon":9.53750000,"rng_nm":25,"alt_fmsl":33,"id":"BP","desc":"Bastia Poretta NDB"},
+{"type":"SDME","hdg_t":195.7,"dist_nm":94.4,"freq":108.2,"lat":39.38111100,"lon":8.96555600,"rng_nm":25,"alt_fmsl":198,"id":"DEC","desc":"DECIMOMANNU TACAN"},
+{"type":"NDB","hdg_t":195.3,"dist_nm":95.3,"freq":331,"lat":39.36361100,"lon":8.97416700,"rng_nm":50,"alt_fmsl":295,"id":"DEC","desc":"DECIMOMANNU NDB"}
+]
+}

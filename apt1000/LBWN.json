@@ -1,0 +1,43 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LBWN","name":"Varna","lat":43.2320415,"lon":27.825236,"rwys":1,"ils":1,"index":3400011,"path":"e020n40/e027n43"
+,"runways":[
+{"len_m":2521,"wid_m":54.86,"hdg":97,"surf":"Concrete","rwy1":"09","lat1":43.23344400,"lon1":27.80983300,"rwy2":"27","lat2":43.23063900,"lon2":27.84063900}
+]
+,"radios":[
+{"type":"ATIS","freq":118.07,"desc":"ATIS"},
+{"type":"TWR","freq":118.9,"desc":"TWR"},
+{"type":"TWR","freq":119.5,"desc":"TWR"},
+{"type":"APP","freq":121,"desc":"APP"},
+{"type":"APP","freq":124.6,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":43.23034400,"lon":27.84326400,"rng_nm":18,"alt_fmsl":230,"hdg":97.27,"id":"IWN","rwy":"09","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":43.23410800,"lon":27.81320000,"rng_nm":10,"alt_fmsl":230,"id":"IWN","rwy":"09","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":43.24123600,"lon":27.74229400,"rng_nm":0,"alt_fmsl":230,"id":"----","rwy":"09","desc":"OM"},
+{"type":"MM","freq":0,"lat":43.23453900,"lon":27.79651900,"rng_nm":0,"alt_fmsl":230,"id":"----","rwy":"09","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":263.6,"dist_nm":0.3,"freq":112.4,"lat":43.23138900,"lon":27.81722200,"rng_nm":130,"alt_fmsl":197,"id":"WRN","desc":"VARNA VOR-DME"},
+{"type":"NDB","hdg_t":276.7,"dist_nm":1.2,"freq":335,"lat":43.23453900,"lon":27.79651900,"rng_nm":25,"alt_fmsl":0,"id":"W","desc":"VARNA NDB"},
+{"type":"NDB","hdg_t":96.8,"dist_nm":1.3,"freq":375,"lat":43.22926400,"lon":27.85663100,"rng_nm":25,"alt_fmsl":0,"id":"R","desc":"VARNA NDB"},
+{"type":"NDB","hdg_t":278.6,"dist_nm":3.6,"freq":397,"lat":43.24123600,"lon":27.74229400,"rng_nm":25,"alt_fmsl":0,"id":"WN","desc":"VARNA NDB"},
+{"type":"NDB","hdg_t":97.4,"dist_nm":3.6,"freq":526,"lat":43.22420800,"lon":27.90680600,"rng_nm":25,"alt_fmsl":0,"id":"WR","desc":"VARNA NDB"},
+{"type":"NDB","hdg_t":278.2,"dist_nm":7.5,"freq":350,"lat":43.25000000,"lon":27.65416700,"rng_nm":75,"alt_fmsl":0,"id":"DWN","desc":"DEVNYA NDB"},
+{"type":"NDB","hdg_t":196,"dist_nm":37.7,"freq":356,"lat":42.62694400,"lon":27.58944400,"rng_nm":75,"alt_fmsl":0,"id":"BGS","desc":"BURGAS NDB"},
+{"type":"NDB","hdg_t":198.2,"dist_nm":40.7,"freq":465,"lat":42.58715300,"lon":27.53777800,"rng_nm":25,"alt_fmsl":0,"id":"U","desc":"BURGAS NDB"},
+{"type":"VOR","hdg_t":198.8,"dist_nm":41.8,"freq":112,"lat":42.57105600,"lon":27.51986100,"rng_nm":130,"alt_fmsl":197,"id":"BGS","desc":"BURGAS VOR-DME"},
+{"type":"NDB","hdg_t":199.8,"dist_nm":43.2,"freq":335,"lat":42.55353900,"lon":27.49328300,"rng_nm":25,"alt_fmsl":0,"id":"B","desc":"BURGAS NDB"},
+{"type":"NDB","hdg_t":201.4,"dist_nm":45.9,"freq":321,"lat":42.51888900,"lon":27.44611100,"rng_nm":25,"alt_fmsl":135,"id":"BU","desc":"BURGAS NDB"},
+{"type":"NDB","hdg_t":23.9,"dist_nm":69.2,"freq":325,"lat":44.28538300,"lon":28.47793100,"rng_nm":50,"alt_fmsl":233,"id":"UU","desc":"CONSTANTA NDB"},
+{"type":"VOR","hdg_t":23.8,"dist_nm":69.7,"freq":112.7,"lat":44.29445800,"lon":28.47952500,"rng_nm":150,"alt_fmsl":269,"id":"CND","desc":"CONSTANTA VOR-DME"},
+{"type":"NDB","hdg_t":21.8,"dist_nm":77.9,"freq":378,"lat":44.43628300,"lon":28.49865800,"rng_nm":75,"alt_fmsl":0,"id":"ZZ","desc":"CONSTANTA NDB"},
+{"type":"NDB","hdg_t":287.9,"dist_nm":84.3,"freq":415,"lat":43.65000000,"lon":25.98333300,"rng_nm":75,"alt_fmsl":0,"id":"RUS","desc":"RUSE NDB"},
+{"type":"NDB","hdg_t":355.1,"dist_nm":85.7,"freq":304,"lat":44.65570300,"lon":27.65471100,"rng_nm":100,"alt_fmsl":62,"id":"TND","desc":"TANDAREI NDB"},
+{"type":"NDB","hdg_t":267.1,"dist_nm":88.4,"freq":305,"lat":43.14111100,"lon":25.81305600,"rng_nm":25,"alt_fmsl":0,"id":"GO","desc":"GORNA NDB"},
+{"type":"NDB","hdg_t":267.5,"dist_nm":91.6,"freq":526,"lat":43.14774000,"lon":25.74076800,"rng_nm":25,"alt_fmsl":0,"id":"O","desc":"GORNA NDB"},
+{"type":"VOR","hdg_t":267.8,"dist_nm":92.9,"freq":113.6,"lat":43.15388900,"lon":25.71083300,"rng_nm":130,"alt_fmsl":295,"id":"GRN","desc":"GORNA ORYAHOVITSA VOR-DME"},
+{"type":"NDB","hdg_t":267.8,"dist_nm":94,"freq":335,"lat":43.15444400,"lon":25.68583300,"rng_nm":25,"alt_fmsl":0,"id":"G","desc":"GORNA NDB"},
+{"type":"NDB","hdg_t":268.2,"dist_nm":97.1,"freq":284,"lat":43.16166700,"lon":25.61277800,"rng_nm":75,"alt_fmsl":0,"id":"GRN","desc":"GORNA NDB"},
+{"type":"VOR","hdg_t":326.4,"dist_nm":98.3,"freq":117.1,"lat":44.59156500,"lon":26.55954200,"rng_nm":80,"alt_fmsl":250,"id":"OPT","desc":"ROSIORI VOR-DME"}
+]
+}

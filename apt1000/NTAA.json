@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"NTAA","name":"Faaa","lat":-17.555206865,"lon":-149.610309755,"rwys":1,"ils":1,"index":496155,"path":"w150s20/w150s18"
+,"runways":[
+{"len_m":3448,"wid_m":45.11,"hdg":54,"surf":"Asphalt","rwy1":"04","lat1":-17.56287817,"lon1":-149.62042540,"rwy2":"22","lat2":-17.54465267,"lon2":-149.59408475}
+]
+,"helipads":[
+{"rwy1":"H1","len_m":24,"wid_m":24.99,"hdg":-149,"surf":"Asphalt","lat1":-17.55664831,"lon1":-149.61336443}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"Tahiti Ground"},
+{"type":"TWR","freq":118.1,"desc":"Tahiti Tower"},
+{"type":"APP","freq":121.3,"desc":"Tahiti Approach"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":-17.54428900,"lon":-149.59353600,"rng_nm":18,"alt_fmsl":20,"hdg":54.05,"id":"PT","rwy":"04","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":-17.56035000,"lon":-149.61487500,"rng_nm":10,"alt_fmsl":59,"id":"PT","rwy":"04","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":-17.56035000,"lon":-149.61487500,"rng_nm":18,"alt_fmsl":59,"id":"PT","rwy":"04","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":303.8,"dist_nm":0.2,"freq":305,"lat":-17.55297200,"lon":-149.61377800,"rng_nm":150,"alt_fmsl":10,"id":"FA","desc":"TAHITI FAAA NDB"},
+{"type":"VOR","hdg_t":46.2,"dist_nm":0.6,"freq":112.9,"lat":-17.54711111,"lon":-149.60150000,"rng_nm":130,"alt_fmsl":48,"id":"TAF","desc":"TAHITI FAAA VOR-DME"},
+{"type":"NDB","hdg_t":295.9,"dist_nm":10.4,"freq":377,"lat":-17.47833300,"lon":-149.77444400,"rng_nm":100,"alt_fmsl":10,"id":"MO","desc":"MOOREA NDB"},
+{"type":"VOR","hdg_t":302.6,"dist_nm":95.7,"freq":112.7,"lat":-16.68544400,"lon":-151.01050000,"rng_nm":130,"alt_fmsl":39,"id":"HHN","desc":"HUAHINE VOR-DME"},
+{"type":"NDB","hdg_t":302.1,"dist_nm":96.5,"freq":345,"lat":-16.69111100,"lon":-151.02972200,"rng_nm":100,"alt_fmsl":43,"id":"HH","desc":"HUAHINE NDB"},
+{"type":"NDB","hdg_t":294.7,"dist_nm":117.7,"freq":372,"lat":-16.72141700,"lon":-151.46655600,"rng_nm":100,"alt_fmsl":73,"id":"RU","desc":"RAIATEA NDB"},
+{"type":"NDB","hdg_t":297.9,"dist_nm":140,"freq":384,"lat":-16.44363900,"lon":-151.75450000,"rng_nm":100,"alt_fmsl":58,"id":"BB","desc":"BORA BORA NDB"},
+{"type":"NDB","hdg_t":293.6,"dist_nm":165.6,"freq":316,"lat":-16.42777800,"lon":-152.24250000,"rng_nm":100,"alt_fmsl":46,"id":"MA","desc":"MAUPITI NDB"},
+{"type":"SDME","hdg_t":35.9,"dist_nm":191.6,"freq":115.3,"lat":-14.95041700,"lon":-147.67358300,"rng_nm":200,"alt_fmsl":40,"id":"RD","desc":"RANGIROA DME"},
+{"type":"VOR","hdg_t":35.9,"dist_nm":191.6,"freq":112.3,"lat":-14.95041667,"lon":-147.67358333,"rng_nm":130,"alt_fmsl":40,"id":"RAN","desc":"RANGIROA VOR-DME"}
+]
+}

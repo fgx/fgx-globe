@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"GCRR","name":"Lanzarote","lat":28.945466,"lon":-13.6052235,"rwys":1,"ils":1,"index":2727353,"path":"w020n20/w014n28"
+,"runways":[
+{"len_m":2400,"wid_m":45.11,"hdg":27,"surf":"Asphalt","rwy1":"03","lat1":28.93582100,"lon1":-13.61081600,"rwy2":"21","lat2":28.95511100,"lon2":-13.59963100}
+]
+,"radios":[
+{"type":"ATIS","freq":118.62,"desc":"ATIS"},
+{"type":"GND","freq":121.8,"desc":"GND"},
+{"type":"TWR","freq":124,"desc":"TWR"},
+{"type":"TWR","freq":120.7,"desc":"TWR"},
+{"type":"APP","freq":129.3,"desc":"CANARIAS APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.1,"lat":28.95651400,"lon":-13.59881700,"rng_nm":18,"alt_fmsl":47,"hdg":26.90,"id":"IRR","rwy":"03","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.1,"lat":28.93855300,"lon":-13.61015000,"rng_nm":10,"alt_fmsl":0,"id":"IRR","rwy":"03","desc":"GS","gs":3},
+{"type":"DME","freq":109.1,"lat":28.93871400,"lon":-13.61051900,"rng_nm":18,"alt_fmsl":36,"id":"IRR","rwy":"03","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":248,"dist_nm":0.1,"freq":114.7,"lat":28.94483100,"lon":-13.60701400,"rng_nm":25,"alt_fmsl":26,"id":"TLZ","desc":"LANZAROTE TACAN"},
+{"type":"VOR","hdg_t":250,"dist_nm":0.6,"freq":114.4,"lat":28.94187800,"lon":-13.61643300,"rng_nm":40,"alt_fmsl":121,"id":"LTE","desc":"LANZAROTE VOR-DME"},
+{"type":"DME","hdg_t":250.6,"dist_nm":0.6,"freq":113.7,"lat":28.94197500,"lon":-13.61653900,"rng_nm":40,"alt_fmsl":121,"id":"LTE","desc":"LANZAROTE VOR-DME"},
+{"type":"NDB","hdg_t":329,"dist_nm":0.6,"freq":310,"lat":28.95536700,"lon":-13.61197500,"rng_nm":50,"alt_fmsl":0,"id":"LZ","desc":"LANZAROTE NDB"},
+{"type":"VOR","hdg_t":20.6,"dist_nm":14.1,"freq":115.2,"lat":29.16600300,"lon":-13.51072500,"rng_nm":130,"alt_fmsl":1768,"id":"LZR","desc":"LANZAROTE VOR-DME"},
+{"type":"VOR","hdg_t":204,"dist_nm":33.7,"freq":114.1,"lat":28.43077800,"lon":-13.86450000,"rng_nm":130,"alt_fmsl":46,"id":"FTV","desc":"FUERTEVENTURA VOR-DME"},
+{"type":"VOR","hdg_t":242.1,"dist_nm":109.5,"freq":112.9,"lat":28.07708100,"lon":-15.42898600,"rng_nm":45,"alt_fmsl":758,"id":"GDV","desc":"GRAN CANARIA VOR-DME"},
+{"type":"VOR","hdg_t":169.1,"dist_nm":109.8,"freq":112.1,"lat":27.14285000,"lon":-13.21795300,"rng_nm":200,"alt_fmsl":223,"id":"LAY","desc":"LAAYOUNE VOR-DME"},
+{"type":"SDME","hdg_t":237.4,"dist_nm":112.4,"freq":115.6,"lat":27.92341700,"lon":-15.38950000,"rng_nm":90,"alt_fmsl":78,"id":"TGN","desc":"GRAN CANARIA TACAN"},
+{"type":"NDB","hdg_t":236.2,"dist_nm":116,"freq":365,"lat":27.85681100,"lon":-15.41988300,"rng_nm":50,"alt_fmsl":0,"id":"VR","desc":"GRAN CANARIA NDB"}
+]
+}

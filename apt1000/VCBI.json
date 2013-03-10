@@ -1,0 +1,36 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VCBI","name":"Bandaranaike Intl Colombo","lat":7.180754,"lon":79.884118,"rwys":1,"ils":2,"index":4249679,"path":"e070n00/e079n07"
+,"runways":[
+{"len_m":3347,"wid_m":45.11,"hdg":37,"surf":"Asphalt","rwy1":"04","lat1":7.16873600,"lon1":79.87490800,"rwy2":"22","lat2":7.19277200,"lon2":79.89332800}
+]
+,"radios":[
+{"type":"ATIS","freq":127.2,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"COLOMBO GND"},
+{"type":"TWR","freq":118.7,"desc":"COLOMBO TWR"},
+{"type":"TWR","freq":123.8,"desc":"COLOMBO TWR"},
+{"type":"APP","freq":120.9,"desc":"COLOMBO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":7.19504400,"lon":79.89438900,"rng_nm":18,"alt_fmsl":27,"hdg":36.31,"id":"IKW","rwy":"04","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":7.16711700,"lon":79.87300300,"rng_nm":18,"alt_fmsl":25,"hdg":218.17,"id":"IKA","rwy":"22","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":7.17162800,"lon":79.87522500,"rng_nm":10,"alt_fmsl":24,"id":"IKW","rwy":"04","desc":"GS","gs":3},
+{"type":"GS","freq":110.3,"lat":7.19163100,"lon":79.89030800,"rng_nm":10,"alt_fmsl":24,"id":"IKA","rwy":"22","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":7.26858600,"lon":79.95091700,"rng_nm":0,"alt_fmsl":25,"id":"----","rwy":"22","desc":"OM"},
+{"type":"MM","freq":0,"lat":7.16105000,"lon":79.86836400,"rng_nm":0,"alt_fmsl":27,"id":"----","rwy":"04","desc":"MM"},
+{"type":"MM","freq":0,"lat":7.20292800,"lon":79.90088600,"rng_nm":0,"alt_fmsl":25,"id":"----","rwy":"22","desc":"MM"},
+{"type":"DME","freq":109.9,"lat":7.17162800,"lon":79.87522500,"rng_nm":18,"alt_fmsl":39,"id":"IKW","rwy":"04","desc":"DME-ILS"},
+{"type":"DME","freq":110.3,"lat":7.19163100,"lon":79.89030800,"rng_nm":18,"alt_fmsl":24,"id":"IKA","rwy":"22","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":218.6,"dist_nm":1.4,"freq":112.7,"lat":7.16127200,"lon":79.86850000,"rng_nm":130,"alt_fmsl":29,"id":"KAT","desc":"BANDARANAIKE VOR-DME"},
+{"type":"NDB","hdg_t":37.2,"dist_nm":6.5,"freq":315,"lat":7.26858600,"lon":79.95091700,"rng_nm":25,"alt_fmsl":0,"id":"CNL","desc":"BANDARANAIKE NDB"},
+{"type":"NDB","hdg_t":179.7,"dist_nm":20.7,"freq":350,"lat":6.83368200,"lon":79.88544800,"rng_nm":50,"alt_fmsl":0,"id":"RM","desc":"COLOMBO/RATMALANA NDB"},
+{"type":"NDB","hdg_t":25.8,"dist_nm":74.5,"freq":415,"lat":8.30361100,"lon":80.42972200,"rng_nm":50,"alt_fmsl":0,"id":"AN","desc":"ANURADHAPURA NDB"},
+{"type":"NDB","hdg_t":159.6,"dist_nm":75.5,"freq":395,"lat":5.99500000,"lon":80.32333300,"rng_nm":50,"alt_fmsl":0,"id":"KG","desc":"KOGGALA NDB"},
+{"type":"NDB","hdg_t":51.5,"dist_nm":83.6,"freq":290,"lat":8.05026400,"lon":80.98532200,"rng_nm":50,"alt_fmsl":0,"id":"MIN","desc":"MINNERIYA NDB"},
+{"type":"NDB","hdg_t":21,"dist_nm":99.7,"freq":400,"lat":8.73972200,"lon":80.48805600,"rng_nm":50,"alt_fmsl":0,"id":"VNA","desc":"VAVUNIYA NDB"},
+{"type":"NDB","hdg_t":73.6,"dist_nm":111.5,"freq":320,"lat":7.70361700,"lon":81.68023600,"rng_nm":50,"alt_fmsl":0,"id":"BAT","desc":"BATTICALOA NDB"},
+{"type":"NDB","hdg_t":43.7,"dist_nm":111.9,"freq":280,"lat":8.53356500,"lon":81.18530000,"rng_nm":50,"alt_fmsl":0,"id":"CHB","desc":"CHINA BAY NDB"},
+{"type":"NDB","hdg_t":309.9,"dist_nm":144,"freq":376,"lat":8.72561100,"lon":78.02569400,"rng_nm":50,"alt_fmsl":0,"id":"TU","desc":"TUTICORIN NDB"}
+]
+}

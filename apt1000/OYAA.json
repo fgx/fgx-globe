@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OYAA","name":"Aden Intl","lat":12.829542,"lon":45.028793,"rwys":1,"ils":1,"index":3692976,"path":"e040n10/e045n12"
+,"runways":[
+{"len_m":3126,"wid_m":45.11,"hdg":77,"surf":"Asphalt","rwy1":"08","lat1":12.82641700,"lon1":45.01475000,"rwy2":"26","lat2":12.83266700,"lon2":45.04283600}
+]
+,"radios":[
+{"type":"ATIS","freq":122.6,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.7,"desc":"TWR"},
+{"type":"APP","freq":119.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":12.83322200,"lon":45.04597200,"rng_nm":18,"alt_fmsl":12,"hdg":77.40,"id":"KRL","rwy":"08","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":12.82780600,"lon":45.01769400,"rng_nm":10,"alt_fmsl":12,"id":"KRL","rwy":"08","desc":"GS","gs":3},
+{"type":"DME","freq":109.5,"lat":12.82780600,"lon":45.01769400,"rng_nm":18,"alt_fmsl":12,"id":"KRL","rwy":"08","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":287.6,"dist_nm":0.3,"freq":112.5,"lat":12.83119200,"lon":45.02350600,"rng_nm":130,"alt_fmsl":12,"id":"KRA","desc":"ADEN VOR-DME"},
+{"type":"NDB","hdg_t":330.7,"dist_nm":2.7,"freq":361,"lat":12.87027800,"lon":45.00555600,"rng_nm":200,"alt_fmsl":0,"id":"AD","desc":"ADEN NDB"},
+{"type":"NDB","hdg_t":314.6,"dist_nm":73.1,"freq":385,"lat":13.68888900,"lon":44.13750000,"rng_nm":75,"alt_fmsl":4600,"id":"TZ","desc":"TAIZ NDB"},
+{"type":"VOR","hdg_t":314.9,"dist_nm":73.4,"freq":113.6,"lat":13.69708300,"lon":44.13833300,"rng_nm":130,"alt_fmsl":4600,"id":"TAZ","desc":"TAIZ VOR-DME"},
+{"type":"NDB","hdg_t":235,"dist_nm":132.9,"freq":386,"lat":11.54705300,"lon":43.17969400,"rng_nm":50,"alt_fmsl":0,"id":"DJ","desc":"DJIBOUTI/AMBOULI NDB"},
+{"type":"SDME","hdg_t":235.4,"dist_nm":134,"freq":114.6,"lat":11.54921100,"lon":43.15483600,"rng_nm":130,"alt_fmsl":49,"id":"ABI","desc":"DJIBOUTI/AMBOULI TACAN"},
+{"type":"VOR","hdg_t":236.2,"dist_nm":137,"freq":113.9,"lat":11.54851700,"lon":43.09353300,"rng_nm":130,"alt_fmsl":49,"id":"DTI","desc":"DJIBOUTI/AMBOULI VOR-DME"},
+{"type":"NDB","hdg_t":276,"dist_nm":140.2,"freq":345,"lat":13.06666700,"lon":42.64666700,"rng_nm":50,"alt_fmsl":46,"id":"SB","desc":"ASSAB NDB"},
+{"type":"NDB","hdg_t":6.2,"dist_nm":158.6,"freq":271,"lat":15.46833300,"lon":45.32833300,"rng_nm":75,"alt_fmsl":0,"id":"MRB","desc":"MARIB NDB"},
+{"type":"NDB","hdg_t":342.9,"dist_nm":160.2,"freq":395,"lat":15.39266700,"lon":44.21866700,"rng_nm":75,"alt_fmsl":7238,"id":"SAH","desc":"SANAA NDB"}
+]
+}

@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UAKK","name":"Karaganda","lat":49.6708205,"lon":73.3345445,"rwys":1,"ils":2,"index":4154089,"path":"e070n40/e073n49"
+,"runways":[
+{"len_m":3301,"wid_m":60.05,"hdg":58,"surf":"Concrete","rwy1":"05","lat1":49.66304400,"lon1":73.31506700,"rwy2":"23","lat2":49.67859700,"lon2":73.35402200}
+]
+,"radios":[
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"APP","freq":122,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":49.68388300,"lon":73.36727200,"rng_nm":18,"alt_fmsl":1765,"hdg":58.35,"id":"IRG","rwy":"05","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.7,"lat":49.65988100,"lon":73.30715800,"rng_nm":18,"alt_fmsl":1765,"hdg":238.31,"id":"IKA","rwy":"23","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":49.66329200,"lon":73.32044200,"rng_nm":10,"alt_fmsl":1765,"id":"IRG","rwy":"05","desc":"GS","gs":2.4},
+{"type":"GS","freq":111.7,"lat":49.67583100,"lon":73.35119200,"rng_nm":10,"alt_fmsl":1765,"id":"IKA","rwy":"23","desc":"GS","gs":2.4},
+{"type":"OM","freq":0,"lat":49.64446700,"lon":73.26881700,"rng_nm":0,"alt_fmsl":1765,"id":"----","rwy":"05","desc":"OM"},
+{"type":"OM","freq":0,"lat":49.69836900,"lon":73.40365600,"rng_nm":0,"alt_fmsl":1765,"id":"----","rwy":"23","desc":"OM"},
+{"type":"MM","freq":0,"lat":49.65792200,"lon":73.30226700,"rng_nm":0,"alt_fmsl":1765,"id":"----","rwy":"05","desc":"MM"},
+{"type":"MM","freq":0,"lat":49.68417800,"lon":73.36802200,"rng_nm":0,"alt_fmsl":1765,"id":"----","rwy":"23","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":50.6,"dist_nm":1.4,"freq":113.4,"lat":49.68611100,"lon":73.36333300,"rng_nm":50,"alt_fmsl":1748,"id":"KRG","desc":"KARAGANDA VOR-DME"},
+{"type":"NDB","hdg_t":238.3,"dist_nm":1.4,"freq":618,"lat":49.65792200,"lon":73.30226700,"rng_nm":50,"alt_fmsl":0,"id":"R","desc":"KARAGANDA NDB"},
+{"type":"NDB","hdg_t":58.4,"dist_nm":1.5,"freq":618,"lat":49.68417800,"lon":73.36802200,"rng_nm":50,"alt_fmsl":0,"id":"K","desc":"KARAGANDA NDB"},
+{"type":"NDB","hdg_t":238.3,"dist_nm":3,"freq":299,"lat":49.64446700,"lon":73.26881700,"rng_nm":50,"alt_fmsl":1765,"id":"RG","desc":"KARAGANDA NDB"},
+{"type":"NDB","hdg_t":58.4,"dist_nm":3.1,"freq":299,"lat":49.69836900,"lon":73.40365600,"rng_nm":50,"alt_fmsl":1765,"id":"KA","desc":"KARAGANDA NDB"},
+{"type":"NDB","hdg_t":317.5,"dist_nm":108.2,"freq":318,"lat":50.98416700,"lon":71.40777800,"rng_nm":50,"alt_fmsl":0,"id":"MO","desc":"ASTANA NDB"},
+{"type":"VOR","hdg_t":318.2,"dist_nm":108.2,"freq":114.2,"lat":51.00111100,"lon":71.43416700,"rng_nm":40,"alt_fmsl":1178,"id":"AST","desc":"ASTANA VOR-DME"},
+{"type":"NDB","hdg_t":320.9,"dist_nm":108.5,"freq":318,"lat":51.06000000,"lon":71.52611100,"rng_nm":50,"alt_fmsl":0,"id":"AK","desc":"ASTANA NDB"},
+{"type":"NDB","hdg_t":31.5,"dist_nm":137.8,"freq":396,"lat":51.61166700,"lon":75.26333300,"rng_nm":50,"alt_fmsl":0,"id":"YZ","desc":"EKIBASTUZ NDB"},
+{"type":"VOR","hdg_t":157.8,"dist_nm":180,"freq":113.7,"lat":46.88111100,"lon":74.98138900,"rng_nm":50,"alt_fmsl":1326,"id":"BLH","desc":"BALKHASH VOR-DME"}
+]
+}

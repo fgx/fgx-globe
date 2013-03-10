@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MMCU","name":"General R Fierro Villalobos Intl","lat":28.7017521666667,"lon":-105.96554,"rwys":3,"ils":1,"index":1220008,"path":"w110n20/w106n28"
+,"runways":[
+{"len_m":2597,"wid_m":45.11,"hdg":190,"surf":"Asphalt","rwy1":"18L","lat1":28.71461900,"lon1":-105.96093600,"rwy2":"36R","lat2":28.69159400,"lon2":-105.96591100},
+{"len_m":2409,"wid_m":22.86,"hdg":190,"surf":"Asphalt","rwy1":"18R","lat1":28.71331700,"lon1":-105.96339400,"rwy2":"36L","lat2":28.69196100,"lon2":-105.96802200},
+{"len_m":1098,"wid_m":29.87,"hdg":55,"surf":"Asphalt","rwy1":"04","lat1":28.69673300,"lon1":-105.97214400,"rwy2":"22","lat2":28.70228900,"lon2":-105.96283300}
+]
+,"radios":[
+{"type":"ATIS","freq":127.9,"desc":"ATIS"},
+{"type":"TWR","freq":118.4,"desc":"CHIHUAHUA TWR"},
+{"type":"APP","freq":121,"desc":"CHIHUAHUA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.9,"lat":28.71652500,"lon":-105.96059400,"rng_nm":18,"alt_fmsl":4462,"hdg":10.60,"id":"ICUU","rwy":"36R","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.9,"lat":28.69452800,"lon":-105.96413900,"rng_nm":10,"alt_fmsl":4462,"id":"ICUU","rwy":"36R","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":28.68225000,"lon":-105.96796100,"rng_nm":0,"alt_fmsl":4462,"id":"----","rwy":"36R","desc":"MM"},
+{"type":"DME","freq":111.9,"lat":28.69452800,"lon":-105.96413900,"rng_nm":18,"alt_fmsl":4462,"id":"ICUU","rwy":"36R","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":7.1,"dist_nm":5.8,"freq":114.1,"lat":28.79900000,"lon":-105.95163889,"rng_nm":130,"alt_fmsl":4462,"id":"CUU","desc":"CHIHUAHUA VOR-DME"},
+{"type":"NDB","hdg_t":191.7,"dist_nm":7.2,"freq":222,"lat":28.58350000,"lon":-105.99333900,"rng_nm":50,"alt_fmsl":4462,"id":"CUW","desc":"CHIHUAHUA NDB"},
+{"type":"VOR","hdg_t":136.7,"dist_nm":39.9,"freq":113.5,"lat":28.21411111,"lon":-105.44844444,"rng_nm":130,"alt_fmsl":3888,"id":"DEL","desc":"DELICIAS VOR-DME"},
+{"type":"VOR","hdg_t":47.2,"dist_nm":142.1,"freq":115.9,"lat":30.29836111,"lon":-103.95475000,"rng_nm":40,"alt_fmsl":4830,"id":"MRF","desc":"MARFA VOR-DME"},
+{"type":"NDB","hdg_t":23.2,"dist_nm":154,"freq":233,"lat":31.06169444,"lon":-104.78672222,"rng_nm":50,"alt_fmsl":0,"id":"VHN","desc":"VAN HORN NDB"},
+{"type":"NDB","hdg_t":48.5,"dist_nm":160.5,"freq":412,"lat":30.45819444,"lon":-103.64680556,"rng_nm":50,"alt_fmsl":0,"id":"BWR","desc":"BREWSTER CO NDB"},
+{"type":"NDB","hdg_t":56.1,"dist_nm":170.7,"freq":388,"lat":30.26405556,"lon":-103.23711111,"rng_nm":50,"alt_fmsl":0,"id":"IMP","desc":"MARATHON NDB"},
+{"type":"NDB","hdg_t":227.2,"dist_nm":173.1,"freq":214,"lat":26.71640800,"lon":-108.33049200,"rng_nm":50,"alt_fmsl":794,"id":"CHX","desc":"CHOIX NDB"},
+{"type":"VOR","hdg_t":9.9,"dist_nm":174.3,"freq":115,"lat":31.56869444,"lon":-105.37630556,"rng_nm":40,"alt_fmsl":4390,"id":"HUP","desc":"HUDSPETH VORTAC"},
+{"type":"VOR","hdg_t":352.3,"dist_nm":177.2,"freq":116.7,"lat":31.63616667,"lon":-106.42686111,"rng_nm":130,"alt_fmsl":3904,"id":"CJS","desc":"JUAREZ VOR-DME"}
+]
+}

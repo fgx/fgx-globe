@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PADQ","name":"Kodiak","lat":57.7496323333333,"lon":-152.492882,"rwys":3,"ils":1,"index":451818,"path":"w160n50/w153n57"
+,"runways":[
+{"len_m":2298,"wid_m":45.72,"hdg":91,"surf":"Asphalt","rwy1":"07","lat1":57.75218900,"lon1":-152.51899400,"rwy2":"25","lat2":57.75146400,"lon2":-152.48041100},
+{"len_m":1645,"wid_m":45.72,"hdg":127,"surf":"Asphalt","rwy1":"11","lat1":57.75491900,"lon1":-152.50226700,"rwy2":"29","lat2":57.74602200,"lon2":-152.48020600},
+{"len_m":1527,"wid_m":45.72,"hdg":202,"surf":"Asphalt","rwy1":"18","lat1":57.75294400,"lon1":-152.48283100,"rwy2":"36","lat2":57.74025600,"lon2":-152.49258300}
+]
+,"radios":[
+{"type":"ATIS","freq":135.5,"desc":"ATIS"},
+{"type":"CTAF","freq":119.8,"desc":"CTAF"},
+{"type":"CTAF","freq":122.8,"desc":"UNICOM"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":119.8,"desc":"TWR"},
+{"type":"APP","freq":125.1,"desc":"ANCHORAGE CNTR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.9,"lat":57.75222500,"lon":-152.52089200,"rng_nm":18,"alt_fmsl":109,"hdg":272.00,"id":"IADQ","rwy":"25","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.9,"lat":57.75072800,"lon":-152.48776100,"rng_nm":10,"alt_fmsl":26,"id":"IADQ","rwy":"25","desc":"GS","gs":2.04},
+{"type":"DME","freq":110.9,"lat":57.75168900,"lon":-152.52114400,"rng_nm":18,"alt_fmsl":135,"id":"IADQ","rwy":"25","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":72.6,"dist_nm":5.1,"freq":117.1,"lat":57.77502778,"lon":-152.33977778,"rng_nm":130,"alt_fmsl":130,"id":"ODK","desc":"KODIAK VOR-DME"},
+{"type":"NDB","hdg_t":74.6,"dist_nm":5.6,"freq":394,"lat":57.77447222,"lon":-152.32313889,"rng_nm":50,"alt_fmsl":0,"id":"RWO","desc":"WOODY ISLAND NDB"},
+{"type":"NDB","hdg_t":14.8,"dist_nm":117.9,"freq":277,"lat":59.64133333,"lon":-151.50027778,"rng_nm":50,"alt_fmsl":0,"id":"ACE","desc":"KACHEMAK NDB"},
+{"type":"VOR","hdg_t":14.9,"dist_nm":122.2,"freq":114.6,"lat":59.70941667,"lon":-151.45661111,"rng_nm":130,"alt_fmsl":1626,"id":"HOM","desc":"HOMER VOR-DME"},
+{"type":"NDB","hdg_t":309.1,"dist_nm":124.2,"freq":334,"lat":59.01772222,"lon":-155.60038889,"rng_nm":50,"alt_fmsl":0,"id":"HCP","desc":"KULIK LAKE NDB"},
+{"type":"NDB","hdg_t":328.8,"dist_nm":141.9,"freq":411,"lat":59.74808333,"lon":-154.90963889,"rng_nm":50,"alt_fmsl":0,"id":"ILI","desc":"ILIAMNA NDB"},
+{"type":"VOR","hdg_t":295.2,"dist_nm":147.2,"freq":112.8,"lat":58.72472222,"lon":-156.75233333,"rng_nm":130,"alt_fmsl":95,"id":"AKN","desc":"KING SALMON VORTAC"},
+{"type":"NDB","hdg_t":295.4,"dist_nm":148.2,"freq":355,"lat":58.73716667,"lon":-156.77830556,"rng_nm":50,"alt_fmsl":0,"id":"AUB","desc":"CHINOOK NDB"},
+{"type":"NDB","hdg_t":295.4,"dist_nm":148.2,"freq":355,"lat":58.73716700,"lon":-156.77830800,"rng_nm":50,"alt_fmsl":0,"id":"AK","desc":"SALDO NDB"},
+{"type":"NDB","hdg_t":16.2,"dist_nm":171.3,"freq":346,"lat":60.47497222,"lon":-150.87888889,"rng_nm":50,"alt_fmsl":0,"id":"OLT","desc":"SOLDOTNA NDB"}
+]
+}

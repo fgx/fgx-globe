@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LICC","name":"Catania Fontanarossa","lat":37.466779,"lon":15.066401,"rwys":1,"ils":1,"index":3203032,"path":"e010n30/e015n37"
+,"runways":[
+{"len_m":2438,"wid_m":45.11,"hdg":83,"surf":"Asphalt","rwy1":"08","lat1":37.46562500,"lon1":15.05269400,"rwy2":"26","lat2":37.46793300,"lon2":15.08010800}
+]
+,"radios":[
+{"type":"GND","freq":129.72,"desc":"GND"},
+{"type":"TWR","freq":118.7,"desc":"TWR"},
+{"type":"APP","freq":120.8,"desc":"DIRECTOR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":37.46808300,"lon":15.08200000,"rng_nm":18,"alt_fmsl":25,"hdg":83.98,"id":"CTN","rwy":"08","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":37.46461100,"lon":15.05830600,"rng_nm":10,"alt_fmsl":25,"id":"CTN","rwy":"08","desc":"GS","gs":3},
+{"type":"DME","freq":109.9,"lat":37.46455600,"lon":15.05838900,"rng_nm":18,"alt_fmsl":45,"id":"CTN","rwy":"08","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":224.3,"dist_nm":0.2,"freq":407,"lat":37.46363900,"lon":15.06255600,"rng_nm":80,"alt_fmsl":21,"id":"CTF","desc":"CATANIA FONTANAROSSA NDB"},
+{"type":"VOR","hdg_t":234.8,"dist_nm":0.2,"freq":116.25,"lat":37.46443400,"lon":15.06222500,"rng_nm":200,"alt_fmsl":46,"id":"CTF","desc":"CATANIA FONTANAROSSA VOR-DME"},
+{"type":"VOR","hdg_t":262.2,"dist_nm":4.6,"freq":112.1,"lat":37.45617500,"lon":14.96931700,"rng_nm":50,"alt_fmsl":217,"id":"CAT","desc":"CATANIA VOR-DME"},
+{"type":"NDB","hdg_t":263,"dist_nm":4.8,"freq":345,"lat":37.45688300,"lon":14.96570000,"rng_nm":80,"alt_fmsl":0,"id":"CAT","desc":"CATANIA NDB"},
+{"type":"NDB","hdg_t":226.9,"dist_nm":6.2,"freq":412,"lat":37.39583300,"lon":14.97111100,"rng_nm":30,"alt_fmsl":54,"id":"SIG","desc":"SIGONELLA NDB"},
+{"type":"SDME","hdg_t":227,"dist_nm":6.2,"freq":111.6,"lat":37.39587200,"lon":14.97097500,"rng_nm":130,"alt_fmsl":64,"id":"SIG","desc":"SIGONELLA TACAN"},
+{"type":"SDME","hdg_t":240.1,"dist_nm":7.9,"freq":111.2,"lat":37.40031900,"lon":14.92151700,"rng_nm":25,"alt_fmsl":81,"id":"NSY","desc":"NAVY SIGONELLA TACAN"},
+{"type":"NDB","hdg_t":240.1,"dist_nm":8,"freq":297,"lat":37.40006900,"lon":14.92110000,"rng_nm":50,"alt_fmsl":0,"id":"NSY","desc":"NAVY SIGONELLA NDB"},
+{"type":"NDB","hdg_t":40.1,"dist_nm":42.9,"freq":325,"lat":38.01277800,"lon":15.65027800,"rng_nm":50,"alt_fmsl":308,"id":"RCA","desc":"REGGIO CALABRIA NDB"},
+{"type":"VOR","hdg_t":36.8,"dist_nm":45.7,"freq":111,"lat":38.07610300,"lon":15.64527500,"rng_nm":25,"alt_fmsl":88,"id":"RCA","desc":"REGGIO CALABRIA VOR-DME"},
+{"type":"VOR","hdg_t":206.1,"dist_nm":95.1,"freq":115.7,"lat":36.03733300,"lon":14.20525000,"rng_nm":250,"alt_fmsl":532,"id":"GZO","desc":"GOZO VOR-DME"},
+{"type":"NDB","hdg_t":291.2,"dist_nm":96,"freq":355,"lat":38.03416700,"lon":13.17750000,"rng_nm":150,"alt_fmsl":3822,"id":"PAL","desc":"PALERMO NDB"},
+{"type":"VOR","hdg_t":291.2,"dist_nm":96,"freq":112.3,"lat":38.03388900,"lon":13.17750000,"rng_nm":200,"alt_fmsl":3868,"id":"PAL","desc":"PALERMO VOR-DME"},
+{"type":"NDB","hdg_t":195.2,"dist_nm":97.7,"freq":416,"lat":35.89155600,"lon":14.53822200,"rng_nm":300,"alt_fmsl":0,"id":"LQA","desc":"LUQA NDB"},
+{"type":"VOR","hdg_t":38.2,"dist_nm":98.8,"freq":117.3,"lat":38.75583300,"lon":16.36916700,"rng_nm":200,"alt_fmsl":3274,"id":"CDC","desc":"CARAFFA DI CATANZARO VORTAC"}
+]
+}

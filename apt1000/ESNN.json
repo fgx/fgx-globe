@@ -1,0 +1,41 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ESNN","name":"Sundsvall Harnosand/midlanda","lat":62.52081125,"lon":17.44125,"rwys":1,"ils":2,"index":3237408,"path":"e010n60/e017n62"
+,"runways":[
+{"len_m":2089,"wid_m":45.11,"hdg":160,"surf":"Asphalt","rwy1":"16","lat1":62.53656400,"lon1":17.43733600,"rwy2":"34","lat2":62.51892500,"lon2":17.45110800}
+]
+,"waterways":[
+{"len_m":611,"wid_m":30,"hdg_t":149,"buoys":false,"rwy1":"15","lat1":62.51625349,"lon1":17.43530641,"rwy2":"33","lat2":62.51150251,"lon2":17.44124959}
+]
+,"radios":[
+{"type":"ATIS","freq":127.4,"desc":"ATIS"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"TWR","freq":129.55,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":108.7,"lat":62.51686100,"lon":17.45272200,"rng_nm":18,"alt_fmsl":16,"hdg":160.19,"id":"NNN","rwy":"16","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.3,"lat":62.54369400,"lon":17.43175000,"rng_nm":18,"alt_fmsl":16,"hdg":340.17,"id":"SNN","rwy":"34","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.7,"lat":62.53344400,"lon":17.44227800,"rng_nm":10,"alt_fmsl":16,"id":"NNN","rwy":"16","desc":"GS","gs":3.25},
+{"type":"GS","freq":110.3,"lat":62.52322200,"lon":17.45022200,"rng_nm":10,"alt_fmsl":16,"id":"SNN","rwy":"34","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":62.59833300,"lon":17.38750000,"rng_nm":0,"alt_fmsl":16,"id":"----","rwy":"16","desc":"OM"},
+{"type":"OM","freq":0,"lat":62.59833150,"lon":17.38750080,"rng_nm":0,"alt_fmsl":16,"id":"----","rwy":"34","desc":"OM"},
+{"type":"MM","freq":0,"lat":62.54588900,"lon":17.43005600,"rng_nm":0,"alt_fmsl":16,"id":"----","rwy":"16","desc":"MM"},
+{"type":"MM","freq":0,"lat":62.51030600,"lon":17.45113900,"rng_nm":0,"alt_fmsl":16,"id":"----","rwy":"34","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":24.3,"dist_nm":0.5,"freq":113.1,"lat":62.52844400,"lon":17.44872200,"rng_nm":100,"alt_fmsl":55,"id":"SUN","desc":"SUNDSVALL VOR-DME"},
+{"type":"NDB","hdg_t":161.4,"dist_nm":3.8,"freq":378,"lat":62.46000000,"lon":17.48538890,"rng_nm":50,"alt_fmsl":0,"id":"OS","desc":"Sundsvall-Harnosand NDB"},
+{"type":"NDB","hdg_t":285.3,"dist_nm":11.4,"freq":416,"lat":62.57038900,"lon":17.04522200,"rng_nm":25,"alt_fmsl":0,"id":"BCS","desc":"BACCHUS NDB"},
+{"type":"NDB","hdg_t":26,"dist_nm":24.1,"freq":427,"lat":62.88016670,"lon":17.82672220,"rng_nm":25,"alt_fmsl":0,"id":"LUE","desc":"Lunde NDB"},
+{"type":"NDB","hdg_t":12.7,"dist_nm":37.1,"freq":326,"lat":63.12291670,"lon":17.74213890,"rng_nm":50,"alt_fmsl":0,"id":"KG","desc":"Kramfors NDB"},
+{"type":"NDB","hdg_t":190.9,"dist_nm":47,"freq":351,"lat":61.75213890,"lon":17.12694440,"rng_nm":50,"alt_fmsl":0,"id":"HU","desc":"Hudiksvall NDB"},
+{"type":"NDB","hdg_t":35,"dist_nm":67.8,"freq":322,"lat":63.43702780,"lon":18.88711110,"rng_nm":50,"alt_fmsl":0,"id":"OD","desc":"Ornskoldsvik NDB"},
+{"type":"VOR","hdg_t":37.9,"dist_nm":68.1,"freq":115,"lat":63.40605600,"lon":18.99355600,"rng_nm":60,"alt_fmsl":351,"id":"OSK","desc":"ORNSKOLDSVIK VOR-DME"},
+{"type":"NDB","hdg_t":41.4,"dist_nm":69,"freq":369,"lat":63.37047220,"lon":19.13236110,"rng_nm":50,"alt_fmsl":0,"id":"OO","desc":"Ornskoldsvik NDB"},
+{"type":"NDB","hdg_t":191.7,"dist_nm":73.2,"freq":365,"lat":61.32727780,"lon":16.92708330,"rng_nm":50,"alt_fmsl":0,"id":"WS","desc":"Soderhamn NDB"},
+{"type":"NDB","hdg_t":297.9,"dist_nm":87.9,"freq":312,"lat":63.17816670,"lon":14.58430560,"rng_nm":50,"alt_fmsl":0,"id":"DJ","desc":"Ostersund NDB"},
+{"type":"NDB","hdg_t":252.8,"dist_nm":89.8,"freq":327,"lat":62.04727780,"lon":14.40150000,"rng_nm":50,"alt_fmsl":0,"id":"Y","desc":"Sveg NDB"},
+{"type":"VOR","hdg_t":298,"dist_nm":90.8,"freq":114.65,"lat":63.19955600,"lon":14.48755600,"rng_nm":150,"alt_fmsl":1204,"id":"OSS","desc":"OSTERSUND VOR-DME"},
+{"type":"NDB","hdg_t":297.9,"dist_nm":91.6,"freq":338,"lat":63.20313890,"lon":14.45841670,"rng_nm":50,"alt_fmsl":0,"id":"F","desc":"Ostersund NDB"},
+{"type":"NDB","hdg_t":253.2,"dist_nm":91.8,"freq":368,"lat":62.04541700,"lon":14.32611100,"rng_nm":30,"alt_fmsl":1176,"id":"OY","desc":"SVEG NDB"}
+]
+}

@@ -1,0 +1,52 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EGDC","name":"Royal Marines Base Chivenor","lat":51.08943906,"lon":-4.15270989333333,"rwys":3,"ils":1,"index":2876227,"path":"w010n50/w005n51"
+,"runways":[
+{"len_m":1826,"wid_m":45.11,"hdg":89,"surf":"Asphalt","rwy1":"09","lat1":51.08717474,"lon1":-4.16339693,"rwy2":"27","lat2":51.08723078,"lon2":-4.13732528},
+{"len_m":1221,"wid_m":45.11,"hdg":330,"surf":"Asphalt","rwy1":"15","lat1":51.08553720,"lon1":-4.14823029,"rwy2":"33","lat2":51.09508320,"lon2":-4.15684829},
+{"len_m":905,"wid_m":45.11,"hdg":29,"surf":"Asphalt","rwy1":"03","lat1":51.08724720,"lon1":-4.15836731,"rwy2":"21","lat2":51.09436125,"lon2":-4.15209125}
+]
+,"radios":[
+{"type":"ATIS","freq":130.35,"desc":"ATIS"},
+{"type":"GND","freq":130.19,"desc":"Chevenor GND"},
+{"type":"TWR","freq":130.19,"desc":"Chevenor TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":108.1,"lat":51.08837800,"lon":-4.16191100,"rng_nm":18,"alt_fmsl":26,"hdg":274.24,"id":"CV","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.1,"lat":51.08605600,"lon":-4.14159200,"rng_nm":10,"alt_fmsl":26,"id":"CV","rwy":"27","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":51.08352800,"lon":-3.98452200,"rng_nm":0,"alt_fmsl":26,"id":"----","rwy":"27","desc":"OM"},
+{"type":"MM","freq":0,"lat":51.08707200,"lon":-4.11849200,"rng_nm":0,"alt_fmsl":26,"id":"----","rwy":"27","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":6,"dist_nm":30.9,"freq":320,"lat":51.60222200,"lon":-4.06583300,"rng_nm":15,"alt_fmsl":0,"id":"SWN","desc":"SWANSEA NDB"},
+{"type":"NDB","hdg_t":6,"dist_nm":30.9,"freq":321,"lat":51.60198600,"lon":-4.06610000,"rng_nm":50,"alt_fmsl":260,"id":"SWN","desc":"Swansea NDB"},
+{"type":"SDME","hdg_t":6,"dist_nm":31,"freq":109.2,"lat":51.60361100,"lon":-4.06527800,"rng_nm":40,"alt_fmsl":299,"id":"SWZ","desc":"SWANSEA DME"},
+{"type":"SDME","hdg_t":54.5,"dist_nm":33,"freq":114.8,"lat":51.40640300,"lon":-3.43497500,"rng_nm":25,"alt_fmsl":178,"id":"SAT","desc":"ST ATHAN TACAN"},
+{"type":"NDB","hdg_t":58.9,"dist_nm":35.7,"freq":388,"lat":51.39337800,"lon":-3.33790300,"rng_nm":20,"alt_fmsl":0,"id":"CDF","desc":"Cardiff NDB"},
+{"type":"NDB","hdg_t":351,"dist_nm":37.9,"freq":341,"lat":51.71366800,"lon":-4.31113000,"rng_nm":20,"alt_fmsl":0,"id":"PMB","desc":"PEMBREY NDB"},
+{"type":"NDB","hdg_t":121.5,"dist_nm":38.3,"freq":337,"lat":50.75215300,"lon":-3.29504700,"rng_nm":15,"alt_fmsl":25,"id":"EX","desc":"Exeter LOM"},
+{"type":"NDB","hdg_t":177.7,"dist_nm":39.9,"freq":396,"lat":50.42436700,"lon":-4.11233300,"rng_nm":20,"alt_fmsl":0,"id":"PY","desc":"PLYMOUTH NDB"},
+{"type":"VOR","hdg_t":148.5,"dist_nm":48.5,"freq":112.05,"lat":50.39861100,"lon":-3.49361100,"rng_nm":85,"alt_fmsl":215,"id":"BHD","desc":"BERRY HEAD VOR-DME"},
+{"type":"NDB","hdg_t":220.1,"dist_nm":50.1,"freq":356,"lat":50.44811900,"lon":-4.99454700,"rng_nm":25,"alt_fmsl":0,"id":"SM","desc":"ST MAWGAN NDB"},
+{"type":"VOR","hdg_t":40.8,"dist_nm":50.7,"freq":117.45,"lat":51.72555600,"lon":-3.26305600,"rng_nm":65,"alt_fmsl":1450,"id":"BCN","desc":"BRECON VOR-DME"},
+{"type":"SDME","hdg_t":220.6,"dist_nm":51.6,"freq":112.6,"lat":50.43446100,"lon":-5.03025300,"rng_nm":200,"alt_fmsl":323,"id":"SMG","desc":"ST MAWGAN TACAN"},
+{"type":"NDB","hdg_t":325.8,"dist_nm":54,"freq":328,"lat":51.83187800,"lon":-4.96808900,"rng_nm":10,"alt_fmsl":0,"id":"HAV","desc":"HAVERFORDWEST NDB"},
+{"type":"SDME","hdg_t":325.8,"dist_nm":54.1,"freq":116.75,"lat":51.83200600,"lon":-4.97011700,"rng_nm":10,"alt_fmsl":201,"id":"HDW","desc":"HAVERFORDWEST DME"},
+{"type":"NDB","hdg_t":71.4,"dist_nm":56.8,"freq":414,"lat":51.38144200,"lon":-2.71754400,"rng_nm":25,"alt_fmsl":0,"id":"BRI","desc":"BRISTOL NDB"},
+{"type":"SDME","hdg_t":94.4,"dist_nm":57.5,"freq":111,"lat":51.00501400,"lon":-2.63875300,"rng_nm":130,"alt_fmsl":113,"id":"VLN","desc":"YEOVILTON TACAN"},
+{"type":"NDB","hdg_t":346.2,"dist_nm":63.5,"freq":370,"lat":52.11633300,"lon":-4.55983300,"rng_nm":20,"alt_fmsl":0,"id":"AP","desc":"ABERPORTH NDB"},
+{"type":"VOR","hdg_t":328.9,"dist_nm":63.7,"freq":113.1,"lat":51.99472200,"lon":-5.04027800,"rng_nm":85,"alt_fmsl":600,"id":"STU","desc":"STRUMBLE VOR-DME"},
+{"type":"NDB","hdg_t":65.5,"dist_nm":64.3,"freq":325,"lat":51.52185300,"lon":-2.59023100,"rng_nm":25,"alt_fmsl":0,"id":"OF","desc":"FILTON NDB"},
+{"type":"NDB","hdg_t":94.8,"dist_nm":76,"freq":349,"lat":50.96620300,"lon":-2.15516700,"rng_nm":10,"alt_fmsl":0,"id":"COM","desc":"COMPT0N ABBAS NDB"},
+{"type":"VOR","hdg_t":225.3,"dist_nm":80.5,"freq":114.2,"lat":50.13625600,"lon":-5.63698600,"rng_nm":130,"alt_fmsl":800,"id":"LND","desc":"LANDS END VOR-DME"},
+{"type":"NDB","hdg_t":33.9,"dist_nm":84,"freq":426,"lat":52.24339400,"lon":-2.87983900,"rng_nm":20,"alt_fmsl":0,"id":"SH","desc":"SHOBDON NDB"},
+{"type":"NDB","hdg_t":71.8,"dist_nm":84.6,"freq":282,"lat":51.50834200,"lon":-2.00587200,"rng_nm":40,"alt_fmsl":513,"id":"LA","desc":"LYNEHAM NDB"},
+{"type":"SDME","hdg_t":71.9,"dist_nm":85.1,"freq":109.8,"lat":51.51013600,"lon":-1.99223900,"rng_nm":25,"alt_fmsl":463,"id":"LYE","desc":"LYNEHAM TACAN"},
+{"type":"NDB","hdg_t":56.2,"dist_nm":88.6,"freq":331,"lat":51.89195300,"lon":-2.16790300,"rng_nm":25,"alt_fmsl":111,"id":"GST","desc":"GLOUCESTERSHIRE NDB"},
+{"type":"SDME","hdg_t":56.2,"dist_nm":88.6,"freq":115.55,"lat":51.89219200,"lon":-2.16792800,"rng_nm":25,"alt_fmsl":109,"id":"GOS","desc":"GLOUCESTERSHIRE DME"},
+{"type":"NDB","hdg_t":101.1,"dist_nm":89.6,"freq":339,"lat":50.77767222,"lon":-1.84248611,"rng_nm":20,"alt_fmsl":30,"id":"BIA","desc":"BOURNEMOUTH NDB"},
+{"type":"SDME","hdg_t":86.8,"dist_nm":90.8,"freq":108.2,"lat":51.14895600,"lon":-1.75264700,"rng_nm":200,"alt_fmsl":430,"id":"BDN","desc":"BOSCOMBE DOWN TACAN"},
+{"type":"SDME","hdg_t":67.1,"dist_nm":95.4,"freq":113.4,"lat":51.68169200,"lon":-1.79761400,"rng_nm":25,"alt_fmsl":299,"id":"FFA","desc":"FAIRFORD TACAN"},
+{"type":"NDB","hdg_t":21.4,"dist_nm":99.7,"freq":323,"lat":52.63000000,"lon":-3.15388900,"rng_nm":25,"alt_fmsl":282,"id":"WPL","desc":"WELSHPOOL NDB-DME"},
+{"type":"SDME","hdg_t":21.4,"dist_nm":99.7,"freq":115.95,"lat":52.62972200,"lon":-3.15388900,"rng_nm":25,"alt_fmsl":282,"id":"WPL","desc":"WELSHPOOL NDB-DME"}
+]
+}

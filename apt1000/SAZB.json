@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SAZB","name":"Comandante Espora","lat":-38.7255025,"lon":-62.168801,"rwys":3,"ils":1,"index":1920211,"path":"w070s40/w063s39"
+,"runways":[
+{"len_m":2622,"wid_m":60.05,"hdg":163,"surf":"Asphalt","rwy1":"16L","lat1":-38.71546900,"lon1":-62.15778900,"rwy2":"34R","lat2":-38.73815600,"lon2":-62.14938300},
+{"len_m":2018,"wid_m":35.36,"hdg":60,"surf":"Asphalt","rwy1":"06","lat1":-38.72780600,"lon1":-62.18098100,"rwy2":"24","lat2":-38.71891100,"lon2":-62.16073300},
+{"len_m":1487,"wid_m":29.87,"hdg":164,"surf":"Asphalt","rwy1":"16R","lat1":-38.71989200,"lon1":-62.18430300,"rwy2":"34L","lat2":-38.73278100,"lon2":-62.17961700}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":119.15,"desc":"ESPORA TWR"},
+{"type":"TWR","freq":118.1,"desc":"ESPORA TWR"},
+{"type":"APP","freq":124.8,"desc":"BAHIA BLANCA APP"},
+{"type":"APP","freq":119.15,"desc":"BAHIA BLANCA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":-38.74000000,"lon":-62.14833300,"rng_nm":18,"alt_fmsl":217,"hdg":163.26,"id":"BC","rwy":"16L","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":-38.72000000,"lon":-62.15333300,"rng_nm":10,"alt_fmsl":240,"id":"BC","rwy":"16L","desc":"GS","gs":2.7},
+{"type":"OM","freq":0,"lat":-38.65166700,"lon":-62.18166700,"rng_nm":0,"alt_fmsl":217,"id":"----","rwy":"16L","desc":"OM"},
+{"type":"MM","freq":0,"lat":-38.70666700,"lon":-62.16000000,"rng_nm":0,"alt_fmsl":217,"id":"----","rwy":"16L","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":150.6,"dist_nm":0.5,"freq":370,"lat":-38.73388900,"lon":-62.16277800,"rng_nm":216,"alt_fmsl":246,"id":"EPO","desc":"COMANDANTE ESPORA NDB"},
+{"type":"VOR","hdg_t":56.1,"dist_nm":0.5,"freq":114.3,"lat":-38.72000000,"lon":-62.15833300,"rng_nm":175,"alt_fmsl":246,"id":"BCA","desc":"BAHIA BLANCA VOR-DME"},
+{"type":"NDB","hdg_t":20.1,"dist_nm":1.2,"freq":280,"lat":-38.70666700,"lon":-62.16000000,"rng_nm":25,"alt_fmsl":246,"id":"C","desc":"COMANDANTE ESPORA NDB"},
+{"type":"NDB","hdg_t":352.2,"dist_nm":4.4,"freq":260,"lat":-38.65166700,"lon":-62.18166700,"rng_nm":25,"alt_fmsl":0,"id":"OC","desc":"COMANDANTE ESPORA NDB"},
+{"type":"NDB","hdg_t":196.5,"dist_nm":133.8,"freq":275,"lat":-40.86250000,"lon":-63.00666700,"rng_nm":151,"alt_fmsl":20,"id":"VIE","desc":"VIEDMA NDB"},
+{"type":"VOR","hdg_t":196.4,"dist_nm":134,"freq":117.1,"lat":-40.86722200,"lon":-63.00083300,"rng_nm":185,"alt_fmsl":20,"id":"VIE","desc":"VIEDMA VOR"},
+{"type":"NDB","hdg_t":196.8,"dist_nm":134.2,"freq":305,"lat":-40.86500000,"lon":-63.02500000,"rng_nm":25,"alt_fmsl":20,"id":"V","desc":"VIEDMA NDB"},
+{"type":"NDB","hdg_t":40.5,"dist_nm":143.6,"freq":405,"lat":-36.88851700,"lon":-60.22723300,"rng_nm":173,"alt_fmsl":551,"id":"OLA","desc":"OLAVARRIA NDB"},
+{"type":"VOR","hdg_t":321.3,"dist_nm":162.8,"freq":112.5,"lat":-36.58372200,"lon":-64.27283300,"rng_nm":189,"alt_fmsl":630,"id":"OSA","desc":"SANTA ROSA VOR-DME"},
+{"type":"NDB","hdg_t":321.5,"dist_nm":163.5,"freq":300,"lat":-36.56833300,"lon":-64.27000000,"rng_nm":50,"alt_fmsl":630,"id":"O","desc":"SANTA ROSA NDB"}
+]
+}

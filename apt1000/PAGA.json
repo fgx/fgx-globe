@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PAGA","name":"Edward G Pitka Sr","lat":64.736314,"lon":-156.937839,"rwys":2,"ils":1,"index":386728,"path":"w160n60/w157n64"
+,"runways":[
+{"len_m":2210,"wid_m":45.72,"hdg":89,"surf":"Asphalt","rwy1":"07","lat1":64.73594200,"lon1":-156.96009200,"rwy2":"25","lat2":64.73609400,"lon2":-156.91368600},
+{"len_m":849,"wid_m":24.38,"hdg":89,"surf":"Gravel","rwy1":"06","lat1":64.73658900,"lon1":-156.94770000,"rwy2":"24","lat2":64.73663100,"lon2":-156.92987800}
+]
+,"radios":[
+{"type":"ATIS","freq":132.52,"desc":"AWOS 3"},
+{"type":"CTAF","freq":123,"desc":"CTAF"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":64.73591900,"lon":-156.96274700,"rng_nm":18,"alt_fmsl":152,"hdg":269.50,"id":"IGAL","rwy":"25","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":64.73719700,"lon":-156.91894200,"rng_nm":10,"alt_fmsl":151,"id":"IGAL","rwy":"25","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":88.4,"dist_nm":4.1,"freq":114.8,"lat":64.73813889,"lon":-156.77713889,"rng_nm":130,"alt_fmsl":150,"id":"GAL","desc":"GALENA VOR-DME"},
+{"type":"VOR","hdg_t":13.6,"dist_nm":60.2,"freq":117.4,"lat":65.70788889,"lon":-156.36308333,"rng_nm":130,"alt_fmsl":187,"id":"HSL","desc":"HUSLIA VOR-DME"},
+{"type":"NDB","hdg_t":278.2,"dist_nm":108.7,"freq":299,"lat":64.93641667,"lon":-161.15513889,"rng_nm":50,"alt_fmsl":0,"id":"KKA","desc":"KOYUK NDB"},
+{"type":"VOR","hdg_t":244.2,"dist_nm":110.2,"freq":116.9,"lat":63.89194444,"lon":-160.68433333,"rng_nm":130,"alt_fmsl":430,"id":"UNK","desc":"UNALAKLEET VOR-DME"},
+{"type":"NDB","hdg_t":45.6,"dist_nm":111.2,"freq":272,"lat":65.99516667,"lon":-153.69375000,"rng_nm":50,"alt_fmsl":0,"id":"UTO","desc":"UTOPIA CREEK NDB"},
+{"type":"NDB","hdg_t":245.5,"dist_nm":112.7,"freq":382,"lat":63.90772222,"lon":-160.81194444,"rng_nm":50,"alt_fmsl":0,"id":"JNR","desc":"NORTH RIVER NDB"},
+{"type":"VOR","hdg_t":161.2,"dist_nm":113,"freq":115.5,"lat":62.95102778,"lon":-155.61138889,"rng_nm":130,"alt_fmsl":350,"id":"MCG","desc":"MC GRATH VORTAC"},
+{"type":"NDB","hdg_t":160.5,"dist_nm":113.7,"freq":350,"lat":62.94683333,"lon":-155.55725000,"rng_nm":50,"alt_fmsl":0,"id":"VTR","desc":"TAKOTNA RIVER NDB"},
+{"type":"NDB","hdg_t":75.5,"dist_nm":123.5,"freq":212,"lat":65.17388889,"lon":-152.20594444,"rng_nm":50,"alt_fmsl":0,"id":"BCC","desc":"BEAR CREEK NDB"},
+{"type":"VOR","hdg_t":75.5,"dist_nm":124.2,"freq":116.6,"lat":65.17713889,"lon":-152.17755556,"rng_nm":130,"alt_fmsl":390,"id":"TAL","desc":"TANANA VOR-DME"}
+]
+}

@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"PANI","name":"Aniak","lat":61.581597,"lon":-159.5430445,"rwys":1,"ils":1,"index":337377,"path":"w160n60/w160n61"
+,"runways":[
+{"len_m":1828,"wid_m":45.72,"hdg":121,"surf":"Asphalt","rwy1":"10","lat1":61.58584700,"lon1":-159.55777200,"rwy2":"28","lat2":61.57734700,"lon2":-159.52831700}
+]
+,"radios":[
+{"type":"ATIS","freq":124.3,"desc":"AWOS 3"},
+{"type":"CTAF","freq":122.1,"desc":"CTAF"},
+{"type":"CLD","freq":118.15,"desc":"ANCHORAGE CLNC DEL"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":61.57658600,"lon":-159.52568100,"rng_nm":18,"alt_fmsl":88,"hdg":121.25,"id":"IANI","rwy":"10","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":61.58327500,"lon":-159.55433300,"rng_nm":10,"alt_fmsl":88,"id":"IANI","rwy":"10","desc":"GS","gs":3},
+{"type":"DME","freq":109.7,"lat":61.57696100,"lon":-159.52478300,"rng_nm":18,"alt_fmsl":88,"id":"IANI","rwy":"10","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":288.1,"dist_nm":1.6,"freq":359,"lat":61.59016667,"lon":-159.59791667,"rng_nm":50,"alt_fmsl":0,"id":"ANI","desc":"ANIAK NDB"},
+{"type":"NDB","hdg_t":344.3,"dist_nm":66.3,"freq":365,"lat":62.64141667,"lon":-160.19002778,"rng_nm":50,"alt_fmsl":0,"id":"ANV","desc":"ANVIK NDB"},
+{"type":"VOR","hdg_t":235.1,"dist_nm":81.7,"freq":114.1,"lat":60.78483333,"lon":-161.82433333,"rng_nm":130,"alt_fmsl":98,"id":"BET","desc":"BETHEL VORTAC"},
+{"type":"NDB","hdg_t":235.9,"dist_nm":82.6,"freq":251,"lat":60.79130556,"lon":-161.87275000,"rng_nm":50,"alt_fmsl":0,"id":"OSE","desc":"OSCARVILLE NDB"},
+{"type":"NDB","hdg_t":286.6,"dist_nm":110.4,"freq":230,"lat":62.05836111,"lon":-163.29161111,"rng_nm":50,"alt_fmsl":0,"id":"SMA","desc":"ST MARYS NDB"},
+{"type":"VOR","hdg_t":102.7,"dist_nm":116.6,"freq":117.2,"lat":61.09858333,"lon":-155.63458333,"rng_nm":130,"alt_fmsl":2501,"id":"SQA","desc":"SPARREVOHN VOR-DME"},
+{"type":"NDB","hdg_t":102.3,"dist_nm":118.4,"freq":281,"lat":61.10175000,"lon":-155.56861111,"rng_nm":50,"alt_fmsl":0,"id":"CRN","desc":"CAIRN MOUNTAIN NDB"},
+{"type":"VOR","hdg_t":51.4,"dist_nm":137.6,"freq":115.5,"lat":62.95102778,"lon":-155.61138889,"rng_nm":130,"alt_fmsl":350,"id":"MCG","desc":"MC GRATH VORTAC"},
+{"type":"NDB","hdg_t":51.9,"dist_nm":138.6,"freq":350,"lat":62.94683333,"lon":-155.55725000,"rng_nm":50,"alt_fmsl":0,"id":"VTR","desc":"TAKOTNA RIVER NDB"},
+{"type":"VOR","hdg_t":347.7,"dist_nm":142.5,"freq":116.9,"lat":63.89194444,"lon":-160.68433333,"rng_nm":130,"alt_fmsl":430,"id":"UNK","desc":"UNALAKLEET VOR-DME"}
+]
+}

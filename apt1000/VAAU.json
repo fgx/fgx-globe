@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VAAU","name":"Aurangabad","lat":19.8627265,"lon":75.3981125,"rwys":1,"ils":1,"index":4184947,"path":"e070n10/e075n19"
+,"runways":[
+{"len_m":2350,"wid_m":45.11,"hdg":87,"surf":"Asphalt","rwy1":"09","lat1":19.86234700,"lon1":75.38689700,"rwy2":"27","lat2":19.86310600,"lon2":75.40932800}
+]
+,"radios":[
+{"type":"ATIS","freq":127,"desc":"ATIS"},
+{"type":"TWR","freq":122.3,"desc":"TWR"},
+{"type":"APP","freq":122.3,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":19.86297200,"lon":75.38488900,"rng_nm":18,"alt_fmsl":1911,"hdg":269.66,"id":"AUR","rwy":"27","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":19.86222200,"lon":75.40672200,"rng_nm":10,"alt_fmsl":1911,"id":"AUR","rwy":"27","desc":"GS","gs":3},
+{"type":"DME","freq":110.1,"lat":19.86222200,"lon":75.40672200,"rng_nm":18,"alt_fmsl":1857,"id":"AUR","rwy":"27","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":170.7,"dist_nm":0.1,"freq":205,"lat":19.86055000,"lon":75.39848900,"rng_nm":50,"alt_fmsl":0,"id":"AU","desc":"AURANGABAD NDB"},
+{"type":"VOR","hdg_t":297.3,"dist_nm":0.2,"freq":116.3,"lat":19.86471700,"lon":75.39404700,"rng_nm":130,"alt_fmsl":1908,"id":"AAU","desc":"AURANGABAD VOR-DME"},
+{"type":"VOR","hdg_t":81,"dist_nm":101,"freq":114.5,"lat":20.11748300,"lon":77.16548100,"rng_nm":130,"alt_fmsl":0,"id":"WSM","desc":"WASHIM VOR"},
+{"type":"NDB","hdg_t":61.6,"dist_nm":105.7,"freq":211,"lat":20.69410000,"lon":77.05243300,"rng_nm":50,"alt_fmsl":0,"id":"KL","desc":"AKOLA NDB"},
+{"type":"NDB","hdg_t":228,"dist_nm":113.6,"freq":381,"lat":18.58426400,"lon":73.91591400,"rng_nm":75,"alt_fmsl":0,"id":"PO","desc":"PUNE NDB"},
+{"type":"VOR","hdg_t":227.9,"dist_nm":113.9,"freq":113.9,"lat":18.57974700,"lon":73.91417200,"rng_nm":40,"alt_fmsl":1942,"id":"PUN","desc":"PUNE VOR-DME"},
+{"type":"NDB","hdg_t":307.4,"dist_nm":129.3,"freq":358,"lat":21.16737200,"lon":73.56594700,"rng_nm":50,"alt_fmsl":0,"id":"SG","desc":"SONGARH NDB"},
+{"type":"VOR","hdg_t":252.4,"dist_nm":150.3,"freq":116.6,"lat":19.08538900,"lon":72.87536100,"rng_nm":130,"alt_fmsl":36,"id":"BBB","desc":"MUMBAI VOR-DME"},
+{"type":"NDB","hdg_t":133.8,"dist_nm":166.7,"freq":240,"lat":17.91766900,"lon":77.49878600,"rng_nm":50,"alt_fmsl":0,"id":"BR","desc":"BIDAR NDB"},
+{"type":"NDB","hdg_t":297,"dist_nm":167.2,"freq":201,"lat":21.11570600,"lon":72.74272200,"rng_nm":50,"alt_fmsl":0,"id":"SU","desc":"SURAT NDB"}
+]
+}

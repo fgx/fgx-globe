@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OPFA","name":"Faisalabad Intl","lat":31.3652765,"lon":72.99555,"rwys":1,"ils":1,"index":4136531,"path":"e070n30/e072n31"
+,"runways":[
+{"len_m":2814,"wid_m":46.02,"hdg":36,"surf":"Concrete","rwy1":"03","lat1":31.35504200,"lon1":72.98680300,"rwy2":"21","lat2":31.37551100,"lon2":73.00429700}
+]
+,"radios":[
+{"type":"GND","freq":121.8,"desc":"TWR"},
+{"type":"TWR","freq":127.3,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":31.37776100,"lon":73.00621900,"rng_nm":18,"alt_fmsl":592,"hdg":36.12,"id":"IFA","rwy":"03","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":31.35624400,"lon":72.98985600,"rng_nm":10,"alt_fmsl":607,"id":"IFA","rwy":"03","desc":"GS","gs":3},
+{"type":"DME","freq":109.7,"lat":31.35624400,"lon":72.98985600,"rng_nm":18,"alt_fmsl":607,"id":"IFA","rwy":"03","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":354.6,"dist_nm":0.3,"freq":212,"lat":31.37027800,"lon":72.99500000,"rng_nm":50,"alt_fmsl":654,"id":"FA","desc":"FAISALABAD NDB"},
+{"type":"NDB","hdg_t":68.4,"dist_nm":55.2,"freq":317,"lat":31.70068300,"lon":73.99900800,"rng_nm":50,"alt_fmsl":730,"id":"SP","desc":"SHEIKHUPURA NDB"},
+{"type":"NDB","hdg_t":83.1,"dist_nm":71.7,"freq":268,"lat":31.50111100,"lon":74.38333300,"rng_nm":200,"alt_fmsl":0,"id":"LA","desc":"LAHORE NDB"},
+{"type":"VOR","hdg_t":83.2,"dist_nm":72.5,"freq":112.7,"lat":31.49972200,"lon":74.40001900,"rng_nm":130,"alt_fmsl":729,"id":"LA","desc":"LAHORE VOR-DME"},
+{"type":"VOR","hdg_t":77,"dist_nm":94.8,"freq":115.5,"lat":31.70694400,"lon":74.80083300,"rng_nm":130,"alt_fmsl":752,"id":"AAR","desc":"AMRITSAR VOR-DME"},
+{"type":"NDB","hdg_t":77,"dist_nm":95.4,"freq":351,"lat":31.70860800,"lon":74.81430800,"rng_nm":50,"alt_fmsl":0,"id":"AR","desc":"AMRITSAR NDB"},
+{"type":"NDB","hdg_t":314.9,"dist_nm":102.4,"freq":240,"lat":32.56627800,"lon":71.56616500,"rng_nm":75,"alt_fmsl":0,"id":"MI","desc":"MIANWALI NDB"},
+{"type":"NDB","hdg_t":229.6,"dist_nm":107.1,"freq":387,"lat":30.19684200,"lon":71.42385300,"rng_nm":150,"alt_fmsl":436,"id":"MT","desc":"MULTAN NDB"},
+{"type":"VOR","hdg_t":229.7,"dist_nm":107.5,"freq":116.7,"lat":30.19401900,"lon":71.41638900,"rng_nm":130,"alt_fmsl":423,"id":"MT","desc":"MULTAN VOR"},
+{"type":"NDB","hdg_t":287.3,"dist_nm":112.7,"freq":286,"lat":31.90871100,"lon":70.88848900,"rng_nm":150,"alt_fmsl":685,"id":"DI","desc":"D I KHAN NDB"}
+]
+}

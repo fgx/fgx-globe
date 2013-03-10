@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"TXKF","name":"Bermuda Intl","lat":32.3640385,"lon":-64.6786835,"rwys":1,"ils":1,"index":1891985,"path":"w070n30/w065n32"
+,"runways":[
+{"len_m":2961,"wid_m":45.72,"hdg":101,"surf":"Asphalt","rwy1":"12","lat1":32.36669100,"lon1":-64.69410300,"rwy2":"30","lat2":32.36138600,"lon2":-64.66326400}
+]
+,"radios":[
+{"type":"CTAF","freq":122.8,"desc":"CTAF"},
+{"type":"CLD","freq":124.5,"desc":"CLNC DEL"},
+{"type":"GND","freq":124.5,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119.1,"desc":"NEW YORK APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":32.36699400,"lon":-64.69586700,"rng_nm":18,"alt_fmsl":11,"hdg":281.50,"id":"IBDA","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.9,"lat":32.36127800,"lon":-64.66668100,"rng_nm":10,"alt_fmsl":11,"id":"IBDA","rwy":"30","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":272,"dist_nm":0.5,"freq":113.9,"lat":32.36436111,"lon":-64.68958333,"rng_nm":130,"alt_fmsl":11,"id":"BDA","desc":"BERMUDA VOR-DME"},
+{"type":"NDB","hdg_t":294.2,"dist_nm":587.9,"freq":370,"lat":35.91533333,"lon":-75.69505556,"rng_nm":50,"alt_fmsl":0,"id":"MQI","desc":"MANTEO NDB"},
+{"type":"VOR","hdg_t":294.2,"dist_nm":588.1,"freq":111.6,"lat":35.92050000,"lon":-75.69694444,"rng_nm":25,"alt_fmsl":10,"id":"RBX","desc":"WRIGHT BROTHERS VOR-DME"},
+{"type":"VOR","hdg_t":335.8,"dist_nm":592.9,"freq":116.2,"lat":41.28188889,"lon":-70.02672222,"rng_nm":130,"alt_fmsl":99,"id":"ACK","desc":"NANTUCKET VOR-DME"},
+{"type":"NDB","hdg_t":336,"dist_nm":593.6,"freq":248,"lat":41.31127778,"lon":-69.98675000,"rng_nm":50,"alt_fmsl":0,"id":"AC","desc":"WAIVS NDB"},
+{"type":"VOR","hdg_t":333.9,"dist_nm":611.5,"freq":114.5,"lat":41.39622222,"lon":-70.61272222,"rng_nm":40,"alt_fmsl":59,"id":"MVY","desc":"MARTHAS VINEYARD VOR-DME"},
+{"type":"NDB","hdg_t":337,"dist_nm":614.1,"freq":279,"lat":41.69177778,"lon":-69.98980556,"rng_nm":50,"alt_fmsl":0,"id":"CQX","desc":"NAUSET NDB"},
+{"type":"VOR","hdg_t":295.3,"dist_nm":616.6,"freq":112.5,"lat":36.25758333,"lon":-76.17563889,"rng_nm":40,"alt_fmsl":10,"id":"ECG","desc":"ELIZABETH CITY VOR-DME"},
+{"type":"NDB","hdg_t":286.5,"dist_nm":617,"freq":269,"lat":34.73122222,"lon":-76.66211111,"rng_nm":50,"alt_fmsl":0,"id":"MRH","desc":"MOREHEAD NDB"},
+{"type":"NDB","hdg_t":336.2,"dist_nm":619.7,"freq":342,"lat":41.71613889,"lon":-70.20294444,"rng_nm":50,"alt_fmsl":0,"id":"HY","desc":"BOGEY NDB"}
+]
+}

@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OOTH","name":"Thumrait","lat":17.665986,"lon":54.024611,"rwys":1,"ils":1,"index":3840744,"path":"e050n10/e054n17"
+,"runways":[
+{"len_m":3989,"wid_m":45.11,"hdg":172,"surf":"Asphalt","rwy1":"17","lat1":17.68386100,"lon1":54.02219400,"rwy2":"35","lat2":17.64811100,"lon2":54.02702800}
+]
+,"radios":[
+{"type":"GND","freq":122,"desc":"GND"},
+{"type":"TWR","freq":118.6,"desc":"TWR"},
+{"type":"APP","freq":125,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":108.1,"lat":17.64428900,"lon":54.02751400,"rng_nm":18,"alt_fmsl":1570,"hdg":172.70,"id":"ITHT","rwy":"17","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.1,"lat":17.68088100,"lon":54.02176700,"rng_nm":10,"alt_fmsl":1570,"id":"ITHT","rwy":"17","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":17.68661400,"lon":54.02186100,"rng_nm":0,"alt_fmsl":1570,"id":"----","rwy":"17","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":25.3,"dist_nm":0.1,"freq":115.3,"lat":17.66825000,"lon":54.02572800,"rng_nm":25,"alt_fmsl":1570,"id":"TMR","desc":"THUMRAIT VORTAC"},
+{"type":"VOR","hdg_t":173.8,"dist_nm":37.3,"freq":112.3,"lat":17.04435600,"lon":54.09416700,"rng_nm":130,"alt_fmsl":111,"id":"SLL","desc":"SALALAH VOR-DME"},
+{"type":"NDB","hdg_t":174.7,"dist_nm":38.2,"freq":310,"lat":17.02853600,"lon":54.08583300,"rng_nm":75,"alt_fmsl":74,"id":"SAN","desc":"SALALAH NDB"},
+{"type":"VOR","hdg_t":66.4,"dist_nm":71.8,"freq":114.3,"lat":18.14221700,"lon":55.17789700,"rng_nm":130,"alt_fmsl":920,"id":"MRL","desc":"MARMUL VOR-DME"},
+{"type":"NDB","hdg_t":66.4,"dist_nm":75.3,"freq":337,"lat":18.16666700,"lon":55.23333300,"rng_nm":75,"alt_fmsl":890,"id":"OA","desc":"MARMUL NDB"},
+{"type":"NDB","hdg_t":230.7,"dist_nm":138.8,"freq":354,"lat":16.18806700,"lon":52.16194200,"rng_nm":300,"alt_fmsl":0,"id":"GDA","desc":"AL GHAIDAH NDB"},
+{"type":"VOR","hdg_t":42.6,"dist_nm":188.2,"freq":113.3,"lat":19.97031100,"lon":56.28083900,"rng_nm":130,"alt_fmsl":463,"id":"HAI","desc":"HAIMA VOR-DME"},
+{"type":"NDB","hdg_t":38,"dist_nm":277.9,"freq":326,"lat":21.30000000,"lon":57.08333300,"rng_nm":75,"alt_fmsl":443,"id":"OL","desc":"QARN ALAM NDB"},
+{"type":"NDB","hdg_t":359.7,"dist_nm":289.9,"freq":285,"lat":22.51666700,"lon":54.00000000,"rng_nm":25,"alt_fmsl":274,"id":"SYH","desc":"SHAYBA NDB"},
+{"type":"NDB","hdg_t":181.3,"dist_nm":300.9,"freq":280,"lat":12.63021900,"lon":53.90796700,"rng_nm":50,"alt_fmsl":150,"id":"SCT","desc":"SOCOTRA NDB"}
+]
+}

@@ -1,0 +1,41 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"NZWN","name":"Wellington Intl","lat":-41.32684332,"lon":174.80684208,"rwys":1,"ils":2,"index":5803051,"path":"e170s50/e174s42"
+,"runways":[
+{"len_m":1994,"wid_m":45.11,"hdg":182,"surf":"Asphalt","rwy1":"16","lat1":-41.31787264,"lon1":174.80742615,"rwy2":"34","lat2":-41.33581400,"lon2":174.80625800}
+]
+,"radios":[
+{"type":"ATIS","freq":126.9,"desc":"ATIS"},
+{"type":"CLD","freq":124.3,"desc":"CLNC DEL"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.8,"desc":"TWR"},
+{"type":"APP","freq":122.3,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-41.33641815,"lon":174.80625916,"rng_nm":18,"alt_fmsl":20,"hdg":182.84,"id":"IEB","rwy":"16","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.9,"lat":-41.31719971,"lon":174.80751038,"rng_nm":18,"alt_fmsl":20,"hdg":2.75,"id":"IMP","rwy":"34","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":-41.32163889,"lon":174.80641667,"rng_nm":18,"alt_fmsl":26,"id":"IEB","rwy":"16","desc":"GS","gs":3},
+{"type":"GS","freq":109.9,"lat":-41.33191667,"lon":174.80561111,"rng_nm":18,"alt_fmsl":6,"id":"IMP","rwy":"34","desc":"GS","gs":3},
+{"type":"DME","freq":110.3,"lat":-41.32163889,"lon":174.80644444,"rng_nm":18,"alt_fmsl":26,"id":"IEB","rwy":"16","desc":"DME-ILS"},
+{"type":"DME","freq":109.9,"lat":-41.33191667,"lon":174.80563889,"rng_nm":18,"alt_fmsl":7,"id":"IMP","rwy":"34","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":155.9,"dist_nm":0.7,"freq":298,"lat":-41.33823900,"lon":174.81359200,"rng_nm":100,"alt_fmsl":0,"id":"WN","desc":"WELLINGTON NDB"},
+{"type":"VOR","hdg_t":143.7,"dist_nm":0.7,"freq":112.3,"lat":-41.33722800,"lon":174.81696100,"rng_nm":50,"alt_fmsl":42,"id":"WN","desc":"WELLINGTON VOR-DME"},
+{"type":"NDB","hdg_t":9.3,"dist_nm":5.9,"freq":358,"lat":-41.22878600,"lon":174.82819200,"rng_nm":20,"alt_fmsl":0,"id":"NL","desc":"NEWLANDS NDB"},
+{"type":"NDB","hdg_t":2.7,"dist_nm":12.6,"freq":234,"lat":-41.11668600,"lon":174.82023100,"rng_nm":50,"alt_fmsl":0,"id":"TY","desc":"TITAHI BAY NDB"},
+{"type":"NDB","hdg_t":104.2,"dist_nm":15.9,"freq":226,"lat":-41.39181100,"lon":175.14901400,"rng_nm":55,"alt_fmsl":0,"id":"FY","desc":"FERRY NDB"},
+{"type":"VOR","hdg_t":292.6,"dist_nm":21.8,"freq":114.6,"lat":-41.18583333,"lon":174.36238889,"rng_nm":130,"alt_fmsl":1830,"id":"TR","desc":"TORY VOR-DME"},
+{"type":"NDB","hdg_t":17.5,"dist_nm":26.6,"freq":242,"lat":-40.90300000,"lon":174.98334700,"rng_nm":50,"alt_fmsl":38,"id":"PP","desc":"PARAPARAUMU NDB-DME"},
+{"type":"SDME","hdg_t":17.3,"dist_nm":26.6,"freq":117.3,"lat":-40.90274400,"lon":174.98189700,"rng_nm":50,"alt_fmsl":38,"id":"PP","desc":"PARAPARAUMU NDB-DME"},
+{"type":"NDB","hdg_t":224.4,"dist_nm":34.2,"freq":286,"lat":-41.73398100,"lon":174.27235300,"rng_nm":60,"alt_fmsl":0,"id":"CC","desc":"CAPE CAMPBELL NDB"},
+{"type":"VOR","hdg_t":254.5,"dist_nm":44.1,"freq":115.6,"lat":-41.51967500,"lon":173.86268100,"rng_nm":130,"alt_fmsl":109,"id":"WB","desc":"WOODBOURNE VOR-DME"},
+{"type":"NDB","hdg_t":31.9,"dist_nm":70.6,"freq":258,"lat":-40.32427800,"lon":175.62119400,"rng_nm":60,"alt_fmsl":0,"id":"PM","desc":"PALMERSTON NORTH NDB"},
+{"type":"VOR","hdg_t":32.3,"dist_nm":71.2,"freq":113.4,"lat":-40.32025000,"lon":175.63786100,"rng_nm":60,"alt_fmsl":149,"id":"PM","desc":"PALMERSTON NORTH VOR-DME"},
+{"type":"VOR","hdg_t":270.6,"dist_nm":71.6,"freq":116.4,"lat":-41.30169444,"lon":173.22252778,"rng_nm":130,"alt_fmsl":6,"id":"NS","desc":"NELSON VOR-DME"},
+{"type":"VOR","hdg_t":21.9,"dist_nm":72.1,"freq":109,"lat":-40.20961111,"lon":175.39197222,"rng_nm":50,"alt_fmsl":164,"id":"OH","desc":"OHAKEA VORTAC"},
+{"type":"NDB","hdg_t":21.7,"dist_nm":72.5,"freq":218,"lat":-40.20161400,"lon":175.39302500,"rng_nm":75,"alt_fmsl":0,"id":"OH","desc":"OHAKEA NDB"},
+{"type":"NDB","hdg_t":216.8,"dist_nm":82.3,"freq":350,"lat":-42.42039400,"lon":173.69553300,"rng_nm":35,"alt_fmsl":0,"id":"KI","desc":"KAIKOURA NDB"},
+{"type":"NDB","hdg_t":7,"dist_nm":82.6,"freq":382,"lat":-39.95937800,"lon":175.02650300,"rng_nm":50,"alt_fmsl":27,"id":"WU","desc":"WANGANUI NDB-DME"},
+{"type":"SDME","hdg_t":7,"dist_nm":82.6,"freq":116,"lat":-39.95898300,"lon":175.02665800,"rng_nm":50,"alt_fmsl":27,"id":"WU","desc":"WANGANUI NDB-DME"}
+]
+}

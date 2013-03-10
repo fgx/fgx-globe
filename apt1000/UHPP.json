@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UHPP","name":"Yelizovo","lat":53.167885575,"lon":158.45366755,"rwys":2,"ils":1,"index":5546953,"path":"e150n50/e158n53"
+,"runways":[
+{"len_m":3401,"wid_m":60.05,"hdg":157,"surf":"Concrete","rwy1":"16L","lat1":53.18418615,"lon1":158.44402502,"rwy2":"34R","lat2":53.15600615,"lon2":158.46371102},
+{"len_m":2510,"wid_m":60.05,"hdg":157,"surf":"Concrete","rwy1":"16R","lat1":53.17608300,"lon1":158.44623808,"rwy2":"34L","lat2":53.15526700,"lon2":158.46069608}
+]
+,"radios":[
+{"type":"TWR","freq":118.1,"desc":"PETROPAVLOVSK START"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":53.19166700,"lon":158.43666700,"rng_nm":18,"alt_fmsl":131,"hdg":335.55,"id":"IPR","rwy":"34R","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":53.15833300,"lon":158.46166700,"rng_nm":10,"alt_fmsl":131,"id":"IPR","rwy":"34R","desc":"GS","gs":2.7},
+{"type":"OM","freq":0,"lat":53.11333300,"lon":158.49000000,"rng_nm":0,"alt_fmsl":131,"id":"----","rwy":"34R","desc":"OM"},
+{"type":"MM","freq":0,"lat":53.14500000,"lon":158.46833300,"rng_nm":0,"alt_fmsl":131,"id":"----","rwy":"34R","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":157.2,"dist_nm":3.5,"freq":535,"lat":53.11338889,"lon":158.49166667,"rng_nm":50,"alt_fmsl":0,"id":"PR","desc":"PETROPAVLOVSK-KAM NDB"},
+{"type":"NDB","hdg_t":129.1,"dist_nm":15.7,"freq":685,"lat":53.00166700,"lon":158.79166700,"rng_nm":80,"alt_fmsl":0,"id":"HY","desc":"KHALAKTYRKA NDB"},
+{"type":"NDB","hdg_t":285.4,"dist_nm":34.3,"freq":345,"lat":53.31672222,"lon":157.53497222,"rng_nm":50,"alt_fmsl":0,"id":"MK","desc":"MALKA NDB"},
+{"type":"NDB","hdg_t":255.9,"dist_nm":81.9,"freq":907,"lat":52.81672222,"lon":156.26827778,"rng_nm":50,"alt_fmsl":0,"id":"UB","desc":"UST-BOLSHERETSK NDB"},
+{"type":"NDB","hdg_t":3.3,"dist_nm":92.6,"freq":592,"lat":54.70666700,"lon":158.61000000,"rng_nm":80,"alt_fmsl":0,"id":"MW","desc":"MILKOVO NDB"},
+{"type":"NDB","hdg_t":37,"dist_nm":235.3,"freq":410,"lat":56.22336111,"lon":162.68686111,"rng_nm":50,"alt_fmsl":0,"id":"UK","desc":"UST-KAMCHATSK NDB"},
+{"type":"NDB","hdg_t":347,"dist_nm":246,"freq":965,"lat":57.14666700,"lon":156.76833300,"rng_nm":80,"alt_fmsl":0,"id":"UH","desc":"UST-KHAYRUZOVO NDB"},
+{"type":"NDB","hdg_t":62.6,"dist_nm":293.3,"freq":595,"lat":55.17497222,"lon":166.04355556,"rng_nm":50,"alt_fmsl":0,"id":"NK","desc":"NIKOLSKOYE NDB"},
+{"type":"NDB","hdg_t":21,"dist_nm":396.1,"freq":600,"lat":59.23833300,"lon":163.06833300,"rng_nm":80,"alt_fmsl":0,"id":"OS","desc":"OSSORA NDB"},
+{"type":"NDB","hdg_t":345.1,"dist_nm":440.6,"freq":995,"lat":60.20000000,"lon":154.68333300,"rng_nm":80,"alt_fmsl":0,"id":"TA","desc":"TAKHTAYAMSK NDB"}
+]
+}

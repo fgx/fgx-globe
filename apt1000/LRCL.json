@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LRCL","name":"Cluj Napoca","lat":46.7851095,"lon":23.6861665,"rwys":1,"ils":1,"index":3334706,"path":"e020n40/e023n46"
+,"runways":[
+{"len_m":1847,"wid_m":29.87,"hdg":78,"surf":"Concrete","rwy1":"08","lat1":46.78352500,"lon1":23.67429400,"rwy2":"26","lat2":46.78669400,"lon2":23.69803900}
+]
+,"radios":[
+{"type":"TWR","freq":134.4,"desc":"TWR"},
+{"type":"APP","freq":125.1,"desc":"APP"},
+{"type":"APP","freq":118.7,"desc":"PRECISION"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":46.78316900,"lon":23.67191400,"rng_nm":18,"alt_fmsl":1025,"hdg":258.84,"id":"ICL","rwy":"26","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":46.78724700,"lon":23.69361100,"rng_nm":10,"alt_fmsl":1025,"id":"ICL","rwy":"26","desc":"GS","gs":3.2},
+{"type":"DME","freq":110.3,"lat":46.78724700,"lon":23.69387200,"rng_nm":18,"alt_fmsl":1100,"id":"ICL","rwy":"26","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":77.7,"dist_nm":4.2,"freq":111.2,"lat":46.80011900,"lon":23.78725300,"rng_nm":175,"alt_fmsl":1549,"id":"CLJ","desc":"CLUJ VOR-DME"},
+{"type":"NDB","hdg_t":128.1,"dist_nm":32.7,"freq":428,"lat":46.44691400,"lon":24.30658300,"rng_nm":80,"alt_fmsl":942,"id":"TGM","desc":"TARGU MURES NDB"},
+{"type":"NDB","hdg_t":345.4,"dist_nm":54.9,"freq":404,"lat":47.67121700,"lon":23.34596900,"rng_nm":100,"alt_fmsl":531,"id":"BMR","desc":"BAIA MARE NDB"},
+{"type":"VOR","hdg_t":164.3,"dist_nm":62.5,"freq":114,"lat":45.78088379,"lon":24.08779907,"rng_nm":50,"alt_fmsl":1495,"id":"SBI","desc":"SIBIU VOR-DME"},
+{"type":"NDB","hdg_t":161.9,"dist_nm":63,"freq":381,"lat":45.78501100,"lon":24.15258100,"rng_nm":100,"alt_fmsl":1414,"id":"SIB","desc":"SIBIU NDB"},
+{"type":"VOR","hdg_t":207.7,"dist_nm":64.7,"freq":109.8,"lat":45.82801400,"lon":22.96891400,"rng_nm":100,"alt_fmsl":810,"id":"DVA","desc":"DEVA VOR-DME"},
+{"type":"NDB","hdg_t":330.3,"dist_nm":65,"freq":365,"lat":47.72360300,"lon":22.89254700,"rng_nm":75,"alt_fmsl":404,"id":"SAT","desc":"SATU MARE NDB"},
+{"type":"VOR","hdg_t":330.5,"dist_nm":65.1,"freq":108.4,"lat":47.72741700,"lon":22.89387200,"rng_nm":150,"alt_fmsl":405,"id":"SAT","desc":"SATU MARE VOR-DME"},
+{"type":"NDB","hdg_t":285.2,"dist_nm":74.8,"freq":418,"lat":47.10034700,"lon":21.92413100,"rng_nm":100,"alt_fmsl":656,"id":"ORA","desc":"ORADEA NDB"},
+{"type":"NDB","hdg_t":299.4,"dist_nm":93.3,"freq":383,"lat":47.53325000,"lon":21.68805600,"rng_nm":25,"alt_fmsl":360,"id":"EN","desc":"EN NDB"},
+{"type":"NDB","hdg_t":296.5,"dist_nm":95.2,"freq":326,"lat":47.47530600,"lon":21.59311400,"rng_nm":25,"alt_fmsl":0,"id":"C","desc":"DEBRECEN NDB"},
+{"type":"NDB","hdg_t":295.6,"dist_nm":95.8,"freq":295,"lat":47.45671900,"lon":21.56302800,"rng_nm":25,"alt_fmsl":361,"id":"DC","desc":"DEBRECEN NDB"}
+]
+}

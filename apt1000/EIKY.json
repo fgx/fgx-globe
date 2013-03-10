@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EIKY","name":"Kerry","lat":52.181322365,"lon":-9.52760022,"rwys":2,"ils":1,"index":2794377,"path":"w010n50/w010n52"
+,"runways":[
+{"len_m":2000,"wid_m":45.11,"hdg":71,"surf":"Asphalt","rwy1":"08","lat1":52.17798600,"lon1":-9.53762800,"rwy2":"26","lat2":52.18376700,"lon2":-9.50993900},
+{"len_m":1241,"wid_m":30.48,"hdg":58,"surf":"Concrete","rwy1":"05","lat1":52.17882795,"lon1":-9.53912783,"rwy2":"23","lat2":52.18470851,"lon2":-9.52370605}
+]
+,"radios":[
+{"type":"GND","freq":121.6,"desc":"GND"},
+{"type":"TWR","freq":123.32,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":108.7,"lat":52.17714400,"lon":-9.54165600,"rng_nm":18,"alt_fmsl":82,"hdg":251.18,"id":"IKR","rwy":"26","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.7,"lat":52.18393300,"lon":-9.51506700,"rng_nm":10,"alt_fmsl":44,"id":"IKR","rwy":"26","desc":"GS","gs":3},
+{"type":"DME","freq":108.7,"lat":52.18211100,"lon":-9.52446400,"rng_nm":18,"alt_fmsl":113,"id":"IKR","rwy":"26","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":66.4,"dist_nm":0.1,"freq":334,"lat":52.18215600,"lon":-9.52448900,"rng_nm":25,"alt_fmsl":0,"id":"KER","desc":"KERRY NDB"},
+{"type":"NDB","hdg_t":27.7,"dist_nm":26.1,"freq":395,"lat":52.56625600,"lon":-9.19541100,"rng_nm":50,"alt_fmsl":0,"id":"FOY","desc":"FOYNES NDB"},
+{"type":"VOR","hdg_t":35.7,"dist_nm":40,"freq":113.3,"lat":52.72101100,"lon":-8.88521400,"rng_nm":100,"alt_fmsl":130,"id":"SHA","desc":"SHANNON VOR-DME"},
+{"type":"VOR","hdg_t":117.7,"dist_nm":43.4,"freq":114.6,"lat":51.84060800,"lon":-8.49426900,"rng_nm":130,"alt_fmsl":500,"id":"CRK","desc":"CORK VOR-DME"},
+{"type":"NDB","hdg_t":26.5,"dist_nm":48.7,"freq":352,"lat":52.90515300,"lon":-8.92777200,"rng_nm":25,"alt_fmsl":0,"id":"ENS","desc":"ENNIS NDB"},
+{"type":"NDB","hdg_t":17.4,"dist_nm":70.5,"freq":321,"lat":53.29940800,"lon":-8.94088100,"rng_nm":25,"alt_fmsl":0,"id":"CRN","desc":"GALWAY NDB"},
+{"type":"NDB","hdg_t":76.9,"dist_nm":77.1,"freq":387,"lat":52.45375000,"lon":-7.48007500,"rng_nm":50,"alt_fmsl":0,"id":"CML","desc":"CLONMEL NDB"},
+{"type":"NDB","hdg_t":88.7,"dist_nm":90.2,"freq":368,"lat":52.18900000,"lon":-7.08334400,"rng_nm":15,"alt_fmsl":0,"id":"WTD","desc":"WATERFORD NDB"},
+{"type":"NDB","hdg_t":11.4,"dist_nm":105.2,"freq":364,"lat":53.89650300,"lon":-8.93700000,"rng_nm":10,"alt_fmsl":0,"id":"KNK","desc":"CONNAUGHT NDB"},
+{"type":"VOR","hdg_t":13.5,"dist_nm":106.8,"freq":117.4,"lat":53.90802500,"lon":-8.82010300,"rng_nm":100,"alt_fmsl":700,"id":"CON","desc":"CONNAUGHT VOR-DME"}
+]
+}

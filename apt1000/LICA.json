@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LICA","name":"Lamezia Terme","lat":38.905394,"lon":16.242271,"rwys":1,"ils":1,"index":3219512,"path":"e010n30/e016n38"
+,"runways":[
+{"len_m":2400,"wid_m":45.11,"hdg":98,"surf":"Asphalt","rwy1":"10","lat1":38.90699400,"lon1":16.22858900,"rwy2":"28","lat2":38.90379400,"lon2":16.25595300}
+]
+,"radios":[
+{"type":"TWR","freq":122.1,"desc":"TWR"},
+{"type":"APP","freq":122.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":38.90731400,"lon":16.22585300,"rng_nm":18,"alt_fmsl":21,"hdg":278.54,"id":"LAM","rwy":"28","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":38.90330600,"lon":16.25037200,"rng_nm":10,"alt_fmsl":21,"id":"LAM","rwy":"28","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":38.89406400,"lon":16.33576900,"rng_nm":0,"alt_fmsl":21,"id":"----","rwy":"28","desc":"OM"},
+{"type":"MM","freq":0,"lat":38.90269200,"lon":16.26537500,"rng_nm":0,"alt_fmsl":21,"id":"----","rwy":"28","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":38.90330600,"lon":16.25037200,"rng_nm":25,"alt_fmsl":21,"id":"LAM","rwy":"28","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":93,"dist_nm":1,"freq":112.5,"lat":38.90443500,"lon":16.26555100,"rng_nm":25,"alt_fmsl":52,"id":"LMT","desc":"LAMEZIA VOR-DME"},
+{"type":"VOR","hdg_t":146.3,"dist_nm":10.7,"freq":117.3,"lat":38.75583300,"lon":16.36916700,"rng_nm":200,"alt_fmsl":3274,"id":"CDC","desc":"CARAFFA DI CATANZARO VORTAC"},
+{"type":"VOR","hdg_t":81.8,"dist_nm":39.7,"freq":117.1,"lat":38.99611300,"lon":17.08305400,"rng_nm":150,"alt_fmsl":548,"id":"CRN","desc":"CROTONE VOR-DME"},
+{"type":"VOR","hdg_t":209.6,"dist_nm":57.1,"freq":111,"lat":38.07610300,"lon":15.64527500,"rng_nm":25,"alt_fmsl":88,"id":"RCA","desc":"REGGIO CALABRIA VOR-DME"},
+{"type":"NDB","hdg_t":207.7,"dist_nm":60.3,"freq":325,"lat":38.01277800,"lon":15.65027800,"rng_nm":50,"alt_fmsl":308,"id":"RCA","desc":"REGGIO CALABRIA NDB"},
+{"type":"VOR","hdg_t":213.2,"dist_nm":102.8,"freq":116.25,"lat":37.46443400,"lon":15.06222500,"rng_nm":200,"alt_fmsl":46,"id":"CTF","desc":"CATANIA FONTANAROSSA VOR-DME"},
+{"type":"NDB","hdg_t":213.2,"dist_nm":102.8,"freq":407,"lat":37.46363900,"lon":15.06255600,"rng_nm":80,"alt_fmsl":21,"id":"CTF","desc":"CATANIA FONTANAROSSA NDB"},
+{"type":"VOR","hdg_t":215.1,"dist_nm":105.6,"freq":112.1,"lat":37.45617500,"lon":14.96931700,"rng_nm":50,"alt_fmsl":217,"id":"CAT","desc":"CATANIA VOR-DME"},
+{"type":"NDB","hdg_t":215.2,"dist_nm":105.7,"freq":345,"lat":37.45688300,"lon":14.96570000,"rng_nm":80,"alt_fmsl":0,"id":"CAT","desc":"CATANIA NDB"},
+{"type":"NDB","hdg_t":30.2,"dist_nm":107.3,"freq":331,"lat":40.44583300,"lon":17.42222200,"rng_nm":25,"alt_fmsl":367,"id":"GRT","desc":"GROTTAGLIE NDB"}
+]
+}

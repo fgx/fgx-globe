@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"EYPA","name":"Palanga Intl","lat":55.9731155,"lon":21.093811,"rwys":1,"ils":1,"index":3302520,"path":"e020n50/e021n55"
+,"runways":[
+{"len_m":1975,"wid_m":39.93,"hdg":12,"surf":"Asphalt","rwy1":"01","lat1":55.96446400,"lon1":21.09032500,"rwy2":"19","lat2":55.98176700,"lon2":21.09729700}
+]
+,"radios":[
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"APP","freq":124.3,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":55.95994700,"lon":21.08850600,"rng_nm":18,"alt_fmsl":33,"hdg":192.71,"id":"IAN","rwy":"19","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":55.97884400,"lon":21.09825800,"rng_nm":10,"alt_fmsl":33,"id":"IAN","rwy":"19","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":55.95640300,"lon":21.08708100,"rng_nm":0,"alt_fmsl":33,"id":"----","rwy":"19","desc":"MM"},
+{"type":"DME","freq":110.1,"lat":55.97884400,"lon":21.09825600,"rng_nm":18,"alt_fmsl":39,"id":"IAN","rwy":"19","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":192.7,"dist_nm":1,"freq":407,"lat":55.95640300,"lon":21.08708100,"rng_nm":25,"alt_fmsl":0,"id":"PN","desc":"PALANGA NDB"},
+{"type":"VOR","hdg_t":161.7,"dist_nm":16.2,"freq":113.9,"lat":55.71561900,"lon":21.24380000,"rng_nm":40,"alt_fmsl":82,"id":"KLA","desc":"KLAIPEDA VOR-DME"},
+{"type":"VOR","hdg_t":359.8,"dist_nm":32.7,"freq":116.95,"lat":56.51855600,"lon":21.09197200,"rng_nm":50,"alt_fmsl":30,"id":"LEP","desc":"LIEPAJA VOR-DME"},
+{"type":"NDB","hdg_t":122.6,"dist_nm":60.8,"freq":372,"lat":55.41685600,"lon":22.59275000,"rng_nm":25,"alt_fmsl":0,"id":"SKD","desc":"SKAUDVILE NDB"},
+{"type":"NDB","hdg_t":192.8,"dist_nm":65.5,"freq":840,"lat":54.91000000,"lon":20.67166700,"rng_nm":80,"alt_fmsl":0,"id":"KR","desc":"KALININGRAD NDB"},
+{"type":"SDME","hdg_t":92.6,"dist_nm":78,"freq":116.3,"lat":55.89045000,"lon":23.40238300,"rng_nm":40,"alt_fmsl":469,"id":"SQQ","desc":"SIAULIAI TACAN"},
+{"type":"VOR","hdg_t":93.1,"dist_nm":78.5,"freq":115.2,"lat":55.87902500,"lon":23.41641900,"rng_nm":130,"alt_fmsl":472,"id":"SAU","desc":"SIAULIAI VOR-DME"},
+{"type":"VOR","hdg_t":10.1,"dist_nm":85.1,"freq":113.6,"lat":57.36694400,"lon":21.55622200,"rng_nm":130,"alt_fmsl":0,"id":"VNT","desc":"VENTSPILS VOR-DME"},
+{"type":"VOR","hdg_t":58.6,"dist_nm":110.6,"freq":113.7,"lat":56.89741400,"lon":23.96696400,"rng_nm":50,"alt_fmsl":60,"id":"RIX","desc":"RIGA VOR-DME"},
+{"type":"VOR","hdg_t":58,"dist_nm":111.2,"freq":112.05,"lat":56.92086100,"lon":23.96519400,"rng_nm":130,"alt_fmsl":100,"id":"RIA","desc":"RIGA VOR-DME"}
+]
+}

@@ -1,0 +1,41 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LEGR","name":"Granada","lat":37.188731,"lon":-3.777359,"rwys":1,"ils":1,"index":2891720,"path":"w010n30/w004n37"
+,"runways":[
+{"len_m":2904,"wid_m":44.81,"hdg":89,"surf":"Asphalt","rwy1":"09","lat1":37.18861045,"lon1":-3.79371670,"rwy2":"27","lat2":37.18885155,"lon2":-3.76100130}
+]
+,"radios":[
+{"type":"GND","freq":121.7,"desc":"GRANADA GND"},
+{"type":"TWR","freq":118.85,"desc":"GRANADA TWR"},
+{"type":"APP","freq":118.85,"desc":"GRANADA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":37.18886900,"lon":-3.75828100,"rng_nm":18,"alt_fmsl":1860,"hdg":89.49,"id":"GRD","rwy":"09","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":37.18975000,"lon":-3.78971700,"rng_nm":10,"alt_fmsl":1860,"id":"GRD","rwy":"09","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":37.18791400,"lon":-3.87835000,"rng_nm":0,"alt_fmsl":1860,"id":"----","rwy":"09","desc":"OM"},
+{"type":"MM","freq":0,"lat":37.18854200,"lon":-3.80588100,"rng_nm":0,"alt_fmsl":1860,"id":"----","rwy":"09","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":89.5,"dist_nm":4.7,"freq":412,"lat":37.18935000,"lon":-3.67771400,"rng_nm":20,"alt_fmsl":0,"id":"GRA","desc":"GRANADA NDB"},
+{"type":"NDB","hdg_t":189.7,"dist_nm":7,"freq":344,"lat":37.07347200,"lon":-3.80208300,"rng_nm":25,"alt_fmsl":0,"id":"ARM","desc":"ARMILLA NDB"},
+{"type":"SDME","hdg_t":116,"dist_nm":7.6,"freq":113.1,"lat":37.13253300,"lon":-3.63380000,"rng_nm":25,"alt_fmsl":2304,"id":"TGR","desc":"ARMILLA TACAN"},
+{"type":"VOR","hdg_t":268.2,"dist_nm":10.2,"freq":113.4,"lat":37.18317800,"lon":-3.99090600,"rng_nm":130,"alt_fmsl":1991,"id":"GDA","desc":"GRANADA VOR-DME"},
+{"type":"VOR","hdg_t":231.9,"dist_nm":36.2,"freq":112,"lat":36.81431100,"lon":-4.36951900,"rng_nm":130,"alt_fmsl":3396,"id":"MGA","desc":"MALAGA VOR-DME"},
+{"type":"NDB","hdg_t":226.8,"dist_nm":46.2,"freq":330,"lat":36.65891900,"lon":-4.47674400,"rng_nm":60,"alt_fmsl":0,"id":"RMA","desc":"MALAGA NDB"},
+{"type":"VOR","hdg_t":229.1,"dist_nm":46.5,"freq":113.55,"lat":36.67873900,"lon":-4.50666900,"rng_nm":130,"alt_fmsl":75,"id":"MLG","desc":"MALAGA VOR-DME"},
+{"type":"NDB","hdg_t":234.2,"dist_nm":47.1,"freq":350,"lat":36.72650600,"lon":-4.57144700,"rng_nm":25,"alt_fmsl":0,"id":"GM","desc":"MALAGA NDB"},
+{"type":"VOR","hdg_t":262.1,"dist_nm":56.3,"freq":112.6,"lat":37.05531900,"lon":-4.93988900,"rng_nm":100,"alt_fmsl":2267,"id":"MAR","desc":"MARTIN VOR-DME"},
+{"type":"NDB","hdg_t":6.9,"dist_nm":58.1,"freq":418,"lat":38.15151100,"lon":-3.62917200,"rng_nm":30,"alt_fmsl":0,"id":"BAI","desc":"BAILEN NDB"},
+{"type":"VOR","hdg_t":7.1,"dist_nm":58.2,"freq":116.2,"lat":38.15251700,"lon":-3.62501100,"rng_nm":130,"alt_fmsl":1788,"id":"BLN","desc":"BAILEN VOR-DME"},
+{"type":"NDB","hdg_t":307.8,"dist_nm":64.3,"freq":366,"lat":37.84273600,"lon":-4.84681100,"rng_nm":10,"alt_fmsl":0,"id":"COR","desc":"CORDOBA NDB"},
+{"type":"VOR","hdg_t":308,"dist_nm":64.4,"freq":112.4,"lat":37.84592500,"lon":-4.84498300,"rng_nm":130,"alt_fmsl":325,"id":"CDB","desc":"CORDOBA VOR-DME"},
+{"type":"NDB","hdg_t":106.4,"dist_nm":70.2,"freq":310,"lat":36.84836900,"lon":-2.37915600,"rng_nm":60,"alt_fmsl":0,"id":"AMN","desc":"ALMERIA NDB"},
+{"type":"VOR","hdg_t":105.8,"dist_nm":75.9,"freq":114.1,"lat":36.83316700,"lon":-2.25942200,"rng_nm":130,"alt_fmsl":233,"id":"AMR","desc":"ALMERIA VOR-DME"},
+{"type":"NDB","hdg_t":103.7,"dist_nm":76.2,"freq":284,"lat":36.87583300,"lon":-2.23990600,"rng_nm":15,"alt_fmsl":0,"id":"AM","desc":"ALMERIA NDB"},
+{"type":"NDB","hdg_t":274.7,"dist_nm":85.7,"freq":428,"lat":37.29458300,"lon":-5.56213900,"rng_nm":40,"alt_fmsl":0,"id":"MNF","desc":"MORON NDB"},
+{"type":"VOR","hdg_t":270,"dist_nm":88.3,"freq":115.5,"lat":37.17508300,"lon":-5.61891700,"rng_nm":130,"alt_fmsl":285,"id":"MRN","desc":"MORON VOR-DME"},
+{"type":"SDME","hdg_t":269.9,"dist_nm":88.3,"freq":115.3,"lat":37.17319400,"lon":-5.61963900,"rng_nm":40,"alt_fmsl":285,"id":"MRN","desc":"MORON TACAN"},
+{"type":"NDB","hdg_t":278.7,"dist_nm":97.5,"freq":420,"lat":37.41805800,"lon":-5.79551700,"rng_nm":40,"alt_fmsl":0,"id":"SPP","desc":"SEVILLA NDB"},
+{"type":"VOR","hdg_t":43.5,"dist_nm":97.6,"freq":115.2,"lat":38.36077800,"lon":-2.35275300,"rng_nm":130,"alt_fmsl":4793,"id":"YES","desc":"YESTE VOR-DME"},
+{"type":"SDME","hdg_t":230.7,"dist_nm":98.1,"freq":113.6,"lat":36.14288900,"lon":-5.34272200,"rng_nm":130,"alt_fmsl":1397,"id":"GBR","desc":"GIBRALTAR TACAN"}
+]
+}

@@ -1,0 +1,39 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LEXJ","name":"Santander","lat":43.4271875,"lon":-3.8204705,"rwys":1,"ils":1,"index":2892120,"path":"w010n40/w004n43"
+,"runways":[
+{"len_m":2320,"wid_m":45.11,"hdg":110,"surf":"Asphalt","rwy1":"11","lat1":43.43078300,"lon1":-3.83392200,"rwy2":"29","lat2":43.42359200,"lon2":-3.80701900}
+]
+,"radios":[
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":118.37,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.9,"lat":43.43140600,"lon":-3.83626100,"rng_nm":18,"alt_fmsl":16,"hdg":290.19,"id":"STA","rwy":"29","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.9,"lat":43.42563900,"lon":-3.81020300,"rng_nm":10,"alt_fmsl":16,"id":"STA","rwy":"29","desc":"GS","gs":3},
+{"type":"DME","freq":110.9,"lat":43.42563900,"lon":-3.81020300,"rng_nm":18,"alt_fmsl":26,"id":"STA","rwy":"29","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":290.1,"dist_nm":1.3,"freq":416,"lat":43.43504400,"lon":-3.84990000,"rng_nm":25,"alt_fmsl":0,"id":"SA","desc":"SANTANDER NDB"},
+{"type":"VOR","hdg_t":290.7,"dist_nm":3.8,"freq":115.3,"lat":43.44978100,"lon":-3.90241100,"rng_nm":130,"alt_fmsl":164,"id":"SNR","desc":"SANTANDER VOR-DME"},
+{"type":"VOR","hdg_t":100.4,"dist_nm":39.4,"freq":115.9,"lat":43.30438100,"lon":-2.93587800,"rng_nm":130,"alt_fmsl":141,"id":"BLV","desc":"BILBAO VOR-DME"},
+{"type":"VOR","hdg_t":123.8,"dist_nm":58.2,"freq":112.9,"lat":42.88063300,"lon":-2.72435000,"rng_nm":130,"alt_fmsl":1696,"id":"VFD","desc":"VITORIA VOR-DME"},
+{"type":"NDB","hdg_t":120.4,"dist_nm":58.3,"freq":345,"lat":42.92808900,"lon":-2.67961400,"rng_nm":25,"alt_fmsl":0,"id":"VTA","desc":"VITORIA NDB"},
+{"type":"VOR","hdg_t":134.4,"dist_nm":59.1,"freq":116.6,"lat":42.73188300,"lon":-2.86558300,"rng_nm":130,"alt_fmsl":1903,"id":"VRA","desc":"VITORIA VOR-DME"},
+{"type":"NDB","hdg_t":172.6,"dist_nm":64.6,"freq":357,"lat":42.35813100,"lon":-3.63538300,"rng_nm":50,"alt_fmsl":2945,"id":"BGS","desc":"BURGOS NDB"},
+{"type":"VOR","hdg_t":171.8,"dist_nm":64.9,"freq":111.4,"lat":42.35496900,"lon":-3.61358300,"rng_nm":50,"alt_fmsl":2970,"id":"VIA","desc":"BURGOS VOR-DME"},
+{"type":"VOR","hdg_t":144.3,"dist_nm":71.6,"freq":112.6,"lat":42.45330600,"lon":-2.88070600,"rng_nm":130,"alt_fmsl":2126,"id":"DGO","desc":"DOMINGO VOR-DME"},
+{"type":"VOR","hdg_t":188.7,"dist_nm":84.9,"freq":116.75,"lat":42.02760800,"lon":-4.10913100,"rng_nm":40,"alt_fmsl":3002,"id":"NEA","desc":"TABANERA VOR-DME"},
+{"type":"VOR","hdg_t":93.8,"dist_nm":87.3,"freq":117.9,"lat":43.31119700,"lon":-1.83039200,"rng_nm":40,"alt_fmsl":804,"id":"SSN","desc":"SAN SEBASTIAN VOR-DME"},
+{"type":"VOR","hdg_t":130.8,"dist_nm":87.7,"freq":115.45,"lat":42.46053600,"lon":-2.32691100,"rng_nm":40,"alt_fmsl":1348,"id":"LPA","desc":"LOGRONO VOR-DME"},
+{"type":"NDB","hdg_t":130.9,"dist_nm":88.4,"freq":399,"lat":42.45134200,"lon":-2.31473600,"rng_nm":45,"alt_fmsl":0,"id":"EAG","desc":"LOGRONO NDB"},
+{"type":"NDB","hdg_t":90.8,"dist_nm":88.5,"freq":328,"lat":43.38627800,"lon":-1.79588600,"rng_nm":50,"alt_fmsl":433,"id":"HIG","desc":"SAN SEBASTIAN NDB-DME"},
+{"type":"SDME","hdg_t":90.8,"dist_nm":88.5,"freq":113.2,"lat":43.38628100,"lon":-1.79576900,"rng_nm":50,"alt_fmsl":433,"id":"HIG","desc":"SAN SEBASTIAN NDB-DME"},
+{"type":"NDB","hdg_t":274.8,"dist_nm":92.4,"freq":387,"lat":43.53908300,"lon":-5.93052800,"rng_nm":40,"alt_fmsl":0,"id":"AV","desc":"ASTURIAS NDB"},
+{"type":"VOR","hdg_t":238.7,"dist_nm":94.6,"freq":112,"lat":42.59376900,"lon":-5.64614400,"rng_nm":25,"alt_fmsl":3013,"id":"EON","desc":"LEON VOR-DME"},
+{"type":"NDB","hdg_t":238.5,"dist_nm":94.9,"freq":330,"lat":42.58661100,"lon":-5.64805600,"rng_nm":50,"alt_fmsl":0,"id":"LEN","desc":"LEON NDB"},
+{"type":"NDB","hdg_t":275.4,"dist_nm":96.7,"freq":325,"lat":43.55784200,"lon":-6.02839200,"rng_nm":60,"alt_fmsl":0,"id":"AST","desc":"ASTURIAS NDB"},
+{"type":"VOR","hdg_t":275.6,"dist_nm":96.8,"freq":112.4,"lat":43.56459200,"lon":-6.03066900,"rng_nm":130,"alt_fmsl":440,"id":"VES","desc":"ASTURIAS VOR-DME"},
+{"type":"NDB","hdg_t":109.2,"dist_nm":98.3,"freq":354,"lat":42.86666489,"lon":-1.71683335,"rng_nm":15,"alt_fmsl":1468,"id":"PP","desc":"Pamplona NDB"}
+]
+}

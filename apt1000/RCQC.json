@@ -1,0 +1,41 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RCQC","name":"Magong","lat":23.5686695,"lon":119.6283125,"rwys":1,"ils":1,"index":4906082,"path":"e110n20/e119n23"
+,"runways":[
+{"len_m":2989,"wid_m":45.11,"hdg":18,"surf":"Concrete","rwy1":"02","lat1":23.55584700,"lon1":119.62374400,"rwy2":"20","lat2":23.58149200,"lon2":119.63288100}
+]
+,"radios":[
+{"type":"ATIS","freq":127.5,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":126.18,"desc":"TWR"},
+{"type":"TWR","freq":118.3,"desc":"TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":109.1,"lat":23.58511100,"lon":119.63413900,"rng_nm":18,"alt_fmsl":103,"hdg":18.04,"id":"IMKG","rwy":"02","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.1,"lat":23.55922200,"lon":119.62383300,"rng_nm":10,"alt_fmsl":103,"id":"IMKG","rwy":"02","desc":"GS","gs":3},
+{"type":"DME","freq":109.1,"lat":23.55922200,"lon":119.62383300,"rng_nm":18,"alt_fmsl":103,"id":"IMKG","rwy":"02","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"SDME","hdg_t":184,"dist_nm":0.4,"freq":114.7,"lat":23.56166700,"lon":119.62777800,"rng_nm":40,"alt_fmsl":103,"id":"MKG","desc":"MAGONG TACAN"},
+{"type":"VOR","hdg_t":17.1,"dist_nm":1.6,"freq":115.2,"lat":23.59544444,"lon":119.63727778,"rng_nm":130,"alt_fmsl":122,"id":"MKG","desc":"MAGONG VOR-DME"},
+{"type":"NDB","hdg_t":200.3,"dist_nm":3,"freq":290,"lat":23.52027800,"lon":119.60888900,"rng_nm":50,"alt_fmsl":0,"id":"BM","desc":"MAGONG NDB"},
+{"type":"VOR","hdg_t":128.9,"dist_nm":41.1,"freq":113.3,"lat":23.13555600,"lon":120.20638900,"rng_nm":100,"alt_fmsl":42,"id":"TNN","desc":"SHIKANG VORTAC"},
+{"type":"NDB","hdg_t":129.8,"dist_nm":41.3,"freq":375,"lat":23.12472200,"lon":120.20222200,"rng_nm":50,"alt_fmsl":0,"id":"NN","desc":"SHIKANG NDB"},
+{"type":"NDB","hdg_t":88.5,"dist_nm":41.9,"freq":525,"lat":23.58416700,"lon":120.38916700,"rng_nm":50,"alt_fmsl":0,"id":"KU","desc":"CHIAYI NDB"},
+{"type":"SDME","hdg_t":98.2,"dist_nm":42.5,"freq":111.8,"lat":23.46492800,"lon":120.39142900,"rng_nm":100,"alt_fmsl":82,"id":"CHI","desc":"CHIAYI TACAN"},
+{"type":"SDME","hdg_t":139.1,"dist_nm":48.8,"freq":115.4,"lat":22.94993000,"lon":120.20472700,"rng_nm":50,"alt_fmsl":63,"id":"TWS","desc":"TAINAN TACAN"},
+{"type":"NDB","hdg_t":133.8,"dist_nm":50.8,"freq":312,"lat":22.97825000,"lon":120.28975000,"rng_nm":25,"alt_fmsl":0,"id":"MR","desc":"KUEIJEN NDB"},
+{"type":"NDB","hdg_t":58.7,"dist_nm":65.9,"freq":370,"lat":24.13627800,"lon":120.65525000,"rng_nm":25,"alt_fmsl":0,"id":"SN","desc":"SN NDB"},
+{"type":"SDME","hdg_t":56.2,"dist_nm":67.7,"freq":111.7,"lat":24.19438900,"lon":120.65436100,"rng_nm":20,"alt_fmsl":369,"id":"MSNN","desc":"MSNN DME"},
+{"type":"NDB","hdg_t":52.8,"dist_nm":68.1,"freq":210,"lat":24.25350000,"lon":120.61872200,"rng_nm":50,"alt_fmsl":663,"id":"TC","desc":"TAICHUNG NDB"},
+{"type":"SDME","hdg_t":52.8,"dist_nm":68.1,"freq":108.4,"lat":24.25355600,"lon":120.61883300,"rng_nm":25,"alt_fmsl":663,"id":"TCK","desc":"TAICHUNG DME"},
+{"type":"SDME","hdg_t":52.4,"dist_nm":68.4,"freq":111.3,"lat":24.26263900,"lon":120.61786100,"rng_nm":25,"alt_fmsl":665,"id":"CCK","desc":"CHING CHUAN KANG TACAN"},
+{"type":"NDB","hdg_t":146.7,"dist_nm":70.7,"freq":330,"lat":22.57780600,"lon":120.32633300,"rng_nm":25,"alt_fmsl":0,"id":"SK","desc":"SK NDB"},
+{"type":"SDME","hdg_t":139.2,"dist_nm":70.7,"freq":109.6,"lat":22.67072800,"lon":120.46031900,"rng_nm":25,"alt_fmsl":103,"id":"PIT","desc":"PINGTUNG SOUTH TACAN"},
+{"type":"NDB","hdg_t":58.5,"dist_nm":76.7,"freq":340,"lat":24.23333300,"lon":120.82333300,"rng_nm":25,"alt_fmsl":0,"id":"WK","desc":"HSINSHIE NDB"},
+{"type":"NDB","hdg_t":306.3,"dist_nm":87,"freq":345,"lat":24.42647200,"lon":118.34905600,"rng_nm":50,"alt_fmsl":120,"id":"BS","desc":"KINMEN NDB-DME"},
+{"type":"SDME","hdg_t":306.3,"dist_nm":87,"freq":108.5,"lat":24.42663900,"lon":118.34900000,"rng_nm":50,"alt_fmsl":120,"id":"BS","desc":"KINMEN NDB-DME"},
+{"type":"NDB","hdg_t":44,"dist_nm":90,"freq":362,"lat":24.64638900,"lon":120.77416700,"rng_nm":50,"alt_fmsl":0,"id":"HL","desc":"HOULUNG NDB"},
+{"type":"VOR","hdg_t":44.4,"dist_nm":90.1,"freq":114.9,"lat":24.64000000,"lon":120.78333333,"rng_nm":130,"alt_fmsl":46,"id":"HLG","desc":"HOULONG VOR-DME"},
+{"type":"NDB","hdg_t":119.4,"dist_nm":97.4,"freq":430,"lat":22.75991700,"lon":121.15913900,"rng_nm":75,"alt_fmsl":0,"id":"ZN","desc":"TAITUNG NDB"}
+]
+}

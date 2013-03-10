@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"VEGT","name":"Guwahati Intl","lat":26.1060905,"lon":91.58594,"rwys":1,"ils":1,"index":4447490,"path":"e090n20/e091n26"
+,"runways":[
+{"len_m":2743,"wid_m":45.72,"hdg":22,"surf":"Asphalt","rwy1":"02","lat1":26.09467500,"lon1":91.58063300,"rwy2":"20","lat2":26.11750600,"lon2":91.59124700}
+]
+,"radios":[
+{"type":"ATIS","freq":126.6,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.75,"desc":"TWR"},
+{"type":"APP","freq":123.3,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":26.11966700,"lon":91.59155600,"rng_nm":18,"alt_fmsl":162,"hdg":21.43,"id":"IGHT","rwy":"02","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":26.09661100,"lon":91.58186100,"rng_nm":10,"alt_fmsl":162,"id":"IGHT","rwy":"02","desc":"GS","gs":3.25},
+{"type":"OM","freq":0,"lat":26.03800000,"lon":91.55352800,"rng_nm":0,"alt_fmsl":162,"id":"----","rwy":"02","desc":"OM"},
+{"type":"MM","freq":0,"lat":26.08450000,"lon":91.57508300,"rng_nm":0,"alt_fmsl":162,"id":"----","rwy":"02","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":26.09661100,"lon":91.58186100,"rng_nm":18,"alt_fmsl":162,"id":"GHT","rwy":"02","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":182.5,"dist_nm":0.2,"freq":117.6,"lat":26.10188900,"lon":91.58573600,"rng_nm":130,"alt_fmsl":161,"id":"GGT","desc":"GUWAHATI VOR-DME"},
+{"type":"NDB","hdg_t":79.7,"dist_nm":0.9,"freq":360,"lat":26.10883300,"lon":91.60267800,"rng_nm":75,"alt_fmsl":0,"id":"GT","desc":"GUWAHATI NDB"},
+{"type":"NDB","hdg_t":138.5,"dist_nm":31.8,"freq":320,"lat":25.70610000,"lon":91.97569700,"rng_nm":50,"alt_fmsl":0,"id":"BR","desc":"BARAPANI NDB"},
+{"type":"VOR","hdg_t":138.2,"dist_nm":31.9,"freq":116,"lat":25.70650000,"lon":91.97869400,"rng_nm":130,"alt_fmsl":158,"id":"BPN","desc":"BARAPANI VOR-DME"},
+{"type":"VOR","hdg_t":167.3,"dist_nm":70.1,"freq":116.4,"lat":24.96082500,"lon":91.86694400,"rng_nm":130,"alt_fmsl":50,"id":"SYT","desc":"SYLHET VOR"},
+{"type":"NDB","hdg_t":167.2,"dist_nm":70.5,"freq":372,"lat":24.95544400,"lon":91.87242800,"rng_nm":25,"alt_fmsl":104,"id":"SY","desc":"SYLHET NDB"},
+{"type":"NDB","hdg_t":60.7,"dist_nm":74.7,"freq":208,"lat":26.71075300,"lon":92.79945600,"rng_nm":75,"alt_fmsl":0,"id":"TZ","desc":"TEZPUR NDB"},
+{"type":"VOR","hdg_t":60.7,"dist_nm":74.7,"freq":117.9,"lat":26.71075300,"lon":92.79945600,"rng_nm":130,"alt_fmsl":240,"id":"TEZ","desc":"TEZPUR VOR-DME"},
+{"type":"VOR","hdg_t":133,"dist_nm":103.8,"freq":115.7,"lat":24.91368600,"lon":92.97753900,"rng_nm":130,"alt_fmsl":353,"id":"KKU","desc":"SILCHAR VOR-DME"},
+{"type":"NDB","hdg_t":132.7,"dist_nm":104,"freq":351,"lat":24.91979700,"lon":92.98753600,"rng_nm":50,"alt_fmsl":0,"id":"KU","desc":"SILCHAR NDB"}
+]
+}

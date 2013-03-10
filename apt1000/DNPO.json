@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DNPO","name":"Port Harcourt Intl","lat":5.0154555,"lon":6.949529,"rwys":1,"ils":1,"index":3053511,"path":"e000n00/e006n05"
+,"runways":[
+{"len_m":3000,"wid_m":60.05,"hdg":28,"surf":"Asphalt","rwy1":"03","lat1":5.00350300,"lon1":6.94312500,"rwy2":"21","lat2":5.02740800,"lon2":6.95593300}
+]
+,"radios":[
+{"type":"ATIS","freq":123.8,"desc":"ATIS"},
+{"type":"TWR","freq":118.9,"desc":"TWR"},
+{"type":"APP","freq":124.9,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":5.00111900,"lon":6.94184700,"rng_nm":18,"alt_fmsl":85,"hdg":208.09,"id":"IPC","rwy":"21","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":5.02525000,"lon":6.95355000,"rng_nm":10,"alt_fmsl":131,"id":"IPC","rwy":"21","desc":"GS","gs":3},
+{"type":"DME","freq":110.3,"lat":5.02525000,"lon":6.95355000,"rng_nm":18,"alt_fmsl":87,"id":"IPC","rwy":"21","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":28.2,"dist_nm":1.3,"freq":113.5,"lat":5.03533300,"lon":6.96018100,"rng_nm":130,"alt_fmsl":157,"id":"POT","desc":"PORT HARCOURT VOR-DME"},
+{"type":"NDB","hdg_t":159.8,"dist_nm":11.5,"freq":370,"lat":4.83398200,"lon":7.01593600,"rng_nm":25,"alt_fmsl":0,"id":"PH","desc":"PORT HARCOURT NDB"},
+{"type":"NDB","hdg_t":33.8,"dist_nm":28,"freq":391,"lat":5.40641700,"lon":7.21075000,"rng_nm":25,"alt_fmsl":0,"id":"OW","desc":"OWERRI NDB"},
+{"type":"VOR","hdg_t":93.8,"dist_nm":82.2,"freq":114.1,"lat":4.92187200,"lon":8.32003900,"rng_nm":130,"alt_fmsl":211,"id":"CAL","desc":"CALABAR VOR-DME"},
+{"type":"NDB","hdg_t":91.8,"dist_nm":83.7,"freq":317,"lat":4.96792100,"lon":8.34730200,"rng_nm":25,"alt_fmsl":240,"id":"CR","desc":"CALABAR NDB"},
+{"type":"VOR","hdg_t":24.1,"dist_nm":95.1,"freq":115.7,"lat":6.46855300,"lon":7.60122200,"rng_nm":130,"alt_fmsl":455,"id":"ENG","desc":"ENUGU VOR-DME"},
+{"type":"NDB","hdg_t":23.6,"dist_nm":95.3,"freq":394,"lat":6.47878300,"lon":7.58880000,"rng_nm":25,"alt_fmsl":0,"id":"EN","desc":"ENUGU NDB"},
+{"type":"NDB","hdg_t":314.6,"dist_nm":112,"freq":272,"lat":6.33383900,"lon":5.61591200,"rng_nm":50,"alt_fmsl":310,"id":"BE","desc":"BENIN NDB"},
+{"type":"NDB","hdg_t":313.9,"dist_nm":112,"freq":388,"lat":6.31717500,"lon":5.59924400,"rng_nm":50,"alt_fmsl":258,"id":"BC","desc":"BENIN NDB"},
+{"type":"VOR","hdg_t":312.3,"dist_nm":112.1,"freq":116.5,"lat":6.28051100,"lon":5.56257800,"rng_nm":40,"alt_fmsl":258,"id":"BEN","desc":"BENIN VOR-DME"}
+]
+}

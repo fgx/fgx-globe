@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"DTTZ","name":"Nefta","lat":33.93961,"lon":8.1011095,"rwys":1,"ils":1,"index":3088120,"path":"e000n30/e008n33"
+,"runways":[
+{"len_m":3222,"wid_m":45.11,"hdg":90,"surf":"Asphalt","rwy1":"09","lat1":33.93963100,"lon1":8.08368300,"rwy2":"27","lat2":33.93958900,"lon2":8.11853600}
+]
+,"radios":[
+{"type":"TWR","freq":118.2,"desc":"TOZEUR TWR"},
+{"type":"APP","freq":120.7,"desc":"TOZEUR APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.5,"lat":33.93983300,"lon":8.12119400,"rng_nm":18,"alt_fmsl":287,"hdg":89.64,"id":"TOZ","rwy":"09","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.5,"lat":33.94072200,"lon":8.08691700,"rng_nm":10,"alt_fmsl":287,"id":"TOZ","rwy":"09","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":33.93969400,"lon":8.00522200,"rng_nm":0,"alt_fmsl":287,"id":"----","rwy":"09","desc":"OM"},
+{"type":"MM","freq":0,"lat":33.93963900,"lon":8.07225000,"rng_nm":0,"alt_fmsl":287,"id":"----","rwy":"09","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":336.6,"dist_nm":0,"freq":117,"lat":33.94100000,"lon":8.10038900,"rng_nm":135,"alt_fmsl":289,"id":"TON","desc":"TOZEUR VOR-DME"},
+{"type":"NDB","hdg_t":270.1,"dist_nm":4.7,"freq":375,"lat":33.93983300,"lon":8.00522200,"rng_nm":50,"alt_fmsl":0,"id":"ZN","desc":"NEFTA NDB"},
+{"type":"VOR","hdg_t":51.1,"dist_nm":46.1,"freq":109,"lat":34.42063900,"lon":8.82408300,"rng_nm":25,"alt_fmsl":1066,"id":"GAF","desc":"GAFSA VOR-DME"},
+{"type":"NDB","hdg_t":248.8,"dist_nm":70.6,"freq":358,"lat":33.50627800,"lon":6.78777200,"rng_nm":25,"alt_fmsl":0,"id":"ELO","desc":"EL OUED NDB"},
+{"type":"VOR","hdg_t":249.1,"dist_nm":70.9,"freq":117.6,"lat":33.51055600,"lon":6.78055600,"rng_nm":200,"alt_fmsl":236,"id":"ELO","desc":"EL OUED VOR-DME"},
+{"type":"VOR","hdg_t":43.4,"dist_nm":76.5,"freq":115.3,"lat":34.86333300,"lon":9.16777800,"rng_nm":130,"alt_fmsl":0,"id":"BAN","desc":"SIDI BEN AOUN VOR"},
+{"type":"VOR","hdg_t":358.9,"dist_nm":90.8,"freq":114.5,"lat":35.45666700,"lon":8.06861100,"rng_nm":130,"alt_fmsl":2605,"id":"TBS","desc":"TEBESSA VOR-DME"},
+{"type":"VOR","hdg_t":97.2,"dist_nm":91.7,"freq":115.4,"lat":33.73219400,"lon":9.92019400,"rng_nm":130,"alt_fmsl":413,"id":"GAB","desc":"GABES VOR-DME"},
+{"type":"VOR","hdg_t":242.9,"dist_nm":113.9,"freq":113.2,"lat":33.05694400,"lon":6.08861100,"rng_nm":40,"alt_fmsl":279,"id":"TGU","desc":"TOUGGOURT VOR-DME"},
+{"type":"VOR","hdg_t":293.9,"dist_nm":126.6,"freq":115,"lat":34.77500000,"lon":5.75833300,"rng_nm":130,"alt_fmsl":586,"id":"BIS","desc":"BISKRA VOR-DME"}
+]
+}

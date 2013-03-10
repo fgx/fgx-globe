@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KDVL","name":"Devils Lake Muni","lat":48.114286,"lon":-98.908874,"rwys":2,"ils":1,"index":1335936,"path":"w100n40/w099n48"
+,"runways":[
+{"len_m":1679,"wid_m":45.72,"hdg":138,"surf":"Asphalt","rwy1":"13","lat1":48.12041700,"lon1":-98.91476700,"rwy2":"31","lat2":48.10918100,"lon2":-98.89970000},
+{"len_m":1314,"wid_m":22.86,"hdg":44,"surf":"Asphalt","rwy1":"03","lat1":48.10957200,"lon1":-98.91672500,"rwy2":"21","lat2":48.11797400,"lon2":-98.90430400}
+]
+,"radios":[
+{"type":"ATIS","freq":125.87,"desc":"AWOS 3"},
+{"type":"CTAF","freq":122.8,"desc":"CTAF/UNICOM"}
+]
+,"ils":[
+{"type":"ILS","freq":108.7,"lat":48.12174200,"lon":-98.91654200,"rng_nm":18,"alt_fmsl":1457,"hdg":318.16,"id":"IVKE","rwy":"31","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.7,"lat":48.11328100,"lon":-98.90300000,"rng_nm":10,"alt_fmsl":1441,"id":"IVKE","rwy":"31","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":48.03552800,"lon":-98.80369700,"rng_nm":0,"alt_fmsl":1457,"id":"----","rwy":"31","desc":"OM"},
+{"type":"MM","freq":0,"lat":48.10344400,"lon":-98.89200800,"rng_nm":0,"alt_fmsl":1457,"id":"----","rwy":"31","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":291,"dist_nm":0.1,"freq":111,"lat":48.11522222,"lon":-98.91250000,"rng_nm":40,"alt_fmsl":1448,"id":"DVL","desc":"DEVILS LAKE VOR-DME"},
+{"type":"NDB","hdg_t":138.1,"dist_nm":6.3,"freq":332,"lat":48.03552778,"lon":-98.80383333,"rng_nm":50,"alt_fmsl":0,"id":"VK","desc":"VIKOR NDB"},
+{"type":"SDME","hdg_t":98.2,"dist_nm":61.2,"freq":116.4,"lat":47.95716700,"lon":-97.40583300,"rng_nm":130,"alt_fmsl":951,"id":"RDR","desc":"RED RIVER TACAN"},
+{"type":"VOR","hdg_t":97.2,"dist_nm":70,"freq":114.3,"lat":47.95483333,"lon":-97.18536111,"rng_nm":130,"alt_fmsl":841,"id":"GFK","desc":"GRAND FORKS VOR-DME"},
+{"type":"NDB","hdg_t":102.3,"dist_nm":71.4,"freq":345,"lat":47.84638889,"lon":-97.18152778,"rng_nm":50,"alt_fmsl":0,"id":"GF","desc":"HISER NDB"},
+{"type":"VOR","hdg_t":172.3,"dist_nm":71.5,"freq":114.5,"lat":46.93286111,"lon":-98.67877778,"rng_nm":40,"alt_fmsl":1493,"id":"JMS","desc":"JAMESTOWN VOR-DME"},
+{"type":"NDB","hdg_t":169.8,"dist_nm":76.3,"freq":395,"lat":46.86286111,"lon":-98.58072222,"rng_nm":50,"alt_fmsl":0,"id":"JM","desc":"SABON NDB"},
+{"type":"VOR","hdg_t":56.9,"dist_nm":84.6,"freq":112.4,"lat":48.86916667,"lon":-97.11708333,"rng_nm":130,"alt_fmsl":798,"id":"HML","desc":"HUMBOLDT VORTAC"},
+{"type":"NDB","hdg_t":99.2,"dist_nm":93.8,"freq":400,"lat":47.84033333,"lon":-96.61641667,"rng_nm":50,"alt_fmsl":0,"id":"CKN","desc":"CROOKSTON NDB"},
+{"type":"VOR","hdg_t":276.1,"dist_nm":95.8,"freq":117.1,"lat":48.26033333,"lon":-101.28705556,"rng_nm":130,"alt_fmsl":1691,"id":"MOT","desc":"MINOT VORTAC"}
+]
+}

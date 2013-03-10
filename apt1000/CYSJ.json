@@ -1,0 +1,40 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"CYSJ","name":"Saint John","lat":45.31860692,"lon":-65.889485215,"rwys":2,"ils":2,"index":1876432,"path":"w070n40/w066n45"
+,"runways":[
+{"len_m":2135,"wid_m":60.96,"hdg":30,"surf":"Asphalt","rwy1":"05","lat1":45.30252868,"lon1":-65.89484477,"rwy2":"23","lat2":45.31900284,"lon2":-65.88082036},
+{"len_m":1557,"wid_m":60.96,"hdg":120,"surf":"Asphalt","rwy1":"14","lat1":45.33004907,"lon1":-65.89966201,"rwy2":"32","lat2":45.32284710,"lon2":-65.88261374}
+]
+,"radios":[
+{"type":"TWR","freq":118.5,"desc":"MF"}
+]
+,"ils":[
+{"type":"ILS","freq":108.3,"lat":45.32109833,"lon":-65.87903595,"rng_nm":18,"alt_fmsl":357,"hdg":30.91,"id":"IDM","rwy":"05","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.5,"lat":45.30044937,"lon":-65.89661407,"rng_nm":18,"alt_fmsl":357,"hdg":210.89,"id":"ISJ","rwy":"23","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.3,"lat":45.30418396,"lon":-65.89119720,"rng_nm":10,"alt_fmsl":357,"id":"IDM","rwy":"05","desc":"GS","gs":3},
+{"type":"GS","freq":111.5,"lat":45.31731796,"lon":-65.88455200,"rng_nm":10,"alt_fmsl":357,"id":"ISJ","rwy":"23","desc":"GS","gs":4}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":34.2,"dist_nm":5.3,"freq":212,"lat":45.39166667,"lon":-65.81888889,"rng_nm":50,"alt_fmsl":0,"id":"SJ","desc":"SAINT JOHN NDB"},
+{"type":"VOR","hdg_t":8.6,"dist_nm":5.3,"freq":113.5,"lat":45.40730556,"lon":-65.87025000,"rng_nm":130,"alt_fmsl":494,"id":"YSJ","desc":"SAINT JOHN VOR-DME"},
+{"type":"NDB","hdg_t":208.2,"dist_nm":6.1,"freq":397,"lat":45.22777778,"lon":-65.95861111,"rng_nm":50,"alt_fmsl":0,"id":"ZST","desc":"ALPINE(SAINT JOHN NDB"},
+{"type":"NDB","hdg_t":125,"dist_nm":41,"freq":266,"lat":44.92277778,"lon":-65.10194444,"rng_nm":50,"alt_fmsl":0,"id":"YZX","desc":"GREENWOOD NDB"},
+{"type":"VOR","hdg_t":327.3,"dist_nm":41.1,"freq":113,"lat":45.89477778,"lon":-66.41888889,"rng_nm":130,"alt_fmsl":52,"id":"YFC","desc":"FREDERICTON VOR-DME"},
+{"type":"SDME","hdg_t":319.9,"dist_nm":42.8,"freq":111.3,"lat":45.86305600,"lon":-66.54777800,"rng_nm":25,"alt_fmsl":79,"id":"IDC","desc":"FREDERICTON DME"},
+{"type":"SDME","hdg_t":116,"dist_nm":45.6,"freq":117.6,"lat":44.98035800,"lon":-64.92769200,"rng_nm":130,"alt_fmsl":117,"id":"UZX","desc":"GREENWOOD TACAN"},
+{"type":"NDB","hdg_t":174.6,"dist_nm":46.4,"freq":220,"lat":44.54750000,"lon":-65.78916667,"rng_nm":50,"alt_fmsl":0,"id":"Y9","desc":"DIGBY NDB"},
+{"type":"NDB","hdg_t":320.4,"dist_nm":46.7,"freq":326,"lat":45.91722222,"lon":-66.60000000,"rng_nm":50,"alt_fmsl":0,"id":"FC","desc":"FREDERICTON NDB"},
+{"type":"NDB","hdg_t":110.7,"dist_nm":49.1,"freq":341,"lat":45.02388889,"lon":-64.81027778,"rng_nm":50,"alt_fmsl":0,"id":"GF","desc":"AYLESFORD NDB"},
+{"type":"NDB","hdg_t":227.3,"dist_nm":53,"freq":387,"lat":44.71555556,"lon":-66.80222222,"rng_nm":50,"alt_fmsl":0,"id":"6E","desc":"GRAND MANAN NDB"},
+{"type":"NDB","hdg_t":243.3,"dist_nm":53.5,"freq":260,"lat":44.91252778,"lon":-67.01222222,"rng_nm":50,"alt_fmsl":0,"id":"EPM","desc":"EASTPORT NDB"},
+{"type":"NDB","hdg_t":46.7,"dist_nm":63.4,"freq":304,"lat":46.03833333,"lon":-64.78388889,"rng_nm":50,"alt_fmsl":0,"id":"ZQM","desc":"RIVERVIEW(MONCTON NDB"},
+{"type":"NDB","hdg_t":43.9,"dist_nm":65.9,"freq":366,"lat":46.10416667,"lon":-64.79194444,"rng_nm":50,"alt_fmsl":0,"id":"ZMN","desc":"LEWISVILLE(MONCTO NDB"},
+{"type":"NDB","hdg_t":48.6,"dist_nm":72.6,"freq":224,"lat":46.11055556,"lon":-64.58194444,"rng_nm":50,"alt_fmsl":0,"id":"QM","desc":"MONCTON NDB"},
+{"type":"VOR","hdg_t":46.2,"dist_nm":76.1,"freq":117.3,"lat":46.18894444,"lon":-64.57075000,"rng_nm":130,"alt_fmsl":172,"id":"YQM","desc":"MONCTON VOR-DME"},
+{"type":"VOR","hdg_t":271.1,"dist_nm":76.8,"freq":114.3,"lat":45.32919444,"lon":-67.70419444,"rng_nm":40,"alt_fmsl":398,"id":"PNN","desc":"PRINCETON VOR-DME"},
+{"type":"NDB","hdg_t":145.7,"dist_nm":78.9,"freq":330,"lat":44.22694444,"lon":-64.85861111,"rng_nm":50,"alt_fmsl":0,"id":"A9","desc":"LIVERPOOL NDB"},
+{"type":"NDB","hdg_t":184.3,"dist_nm":87.7,"freq":230,"lat":43.86086111,"lon":-66.04361111,"rng_nm":50,"alt_fmsl":0,"id":"AC","desc":"PLEASANT LAKE NDB"},
+{"type":"VOR","hdg_t":185.3,"dist_nm":89.9,"freq":113.3,"lat":43.82508333,"lon":-66.08250000,"rng_nm":130,"alt_fmsl":164,"id":"YQI","desc":"YARMOUTH VOR-DME"},
+{"type":"NDB","hdg_t":186.4,"dist_nm":92,"freq":206,"lat":43.79333333,"lon":-66.12611111,"rng_nm":50,"alt_fmsl":0,"id":"QI","desc":"YARMOUTH NDB"},
+{"type":"VOR","hdg_t":298.5,"dist_nm":92.5,"freq":116.1,"lat":46.03950000,"lon":-67.83416667,"rng_nm":130,"alt_fmsl":860,"id":"HUL","desc":"HOULTON VOR-DME"}
+]
+}

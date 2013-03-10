@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ZHCC","name":"Zhengzhou Xinzheng","lat":34.51933505,"lon":113.8411366,"rwys":1,"ils":2,"index":4808483,"path":"e110n30/e113n34"
+,"runways":[
+{"len_m":3399,"wid_m":39.93,"hdg":112,"surf":"Concrete","rwy1":"12","lat1":34.52516285,"lon1":113.82401520,"rwy2":"30","lat2":34.51350724,"lon2":113.85825800}
+]
+,"radios":[
+{"type":"ATIS","freq":128.45,"desc":"ZHENGZHOU ATIS"},
+{"type":"GND","freq":121.75,"desc":"ZHENGZHOU GND"},
+{"type":"TWR","freq":130,"desc":"ZHENGZHOU TWR"},
+{"type":"TWR","freq":118.3,"desc":"ZHENGZHOU TWR Additional"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":34.51324844,"lon":113.85908508,"rng_nm":18,"alt_fmsl":482,"hdg":112.39,"id":"IFF","rwy":"12","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.3,"lat":34.52553177,"lon":113.82289886,"rng_nm":18,"alt_fmsl":489,"hdg":292.39,"id":"IAA","rwy":"30","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":34.52308273,"lon":113.82666779,"rng_nm":10,"alt_fmsl":489,"id":"IFF","rwy":"12","desc":"GS","gs":3},
+{"type":"GS","freq":109.3,"lat":34.51351547,"lon":113.85476685,"rng_nm":10,"alt_fmsl":485,"id":"IAA","rwy":"30","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":34.52890015,"lon":113.81300354,"rng_nm":0,"alt_fmsl":482,"id":"----","rwy":"12","desc":"MM"},
+{"type":"MM","freq":0,"lat":34.50933456,"lon":113.87083435,"rng_nm":0,"alt_fmsl":489,"id":"----","rwy":"30","desc":"MM"},
+{"type":"DME","freq":110.3,"lat":34.52330780,"lon":113.82625580,"rng_nm":18,"alt_fmsl":489,"id":"IFF","rwy":"12","desc":"DME-ILS"},
+{"type":"DME","freq":109.3,"lat":34.51596451,"lon":113.85569763,"rng_nm":18,"alt_fmsl":485,"id":"IAA","rwy":"30","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":165.6,"dist_nm":0.1,"freq":114.5,"lat":34.51693344,"lon":113.84188080,"rng_nm":130,"alt_fmsl":490,"id":"CGO","desc":"XINZHENG VOR-DME"},
+{"type":"NDB","hdg_t":292.3,"dist_nm":1.5,"freq":228,"lat":34.52890015,"lon":113.81300354,"rng_nm":20,"alt_fmsl":503,"id":"F","desc":"ZHCC 12 NDB"},
+{"type":"NDB","hdg_t":112.1,"dist_nm":1.5,"freq":211,"lat":34.50933456,"lon":113.87083435,"rng_nm":20,"alt_fmsl":490,"id":"A","desc":"ZHCC 30 NDB"},
+{"type":"NDB","hdg_t":108,"dist_nm":19.6,"freq":285,"lat":34.41666700,"lon":114.21833300,"rng_nm":25,"alt_fmsl":0,"id":"BS","desc":"LIYUANTUN NDB"},
+{"type":"NDB","hdg_t":18.9,"dist_nm":56.8,"freq":285,"lat":35.41666794,"lon":114.21833038,"rng_nm":50,"alt_fmsl":226,"id":"BS","desc":"LIYUANTUN NDB"},
+{"type":"VOR","hdg_t":141.9,"dist_nm":65,"freq":115.5,"lat":33.66166700,"lon":114.64166700,"rng_nm":130,"alt_fmsl":335,"id":"ZHO","desc":"ZHOUKOU VOR-DME"},
+{"type":"NDB","hdg_t":143,"dist_nm":67.4,"freq":409,"lat":33.61666700,"lon":114.65000000,"rng_nm":25,"alt_fmsl":0,"id":"DO","desc":"ZHOUKOU NDB"},
+{"type":"NDB","hdg_t":25.3,"dist_nm":121.6,"freq":345,"lat":36.35000000,"lon":114.91666700,"rng_nm":50,"alt_fmsl":0,"id":"JX","desc":"WEIXIAN NDB"},
+{"type":"VOR","hdg_t":25.2,"dist_nm":122.4,"freq":115.7,"lat":36.36333300,"lon":114.91666700,"rng_nm":130,"alt_fmsl":206,"id":"WXI","desc":"WEIXIAN VOR-DME"},
+{"type":"NDB","hdg_t":170.9,"dist_nm":193.1,"freq":369,"lat":31.33333300,"lon":114.43333300,"rng_nm":50,"alt_fmsl":0,"id":"ZF","desc":"HEKOU NDB"}
+]
+}

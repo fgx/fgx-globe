@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"FAGG","name":"George","lat":-34.005531,"lon":22.378515,"rwys":1,"ils":2,"index":3313145,"path":"e020s40/e022s35"
+,"runways":[
+{"len_m":2005,"wid_m":45.11,"hdg":87,"surf":"Asphalt","rwy1":"11","lat1":-34.00587177,"lon1":22.36766646,"rwy2":"29","lat2":-34.00519023,"lon2":22.38936354}
+]
+,"radios":[
+{"type":"TWR","freq":118.9,"desc":"TWR"},
+{"type":"APP","freq":118.9,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.5,"lat":-34.00513800,"lon":22.39108300,"rng_nm":18,"alt_fmsl":636,"hdg":87.83,"id":"GEI","rwy":"11","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.1,"lat":-34.00611100,"lon":22.35988800,"rng_nm":18,"alt_fmsl":612,"hdg":267.85,"id":"GGI","rwy":"29","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.5,"lat":-34.00686300,"lon":22.37089000,"rng_nm":10,"alt_fmsl":625,"id":"GEI","rwy":"11","desc":"GS","gs":3},
+{"type":"GS","freq":110.1,"lat":-34.00441700,"lon":22.38556500,"rng_nm":10,"alt_fmsl":643,"id":"GGI","rwy":"29","desc":"GS","gs":2.7},
+{"type":"DME","freq":109.5,"lat":-34.00686100,"lon":22.37088900,"rng_nm":18,"alt_fmsl":625,"id":"GEI","rwy":"11","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":202.9,"dist_nm":0.1,"freq":112.5,"lat":-34.00730600,"lon":22.37761400,"rng_nm":100,"alt_fmsl":632,"id":"GGV","desc":"GEORGE VOR-DME"},
+{"type":"NDB","hdg_t":87.7,"dist_nm":5.3,"freq":260,"lat":-34.00205000,"lon":22.48558100,"rng_nm":200,"alt_fmsl":671,"id":"GG","desc":"GEORGE NDB"},
+{"type":"NDB","hdg_t":338.2,"dist_nm":26,"freq":367,"lat":-33.60166700,"lon":22.18583300,"rng_nm":50,"alt_fmsl":1063,"id":"OH","desc":"OUDTSHOORN NDB"},
+{"type":"NDB","hdg_t":308.6,"dist_nm":37.1,"freq":392,"lat":-33.61694400,"lon":21.79944400,"rng_nm":50,"alt_fmsl":0,"id":"BH","desc":"BADSHOOGTE NDB"},
+{"type":"NDB","hdg_t":96.4,"dist_nm":47.5,"freq":277,"lat":-34.09049700,"lon":23.32596900,"rng_nm":50,"alt_fmsl":443,"id":"PY","desc":"PLETTENBERG BAY NDB"},
+{"type":"VOR","hdg_t":266.8,"dist_nm":91.6,"freq":114.4,"lat":-34.07722200,"lon":20.54305600,"rng_nm":100,"alt_fmsl":0,"id":"SWV","desc":"SWELLENDAM VOR"},
+{"type":"NDB","hdg_t":250.6,"dist_nm":109.9,"freq":427,"lat":-34.59562200,"lon":20.28484400,"rng_nm":50,"alt_fmsl":22,"id":"OB","desc":"OVERBERG NDB"},
+{"type":"VOR","hdg_t":252.1,"dist_nm":110.9,"freq":115.4,"lat":-34.55611900,"lon":20.24713900,"rng_nm":100,"alt_fmsl":43,"id":"OBV","desc":"OVERBERG VORTAC"},
+{"type":"VOR","hdg_t":316,"dist_nm":128.4,"freq":113.3,"lat":-32.45011100,"lon":20.62236100,"rng_nm":100,"alt_fmsl":0,"id":"SLV","desc":"SUTHERLAND VOR"},
+{"type":"NDB","hdg_t":267.9,"dist_nm":138.4,"freq":270,"lat":-34.05732800,"lon":19.60325000,"rng_nm":60,"alt_fmsl":0,"id":"GE","desc":"GREYTON NDB"}
+]
+}

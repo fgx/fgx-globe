@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"LPPR","name":"Porto","lat":41.247932,"lon":-8.6812205,"rwys":1,"ils":1,"index":2810057,"path":"w010n40/w009n41"
+,"runways":[
+{"len_m":3485,"wid_m":45.11,"hdg":168,"surf":"Asphalt","rwy1":"17","lat1":41.26332800,"lon1":-8.68524400,"rwy2":"35","lat2":41.23253600,"lon2":-8.67719700}
+]
+,"radios":[
+{"type":"ATIS","freq":124.3,"desc":"INFO"},
+{"type":"TWR","freq":118,"desc":"TWR"},
+{"type":"APP","freq":121.1,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.9,"lat":41.23004200,"lon":-8.67653100,"rng_nm":18,"alt_fmsl":228,"hdg":168.87,"id":"PR","rwy":"17","desc":"ILS-cat-II"},
+{"type":"GS","freq":109.9,"lat":41.25815800,"lon":-8.68256400,"rng_nm":10,"alt_fmsl":228,"id":"PR","rwy":"17","desc":"GS","gs":2.72},
+{"type":"OM","freq":0,"lat":41.34798600,"lon":-8.70751400,"rng_nm":0,"alt_fmsl":228,"id":"----","rwy":"17","desc":"OM"},
+{"type":"DME","freq":109.9,"lat":41.25815800,"lon":-8.68256400,"rng_nm":18,"alt_fmsl":228,"id":"PR","rwy":"17","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":348.7,"dist_nm":1.5,"freq":114.1,"lat":41.27299700,"lon":-8.68783100,"rng_nm":130,"alt_fmsl":182,"id":"PRT","desc":"PORTO VOR-DME"},
+{"type":"NDB","hdg_t":348.5,"dist_nm":6.1,"freq":327,"lat":41.34815000,"lon":-8.70815000,"rng_nm":250,"alt_fmsl":0,"id":"POR","desc":"PORTO NDB"},
+{"type":"NDB","hdg_t":168.7,"dist_nm":10.3,"freq":367,"lat":41.07808900,"lon":-8.63654200,"rng_nm":25,"alt_fmsl":0,"id":"PG","desc":"PORTO NDB"},
+{"type":"SDME","hdg_t":175.4,"dist_nm":21.7,"freq":110.6,"lat":40.88701900,"lon":-8.64335300,"rng_nm":130,"alt_fmsl":102,"id":"OVR","desc":"OVAR TACAN"},
+{"type":"NDB","hdg_t":92.3,"dist_nm":42.4,"freq":304,"lat":41.21527800,"lon":-7.74388900,"rng_nm":25,"alt_fmsl":0,"id":"VR","desc":"VILA REAL NDB"},
+{"type":"VOR","hdg_t":130.7,"dist_nm":47.9,"freq":113.1,"lat":40.72333300,"lon":-7.88583300,"rng_nm":130,"alt_fmsl":2109,"id":"VIS","desc":"VISEU VOR-DME"},
+{"type":"NDB","hdg_t":1.9,"dist_nm":56.2,"freq":433,"lat":42.18604200,"lon":-8.63900000,"rng_nm":40,"alt_fmsl":0,"id":"VON","desc":"VIGO NDB"},
+{"type":"NDB","hdg_t":3,"dist_nm":64.2,"freq":345,"lat":42.31819400,"lon":-8.60324400,"rng_nm":20,"alt_fmsl":0,"id":"VI","desc":"VIGO NDB"},
+{"type":"VOR","hdg_t":3.1,"dist_nm":64.4,"freq":113.6,"lat":42.32130800,"lon":-8.60163600,"rng_nm":130,"alt_fmsl":912,"id":"VGO","desc":"VIGO VOR-DME"},
+{"type":"NDB","hdg_t":171.5,"dist_nm":65.8,"freq":426,"lat":40.16055600,"lon":-8.47194400,"rng_nm":50,"alt_fmsl":0,"id":"CB","desc":"COIMBRA NDB"},
+{"type":"NDB","hdg_t":134.4,"dist_nm":80.6,"freq":360,"lat":40.29916700,"lon":-7.42583300,"rng_nm":25,"alt_fmsl":0,"id":"COV","desc":"COVILHA NDB"},
+{"type":"NDB","hdg_t":186.6,"dist_nm":80.8,"freq":336,"lat":39.90774700,"lon":-8.88354200,"rng_nm":150,"alt_fmsl":0,"id":"MTL","desc":"MONTE REAL NDB"},
+{"type":"SDME","hdg_t":186.4,"dist_nm":85.3,"freq":109.6,"lat":39.83261400,"lon":-8.89014400,"rng_nm":130,"alt_fmsl":263,"id":"MTR","desc":"MONTE REAL TACAN"},
+{"type":"NDB","hdg_t":68.8,"dist_nm":94,"freq":358,"lat":41.79666700,"lon":-6.72527800,"rng_nm":25,"alt_fmsl":2241,"id":"BRG","desc":"BRAGANCA NDB"},
+{"type":"VOR","hdg_t":174.7,"dist_nm":95.2,"freq":113.5,"lat":39.66607800,"lon":-8.49321400,"rng_nm":60,"alt_fmsl":686,"id":"FTM","desc":"FATIMA VOR-DME"}
+]
+}

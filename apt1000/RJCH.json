@@ -1,0 +1,42 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"RJCH","name":"Hakodate","lat":41.770161,"lon":140.8220295,"rwys":1,"ils":1,"index":5251315,"path":"e140n40/e140n41"
+,"runways":[
+{"len_m":2997,"wid_m":45.72,"hdg":108,"surf":"Asphalt","rwy1":"12","lat1":41.77433900,"lon1":140.80489200,"rwy2":"30","lat2":41.76598300,"lon2":140.83916700}
+]
+,"radios":[
+{"type":"ATIS","freq":126.6,"desc":"ATIS"},
+{"type":"TWR","freq":126.2,"desc":"TWR"},
+{"type":"TWR","freq":118.35,"desc":"TWR"},
+{"type":"APP","freq":119,"desc":"APP"},
+{"type":"APP","freq":121,"desc":"APP"},
+{"type":"DEP","freq":121,"desc":"DEP"},
+{"type":"DEP","freq":127.9,"desc":"DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":41.76535000,"lon":140.84189400,"rng_nm":18,"alt_fmsl":51,"hdg":108.05,"id":"IHL","rwy":"12","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":41.77250800,"lon":140.80775600,"rng_nm":10,"alt_fmsl":151,"id":"IHL","rwy":"12","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":41.77730000,"lon":140.79383900,"rng_nm":0,"alt_fmsl":51,"id":"----","rwy":"12","desc":"MM"},
+{"type":"DME","freq":109.3,"lat":41.77242200,"lon":140.80771900,"rng_nm":18,"alt_fmsl":111,"id":"IHL","rwy":"12","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":339.6,"dist_nm":0.3,"freq":388,"lat":41.77536400,"lon":140.81944700,"rng_nm":25,"alt_fmsl":151,"id":"HW","desc":"HAKODATE NDB"},
+{"type":"VOR","hdg_t":63,"dist_nm":0.5,"freq":112.3,"lat":41.77403100,"lon":140.83221700,"rng_nm":100,"alt_fmsl":300,"id":"HWE","desc":"HAKODATE VOR-DME"},
+{"type":"NDB","hdg_t":155.2,"dist_nm":34.8,"freq":353,"lat":41.24166700,"lon":141.14527800,"rng_nm":50,"alt_fmsl":0,"id":"OM","desc":"OMINATO NDB"},
+{"type":"SDME","hdg_t":156.2,"dist_nm":35.3,"freq":114.85,"lat":41.23083300,"lon":141.13583300,"rng_nm":75,"alt_fmsl":44,"id":"OMT","desc":"OMINATO TACAN"},
+{"type":"SDME","hdg_t":239,"dist_nm":38.7,"freq":112.1,"lat":41.43536900,"lon":140.08484200,"rng_nm":25,"alt_fmsl":656,"id":"WMT","desc":"MATSUMAE TACAN"},
+{"type":"VOR","hdg_t":165.1,"dist_nm":59.6,"freq":114.9,"lat":40.80891400,"lon":141.15736400,"rng_nm":100,"alt_fmsl":444,"id":"MWE","desc":"TOHOKU VOR-DME"},
+{"type":"VOR","hdg_t":184.9,"dist_nm":62,"freq":114.1,"lat":40.73879200,"lon":140.70533300,"rng_nm":100,"alt_fmsl":764,"id":"MRE","desc":"AOMORI VOR-DME"},
+{"type":"VOR","hdg_t":286.7,"dist_nm":64.3,"freq":109.85,"lat":42.07030300,"lon":139.44340300,"rng_nm":100,"alt_fmsl":168,"id":"ORE","desc":"OKUSHIRI VOR-DME"},
+{"type":"NDB","hdg_t":35,"dist_nm":66,"freq":347,"lat":42.66875000,"lon":141.67956700,"rng_nm":150,"alt_fmsl":87,"id":"CH","desc":"CHITOSE NDB"},
+{"type":"VOR","hdg_t":34.3,"dist_nm":67.7,"freq":116.9,"lat":42.69990300,"lon":141.68616700,"rng_nm":100,"alt_fmsl":88,"id":"CHE","desc":"CHITOSE VOR-DME"},
+{"type":"VOR","hdg_t":158.2,"dist_nm":68.7,"freq":115.4,"lat":40.70382200,"lon":141.38110800,"rng_nm":100,"alt_fmsl":142,"id":"MIS","desc":"MISAWA VORTAC"},
+{"type":"VOR","hdg_t":46.6,"dist_nm":69,"freq":116.4,"lat":42.55500600,"lon":141.95563100,"rng_nm":25,"alt_fmsl":94,"id":"MKE","desc":"MUKAWA VOR-DME"},
+{"type":"SDME","hdg_t":32.1,"dist_nm":70.6,"freq":109.2,"lat":42.76444400,"lon":141.67361100,"rng_nm":50,"alt_fmsl":121,"id":"ZYT","desc":"CHITOSE TACAN"},
+{"type":"SDME","hdg_t":157.8,"dist_nm":78.5,"freq":108.6,"lat":40.55583300,"lon":141.47000000,"rng_nm":150,"alt_fmsl":180,"id":"HVT","desc":"HACHINOHE TACAN"},
+{"type":"NDB","hdg_t":157.6,"dist_nm":78.9,"freq":381,"lat":40.55027800,"lon":141.47833300,"rng_nm":50,"alt_fmsl":152,"id":"JC","desc":"HACHINOHE NDB"},
+{"type":"NDB","hdg_t":26.2,"dist_nm":82.4,"freq":376,"lat":43.00018300,"lon":141.65069700,"rng_nm":50,"alt_fmsl":0,"id":"NA","desc":"NAGANUMA NDB"},
+{"type":"NDB","hdg_t":14.6,"dist_nm":86.7,"freq":357,"lat":43.16875600,"lon":141.32066900,"rng_nm":50,"alt_fmsl":0,"id":"SP","desc":"SAPPORO NDB"},
+{"type":"VOR","hdg_t":14,"dist_nm":86.8,"freq":113.9,"lat":43.17464200,"lon":141.30238300,"rng_nm":100,"alt_fmsl":87,"id":"SPE","desc":"SAPPORO VOR-DME"},
+{"type":"VOR","hdg_t":192.6,"dist_nm":96.5,"freq":114.75,"lat":40.19834200,"lon":140.36185600,"rng_nm":25,"alt_fmsl":308,"id":"ODE","desc":"ODATE NOSHIRO VOR-DME"}
+]
+}

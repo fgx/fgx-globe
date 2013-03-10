@@ -1,0 +1,38 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"OEMA","name":"Prince Mohammad Bin Abdulaziz","lat":24.55265775,"lon":39.70535975,"rwys":2,"ils":3,"index":3595426,"path":"e030n20/e039n24"
+,"runways":[
+{"len_m":3967,"wid_m":44.81,"hdg":168,"surf":"Asphalt","rwy1":"17","lat1":24.57313300,"lon1":39.70394400,"rwy2":"35","lat2":24.53799200,"lon2":39.71153600},
+{"len_m":3046,"wid_m":44.81,"hdg":183,"surf":"Asphalt","rwy1":"18","lat1":24.56347800,"lon1":39.70395300,"rwy2":"36","lat2":24.53602800,"lon2":39.70200600}
+]
+,"radios":[
+{"type":"GND","freq":121.6,"desc":"GND"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.3,"desc":"MADINAH TWR"},
+{"type":"APP","freq":124.2,"desc":"MADINAH APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.7,"lat":24.53540000,"lon":39.71201100,"rng_nm":18,"alt_fmsl":2151,"hdg":169.00,"id":"INAH","rwy":"17","desc":"ILS-cat-I"},
+{"type":"ILS","freq":111.3,"lat":24.57457500,"lon":39.70368600,"rng_nm":18,"alt_fmsl":2151,"hdg":348.95,"id":"IDIN","rwy":"35","desc":"ILS-cat-I"},
+{"type":"ILS","freq":110.5,"lat":24.56652200,"lon":39.70415000,"rng_nm":18,"alt_fmsl":2151,"hdg":3.66,"id":"IPMA","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.7,"lat":24.56453300,"lon":39.70702800,"rng_nm":10,"alt_fmsl":2151,"id":"INAH","rwy":"17","desc":"GS","gs":3},
+{"type":"GS","freq":111.3,"lat":24.54064200,"lon":39.71210300,"rng_nm":10,"alt_fmsl":2151,"id":"IDIN","rwy":"35","desc":"GS","gs":3},
+{"type":"GS","freq":110.5,"lat":24.53841400,"lon":39.70339400,"rng_nm":10,"alt_fmsl":2151,"id":"IPMA","rwy":"36","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":24.57469700,"lon":39.70366100,"rng_nm":0,"alt_fmsl":2151,"id":"----","rwy":"17","desc":"MM"},
+{"type":"MM","freq":0,"lat":24.52762500,"lon":39.70132800,"rng_nm":0,"alt_fmsl":2151,"id":"----","rwy":"36","desc":"MM"},
+{"type":"DME","freq":111.7,"lat":24.56453300,"lon":39.70702800,"rng_nm":18,"alt_fmsl":2151,"id":"INAH","rwy":"17","desc":"DME-ILS"},
+{"type":"DME","freq":111.3,"lat":24.54064200,"lon":39.71210300,"rng_nm":18,"alt_fmsl":2151,"id":"IDIN","rwy":"35","desc":"DME-ILS"},
+{"type":"DME","freq":110.5,"lat":24.53841400,"lon":39.70339400,"rng_nm":18,"alt_fmsl":2151,"id":"IPMA","rwy":"36","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":181.1,"dist_nm":0.3,"freq":114.1,"lat":24.54758300,"lon":39.70525000,"rng_nm":130,"alt_fmsl":2120,"id":"PMA","desc":"PRINCE MOHAMMAD BIN ABDULAZIZ VOR-DME"},
+{"type":"NDB","hdg_t":110,"dist_nm":77.8,"freq":382,"lat":24.10000000,"lon":41.03666700,"rng_nm":25,"alt_fmsl":2840,"id":"PS0","desc":"PUMP STATION 10 NDB"},
+{"type":"VOR","hdg_t":197.7,"dist_nm":110.4,"freq":116.8,"lat":22.79194400,"lon":39.09722200,"rng_nm":130,"alt_fmsl":58,"id":"RBG","desc":"RABIGH VOR-DME"},
+{"type":"VOR","hdg_t":348.2,"dist_nm":115,"freq":116.7,"lat":26.43416700,"lon":39.26916700,"rng_nm":130,"alt_fmsl":3835,"id":"HLF","desc":"HALAIFA VOR-DME"},
+{"type":"VOR","hdg_t":96,"dist_nm":116.7,"freq":115.1,"lat":24.33083300,"lon":41.82444400,"rng_nm":130,"alt_fmsl":3281,"id":"BDB","desc":"BIR DARB VOR-DME"},
+{"type":"NDB","hdg_t":97.2,"dist_nm":134.2,"freq":607,"lat":24.25000000,"lon":42.13333300,"rng_nm":25,"alt_fmsl":3000,"id":"PS9","desc":"PUMP STATION 9 NDB"},
+{"type":"VOR","hdg_t":124,"dist_nm":134.2,"freq":117.5,"lat":23.28277800,"lon":41.71944400,"rng_nm":130,"alt_fmsl":3175,"id":"DFN","desc":"DAFINAH VOR-DME"},
+{"type":"VOR","hdg_t":189.9,"dist_nm":174.3,"freq":114.9,"lat":21.67913900,"lon":39.16625000,"rng_nm":130,"alt_fmsl":28,"id":"JDW","desc":"KING ABDULAZIZ VORTAC"},
+{"type":"VOR","hdg_t":165.5,"dist_nm":189.1,"freq":112.7,"lat":21.48647200,"lon":40.54725000,"rng_nm":130,"alt_fmsl":4757,"id":"TIF","desc":"TAIF VORTAC"},
+{"type":"VOR","hdg_t":299.7,"dist_nm":200,"freq":113.9,"lat":26.17933300,"lon":36.48811100,"rng_nm":130,"alt_fmsl":118,"id":"WEJ","desc":"WEJH VORTAC"}
+]
+}

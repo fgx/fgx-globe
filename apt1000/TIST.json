@@ -1,0 +1,34 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"TIST","name":"St Thomas - Cyril E King","lat":18.3373,"lon":-64.9733445,"rwys":1,"ils":1,"index":1891088,"path":"w070n10/w065n18"
+,"runways":[
+{"len_m":2133,"wid_m":46.02,"hdg":87,"surf":"Asphalt","rwy1":"10","lat1":18.33687200,"lon1":-64.98342800,"rwy2":"28","lat2":18.33772800,"lon2":-64.96326100}
+]
+,"radios":[
+{"type":"ATIS","freq":124,"desc":"ATIS"},
+{"type":"CTAF","freq":118.8,"desc":"CTAF"},
+{"type":"CTAF","freq":122.95,"desc":"UNICOM"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"ST THOMAS TWR"},
+{"type":"TWR","freq":118.8,"desc":"ST THOMAS TWR"},
+{"type":"APP","freq":128.65,"desc":"SAN JUAN CNTR"},
+{"type":"APP","freq":118.8,"desc":"ST THOMAS APP"},
+{"type":"DEP","freq":118.8,"desc":"ST THOMAS DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":18.33782500,"lon":-64.96089200,"rng_nm":18,"alt_fmsl":15,"hdg":87.45,"id":"ITMN","rwy":"10","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":18.33631700,"lon":-64.98008300,"rng_nm":10,"alt_fmsl":18,"id":"ITMN","rwy":"10","desc":"GS","gs":3},
+{"type":"DME","freq":110.1,"lat":18.33854400,"lon":-64.96096900,"rng_nm":18,"alt_fmsl":22,"id":"ITMN","rwy":"10","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":290.7,"dist_nm":3.1,"freq":108.6,"lat":18.35580556,"lon":-65.02455556,"rng_nm":40,"alt_fmsl":679,"id":"STT","desc":"ST THOMAS VOR-DME"},
+{"type":"NDB","hdg_t":75.3,"dist_nm":25.7,"freq":360,"lat":18.44583333,"lon":-64.53583333,"rng_nm":50,"alt_fmsl":0,"id":"BFI","desc":"TERRANCE B LETTSO NDB"},
+{"type":"SDME","hdg_t":260.9,"dist_nm":38.7,"freq":113.8,"lat":18.23376700,"lon":-65.64331900,"rng_nm":130,"alt_fmsl":275,"id":"NRR","desc":"ROOSEVELT ROADS TACAN"},
+{"type":"NDB","hdg_t":172.4,"dist_nm":38.9,"freq":241,"lat":17.69191700,"lon":-64.88466700,"rng_nm":25,"alt_fmsl":0,"id":"SX","desc":"PESTE NDB"},
+{"type":"VOR","hdg_t":156.5,"dist_nm":39.2,"freq":108.2,"lat":17.73444444,"lon":-64.70072222,"rng_nm":40,"alt_fmsl":850,"id":"COY","desc":"ST CROIX VOR-DME"},
+{"type":"VOR","hdg_t":276.5,"dist_nm":58.3,"freq":114,"lat":18.44627778,"lon":-65.98950000,"rng_nm":130,"alt_fmsl":7,"id":"SJU","desc":"SAN JUAN VORTAC"},
+{"type":"NDB","hdg_t":274,"dist_nm":63.8,"freq":330,"lat":18.40891111,"lon":-66.08955556,"rng_nm":50,"alt_fmsl":0,"id":"SJ","desc":"PATTY NDB"},
+{"type":"NDB","hdg_t":275.6,"dist_nm":82.4,"freq":391,"lat":18.46827778,"lon":-66.41238889,"rng_nm":75,"alt_fmsl":0,"id":"DDP","desc":"DORADO NDB"},
+{"type":"VOR","hdg_t":257.1,"dist_nm":90.6,"freq":109,"lat":17.99244444,"lon":-66.51916667,"rng_nm":40,"alt_fmsl":16,"id":"PSE","desc":"PONCE VOR-DME"},
+{"type":"NDB","hdg_t":99.2,"dist_nm":107.4,"freq":284,"lat":18.03833333,"lon":-63.11833333,"rng_nm":50,"alt_fmsl":0,"id":"PJD","desc":"ST MAARTEN NDB"}
+]
+}

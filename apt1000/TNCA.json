@@ -1,0 +1,29 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"TNCA","name":"Reina Beatrix Intl","lat":12.501389,"lon":-70.0152205,"rwys":1,"ils":1,"index":1792423,"path":"w080n10/w071n12"
+,"runways":[
+{"len_m":2744,"wid_m":45.11,"hdg":103,"surf":"Asphalt","rwy1":"11","lat1":12.50438900,"lon1":-70.02746900,"rwy2":"29","lat2":12.49838900,"lon2":-70.00297200}
+]
+,"radios":[
+{"type":"ATIS","freq":132.1,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":120.9,"desc":"BEATRIX TWR"},
+{"type":"TWR","freq":128.85,"desc":"BEATRIX TWR"}
+]
+,"ils":[
+{"type":"ILS","freq":108.7,"lat":12.49811400,"lon":-70.00150800,"rng_nm":18,"alt_fmsl":58,"hdg":103.91,"id":"IBE","rwy":"11","desc":"ILS-cat-I"},
+{"type":"GS","freq":108.7,"lat":12.50257500,"lon":-70.02480800,"rng_nm":10,"alt_fmsl":10,"id":"IBE","rwy":"11","desc":"GS","gs":2.98},
+{"type":"DME","freq":108.7,"lat":12.49811400,"lon":-70.00150800,"rng_nm":18,"alt_fmsl":58,"id":"IBE","rwy":"11","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":325.8,"dist_nm":0.3,"freq":113.8,"lat":12.50566900,"lon":-70.01817700,"rng_nm":25,"alt_fmsl":60,"id":"BEA","desc":"REINA BEATRIX VOR-DME"},
+{"type":"VOR","hdg_t":86.5,"dist_nm":4.2,"freq":112.5,"lat":12.50566667,"lon":-69.94311111,"rng_nm":130,"alt_fmsl":59,"id":"ABA","desc":"ARUBA VOR-DME"},
+{"type":"VOR","hdg_t":189.3,"dist_nm":43.6,"freq":113.6,"lat":11.78069444,"lon":-70.13513889,"rng_nm":130,"alt_fmsl":98,"id":"PRG","desc":"PARAGUANA VOR-DME"},
+{"type":"NDB","hdg_t":189.5,"dist_nm":43.8,"freq":385,"lat":11.77686100,"lon":-70.13922200,"rng_nm":25,"alt_fmsl":135,"id":"PRG","desc":"PARAGUANA NDB"},
+{"type":"VOR","hdg_t":106.8,"dist_nm":61.7,"freq":116.7,"lat":12.20027778,"lon":-69.01000000,"rng_nm":130,"alt_fmsl":29,"id":"PJG","desc":"CURACAO VOR-DME"},
+{"type":"VOR","hdg_t":163.7,"dist_nm":67.8,"freq":117.3,"lat":11.41113889,"lon":-69.69397222,"rng_nm":130,"alt_fmsl":52,"id":"CRO","desc":"CORO VOR-DME"},
+{"type":"NDB","hdg_t":102,"dist_nm":104.2,"freq":321,"lat":12.13281900,"lon":-68.28100600,"rng_nm":50,"alt_fmsl":20,"id":"PJB","desc":"BONAIRE NDB"},
+{"type":"NDB","hdg_t":261.9,"dist_nm":116,"freq":420,"lat":12.22305600,"lon":-71.97111100,"rng_nm":25,"alt_fmsl":120,"id":"PTE","desc":"PORTETE NDB"},
+{"type":"NDB","hdg_t":261.9,"dist_nm":118.1,"freq":230,"lat":12.21861100,"lon":-72.00722200,"rng_nm":25,"alt_fmsl":120,"id":"PBL","desc":"PUERTO BOLIVAR NDB"},
+{"type":"NDB","hdg_t":158.9,"dist_nm":120.5,"freq":323,"lat":10.61666700,"lon":-69.28333300,"rng_nm":50,"alt_fmsl":0,"id":"ADA","desc":"AGUADA GRANDE NDB"}
+]
+}

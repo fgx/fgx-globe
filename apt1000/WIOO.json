@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WIOO","name":"Pontianak Supadio","lat":-0.150708,"lon":109.40389,"rwys":1,"ils":1,"index":4740723,"path":"e100s10/e109s01"
+,"runways":[
+{"len_m":2244,"wid_m":29.87,"hdg":157,"surf":"Asphalt","rwy1":"15","lat1":-0.14131900,"lon1":109.40006100,"rwy2":"33","lat2":-0.16009700,"lon2":109.40771900}
+]
+,"radios":[
+{"type":"ATIS","freq":127.4,"desc":"ATIS"},
+{"type":"TWR","freq":118.3,"desc":"TWR"},
+{"type":"APP","freq":119,"desc":"PONTIANAK APP"}
+]
+,"ils":[
+{"type":"ILS","freq":111.3,"lat":-0.16218300,"lon":109.40876900,"rng_nm":18,"alt_fmsl":10,"hdg":157.35,"id":"IPNK","rwy":"15","desc":"ILS-cat-I"},
+{"type":"GS","freq":111.3,"lat":-0.14346400,"lon":109.40230300,"rng_nm":10,"alt_fmsl":10,"id":"IPNK","rwy":"15","desc":"GS","gs":3},
+{"type":"MM","freq":0,"lat":-0.13330600,"lon":109.39709200,"rng_nm":0,"alt_fmsl":10,"id":"----","rwy":"15","desc":"MM"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":8.4,"dist_nm":0.4,"freq":245,"lat":-0.14257200,"lon":109.40508900,"rng_nm":50,"alt_fmsl":10,"id":"AT","desc":"PONTIANAK NDB"},
+{"type":"VOR","hdg_t":337.9,"dist_nm":4.6,"freq":113.2,"lat":-0.07915300,"lon":109.37510300,"rng_nm":130,"alt_fmsl":5,"id":"PNK","desc":"PONTIANAK VOR-DME"},
+{"type":"NDB","hdg_t":13.1,"dist_nm":76.2,"freq":210,"lat":1.09215600,"lon":109.69338300,"rng_nm":50,"alt_fmsl":115,"id":"NF","desc":"SINGKAWANG NDB"},
+{"type":"NDB","hdg_t":159.9,"dist_nm":101.6,"freq":333,"lat":-1.75000000,"lon":109.98333300,"rng_nm":60,"alt_fmsl":46,"id":"KP","desc":"KETAPANG NDB"},
+{"type":"VOR","hdg_t":161.2,"dist_nm":105,"freq":116.8,"lat":-1.81649200,"lon":109.96555800,"rng_nm":150,"alt_fmsl":49,"id":"KTP","desc":"KETAPANG VOR-DME"},
+{"type":"VOR","hdg_t":29.2,"dist_nm":111,"freq":114.5,"lat":1.47333300,"lon":110.30575000,"rng_nm":130,"alt_fmsl":220,"id":"VKG","desc":"KUCHING VOR-DME"},
+{"type":"NDB","hdg_t":25.9,"dist_nm":124.1,"freq":402,"lat":1.71830600,"lon":110.30908300,"rng_nm":50,"alt_fmsl":0,"id":"AN","desc":"KUCHING NDB"},
+{"type":"NDB","hdg_t":84,"dist_nm":125.6,"freq":405,"lat":0.06666700,"lon":111.48333300,"rng_nm":50,"alt_fmsl":98,"id":"SG","desc":"SUSILO NDB"},
+{"type":"NDB","hdg_t":94.7,"dist_nm":143.5,"freq":233,"lat":-0.35000000,"lon":111.78333300,"rng_nm":60,"alt_fmsl":121,"id":"NH","desc":"NANGA PINOH NDB"},
+{"type":"NDB","hdg_t":37.8,"dist_nm":175.9,"freq":264,"lat":2.17743600,"lon":111.20016100,"rng_nm":25,"alt_fmsl":0,"id":"TMS","desc":"TANJUNG MANIS NDB"}
+]
+}

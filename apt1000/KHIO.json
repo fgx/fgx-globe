@@ -1,0 +1,44 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"KHIO","name":"Portland Hillsboro","lat":45.540082,"lon":-122.94967977,"rwys":2,"ils":1,"index":942560,"path":"w130n40/w123n45"
+,"runways":[
+{"len_m":1983,"wid_m":46.02,"hdg":143,"surf":"Asphalt","rwy1":"12","lat1":45.54950762,"lon1":-122.95940060,"rwy2":"30","lat2":45.53514238,"lon2":-122.94432224},
+{"len_m":1236,"wid_m":29.87,"hdg":39,"surf":"Asphalt","rwy1":"02","lat1":45.53355304,"lon1":-122.95254237,"rwy2":"20","lat2":45.54212496,"lon2":-122.94245386}
+]
+,"radios":[
+{"type":"ATIS","freq":127.65,"desc":"ATIS"},
+{"type":"CTAF","freq":119.3,"desc":"CTAF"},
+{"type":"CTAF","freq":122.95,"desc":"UNICOM"},
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":119.3,"desc":"HILLSBORO TWR"},
+{"type":"APP","freq":126,"desc":"APP/DEP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.7,"lat":45.53282800,"lon":-122.94188900,"rng_nm":18,"alt_fmsl":190,"hdg":143.68,"id":"IHIO","rwy":"12","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.7,"lat":45.54824200,"lon":-122.95636400,"rng_nm":10,"alt_fmsl":192,"id":"IHIO","rwy":"12","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":323.2,"dist_nm":6.7,"freq":356,"lat":45.63027778,"lon":-123.04580556,"rng_nm":50,"alt_fmsl":0,"id":"PND","desc":"BANKS NDB"},
+{"type":"VOR","hdg_t":186.1,"dist_nm":11.2,"freq":117.4,"lat":45.35322222,"lon":-122.97816667,"rng_nm":130,"alt_fmsl":1440,"id":"UBG","desc":"NEWBERG VOR-DME"},
+{"type":"SDME","hdg_t":78.3,"dist_nm":14.5,"freq":109.2,"lat":45.58863100,"lon":-122.61125300,"rng_nm":130,"alt_fmsl":22,"id":"CBU","desc":"COLUMBIA TACAN"},
+{"type":"VOR","hdg_t":77.3,"dist_nm":14.8,"freq":111.8,"lat":45.59369444,"lon":-122.60627778,"rng_nm":40,"alt_fmsl":23,"id":"PDX","desc":"PORTLAND VOR-DME"},
+{"type":"NDB","hdg_t":153.7,"dist_nm":17.1,"freq":366,"lat":45.28339200,"lon":-122.77036400,"rng_nm":25,"alt_fmsl":157,"id":"PLV","desc":"PRAHL NDB"},
+{"type":"NDB","hdg_t":190.8,"dist_nm":17.9,"freq":383,"lat":45.24613100,"lon":-123.02973600,"rng_nm":50,"alt_fmsl":159,"id":"MM","desc":"MINNE NDB"},
+{"type":"VOR","hdg_t":50.2,"dist_nm":19.5,"freq":116.6,"lat":45.74780556,"lon":-122.59152778,"rng_nm":130,"alt_fmsl":253,"id":"BTG","desc":"BATTLEGROUND VORTAC"},
+{"type":"NDB","hdg_t":89.6,"dist_nm":20.5,"freq":332,"lat":45.54105556,"lon":-122.46233333,"rng_nm":50,"alt_fmsl":0,"id":"LBH","desc":"LAKER (LOM/NDB) NDB"},
+{"type":"NDB","hdg_t":2.3,"dist_nm":36.9,"freq":256,"lat":46.15547222,"lon":-122.91263889,"rng_nm":50,"alt_fmsl":0,"id":"LSO","desc":"KELSO NDB"},
+{"type":"NDB","hdg_t":180,"dist_nm":41.5,"freq":266,"lat":44.84744444,"lon":-122.95102778,"rng_nm":50,"alt_fmsl":0,"id":"SL","desc":"TURNO NDB"},
+{"type":"NDB","hdg_t":323.5,"dist_nm":44.8,"freq":201,"lat":46.13952778,"lon":-123.58730556,"rng_nm":50,"alt_fmsl":0,"id":"PEN","desc":"KARPEN NDB"},
+{"type":"VOR","hdg_t":314,"dist_nm":53.9,"freq":114,"lat":46.16169444,"lon":-123.88036111,"rng_nm":40,"alt_fmsl":10,"id":"AST","desc":"ASTORIA VOR-DME"},
+{"type":"NDB","hdg_t":193.9,"dist_nm":57.2,"freq":225,"lat":44.61358333,"lon":-123.27066667,"rng_nm":50,"alt_fmsl":0,"id":"LWG","desc":"LEWISBURG NDB"},
+{"type":"VOR","hdg_t":193.3,"dist_nm":64.1,"freq":115.4,"lat":44.49958333,"lon":-123.29366667,"rng_nm":130,"alt_fmsl":241,"id":"CVO","desc":"CORVALLIS VOR-DME"},
+{"type":"NDB","hdg_t":222.8,"dist_nm":70.2,"freq":350,"lat":44.67600000,"lon":-124.06511111,"rng_nm":50,"alt_fmsl":0,"id":"ON","desc":"AGGET NDB"},
+{"type":"VOR","hdg_t":219.6,"dist_nm":74.7,"freq":117.1,"lat":44.57536111,"lon":-124.06058333,"rng_nm":130,"alt_fmsl":147,"id":"ONP","desc":"NEWPORT VORTAC"},
+{"type":"VOR","hdg_t":81.7,"dist_nm":78.5,"freq":112.3,"lat":45.71355556,"lon":-121.10083333,"rng_nm":130,"alt_fmsl":3220,"id":"LTJ","desc":"KLICKITAT VOR-DME"},
+{"type":"VOR","hdg_t":187.8,"dist_nm":85.9,"freq":112.9,"lat":44.12088889,"lon":-123.22283333,"rng_nm":130,"alt_fmsl":364,"id":"EUG","desc":"EUGENE VORTAC"},
+{"type":"VOR","hdg_t":1.3,"dist_nm":85.9,"freq":113.4,"lat":46.97163889,"lon":-122.90183333,"rng_nm":130,"alt_fmsl":200,"id":"OLM","desc":"OLYMPIA VORTAC"},
+{"type":"NDB","hdg_t":10.3,"dist_nm":89.6,"freq":328,"lat":47.00797222,"lon":-122.55641667,"rng_nm":50,"alt_fmsl":0,"id":"LAC","desc":"LACOMAS NDB"},
+{"type":"NDB","hdg_t":8.3,"dist_nm":97.7,"freq":216,"lat":47.15030556,"lon":-122.60463889,"rng_nm":50,"alt_fmsl":0,"id":"GRF","desc":"GRAYE NDB"},
+{"type":"VOR","hdg_t":329.8,"dist_nm":98.1,"freq":117.7,"lat":46.94702778,"lon":-124.14927778,"rng_nm":130,"alt_fmsl":10,"id":"HQM","desc":"HOQUIAM VORTAC"},
+{"type":"VOR","hdg_t":11.3,"dist_nm":98.4,"freq":109.6,"lat":47.14766667,"lon":-122.47502778,"rng_nm":25,"alt_fmsl":287,"id":"TCM","desc":"MCCHORD VORTAC"}
+]
+}

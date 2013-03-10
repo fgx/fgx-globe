@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"FQMA","name":"Maputo","lat":-25.91552925,"lon":32.57690075,"rwys":2,"ils":1,"index":3477506,"path":"e030s30/e032s26"
+,"runways":[
+{"len_m":3666,"wid_m":45.11,"hdg":28,"surf":"Asphalt","rwy1":"05","lat1":-25.92485000,"lon1":32.57015000,"rwy2":"23","lat2":-25.89586700,"lon2":32.58782500},
+{"len_m":1697,"wid_m":45.11,"hdg":86,"surf":"Asphalt","rwy1":"10","lat1":-25.92119400,"lon1":32.56636100,"rwy2":"28","lat2":-25.92020600,"lon2":32.58326700}
+]
+,"radios":[
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"GND","freq":121.7,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"TWR","freq":127.3,"desc":"AFIS"},
+{"type":"APP","freq":121.3,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":-25.92796400,"lon":32.56825000,"rng_nm":18,"alt_fmsl":145,"hdg":208.75,"id":"IMA","rwy":"23","desc":"ILS-cat-II"},
+{"type":"GS","freq":110.3,"lat":-25.89801700,"lon":32.58524400,"rng_nm":10,"alt_fmsl":145,"id":"IMA","rwy":"23","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-25.83396400,"lon":32.62306900,"rng_nm":0,"alt_fmsl":145,"id":"----","rwy":"23","desc":"OM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":28.6,"dist_nm":3.1,"freq":112.7,"lat":-25.86891400,"lon":32.60501200,"rng_nm":150,"alt_fmsl":180,"id":"VMA","desc":"MAPUTO VOR-DME"},
+{"type":"NDB","hdg_t":299.9,"dist_nm":56.5,"freq":450,"lat":-25.44027800,"lon":31.67500000,"rng_nm":50,"alt_fmsl":0,"id":"TSO","desc":"MALELANE NDB"},
+{"type":"NDB","hdg_t":241.7,"dist_nm":75.8,"freq":262,"lat":-26.51054000,"lon":31.33469700,"rng_nm":100,"alt_fmsl":0,"id":"MS","desc":"MATSAPHA NDB"},
+{"type":"VOR","hdg_t":241.9,"dist_nm":76.4,"freq":112.3,"lat":-26.51194400,"lon":31.32361100,"rng_nm":130,"alt_fmsl":2237,"id":"VMS","desc":"MATSAPHA VOR-DME"},
+{"type":"NDB","hdg_t":316.2,"dist_nm":77.1,"freq":233,"lat":-24.98027800,"lon":31.59888900,"rng_nm":50,"alt_fmsl":0,"id":"SZ","desc":"SKUKUZA NDB"},
+{"type":"NDB","hdg_t":18.6,"dist_nm":83.9,"freq":343,"lat":-24.58400000,"lon":33.06669200,"rng_nm":150,"alt_fmsl":0,"id":"LP","desc":"LIMPOPO NDB"},
+{"type":"NDB","hdg_t":291.4,"dist_nm":85.7,"freq":405,"lat":-25.38355600,"lon":31.10911100,"rng_nm":50,"alt_fmsl":0,"id":"PK","desc":"KRUGER MPUMALANGA NDB"},
+{"type":"NDB","hdg_t":285.4,"dist_nm":93.3,"freq":480,"lat":-25.49071900,"lon":30.91906900,"rng_nm":50,"alt_fmsl":2848,"id":"NS","desc":"NELSPRUIT NDB"},
+{"type":"VOR","hdg_t":285.1,"dist_nm":93.4,"freq":116.2,"lat":-25.49823900,"lon":30.91567200,"rng_nm":100,"alt_fmsl":2846,"id":"NSV","desc":"NELSPRUIT VOR-DME"},
+{"type":"NDB","hdg_t":209,"dist_nm":101.6,"freq":382,"lat":-27.39837800,"lon":31.65333600,"rng_nm":50,"alt_fmsl":0,"id":"PGL","desc":"PONGOLA NDB"}
+]
+}

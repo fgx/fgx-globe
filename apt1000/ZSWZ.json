@@ -1,0 +1,27 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ZSWZ","name":"Wenzhou","lat":27.91278068,"lon":120.85173407,"rwys":1,"ils":1,"index":4922747,"path":"e120n20/e120n27"
+,"runways":[
+{"len_m":2396,"wid_m":45.11,"hdg":28,"surf":"Concrete","rwy1":"03","lat1":27.90325246,"lon1":120.84598214,"rwy2":"21","lat2":27.92230890,"lon2":120.85748599}
+]
+,"radios":[
+{"type":"ATIS","freq":127.05,"desc":"ATIS"},
+{"type":"TWR","freq":118.2,"desc":"TWR"},
+{"type":"APP","freq":120.85,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":27.92316628,"lon":120.85800171,"rng_nm":18,"alt_fmsl":13,"hdg":28.05,"id":"IKN","rwy":"03","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":27.90625000,"lon":120.84639740,"rng_nm":10,"alt_fmsl":13,"id":"IKN","rwy":"03","desc":"GS","gs":3}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":118.1,"dist_nm":0.1,"freq":116.4,"lat":27.91189957,"lon":120.85358429,"rng_nm":50,"alt_fmsl":13,"id":"WNZ","desc":"Wenzhou VOR-DME"},
+{"type":"SDME","hdg_t":209.2,"dist_nm":11.2,"freq":109.2,"lat":27.74833298,"lon":120.74833679,"rng_nm":50,"alt_fmsl":17,"id":"DST","desc":"Dongshan DME"},
+{"type":"VOR","hdg_t":230.4,"dist_nm":15.4,"freq":109.2,"lat":27.74833298,"lon":120.62833405,"rng_nm":50,"alt_fmsl":17,"id":"DST","desc":"Dongshan VOR-DME"},
+{"type":"NDB","hdg_t":278.8,"dist_nm":69,"freq":244,"lat":28.08333300,"lon":119.56666700,"rng_nm":50,"alt_fmsl":0,"id":"BZ","desc":"YUNHE NDB"},
+{"type":"VOR","hdg_t":358.8,"dist_nm":100.7,"freq":113.4,"lat":29.59666700,"lon":120.81333300,"rng_nm":130,"alt_fmsl":1,"id":"SHZ","desc":"SHENGZHOU VOR-DME"},
+{"type":"NDB","hdg_t":204.4,"dist_nm":110.8,"freq":325,"lat":26.22444400,"lon":120.00000000,"rng_nm":50,"alt_fmsl":0,"id":"PK","desc":"BEIGAN NDB"},
+{"type":"SDME","hdg_t":204.4,"dist_nm":110.8,"freq":109.7,"lat":26.22444400,"lon":120.00000000,"rng_nm":25,"alt_fmsl":55,"id":"PKN","desc":"BEIGAN DME"},
+{"type":"NDB","hdg_t":204.7,"dist_nm":115.2,"freq":315,"lat":26.16000000,"lon":119.95722200,"rng_nm":100,"alt_fmsl":0,"id":"NK","desc":"NANGAN NDB"},
+{"type":"SDME","hdg_t":204.7,"dist_nm":115.2,"freq":110.1,"lat":26.16000000,"lon":119.95722200,"rng_nm":40,"alt_fmsl":223,"id":"NKN","desc":"NANGAN DME"},
+{"type":"VOR","hdg_t":15.4,"dist_nm":118.9,"freq":116.3,"lat":29.82666700,"lon":121.46000000,"rng_nm":130,"alt_fmsl":23,"id":"NGB","desc":"NINGBO VOR-DME"}
+]
+}

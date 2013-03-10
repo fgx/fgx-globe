@@ -1,0 +1,33 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"HKMO","name":"Mombasa Moi Intl","lat":-4.0307445,"lon":39.596732,"rwys":2,"ils":1,"index":3593596,"path":"e030s10/e039s05"
+,"runways":[
+{"len_m":3350,"wid_m":46.02,"hdg":29,"surf":"Asphalt","rwy1":"03","lat1":-4.03951900,"lon1":39.59167200,"rwy2":"21","lat2":-4.01309200,"lon2":39.60643900},
+{"len_m":1363,"wid_m":35.97,"hdg":150,"surf":"Asphalt","rwy1":"15","lat1":-4.02982800,"lon1":39.59136700,"rwy2":"33","lat2":-4.04053900,"lon2":39.59745000}
+]
+,"radios":[
+{"type":"GND","freq":121.6,"desc":"APRON CTL"},
+{"type":"TWR","freq":118.6,"desc":"TWR"},
+{"type":"APP","freq":121.7,"desc":"RDR"},
+{"type":"APP","freq":122.7,"desc":"APP"},
+{"type":"APP","freq":120.3,"desc":"APP"},
+{"type":"APP","freq":121.7,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":-4.04125000,"lon":39.59068600,"rng_nm":18,"alt_fmsl":187,"hdg":209.16,"id":"IMI","rwy":"21","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":-4.01518100,"lon":39.60375000,"rng_nm":10,"alt_fmsl":194,"id":"IMI","rwy":"21","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":-3.94855600,"lon":39.64221100,"rng_nm":0,"alt_fmsl":187,"id":"----","rwy":"21","desc":"OM"},
+{"type":"DME","freq":110.1,"lat":-4.01518100,"lon":39.60375000,"rng_nm":18,"alt_fmsl":257,"id":"IMI","rwy":"21","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":96.9,"dist_nm":1.1,"freq":267,"lat":-4.03300800,"lon":39.61520800,"rng_nm":200,"alt_fmsl":169,"id":"MO","desc":"MOMBASA NDB"},
+{"type":"NDB","hdg_t":29,"dist_nm":5.6,"freq":394,"lat":-3.94855600,"lon":39.64221100,"rng_nm":50,"alt_fmsl":168,"id":"MC","desc":"MOMBASA NDB"},
+{"type":"VOR","hdg_t":29.3,"dist_nm":5.6,"freq":112.3,"lat":-3.94853600,"lon":39.64274400,"rng_nm":200,"alt_fmsl":204,"id":"MOV","desc":"MOMBASA VOR-DME"},
+{"type":"VOR","hdg_t":32.5,"dist_nm":56.4,"freq":113.3,"lat":-3.23353600,"lon":40.10260800,"rng_nm":200,"alt_fmsl":80,"id":"MLD","desc":"MALINDI VOR-DME"},
+{"type":"NDB","hdg_t":32.3,"dist_nm":56.4,"freq":309,"lat":-3.23112500,"lon":40.09995300,"rng_nm":50,"alt_fmsl":73,"id":"ML","desc":"MALINDI NDB"},
+{"type":"NDB","hdg_t":206.3,"dist_nm":70.8,"freq":407,"lat":-5.09393200,"lon":39.07197900,"rng_nm":100,"alt_fmsl":129,"id":"TG","desc":"TANGA NDB"},
+{"type":"NDB","hdg_t":169.9,"dist_nm":74.4,"freq":345,"lat":-5.25804400,"lon":39.81447500,"rng_nm":100,"alt_fmsl":80,"id":"PA","desc":"PEMBA NDB"},
+{"type":"NDB","hdg_t":310,"dist_nm":85.9,"freq":398,"lat":-3.10244400,"lon":38.50086100,"rng_nm":75,"alt_fmsl":0,"id":"RA","desc":"MANYANI NDB"},
+{"type":"NDB","hdg_t":189.7,"dist_nm":132.4,"freq":385,"lat":-6.21733600,"lon":39.22238600,"rng_nm":50,"alt_fmsl":54,"id":"ZZ","desc":"ZANZIBAR NDB"},
+{"type":"VOR","hdg_t":283.4,"dist_nm":153.6,"freq":115.3,"lat":-3.42788100,"lon":37.10661100,"rng_nm":100,"alt_fmsl":2932,"id":"KV","desc":"KILIMANJARO VOR-DME"}
+]
+}

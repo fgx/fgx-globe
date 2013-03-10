@@ -1,0 +1,38 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"WMSA","name":"Kuala Lumpur S Abdul Aziz Shah","lat":3.130583,"lon":101.5493335,"rwys":1,"ils":2,"index":4609868,"path":"e100n00/e101n03"
+,"runways":[
+{"len_m":3779,"wid_m":45.11,"hdg":149,"surf":"Asphalt","rwy1":"15","lat1":3.14533300,"lon1":101.54075000,"rwy2":"33","lat2":3.11583300,"lon2":101.55791700}
+]
+,"radios":[
+{"type":"ATIS","freq":127.6,"desc":"SUBANG INFO"},
+{"type":"CLD","freq":126,"desc":"LUMPUR DELIVERY"},
+{"type":"GND","freq":121.9,"desc":"SUBANG GND"},
+{"type":"TWR","freq":126.1,"desc":"LUMPUR"},
+{"type":"TWR","freq":118.2,"desc":"SUBANG TWR"},
+{"type":"APP","freq":125.1,"desc":"LUMPUR DIRECTOR"},
+{"type":"APP","freq":124.2,"desc":"LUMPUR DIRECTOR"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":3.11476900,"lon":101.55899200,"rng_nm":18,"alt_fmsl":80,"hdg":149.21,"id":"ISB","rwy":"15","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.9,"lat":3.14480600,"lon":101.54022200,"rng_nm":18,"alt_fmsl":69,"hdg":328.62,"id":"IKL","rwy":"33","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":3.14222200,"lon":101.54111100,"rng_nm":10,"alt_fmsl":90,"id":"ISB","rwy":"15","desc":"GS","gs":3},
+{"type":"GS","freq":109.9,"lat":3.11980600,"lon":101.55508300,"rng_nm":10,"alt_fmsl":69,"id":"IKL","rwy":"33","desc":"GS","gs":3},
+{"type":"DME","freq":110.3,"lat":3.14222200,"lon":101.54111100,"rng_nm":18,"alt_fmsl":90,"id":"ISB","rwy":"15","desc":"DME-ILS"},
+{"type":"DME","freq":109.9,"lat":3.11980600,"lon":101.55508300,"rng_nm":18,"alt_fmsl":69,"id":"IKL","rwy":"33","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":150.1,"dist_nm":2.9,"freq":355,"lat":3.08813900,"lon":101.57355600,"rng_nm":50,"alt_fmsl":0,"id":"SM","desc":"KUALA LUMPUR NDB"},
+{"type":"NDB","hdg_t":329.2,"dist_nm":4.8,"freq":338,"lat":3.19980600,"lon":101.50833300,"rng_nm":50,"alt_fmsl":0,"id":"NM","desc":"KUALA LUMPUR NDB"},
+{"type":"NDB","hdg_t":149.1,"dist_nm":8.2,"freq":255,"lat":3.01138900,"lon":101.62022200,"rng_nm":50,"alt_fmsl":0,"id":"KL","desc":"KAYELL NDB"},
+{"type":"NDB","hdg_t":329.2,"dist_nm":11.4,"freq":205,"lat":3.29508300,"lon":101.45191700,"rng_nm":50,"alt_fmsl":0,"id":"CE","desc":"CALEDONIAN NDB"},
+{"type":"VOR","hdg_t":334.4,"dist_nm":12.8,"freq":114.7,"lat":3.32480600,"lon":101.45691700,"rng_nm":25,"alt_fmsl":359,"id":"VBA","desc":"BATU ARANG VOR-DME"},
+{"type":"VOR","hdg_t":154.9,"dist_nm":26.7,"freq":116.1,"lat":2.72444400,"lon":101.73805600,"rng_nm":25,"alt_fmsl":261,"id":"VKL","desc":"KUALA LUMPUR VOR-DME"},
+{"type":"NDB","hdg_t":328.4,"dist_nm":60.6,"freq":315,"lat":3.99666700,"lon":101.02000000,"rng_nm":50,"alt_fmsl":0,"id":"TA","desc":"TELOK INTAN NDB"},
+{"type":"NDB","hdg_t":140.6,"dist_nm":66.6,"freq":298,"lat":2.26655600,"lon":102.25347200,"rng_nm":25,"alt_fmsl":0,"id":"AM","desc":"MALACCA NDB"},
+{"type":"VOR","hdg_t":141,"dist_nm":67,"freq":117.4,"lat":2.25638900,"lon":102.25055600,"rng_nm":130,"alt_fmsl":35,"id":"VMK","desc":"MALACCA VOR-DME"},
+{"type":"NDB","hdg_t":143.7,"dist_nm":68.2,"freq":362,"lat":2.20822200,"lon":102.22180600,"rng_nm":50,"alt_fmsl":0,"id":"MC","desc":"MALACCA NDB"},
+{"type":"VOR","hdg_t":338.4,"dist_nm":86.7,"freq":112.8,"lat":4.48222200,"lon":101.01722200,"rng_nm":25,"alt_fmsl":0,"id":"VPS","desc":"IPOH VOR"},
+{"type":"NDB","hdg_t":183.6,"dist_nm":88.8,"freq":343,"lat":1.64500000,"lon":101.45500000,"rng_nm":50,"alt_fmsl":54,"id":"DM","desc":"DUMAI NDB"},
+{"type":"VOR","hdg_t":342.4,"dist_nm":90.3,"freq":117.3,"lat":4.57302800,"lon":101.09361100,"rng_nm":130,"alt_fmsl":128,"id":"VIH","desc":"IPOH VOR-DME"}
+]
+}

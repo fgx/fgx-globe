@@ -1,0 +1,31 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"TTPP","name":"Trinidad/piarco Intl","lat":10.5953695,"lon":-61.337239,"rwys":1,"ils":1,"index":1939749,"path":"w070n10/w062n10"
+,"runways":[
+{"len_m":3199,"wid_m":46.02,"hdg":89,"surf":"Asphalt","rwy1":"10","lat1":10.59532800,"lon1":-61.35185600,"rwy2":"28","lat2":10.59541100,"lon2":-61.32262200}
+]
+,"radios":[
+{"type":"ATIS","freq":126.7,"desc":"ATIS"},
+{"type":"GND","freq":121.9,"desc":"GND"},
+{"type":"TWR","freq":118.1,"desc":"TWR"},
+{"type":"APP","freq":119,"desc":"APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.7,"lat":10.59561200,"lon":-61.31985200,"rng_nm":18,"alt_fmsl":57,"hdg":89.49,"id":"IPOS","rwy":"10","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.7,"lat":10.59422400,"lon":-61.35010400,"rng_nm":10,"alt_fmsl":57,"id":"IPOS","rwy":"10","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":10.59339100,"lon":-61.42205200,"rng_nm":0,"alt_fmsl":57,"id":"----","rwy":"10","desc":"OM"},
+{"type":"MM","freq":0,"lat":10.59548500,"lon":-61.35777400,"rng_nm":0,"alt_fmsl":57,"id":"----","rwy":"10","desc":"MM"},
+{"type":"DME","freq":109.7,"lat":10.59561200,"lon":-61.31985200,"rng_nm":18,"alt_fmsl":57,"id":"IPOS","rwy":"10","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":270.9,"dist_nm":4.9,"freq":382,"lat":10.59672222,"lon":-61.42066667,"rng_nm":50,"alt_fmsl":0,"id":"TRI","desc":"PIARCO NDB"},
+{"type":"VOR","hdg_t":202.9,"dist_nm":8.3,"freq":116.9,"lat":10.46638889,"lon":-61.39236111,"rng_nm":130,"alt_fmsl":88,"id":"POS","desc":"PIARCO VOR-DME"},
+{"type":"NDB","hdg_t":329.3,"dist_nm":37.2,"freq":250,"lat":11.13128300,"lon":-61.65897800,"rng_nm":50,"alt_fmsl":0,"id":"BGH","desc":"BGH NDB"},
+{"type":"NDB","hdg_t":41.9,"dist_nm":44.4,"freq":323,"lat":11.14741667,"lon":-60.83352778,"rng_nm":50,"alt_fmsl":0,"id":"TAB","desc":"CROWN POINT NDB"},
+{"type":"NDB","hdg_t":268.6,"dist_nm":57.5,"freq":370,"lat":10.57116700,"lon":-62.31088900,"rng_nm":25,"alt_fmsl":59,"id":"GUI","desc":"GUIRIA NDB"},
+{"type":"VOR","hdg_t":342.5,"dist_nm":88,"freq":117.1,"lat":12.00127778,"lon":-61.78544444,"rng_nm":130,"alt_fmsl":40,"id":"GND","desc":"MAURICE BISHOP VOR-DME"},
+{"type":"NDB","hdg_t":342.8,"dist_nm":88.4,"freq":362,"lat":12.00928900,"lon":-61.78103700,"rng_nm":50,"alt_fmsl":30,"id":"GND","desc":"POINT SALINES NDB"},
+{"type":"NDB","hdg_t":206.6,"dist_nm":100.7,"freq":225,"lat":9.08586111,"lon":-62.09838889,"rng_nm":50,"alt_fmsl":0,"id":"TUC","desc":"TUCUPITA NDB"},
+{"type":"NDB","hdg_t":272,"dist_nm":113.6,"freq":270,"lat":10.65830556,"lon":-63.25947222,"rng_nm":50,"alt_fmsl":0,"id":"CUP","desc":"CARUPANO NDB"},
+{"type":"NDB","hdg_t":245.1,"dist_nm":118.8,"freq":230,"lat":9.75336100,"lon":-63.15672200,"rng_nm":190,"alt_fmsl":213,"id":"MUN","desc":"MATURIN NDB"}
+]
+}

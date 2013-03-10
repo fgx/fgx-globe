@@ -1,0 +1,30 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"UELL","name":"Chulman","lat":56.90389342,"lon":124.89201617,"rwys":2,"ils":1,"index":4990139,"path":"e120n50/e124n56"
+,"runways":[
+{"len_m":3601,"wid_m":45.11,"hdg":68,"surf":"Concrete","rwy1":"08","lat1":56.90810565,"lon1":124.88623875,"rwy2":"26","lat2":56.91972735,"lon2":124.94141084},
+{"len_m":707,"wid_m":74.07,"hdg":177,"surf":"Dirt","rwy1":"01","lat1":56.89704421,"lon1":124.86994367,"rwy2":"19","lat2":56.89069648,"lon2":124.87047141}
+]
+,"radios":[
+{"type":"ATIS","freq":126.8,"desc":"ATIS"},
+{"type":"TWR","freq":118.3,"desc":"Chulman Krug"},
+{"type":"APP","freq":131.7,"desc":"Chulman Transit"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":56.92133331,"lon":124.94882965,"rng_nm":50,"alt_fmsl":2813,"hdg":68.87,"id":"IRQ","rwy":"08","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":56.90933228,"lon":124.88933563,"rng_nm":50,"alt_fmsl":2813,"id":"IRQ","rwy":"08","desc":"GS","gs":2.5},
+{"type":"OM","freq":0,"lat":56.89333344,"lon":124.81500244,"rng_nm":0,"alt_fmsl":2813,"id":"----","rwy":"08","desc":"OM"},
+{"type":"MM","freq":0,"lat":56.90499878,"lon":124.87166595,"rng_nm":0,"alt_fmsl":2813,"id":"----","rwy":"08","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":297.8,"dist_nm":0.5,"freq":113.8,"lat":56.90833300,"lon":124.87666700,"rng_nm":130,"alt_fmsl":2697,"id":"NRG","desc":"NERYUNGRI VOR-DME"},
+{"type":"NDB","hdg_t":275.6,"dist_nm":0.6,"freq":930,"lat":56.90499878,"lon":124.87166595,"rng_nm":50,"alt_fmsl":2813,"id":"R","desc":"Neryungri NDB"},
+{"type":"NDB","hdg_t":61.9,"dist_nm":2.5,"freq":930,"lat":56.92366791,"lon":124.95999908,"rng_nm":50,"alt_fmsl":2813,"id":"U","desc":"Neryungri NDB"},
+{"type":"NDB","hdg_t":255.9,"dist_nm":2.6,"freq":458,"lat":56.89333300,"lon":124.81500000,"rng_nm":80,"alt_fmsl":0,"id":"RQ","desc":"NERYUNGRI NDB"},
+{"type":"NDB","hdg_t":9.2,"dist_nm":104.3,"freq":522,"lat":58.61466599,"lon":125.42666626,"rng_nm":30,"alt_fmsl":451,"id":"A","desc":"Aldan NDB"},
+{"type":"NDB","hdg_t":10.2,"dist_nm":107.2,"freq":451,"lat":58.65833282,"lon":125.50000000,"rng_nm":80,"alt_fmsl":2299,"id":"AD","desc":"ALDAN NDB"},
+{"type":"NDB","hdg_t":195.4,"dist_nm":173.3,"freq":315,"lat":54.11666700,"lon":123.58333300,"rng_nm":80,"alt_fmsl":0,"id":"TH","desc":"TACHTAMYGDA NDB"},
+{"type":"NDB","hdg_t":132.8,"dist_nm":187.6,"freq":225,"lat":54.71666700,"lon":128.85000000,"rng_nm":80,"alt_fmsl":0,"id":"JQ","desc":"BOMNAK NDB"},
+{"type":"NDB","hdg_t":170.9,"dist_nm":208.8,"freq":344,"lat":53.47000000,"lon":125.81166700,"rng_nm":80,"alt_fmsl":0,"id":"GU","desc":"MAGDAGACHI NDB"},
+{"type":"NDB","hdg_t":56.5,"dist_nm":215.4,"freq":325,"lat":58.75000000,"lon":130.65000000,"rng_nm":80,"alt_fmsl":0,"id":"UR","desc":"CHAGDA NDB"}
+]
+}

@@ -1,0 +1,36 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"ZGHA","name":"Huanghua","lat":28.1891585,"lon":113.219632,"rwys":1,"ils":2,"index":4808072,"path":"e110n20/e113n28"
+,"runways":[
+{"len_m":2600,"wid_m":45.11,"hdg":176,"surf":"Concrete","rwy1":"18","lat1":28.20087500,"lon1":113.21893300,"rwy2":"36","lat2":28.17744200,"lon2":113.22033100}
+]
+,"radios":[
+{"type":"ATIS","freq":128.8,"desc":"ATIS"},
+{"type":"GND","freq":121.75,"desc":"GND"},
+{"type":"TWR","freq":118.55,"desc":"TWR"},
+{"type":"TWR","freq":128,"desc":"TWR"},
+{"type":"APP","freq":119.65,"desc":"CHANGSHU"},
+{"type":"APP","freq":120.6,"desc":"CHANGSHU"}
+]
+,"ils":[
+{"type":"ILS","freq":110.3,"lat":28.17573100,"lon":113.22043300,"rng_nm":18,"alt_fmsl":215,"hdg":176.99,"id":"IWW","rwy":"18","desc":"ILS-cat-I"},
+{"type":"ILS","freq":109.9,"lat":28.20294700,"lon":113.21880800,"rng_nm":18,"alt_fmsl":215,"hdg":356.99,"id":"ISV","rwy":"36","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.3,"lat":28.19796100,"lon":113.22023100,"rng_nm":10,"alt_fmsl":215,"id":"IWW","rwy":"18","desc":"GS","gs":3},
+{"type":"GS","freq":109.9,"lat":28.18013600,"lon":113.21904700,"rng_nm":10,"alt_fmsl":215,"id":"ISV","rwy":"36","desc":"GS","gs":3},
+{"type":"OM","freq":0,"lat":28.26775300,"lon":113.21491400,"rng_nm":0,"alt_fmsl":215,"id":"----","rwy":"18","desc":"OM"},
+{"type":"OM","freq":0,"lat":28.10124700,"lon":113.22490300,"rng_nm":0,"alt_fmsl":215,"id":"----","rwy":"36","desc":"OM"},
+{"type":"MM","freq":0,"lat":28.21422800,"lon":113.21813100,"rng_nm":0,"alt_fmsl":215,"id":"----","rwy":"18","desc":"MM"},
+{"type":"MM","freq":0,"lat":28.16660300,"lon":113.22098100,"rng_nm":0,"alt_fmsl":215,"id":"----","rwy":"36","desc":"MM"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":349.5,"dist_nm":0.8,"freq":113.3,"lat":28.20333300,"lon":113.21666700,"rng_nm":130,"alt_fmsl":289,"id":"CSX","desc":"CHANGSHA VOR-DME"},
+{"type":"NDB","hdg_t":232.6,"dist_nm":17,"freq":520,"lat":28.01666700,"lon":112.96500000,"rng_nm":50,"alt_fmsl":250,"id":"ZK","desc":"DATUOPU NDB"},
+{"type":"NDB","hdg_t":153.2,"dist_nm":37.2,"freq":361,"lat":27.63333300,"lon":113.53333300,"rng_nm":50,"alt_fmsl":0,"id":"LZ","desc":"LILING NDB"},
+{"type":"VOR","hdg_t":154,"dist_nm":37.4,"freq":112.4,"lat":27.62666700,"lon":113.52666700,"rng_nm":130,"alt_fmsl":279,"id":"LIG","desc":"LILING VOR-DME"},
+{"type":"NDB","hdg_t":263.4,"dist_nm":53.5,"freq":245,"lat":28.08333300,"lon":112.21666700,"rng_nm":50,"alt_fmsl":0,"id":"GJ","desc":"LAOLIANGCANG NDB"},
+{"type":"VOR","hdg_t":262.5,"dist_nm":53.9,"freq":116.2,"lat":28.06833300,"lon":112.21166700,"rng_nm":130,"alt_fmsl":472,"id":"LLC","desc":"LAOLIANGCANG VOR-DME"},
+{"type":"VOR","hdg_t":13.5,"dist_nm":106.3,"freq":115.8,"lat":29.91666700,"lon":113.69666700,"rng_nm":130,"alt_fmsl":103,"id":"LKO","desc":"LONGKOU VOR-DME"},
+{"type":"NDB","hdg_t":310,"dist_nm":108.7,"freq":365,"lat":29.35000000,"lon":111.63333300,"rng_nm":50,"alt_fmsl":0,"id":"FM","desc":"LINLI NDB"},
+{"type":"NDB","hdg_t":15.1,"dist_nm":109.2,"freq":395,"lat":29.95000000,"lon":113.76666700,"rng_nm":50,"alt_fmsl":0,"id":"KG","desc":"LONGKOU NDB"},
+{"type":"NDB","hdg_t":78.2,"dist_nm":134.1,"freq":210,"lat":28.62166700,"lon":115.70833300,"rng_nm":50,"alt_fmsl":200,"id":"RP","desc":"LIJIA NDB"}
+]
+}

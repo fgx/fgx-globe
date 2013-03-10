@@ -1,0 +1,28 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"MMIO","name":"Plan De Guadalupe Intl","lat":25.54212275,"lon":-100.93030125,"rwys":2,"ils":1,"index":1301728,"path":"w110n20/w101n25"
+,"runways":[
+{"len_m":2897,"wid_m":45.11,"hdg":180,"surf":"Asphalt","rwy1":"17","lat1":25.55145800,"lon1":-100.92846400,"rwy2":"35","lat2":25.52530300,"lon2":-100.92859700},
+{"len_m":1056,"wid_m":45.11,"hdg":40,"surf":"Asphalt","rwy1":"03","lat1":25.54223300,"lon1":-100.93547500,"rwy2":"21","lat2":25.54949700,"lon2":-100.92866900}
+]
+,"radios":[
+{"type":"TWR","freq":118.4,"desc":"SALTILLO TWR"},
+{"type":"APP","freq":127.4,"desc":"SALTILLO APP"}
+]
+,"ils":[
+{"type":"ILS","freq":110.1,"lat":25.52397800,"lon":-100.92831900,"rng_nm":18,"alt_fmsl":4778,"hdg":179.73,"id":"ISLW","rwy":"17","desc":"ILS-cat-I"},
+{"type":"GS","freq":110.1,"lat":25.54878900,"lon":-100.92734400,"rng_nm":10,"alt_fmsl":4778,"id":"ISLW","rwy":"17","desc":"GS","gs":3},
+{"type":"DME","freq":110.1,"lat":25.54878900,"lon":-100.92734400,"rng_nm":18,"alt_fmsl":4778,"id":"ISLW","rwy":"17","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"VOR","hdg_t":6.4,"dist_nm":0.2,"freq":116.1,"lat":25.54611111,"lon":-100.92980556,"rng_nm":130,"alt_fmsl":4782,"id":"SLW","desc":"SALTILLO VOR-DME"},
+{"type":"VOR","hdg_t":62.5,"dist_nm":42.1,"freq":115.4,"lat":25.86544444,"lon":-100.23880556,"rng_nm":130,"alt_fmsl":1476,"id":"ADN","desc":"ROBERTO VOR-DME"},
+{"type":"VOR","hdg_t":72.6,"dist_nm":46.8,"freq":114.7,"lat":25.77288889,"lon":-100.10397222,"rng_nm":130,"alt_fmsl":1305,"id":"MTY","desc":"MONTERREY VOR-DME"},
+{"type":"VOR","hdg_t":200.3,"dist_nm":88,"freq":117.1,"lat":24.15972222,"lon":-101.48750000,"rng_nm":130,"alt_fmsl":6217,"id":"CDR","desc":"CONCEPCION VOR-DME"},
+{"type":"VOR","hdg_t":341,"dist_nm":89.4,"freq":117.9,"lat":26.95550000,"lon":-101.47102778,"rng_nm":130,"alt_fmsl":1864,"id":"MOV","desc":"MONCLOVA VOR-DME"},
+{"type":"VOR","hdg_t":271,"dist_nm":134.4,"freq":116.4,"lat":25.56396400,"lon":-103.40840800,"rng_nm":130,"alt_fmsl":3688,"id":"TRC","desc":"TORREON VOR-DME"},
+{"type":"VOR","hdg_t":32.6,"dist_nm":135.2,"freq":112.6,"lat":27.43938889,"lon":-99.56458333,"rng_nm":130,"alt_fmsl":484,"id":"NLD","desc":"NEWLA VOR-DME"},
+{"type":"VOR","hdg_t":34.7,"dist_nm":141.5,"freq":117.4,"lat":27.47872222,"lon":-99.41766667,"rng_nm":130,"alt_fmsl":580,"id":"LRD","desc":"LAREDO VORTAC"},
+{"type":"NDB","hdg_t":60.4,"dist_nm":145.2,"freq":260,"lat":26.71894444,"lon":-98.57725000,"rng_nm":50,"alt_fmsl":0,"id":"SNE","desc":"SANTA ELENA NDB"},
+{"type":"NDB","hdg_t":72.7,"dist_nm":148,"freq":330,"lat":26.25386111,"lon":-98.31038889,"rng_nm":50,"alt_fmsl":0,"id":"MF","desc":"MISSI NDB"}
+]
+}

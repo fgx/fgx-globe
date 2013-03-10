@@ -1,0 +1,32 @@
+{"success":true,"source":"xp2csv.pl","last_updated":"2013/03/09 16:54:19 UTC"
+,"icao":"SBFZ","name":"Pinto Martins","lat":-3.7762835,"lon":-38.5325555,"rwys":1,"ils":1,"index":2315659,"path":"w040s10/w039s04"
+,"runways":[
+{"len_m":2549,"wid_m":45.11,"hdg":104,"surf":"Asphalt","rwy1":"13","lat1":-3.77334200,"lon1":-38.54365000,"rwy2":"31","lat2":-3.77922500,"lon2":-38.52146100}
+]
+,"radios":[
+{"type":"ATIS","freq":127.7,"desc":"ATIS"},
+{"type":"GND","freq":121.95,"desc":"GND"},
+{"type":"TWR","freq":118.5,"desc":"FORTALEZA TWR"},
+{"type":"TWR","freq":129,"desc":"FORTALEZA TWR"},
+{"type":"APP","freq":119.2,"desc":"FORTALEZA APP"},
+{"type":"APP","freq":133,"desc":"FORTALEZA APP"},
+{"type":"APP","freq":134.55,"desc":"FORTALEZA APP"}
+]
+,"ils":[
+{"type":"ILS","freq":109.3,"lat":-3.78050600,"lon":-38.51703100,"rng_nm":18,"alt_fmsl":82,"hdg":105.09,"id":"IFZ","rwy":"13","desc":"ILS-cat-I"},
+{"type":"GS","freq":109.3,"lat":-3.77330800,"lon":-38.54041700,"rng_nm":10,"alt_fmsl":82,"id":"IFZ","rwy":"13","desc":"GS","gs":3},
+{"type":"DME","freq":109.3,"lat":-3.78050600,"lon":-38.51703100,"rng_nm":18,"alt_fmsl":82,"id":"IFZ","rwy":"13","desc":"DME-ILS"}
+]
+,"navaids":[
+{"type":"NDB","hdg_t":37.1,"dist_nm":0.4,"freq":260,"lat":-3.76983900,"lon":-38.52769200,"rng_nm":110,"alt_fmsl":192,"id":"FLZ","desc":"FORTALEZA NDB"},
+{"type":"VOR","hdg_t":284.7,"dist_nm":0.9,"freq":114.1,"lat":-3.77226900,"lon":-38.54768900,"rng_nm":200,"alt_fmsl":82,"id":"FLZ","desc":"FORTALEZA VOR-DME"},
+{"type":"NDB","hdg_t":284.8,"dist_nm":5.7,"freq":210,"lat":-3.75166700,"lon":-38.62500000,"rng_nm":50,"alt_fmsl":0,"id":"PCI","desc":"PICI NDB"},
+{"type":"NDB","hdg_t":281.9,"dist_nm":54.8,"freq":235,"lat":-3.58550000,"lon":-39.42666700,"rng_nm":25,"alt_fmsl":0,"id":"URT","desc":"URUBURETAMA NDB"},
+{"type":"NDB","hdg_t":233.6,"dist_nm":81.6,"freq":415,"lat":-4.58533300,"lon":-39.63033300,"rng_nm":50,"alt_fmsl":0,"id":"YTT","desc":"ITATAIA NDB"},
+{"type":"NDB","hdg_t":140.4,"dist_nm":109.8,"freq":275,"lat":-5.19350000,"lon":-37.36450000,"rng_nm":90,"alt_fmsl":217,"id":"MSS","desc":"MOSSORO NDB"},
+{"type":"VOR","hdg_t":140.5,"dist_nm":109.9,"freq":112.4,"lat":-5.19733300,"lon":-37.36450000,"rng_nm":200,"alt_fmsl":88,"id":"MSS","desc":"MOSSORO VOR-DME"},
+{"type":"NDB","hdg_t":117.7,"dist_nm":148.3,"freq":220,"lat":-4.92916700,"lon":-36.33972200,"rng_nm":25,"alt_fmsl":0,"id":"UBA","desc":"UBARANA NDB"},
+{"type":"NDB","hdg_t":285.2,"dist_nm":198.8,"freq":365,"lat":-2.89750000,"lon":-41.72883300,"rng_nm":62,"alt_fmsl":16,"id":"PNB","desc":"PARNAIBA NDB"},
+{"type":"NDB","hdg_t":114.4,"dist_nm":200.3,"freq":305,"lat":-5.16116700,"lon":-35.48650000,"rng_nm":300,"alt_fmsl":0,"id":"DA","desc":"CALCANHAR NDB"}
+]
+}
