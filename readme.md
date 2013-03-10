@@ -5,7 +5,7 @@ FGx Globe
 
 Geographic data represented on spheres has certainly created some pretty maps.
 
-But can a globe be used to represented non-geographical big-data in successful ways.
+But can a globe be used to represented non-geographical big-data in successful ways?
 
 This repository is about the exploration of such possibilities.
 
@@ -19,6 +19,12 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 
 
 ## Change log
+
+2013-03-09 ~ Theo
+* Adding copyright and licensing information
+
+2013-03-07 ~ Theo
+* added word-wrap:break-word; to heads-up css in globe-circumscribe-airports-2k-json.html
 
 2013-03-06 ~ Theo
 * added aptinfo folder with navaid data for 2,123 airports

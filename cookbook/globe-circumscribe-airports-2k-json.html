@@ -249,7 +249,7 @@
 			}
 			headsUp.style.left = 10 + 0.5 * window.innerWidth + mouse.x * 0.5 * window.innerWidth + 'px';
 			headsUp.style.bottom = 10 + 0.5 * window.innerHeight + mouse.y * 0.5 * window.innerHeight+ 'px';
-			headsUp.style.cssText += 'display: block; width: 300px;';
+			headsUp.style.cssText += 'display: block; width: 300px; word-wrap:break-word;';
 			var c =  intersected.position;
 			var ap = intersected.ap;
 			headsUp.innerHTML =  'ICAO: ' + ap[0] + '<br>Name: ' + ap[1].replace(/["']/g, "") + '<br>Latitude: ' + ap[2] + '<br>Longitude: ' + ap[3] + '<br>';

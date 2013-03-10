@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<title></title>
+<meta charset='utf-8'>
+</head>
+<body>
+<script src='sidebars.js'></script>
+<script>
+	var css = document.body.appendChild( document.createElement( 'style' ) );
+	css.innerHTML = 'body {background-color: transparent; font: 600 12pt monospace; margin: 0; overflow: hidden; text-align: center;}' +
+		'a { color: #f00;}  ' +
+		'button, input[type=range] { -webkit-appearance: none; background-color: silver; height: 20px; opacity: 0.5; }' +
+		'input[type="range"]::-webkit-slider-thumb {-webkit-appearance: none; background-color: #666; opacity: 0.5; width: 10px; height: 26px; }' ;
+	
+	var FGx = FGx || {};
+	FGx.hash = [
+			{ title: 'Observer Latitude', type: 'range', default: 40, min: 0, max: 90, step: 1 },
+			{ title: 'Observer Longitude', type: 'range', default: -35, min: -180, max: 180, step: 1 },
+			{ title: 'Observer Distance', type: 'range', default: 180, min: 51, max: 200, step: 1 },
+			{ title: 'Airplane Scale', type: 'range', default: 10, min: 0.5, max: 10, step: 0.5 },
+			{ title: 'Altitude Scale', type: 'range', default: 10, min: 0.5, max: 10, step: 0.5 },
+			{ title: 'Globe Image', type: 'select', default: 41, images: ['none','map1','map2'] },
+			{ title: 'Camera Movement', type: 'range', default: 0.2, min: 0.1, max: 1.2, step: 0.05 },
+			{ title: 'Refresh Rate', type: 'range', default: 10, min: 2, max: 100, step: 1 },
+		];
+	
+	function updateHash() {
+		var f = FGx.hash
+		var link = 'lat=' + f[0].default + '#lon=' + f[1].default + '#rad=' + f[2].default + '#ps=' + f[3].default + '#as=' + f[4].default +
+		'#gi=' + f[5].default + '#dd=' + f[6].default + '#rr=' + f[7].default;
+		permalink.href = "#" + link;
+		window.location.hash = link;
+	}
+	
+	function clearHash() {
+		window.history.pushState( '', '', window.location.pathname);
+		permalink.href = ''
+		statusBarBody.innerHTML = '';
+	}
+
+// must hit Enter AND reload...
+
+	function parseHash() {
+		var hash = location.hash.split('#')
+		var item;
+		statusBarBody.innerHTML = '';
+console.log( 'hash: ', hash);		
+		for (var i = 0, len = FGx.hash.length; i < len; i++) {
+			item = hash[i + 1];
+			if (item != undefined ) {
+				item = item.split('=');
+				FGx.hash[i][1] = item[1];
+			}
+			p(  i + ' ' + FGx.hash[i].title + ' = ' + FGx.hash[i][1]  + '<br>', statusBarBody );
+		}
+		processKeys();
+		updateHash();
+		
+	}
+	
+	function updateSettings( index, value ) {
+		var f = FGx.hash[index];
+		var sp = document.getElementById('w' + index );
+console.log(  index, value, sp );		
+		f.default = value;
+		sp.innerHTML = value;
+		parseHash();
+		
+	}
+	
+	function processKeys() {
+		sidebarRightBody.innerHTML = '';
+		for (var i = 0, len = FGx.hash.length; i < len; i++) {
+			var widget;
+			if (FGx.hash[i].type == 'range' ) {
+				var f =  FGx.hash[i]
+				widget = '<input onchange="updateSettings(' + i + ', this.value )" type="range" min="' + f.min + '" max="' + f.max + '" onchange="" step="' + f.step + '" value="' + f.default + '" >' +
+				'<span id="w' + i + '" >' + f.default + '</span>' ;
+			} else {
+				widget = '<br>';
+			}
+			p( FGx.hash[i].title + '<br>' + widget, sidebarRightBody);
+		}
+	}
+
+	parseHash();
+</script>
+</body>
+</html>
