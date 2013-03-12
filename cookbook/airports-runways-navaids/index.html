@@ -84,6 +84,9 @@
 		sidebarLeft.innerHTML =
 			'<div class="control" onclick="toggleBar( sidebarLeft )">[X]</div>' +
 			'<h1>World<br>Aiports,<br> Runways<br> and <br>Navaids</h1>' +
+			'<p><i>A cookbook demo. Let\'s talk about appearance another time...</i></p>' +
+			'<p>Each cube represents an airport. Move your cursor over one of them to see its details.</p>' +
+			'<p>There are many performance issues and failures towards the edges of the selection.</p>' +
 		'';
 
 		sblHtml = 
@@ -102,7 +105,7 @@
 		
 		sbrHTML = 
 			'<div class="control" onclick="toggleBar( sidebarRight )">[X]</div>' +
-			'<h1>Readout</h1>' +
+			'<h2>Readout</h2>' +
 			'<div id="sbr-body">' +
 			'</div>' +
 		'';
@@ -261,12 +264,12 @@
 		for (var i = 0, len = runways.length - 1; i < len; i++) {
 			runway = runways[i];
 			if (runway[2] == ap) {
-				sbrBody.innerHTML = airport.icao + '<br>' + airport.name + '<br><br>' + listRunway( runway );
+				sbrBody.innerHTML = airport.icao + '<br>' + airport.name + '<br><br><b>Runway</b><br>' + listRunway( runway );
 // silly way to catch more runways. It should be a 'while' but I tend to get lost in whiles...				
 				for (var j = i + 1; j < i + 10; j++) {
 					runway = runways[j];
 					if (runway[2] == ap) {
-						sbrBody.innerHTML += '<br>' + listRunway( runway );
+						sbrBody.innerHTML += '<br><b>Runway</b><br>' + listRunway( runway );
 					} else {
 						break;
 					}
@@ -292,7 +295,7 @@
 			position = calcPosition( navaid[6], navaid[7], 50 );
 			distance = airport.position.distanceTo( position );
 			if ( distance < 5) {
-				sbrBody.innerHTML += '<p>Navaid data:<br>' + navaid + '</p>';
+				sbrBody.innerHTML += '<p><b>Navaid data</b>:<br>' + navaid + '</p>';
 
 				break;
 			}
