@@ -24,22 +24,22 @@
 	var renderer, scene, camera, controls, light, stats;
 	var geometry, material, mesh;
 	var plane, sphere, cube;
-	
+
 	var htm, info;
 
 	var theta = 0, phi = 0;
 	var heading = 0;
-	
+
 	var headsUp;
 	var mouse = { x: -1, y: -1 };
 	var projector = new THREE.Projector();
-	
+
 	var startTime = new Date();
 	var data;
 	var objects;
 	var cubes = [];
 	var nearby = 25;
-	
+
 	init();
 	animate();
 
@@ -55,15 +55,15 @@
 
 		camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 10000 );
 		camera.position.set(-100, 100, 100);
-		controls = new THREE.TrackballControls( camera, renderer.domElement ); 
-		
+		controls = new THREE.TrackballControls( camera, renderer.domElement );
+
 		stats = new Stats();
 		stats.domElement.style.cssText = 'position: absolute; top: 0px; zIndex: 100; ';
-		document.body.appendChild( stats.domElement );    
+		document.body.appendChild( stats.domElement );
 
 		window.addEventListener( 'resize', onWindowResize, false );
 		//document.addEventListener( 'mouseup', onDocumentMouseUp, false );
-		document.addEventListener( 'mousemove', onDocumentMouseMove, false );		
+		document.addEventListener( 'mousemove', onDocumentMouseMove, false );
 
 	//  Assets
 
@@ -72,14 +72,14 @@
 			'a { color: #f00; text-decoration: none;}  ' +
 			'input[type=range] { -webkit-appearance: none; background-color: silver; height:20px; opacity: 0.5; width: 80px;}' +
 			'input[type="range"]::-webkit-slider-thumb {-webkit-appearance: none; background-color: #666; opacity: 0.5; width: 10px; height: 26px; }' ;
-		document.body.appendChild( css ); 
+		document.body.appendChild( css );
 
 		headsUp = document.createElement( 'div' );
 		document.body.appendChild( headsUp );
 		headsUp.style.cssText = 'background-color: #ddd; border-radius: 8px; display: none; left: 50px; opacity: 0.85; padding: 5px 5px 10px 5px; ' +
 			'position: absolute; text-align: left;';
 		headsUp.innerHTML = '<h1>Stuff</h1>';
-		
+
 		var color, i;
 		color = Math.random() * 0xffffff;
 		material = new THREE.MeshBasicMaterial( {color: color, side: THREE.DoubleSide } );
@@ -89,7 +89,7 @@
 		plane = new THREE.Mesh( geometry, material );
 		// plane.receiveShadow = true;
 		// scene.add( plane );
-		
+
 		geometry = new THREE.SphereGeometry( 50, 80, 50 );
 		material = new THREE.MeshNormalMaterial( { color: color, shading: THREE.SmoothShading });
 		mesh = new THREE.Mesh( geometry, material );
@@ -97,12 +97,12 @@
 
 		geometry = new THREE.CubeGeometry( 2, 2, 10 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationZ( heading * Math.PI/180 ) );
-		
+
 		material = new THREE.MeshNormalMaterial();
 		plane = new THREE.Mesh( geometry, material );
 		plane.nearby = nearby;
 		// scene.add( plane );
-		
+
 		info = document.createElement( 'div' );
 		document.body.appendChild( info );
 		info.style.cssText = 'top: 0px; color: ; padding: 5px; position: absolute; width: 100%';
@@ -111,24 +111,24 @@
 			//'Theta:<input type="range" id="spin" min="-3.1415" max="3.1415" onchange="theta=this.value;updateCube()" step="0.1" value="' + plane.position.x + '" ><br>' +
 			//'Phi:&nbsp <input type="range" id="spin" min="-3.1415" max="3.1415" onchange="phi=this.value;updateCube()" step="0.1" value="' + plane.position.y + '" ><br>' +
 			//'Nearby: ' +
-			//'<input type="range" id="spin" min="-0" max="50" onchange="plane.nearby=this.value;" step="1" value="' + plane.nearby + '" > ' +			
-			'</p>';  	
+			//'<input type="range" id="spin" min="-0" max="50" onchange="plane.nearby=this.value;" step="1" value="' + plane.nearby + '" > ' +
+			'</p>';
 		info.innerHTML = htm;
-		
+
 		// updateCube();
-		
+
 		loadCSV('ap1000-ils.csv');
 	}
-	
+
 	function loadCSV( fname ) {
 		xmlhttp = new XMLHttpRequest();
 		xmlhttp.open( 'GET', fname, true );
 		xmlhttp.onreadystatechange = callback;
 		xmlhttp.send( null );
 	}
-	
+
 	var callbackCount = 0;
-	
+
 	function callback() {
 		if ( xmlhttp.readyState == 4  ) {
 			var dataLines = xmlhttp.responseText;
@@ -146,22 +146,22 @@
 			info.innerHTML = htm + ' Responses: ' + callbackCount;
 		}
 	}
-	
+
 	function addAirports() {
 		var ap;
 		objects = new THREE.Object3D();
 		geometry = new THREE.CubeGeometry( 1, 1, 1);
-		material = new THREE.MeshNormalMaterial();		
-		
+		material = new THREE.MeshNormalMaterial();
+
 		for (var i = 1, len = data.length - 1; i < len; i++) {
 			ap = data[i];
 			cube = new THREE.Mesh( geometry, material );
 			cube.position = calcPosition( ap[2], ap[3], 50 );
 			cube.ap = ap;
-			objects.add( cube );			
+			objects.add( cube );
 		}
 		scene.add( objects );
-	}	
+	}
 
 	function v(x,y,z){ return new THREE.Vector3(x,y,z); }
 	function cos(a){return Math.cos(a);} function sin(a){return Math.sin(a);}
@@ -173,7 +173,7 @@
 			rad * sin( lat * d2r ),
 			rad * cos( lat * d2r ) * sin( pi - lon * d2r)
 		);
-	}	
+	}
 
 	function animate() {
 		requestAnimationFrame( animate );
@@ -189,15 +189,15 @@
 		camera.updateProjectionMatrix();
 		renderer.setSize( window.innerWidth, window.innerHeight );
 	}
-	
-/*		
+
+/*
 	function updateCube() {
 		function cos(a) {return Math.cos(a);}
 		function sin(a) {return Math.sin(a);}
 		plane.position.x = 60 * cos( theta ) * sin( phi );
 		plane.position.y = 60 * sin( theta );
-		plane.position.z = 60 * cos( theta ) * cos( phi );	
-		
+		plane.position.z = 60 * cos( theta ) * cos( phi );
+
 		plane.lookAt( v(0,0,0) );
 	}
 
@@ -205,7 +205,7 @@
 		if ( data == undefined ) return;
 		if ( objects != undefined ) {
 			scene.remove( objects );
-		}	
+		}
 		objects = new THREE.Object3D();
 		geometry = new THREE.CubeGeometry( 1, 1, 1);
 		material = new THREE.MeshNormalMaterial();
@@ -214,7 +214,7 @@
 			ap = data[i];
 			position =  calcPosition( ap[2], ap[3], 50.5 );
 			distance = position.distanceTo( plane.position );
-			if ( distance < plane.nearby ) {	
+			if ( distance < plane.nearby ) {
 				cube = new THREE.Mesh( geometry, material );
 				cube.position = position;
 				cube.ap = ap;
@@ -224,14 +224,14 @@
 		}
 		scene.add( objects );
 		info.innerHTML = htm + 'Distance: ' + plane.nearby + ' Nearby: ' + cnt;
-	}	
+	}
 */
-	
+
 	var intersected;
 	function onDocumentMouseMove( event ) {
 		if ( objects == undefined ) return;
-		
-		var interescts; 
+
+		var interescts;
 		// event.preventDefault();
 		mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
 		mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
@@ -249,7 +249,7 @@
 			}
 			headsUp.style.left = 10 + 0.5 * window.innerWidth + mouse.x * 0.5 * window.innerWidth + 'px';
 			headsUp.style.bottom = 10 + 0.5 * window.innerHeight + mouse.y * 0.5 * window.innerHeight+ 'px';
-			headsUp.style.cssText += 'display: block; width: 300px; word-wrap:break-word;';
+			headsUp.style.cssText += 'display: block; width: 400px; word-wrap:break-word;';
 			var c =  intersected.position;
 			var ap = intersected.ap;
 			headsUp.innerHTML =  'ICAO: ' + ap[0] + '<br>Name: ' + ap[1].replace(/["']/g, "") + '<br>Latitude: ' + ap[2] + '<br>Longitude: ' + ap[3] + '<br>';
@@ -257,27 +257,28 @@
 console.log( '../aptinfo/' + ap[0] + '.json' );
 		} else {
 			headsUp.style.display = 'none';
-			// intersected.material = new THREE.MeshNormalMaterial();  // not dealing with all the Intersects so forget it for the moment. 
+			// intersected.material = new THREE.MeshNormalMaterial();  // not dealing with all the Intersects so forget it for the moment.
 		}
 	}
-	
+
 	var xmlhttp;
-	
+
 	function loadJSON( fname ) {
 		xmlhttp = new XMLHttpRequest();
 		xmlhttp.open( 'GET', fname, true );
 		xmlhttp.onreadystatechange = callbackJSON;
 		xmlhttp.send( null );
 	}
-
+var string, aptinfo;
 	function callbackJSON() {
 		if (xmlhttp.readyState == 4) {
-			var string = xmlhttp.responseText;
-			headsUp.innerHTML += string;
-			var aptinfo = JSON.parse( string );
-console.log( aptinfo  );		
+			string = xmlhttp.responseText;
+			headsUp.innerHTML += '<small>' + string + '</small>';
+
+			aptinfo = JSON.parse( string );
+console.log( string  );
 		}
-	}	
+	}
 </script>
 </body>
 </html>

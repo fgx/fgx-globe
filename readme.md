@@ -21,6 +21,9 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 ## Change log
 
 2013-03-09 ~ Theo
+* Adding airports-runways-navaids folders + data
+
+2013-03-09 ~ Theo
 * Adding copyright and licensing information
 
 2013-03-07 ~ Theo

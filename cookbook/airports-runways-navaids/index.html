@@ -1,0 +1,337 @@
+﻿<!doctype html>
+<html lang='en'>
+<head>
+<title></title>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+</head>
+<body>
+
+<script src='http://mrdoob.github.com/three.js/examples/js/Detector.js'></script>
+<script src='http://mrdoob.github.com/three.js/build/three.min.js'></script>
+<script src='http://mrdoob.github.com/three.js/examples/js/controls/TrackballControls.js'></script>
+<script src='http://mrdoob.github.com/three.js/examples/js/libs/stats.min.js'></script>
+<!--
+<script src='../../three.js/examples/js/Detector.js'></script>
+<script src='../../three.js/build/three.min.js'></script>
+<script src='../../three.js/examples/js/controls/TrackballControls.js'></script>
+<script src='../../three.js/examples/js/libs/stats.min.js'></script>
+-->
+<script src='sidebars.js'></script>
+<script>
+// thanks to http://www.smartjava.org/examples/population/ for lookAt( 0,0,0 )!
+	if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
+
+	var renderer, scene, camera, controls, light, stats;
+	var geometry, material, mesh;
+	var plane, globe, airport;
+	
+	var sblHtml, sbrHTML, headsUp;
+	
+	var FGx = FGx || {};
+	var callbackCount = 0;
+	var theta = 0.8585, phi = -1.24;
+	var heading = 0;
+
+	var startTime = new Date();
+	var airports, runways, navaids;
+	var objects;
+	var nearby = 25;
+	
+	init();
+	animate();
+
+	function init() {
+		if ( ! Detector.webgl ) {
+			renderer = new THREE.CanvasRenderer( { antialias: true } );
+		} else {
+			renderer = new THREE.WebGLRenderer( { antialias: true } );
+		}
+		
+		renderer.setSize( window.innerWidth, window.innerHeight );
+		document.body.appendChild( renderer.domElement );
+		scene = new THREE.Scene();
+
+		camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 10000 );
+		camera.position.set(-100, 100, 100);
+		controls = new THREE.TrackballControls( camera, renderer.domElement ); 
+		
+		stats = new Stats();
+		stats.domElement.style.cssText = 'position: absolute; top: 0px; zIndex: 100; ';
+		document.body.appendChild( stats.domElement );    
+
+		window.addEventListener( 'resize', onWindowResize, false );
+		document.addEventListener( 'mouseup', onDocumentMouseUp, false );
+		document.addEventListener( 'mousemove', onDocumentMouseMove, false );		
+
+	//  Assets
+
+		geometry = new THREE.SphereGeometry( 50, 80, 50 );
+		material = new THREE.MeshNormalMaterial( { shading: THREE.SmoothShading });
+		var globe = new THREE.Mesh( geometry, material );
+		scene.add( globe );
+
+		geometry = new THREE.CubeGeometry( 2, 2, 10 );
+		material = new THREE.MeshNormalMaterial();
+		plane = new THREE.Mesh( geometry, material );
+		plane.position.set(-42, 41, 10);
+		plane.nearby = nearby;
+		scene.add( plane );
+		
+		updatePlane();
+		
+		
+		sidebarLeft.innerHTML =
+			'<div class="control" onclick="toggleBar( sidebarLeft )">[X]</div>' +
+			'<h1>World<br>Aiports,<br> Runways<br> and <br>Navaids</h1>' +
+		'';
+
+		sblHtml = 
+			'<div id="toggle" class="control" onclick="toggleStatusBar()">[-]</div>' +
+			'<div class="control" onclick="toggleBar( sidebarLeft ); toggleBar( sidebarRight );">[<span style="font-size: small; vertical-align: text-top; ">[]</span>] &nbsp;</div>' +
+			'<h2>Settings</h2>' +
+			'<div id="toggled" title="Drag any slider to move the \'stick\'/airplane. ' +
+				'Left mouse rotates the globe. Right mouse: pans. Wheel: zooms. Hover over cube/airport to display airport details">Adust the airplane position<br>' +
+				'Theta:<input type="range" id="spin" min="-3.1415" max="3.1415" onchange="theta=this.value;updatePlane()" step="0.01" value="' + theta+ '" > ' +
+				'Phi:<input type="range" id="spin" min="-3.1415" max="3.1415" onchange="phi=this.value;updatePlane()" step="0.01" value="' + phi + '" > ' +
+				'Nearby:' +
+				'<input type="range" id="spin" min="-0" max="50" onchange="plane.nearby=this.value;" step="1" value="' + plane.nearby + '" > ' +			
+			'</div>';  	
+
+		statusBar.innerHTML = sblHtml;
+		
+		sbrHTML = 
+			'<div class="control" onclick="toggleBar( sidebarRight )">[X]</div>' +
+			'<h1>Readout</h1>' +
+			'<div id="sbr-body">' +
+			'</div>' +
+		'';
+		sidebarRight.innerHTML = sbrHTML;
+		sbrBody = document.getElementById('sbr-body');
+
+		loadAirports('../airports850.csv');
+	}
+	
+	function loadAirports( fname ) {
+		xmlhttp = new XMLHttpRequest();
+		xmlhttp.open( 'GET', fname, true );
+		xmlhttp.onreadystatechange = callbackAirports;
+		xmlhttp.send( null );
+	}
+
+	function callbackAirports() {
+		var airport, ap;
+		if ( xmlhttp.readyState == 4  ) {
+			var dataLines = xmlhttp.responseText;
+			dataLines = dataLines.split(/\r\n|\n/);
+			var dataLength = dataLines.length - 1;
+			var separator = ',';
+			FGx.airports = {};
+			FGx.airport = function() {}
+			for ( var i = 1; i < dataLength; i++ ) {
+				ap = dataLines[i].split( separator );
+				FGx.airports[ ap[0] ] = new FGx.airport();				
+				airport = FGx.airports[ap[0]];
+				airport.icao = ap[0];
+				airport.name = ap[1];
+				airport.lat = ap[2];
+				airport.lon = ap[3];			
+				airport.position = calcPosition( airport.lat, airport.lon, 50 );
+			}
+			FGx.airportKeys = Object.keys( FGx.airports );
+			onDocumentMouseUp();
+			loadRunways();
+			console.log( new Date() - startTime );
+		} else {
+			callbackCount++;
+			console.log('waiting...');
+			statusBar.innerHTML = sblHtml + ' Responses: ' + callbackCount;
+		}
+		
+	}
+
+	function loadRunways() {
+		xmlhttp = new XMLHttpRequest();
+		xmlhttp.open( 'GET', '../runways.csv', true );
+		xmlhttp.onreadystatechange = callbackRunways;
+		xmlhttp.send( null );
+	}
+	
+	function callbackRunways() {
+		if ( xmlhttp.readyState == 4  ) {
+			var dataLines = xmlhttp.responseText;
+			dataLines = dataLines.split(/\r\n|\n/);
+			var dataLength = dataLines.length;
+			var separator = ',';
+			runways = [];
+			for ( var i = 0; i < dataLength; i++ ) {
+				runways.push( dataLines[i].split( separator ) );
+			}
+			FGx.runwayFields = runways[0];
+			loadNavaids();
+		} 
+	}
+	
+	function loadNavaids() {
+		xmlhttp = new XMLHttpRequest();
+		xmlhttp.open( 'GET', '../navaids.csv', true );
+		xmlhttp.onreadystatechange = callbackNavaids;
+		xmlhttp.send( null );
+	}
+	
+	function callbackNavaids() {
+		if ( xmlhttp.readyState == 4  ) {
+			var dataLines = xmlhttp.responseText;
+			dataLines = dataLines.split(/\r\n|\n/);
+			var dataLength = dataLines.length;
+			var separator = ',';
+			navaids = [];
+			for ( var i = 0; i < dataLength; i++ ) {
+				navaids.push( dataLines[i].split( separator ) );
+			}
+			FGx.navaidsFields = runways[0];
+// console.log( navaids );
+		} 
+	}
+	
+	
+	function v(x,y,z){ return new THREE.Vector3(x,y,z); }
+	function cos(a){return Math.cos(a);} function sin(a){return Math.sin(a);}
+	var pi = Math.PI, d2r = Math.PI / 180, origin = v( 0, 0, 0);
+
+	function calcPosition( lat, lon, rad ) {
+		return  v(
+			rad * cos( lat * d2r ) * cos( pi - lon * d2r),
+			rad * sin( lat * d2r ),
+			rad * cos( lat * d2r ) * sin( pi - lon * d2r)
+		);
+	}	
+	
+	function updatePlane() {	
+		plane.position.x = 60 * cos( theta ) * sin( phi );
+		plane.position.y = 60 * sin( theta );
+		plane.position.z = 60 * cos( theta ) * cos( phi );	
+		
+		plane.lookAt( v(0,0,0) );
+	}
+	
+	function animate() {
+		requestAnimationFrame( animate );
+		controls.update();
+		renderer.render( scene, camera );
+		stats.update();
+	}
+
+	function onWindowResize() {
+		windowHalfX = window.innerWidth / 2;
+		windowHalfY = window.innerHeight / 2;
+		camera.aspect = window.innerWidth / window.innerHeight;
+		camera.updateProjectionMatrix();
+		renderer.setSize( window.innerWidth, window.innerHeight );
+	}
+
+	function onDocumentMouseUp( e ) {
+		var ap, position, distance, cnt = 0;
+		if ( FGx.airports == undefined ) return;
+		if ( objects != undefined ) { scene.remove( objects ); }	
+		objects = new THREE.Object3D();
+		geometry = new THREE.CubeGeometry( 1, 1, 1);
+		material = new THREE.MeshNormalMaterial();
+		
+		for (var i = 0, len = FGx.airportKeys.length; i < len; i++) {
+			ap = FGx.airports[ FGx.airportKeys[i] ];
+			distance = ap.position.distanceTo( plane.position );
+		
+			if ( distance < plane.nearby ) {	
+				airport = new THREE.Mesh( geometry, material );
+				airport.position = ap.position;
+				airport.ap = ap;
+				objects.add( airport );
+				cnt++;
+			}
+		}
+		scene.add( objects );
+		statusBar.innerHTML = sblHtml + 'Distance: ' + plane.nearby + ' &nbsp; Nearby: ' + cnt;
+	}	
+	
+	function findRunway( airport) {
+		if ( runways == undefined ) return;
+		var runway;
+		var ap = '"' + airport.icao + '"';
+		for (var i = 0, len = runways.length - 1; i < len; i++) {
+			runway = runways[i];
+			if (runway[2] == ap) {
+				sbrBody.innerHTML = airport.icao + '<br>' + airport.name + '<br><br>' + listRunway( runway );
+// silly way to catch more runways. It should be a 'while' but I tend to get lost in whiles...				
+				for (var j = i + 1; j < i + 10; j++) {
+					runway = runways[j];
+					if (runway[2] == ap) {
+						sbrBody.innerHTML += '<br>' + listRunway( runway );
+					} else {
+						break;
+					}
+				}
+				break;
+			}
+		} 
+	}
+	
+	function listRunway( runway) {
+		var str = '';
+		for (var i = 0, len = FGx.runwayFields.length - 1; i < len; i++) {
+			str += FGx.runwayFields[i] + ': ' + runway[i] + '<br>';
+		}
+		return str;
+	}
+
+	function findNavaid( airport ) {
+		var navaid, distance;
+		// ap = '"' + ('000' + icao).slice(-4)  + '"';
+		for (var i = 0, len = navaids.length; i < len; i++) {
+			navaid = navaids[i];
+			position = calcPosition( navaid[6], navaid[7], 50 );
+			distance = airport.position.distanceTo( position );
+			if ( distance < 5) {
+				sbrBody.innerHTML += '<p>Navaid data:<br>' + navaid + '</p>';
+
+				break;
+			}
+		} 
+	}
+
+	function onDocumentMouseMove( event ) {
+		var intersects, intersected;
+		var mouse = { x: -1, y: -1 };
+		var projector = new THREE.Projector();	
+		if ( objects == undefined ) return;
+		
+		
+		// event.preventDefault();
+		mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+		mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+
+		var vector = new THREE.Vector3( mouse.x, mouse.y, 0.5 );
+		projector.unprojectVector( vector, camera );
+		var raycaster = new THREE.Raycaster( camera.position, vector.sub( camera.position ).normalize() );
+		intersects = raycaster.intersectObjects( objects.children );
+
+		if ( intersects.length > 0 ) {
+			if ( intersected != intersects[ 0 ].object ) { // not same one
+				intersected = intersects[ 0 ].object;
+			}
+			headsUp.style.left = 10 + 0.5 * window.innerWidth + mouse.x * 0.5 * window.innerWidth + 'px';
+			headsUp.style.bottom = 10 + 0.5 * window.innerHeight + mouse.y * 0.5 * window.innerHeight+ 'px';
+			headsUp.style.display = 'block';
+			var c =  intersected.position;
+			var ap = intersected.ap;
+			headsUp.innerHTML =  'ICAO: ' + ap.icao + '<br>Name: ' + ap.name.replace(/["']/g, "") + '<br>Latitude: ' + ap.lat + '<br>Longitude: ' + ap.lon + '<br><br>';
+			
+			findRunway( ap ); 
+			findNavaid( ap ); 
+		} else {
+			headsUp.style.display = 'none';
+		}
+	}
+</script>
+</body>
+</html>
