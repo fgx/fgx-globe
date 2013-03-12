@@ -1,7 +1,7 @@
 ﻿<!doctype html>
 <html lang='en'>
 <head>
-<title></title>
+<title>airports-runways-navaids</title>
 <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
 </head>
@@ -87,6 +87,7 @@
 			'<p><i>A cookbook demo. Let\'s talk about appearance another time...</i></p>' +
 			'<p>Each cube represents an airport. Move your cursor over one of them to see its details.</p>' +
 			'<p>There are many performance issues and failures towards the edges of the selection.</p>' +
+			'<p><a href="https://github.com/fgx/fgx-globe/wiki/airports-runways-navaids" target="_blank">Issues: GitHub Wiki page</a></p>' +
 		'';
 
 		sblHtml = 
@@ -289,6 +290,7 @@
 
 	function findNavaid( airport ) {
 		var navaid, distance;
+		// sbrBody.innerHTML = '';
 		// ap = '"' + ('000' + icao).slice(-4)  + '"';
 		for (var i = 0, len = navaids.length; i < len; i++) {
 			navaid = navaids[i];
@@ -307,8 +309,6 @@
 		var mouse = { x: -1, y: -1 };
 		var projector = new THREE.Projector();	
 		if ( objects == undefined ) return;
-		
-		
 		// event.preventDefault();
 		mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
 		mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
