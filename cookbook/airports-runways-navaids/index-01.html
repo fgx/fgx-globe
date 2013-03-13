@@ -30,12 +30,11 @@
 	
 	var FGx = FGx || {};
 	var callbackCount = 0;
-	var theta = -4, phi = -1;
-	// var theta = 0.5, phi = 0;
+	var theta = 0.8585, phi = -1.24;
 	var heading = 0;
 
 	var startTime = new Date();
-	var airports, runways=[], navaids=[];
+	var airports, runways, navaids;
 	var objects;
 	var nearby = 25;
 	
@@ -66,9 +65,7 @@
 		document.addEventListener( 'mousemove', onDocumentMouseMove, false );		
 
 	//  Assets
-		mesh = new THREE.AxisHelper( 100 ); // r=x g=y b=z
-		scene.add( mesh );
-	
+
 		geometry = new THREE.SphereGeometry( 50, 80, 50 );
 		material = new THREE.MeshNormalMaterial( { shading: THREE.SmoothShading });
 		var globe = new THREE.Mesh( geometry, material );
@@ -77,7 +74,7 @@
 		geometry = new THREE.CubeGeometry( 2, 2, 10 );
 		material = new THREE.MeshNormalMaterial();
 		plane = new THREE.Mesh( geometry, material );
-		// plane.position.set( -42, 41, 100);
+		plane.position.set(-42, 41, 10);
 		plane.nearby = nearby;
 		scene.add( plane );
 		
@@ -99,7 +96,7 @@
 			'<h2>Settings</h2>' +
 			'<div id="toggled" title="Drag any slider to move the \'stick\'/airplane. ' +
 				'Left mouse rotates the globe. Right mouse: pans. Wheel: zooms. Hover over cube/airport to display airport details">Adust the airplane position<br>' +
-				'Theta:<input type="range" id="spin" min="-3.1415" max="3.1415" onchange="theta=this.value;updatePlane()" step="0.01" value="' + theta + '" > ' +
+				'Theta:<input type="range" id="spin" min="-3.1415" max="3.1415" onchange="theta=this.value;updatePlane()" step="0.01" value="' + theta+ '" > ' +
 				'Phi:<input type="range" id="spin" min="-3.1415" max="3.1415" onchange="phi=this.value;updatePlane()" step="0.01" value="' + phi + '" > ' +
 				'Nearby:' +
 				'<input type="range" id="spin" min="-0" max="50" onchange="plane.nearby=this.value;" step="1" value="' + plane.nearby + '" > ' +			
@@ -116,7 +113,7 @@
 		sidebarRight.innerHTML = sbrHTML;
 		sbrBody = document.getElementById('sbr-body');
 
-		loadAirports('../../apt1000/apt1000-icao.csv');
+		loadAirports('../airports850.csv');
 	}
 	
 	function loadAirports( fname ) {
@@ -148,10 +145,10 @@
 			FGx.airportKeys = Object.keys( FGx.airports );
 			onDocumentMouseUp();
 			loadRunways();
-console.log( new Date() - startTime );
+			console.log( new Date() - startTime );
 		} else {
 			callbackCount++;
-console.log('waiting...');
+			console.log('waiting...');
 			statusBar.innerHTML = sblHtml + ' Responses: ' + callbackCount;
 		}
 		
@@ -175,7 +172,6 @@ console.log('waiting...');
 				runways.push( dataLines[i].split( separator ) );
 			}
 			FGx.runwayFields = runways[0];
-			onDocumentMouseUp();
 			loadNavaids();
 		} 
 	}
@@ -198,7 +194,6 @@ console.log('waiting...');
 				navaids.push( dataLines[i].split( separator ) );
 			}
 			FGx.navaidsFields = runways[0];
-			onDocumentMouseUp();
 // console.log( navaids );
 		} 
 	}
@@ -217,9 +212,9 @@ console.log('waiting...');
 	}	
 	
 	function updatePlane() {	
-		plane.position.x = 60 * cos( theta ) * cos( phi );
+		plane.position.x = 60 * cos( theta ) * sin( phi );
 		plane.position.y = 60 * sin( theta );
-		plane.position.z = 60 * cos( theta ) * sin( phi );	
+		plane.position.z = 60 * cos( theta ) * cos( phi );	
 		
 		plane.lookAt( v(0,0,0) );
 	}
@@ -239,7 +234,7 @@ console.log('waiting...');
 		renderer.setSize( window.innerWidth, window.innerHeight );
 	}
 
-	function onDocumentMouseUp() {
+	function onDocumentMouseUp( e ) {
 		var ap, position, distance, cnt = 0;
 		if ( FGx.airports == undefined ) return;
 		if ( objects != undefined ) { scene.remove( objects ); }	
@@ -260,10 +255,7 @@ console.log('waiting...');
 			}
 		}
 		scene.add( objects );
-		var sum = FGx.airportKeys.length + runways.length + navaids.length
-		statusBar.innerHTML = sblHtml + 
-			'Airports: ' + FGx.airportKeys.length + ' + Runways: ' + runways.length + ' + Navaids: ' + navaids.length + ' = ' + sum + '<br>' +
-			'Distance: ' + plane.nearby + ' &nbsp; Nearby: ' + cnt;
+		statusBar.innerHTML = sblHtml + 'Distance: ' + plane.nearby + ' &nbsp; Nearby: ' + cnt;
 	}	
 	
 	function findRunway( airport) {
@@ -273,7 +265,7 @@ console.log('waiting...');
 		for (var i = 0, len = runways.length - 1; i < len; i++) {
 			runway = runways[i];
 			if (runway[2] == ap) {
-				sbrBody.innerHTML = airport.icao + '<br>' + airport.name.replace(/["']/g, "") + '<br><br><b>Runway</b><br>' + listRunway( runway );
+				sbrBody.innerHTML = airport.icao + '<br>' + airport.name + '<br><br><b>Runway</b><br>' + listRunway( runway );
 // silly way to catch more runways. It should be a 'while' but I tend to get lost in whiles...				
 				for (var j = i + 1; j < i + 10; j++) {
 					runway = runways[j];
@@ -291,7 +283,7 @@ console.log('waiting...');
 	function listRunway( runway) {
 		var str = '';
 		for (var i = 0, len = FGx.runwayFields.length - 1; i < len; i++) {
-			str += FGx.runwayFields[i].replace(/["']/g, '') + ': ' + runway[i] + '<br>';
+			str += FGx.runwayFields[i] + ': ' + runway[i] + '<br>';
 		}
 		return str;
 	}
@@ -311,11 +303,11 @@ console.log('waiting...');
 			}
 		} 
 	}
-		var mouse = { x: -1, y: -1 };
-		var projector = new THREE.Projector();	
+
 	function onDocumentMouseMove( event ) {
 		var intersects, intersected;
-
+		var mouse = { x: -1, y: -1 };
+		var projector = new THREE.Projector();	
 		if ( objects == undefined ) return;
 		// event.preventDefault();
 		mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
@@ -333,7 +325,7 @@ console.log('waiting...');
 			headsUp.style.left = 10 + 0.5 * window.innerWidth + mouse.x * 0.5 * window.innerWidth + 'px';
 			headsUp.style.bottom = 10 + 0.5 * window.innerHeight + mouse.y * 0.5 * window.innerHeight+ 'px';
 			headsUp.style.display = 'block';
-			// var c =  intersected.position;
+			var c =  intersected.position;
 			var ap = intersected.ap;
 			headsUp.innerHTML =  'ICAO: ' + ap.icao + '<br>Name: ' + ap.name.replace(/["']/g, "") + '<br>Latitude: ' + ap.lat + '<br>Longitude: ' + ap.lon + '<br><br>';
 			
