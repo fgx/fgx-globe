@@ -118,7 +118,7 @@
 		// updateCube();
 
 		loadCSV('ap1000-ils.csv');
-		loadCSV('../apt1000/apt1000-icao.csv');
+		// loadCSV('../apt1000/apt1000-icao.csv');
 	}
 
 	function loadCSV( fname ) {
@@ -255,7 +255,7 @@
 			var ap = intersected.ap;
 			headsUp.innerHTML =  'ICAO: ' + ap[0] + '<br>Name: ' + ap[1].replace(/["']/g, "") + '<br>Latitude: ' + ap[2] + '<br>Longitude: ' + ap[3] + '<br>';
 			loadJSON( '../aptinfo/' + ap[0] + '.json' );
-console.log( '../aptinfo/' + ap[0] + '.json' );
+// console.log( '../aptinfo/' + ap[0] + '.json' );
 		} else {
 			headsUp.style.display = 'none';
 			// intersected.material = new THREE.MeshNormalMaterial();  // not dealing with all the Intersects so forget it for the moment.

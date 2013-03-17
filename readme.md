@@ -20,6 +20,12 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 
 ## Change log
 
+2013-03-17 ~ Theo
+* Added airports-runways-navaids r2
+* r2: skysphere with one of Paul Blunt's PNGs.
+* r2: globe has texture
+* r2: fixes silly bug where heads-up displayed incorrectly. Fixed position of sidebatr causing issue
+
 2013-03-09 ~ Theo
 * Adding airports-runways-navaids folders + data
 
