@@ -17,6 +17,7 @@
 <script src='../../three.js/examples/js/controls/TrackballControls.js'></script>
 <script src='../../three.js/examples/js/libs/stats.min.js'></script>
 -->
+<script src='sidebars.js'></script>
 <script>
 // thanks to http://www.smartjava.org/examples/population/ for lookAt( 0,0,0 )!
 	if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
@@ -118,7 +119,7 @@
 		// updateCube();
 
 		loadCSV('ap1000-ils.csv');
-		loadCSV('../apt1000/apt1000-icao.csv');
+		loadCSV('../../apt1000/apt1000-icao.csv');
 	}
 
 	function loadCSV( fname ) {
