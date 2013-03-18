@@ -20,10 +20,21 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 
 ## Change log
 
+2013-03-18 ~ Theo
+* update airports-runways-navaids r2.1
+* Distance calculations now relate to camera position, not a separate airplane object
+* Number of airports displayed relates to camera altitude versus number of ILS and distance from camera
+* Scale of airport symbols relates to alitude
+* Settings display updated
+* Heads-up display shows number of runways and ILS
+* More variables embedded in the FGx name space  
+* Ongoing code clean-up
+
 2013-03-17 ~ Theo
 * Added airports-runways-navaids r2
-* r2: skysphere with one of Paul Blunt's PNGs.
+* r2: skysphere with one of Paul Blunt's PNGs
 * r2: globe has texture
+* r2: added lights
 * r2: fixes silly bug where heads-up displayed incorrectly. Fixed position of sidebatr causing issue
 
 2013-03-09 ~ Theo

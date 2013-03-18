@@ -2,9 +2,9 @@
 	var statusBar;
 	var sidebarRight;
 	var headsUp;
+	var stbHTML;
 	var sbrBody = document.getElementById('sbr-body');
 
-	
 
 	var sbr = function(){
 		var css = document.body.appendChild( document.createElement('style') );
@@ -23,7 +23,7 @@
 				'text-align: left; top: 120px; max-width: 300px;}' +
 
 			'#stb { background-color: #eee; left: 600px; margin: 10px auto; opacity: 0.8; outline: 1px solid; padding: 10px; position: absolute;' +
-				'text-align: left; top: 20px; width: 600px;}' +
+				'text-align: left; top: 20px; width: 700px;}' +
 
 			'#sbr { background-color: #eee; height: 90%; margin: 10px; opacity: 0.8; outline: 1px solid; padding: 10px; position: absolute; ' +
 				'right: 20px; text-align: left; top: 30px; max-width: 350px; word-wrap:break-word;}' +
@@ -75,25 +75,27 @@
 		sidebarLeft.innerHTML =
 			'<div class="control" onclick="toggleBar( sidebarLeft )">[X]</div>' +
 			'<h1>World<br>Aiports,<br> Runways<br> and <br>Navaids r2</h1>' +
-			'<p><i>A cookbook demo/prototype/test case. Let\'s talk about appearance and minor blemishes another time...</i></p>' +
+			'<p><i>This is a: cookbook demo / prototype / test case. Let\'s talk about appearance and minor blemishes another time...</i></p>' +
 			'<p>Each stick represents an airport. Move your cursor over one of them to see its details.</p>' +
-			'<p></p>' +
+			'<p>Use your pointing device to update the view.</p>' +
+			'<p><b><i>Rotate</i></b>: Left button/1 finger down<br><b><i>Zoom</i></b>: Wheel/2 fingers<br><b><i>Pan</i></b>: Right button/2 fingers down</p>' +
+			
 			'<p><a href="https://github.com/fgx/fgx-globe/wiki/airports-runways-navaids" target="_blank">Report issues: GitHub Wiki</a></p>' +
 		'';
 
-		sblHtml = 
+		stbHTML = 
 			'<div id="toggle" class="control" onclick="toggleStatusBar()">[-]</div>' +
 			'<div class="control" onclick="toggleBar( sidebarLeft ); toggleBar( sidebarRight );">[<span style="font-size: small; vertical-align: text-top; ">[]</span>] &nbsp;</div>' +
 			'<h2>Settings</h2>' +
-			'<div id="toggled" title="Drag any slider to move the \'stick\'/airplane. ' +
-				'Left mouse rotates the globe. Right mouse: pans. Wheel: zooms. Hover over cube/airport to display airport details">Adust the airplane position<br>' +
-				'Theta:<input type="range" id="spin" min="-3.1415" max="3.1415" onchange="theta=this.value; updatePlane()" step="0.01" value="' + theta + '" > ' +
-				'Phi:<input type="range" id="spin" min="-3.1415" max="3.1415" onchange="phi=this.value;updatePlane()" step="0.01" value="' + phi + '" > ' +
-				'Nearby:' +
-				'<input type="range" id="spin" min="-0" max="50" onchange="plane.nearby=this.value;" step="1" value="' + plane.nearby + '" > ' +			
+			'<div id="toggled" title=" ' +
+				'Left mouse rotates the globe. Right mouse: pans. Wheel: zooms. Hover over cube/airport to display airport details"><br>' +
+				//'Theta:<input type="range" id="spin" min="-3.1415" max="3.1415" onchange="theta=this.value; updatePlane()" step="0.01" value="' + theta + '" > ' +
+				//'Phi:<input type="range" id="spin" min="-3.1415" max="3.1415" onchange="phi=this.value;updatePlane()" step="0.01" value="' + phi + '" > ' +
+				//'Nearby:' +
+				//'<input type="range" id="spin" min="-0" max="50" onchange="plane.nearby=this.value;" step="1" value="' + plane.nearby + '" > ' +			
 			'</div>';  	
 
-		statusBar.innerHTML = sblHtml;
+		statusBar.innerHTML = stbHTML;
 		
 		sbrHTML = 
 			'<div class="control" onclick="toggleBar( sidebarRight )">[X]</div>' +
@@ -102,5 +104,6 @@
 			'</div>' +
 		'';
 		sidebarRight.innerHTML = sbrHTML;
+		
 		sbrBody = document.getElementById('sbr-body');
 	}
