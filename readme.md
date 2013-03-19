@@ -1,6 +1,8 @@
 FGx Globe
 ===========
 
+[ FGx copyright notice and license](https://github.com/fgx/fgx.github.com/blob/master/FGx%20copyright%20notice%20and%20license.md)
+
 2013-02-25 ~ just getting off the ground...
 
 Geographic data represented on spheres has certainly created some pretty maps.
@@ -13,9 +15,9 @@ The first data globe to arrive here is FGX Globe.
 
 FGX Globe acquires data from [FGX](http://www.fgx.ch/). FGX builds add-ons for [FlightGear](http://www.flightgear.org/) - the popular FOSS flight simulator, 
 
-In particular, FGX Globe uses their [Crossfeed](http://crossfeed.fgx.ch/data) near real-time data feed which shows all the Internet-connected planes in the air.
+In particular, FGX Globe uses the [Crossfeed](http://crossfeed.fgx.ch/data) near real-time data feed which shows all the Internet-connected planes in the air.
 
-Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/)
+For the latest updates please have a look at [FGx Open Source Projects](http://fgx.github.com)
 
 
 ## Change log
