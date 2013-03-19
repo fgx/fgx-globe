@@ -20,6 +20,12 @@ Have a look at [FGX Globe R2](http://jaanga.github.com/data-globes/fgx-globe-r2/
 
 ## Change log
 
+2013-03-19 ~ Theo
+* updates to airports-runways-navaids r2.2
+* Added loading, reading display of Geoff's navaid data
+* Completed namespacification
+* Added mousewheel event capture and linked it to onMouseUp function
+
 2013-03-18 ~ Theo
 * update airports-runways-navaids r2.1
 * Distance calculations now relate to camera position, not a separate airplane object
