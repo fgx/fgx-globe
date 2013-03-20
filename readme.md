@@ -22,6 +22,16 @@ For the latest updates please have a look at [FGx Open Source Projects](http://f
 
 ## Change log
 
+2013-03-20 ~ Theo
+* airport symbol size is scaled to the camera distance
+* display output prettified with degree symbols
+* Checked Geoff's naivaid file for commas in name field. Found none
+* Deleted quotes from file. Reduced file size by 3%
+* Checked Geoff's icao file for commas in name field. Found none
+* Deleted quotes from file. Reduced file size by 4.2%
+* Replaced custon XMLHttpRequest functions with generic function
+* Was loading two starfield bitmaps, now just one!
+
 2013-03-19 ~ Theo
 * updates to airports-runways-navaids r2.2
 * Added loading, reading display of Geoff's navaid data

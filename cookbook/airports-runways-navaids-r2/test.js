@@ -1,40 +1,20 @@
-﻿<!doctype html>
-<html lang='en'>
-<head>
-<title>airports-runways-navaids r2</title>
-<meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
-</head>
-<body>
-
-<script src='http://mrdoob.github.com/three.js/examples/js/Detector.js'></script>
-<script src='http://mrdoob.github.com/three.js/build/three.min.js'></script>
-<script src='http://mrdoob.github.com/three.js/examples/js/controls/TrackballControls.js'></script>
-<script src='http://mrdoob.github.com/three.js/examples/js/libs/stats.min.js'></script>
-<!--
-<script src='../../../three.js/examples/js/Detector.js'></script>
-<script src='../../../three.js/build/three.min.js'></script>
-<script src='../../../three.js/examples/js/controls/TrackballControls.js'></script>
-<script src='../../../three.js/examples/js/libs/stats.min.js'></script>
--->
-<script src='sidebars.js'></script>
-<script>
 	if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 
 	var FGx = FGx || {};
+	FGx.callbackCount = 0;
+	FGx.startTime = new Date();
 
 	init();
 	animate();
 
 	function init() {
+	
 		if ( ! Detector.webgl ) {
 			FGx.renderer = new THREE.CanvasRenderer( { antialias: true } );
 		} else {
 			FGx.renderer = new THREE.WebGLRenderer( { antialias: true } );
 		}
 
-		FGx.callbackCount = 0;
-		FGx.startTime = new Date();		
 		var light, geometry, texture, material, mesh;
 
 		FGx.renderer.setSize( window.innerWidth, window.innerHeight );
@@ -71,7 +51,7 @@
 		FGx.scene.add( light );
 
 		light = new THREE.AmbientLight( 0xffffff);
-		light.color.setHSL( 0.2, 0.5, 0.3 );
+		light.color.setHSL( 0.1, 0.5, 0.3 );
 		FGx.scene.add( light );
 
 		light = new THREE.SpotLight( 0xffffff, 1.5 );
@@ -87,32 +67,34 @@
 // light.shadowCameraVisible = true;
 
 // Assets
+		var texture = THREE.ImageUtils.loadTexture( '../../textures/earth_atmos_2048.jpg');
+		material = new THREE.MeshPhongMaterial( { map: texture, shading: THREE.SmoothShading } );
+
 		geometry = new THREE.SphereGeometry( 50, 80, 50 );
-		texture = THREE.ImageUtils.loadTexture( '../../textures/earth_atmos_2048.jpg');
-		material = new THREE.MeshPhongMaterial( { map: texture, shading: THREE.SmoothShading } );		
 		// material = new THREE.MeshNormalMaterial( { shading: THREE.SmoothShading });
 		var globe = new THREE.Mesh( geometry, material );
 		FGx.scene.add( globe );
-		
-// bitmaps from http://paulbourke.net/miscellaneous/starfield/
-		geometry = new THREE.SphereGeometry( 155, 80, 50 );
-		texture = THREE.ImageUtils.loadTexture( '../../textures/stars-2048x1024.png');  
-		// texture = THREE.ImageUtils.loadTexture( '../../textures/stars-8192x4096.png');
+
+		texture = THREE.ImageUtils.loadTexture( '../../textures/stars-2048x1024.png');  // http://paulbourke.net/miscellaneous/starfield/
+		texture = THREE.ImageUtils.loadTexture( '../../textures/stars-8192x4096.png');
 		material = new THREE.MeshBasicMaterial( { map: texture, side: THREE.BackSide } );
+
+		geometry = new THREE.SphereGeometry( 155, 80, 50 );
+		// material = new THREE.MeshNormalMaterial( { shading: THREE.SmoothShading });
 		var stars = new THREE.Mesh( geometry, material );
 		FGx.scene.add( stars );
 		
 		initText();
-		requestFile( '../../apt1000/apt1000-icao.csv', callbackAirports );
+		loadAirports('../../apt1000/apt1000-icao.csv');
 	}
 
-	function requestFile( fname, callback ) {
+	function loadAirports( fname ) {
 		FGx.xmlhttp = new XMLHttpRequest();
 		FGx.xmlhttp.open( 'GET', fname, true );
-		FGx.xmlhttp.onreadystatechange = callback;
+		FGx.xmlhttp.onreadystatechange = callbackAirports;
 		FGx.xmlhttp.send( null );
-	}	
-	
+	}
+
 	function callbackAirports() {
 		var airport, ap;
 		if ( FGx.xmlhttp.readyState == 4  ) {
@@ -121,20 +103,19 @@
 			var dataLength = dataLines.length - 1;
 			var separator = ',';
 			FGx.airports = {};
-			FGx.airport = function() {};
+			FGx.airport = function() {}
 			for ( var i = 1; i < dataLength; i++ ) {
 				ap = dataLines[i].split( separator );
 				FGx.airports[ ap[0] ] = new FGx.airport();
 				airport = FGx.airports[ap[0]];
 				airport.data = ap;
 				airport.position = calcPosition( ap[2], ap[3], 50 );
-				// if ( ap[1] != undefined && ap[1].indexOf(',') > 0 ) {console.log('Offending comma on line:', i); }
 			}
 			FGx.airportKeys = Object.keys( FGx.airports );
 			FGx.runways = [];
 			FGx.navaids = [];
 			onDocumentMouseUp();
-			requestFile( '../../apt1000/apt1000-nav.csv', callbackNavaids );
+			loadNavaids( '../../apt1000/apt1000-nav.csv' );
 console.log( new Date() - FGx.startTime );
 		} else {
 			FGx.callbackCount++;
@@ -142,7 +123,14 @@ console.log('waiting...');
 			statusBar.innerHTML = stbHTML + ' Responses: ' + FGx.callbackCount;
 		}
 	}
-
+	
+	function loadNavaids( fname ) {
+		FGx.xmlhttp = new XMLHttpRequest();
+		FGx.xmlhttp.open( 'GET', fname, true );
+		FGx.xmlhttp.onreadystatechange = callbackNavaids;
+		FGx.xmlhttp.send( null );
+	}	
+	
 	function callbackNavaids() {
 		if ( FGx.xmlhttp.readyState == 4  ) {
 			var dataLines = FGx.xmlhttp.responseText;
@@ -153,6 +141,7 @@ console.log('waiting...');
 			for ( var i = 0; i < dataLength; i++ ) {
 				FGx.navaids.push( dataLines[i].split( separator ) );
 			}
+// console.log( navaids );
 		} 
 	}	
 
@@ -184,12 +173,13 @@ console.log('waiting...');
 	}
 
 	function onDocumentMouseUp() {
-		if ( FGx.airports === undefined ) return;
-		if ( FGx.objects !== undefined ) { FGx.scene.remove( FGx.objects ); }
+		if ( FGx.airports == undefined ) return;
+		if ( FGx.objects != undefined ) { FGx.scene.remove( FGx.objects ); }
 		var camDistance, ils, nearby, ap, airport, position, distance, cnt = 0;
 		FGx.objects = new THREE.Object3D();
 		material = new THREE.MeshNormalMaterial();
-		camDistance = FGx.camera.position.distanceTo( v( 0, 0, 0 ) );
+		var camDistance = FGx.camera.position.distanceTo( v( 0, 0, 0 ) );
+// console.log( camDistance);
 		var scale = 0.0025 * camDistance;
 		geometry = new THREE.CubeGeometry( scale, scale, 5 * scale );
 		if ( camDistance > 130 ) { 
@@ -218,7 +208,7 @@ console.log('waiting...');
 			}
 		}
 		FGx.scene.add( FGx.objects );
-		var sum = FGx.airportKeys.length + FGx.runways.length + FGx.navaids.length;
+		var sum = FGx.airportKeys.length + FGx.runways.length + FGx.navaids.length
 		statusBar.innerHTML = stbHTML +
 			'Airports: ' + FGx.airportKeys.length + ' + Runways: ' + FGx.runways.length + ' + Navaids: ' + FGx.navaids.length + ' = ' + sum + '<br>' +
 			'Distance: ' + (camDistance * 80 - 4000).toFixed(0) + ' &nbsp;Minimum ILS for display: ' + ils + ' &nbsp;Airports visible: ' + cnt;
@@ -227,6 +217,7 @@ console.log('waiting...');
 	function findNavaid( airport ) {
 		var navaid, position, distance;
 		sbrBody.innerHTML = '';
+// console.log(airport);
 		for (var i = 0, len = FGx.navaids.length; i < len; i++) {
 			navaid = FGx.navaids[i];
 			position = calcPosition( navaid[1], navaid[2], 50 );
@@ -251,24 +242,25 @@ console.log('waiting...');
 	}	
 
 	function onDocumentMouseMove( event ) {
-		if ( FGx.objects === undefined ) return;
-		// event.preventDefault();		
+		if ( FGx.objects == undefined ) return;
 		var mouse = { x: -1, y: -1 };
-		mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
-		mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;		
 		var projector = new THREE.Projector();
+		// event.preventDefault();
+		mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+		mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+
 		var vector = new THREE.Vector3( mouse.x, mouse.y, 0.5 );
 		projector.unprojectVector( vector, FGx.camera );
 		var raycaster = new THREE.Raycaster( FGx.camera.position, vector.sub( FGx.camera.position ).normalize() );
 		var intersects = raycaster.intersectObjects( FGx.objects.children );
-		var intersected;
+
 		if ( intersects.length > 0 ) {
-			if ( intersected != intersects[ 0 ].object ) {
-				intersected = intersects[ 0 ].object;
+			if ( intersected != intersects[ 0 ].object ) { // not same one
+				var intersected = intersects[ 0 ].object;
 			}
 			headsUp.style.left = 10 + 0.5 * window.innerWidth + mouse.x * 0.5 * window.innerWidth + 'px';
 			headsUp.style.bottom = 10 + 0.5 * window.innerHeight + mouse.y * 0.5 * window.innerHeight+ 'px';
-			headsUp.style.display = '';
+			headsUp.style.display = 'block';
 			var ap = intersected.ap.data;
 			headsUp.innerHTML =  'ICAO: ' + ap[0] + 
 				'<br>Name: ' + ap[1].replace(/["']/g, "") + 
@@ -276,11 +268,9 @@ console.log('waiting...');
 				'<br>Longitude: ' + parseFloat(ap[3]).toFixed(4) + '&deg' +
 				'<br>Runways: ' + ap[4] + '<br>ILS: ' + ap[5] + 
 			'<br>';
+			// findRunway( ap );
 			findNavaid( intersected.ap );
 		} else {
 			headsUp.style.display = 'none';
 		}
 	}
-</script>
-</body>
-</html>
