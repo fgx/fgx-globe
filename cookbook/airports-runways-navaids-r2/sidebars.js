@@ -22,7 +22,7 @@
 			'#sbl { background-color: #eee; left: 30px; margin: 10px; opacity: 0.8; outline: 1px solid; padding: 10px; position: absolute; ' +
 				'text-align: left; top: 120px; max-width: 300px;}' +
 
-			'#stb { background-color: #eee; left: 600px; margin: 10px auto; opacity: 0.8; outline: 1px solid; padding: 10px; position: absolute;' +
+			'#stb { background-color: #eee; left: 25%; margin: 10px auto; opacity: 0.8; outline: 1px solid; padding: 10px; position: absolute;' +
 				'text-align: left; top: 20px; width: 700px;}' +
 
 			'#sbr { background-color: #eee; height: 90%; margin: 10px; opacity: 0.8; outline: 1px solid; padding: 10px; position: absolute; ' +
