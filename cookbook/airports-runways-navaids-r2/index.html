@@ -161,7 +161,7 @@ console.log('waiting...');
 	var pi = Math.PI, d2r = Math.PI / 180, origin = v( 0, 0, 0);
 
 	function calcPosition( lat, lon, rad ) {
-		return  v(
+		return v(
 			rad * cos( lat * d2r ) * sin( 0.5 * pi + lon * d2r),
 			rad * sin( lat * d2r ),
 			rad * cos( lat * d2r ) * cos(  0.5 * pi + lon * d2r)
@@ -176,8 +176,8 @@ console.log('waiting...');
 	}
 
 	function onWindowResize() {
-		windowHalfX = window.innerWidth / 2;
-		windowHalfY = window.innerHeight / 2;
+		var windowHalfX = window.innerWidth / 2;
+		var windowHalfY = window.innerHeight / 2;
 		FGx.camera.aspect = window.innerWidth / window.innerHeight;
 		FGx.camera.updateProjectionMatrix();
 		FGx.renderer.setSize( window.innerWidth, window.innerHeight );
@@ -186,12 +186,8 @@ console.log('waiting...');
 	function onDocumentMouseUp() {
 		if ( FGx.airports === undefined ) return;
 		if ( FGx.objects !== undefined ) { FGx.scene.remove( FGx.objects ); }
-		var camDistance, ils, nearby, ap, airport, position, distance, cnt = 0;
-		FGx.objects = new THREE.Object3D();
-		material = new THREE.MeshNormalMaterial();
+		var camDistance, ils, nearby, ap, airport, position, distance, sides, cnt = 0;
 		camDistance = FGx.camera.position.distanceTo( v( 0, 0, 0 ) );
-		var scale = 0.0025 * camDistance;
-		geometry = new THREE.CubeGeometry( scale, scale, 5 * scale );
 		if ( camDistance > 130 ) { 
 			ils = 3;
 			nearby = 500;
@@ -205,11 +201,30 @@ console.log('waiting...');
 			ils = 0;
 			nearby = 20;
 		}
+		FGx.objects = new THREE.Object3D();
+		var scale = 0.0025 * camDistance;
+		// geometry = new THREE.CubeGeometry( scale, scale, 5 * scale );
+		
+		material = new THREE.MeshNormalMaterial();		
 		for (var i = 0, len = FGx.airportKeys.length; i < len; i++) {
 			ap = FGx.airports[ FGx.airportKeys[i] ];
 			distance = ap.position.distanceTo( FGx.camera.position );
 			if ( ap.data[5] >= ils && distance < nearby ) {
+/*			
+				if (ap.data[5] > 0 ) {
+					sides = 4;
+					var scale = 0.0025 * camDistance;					
+				} else {
+					sides = 3;
+					var scale = 0.001 * camDistance;
+				}
+*/				
+				var size = parseInt(ap.data[4]);
+				var scale = 0.0008 * camDistance + 0.0002 * camDistance * size;
+				geometry = new THREE.CylinderGeometry( scale, scale, 3 * ap.data[5] * scale, size + 2  );
+				geometry.applyMatrix( new THREE.Matrix4().makeRotationX( - Math.PI / 2 ) );
 				airport = new THREE.Mesh( geometry, material );
+				
 				airport.position = ap.position;
 				airport.lookAt( v( 0, 0, 0 ) );
 				airport.ap = ap;
@@ -271,14 +286,15 @@ console.log('waiting...');
 			headsUp.style.display = '';
 			var ap = intersected.ap.data;
 			headsUp.innerHTML =  'ICAO: ' + ap[0] + 
-				'<br>Name: ' + ap[1].replace(/["']/g, "") + 
+				'<br>Name: ' + ap[1] + 
 				'<br>Latitude: ' + parseFloat(ap[2]).toFixed(4) + '&deg' +
 				'<br>Longitude: ' + parseFloat(ap[3]).toFixed(4) + '&deg' +
 				'<br>Runways: ' + ap[4] + '<br>ILS: ' + ap[5] + 
+				'<br><img src="http://maps.googleapis.com/maps/api/staticmap?center=' + parseFloat(ap[2]) + ',' + parseFloat(ap[3]) + '&maptype=satellite&zoom=14&size=300x200&sensor=false" >' +
 			'<br>';
 			findNavaid( intersected.ap );
 		} else {
-			headsUp.style.display = 'none';
+			// headsUp.style.display = 'none';
 		}
 	}
 </script>
