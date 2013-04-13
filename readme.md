@@ -22,6 +22,11 @@ For the latest updates please have a look at [FGx Open Source Projects](http://f
 
 ## Change log
 
+2013-04-13 ~ Theo
+* World Airports,Runways and Navaids r2.4: airport image links to Google Maps
+* World Airports,Runways and Navaids r2.4: tightened up Heads-up diaply
+* World Airports,Runways and Navaids r2.4: added link to wunderground.com
+
 2013-03-20 ~ Theo
 * airport symbol size is scaled to the camera distance
 * display output prettified with degree symbols

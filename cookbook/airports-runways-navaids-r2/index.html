@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang='en'>
 <head>
 <title>airports-runways-navaids r2</title>
@@ -285,13 +285,15 @@ console.log('waiting...');
 			headsUp.style.bottom = 10 + 0.5 * window.innerHeight + mouse.y * 0.5 * window.innerHeight+ 'px';
 			headsUp.style.display = '';
 			var ap = intersected.ap.data;
-			headsUp.innerHTML =  'ICAO: ' + ap[0] + 
-				'<br>Name: ' + ap[1] + 
-				'<br>Latitude: ' + parseFloat(ap[2]).toFixed(4) + '&deg' +
-				'<br>Longitude: ' + parseFloat(ap[3]).toFixed(4) + '&deg' +
-				'<br>Runways: ' + ap[4] + '<br>ILS: ' + ap[5] + 
-				'<br><img src="http://maps.googleapis.com/maps/api/staticmap?center=' + parseFloat(ap[2]) + ',' + parseFloat(ap[3]) + '&maptype=satellite&zoom=14&size=300x200&sensor=false" >' +
-			'<br>';
+			headsUp.innerHTML =  'ICAO: ' + ap[0] + '<br>' +
+				'Name: ' + ap[1] + '<br>' +
+				'Latitude: ' + parseFloat(ap[2]).toFixed(4) + '&deg Longitude: ' + parseFloat(ap[3]).toFixed(4) + '&deg' +
+				'Runways: ' + ap[4] + ' - ILS: ' + ap[5] + '<br>' +
+				'<br><a href="http://maps.google.com/maps?z=15&t=k&q=loc:' + parseFloat(ap[2]) + ',' + parseFloat(ap[3]) + '" target="_blank">' +
+                    '<img src="http://maps.googleapis.com/maps/api/staticmap?center=' + parseFloat(ap[2]) + ',' + parseFloat(ap[3]) + '&maptype=satellite&zoom=14&size=300x200&sensor=false" >' +
+			        '</a>' + '<br>' +
+                '<a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=' + ap[0] + '" target="_blank" >Weather</a><br>' + 
+            '';
 			findNavaid( intersected.ap );
 		} else {
 			// headsUp.style.display = 'none';

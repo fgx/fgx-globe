@@ -74,7 +74,7 @@
 	
 		sidebarLeft.innerHTML =
 			'<div class="control" onclick="toggleBar( sidebarLeft )">[X]</div>' +
-			'<h1>World<br>Airports,<br> Runways<br> and <br>Navaids r2.3</h1>' +
+			'<h1>World<br>Airports,<br> Runways<br> and <br>Navaids r2.4</h1>' +
 			'<p><i>This is a: cookbook demo / prototype / test case. Let\'s talk about appearance and minor blemishes another time...</i></p>' +
 			'<p>Each stick represents an airport. Move your cursor over one of them to see its details.</p>' +
 			'<p>Use your pointing device to update the view.</p>' +
