@@ -22,6 +22,11 @@ For the latest updates please have a look at [FGx Open Source Projects](http://f
 
 ## Change log
 
+2013-04-19 ~ Theo
+* Added j3QUE FGx r1
+* New index page for fgx-globe
+* fgx-globe-r2-dev uses updated Crossfeed link 
+
 2013-04-13 ~ Theo
 * World Airports,Runways and Navaids r2.4: airport image links to Google Maps
 * World Airports,Runways and Navaids r2.4: tightened up Heads-up diaply
