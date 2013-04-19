@@ -71,10 +71,9 @@
 </head>
 <body>
 <script>
-// Source: http://net.tutsplus.com/tutorials/javascript-ajax/creating-a-windows-like-interface-with-jquery-ui/
+// Source for a number of the ideas here: http://net.tutsplus.com/tutorials/javascript-ajax/creating-a-windows-like-interface-with-jquery-ui/
 
 	$(function() {
-		var e = $.elements = {};
 
 		var _init = $.ui.dialog.prototype._init;
 
@@ -112,6 +111,7 @@
 			dialog = $('#' + win.id).dialog({
 				autoOpen : true,
 				height: win.height,
+// perfect this...				
 				position: "left+" + win.left + " top+" + win.top,
 				title : win.title,
 				width: win.width,
@@ -130,6 +130,8 @@
 		}
 
 // permalinks
+		var e = $.elements = {};
+		
 		$.setHash = function() {
 			var settings = "";
 			for (var item in e) {
@@ -182,10 +184,14 @@
 				e.TjScaleZ = 1;
 
 				$.permalink = "";
+				
+// or load from hash fragment				
 			} else {
 				var item, win, hashes = location.hash.split("#");
 				for (var i = 1, len = hashes.length - 1; i < len; i++) {
 					item =  hashes[i].split("=");
+					
+// will change the following to three level object" elements.window.item...					
 					if ( item[0].substr(0,6) === "window") {
 						if ( e[item[0].substr(0,7) ] === undefined ) {
 							win = e[ item[0].substr(0,7) ] = {};
@@ -205,7 +211,7 @@
 
 		var winMin = document.body.appendChild( document.createElement( "div" ) );
 		winMin.id = "dialog_window_minimized_container";
-
+// will move file name to defaults
 		newDialog( e.window1, "ajax/hello-world.html" );
 
 		newDialog( e.window2, "ajax/bonjour-monde.html" );
