@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>j3qUE FGx r1</title>
+<script>
+	var link = document.createElement("link");
+	link.setAttribute("rel", "stylesheet");
+	link.setAttribute("type", "text/css");
+	if ( location.hash === "" ) {
+		link.setAttribute("href", "http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css");
+	} else {
+		var hashes = location.hash.split("#");
+		link.setAttribute("href", "http://code.jquery.com/ui/1.10.2/themes/" + hashes[1].substr(9) + "/jquery-ui.css");
+	}
+	document.head.appendChild(link);
+</script>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+<link rel="stylesheet" href="j3que.css" type="text/css" charset="utf-8" />
+<script src="j3que.js"></script>
+</head>
+<body>
+<script>
+	$(function() {
+		$.getHash();
+
+		var winMin = document.body.appendChild( document.createElement( "div" ) );
+		winMin.id = "dialog_window_minimized_container";
+
+		$.newDialog( $.elements.win.w1 );
+		$.newDialog( $.elements.win.w2 );
+	});
+</script>
+</body>
+</html>

@@ -106,8 +106,7 @@
 		};
 
 		function newDialog( win, fname ) {
-			$("body").append('<div class="dialog_window" id="' + win.id + '">loding...</div>');
-
+			$("body").append('<div class="dialog_window" id="' + win.id + '"  >loading...</div>');
 			dialog = $('#' + win.id).dialog({
 				autoOpen : true,
 				height: win.height,
@@ -115,11 +114,25 @@
 				position: "left+" + win.left + " top+" + win.top,
 				title : win.title,
 				width: win.width,
+				
 				dragStop: function( event, ui ) {
 					win.left = ui.position.left
 					win.top = ui.position.top;
 					$.setHash();
 				},
+/*				
+				overlay : {
+					background: '#fff',
+					opacity: '0.7'
+				},
+*/				
+				
+// http://acuriousanimal.com/blog/2011/08/16/customizing-jquery-ui-dialog-hiding-close-button-and-changing-opacity/				
+				open: function( event, ui) {
+					// $(this).parent().children().children(".ui-dialog-titlebar-close").hide(); 
+					$(this).parent().css({ opacity: 0.80 });
+				},
+			
 				resize: function( event, ui ) {
 					win.height = ui.size.height.toFixed();
 					win.width = ui.size.width.toFixed();
@@ -127,6 +140,7 @@
 				}
 			});
 			$( "#" + win.id).load( fname );
+			
 		}
 
 // permalinks
