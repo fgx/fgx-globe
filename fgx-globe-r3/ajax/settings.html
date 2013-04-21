@@ -3,7 +3,6 @@
 <head>
 <title></title>
 <meta charset='utf-8'>
-<meta name='author' content='Theo Armour'>
 </head>
 <body>
 
@@ -13,7 +12,7 @@
 	
 	<p>And just below you can select a theme. The available themes are the standard ones sourced from the jQuery UI web site.</p>
 
-	<select id='select1' onchange='$.elements.thm.select = this.selectedIndex ; $.elements.thm.name = $.theme_names[ this.selectedIndex ]; $.setHash(); '>
+	<select id='select1' onchange='$.elements.thm.select = this.selectedIndex; $.elements.thm.name = $.theme_names[ this.selectedIndex ]; $.setHash(); '>
 	</select>
 
 <script>
@@ -24,6 +23,7 @@
 			"start","sunny","swanky-purse","trontastic","ui-darkness","ui-lightness","vader"];
 			
 		var option;
+		
 		for (var sel, i = 0, len = $.theme_names.length; i < len; i++) {
 			option = document.createElement( 'option' );
 			option.innerText = $.theme_names[i];

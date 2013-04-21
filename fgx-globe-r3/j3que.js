@@ -1,6 +1,16 @@
-// Source for a number of the ideas here: http://net.tutsplus.com/tutorials/javascript-ajax/creating-a-windows-like-interface-with-jquery-ui/
+
+	var link = document.head.appendChild( document.createElement("link") );
+	link.setAttribute("rel", "stylesheet");
+	link.setAttribute("type", "text/css");
+	if ( location.hash === "" ) {
+		link.setAttribute("href", "http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css");
+	} else {
+		var hashes = location.hash.split("#");
+		link.setAttribute("href", "http://code.jquery.com/ui/1.10.2/themes/" + hashes[1].substr(9) + "/jquery-ui.css");
+	}
 
 $(function() {
+// Source for a number of the ideas here: http://net.tutsplus.com/tutorials/javascript-ajax/creating-a-windows-like-interface-with-jquery-ui/
 
 	var _init = $.ui.dialog.prototype._init;
 
@@ -33,11 +43,11 @@ $(function() {
 	};
 
 	$.newDialog = function ( win ) {
-		$("body").append('<div class="dialog_window" id="' + win.id + '"  >loading...</div>');	
+		$("body").append('<div class="dialog_window" id="' + win.id + '"  >loading...</div>');
 		dialog = $('#' + win.id).dialog({
 			autoOpen: true,
-			height: win.height,			
-			position: { 
+			height: win.height,
+			position: {
 				my: "left top",
 				at: "left+" + win.left + " top+" + win.top,
 				of: window
@@ -49,9 +59,9 @@ $(function() {
 				win.top = ui.position.top;
 				$.setHash();
 			},
-// source: http://acuriousanimal.com/blog/2011/08/16/customizing-jquery-ui-dialog-hiding-close-button-and-changing-opacity/				
+// source: http://acuriousanimal.com/blog/2011/08/16/customizing-jquery-ui-dialog-hiding-close-button-and-changing-opacity/
 			open: function( event, ui) {
-				if ( win.closer === "false" ) $(this).parent().children().children(".ui-dialog-titlebar-close").hide(); 
+				if ( win.closer === "false" ) $(this).parent().children().children(".ui-dialog-titlebar-close").hide();
 				$(this).parent().css({ opacity: 0.60 });
 			},
 			resize: function( event, ui ) {
@@ -65,23 +75,25 @@ $(function() {
 
 // permalinks
 	var e = $.elements = {};
-	
+
 	$.setHash = function() {
 		var settings = "";
-		for (var items in e) {	
+		for (var items in e) {
 			if ( items === "win" ) {
-				for ( var wins in e.win ) {		
-					for ( var item in e.win[wins] ) {	
+				for ( var wins in e.win ) {
+					for ( var item in e.win[wins] ) {
 						settings += "win." + wins + "." + item + "=" +  e.win[wins][item] +  "#";
 					}
 				}
 			} else {
 				for ( var item in e[items] ) {
 					settings += items + "." + item + "=" + e[items][item] +  "#";
+					if ( item === "name" ) {
+						link.setAttribute("href", "http://code.jquery.com/ui/1.10.2/themes/" + e[items][item] + "/jquery-ui.css");
+					}
 				}
 			}
 		}
-// console.log( settings );		
 		$.permalink = location.hash = settings;
 	};
 
@@ -103,8 +115,8 @@ $(function() {
 					fname: "ajax/hello-world.html",
 					height: window.innerHeight - 200,
 					id: "dialog_window_1",
-					left: "3000",
-					title: "j3qUE FGx r1",
+					left: window.innerWidth - 530, // "3000",
+					title: "FGx Globe r3",
 					top: "50",
 					width: "500"
 				},
@@ -127,8 +139,8 @@ $(function() {
 			};
 
 			$.permalink = "";
-			
-// or load from hash fragment				
+
+// or load from hash fragment
 		} else {
 			var item, win, hashes = location.hash.split("#");
 			for (var i = 1, len = hashes.length - 1; i < len; i++) {
@@ -139,10 +151,16 @@ $(function() {
 					if ( e[item[0]][item[1]] === undefined ) { e[item[0]][item[1]] = {}; }
 					e[item[0]][item[1]][item[2]] = items[1];
 				} else {
-					e[item[0]][item[1]] = items[1];					
+					e[item[0]][item[1]] = items[1];
 				}
 			}
-		}		
+		}
 		$.permalink = location.hash;
+
+		$.newDialog( $.elements.win.w1 );
+		$.newDialog( $.elements.win.w2 );
 	};
+
+	var winMin = document.body.appendChild( document.createElement( "div" ) );
+	winMin.id = "dialog_window_minimized_container";
 });
