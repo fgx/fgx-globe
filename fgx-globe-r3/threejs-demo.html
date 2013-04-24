@@ -1,61 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<style>
-			body {
-				background-color: #ffffff;
-				margin: 0;
-				overflow: hidden;
+<head>
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+</head>
+<body>
+<script src="http://mrdoob.github.com/three.js/build/three.min.js"></script>
+<script src='http://mrdoob.github.com/three.js/examples/js/controls/TrackballControls.js'></script>
+<script src='http://mrdoob.github.com/three.js/examples/js/libs/stats.min.js'></script>
+<script>
+
+		// workaround for chrome bug: http://code.google.com/p/chromium/issues/detail?id=35980#c12
+		if ( window.innerWidth === 0 ) { window.innerWidth = parent.innerWidth; window.innerHeight = parent.innerHeight; }
+						
+		var camera, scene, renderer;
+		var geometry, texture, material, mesh;
+		var clock = new THREE.Clock();
+		
+		init();
+		animate();
+
+		function init() {
+		
+			var css = document.body.appendChild( document.createElement('style') );
+			css.innerHTML = 'body { margin: 0; overflow: hidden; }';
+			
+			renderer = new THREE.WebGLRenderer( { antialias: true } );
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			document.body.appendChild( renderer.domElement );		
+
+			scene = new THREE.Scene();
+			
+			camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 1000 );
+			camera.position.set( 150, 100, 0);
+			controls = new THREE.TrackballControls( camera, renderer.domElement );
+			controls.minDistance = 58;
+			controls.maxDistance = 150;			
+			
+			stats = new Stats();
+			stats.domElement.style.cssText = 'position: absolute; top: 0px; zIndex: 100; ';
+			document.body.appendChild( stats.domElement );
+
+			geometry = new THREE.SphereGeometry( 50, 70, 30 );
+			
+			// material = new THREE.MeshBasicMaterial( { color: 0x000000, wireframe: true, wireframeLinewidth: parent.$.elements.app.lineWidth } );			
+			// texture = THREE.ImageUtils.loadTexture( '../textures/earth_atmos_2048.jpg');
+			texture = THREE.ImageUtils.loadTexture( '../textures/world-map.jpg');
+			material = new THREE.MeshBasicMaterial( { map: texture } );
+			mesh = new THREE.Mesh( geometry, material );
+			scene.add( mesh );			
+			
+			geometry = new THREE.SphereGeometry( 155, 60, 30 );
+			// texture = THREE.ImageUtils.loadTexture( '../../textures/stars-8192x4096.png');
+			texture = THREE.ImageUtils.loadTexture( '../textures/stars-2048x1024.png');  
+			material = new THREE.MeshBasicMaterial( { map: texture, side: THREE.BackSide } );
+			var stars = new THREE.Mesh( geometry, material );
+			scene.add( stars );			
+
+		}
+
+		var lastTime = clock.getElapsedTime();
+		function animate() {
+
+			requestAnimationFrame( animate );
+			controls.update();
+			
+			mesh.rotation.x = Date.now() * 0.00005;
+			mesh.rotation.y = Date.now() * 0.0001;
+
+			renderer.render( scene, camera );
+			
+			stats.update();
+			
+			if ( clock.getElapsedTime() - lastTime > 8 ){
+				lastTime = clock.getElapsedTime();
+				parent.$.getCrossfeed();
 			}
-		</style>
-	</head>
-	<body>
-		<script src="http://mrdoob.github.com/three.js/build/three.min.js"></script>
-		<script>
+		}
 
-			// workaround for chrome bug: http://code.google.com/p/chromium/issues/detail?id=35980#c12
-			if ( window.innerWidth === 0 ) { window.innerWidth = parent.innerWidth; window.innerHeight = parent.innerHeight; }
-							
-			var camera, scene, renderer;
-			var geometry, material, mesh;
-
-			init();
-			animate();
-
-			function init() {
-				
-				camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 1000 );
-				camera.position.z = 500;
-
-				scene = new THREE.Scene();
-
-				geometry = new THREE.IcosahedronGeometry( 200, 1 );
-				material = new THREE.MeshBasicMaterial( { color: 0x000000, wireframe: true, wireframeLinewidth: parent.$.elements.app.lineWidth } );
-
-				mesh = new THREE.Mesh( geometry, material );
-				scene.add( mesh );
-
-				renderer = new THREE.CanvasRenderer();
-				renderer.setSize( window.innerWidth, window.innerHeight );
-
-				document.body.appendChild( renderer.domElement );
-
-			}
-
-			function animate() {
-
-				requestAnimationFrame( animate );
-				
-				material.wireframeLinewidth = 0.2 * parent.$.elements.app.lineWidth;
-				mesh.scale.set( parent.$.elements.app.scaleX, parent.$.elements.app.scaleY, parent.$.elements.app.scaleZ );
-				
-				mesh.rotation.x = Date.now() * 0.00005;
-				mesh.rotation.y = Date.now() * 0.0001;
-
-				renderer.render( scene, camera );
-			}
-
-		</script>
-	</body>
+</script>
+</body>
 </html>

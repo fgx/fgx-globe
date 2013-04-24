@@ -1,3 +1,4 @@
+// load faster out here?!?
 
 	var link = document.head.appendChild( document.createElement("link") );
 	link.setAttribute("rel", "stylesheet");
@@ -9,7 +10,9 @@
 		link.setAttribute("href", "http://code.jquery.com/ui/1.10.2/themes/" + hashes[1].substr(9) + "/jquery-ui.css");
 	}
 
+
 $(function() {
+
 // Source for a number of the ideas here: http://net.tutsplus.com/tutorials/javascript-ajax/creating-a-windows-like-interface-with-jquery-ui/
 
 	var _init = $.ui.dialog.prototype._init;
@@ -43,7 +46,7 @@ $(function() {
 	};
 
 	$.newDialog = function ( win ) {
-		$("body").append('<div class="dialog_window" id="' + win.id + '"  >loading...</div>');
+		$("body").append('<div class="' + win.className + '" id="' + win.id + '"  >loading...</div>');
 		dialog = $('#' + win.id).dialog({
 			autoOpen: true,
 			height: win.height,
@@ -62,7 +65,7 @@ $(function() {
 // source: http://acuriousanimal.com/blog/2011/08/16/customizing-jquery-ui-dialog-hiding-close-button-and-changing-opacity/
 			open: function( event, ui) {
 				if ( win.closer === "false" ) $(this).parent().children().children(".ui-dialog-titlebar-close").hide();
-				$(this).parent().css({ opacity: 0.60 });
+				$(this).parent().css({ opacity: 0.80 });
 			},
 			resize: function( event, ui ) {
 				win.height = ui.size.height.toFixed();
@@ -94,7 +97,8 @@ $(function() {
 				}
 			}
 		}
-		$.permalink = location.hash = settings;
+		location.hash = settings;
+		$.permalink = location.hash;
 	};
 
 	$.resetHash = function () {
@@ -107,29 +111,21 @@ $(function() {
 		if ( location.hash === "" ) {
 			e.thm = {
 				name: "smoothness",
-				select: 16
+				select: 16,
+				mapType: 1
 			};
 			e.win =  {
 				w1: {
+					className: "basic",
 					closer: "false",
-					fname: "ajax/hello-world.html",
+					fname: "ajax/fgx-globe.html",
 					height: window.innerHeight - 200,
 					id: "dialog_window_1",
 					left: window.innerWidth - 530, // "3000",
 					title: "FGx Globe r3",
 					top: "50",
 					width: "500"
-				},
-				w2: {
-					closer: "true",
-					fname: "ajax/bonjour-monde.html",
-					height: "450",
-					id: "dialog_window_2",
-					left: "30",
-					title: "Bonjour Monde!",
-					top: "200",
-					width: "350"
-				}
+				}				
 			};
 			e.app = {
 				lineWidth: 5,
@@ -157,10 +153,10 @@ $(function() {
 		}
 		$.permalink = location.hash;
 
-		$.newDialog( $.elements.win.w1 );
-		$.newDialog( $.elements.win.w2 );
+		$.each($.elements.win, function( item, element) {
+			$.newDialog( element );
+		});
 	};
-
 	var winMin = document.body.appendChild( document.createElement( "div" ) );
 	winMin.id = "dialog_window_minimized_container";
 });

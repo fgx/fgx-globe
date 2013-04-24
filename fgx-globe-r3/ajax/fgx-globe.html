@@ -9,18 +9,35 @@
 		<h3><a href="ajax/info.html">Info</a></h3>
 		<div>loading...</div>
 		
-		<h3><a href="ajax/settings.html">Settings</a></h3>
+		<h3><a href="ajax/crossfeed.html">Crossfeed</a></h3>
+		<div>
+			<p id="status"></p>
+			<table id="table" class="tablesorter">
+				<thead>
+				<tr>
+					<td>Callsign</td>
+<!--				<td>Latitude</td>
+					<td>Longitude</td>  -->
+					<td>Heading</td>
+					<td>Altitude</td>
+					<td>Speed</td>
+					<td>Model</td>
+				</tr>
+				</thead>
+				<tbody id="tbody">
+				</tbody>
+			</table>
+		</div>		
+		
+		<h3><a href="ajax/settings.html">Global Settings</a></h3>
 		<div>loading...</div>	
+		
+		<h3><a href="ajax/windows-settings.html">Flight Window Settings</a></h3>
+		<div>loading...</div>		
 
 		<h3><a href="ajax/permalinks.html">Permalinks</a></h3>
 		<div>loading...</div>		
 		
-		<h3><a href="ajax/specification.html">End-User Specification</a></h3>
-		<div>loading...</div>
-		
-		<h3><a href="ajax/code-specification.html">Coding Specification</a></h3>
-		<div>loading...</div>
-
 		<h3><a href="ajax/tbd.html">TBD</a></h3>
 		<div>loading...</div>
 		
@@ -29,13 +46,14 @@
 		$( "#accordion" ).accordion({
 			active: false,
 			collapsible: true,
-			heightStyle: "content",
+			heightStyle: "fill",
 			activate: function(event, ui) {
 				if ( ui.newPanel.text() == "loading..." ){
 					ui.newPanel.load(ui.newHeader.find('a').attr('href'));
 				}
 			}
 		});	
+		$( "#accordion" ).accordion({ active: 0 });
 </script>	
 </body>
 </html>

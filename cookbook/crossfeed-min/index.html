@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>crossfeed min</title>
+<meta charset="utf-8" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+</head>
+<body>
+<p class="flt_window"  id="gagaga"></p>
+<p class="flt_window"  id="Rush"></p>
+<p id="status"></p>
+<table id="table" class="tablesorter">
+	<thead>
+	<tr>
+		<td>Callsign</td>
+		<td>Latitude</td>
+		<td>Longitude</td>
+		<td>Heading</td>
+		<td>Altitude</td>
+		<td>Speed</td>
+		<td>Model</td>
+	</tr>
+	</thead>
+	<tbody id="tbody">
+	</tbody>
+</table>
+<script>
+	$(function() {
+		$.getCrossfeed = function() {
+			$.getJSON('http://crossfeed.fgx.ch/flights.json', function(data) {
+// console.log( data );
+console.log( $('#tbody')  );
+				if ( $('#tbody') ===  undefined ) { console.log('table') ; }
+				
+				$.fltData = data;
+				$.lookup = {};
+				var flt;
+				$('#tbody').empty();
+				$.each(data.flights, function(dataItem){
+					flt = data.flights[dataItem];
+					$('#tbody').append(
+						function() {
+							return "<tr>" +
+								"<td><button onclick='$.doIt(" + dataItem + ")' >" + flt.callsign + "</button></td>" +
+								"<td>" + flt.lat + "</td>" +
+								"<td>" + flt.lon + "</td>" +
+								"<td>" + flt.hdg + "</td>" +
+								"<td>" + flt.alt_ft + "</td>" +
+								"<td>" + flt.spd_kts + "</td>" +
+								"<td>" + flt.model.replace("Aircraft/","") + "</td>"+
+							"<tr>";
+						}
+					);
+					$.lookup[ flt.callsign ] = flt;
+				});
+				$('#status').replaceWith( "<p id='status'>Last update: " + $.fltData.last_updated + "</p>" );
+
+				$.each( $('.flt_window'), function( item, element) {
+console.log( $.lookup[element.id ] );
+					var flt =  $.lookup[element.id ];
+					if ( flt !== undefined ) {
+						element.innerHTML ='Callsign: ' + flt.callsign + '<br>' +
+							'Latitude: ' + flt.lat.toFixed(4) + '&deg Longitude: ' +  flt.lon.toFixed(4) + '&deg<br>' +
+							'<a href="http://www.openstreetmap.org/index.html?lat=' + flt.lat + '&lon=' + flt.lon + '&zoom=12" target="_blank">link<br>' +
+							'<iframe width="300" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=' +
+							(flt.lon + 0.2) + ',' + (flt.lat - 0.2) + ',' + (flt.lon - 0.2) + ',' + (flt.lat + 0.2) + '&amp;layer=mapnik" style="border: 1px solid black"></iframe>' +
+							'<img src"http://www.openstreetmap.org/index.html?lat=' + flt.lat + '&lon=' + flt.lon + '&zoom=12" />' +
+							// '<a href="http://maps.google.com/maps?z=14&t=k&q=loc:' + flt.lat + ',' + flt.lon + '" target="_blank">' +
+							// '<img src="http://maps.googleapis.com/maps/api/staticmap?center=' + flt.lat + ',' + flt.lat + '&maptype=satellite&zoom=14&size=300x200&sensor=false" >' +
+							'</a>' + '<br>' +
+						'';
+					} else {
+						element.innerHTML = element.id + " does not seem to be flying right now.";
+					}
+				});
+
+				setTimeout(function(){
+					$.getCrossfeed();
+				}, 10000);
+			})
+		};
+
+		$.getCrossfeed();
+
+		$.doIt = function( item ) {
+console.log( item );
+			$.info = document.body.appendChild( document.createElement( 'div' ) );
+			var flt = $.fltData.flights[ item ];
+			$.info.className = 'flt_window';
+			$.info.id = flt.callsign;
+			$.getCrossfeed();
+		};
+	});
+</script>
+</body>
+</html>

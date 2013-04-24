@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<title></title>
+<meta charset='utf-8'>
+</head>
+<body>
+
+	<p>Map type: 
+	<select id='selectMap' onchange='$.elements.thm.mapType = this.selectedIndex; $.setHash();'>
+	</select></p>
+<script>
+		var selectMaps = ["Google Maps Satellite", "Open Street Map ", "Google Maps Map"];
+		
+		for (var sel, i = 0, len = selectMaps.length; i < len; i++) {
+			option = document.createElement( 'option' );
+			option.innerText = selectMaps[i];
+			selectMap.appendChild( option );
+			if ( i === $.elements.thm.mapType) option.selected = true; 
+			
+		}	
+		
+		function setMapType( index ) {
+			$.mapType = index;
+		}
+</script>		
+</body>
+</html>

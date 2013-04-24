@@ -6,14 +6,14 @@
 </head>
 <body>
 
-	<p>You can move and resize windows.</p>
-	
-	<p>You can minimize and close windows.</p>	
-	
-	<p>And just below you can select a theme. The available themes are the standard ones sourced from the jQuery UI web site.</p>
-
+	<p>Theme: 
 	<select id='select1' onchange='$.elements.thm.select = this.selectedIndex; $.elements.thm.name = $.theme_names[ this.selectedIndex ]; $.setHash(); '>
-	</select>
+	</select></p>
+	
+	<p>Globe: 
+	
+	<select id="selectGlobe" onchange="updateTexture( this.selectedIndex );">
+	</select></p>	
 
 <script>
 		var select = document.getElementById("select1");
@@ -29,8 +29,37 @@
 			option.innerText = $.theme_names[i];
 			select.appendChild( option );
 			if ( i === Number($.elements.thm.select) ) option.selected = true; 
-			
 		}
+
+		var globeTextures = ["world.jpg", "earth_atmos_2048.jpg","world-map.jpg"];
+		
+		for (var sel, i = 0, len = globeTextures.length; i < len; i++) {
+			option = document.createElement( 'option' );
+			option.innerText = globeTextures[i];
+			selectGlobe.appendChild( option );
+			// if ( i === Number($.elements.thm.select) ) option.selected = true; 
+			
+		}		
+		$.texture = "../textures/world.jpg";
+		
+		function updateTexture( id ) {
+			$.texture = "../textures/" + globeTextures[ id ];
+			var vr = $.ifr.contentWindow;
+			
+			$.tmat = $.ifr.contentWindow['material'];
+			$.tthr = $.ifr.contentWindow['THREE'];
+			$.tsce = $.ifr.contentWindow['scene'];
+			$.tgeo = $.ifr.contentWindow['geometry'];
+			$.tmsh = $.ifr.contentWindow['mesh'];
+			
+			var texture = $.tthr.ImageUtils.loadTexture( $.texture);
+			$.tmat = new $.tthr.MeshBasicMaterial( { map: texture } );
+	
+			$.tsce.remove( $.tmsh );
+			$.tmsh = new $.tthr.Mesh( $.tgeo, $.tmat );
+			$.tsce.add( $.tmsh );
+		}
+		
 </script>
 </body>
 </html>
