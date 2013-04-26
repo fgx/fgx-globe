@@ -1,0 +1,50 @@
+<body>
+
+<div id="settings"></div>
+
+<p><small>More maps and skies to be added.  Also toggle spinning globe, adjust refresh rate, airplane scale and altitude scale using sliders.</small></p>
+
+<script>
+
+	var paraTheme = settings.appendChild( document.createElement('div') );
+	paraTheme.innerHTML = "<p>jQuery Theme: <select id='selectTheme' onchange='$.elements.thm.select = this.selectedIndex ; $.elements.thm.name = $.theme_names[ this.selectedIndex ]; $.setHash();' ></select></p>";
+
+	$.theme_names = ["base","black-tie","blitzer","cupertino","dark-hive","dot-luv","eggplant","excite-bike","flick",
+		"hot-sneaks","humanity","le-frog","mint-choc","overcast","pepper-grinder","redmond","smoothness","south-street",
+		"start","sunny","swanky-purse","trontastic","ui-darkness","ui-lightness","vader"];
+
+	for (var option, i = 0, len = $.theme_names.length; i < len; i++) {
+		option = selectTheme.appendChild( document.createElement( 'option' ) );
+		option.innerText = $.theme_names[i];
+		if ( i === Number($.elements.thm.select) ) option.selected = true;
+	}
+
+	var globeTextureNames = ["Dark world", "High resolution world","Low resolution world"];
+	var globeTextures = ["world.jpg", "earth_atmos_2048.jpg","world-map.jpg"];
+	var paraGlobe = settings.appendChild( document.createElement('div') );
+	paraGlobe.innerHTML = '<p>Globe Map: <select id="selectMap" onchange="updateTexture( \'materialGlobe\', globeTextures, this.selectedIndex );" ></select></p>';
+
+	for (var option, i = 0, len = globeTextureNames.length; i < len; i++) {
+		option = selectMap.appendChild( document.createElement( 'option' ) );
+		option.innerText = globeTextureNames[i];
+		if ( i === Number($.elements.thm.mapType) ) option.selected = true;
+	}
+	
+	var starTextureNames = ["Low resolution stars","High resolution stars"];
+	var starTextures = ["stars-2048x1024.png","stars-8192x4096.png"];
+	var paraStars = settings.appendChild( document.createElement('div') );
+	paraStars.innerHTML = '<p>Stars Map: <select id="selectStars" onchange="updateTexture( \'materialStars\', starTextures, this.selectedIndex );" ></select></p>';
+
+	for (var option, i = 0, len = starTextures.length; i < len; i++) {
+		option = selectStars.appendChild( document.createElement( 'option' ) );
+		option.innerText = starTextures[i];
+		if ( i === 0 ) option.selected = true;
+	}
+
+	function updateTexture( mat, textures, id ) {		
+		var texture = $.ifr.contentWindow.THREE.ImageUtils.loadTexture( "../textures/" + textures[ id ] );
+		$.ifr.contentWindow[mat].map = texture;
+	}
+
+</script>
+</body>

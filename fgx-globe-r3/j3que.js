@@ -62,9 +62,11 @@ $(function() {
 				win.top = ui.position.top;
 				$.setHash();
 			},
+// add close window - delete hash settings			
 // source: http://acuriousanimal.com/blog/2011/08/16/customizing-jquery-ui-dialog-hiding-close-button-and-changing-opacity/
 			open: function( event, ui) {
 				if ( win.closer === "false" ) $(this).parent().children().children(".ui-dialog-titlebar-close").hide();
+// move to more obvious location:
 				$(this).parent().css({ opacity: 0.80 });
 			},
 			resize: function( event, ui ) {
@@ -118,20 +120,14 @@ $(function() {
 				w1: {
 					className: "basic",
 					closer: "false",
-					fname: "ajax/fgx-globe.html",
-					height: window.innerHeight - 200,
+					fname: "ajax/0fgx-globe.html",
+					height: window.innerHeight - 50,
 					id: "dialog_window_1",
 					left: window.innerWidth - 530, // "3000",
 					title: "FGx Globe r3",
 					top: "50",
 					width: "500"
 				}				
-			};
-			e.app = {
-				lineWidth: 5,
-				scaleX: 1,
-				scaleY: 1,
-				scaleZ: 1
 			};
 
 			$.permalink = "";

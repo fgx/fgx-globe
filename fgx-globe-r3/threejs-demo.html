@@ -10,74 +10,279 @@
 <script src='http://mrdoob.github.com/three.js/examples/js/libs/stats.min.js'></script>
 <script>
 
-		// workaround for chrome bug: http://code.google.com/p/chromium/issues/detail?id=35980#c12
-		if ( window.innerWidth === 0 ) { window.innerWidth = parent.innerWidth; window.innerHeight = parent.innerHeight; }
-						
-		var camera, scene, renderer;
-		var geometry, texture, material, mesh;
-		var clock = new THREE.Clock();
+	// workaround for chrome bug: http://code.google.com/p/chromium/issues/detail?id=35980#c12
+	if ( window.innerWidth === 0 ) { window.innerWidth = parent.innerWidth; window.innerHeight = parent.innerHeight; }
+					
+	var camera, scene, renderer;
+	var geometry, texture, material, mesh;
+	var clock = new THREE.Clock();
+	var headsUp;
+	var world, materialGlobe, materialStars;
+	// var planes = new THREE.Object3D();
+	var planes = [];
+	var mouse = { x: -1, y: -1 };
+	var projector = new THREE.Projector();
+	var moving = true;
+	
+	init();
+	animate();
+
+	function init() {
+	
+		var css = document.body.appendChild( document.createElement('style') );
+		css.innerHTML = 'body { margin: 0; overflow: hidden; }';
 		
-		init();
-		animate();
-
-		function init() {
+		headsUp = document.createElement( 'div' );
+		document.body.appendChild( headsUp );
+		headsUp.className = "basic ui-dialog ui-widget ui-widget-content ui-corner-all ui-front";
+		headsUp.style.cssText = 'background-color: #aaa; border-radius: 8px; font: 600 12pt monospace; display: none; left: 50px; opacity: 0.95; padding: 5px 5px 10px 5px; ' +
+			'position: absolute; text-align: left;';
+		headsUp.innerHTML = '<h1>flight data</h1>';
 		
-			var css = document.body.appendChild( document.createElement('style') );
-			css.innerHTML = 'body { margin: 0; overflow: hidden; }';
-			
-			renderer = new THREE.WebGLRenderer( { antialias: true } );
-			renderer.setSize( window.innerWidth, window.innerHeight );
-			document.body.appendChild( renderer.domElement );		
+		renderer = new THREE.WebGLRenderer( { antialias: true } );
+		renderer.setSize( window.innerWidth, window.innerHeight );
+		document.body.appendChild( renderer.domElement );		
 
-			scene = new THREE.Scene();
-			
-			camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 1000 );
-			camera.position.set( 150, 100, 0);
-			controls = new THREE.TrackballControls( camera, renderer.domElement );
-			controls.minDistance = 58;
-			controls.maxDistance = 150;			
-			
-			stats = new Stats();
-			stats.domElement.style.cssText = 'position: absolute; top: 0px; zIndex: 100; ';
-			document.body.appendChild( stats.domElement );
+		scene = new THREE.Scene();
+		
+		camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 1000 );
+		camera.position.set( 150, 100, 0);
+		controls = new THREE.TrackballControls( camera, renderer.domElement );
+		controls.minDistance = 58;
+		controls.maxDistance = 150;			
+		
+		stats = new Stats();
+		stats.domElement.style.cssText = 'position: absolute; top: 0px; zIndex: 100; ';
+		document.body.appendChild( stats.domElement );
+		
+		document.addEventListener( 'mousemove', onDocumentMouseMove, false );
 
-			geometry = new THREE.SphereGeometry( 50, 70, 30 );
-			
-			// material = new THREE.MeshBasicMaterial( { color: 0x000000, wireframe: true, wireframeLinewidth: parent.$.elements.app.lineWidth } );			
-			// texture = THREE.ImageUtils.loadTexture( '../textures/earth_atmos_2048.jpg');
-			texture = THREE.ImageUtils.loadTexture( '../textures/world-map.jpg');
-			material = new THREE.MeshBasicMaterial( { map: texture } );
-			mesh = new THREE.Mesh( geometry, material );
-			scene.add( mesh );			
-			
-			geometry = new THREE.SphereGeometry( 155, 60, 30 );
-			// texture = THREE.ImageUtils.loadTexture( '../../textures/stars-8192x4096.png');
-			texture = THREE.ImageUtils.loadTexture( '../textures/stars-2048x1024.png');  
-			material = new THREE.MeshBasicMaterial( { map: texture, side: THREE.BackSide } );
-			var stars = new THREE.Mesh( geometry, material );
-			scene.add( stars );			
+		geometry = new THREE.SphereGeometry( 155, 60, 30 );
+		// texture = THREE.ImageUtils.loadTexture( '../../textures/stars-8192x4096.png');
+		texture = THREE.ImageUtils.loadTexture( '../textures/stars-2048x1024.png');  
+		materialStars = new THREE.MeshBasicMaterial( { map: texture, side: THREE.BackSide } );
+		var stars = new THREE.Mesh( geometry, materialStars );
+		scene.add( stars );		
+		
+		geometry = new THREE.SphereGeometry( 50, 70, 30 );
+		geometry.applyMatrix( new THREE.Matrix4().makeRotationY( Math.PI) );
+		// material = new THREE.MeshBasicMaterial( { color: 0x000000, wireframe: true, wireframeLinewidth: parent.$.elements.app.lineWidth } );			
+		var globeTextures = ["world.jpg", "earth_atmos_2048.jpg","world-map.jpg"];
+		texture = THREE.ImageUtils.loadTexture( '../textures/' + globeTextures[parent.$.elements.thm.mapType] );
+		materialGlobe = new THREE.MeshBasicMaterial( { map: texture } );
+		mesh = new THREE.Mesh( geometry, materialGlobe );
+		
+		world = new THREE.Object3D();
+		world.add( mesh );	
+		scene.add( world );	
+		
+		parent.$.getCrossfeed();
+	}
 
+	var lastTime = clock.getElapsedTime();
+	
+	function animate() {
+		requestAnimationFrame( animate );
+		controls.update();
+		
+		if ( moving ) {
+			world.rotation.x = Date.now() * 0.00003;
+			world.rotation.y = Date.now() * 0.00002;
+		}
+		
+		if ( clock.getElapsedTime() - lastTime > 8 ){
+			lastTime = clock.getElapsedTime();
+			parent.$.getCrossfeed();
+			moving = true;
+		}
+		
+		renderer.render( scene, camera );
+		stats.update();		
+	}
+
+	function makePlane( plane ) {
+		var p = new THREE.Object3D();
+		var material = new THREE.MeshNormalMaterial();
+
+		// body
+		var geometry = new THREE.CubeGeometry( 100, 10, 10 );
+		var mesh = new THREE.Mesh( geometry, material );
+		p.add( mesh );
+
+		// wing
+		geometry = new THREE.CubeGeometry( 20, 100, 3 );
+		mesh = new THREE.Mesh( geometry, material );
+		mesh.position.set( 20, 0, 5);
+		p.add( mesh );
+
+		// tail
+		geometry = new THREE.CubeGeometry( 10, 40, 3 );
+		mesh = new THREE.Mesh( geometry, material );
+		mesh.position.set(-45, 0, 0);
+		p.add( mesh );
+
+		// rudder
+		geometry = new THREE.CubeGeometry( 10, 2, 20 );
+		mesh = new THREE.Mesh( geometry, material );
+		mesh.position.set(-45, 0, -12);
+		p.add( mesh );
+
+		// cockpit
+		geometry = new THREE.CubeGeometry( 20, 8, 6 );
+		mesh = new THREE.Mesh( geometry, material );
+		mesh.position.set( 15, 0, -8);
+		p.add( mesh );
+
+		// propeller #1
+		geometry = new THREE.CubeGeometry( 2, 30, 3 );
+		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( Math.PI / 4 ) );
+		mesh = new THREE.Mesh( geometry, material );
+		mesh.position.set( 52, 0, 0);
+		p.add( mesh );
+
+		// propeller #2
+		geometry = new THREE.CubeGeometry( 2, 30, 3 );
+		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( - Math.PI / 4 ) );
+		mesh = new THREE.Mesh( geometry, material );
+		mesh.position.set( 52, 0, 0);
+		p.add( mesh );
+
+		// placard
+		geometry = new THREE.PlaneGeometry( 150, 50, 1, 1 );
+		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( -Math.PI / 2 ) );
+		geometry.applyMatrix( new THREE.Matrix4().makeRotationZ( Math.PI ) );	
+
+		material = canvasText( plane.data.callsign, plane.data.model.split("/")[1], { color: '#ff00ff', height: 50,  width: 150 });
+
+		mesh = new THREE.Mesh( geometry, material );
+		mesh.position.set( 0, 0, -50);
+		p.add( mesh );
+		
+		p.scale.multiplyScalar(0.1);
+		
+		world.add( p );
+		
+		for ( var i = 0; i < p.children.length; i++ ) {
+			p.children[i].plane = plane;
+			planes.push( p.children[i] );
 		}
 
-		var lastTime = clock.getElapsedTime();
-		function animate() {
+		return p;
+	}
+	
+	function v(x,y,z){ return new THREE.Vector3(x,y,z); }
+	function cos(a){return Math.cos(a);} function sin(a){return Math.sin(a);}
+	
+	function calcPosition( lat, lon, rad ) {
+		var pi = Math.PI, d2r = Math.PI / 180;
+		return  new THREE.Vector3(
+			rad * cos( lat * d2r ) * cos( pi - lon * d2r),
+			rad * sin( lat * d2r ),
+			rad * cos( lat * d2r ) * sin( pi - lon * d2r)
+		);
+	}
+	
+	function updatePlane( plane ) {
+		var pi = Math.PI, d2r = Math.PI / 180;
+		po = plane.plane, plat = plane.data.lat, plon = plane.data.lon, i = plat.length - 1;
+		var rad = 51 + plane.data.alt_ft * 0.0003; // * globe.altitudeScale;
+		po.position = calcPosition( plat, plon, rad );
+		po.lookAt( v( 0, 0, 0 ) );
+		po.rotation.z = plane.data.hdg * Math.PI / 180;
+	}
+	
+// placards drawn here
+	function canvasText ( text1, text2, parameters ) {
+		var canvas = document.createElement("canvas");
 
-			requestAnimationFrame( animate );
-			controls.update();
-			
-			mesh.rotation.x = Date.now() * 0.00005;
-			mesh.rotation.y = Date.now() * 0.0001;
+		var width = ( parameters['width'] ) ? parameters['width'] : 300 ;
+		canvas.width = width;
+		var height = ( parameters['height'] ) ? parameters['height'] : 150 ;
+		canvas.height = height;
 
-			renderer.render( scene, camera );
-			
-			stats.update();
-			
-			if ( clock.getElapsedTime() - lastTime > 8 ){
-				lastTime = clock.getElapsedTime();
-				parent.$.getCrossfeed();
+		var context = canvas.getContext("2d");
+		context.globalAlpha = 0.8;
+		context.fillStyle =  ( parameters['backgroundColor'] !== undefined ) ? parameters['backgroundColor'] : '#444444';
+		context.fillRect( 0, 0, width, height );
+		//context.lineWidth = 2;
+		//context.strokeRect(0, 0, width, height);
+		context.fillStyle = ( parameters['color']) ? parameters['color'] : '#000000';
+
+		context.font = ( parameters['fontSize'] !== undefined ) ? parameters['fontSize'] + "pt Arial bold" : '16pt Arial bold';
+		context.textAlign = "left";
+		context.fillText(text1, 5, 20);
+		context.fillText(text2, 5, 40);
+
+		map = new THREE.Texture( canvas );
+		map.needsUpdate = true;
+		return new THREE.MeshBasicMaterial( { map: map, opacity: 0.8, side: THREE.DoubleSide, transparent: true } );
+	}
+
+	function onDocumentMouseMove( event ) {
+		moving = false;
+// event.preventDefault();
+		var interescts, intersected;
+		var img;
+
+		mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+		mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+
+		var vector = new THREE.Vector3( mouse.x, mouse.y, 0.5 );
+		projector.unprojectVector( vector, camera );
+		var raycaster = new THREE.Raycaster( camera.position, vector.sub( camera.position ).normalize() );
+		intersects = raycaster.intersectObjects( planes );
+
+		if ( intersects.length > 0 ) {
+			if ( intersected != intersects[ 0 ].object ) { // not same one
+				intersected = intersects[ 0 ].object;
 			}
-		}
+			headsUp.style.left = 10 + 0.5 * window.innerWidth + mouse.x * 0.5 * window.innerWidth + 'px';
+			headsUp.style.bottom = 10 + 0.5 * window.innerHeight + mouse.y * 0.5 * window.innerHeight+ 'px';
+			headsUp.style.display = 'block';
+//console.log( intersected );			
+			var p = intersected.plane.data;
+			var i = p.lat.length - 1;
 
+			function imgError() {
+				console.log('not loaded');
+			}
+			var htm = '<table><tr><td>Call: ' + p.callsign + '&nbsp;</td><td>Model: ' + p.model.split("/")[1] + '</td></tr>' +
+				'<tr><td>Lat: ' + p.lat.toFixed(4) + '&deg; </td><td>Lon: ' + p.lon.toFixed(4) + '&deg; </td></tr>' +
+				'<tr><td>Alt: ' + p.alt_ft + '\' </td><td>Hdg: ' + p.hdg + '&deg;</td></tr>' +
+				'<tr><td>Dst: ' + p.dist_nm + ' nm </td><td>Spd: ' + p.spd_kts + ' knots </td></tr>' +
+				'<tr><td><img src="' + extractPath( p.model ) + 'thumbnail.jpg' +
+				'" onerror="this.src=\'../textures/airplane.png\';"></td></tr>' +
+				'</tr></table>';
+			headsUp.innerHTML = htm;
+			/*
+			img = new Image();
+			img.onload = function() {
+				// if ( !img ) return;
+				headsUp.appendChild( img );
+			}
+// I can't seem to catch the 404 error when there is no thumbnail...
+			function loadImg() {
+				try {
+					img.src = p.extractPath() + 'thumbnail.jpg';
+				}
+				catch(err) {
+					console.log('catch: ', err);
+				}
+			}
+			loadImg();
+			*/
+
+		} else {
+			headsUp.style.display = 'none';
+		}
+	}	
+	
+	function extractPath( model) {
+			var lio = model.lastIndexOf('/') + 1;
+			var path = model.substr( 0, lio );
+			path = path.replace(/models\//i,'');
+			return 'http://gitorious.org/fg/fgdata/blobs/raw/master/' + path ;
+	}
 </script>
 </body>
 </html>

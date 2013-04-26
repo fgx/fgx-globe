@@ -19,14 +19,15 @@
 		$.getHash();
 
 		$("#create_button").button();
-		
-		$.getCrossfeed();
-		
-		$.ifr = parent.document.body.appendChild( document.createElement( "iframe" ) );
-		$.ifr.src = "threejs-demo.html";
-		$.ifr.style.cssText = 'outline: solid 5px black; height: ' + 
-			window.innerHeight + 'px; position: absolute; top: 0; width: ' + window.innerWidth + 'px; z-index: -5; ';	 
+
 	});
+// causes issues if inside...
+	
+	$.ifr = parent.document.body.appendChild( document.createElement( "iframe" ) );
+	$.ifr.src = "threejs-demo.html";
+	$.ifr.style.cssText = 'outline: solid 5px black; height: ' +
+		window.innerHeight + 'px; position: absolute; top: 0; width: ' + window.innerWidth + 'px; z-index: -5; ';	
+		
 </script>
 </body>
 </html>
