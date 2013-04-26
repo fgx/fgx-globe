@@ -125,8 +125,8 @@ $(function() {
 					id: "dialog_window_1",
 					left: window.innerWidth - 530, // "3000",
 					title: "FGx Globe r3",
-					top: "50",
-					width: "500"
+					top: "20",
+					width: "510"
 				}				
 			};
 

@@ -38,6 +38,7 @@
 					$.ifr.contentWindow.updatePlane( pl );
 				});
 				
+				$('#title').replaceWith( "<scan id='title'>Planes flying: " + data.flights.length + "</scan>" );
 				$('#status').replaceWith( "<p id='status'>Last update: " + $.fltData.last_updated + "</p>" );
 
 				$.each( $('.flt_window'), function( item, element) {
@@ -93,7 +94,7 @@
 				fname: "ajax/new-window.html",
 				height: "370",
 				id: flt.callsign,
-				left: "400",
+				left: "100",
 				title: flt.callsign,
 				top: "100",
 				width: "370",
