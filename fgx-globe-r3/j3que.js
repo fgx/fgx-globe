@@ -1,4 +1,4 @@
-// load faster out here?!?
+// loads faster out here?!?
 
 	var link = document.head.appendChild( document.createElement("link") );
 	link.setAttribute("rel", "stylesheet");

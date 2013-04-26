@@ -17,9 +17,9 @@
 								"<td><button onclick='$.doIt(" + dataItem + ")' >" + flt.callsign + "</button></td>" +
 								//"<td>" + flt.lat + "</td>" +
 								//"<td>" + flt.lon + "</td>" +
-								"<td>" + flt.hdg + "</td>" +
-								"<td>" + flt.alt_ft + "</td>" +
 								"<td>" + flt.spd_kts + "</td>" +
+								"<td>" + flt.alt_ft + "</td>" +
+								"<td>" + flt.hdg + "</td>" +
 								"<td>" + flt.model.split("/")[1] + "</td>"+
 							"<tr>";
 						}
