@@ -22,6 +22,11 @@ For the latest updates please have a look at [FGx Open Source Projects](http://f
 
 ## Change log
 
+2013-04-26 ~ 
+* Updated index page for fgx-globe
+* Added load-plane-3d
+* Updated fgx-globe-r3
+
 2013-04-19 ~ Theo
 * Added j3QUE FGx r1
 * New index page for fgx-globe
