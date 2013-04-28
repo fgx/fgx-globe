@@ -14,9 +14,9 @@
 					$('#tbody').append(
 						function() {
 							return "<tr>" +
-								"<td><button onclick='$.doIt(" + dataItem + ")' >" + flt.callsign + "</button></td>" +
-								//"<td>" + flt.lat + "</td>" +
-								//"<td>" + flt.lon + "</td>" +
+								"<td><button onclick='$.setFlightLine(" + dataItem + ")' >" + flt.callsign + "</button></td>" +
+								// "<td>" + flt.lat + "</td>" +
+								// "<td>" + flt.lon + "</td>" +
 								"<td>" + flt.spd_kts + "</td>" +
 								"<td>" + flt.alt_ft + "</td>" +
 								"<td>" + flt.hdg + "</td>" +
@@ -35,7 +35,10 @@
 					}
 					var pl = $.planes[ flt.callsign ];				
 					pl.data = flt;
-					$.ifr.contentWindow.updatePlane( pl );
+					pl.update = true;
+					if ( pl.plane !== undefined ) {
+						$.ifr.contentWindow.updatePlane( pl );
+					}
 				});
 				
 				$('#title').replaceWith( "<scan id='title'>Planes flying: " + data.flights.length + "</scan>" );
@@ -45,13 +48,21 @@
 					var flt =  $.lookup[ element.id ];
 					if ( flt !== undefined ) {
 						var wid = $.elements.win[flt.callsign].width - 60;
-						var hgt = $.elements.win[flt.callsign].height - 165;						
-// console.log( item, wid, hgt );						
-						element.innerHTML = $.setMap( flt, parseInt($.elements.thm.mapType), wid, hgt);						
+						var hgt = $.elements.win[flt.callsign].height - 165;												
+						element.innerHTML = $.setMap( flt, parseInt($.elements.thm.mapFlight), wid, hgt);						
 					} else {
 						element.innerHTML = element.id + " does not seem to be flying right now.";
 					}
+				});			
+				$.each( $.planes, function( item, element) {
+					if ( element.update === false ) {
+					
+// console.log( 'delete', element.data.callsign, item, element );
+						delete $.planes[ item ];
+					}
+					element.update = false;
 				});
+				
 			})
 		};
 		
@@ -85,7 +96,7 @@
 			}
 		};
 
-		$.doIt = function( item ) {
+		$.setFlightLine = function( item ) {
 // console.log( item );
 			var flt = $.fltData.flights[ item ];
 			$.elements.win[flt.callsign] = {

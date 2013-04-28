@@ -1,4 +1,9 @@
 <body>
+
+	<p><a onclick='permalink.href = $.permalink;' id='permalink' href='#' target='_blank'>Copy this Permalink</a></p>
+	
+	<p><a href="" onclick="$.resetHash();" >Reset permalink to the default</a></p>
+	
 	<small>
 	
 	<p>FGx Globe allows you to save window configurations - the current theme, windows positions and sizes - for reuse or for sending on to others.</p>
@@ -8,10 +13,6 @@
 	<p>The data is stored in a URL link and is therefore called a 'permalink'.</p>
 	
 	</small>
-	
-	<p><a onclick='permalink.href = $.permalink;' id='permalink' href='#' target='_blank'>Copy this Permalink</a></p>
-	
-	<p><a href='' onclick='$.resetHash();' >Reset permalink to the default</a></p>
 	
 <script>
 	permalink.href = $.permalink;

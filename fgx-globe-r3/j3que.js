@@ -2,7 +2,7 @@
 
 	var link = document.head.appendChild( document.createElement("link") );
 	link.setAttribute("rel", "stylesheet");
-	link.setAttribute("type", "text/css");
+	// link.setAttribute("type", "text/css");
 	if ( location.hash === "" ) {
 		link.setAttribute("href", "http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css");
 	} else {
@@ -62,6 +62,12 @@ $(function() {
 				win.top = ui.position.top;
 				$.setHash();
 			},
+			close: function( event, ui) {
+				win.closed = true;
+				$.setHash();
+// console.log( 'closed' );				
+			},			
+			
 // add close window - delete hash settings			
 // source: http://acuriousanimal.com/blog/2011/08/16/customizing-jquery-ui-dialog-hiding-close-button-and-changing-opacity/
 			open: function( event, ui) {
@@ -86,8 +92,11 @@ $(function() {
 		for (var items in e) {
 			if ( items === "win" ) {
 				for ( var wins in e.win ) {
-					for ( var item in e.win[wins] ) {
-						settings += "win." + wins + "." + item + "=" +  e.win[wins][item] +  "#";
+// console.log( e.win[wins].closed )			
+					if ( e.win[wins].closed !== true ) {
+						for ( var item in e.win[wins] ) {
+							settings += "win." + wins + "." + item + "=" +  e.win[wins][item] +  "#";
+						}
 					}
 				}
 			} else {
@@ -114,7 +123,8 @@ $(function() {
 			e.thm = {
 				name: "smoothness",
 				select: 16,
-				mapType: 1
+				mapFlight: 1,
+				mapGlobe: 1
 			};
 			e.win =  {
 				w1: {
@@ -124,7 +134,7 @@ $(function() {
 					height: window.innerHeight - 50,
 					id: "dialog_window_1",
 					left: window.innerWidth - 530, // "3000",
-					title: "FGx Globe r3",
+					title: "FGx Globe r3.1",
 					top: "20",
 					width: "510"
 				}				

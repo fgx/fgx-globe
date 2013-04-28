@@ -1,16 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>FGx Globe r3</title>
+<title>FGx Globe r3.1</title>
 <meta charset="utf-8" />
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
 <link rel="stylesheet" href="j3que.css" type="text/css" charset="utf-8" />
 <script src="j3que.js"></script>
 
+<!--
 <link rel="stylesheet" href="./ajax/tablesorter/css/theme.default.css" type="text/css" charset="utf-8" />
 <script src="./ajax/tablesorter/js/jquery.tablesorter.min.js"></script>
 <script src="./ajax/tablesorter/js/jquery.tablesorter.widgets.min.js"></script>
+-->
+
 <script src="fgx-globe.js"></script>
 </head>
 <body>
@@ -20,14 +23,14 @@
 
 		$("#create_button").button();
 
-	});
-// causes issues if inside...
+	});	
 	
+// causes the planes to disappear if inside jQuery and you open accordian panel...
 	$.ifr = parent.document.body.appendChild( document.createElement( "iframe" ) );
 	$.ifr.src = "threejs-demo.html";
 	$.ifr.style.cssText = 'outline: solid 5px black; height: ' +
 		window.innerHeight + 'px; position: absolute; top: 0; width: ' + window.innerWidth + 'px; z-index: -5; ';	
-		
+	
 </script>
 </body>
 </html>

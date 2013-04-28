@@ -22,6 +22,15 @@ For the latest updates please have a look at [FGx Open Source Projects](http://f
 
 ## Change log
 
+2013-04-27 ~ Theo
+* 4flight-window-settings.html: simplified JavaScript and HTML
+* 3globa-settings.html: simplified JavaScript and HTML
+* 0info.html tidied
+* Added more maps
+* Planes are deleted as and when Crossfeed no longer lists them
+* Windows stay closed - and are deleted from the permalink 
+* started work on bringing in 3D models
+
 2013-04-26 ~ 
 * Updated index page for fgx-globe
 * Added load-plane-3d

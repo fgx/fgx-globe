@@ -1,27 +1,29 @@
 <body>
 
-	<p>Map type: 
-	<select id="selectMap" onchange="$.elements.thm.mapType = this.selectedIndex; $.setHash();" >
-	</select>
+	<p>Flight Window Map type: <select id="selectFlightMap" onchange="setFlightMap( this.selectedIndex )" >
+			<option>Google Maps Satellite</option>
+			<option>Open Street Map</option>
+			<option>Google Maps Roadmap</option>
+		</select>
 	</p>
-	
-	<p><small>More map types will arrive - including 3D views. 
-		Each window will have a symbol of the plane with the current heading. 
-		Also you will be able to adjust the zoom scale. Eventually each window will have its own settings.
-		
-	</small></p>
-		
-	<p><small>You may quite quickly run through your allowed views of Google Maps. If so, switch to Open Streets for an hour or so...</small></p>
 
+	<small>
+
+	<p>More map types will arrive - including 3D views.
+		Each window will have a symbol of the plane with the current heading.
+		Also you will be able to adjust the zoom scale. Eventually each window will have its own settings.
+	</p>
+
+	<p>You may quite quickly run through your allowed views of Google Maps. If so, switch to Open Streets for an hour or so...</p>
+
+	</small>
 <script>
 
-	var selectMaps = ["Google Maps Satellite", "Open Street Map ", "Google Maps Roadmap"];
-	
-	for (var options, i = 0, len = selectMaps.length; i < len; i++) {
-		option = selectMap.appendChild( document.createElement( 'option' ) );
-		option.innerText = selectMaps[i];
-		if ( i === parseInt($.elements.thm.mapType) ) option.selected = true; 
-	}	
-		
-</script>		
+	selectFlightMap.selectedIndex = $.elements.thm.mapFlight;
+
+	function setFlightMap( index ) {
+		$.elements.thm.mapFlight = index;
+		$.setHash();
+	}
+</script>
 </body>
