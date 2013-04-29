@@ -22,6 +22,14 @@ For the latest updates please have a look at [FGx Open Source Projects](http://f
 
 ## Change log
 
+2013-04-28 ~ Theo
+* Number of planes shows in window title bars
+* Planes are now all b777 3D models
+* Flight windows with OSM has select zoom and retained in permalinks
+* Flight windows now show a 2D image of plane rotated to current headding 
+* The main menu is using small text in most places
+* Text on Info page updated
+
 2013-04-27 ~ Theo
 * 4flight-window-settings.html: simplified JavaScript and HTML
 * 3globa-settings.html: simplified JavaScript and HTML

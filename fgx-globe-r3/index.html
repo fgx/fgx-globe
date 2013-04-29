@@ -18,19 +18,18 @@
 </head>
 <body>
 <script>
+// causes the planes to disappear if inside jQuery and you open accordian panel...
+	$.ifr = parent.document.body.appendChild( document.createElement( "iframe" ) );
+	$.ifr.src = "threejs-demo.html";
+	$.ifr.style.cssText = 'outline: solid 5px black; height: ' +
+		window.innerHeight + 'px; position: absolute; top: 0; width: ' + window.innerWidth + 'px; z-index: -5; ';	
+
 	$(function() {
 		$.getHash();
 
 		$("#create_button").button();
 
 	});	
-	
-// causes the planes to disappear if inside jQuery and you open accordian panel...
-	$.ifr = parent.document.body.appendChild( document.createElement( "iframe" ) );
-	$.ifr.src = "threejs-demo.html";
-	$.ifr.style.cssText = 'outline: solid 5px black; height: ' +
-		window.innerHeight + 'px; position: absolute; top: 0; width: ' + window.innerWidth + 'px; z-index: -5; ';	
-	
 </script>
 </body>
 </html>

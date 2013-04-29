@@ -119,6 +119,7 @@ $(function() {
 
 // defaults
 	$.getHash = function () {
+		$.defaultTitle = "FGx Globe r3.2";
 		if ( location.hash === "" ) {
 			e.thm = {
 				name: "smoothness",
@@ -134,12 +135,11 @@ $(function() {
 					height: window.innerHeight - 50,
 					id: "dialog_window_1",
 					left: window.innerWidth - 530, // "3000",
-					title: "FGx Globe r3.1",
+					title: $.defaultTitle,
 					top: "20",
 					width: "510"
 				}				
 			};
-
 			$.permalink = "";
 
 // or load from hash fragment

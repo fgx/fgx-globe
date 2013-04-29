@@ -13,10 +13,11 @@
 if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 	// workaround for chrome bug: http://code.google.com/p/chromium/issues/detail?id=35980#c12
 	if ( window.innerWidth === 0 ) { window.innerWidth = parent.innerWidth; window.innerHeight = parent.innerHeight; }
-					
+
 	var camera, scene, renderer;
 	var geometry, texture, material, mesh;
 	var clock = new THREE.Clock();
+	var lastTime = clock.getElapsedTime();
 	var headsUp;
 	var world, materialGlobe, materialStars;
 	var airplane;
@@ -24,15 +25,15 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 	var mouse = { x: -1, y: -1 };
 	var projector = new THREE.Projector();
 	var moving = true;
-	
+
 	init();
 	animate();
 
 	function init() {
-	
+
 		var css = document.body.appendChild( document.createElement('style') );
 		css.innerHTML = 'body { margin: 0; overflow: hidden; }';
-		
+
 		headsUp = document.createElement( 'div' );
 		document.body.appendChild( headsUp );
 		headsUp.className = "basic ui-dialog ui-widget ui-widget-content ui-corner-all ui-front";
@@ -40,85 +41,82 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 			'position: absolute; text-align: left;';
 		headsUp.innerHTML = '<h1>flight data</h1>';
 
-
 // detect WebGL
 		if ( ! Detector.webgl ) {
 			renderer = new THREE.CanvasRenderer();
 		} else {
 			renderer = new THREE.WebGLRenderer( { antialias: true } );
 		}
-		
 		// renderer = new THREE.WebGLRenderer( { antialias: true } );
 		renderer.setSize( window.innerWidth, window.innerHeight );
-		document.body.appendChild( renderer.domElement );		
+		document.body.appendChild( renderer.domElement );
 
 		scene = new THREE.Scene();
-		
+
 		camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 1000 );
 		camera.position.set( 150, 100, 0);
 		controls = new THREE.TrackballControls( camera, renderer.domElement );
 		controls.minDistance = 58;
-		controls.maxDistance = 150;			
-		
+		controls.maxDistance = 150;
+
 		stats = new Stats();
 		stats.domElement.style.cssText = 'position: absolute; top: 0px; zIndex: 100; ';
 		document.body.appendChild( stats.domElement );
-		
+
 		document.addEventListener( 'mousemove', onDocumentMouseMove, false );
-		
+
 		loader = new THREE.JSONLoader();
-		loader.load( '../fgx-planes/b777-200er/777-200er.js', function ( airplane ) {
+		loader.load( '../fgx-planes/b777-200er/777-200er.js', function ( geometry ) {
+			airplane = geometry;
 			airplane.applyMatrix( new THREE.Matrix4().makeRotationX( -Math.PI / 2 ) );
 			airplane.applyMatrix( new THREE.Matrix4().makeRotationZ( Math.PI / 2 ) );
 		} );
-		
+
 		geometry = new THREE.SphereGeometry( 155, 60, 30 );
-		texture = THREE.ImageUtils.loadTexture( '../textures/stars-2048x1024.png');  
+		texture = THREE.ImageUtils.loadTexture( '../textures/stars-2048x1024.png');
 		materialStars = new THREE.MeshBasicMaterial( { map: texture, side: THREE.BackSide } );
 		var stars = new THREE.Mesh( geometry, materialStars );
-		scene.add( stars );		
-		
+		scene.add( stars );
+
 		geometry = new THREE.SphereGeometry( 50, 70, 30 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationY( Math.PI) );
-		
+
 		var globeTextures = ["world.jpg", "earth_atmos_2048.jpg", "world-map.jpg", "ColorMap-World.png", "Elevation.jpg"];
 		texture = THREE.ImageUtils.loadTexture( '../textures/' + globeTextures[parent.$.elements.thm.mapGlobe] );
 		materialGlobe = new THREE.MeshBasicMaterial( { map: texture } );
 		mesh = new THREE.Mesh( geometry, materialGlobe );
-		
+
 		world = new THREE.Object3D();
-		world.add( mesh );	
-		scene.add( world );	
-		
+		world.add( mesh );
+		scene.add( world );
+
 		parent.$.getCrossfeed();
 	}
 
-	var lastTime = clock.getElapsedTime();
-	
 	function animate() {
 		requestAnimationFrame( animate );
 		controls.update();
-		
+
 		if ( moving ) {
 			world.rotation.x = Date.now() * 0.00003;
 			world.rotation.y = Date.now() * 0.00002;
 		}
-		
+
 		if ( clock.getElapsedTime() - lastTime > 8 ){
 			lastTime = clock.getElapsedTime();
 			parent.$.getCrossfeed();
 			moving = true;
 		}
-		
+
 		renderer.render( scene, camera );
-		stats.update();		
+		stats.update();
 	}
 
 	function makePlane( plane ) {
 		var p = new THREE.Object3D();
 		var material = new THREE.MeshNormalMaterial();
 
-
+/*
 		// body
 		var geometry = new THREE.CubeGeometry( 100, 10, 10 );
 		var mesh = new THREE.Mesh( geometry, material );
@@ -161,41 +159,38 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.position.set( 52, 0, 0);
 		p.add( mesh );
-		
-/*		
-
+*/
 		mesh = new THREE.Mesh( airplane, material );
 		mesh.position.set( 50, 0, 0 );
-		mesh.scale.multiplyScalar( 20 );			
-		p.add( mesh );		
-*/		
+		mesh.scale.multiplyScalar( 20 );
+		p.add( mesh );
+
 		// placard
 		geometry = new THREE.PlaneGeometry( 150, 50, 1, 1 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( -Math.PI / 2 ) );
-		geometry.applyMatrix( new THREE.Matrix4().makeRotationZ( Math.PI ) );	
+		geometry.applyMatrix( new THREE.Matrix4().makeRotationZ( Math.PI ) );
 
 		material = canvasText( plane.data.callsign, plane.data.model.split("/")[1], { color: '#ff00ff', height: 50,  width: 150 });
 
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.position.set( 0, 0, -50);
 		p.add( mesh );
-		
+
 		p.scale.multiplyScalar(0.1);
-		
+
 		world.add( p );
-		
+
 		for ( var i = 0; i < p.children.length; i++ ) {
 			p.children[i].plane = plane;
 			planes.push( p.children[i] );
 		}
 
 		return p;
-		
 	}
-	
+
 	function v(x,y,z){ return new THREE.Vector3(x,y,z); }
 	function cos(a){return Math.cos(a);} function sin(a){return Math.sin(a);}
-	
+
 	function calcPosition( lat, lon, rad ) {
 		var pi = Math.PI, d2r = Math.PI / 180;
 		return  new THREE.Vector3(
@@ -204,9 +199,8 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 			rad * cos( lat * d2r ) * sin( pi - lon * d2r)
 		);
 	}
-	
+
 	function updatePlane( plane ) {
-		// if ( !plane ) break;
 		var pi = Math.PI, d2r = Math.PI / 180;
 		po = plane.plane, plat = plane.data.lat, plon = plane.data.lon, i = plat.length - 1;
 		var rad = 51 + plane.data.alt_ft * 0.0003; // * globe.altitudeScale;
@@ -214,7 +208,7 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		po.lookAt( v( 0, 0, 0 ) );
 		po.rotation.z = plane.data.hdg * Math.PI / 180;
 	}
-	
+
 // placards drawn here
 	function canvasText ( text1, text2, parameters ) {
 		var canvas = document.createElement("canvas");
@@ -263,7 +257,6 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 			headsUp.style.left = 10 + 0.5 * window.innerWidth + mouse.x * 0.5 * window.innerWidth + 'px';
 			headsUp.style.bottom = 10 + 0.5 * window.innerHeight + mouse.y * 0.5 * window.innerHeight+ 'px';
 			headsUp.style.display = 'block';
-//console.log( intersected );			
 			var p = intersected.plane.data;
 			var i = p.lat.length - 1;
 
@@ -278,7 +271,7 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 				'" onerror="this.src=\'../textures/airplane.png\';"></td></tr>' +
 				'</tr></table>';
 			headsUp.innerHTML = htm;
-			/*
+/*
 			img = new Image();
 			img.onload = function() {
 				// if ( !img ) return;
@@ -294,13 +287,12 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 				}
 			}
 			loadImg();
-			*/
-
+*/
 		} else {
 			headsUp.style.display = 'none';
 		}
-	}	
-	
+	}
+
 	function extractPath( model) {
 			var lio = model.lastIndexOf('/') + 1;
 			var path = model.substr( 0, lio );

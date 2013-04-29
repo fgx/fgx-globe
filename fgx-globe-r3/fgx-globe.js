@@ -41,56 +41,73 @@
 					}
 				});
 				
-				$('#title').replaceWith( "<scan id='title'>Planes flying: " + data.flights.length + "</scan>" );
+				$( "#dialog_window_1" ).dialog( "option", "title", $.defaultTitle + " - Planes now flying: " + data.flights.length );
+				document.title = $.defaultTitle + " - " + data.flights.length
+				// $('#title').replaceWith( "<scan id='title'>Planes flying: " + data.flights.length + "</scan>" );
 				$('#status').replaceWith( "<p id='status'>Last update: " + $.fltData.last_updated + "</p>" );
 
 				$.each( $('.flt_window'), function( item, element) {
 					var flt =  $.lookup[ element.id ];
 					if ( flt !== undefined ) {
-						var wid = $.elements.win[flt.callsign].width - 60;
-						var hgt = $.elements.win[flt.callsign].height - 165;												
-						element.innerHTML = $.setMap( flt, parseInt($.elements.thm.mapFlight), wid, hgt);						
+						var wid = $.elements.win[flt.callsign].width - 40;
+						var hgt = $.elements.win[flt.callsign].height - 175;	
+						var zoom = $.elements.win[flt.callsign].zoom;
+						var zoomOSM = $.elements.win[flt.callsign].zoomOSM;
+						element.innerHTML = $.setMap( flt, parseInt($.elements.thm.mapFlight), wid, hgt, zoom, zoomOSM);	
+// console.log('new', zoom, zoomOSM, $('#zoomOSM' + flt.callsign)[0] );							
+						$('#zoomOSM' + flt.callsign)[0].selectedIndex = zoomOSM;
 					} else {
 						element.innerHTML = element.id + " does not seem to be flying right now.";
-					}
+					}0
 				});			
 				$.each( $.planes, function( item, element) {
 					if ( element.update === false ) {
-					
 // console.log( 'delete', element.data.callsign, item, element );
 						delete $.planes[ item ];
 					}
 					element.update = false;
 				});
-				
 			})
 		};
 		
-		$.setMap = function( flt, type, wid, hgt) {
+		$.setMap = function( flt, type, wid, hgt, zoom, zoomOSM) {
+// console.log('zoom', zoom, zoomOSM);		
+			var sel = '<select id="zoom' + flt.callsign + '" onchange="$.elements.win.' + flt.callsign + '.zoom = 8 ;">' +
+				'<option>18</option><option>16</option><option>14</option><option>12</option><option>10</option><option>8</option><option>6</option></select>';
+			
+			var selOSM = '<select id="zoomOSM' + flt.callsign + '" onclick="$.elements.win[\'' + flt.callsign + '\'].zoomOSM = this.selectedIndex; $.setHash();">' +
+				'<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select>';
+			
 			if (type === 0) {
 				return flt.model.split("/")[1] + '<br>' +
 					'Hdg: ' + flt.hdg + ' Alt: ' + flt.alt_ft + ' Spd: ' + flt.spd_kts + '<br>' +
 					'Lat: ' + flt.lat.toFixed(2) + '&deg Lon: ' +  flt.lon.toFixed(2) + '&deg<br>' +
 					// '<img src"http://www.openstreetmap.org/index.html?lat=' + flt.lat + '&lon=' + flt.lon + '&zoom=12" />' +
 					'<a href="http://maps.google.com/maps?z=14&t=k&q=loc:' + flt.lat + ',' + flt.lon + '" target="_blank">' +
-					'<img src="http://maps.googleapis.com/maps/api/staticmap?center=' + flt.lat + ',' + flt.lon + '&maptype=satellite&zoom=14&size=' + wid + 'x' + hgt + '&sensor=false" >' +
+					'<img src="http://maps.googleapis.com/maps/api/staticmap?center=' + flt.lat + ',' + flt.lon + '&maptype=satellite&zoom="' + zoom + '"&size=' + wid + 'x' + hgt + '&sensor=false" >' +
 					'</a>' + '<br>' +
 				'';			
 			} else if (type === 1) {
-				return flt.model.split("/")[1] + '<br>' +
+				zoomOSM = 0.001 * Math.pow( (parseFloat(zoomOSM) + 1), 3 );
+				var txt = flt.model.split("/")[1] + '<br>' +
 					'Hdg: ' + flt.hdg + ' Alt: ' + flt.alt_ft + ' Spd: ' + flt.spd_kts + '<br>' +
 					'Lat: ' + flt.lat.toFixed(2) + '&deg Lon: ' +  flt.lon.toFixed(2) + '&deg<br>' +
 					'<iframe width="' + wid + '" height="' + hgt + '" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=' +
-					(flt.lon + 0.2) + ',' + (flt.lat - 0.2) + ',' + (flt.lon - 0.2) + ',' + (flt.lat + 0.2) + '&amp;layer=mapnik" style="border: 1px solid black"></iframe>' +
-					'<a href="http://www.openstreetmap.org/index.html?lat=' + flt.lat + '&lon=' + flt.lon + '&zoom=12" target="_blank"><br>link' +
-					'</a>' + '<br>' +
-				'';					
+					(flt.lon - zoomOSM) + ',' + (flt.lat - zoomOSM) + ',' + (flt.lon + zoomOSM) + ',' + (flt.lat + zoomOSM) + '&amp;layer=mapnik" style="border: 1px solid black"></iframe>' +
+					'<a href="http://www.openstreetmap.org/index.html?lat=' + flt.lat + '&lon=' + flt.lon + '&zoom=' + zoom + '" target="_blank"><br>link' +
+					'</a> zoom' + selOSM + '<br>' +
+					'<img src="../textures/fg_generic_craft.png" ' +
+						'style="position:absolute; left: 45%; top: 50%; -webkit-transform: rotate(' + flt.hdg + 'deg)"/>' + 
+				'';	
+				// console.log( (flt.lon - zoomOSM),(flt.lat - zoomOSM),(flt.lon + zoomOSM),(flt.lat + zoomOSM));
+				return txt;
+				
 			} else {
 				return flt.model.split("/")[1] + '<br>' +
 					'Hdg: ' + flt.hdg + ' Alt: ' + flt.alt_ft + ' Spd: ' + flt.spd_kts + '<br>' +
 					'Lat: ' + flt.lat.toFixed(2) + '&deg Lon: ' +  flt.lon.toFixed(2) + '&deg<br>' +
 					'<a href="http://maps.google.com/maps?z=14&t=m&q=loc:' + flt.lat + ',' + flt.lon + '" target="_blank">' +
-					'<img src="http://maps.googleapis.com/maps/api/staticmap?center=' + flt.lat + ',' + flt.lon + '&maptype=roadmap&zoom=14&size=' + wid + 'x' + hgt + '&sensor=false" >' +
+					'<img src="http://maps.googleapis.com/maps/api/staticmap?center=' + flt.lat + ',' + flt.lon + '&maptype=roadmap&zoom="' + zoom + '"&size=' + wid + 'x' + hgt + '&sensor=false" >' +
 					'</a>' + '<br>' +
 				'';	
 			}
@@ -103,12 +120,14 @@
 				className: 'flt_window',
 				closer: "true",
 				fname: "ajax/new-window.html",
-				height: "370",
+				height: "500",
 				id: flt.callsign,
 				left: "100",
 				title: flt.callsign,
 				top: "100",
 				width: "370",
+				zoom: "14",
+				zoomOSM: 2,
 			};
 			$.newDialog( $.elements.win[flt.callsign]  );
 			$.getCrossfeed();
