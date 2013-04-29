@@ -1,0 +1,565 @@
+; List as at 20130427
+; Available aircraft:
+;  Model                        Northrop/McDonnell Douglas YF-23 ATF prototype (YASim FDM)  Type        Power     Rating
+; 4|                          33|                                                         93|        105|      114|FDM/Sys/Cock/Mod
+;         10        20        30        40        50        60        70        80        90       100       110       120
+;2345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
+;  Aircraft                     Name                                                        Type        Size     Rating
+   14bis                        14bis Santos DUMONT                                         historic    prop1    NR
+   21                           Santos Dumont N 21 Demoiselle                               historic    prop1    NR
+   212                          Bell 212 "TwinHuey"                                         helicopter  medium   3224
+   412                          Bell 412 "Griffin"                                          helicopter  medium   3224
+   707                          Boeing 707                                                  big         jet4     NR
+   717-200                      Boeing 717-200 (Basic Gross Weight)                         big         jet2     NR
+   717-200HGW                   Boeing 717-200 (High Gross Weight)                          big         jet2     2123
+   727-230                      Boeing 727-230                                              big         jet2     2123
+   737-100                      Boeing 737-100                                              big         jet2     NR
+   737-200                      Boeing 737-200                                              big         jet2     NR
+   737-300                      Boeing 737-300                                              big         jet2     4224
+   737-600                      Boeing 737-600                                              big         jet2     NR
+   737-700                      Boeing 737-700                                              big         jet2     NR
+   737-800                      Boeing 737-800                                              big         jet2     NR
+   737-900                      Boeing 737-900                                              big         jet2     NR
+   747-100                      Boeing 747-100 (JSBSim)                                     big         jet4     NR
+   747-200                      Boeing 747-200                                              big         jet4     NR
+   747-400                      Boeing 747-400                                              big         jet4     3333
+   757-200                      Boeing 757-200                                              big         jet2     NR
+   767-300                      Boeing 767-300                                              big         jet2     2212
+   777-200                      Boeing 777-200                                              big         jet2     4444
+   777-200ER                    Boeing 777-200ER                                            big         jet2     4444
+   777-200LR                    Boeing 777-200LR                                            big         jet2     4444
+   777-300                      Boeing 777-300                                              big         jet2     4444
+   777-300ER                    Boeing 777-300ER                                            big         jet2     4444
+   787                          Boeing 787-8                                                big         jet2     NR
+   A-10                         Fairchild A-10 (YASim FDM)                                  military    jet2     4544
+   A-6E                         Grumman A-6E (YASim FDM)                                    military    jet2     NR
+   a24                          Aeroprakt A 24 Viking                                       small       prop1    NR
+   a26                          A 26 Invader (Rembrandt) (YASim)                            medium      prop2    2233
+   A300                         Airbus A300                                                 big         jet2     NR
+   A318-111                     Airbus A318-100 with CFM56-5B8 engines                      big         jet2     NR
+   A319-111                     Airbus A319-100 with CFM56-5B5 engines                      big         jet2     NR
+   A319-131                     Airbus A319-100 with IAE V2500 engines                      big         jet2     NR
+   A320-111                     Airbus A320-100 with CFM56-5A1 engines                      big         jet2
+   A320-211                     Airbus A320-200 with CFM56-5A1 engines                      big         jet2
+   A320-231                     Airbus A320-200 with IAE V2500 engines                      big         jet2
+   A321-211                     Airbus A321-200 with CFM56-5B3 engines                      big         jet2
+   A321-231                     Airbus A321-200 with IAE V2500 engines                      big         jet2
+   A340-600                     Airbus A340-600                                             big         jet4
+   A380                         Airbus A380                                                 big         jet4
+   a4                           Douglas A4 Skyhawk (YASim)                                  military    jet1
+   a4-uiuc                      A4D (A-4C) Skyhawk attack aircraft (UIUC aero model)        military    jet1
+   a4f                          Douglas A4F Skyhawk (YASim)                                 military    jet2
+   a4f-blue                     Douglas A4F Skyhawk (YASim) Blue Angels                     military    jet2
+   A6M2                         A6M2 Zero                                                   military    prop1
+   A6M2-jsbsim                  A6M2 Zero (JSBSim)                                          military    prop1
+   ac130                        AC-130                                                      military    prop4
+   Aerocar                      Aerocar I                                                   small       model
+   aerostar700                  Aerostar Super 700                                          medium      prop2
+   AG-14                        Anderson Greenwood AG-14                                    small       prop1
+   aircrane                     AirCrane (Yasim)                                            helicopter  big
+   airwaveXtreme150             Alias for airwaveXtreme150-JSBSim                           glider      small
+   airwaveXtreme150-JSBSim      Airwave Xtreme 150 hang glider (JSBSim)                     glider      small
+   airwaveXtreme150-v1-nl-uiuc  Airwave Xtreme 150 hang glider (UIUC)                       glider      small
+   Albatross                    Grumman Albatross                                           medium      prop2
+   allegroF                     Allegro 2000 (Float)                                        small       prop1
+   allegroW                     Allegro 2000 (Wheels)                                       small       prop1
+   Alouette-III                 Alouette_III_Helicopter                                     helicopter  medium
+   alouette2                    Alouette II (Yasim)                                         helicopter  small
+   alouette2-easy               Alouette II Easy (Yasim)                                    helicopter  small
+   alouette2F                   Alouette II with floats (Yasim)                             helicopter  small
+   alouette2F-easy              Alouette II with floats Easy (Yasim)                        helicopter  small
+   alphajet                     Dassult/Dornier Alphajet (YASim)                            military    jet2
+   AN-225                       Antonov AN-225 heavy/outsize cargo aircraft (YASim fdm)     big         jet6
+   an2                          Legendary Russian AN-2 v2.0                                 small       prop1
+   ant20                        Tupolev ANT 20 Maxime Gorky                                 big         prop7
+   antoinette                   Levavasseur Antoinette                                      small       prop1
+   apache                       Apache AH64 D Longbow                                       helicopter  big
+   ar234-C                      Arado Ar 234 C (with Wheels - YASim)                        military    jet4
+   ar234-v1                     Arado Ar 234 (with trolley - YASim)                         military    jet4
+   ar234-v9                     Arado Ar 234 (with Wheels - YASim)                          military    jet4
+   arrow                        Avro CF105 Arrow                                            military    jet2
+   arup-s2                      Arup S2 (YASim)                                             small       prop1
+   as332                        Aerospatiale AS-332 L1                                      helicopter  big
+   ask13                        Schleicher ASK 13 Glider                                    glider      medium
+   ask21                        Schleicher ASK 21 Glider                                    glider      medium
+   ask21mi                      Schleicher ASK 21 mi                                        glider      medium
+   astir                        Grob 102 Jean's ASTIR (YASim)                               glider      small    2224
+   asw20                        Alias for asw20-JSBSim                                      glider      medium
+   asw20-JSBSim                 ASW-20 sailplane (JSBSim)                                   glider      medium
+   asw20-v1-nl-uiuc             ASW-20 sailplane (UIUC)                                     glider      medium
+   ATC                          Air Traffic Control                                         atc         fixed
+   ATC-ML                       ATC - Multilingual                                          atc         fixed
+   ATC2                         Air Traffic Control Ver.2                                   atc         fixed
+   ATI-Resolution               Malolo (R/C)                                                model       medium
+   ATR-72-500                   ATR 72-500                                                  medium      prop2
+   avenger                      GRUMANN TBM Avenger                                         military    prop1    NR
+   Avro-Arrow                   Avro CF105 Arrow                                            military    jet2
+   Avro-Lancaster               Avro Lancaster (YASim)                                      military    prop4
+   B-1B                         Rockwell B-1B Lancer                                        military    jet4
+   B-2                          Northrop B-2 Spirit                                         military    jet2
+   B-52F                        Boeing B-52 F in Arclight colour scheme                     military    jet4
+   b17                          Boeing B 17                                                 military    prop4
+   b1900d                       Beechcraft b1900d                                           military    prop4
+   b24                          B 24 Liberator (YASim)                                      military    prop4
+   b247                         Boeing 247                                                  military    prop2
+   b247D                        Boeing 247 D                                                military    prop2
+   b25                          B-25 Mitchell (YASim)                                       military    prop2
+   b25j                         B-25J Mitchell (YASim)                                      military    prop2
+   b26                          B-26 Marauder                                               military    prop2
+   b29                          Boeing B-29 Superfortress                                   military    prop4
+   b29-jsbsim                   Boeing B-29 Superfortress - JSBSim                          military    prop4
+   b29-magic                    Test model B-29                                             military    prop4
+   b29-wingman                  Boeing B-29 Superfortress - 4 Ship Formation                military    prop4
+   b29-yasim                    Boeing B-29 Superfortress - YASim                           military    prop4
+   b36d                         Consolidated B36 D Peacemaker                               military    prop6
+   BAC-TSR2                     BAC TSR2 Prototype (YASim FDM)                              military    jet2
+   bae125                       BAe 125 (YASim)                                             medium      jet2
+   beaufighter                  Beaufighter                                                 military    prop2
+   beech99-v1-uiuc              Beech 99                                                    medium      prop2
+   beech99-yasim                Beech 99 (YASim)                                            medium      prop2
+   bell222x                     Bell 222 X (Yasim)                                          helicopter  medium
+   bf109g                       Messerschmitt BF-109 G14                                    military    prop1
+   bf110                        Messerschmitt BF 110 (YASim)                                military    prop2    NR
+   Blackbird-A                  SR-71A BlackBird                                            military    jet2     NR
+   Blackbird-B                  SR-71B BlackBird                                            military    jet2     NR
+   bleriot-XI                   Bleriot XI (YASim)                                          small       prop1
+   bluebird                     Bluebird Explorer Hovercraft                                medium      space
+   bo105                        Eurocopter Bo105                                            helicopter  medium
+   bocian                       Bocian 1E                                                   glider      medium
+   Boeing314                    Boeing 314-A                                                medium      prop4
+   br761                        Breguet Br 761 (YASim)                                      medium      prop4
+   brabazon                     Bristol 167 Brabazon (YASim)                                large       prop4
+   Bravo                        Cessna 550B - Citation-Bravo                                medium      jet2     NR
+   breguet19                    Breguet XIX "Point d'Interrogation"                         small       prop1
+   buccaneer                    Blackburn Buccaneer S2(YASim)                               military    jet2
+   bugatti                      Bugatti model 100P (YASim)                                  small       prop1
+   burnelli                     Burnelli CBY 3                                              military    prop2
+   bv141                        Blohm und Voss BV141                                        military    prop1
+   bv170                        Blohm und Voss BV170 (YASim)                                military    prop3
+   bz308                        Breda B.Z. 308 (YASim)                                      medium      prop4
+   c-2a                         Grumman C 2A (YASim)                                        military    prop2
+   c119                         Fairchild C119 (YASim)                                      military    prop2    1003
+   c130                         C130 Hercules                                               military    prop4
+   c130k                        C130 K Hercules                                             military    prop4
+   c150                         Cessna 150L                                                 small       prop1
+   c160                         C 160 Transall                                              military    prop2
+   c172p                        Cessna 172P Skyhawk (1981 model)                            small       prop1
+   c172r                        Cessna 172R                                                 small       prop1
+   c182                         Cessna 182                                                  small       prop1
+   c182rg                       Cessna 182RG                                                small       prop1    3124
+   c310                         Cessna 310 (civilian) with 3D cockpit                       small       prop2    NR
+   c421                         Cessna 421 Golden Eagle (YASim)                             medium      prop2    2124                             
+   c460                         Caudron C 460 (YASim)                                       small       prop1    0003
+   c561                         Caudron C 561                                               small       prop1    NR
+   C684                         Caudron C.684 Super Rafale                                  small       prop1    NR
+   ca12                         Commonwealth CA 12 "Boomerang" (YASim)                      military    prop1    3224
+   CanberraBI8                  English Electric Canberra B(I)8 (YASim FDM)                 military    jet2
+   cap10b                       Cap10B (JSBSim)                                             small       prop1    3444
+   caravanA                     Cessna 208 Caravan (Amphibius)                              small       prop1    3234
+   caravanW                     Cessna 208 Caravan (Wheels)                                 small       prop1    3234
+   caravelle                    caravelle                                                   medium      jet2     NR
+   carreidas                    Carreidas 160                                               medium      jet2     NR
+   Catalina                     Catalina PBY                                                small       prop1    NR
+   ccn1                         Campini Caproni N-1 (YASim)                                 military    jet1
+   Cessna337                    Cessna 337G Skymaster                                       small       prop2    3255
+   ch47                         CH-47 Chinook                                               helicopter  big      NR
+   ch53e                        Sikorsky CH-53E Super Stallion                              helicopter  medium   NR
+   Citation-II                  Cessna 550 Citation-II                                      medium      jet2     NR
+   CitationX                    Cessna Citation-X                                           medium      jet2     NR
+   cl415                        Bombardier 415
+   clipper                      Robinson R44 Clipper                                        helicopter  small    3344
+   colditz                      Colditz Escape Glider                                       glider      small
+   ComperSwift                  Comper Swift                                                small       prop1    NR
+   Concorde                     Concorde                                                    medium      jet2     4524
+   couzinet70                   Couzinet 70 - Arc en Ciel                                   military    prop3    NR
+   CRJ-200                      Bombardier CRJ-200                                          medium      jet2     NR
+   CRJ1000                      Bombardier CRJ1000                                          medium      jet2     3344
+   CRJ1000-EuroLite             Bombardier CRJ1000 EuroLite                                 medium      jet2     3344
+   CRJ1000ER                    Bombardier CRJ1000ER                                        medium      jet2     3344
+   CRJ700                       Bombardier CRJ700 (with tutorials)                          medium      jet2     3344
+   CRJ700ER                     Bombardier CRJ700ER (with tutorials)                        medium      jet2     3344
+   CRJ700LR                     Bombardier CRJ700LR (with tutorials)                        medium      jet2     3344
+   CRJ900                       Bombardier CRJ900                                           medium      jet2     3344
+   CRJ900ER                     Bombardier CRJ900ER                                         medium      jet2     3344
+   CRJ900LR                     Bombardier CRJ900LR                                         medium      jet2     3344
+   Crusader                     Crusader F-8E-Crusader                                      military    jet1     NR
+   Cub                          Piper J-3 Cub (J3C-65, 1946 model)                          small       prop1    3344
+   d510                         Dewoitine D 510                                             military    prop1    NR
+   d520                         Dewoitine D 520                                             military    prop1    NR
+   da42                         Diamond DA 42 (YASim)                                       medium      prop2    NR
+   dauphin                      Dauphin (Yasim)                                             helicopter  medium   NR
+   DC-10-30                     McDonnell Douglas DC-10-30                                  medium      jet3     NR
+   DC-10-30CF                   McDonnell Douglas DC-10-30CF                                medium      jet3     NR
+   DC-10-30ER                   McDonnell Douglas DC-10-30ER                                medium      jet3     NR
+   dc-3                         Douglas DC-3/C-47 (YASim)                                   medium      prop2    4444
+   dc-3A                        Douglas DC-3/C-47 Amphibius (YASim)
+   DC-6B                        Douglas DC-6
+;  dc2                          Douglas DC-2                                                medium      prop2    2103
+   dc2                          Douglas DC-2                                                medium      prop2    2103
+   dc3                          Douglas DC-3                                                medium      prop2    NR
+   dc6                          Douglas DC-6                                                medium      prop4    NR
+   dc8-63                       Douglas DC-8-63                                             medium      prop4    NR
+   dc8-73                       Douglas DC-8-73                                             medium      jet4     NR
+   deperdussin                  Deperdussin Monocoque                                       small       prop1    NR
+   DerKleineUhu                 Der Kleine UHU (model glider)                               glider      small    NR
+   deuche                       Deux Chevaux Citroen                                        car         small    NR
+   dg101g                       Glaser-Dirks DG-101G (JSBSIM)
+   dh106                        de Havilland DH 106 Comet 4                                 medium      jet4     NR
+   dh2                          AIRCO D.H.2                                                 
+   dh88                         de Havilland DH 88 Comet                                    small       prop2    NR
+   dh89                         De Havilland DH 89                                          small       prop2    2113
+   dh91                         DH 91 Albatros                                              medium      prop4    NR
+   dh91-yasim                   DH 91 Albatros (YASim)                                      medium      prop4    NR
+   dhc1                         DHC 1 (YASim)                                               small       prop1    NR
+   dhc2F                        de Havilland Beaver - Floats                                medium      prop1    NR
+   dhc2W                        de Havilland Beaver - Wheels                                medium      prop1    NR
+   dhc3A                        DHC 3 Otter (Amphibius)                                     medium      prop1    NR
+   dhc3F                        DHC 3 Otter (Floats))                                       medium      prop1    NR
+   dhc3S                        DHC 3 Otter (Skis)                                          medium      prop1    NR
+   dhc3W                        DHC 3 Otter (Wheels)                                        medium      prop1    NR
+   dhc4                         De Havilland Canada DHC-4 Caribou                           medium      prop2    NR
+   dhc6                         de Havilland Twin Otter (wheels)                            medium      prop2    NR
+   dhc6F                        de Havilland Twin Otter (floats)                            medium      prop2    NR
+   dhc6S                        de Havilland Twin Otter (skis)                              medium      prop2    NR
+   dhc8                         DHC8-300Q                                                   medium      prop2    NR
+   do26                         Dornier Do 26                                               medium      prop2    NR
+   do335                        Dornier Do 335 (YASim)                                      military    prop1    2224
+   dolphin                      Douglas Dolphin (YASim)                                     medium      prop2
+   dox                          Dornier Do X                                                medium      prop6    3444
+   dr400-120                    Robin DR 400 120 (YASim)                                    small       prop1    2334
+   dr400-180                    Robin DR 400 180 (YASim)                                    small       prop1    2334
+   Dragonfly                    Moyes Dragonfly                                             ultralite   prop1    NR
+   Dromader                     PZL M18B Dromader                                           small       prop1    NR
+   E-2C                         Grumman E-2C (YASim FDM)                                    military    prop2    2023
+   E3B                          Boeing E-3B                                                 military    jet4     NR
+   ec130                        Eurocopter EC130                                            helicopter  small    NR
+   ec130b4                      Eurocopter EC130 B4                                         helicopter  small    4434
+   ec130b4-Rembrandt            Eurocopter EC130 B4 Rembrandt                               helicopter  small    4434
+   ec135                        Eurocopter EC135                                            helicopter  small    3134
+   eiii                         Fokker Eindecker E III                                      military    prop1    NR
+   ercoupe                      Ercoupe                                                     small       prop1    NR
+   F-117                        F-117 Nighthawk                                             military    jet1     NR
+   f-14b                        Grumman F-14B                                               military    jet2     3355
+   F-35B-yasim                  Lockheed Martin F-35B Lightning II                          military    jet1     2103
+   F-5B                         F-5B_Lightning                                              military    prop2    NR
+   F-86f                        North American F-86 F Sabre                                 military    jet1     NR
+   f104                         Lockheed F-104                                              military    jet2     NR
+   f106                         Convair F106 Delta Dart                                     military    jet1     NR
+   f120ng                       NG-Aircraft XF-100 (Fokker F-28-0100NG)                     medium      jet2     NR
+   f13                          Junkers F13 (YASim)                                         small       prop1    1114
+   f15                          McDonell Douglas F-15 Eagle                                 military    jet2     NR
+   f15c                         F-15C Eagle                                                 military    jet2     NR
+   f15c3d                       F-15C Eagle (3D Cockpit)                                    military    jet2     NR
+   f16                          General Dynamics F-16 (3d cockpit)                          military    jet1     NR
+   f18                          F-18 Hornet Royal Canadian Air Force                        military    jet2     NR
+   f183d                        F-18 Hornet Canadian Royal Air Force (3D Cockpit)           military    jet2     NR
+   f19                          Focke Wulf F19 Ente(YASim)                                  small       prop2    1113
+   f22-jsbsim                   f22-jsbsim                                                  military    jet2     NR
+   f22-yasim                    f22-yasim                                                   military    jet2     NR
+   f4u                          Vought F4U-1 Corsair                                        military    prop1    NR
+   f6f                          GRUMANN F6F Hellcat (YASim)                                 small       prop1    1004
+   f7f                          Grumman F7F Tigercat                                        military    prop2    NR
+   F80C                         Lockheed F-80C Shooting Star                                military    jet1     NR
+   fa223                        FA-223                                                      helicopter  mediam   NR
+   falcon50                     Dassault Falcon 50                                          medium      jet2     3234
+   farman-IV                    Farman IV                                                   small       prop1    NR
+   Fi-156                       Fi-156 Storch                                               military    prop1    NR
+   Fi-156-de                    Fi-156 Storch with German Instruments                       military    prop1    NR
+   fk9mk2                       FK 9 Mark 2                                                 small       prop1    NR
+   fkdr1                        Fokker Dr.1 (JSB)                                           military    prop1    NR
+   fkdr1-v1-nl-uiuc             Fokker Dr.1 (UIUC)                                          military    prop1    NR
+   flash2a                      Mainair Flash 2 Alpha                                       micro       prop1    1343
+   fokker100                    Fokker 100 (F-28-0100)                                      medium      jet2     NR
+   fokker50                     Fokker 50                                                   medium      prop2    NR
+   fokker70                     Fokker 70 (F-28-070)                                        medium      jet2     NR
+   followme                     Follow Me                                                   car         small    4234
+   fouga                        Fouga Magister (YASim)                                      military    jet1     2114
+   fw190a8                      Focke-Wulf FW-190 A8                                        military    prop1    2114
+   fw200                        Focke-Wulf Fw 200                                           medium      prop4    NR
+   Fw61                         Focke Wulf FW61 (YASIM)                                     small       prop1    NR
+   G-164A                       Grumman G-164A Ag-Cat                                       small       prop1    NR
+   g109                         Grob G109                                                   small       prop1    NR 
+   g115                         Grob G115 (YASim)                                           small       prop1    3344
+   g3                           Caudron G.III                                               small       prop1    NR
+   g38                          Junkers G.38ce (YASim)                                      military    prop4    NR
+   g4                           Caudron G.IV                                                small       prop1    NR
+   gannet                       Fairey Gannet (Yasim)                                       military    prop1    2114
+   geebee                       Racer Gee Bee                                               small       prop1    NR
+   gloster-meteor               Gloster Meteor (YASim)                                      military    jet2     2124
+   gloster-meteor-jsb           Gloster Meteor (JSBSim)                                     military    jet2     3234
+   gpa                          GPA amphibious Jeep
+   gripen                       SAAB Jas 39 Gripen                                          military    jet1     NR
+   H-21C                        Piasecki_H-21C_Helicopter                                   helicopter  big      NR
+   h1                           Hughes H1 racer                                             small       prop1    NR
+   h4                           Hughes H4 Hercules (YASim)                                  big         prop8    2114
+   halifax                      Handley Page halifax                                        military    prop4    2114
+   Hansajet                     Hamburger Flugzeugbau HFB Hansajet                          small       jet2     NR
+   harrier                      British Aerospace Harrier (YASim)                           military    jet2     NR
+   He-111H                      He-111 H                                                    military    prop2    NR
+   he111                        Heinkel He 111 (YASim)                                      military    prop2    1003
+   He162                        Heinkel 162 - Salamander alias Volksjaeger                  military    jet1     NR
+   he178                        Heinkel He 178                                              military    jet1     NR
+   he280                        Heinkel He 280 (YASim)                                      military    jet2     1014
+   hm-14                        HM 14 Pou du Ciel                                           small       prop1    NR
+   ho-ix                        Horten Ho IX                                                military    jet2     NR
+   hondajet                     HondaJet                                                    small       jet2     NR
+   hornet                       Autogiro Hornet (YASim)                                     micro       prop1    NR
+   horsa                        Horsa Assault Glider                                        military    glider   NR
+   hsp75                        Henschel Hs P 75                                            military    prop1    NR
+   hunter                       Hawker Hunter GA11 (YASim)                                  military    jet1     NR
+   hunter-2tanks                Hawker Hunter GA11 (2 Tanks)                                military    jet1     NR
+   HUP                          Piasecki_HUP_Helicopter                                     helicopter  big      NR
+   hurricaneIIb                 Hawker Hurricane IIb (Rembrandt)                            military    prop1    5555
+   hv220                        Bernard HV 220                                              military    prop1
+   i16                          Polikarpov I16 (YASim)                                      small       prop1    2344
+   IAR80-YASim                  IAR 80A (YASim FDM)                                         military    prop1    4455
+   il2                          Ilyoushin Il-2 (YASim)                                      military    prop1    NR
+   j22                          Soko J-22 Orao / IAR-93                                     military    jet1     NR
+   j7w                          J7W Shinden                                                 military    prop1    NR
+   j7w2                         J7W2 Shinden (jet)                                          military    prop1    NR
+   jaguar                       Jaguar (YASim)                                              military    jet2     3444
+   jeep                         Willys Jeep                                                 car         medium   NR
+   jenny                        Curtiss Jenny (YASim)                                       small       prop1    2113
+   jetman                       Jetman                                                      man         jet1     3122
+   ju-88a4                      Junkers Ju-88 A4                                            military    prop2    NR
+   ju52                         Junkers Ju-52-3m                                            military    prop3    NR
+   ju52floats                   Junkers Ju-52-3m                                            military    prop3    NR
+   ju87                         Junker Ju 87 Stuka (Yasim)                                  military    prop1    2014
+   K5Y1                         K5Y1 Aka Tombo (Type 93 Inter Trainig Japanese Navy)        military    prop1    NR
+   k7                           Tupolev ANT 20 Maxime Gorky                                 military    prop6    NR
+   ka50                         Kamov Ka 50 Black Shark (Yasim)                             helicopter  medium   1124
+   katana                       Diamond DA 20 Katana                                        small       prop1    NR
+   kate                         Nakajima-B5N Kate (Yasim)                                   military    prop1    NR
+   KC-10A                       McDonnell Douglas DC-10-30CF
+   kc130                        KC130 Hercules
+   KC135                        Boeing KC-135E - Refueling TANKER - mp                      military    jet4     NR
+   Ki-84                        Ki-84 Hayate                                                military    prop1    NR
+   km                           Caspian Sea Monster                                         military    jet10    NR
+   kodiak                       Quest Aircraft Kodiak 100                                   medium      prop1    NR
+   L-1011-500                   Lockheed L-1011-500 TriStar                                 medium      jet2     3204
+   l39                          Aero Vodochody L-39 Albatros                                military    jet2     NR
+   la5                          Lavochkin La 5 (YASim)                                      military    prop1    NR
+   lancair235                   Lancair 235 (YASim)                                         small       prop1    2324
+   lancaster                    Avro Lancaster (YASim)
+   late29F                      Latecoere 290 (Floats) (YASim)                              military    prop1    2244
+   late29W                      Latecoere 290 (Wheels)(YASim)                               military    prop1    2244
+   late631                      Latecoere 631 (YASim)                                       big         prop4
+   leduc022                     Leduc 022 (YASim)                                           military    prop1    0003
+   libelle                      Messerschmitt Libelle                                       military    jet1     2114
+   lightning                    English Electric Lightning F.1A                             military    jet1     NR
+   lionceau                     Lionceau APM20                                              small       prop1    3344
+   Lockheed1049                 Lockheed 1049 Super Constellation                           medium      prop4    NR
+   Lockheed1049h                Lockheed 1049H Super Constellation                          medium      prop4    NR
+   long-ez                      Rutan Long EZ                                               small       prop1    3334
+   Lynx                         Lynx-WG13_Helicopter                                        helicopter  medium   NR
+   M-XE                         Mosquito XE                                                 helicopter  small    NR
+   m2000-5                      Mirage 2000 (YASim)                                         military    jet1     4434
+   m33                          Macchi M33                                                  small       prop1    NR
+   Malolo1                      Malolo1(R/C)
+   marchetti                    Alias for marchetti-v1-uiuc.
+   marchetti-v1-uiuc            Siai Marchetti S.211 (UIUC)                                 military    jet2     NR
+   MB326                        Aermacchi MB326G Armada                                     military    jet2     NR
+   mb5                          Martin Baker MB 5 (Yasim)                                   military    prop1    3124
+   MC-15                        Colomban MC-15 Cri-Cri (YASim)                              small       prop2    NR
+   mc72                         Macchi Castoldi M.C. 72                                     small       prop1    NR
+   MD11                         McDonnel Douglas MD11                                       medium      jet3     2122
+   MD11-FEDEX                   McDonnel Douglas MD11 - FedEx                               medium      jet3     2122
+   MD11-FINNAIR                 McDonnel Douglas MD11 - Finnair                             medium      jet3     2122
+   MD11-KLM                     McDonnel Douglas MD11 - KLM                                 medium      jet3     2122
+   me163                        Me 163 Komet                                                military    jet1     NR
+   me209v1                      Messerschmitt Me 209 V1                                     military    prop1    NR
+   me262                        Messerschmitt Me-262 (YASim)                                military    jet2     3234
+   me262hg3                     Messerschmitt Me-262 HG III                                 military    jet2     NR
+   me323d                       Messerschmitt Me323-D                                       military    prop6    NR
+   metroliner                   Fairchild Metroliner                                        medium      prop2    NR
+   mi12                         Mil Mi 12 (Yasim)                                           helicopter  big      0003
+   mi24                         Mil Mi 24 Hind (Yasim)                                      helicopter  medium   1001
+   mibs                         FG video assistant
+   MiG-15bis                    MiG-15bis (JSBSim FDM)                                      military    jet1     NR
+   MiG-21bis                    Mikoyan-Gurevich MiG-21bis                                  military    jet1     NR
+   Mig-29                       MiG-29 Fulcrum                                              military    jet1     NR
+   mirage2000                   Mirage 2000C/RDI                                            military    jet1     NR                                           
+   mirage5                      Mirage 5                                                    military    jet1     3124
+   Mirage_F1                    Mirage F1                                                   military    jet1     NR
+   mirageIIING                  Mirage IIING                                                military    jet1     3124
+   mirageIV                     Mirage IV                                                   military    jet1     NR
+   model17                      Beechcraft Staggerwing (YASim)
+   mosquito                     de Havilland Mosquito B Mk 16                               military    prop2    NR
+   MRJ90-STD                    MRJ90-STD (JSBSim)                                          medium      jet2     NR
+   ms406                        Morane-Saulnier MS.406                                      military    prop1    NR 
+   N2501                        Nord-2501  Noratlas
+   N2502                        Nord-2502  Noratlas
+   navion                       Ryan Navion                                                 small       prop1    3344
+   nf104a                       Lockheed NF 104 A                                           military    jet2     NR
+   nieuport11                   Nieuport 11                                                 military    prop1    NR
+   nimitz                       Multiplayer Nimitz - Other pilots can land on it.
+   nimrod                       Hawker Siddeley Nimrod                                      medium      jet4     NR
+   nord2501                     Noratlas Nord 2501 (YASim)                                  medium      prop2    NR
+   nord2502                     Noratlas Nord 2502 (YASim)                                  medium      prop2    NR
+   Nordstern                    Zeppelin LZ 121 "Nordstern" airship                         airship     prop3    2233
+   NTPS                         Northrop/McDonnell Douglas YF-23 ATF prototype (YASim FDM)
+   NTPS-Eng                     NTPS Engineering Panel
+   NTPS-HD1                     NTPS Heads Down Display Option #1
+   NTPS-HD2                     NTPS Heads Down Display Option #2
+   NTPS-OTW-HUD                 NTPS OTW + HUD                                              military    jet2     NR
+   NTPS-OTW-NOHUD               NTPS OTW no HUD                                             military    jet2     NR
+   ogel                         ogeL experimental for JSBSim 2.x (fg after 0.9.9)           toy         prop1    5555
+   OH-1                         Kawasaki OH-1 Ninja                                         helicopter  big      NR
+   ornithopter                  Ornithopter (UIUC)                                          small       flaps    NR
+   OV10_BlkPony                 North American OV-10A Black Pony Bronco                     military    prop2    NR
+   OV10_CDF                     North American OV-10A CDF Bronco                            military    prop2    NR
+   OV10_NASA                    North American OV-10A NASA Bronco                           military    prop2    NR
+   OV10_USAFE                   North American OV-10A USAFE Bronco                          military    prop2    NR
+   P-38L                        P-38L_Lightning
+   p1101                        Messerschmitt Me P1101                                      military    jet1     NR
+   P180-YASim                   Piaggio P180 Avanti II (YASim)                              medium      prop2    NR
+   p38                          Lockheed P 38 (YASim)                                       military    prop2    2014
+   p39                          Bell P39 Airacobra (YASim)                                  military    prop1
+   p40                          Curtiss P 40 (YASim)                                        military    prop1    1014
+   p47d-30                      P47D                                                        military    prop1    NR
+   p51d                         P-51D                                                       military    prop1    NR
+   p51d-jsbsim                  P-51D (JSBSim)                                              military    prop1    5443
+   p59                          Bell P 59 Airacomet (YASim                                  military    jet2
+   p61                          Northrop P 61 (YASim)                                       military    prop2    2114
+   p92                          Tecnam P92 Echo Wheels (YASim)                              small       prop1    3444
+   p92A                         Tecnam P92 Echo amphibious (YASim)                          small       prop1    3444
+   pa100                        PAYEN Pa 100                                                military    prop1    NR
+   pa18                         Piper PA 18                                                 small       prop1    NR
+   pa22-160                     PA-22-160                                                   small       prop1    NR
+   pa24-250-CIIB                Piper Comanche 250, CIIB autopilot                          small       prop1    NR
+   pa24-250-CIII                Piper Comanche 250, CIII autopilot                          small       prop1    NR
+   pa28-161                     Piper Cherokee Warrior II (1979 model)                      small       prop1    NR
+   pa32                         Piper PA 32 (YASim)                                         small       prop1    3234
+   paperairplane                Paper airplane                                              toy         glider   NR
+   paraglider                   Alias for paraglider-jsbsim.
+   paraglider-jsbsim            paraglider                                                  paraglider  small    NR
+   PC-21                        Pilatus PC-21                                               small       prop1    NR
+   PC-9M                        Pilatus PC-9M                                               small       prop1    2334
+   pc12                         Pilatus PC12/47 (YASim)                                     small       prop1    1004
+   PC6-B2H4                     Pilatus PC-6 Turbo Porter B2H4                              small       prop1    NR
+   pioneer200                   Pioneer 200 (YASim)                                         small       prop1    NR
+   pittss1c                     Pitts S1C                                                   small       prop1    1134
+   pogo                         Convair XFY 1 Pogo                                          military    prop1    NR
+   pond                         Rutan Pond Racer (YASim)                                    small       prop2    NR
+   potez630                     Potez 630                                                   military    prop2    NR
+   pt22                         Ryan PT 22 (YASim)                                          small       prop1    NR
+   pterodactyl                  Westland Pterodactyl                                        small       prop1    NR
+   pushback                     Pushback                                                    truck       medium   3122
+   quickie2                     Rutan Quickie 2                                             small       prop1    NR
+   R22                          Robinson R22 Beta II                                        helicopter  small    NR
+   rallye-MS893                 Socata Rallye MS893E                                        small       prop1    NR
+   Rascal110-JSBSim             Rascal 110 (R/C)                                            R/C         prop1    NR
+   Rascal110-YASim              Rascal 110 (R/C)                                            R/C         prop1    NR
+   raven                        Robinson R44 Raven II
+   raven-copilot                Robinson R44 Raven II (copilot)
+   RV-6A                        RV-6A (YASim)                                               small       prop1    NR
+   ryan-sosl                    Ryan NYP "Spirit of St Louis" (YASim)                       small       prop1    NR
+   S-51                         Sikorsky-S51_Helicopter                                     helicopter  medium   NR
+   s11                          Fokker S 11                                                 small       prop1    NR
+   s38                          Sikorsky S38                                                small       prop2    NR
+   s55                          Savioa Marchetti S55                                        small       prop1    NR
+   s58                          Sikorsky S58 (Yasim)                                        helicopter  medium   3124
+   s58-lifter                   Sikorsky S58 (Yasim)                                        helicopter  medium   3124
+   s6b                          Supermarine S6B                                             small       prop1    NR
+   s6b-yasim                    Supermarine S6B (YASim)                                     small       prop1    NR
+   s76c                         Sikorsky S76C++                                             helicopter  medium   NR
+   SaabJ35OeDraken              Saab J35Oe Draken                                           military    jet1     NR
+   santa                        Santa Claus (3d cockpit)                                    toy         reindeer NR
+   se5                          RAF S.E.5 (YASim)                                           military    prop1    2124
+   sea-vixen                    de Havilland SeaVixen FAW2 (YASim)                          military    jet2     NR
+   seafireIIIc                  Supermarine Seafire MkIIIc
+   seahawk                      Hawker Seahawk FGA6
+   seahawk-2tanks               Hawker Seahawk FGA6 (2 Tanks)                               military    jet2     NR
+   seahawk-RNHF                 Hawker Seahawk FGA6 RNHF                                    military    jet2     NR
+   seahawk-wingman              Hawker Seahawk FGA6 (Wingman)                               military    jet2     NR
+   SenecaII                     PA34-200T Seneca II                                         small       prop2    5543
+   sf25b                        Scheibe SF-25B Falke                                        small       prop1    3123
+   sf25c                        Scheibe SF-25C Falke                                        small       prop1    3123
+   sgs233                       Schweizer 2-33                                              glider      small    NR
+   Short_Empire                 Short S.23 'C'-class Empire flying boat.                    medium      prop4    3233
+   shuttle                      Alias for shuttle-jsbsim.                                   shuttle     rocket   NR
+   shuttle-jsbsim               Space Shuttle                                               shuttle     rocket   NR
+   skyranger                    Skyranger                                                   small       prop1    NR
+   skyvan                       Short SC.7 Skyvan                                           medium      prop2    NR
+   sm79                         SM-79                                                       military    prop3    NR
+   snowplow                     Snow Plow                                                   truck       medium   NR
+   sopwithCamel                 Sopwith Camel 1F.1 (uiuc)                                   military    prop1    NR
+   sopwithCamel-v1-nl-uiuc      Sopwith Camel (larcsim)                                     military    prop1    NR
+   sopwithCamel-YASim           Sopwith Camel 1F.1 (YASim)                                  military    prop1    5555
+   spaceshipone                 SpaceShipOne/White Knight                                   spacecraft  rocket   NR
+   spadvii                      S.P.A.D. VII (YASim)                                        military    prop1    NR
+   spitfireIIa                  Supermarine Spitfire IIa                                    military    prop1    4555
+   spitfireIIIc                 Supermarine Spitfire IIIC                                   military    prop1    5555
+   spitfireIX                   Supermarine Spitfire Mk IX                                  military    prop1    NR
+   spitfireLF-IX                Supermarine Spitfire Mk IX                                  military    prop1    NR
+   spitfireVb                   Supermarine Spitfire MkVb                                   military    prop1    4545
+   sr20                         Cirrus SR-20 (Test!)                                        small       prop1    NR
+   sr71                         Lockheed SR 71 Blackbird (YASim)                            military    jet2     NR
+   ss1                          SpaceShipOne
+   st10                         Socata ST10 Diplomate (YASim)                               small       prop1    3344
+   stampe                       Stampe SV 4 Br                                              small       prop1    3114
+   starship                     Beechcraft Starship I                                       medium      prop2    NR
+   stearman                     stearman                                                    small       prop1    NR
+   stieglitz                    Focke Wulf FW44 Stiegltz (YASIM)                            small       prop1    NR
+   stiletto                     Douglas X 3 Stiletto (YASim)                                military    jet2     NR
+   stirling                     Short Stirling (YASim)                                      military    prop4    2114
+   SU-37                        Sukoi SU-37 type aircraft (YASim FDM)                       military    jet2     NR
+   Submarine_Scout              Royal Naval Air Service Submarine Scout Zero airship        airship     prop1    2333
+   super-etendard               Dassault-Breguet Super Etendard (YASim)                     military    jet2     1114
+   superfrelon                  Super Frelon (Yasim)                                        helicopter  medium   NR
+   superguppySGT                NASAsuperguppySGT                                           military    prop4    NR
+   superwal                     Dornier Superwal (YASIM)                                    military    prop2    NR
+   T-4-jsbsim                   Kawasaki T-4 "Blue Impulse" (JSBSim)                        military    jet2     NR
+   T-4-yasim                    Kawasaki T-4 "Blue Impulse (yasim)"                         military    jet2     NR
+   T-50                         Sukhoi T-50 PAK FA                                          military    jet2     NR
+   t37                          Cessna T-37                                                 military    jet2     NR
+   T38                          Northrop T-38                                               military    jet2     NR
+   taube                        Etrich Taube (YASim)
+   tigre                        Eurocopter EC 665 (Yasim)                                   helicopter  medium   1122
+   trimotor                     Ford 4.AT Trimotor                                          small       prop3    2224
+   TU-114                       TU-114 Airliner (YASim FDM)                                 medium      prop4    NR
+   tu154                        Tupolev 154 (YASim)                                         medium      jet3     NR
+   tu95                         Tupolev Tu-95 (YASim)                                       military    prop4    1103
+   typhoon                      EFA Typhoon: AP 2.0 compatible
+   typhoon-2                    EFA Typhoon: AP 2.Git compatible
+   typhoonb                     EFA Typhoon: AP 1.9.1 compatible
+   ufo                          UFO from the 'White Project' of the UNESCO                  spacecraft  saucer   NR
+   uh1                          Bell UH 1 "Huey"
+   uh60                         Sikorsky UH60 BlackHawk                                     helicopter  medium   1004
+   v22                          Bell Boeing V22 Osprey (Yasim)                              helicopter  prop2    NR
+   val                          Aichi D3A (YASim) 
+   vega                         Lockheed Vega                                               military    prop1    NR
+   velocity                     Velocity XL (YASim)                                         small       jet1     NR
+   vg33                         Arsenal VG33
+   victor                       Handley Page Victor - probe-drogue refueling tanker         military    jet2     NR
+   vimy                         Vickers Vimy (YASim)                                        military    prop2    2004
+   vinson                       Multiplayer carrier Carl Vinson
+   vmx22                        Bell Boeing VMX22 Osprey (Yasim)                            helicopter  prop2    NR
+   Vostok-1                     Vostok-1 (JBSim FDM)                                        spacecraft  rocket5  NR
+   vulcanb2                     Avro Vulcan B.2                                             military    jet2     1444
+   whirlwind                    de Havilland DH 88 Comet                                    military    prop2    2234
+   whittle                      Gloster E28/39 (YASim)                                      military    jet1     0024
+   wrightFlyer1903              1903 Wright Flyer (UIUC)                                    small       prop2    NR
+   x1                           Bell X1 (Yasim)                                             military    jet
+   X15                          North American X-15                                         military    jet2     NR
+   X15-new                      North American X-15                                         military    jet2     NR
+   x24                          Alias for x24b.
+   x24b                         Alias for x24b-jsbsim.
+   x24b-jsbsim                  USAF/NACA X-24B reentry testbed
+   XB-70                        North American Valkyrie (YASim)                             military    jet2     3224
+   XB-70-jsbsim                 North American Valkyrie (JSBSim)                            military    jet2     NR
+   xb35                         Northrop XB 35                                              military    prop4    NR
+   xf11                         Hughes XF 11                                                military    prop2    NR
+   Yak-36                       Yakovlev Yak-36                                             military    jet1     3334
+   yak18t                       Yak 18 T (YASim)                                            small       prop1    3334
+   yak3                         Yakovlev Yak-3                                              military    prop1    NR
+   YardStik                     Yard Stik (R/C)                                             R/C         small    NR
+   YF-23                        Northrop/McDonnell Douglas YF-23 ATF prototype (YASim FDM)  military    jet2     NR
+   YS-11                        YS-11 (Yasim)                                               medium      prop2    NR
+   YS-11-jsbsim                 YS-11 (JSBSim)                                              medium      prop2    NR
+   z50lx                        Zlin 50 lx                                                  small       prop1    4244
+   z50lx-IFR                    Zlin 50 lx                                                  small       prop1    4244
+   ZF_Navy_free_balloon         US Navy ZF free gas balloon                                 balloon     small    3233
+   ZivkoEdge540                 Zivko EDGE 540                                              small       prop1    4254
+   ZLT-NT                       Zeppelin NT07 airship                                       airship     medium   2333
+; eof
