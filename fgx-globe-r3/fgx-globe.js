@@ -1,7 +1,8 @@
 	
 	$(function() {	
 		$.planes = {};
-		
+
+// getCrossfeed called from threejs-demo.html every x seconds - because that is where Request Animation Frame is.	
 		$.getCrossfeed = function() {
 			$.getJSON('http://crossfeed.fgx.ch/flights.json', function(data) {
 				$.fltData = data;
@@ -38,6 +39,8 @@
 					pl.update = true;
 					if ( pl.plane !== undefined ) {
 						$.ifr.contentWindow.updatePlane( pl );
+					} else {
+						pl.plane = $.ifr.contentWindow.makePlane( pl );
 					}
 				});
 				

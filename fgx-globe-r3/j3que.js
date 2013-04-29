@@ -14,7 +14,7 @@
 $(function() {
 
 // Source for a number of the ideas here: http://net.tutsplus.com/tutorials/javascript-ajax/creating-a-windows-like-interface-with-jquery-ui/
-
+// especially this minimize stuff just below
 	var _init = $.ui.dialog.prototype._init;
 
 	$.ui.dialog.prototype._init = function() {
@@ -46,7 +46,7 @@ $(function() {
 	};
 
 	$.newDialog = function ( win ) {
-		$("body").append('<div class="' + win.className + '" id="' + win.id + '"  >loading...</div>');
+		$("body").append('<div class="' + win.className + '" id="' + win.id + '" >loading...</div>');
 		dialog = $('#' + win.id).dialog({
 			autoOpen: true,
 			height: win.height,
@@ -57,6 +57,7 @@ $(function() {
 			},
 			title: win.title,
 			width: win.width,
+			
 			dragStop: function( event, ui ) {
 				win.left = ui.position.left;
 				win.top = ui.position.top;
@@ -65,14 +66,12 @@ $(function() {
 			close: function( event, ui) {
 				win.closed = true;
 				$.setHash();
-// console.log( 'closed' );				
-			},			
-			
-// add close window - delete hash settings			
+			},
+// add close window - delete hash settings
 // source: http://acuriousanimal.com/blog/2011/08/16/customizing-jquery-ui-dialog-hiding-close-button-and-changing-opacity/
 			open: function( event, ui) {
 				if ( win.closer === "false" ) $(this).parent().children().children(".ui-dialog-titlebar-close").hide();
-// move to more obvious location:
+// move this to more obvious location:
 				$(this).parent().css({ opacity: 0.80 });
 			},
 			resize: function( event, ui ) {
@@ -81,6 +80,7 @@ $(function() {
 				$.setHash();
 			}
 		});
+// load content for each window from external file		
 		$( "#" + win.id).load( win.fname );
 	};
 
@@ -92,7 +92,7 @@ $(function() {
 		for (var items in e) {
 			if ( items === "win" ) {
 				for ( var wins in e.win ) {
-// console.log( e.win[wins].closed )			
+// console.log( e.win[wins].closed )
 					if ( e.win[wins].closed !== true ) {
 						for ( var item in e.win[wins] ) {
 							settings += "win." + wins + "." + item + "=" +  e.win[wins][item] +  "#";
@@ -117,8 +117,9 @@ $(function() {
 		$.permalink = "";
 	};
 
-// defaults
+
 	$.getHash = function () {
+// defaults
 		$.defaultTitle = "FGx Globe r3.2";
 		if ( location.hash === "" ) {
 			e.thm = {
@@ -138,13 +139,13 @@ $(function() {
 					title: $.defaultTitle,
 					top: "20",
 					width: "510"
-				}				
+				}
 			};
 			$.permalink = "";
 
 // or load from hash fragment
 		} else {
-			var item, win, hashes = location.hash.split("#");
+			var items, item, hashes = location.hash.split("#");
 			for (var i = 1, len = hashes.length - 1; i < len; i++) {
 				items =  hashes[i].split("=");
 				item = items[0].split(".");
@@ -163,6 +164,7 @@ $(function() {
 			$.newDialog( element );
 		});
 	};
+
 	var winMin = document.body.appendChild( document.createElement( "div" ) );
 	winMin.id = "dialog_window_minimized_container";
 });
