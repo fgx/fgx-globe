@@ -23,7 +23,54 @@
 	var renderer, scene, camera, controls, stats;
 	var mesh, cube, plane, colors = [];
 	var group = new THREE.Object3D();
-
+	
+	
+	var AIRCRAFT = {
+		"a380": {
+			name: "Boeing 737",
+			url: "../../fgx-planes/a380/a380.js",
+			credits:"3D Via",
+			object: null			
+		},
+		"b737": {
+			name: "Boeing 737",
+			url: "../../fgx-planes/b737/b737.js",
+			credits:"3D Via",
+			object: null			
+		},
+		"b777": {
+			name: "Boeing 777",
+			url: "../../fgx-planes/b777/b777.js",
+			credits:"3D Via",
+			object: null			
+		},
+		"citation-x": {
+			name: "Citation X",
+			url: "../../fgx-planes/citation-x/citation-x.js",
+			credits:"3D Via",
+			object: null			
+		},		
+		"f16": {
+			name: "F16",
+			url: "../../fgx-planes/f16/f16.js",
+			credits:"3D via",
+			object: null
+		},		
+		"osprey": {
+			name: "Osprey",
+			url: "../../fgx-planes/osprey/osprey.js",
+			credits:"3D Via",
+			object: null			
+		},
+		"seymour": {
+			name: "Seymour",
+			url: "../../fgx-planes/seymour/seymour.js",
+			credits:"3D via",
+			object: null
+		},		
+		
+	};
+		
 	init();
 	animate();
 
@@ -92,68 +139,72 @@ light.shadowCameraVisible = true;
 		plane = new THREE.Mesh( geometry, material );
 		plane.receiveShadow = true;
 		plane.castShadow = true;	
-		scene.add( plane );
-
-		colorful( colors, 10);
+		// scene.add( plane );
 		
 		loader = new THREE.JSONLoader();
-		loader.load( '../../fgx-planes/b777/777-300.js', function ( geometry ) { // works!	
-			// material = new THREE.MeshNormalMaterial();
-			for ( var i = 0; i < 10; i++ ) {
-				material = new THREE.MeshPhongMaterial( {color: 0xffffff, ambient: 0xffffff, specular: 0x888888, shininess: 200, } );
-				material.color.setHSL( colors[i], 0.8, 0.5 );
-				mesh = new THREE.Mesh( geometry, material );
-				mesh.position.set( 100 * Math.random() - 50, 100 * Math.random() - 50, 100 * Math.random() - 50 );
-				mesh.scale.multiplyScalar( 0.5 );
-				mesh.receiveShadow = true;
-				mesh.castShadow = true;				
-				group.add( mesh );
-			}			
-		} );
 		
 		scene.add( group );
-		
-/*		
-		geometry = new THREE.CubeGeometry( 10, 10, 10 );
-		material = new THREE.MeshNormalMaterial();
-		cube = new THREE.Mesh( geometry, material );
-		cube.castShadow = true;
-		scene.add( cube );
 
-
-		
-		geometry = new THREE.CubeGeometry( 10, 10, 10 );
-		
-		colorful( colors, 100);
-
-		for ( i = 0; i < 100; i++) {
-			// color = Math.random() * 0xffffff ;
-			// color = colors[i] * 0xffffff ;
-			// color = '#'+(0xFFFFFFFF-Math.random()*0xFFFFFFFF).toString(16).substr(0, 6);
-			// material = new THREE.MeshPhongMaterial( {color: color, ambient: 0xffffff } );
-			material = new THREE.MeshPhongMaterial( {color: 0xffffff, ambient: 0xffffff, specular: 0x888888, shininess: 200, } );
-			material.color.setHSL( colors[i], 0.8, 0.5 );
-			cube = new THREE.Mesh( geometry, material );
-			cube.position.set( 100 * Math.random() - 50, 100 * Math.random() - 50, 100 * Math.random() - 50 );
-			cube.rotation.set( Math.PI * Math.random(), Math.PI * Math.random(), Math.PI * Math.random() );
-			cube.receiveShadow = true;
-			cube.castShadow = true;
-			group.add( cube );		
-		}		
-		scene.add( group );
-*/
-		
 		info = document.createElement( 'div' );
 		document.body.appendChild( info );
 		info.style.cssText = 'margin 0 0 0 100px: auto; position: absolute; top: 0px; width: 100% ';
-		info.innerHTML = '<p>boilerplate<br>' +
-			'x:<input type="range" id="spin" min="-50" max="50" onchange="group.position.x=this.value;" step="5" value="' + group.position.x + '" > ' +
-			'y:<input type="range" id="spin" min="0" max="50" onchange="group.position.y=this.value;" step="5" value="' + group.position.y + '" > ' +
-			'z:<input type="range" id="spin" min="-50" max="50" onchange="group.position.z=this.value;" step="5" value="' + group.position.z + '" > ' +
-			'<button onclick="console.log( scene );" >test</button> ' +
+		info.innerHTML = '<p>airplane loader<br>' +
+			'Add: <select id="selectModel" onchange="console.log( this.value); loadAirplane( this.value ); ">' +
+				'<option>select model</option>' +
+				'<option>a380</option>' +
+				'<option>b737</option>' +
+				'<option>b777</option>' +
+				'<option>citation-x</option>' +
+				'<option>f16</option>' +
+				'<option>osprey</option>' +
+				'<option>seymour</option>' +
+			'</select>' +
+			' Remove: <select id="selectModelRemove" onchange="console.log( this.value); removeAirplane( this.value ); ">' +
+				'<option>select model</option>' +
+				'<option>a380</option>' +
+				'<option>b737</option>' +
+				'<option>b777</option>' +
+				'<option>citation-x</option>' +
+				'<option>f16</option>' +
+				'<option>osprey</option>' +
+				'<option>seymour</option>' +
+			'</select>' +			
 			'</p>';   
 	}
+	
+	function removeAirplane( craft ) {
+		if ( craft === "select model") { return; }
+		for (var i = 0, len = group.children.length; i < len; i++) {
+console.log( 'remove', craft, i );		
+			if ( group.children[i].aircraft === craft ) {
+				
+				group.remove( group.children[i] ) ;
+				// scene.remove( group.children[i] );
+			}
+		}
+	}
+	
+	function loadAirplane( craft ) {
+		if ( craft === "select model") { return; }
+		if ( ! AIRCRAFT[ craft ].object ) {
+			loader.load( AIRCRAFT[ craft ].url, function( geometry ) { 
+				AIRCRAFT[ craft ].object = geometry;
+				addAirplane( geometry, craft );
+			} );	
+		} else {
+			addAirplane( AIRCRAFT[ craft ].object, craft )
+		}
+	}
 
+	function addAirplane( geometry, craft ) {
+console.log(geometry );
+		material = new THREE.MeshNormalMaterial();
+		mesh = new THREE.Mesh( geometry, material );
+		mesh.position.set( 100 * Math.random() - 50, 100 * Math.random() - 50, 100 * Math.random() - 50);
+		mesh.aircraft = craft;
+		group.add (mesh);
+	}
+	
 	function animate() {
 		requestAnimationFrame( animate );
 		controls.update();

@@ -115,7 +115,63 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		stats.update();
 	}
 
-	function makePlane( plane ) {
+	
+	function selectAircraft( flight ) {
+	// console.log( flight.data, flight.data.model );	
+		var model = flight.data.model.split("/")[1];
+		if ( ! model ) { 
+			model = "seymour"; 	
+		} else if ( model.indexOf("777") > -1 || model.indexOf("747") > -1 || model.indexOf("787") > -1 ) {
+// console.log( model );	
+			model = "b777";
+		} else if ( model.indexOf("737") > -1 || model.indexOf("707") > -1 || model.indexOf("767") > -1 || model.indexOf("757") > -1 ) {
+//console.log( model );	
+			model = "b737";			
+		} else if ( model.indexOf("A3") > -1 ) {
+//console.log( model );	
+			model = "a380";	
+		} else if ( model.indexOf("Citation") > -1 || model.indexOf("Aerostar") > -1) {
+//console.log( model );	
+			model = "citation-x";	
+		} else if ( model.indexOf("f16") > -1 || model.indexOf("f-") > -1 || model.indexOf("fighter") > -1 || model.indexOf("SR71") > -1 ) {
+//console.log( model );	
+			model = "f16";		
+		} else if ( model.indexOf("Osprey") > -1 ) {
+// console.log( model );	
+			model = "osprey";				
+		} else {
+			model = "seymour";
+		}
+		flight.model = model;
+		flight.url = "../fgx-planes/" + model + "/" + model + ".js"; ;
+		
+		loadAirplane( flight );
+	}
+	
+	var aircraftGeometry = {};
+	
+	
+	function loadAirplane( flight ) {
+
+		if ( ! flight.object ) {
+		
+			if ( ! aircraftGeometry[ flight.model ] ) {
+				loader.load( flight.url, function( geometry ) { 
+					geometry.applyMatrix( new THREE.Matrix4().makeRotationX( -Math.PI / 2 ) );
+					aircraftGeometry[ flight.model ] = geometry;
+					flight.object = geometry;
+					addAirplane( flight );
+				} );
+			} else {
+					flight.object = aircraftGeometry[ flight.model ]
+					addAirplane( flight );			
+			}
+		} else {
+			addAirplane( flight )
+		}
+	}
+	
+	function addAirplane( flight ) {
 		var p = new THREE.Object3D();
 		var material = new THREE.MeshNormalMaterial();
 
@@ -163,7 +219,9 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		mesh.position.set( 52, 0, 0);
 		p.add( mesh );
 */
-		mesh = new THREE.Mesh( airplane, material );
+
+
+		mesh = new THREE.Mesh( flight.object, material );
 		mesh.position.set( 50, 0, 0 );
 		mesh.scale.multiplyScalar( 20 );
 		p.add( mesh );
@@ -173,23 +231,23 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( -Math.PI / 2 ) );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationZ( Math.PI ) );
 
-		material = canvasText( plane.data.callsign, plane.data.model.split("/")[1], { color: '#ff00ff', height: 50,  width: 150 });
+		material = canvasText( flight.data.callsign, flight.data.model.split("/")[1], { color: '#ff00ff', height: 50,  width: 150 });
 
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.position.set( 0, 0, -50);
 		p.add( mesh );
 
-		p.scale.multiplyScalar(0.1);
+		p.scale.multiplyScalar(0.01);
 
 		world.add( p );
 
 		for ( var i = 0; i < p.children.length; i++ ) {
-			p.children[i].plane = plane;
+			p.children[i].flight = flight;
 			planes.push( p.children[i] );
 		}
 		
-		plane.plane = p;
-		updatePlane( plane );
+		flight.object = p;
+		updatePlane( flight );
 
 		// return p;
 	}
@@ -208,11 +266,17 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 
 	function updatePlane( plane ) {
 		var pi = Math.PI, d2r = Math.PI / 180;
-		po = plane.plane, plat = plane.data.lat, plon = plane.data.lon, i = plat.length - 1;
+		po = plane.object, plat = plane.data.lat, plon = plane.data.lon, i = plat.length - 1;
 		var rad = 51 + plane.data.alt_ft * 0.0003; // * globe.altitudeScale;
+		if ( po ) {
 		po.position = calcPosition( plat, plon, rad );
 		po.lookAt( v( 0, 0, 0 ) );
-		po.rotation.z = plane.data.hdg * Math.PI / 180;
+		po.rotation.z = plane.data.hdg * Math.PI / 180;		
+		
+		} else {
+			console.log ( plane );
+		}
+
 	}
 
 // placards drawn here
@@ -263,7 +327,7 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 			headsUp.style.left = 10 + 0.5 * window.innerWidth + mouse.x * 0.5 * window.innerWidth + 'px';
 			headsUp.style.bottom = 10 + 0.5 * window.innerHeight + mouse.y * 0.5 * window.innerHeight+ 'px';
 			headsUp.style.display = 'block';
-			var p = intersected.plane.data;
+			var p = intersected.flight.data;
 			var i = p.lat.length - 1;
 
 			function imgError() {

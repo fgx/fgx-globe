@@ -1,11 +1,11 @@
 	
 	$(function() {	
-		$.planes = {};
+		$.aircraft = {};
 
 // getCrossfeed called from threejs-demo.html every x seconds - because that is where Request Animation Frame is.	
 		$.getCrossfeed = function() {
 			$.getJSON('http://crossfeed.fgx.ch/flights.json', function(data) {
-				$.fltData = data;
+				$.flightsData = data;
 				$.lookup = {};
 				var flt;
 				$('#tbody').empty();
@@ -26,26 +26,27 @@
 						}
 					);
 					
-					if (!$.planes[ flt.callsign ] ) {
-						var pl = $.planes[ flt.callsign ] = {
+					if ( ! $.aircraft[ flt.callsign ] ) {
+						var craft = $.aircraft[ flt.callsign ] = {
 							model: flt.model.split("/")[1],
 							data: flt,
-							plane: null,
+							object: null,
 							update: true
 						};	
-						$.ifr.contentWindow.makePlane( pl );
+						$.ifr.contentWindow.selectAircraft( craft )
+						// $.ifr.contentWindow.makePlane( craft );
 					} else {
-						var pl = $.planes[ flt.callsign ];				
-						pl.data = flt;
-						pl.update = true;
-						$.ifr.contentWindow.updatePlane( pl );
+						var craft = $.aircraft[ flt.callsign ];				
+						craft.data = flt;
+						craft.update = true;
+						$.ifr.contentWindow.updatePlane( craft );
 					}
 				});
 				
-				$( "#dialog_window_1" ).dialog( "option", "title", $.defaultTitle + " - Planes now flying: " + data.flights.length );
+				$( "#dialog_window_1" ).dialog( "option", "title", $.defaultTitle + " - aircraft now flying: " + data.flights.length );
 				document.title = $.defaultTitle + " - " + data.flights.length
-				// $('#title').replaceWith( "<scan id='title'>Planes flying: " + data.flights.length + "</scan>" );
-				$('#status').replaceWith( "<p id='status'>Last update: " + $.fltData.last_updated + "</p>" );
+				// $('#title').replaceWith( "<scan id='title'>aircraft flying: " + data.flights.length + "</scan>" );
+				$('#status').replaceWith( "<p id='status'>Last update: " + $.flightsData.last_updated + "</p>" );
 
 				$.each( $('.flt_window'), function( item, element) {
 					var flt =  $.lookup[ element.id ];
@@ -61,10 +62,10 @@
 						element.innerHTML = element.id + " does not seem to be flying right now.";
 					}0
 				});			
-				$.each( $.planes, function( item, element) {
+				$.each( $.aircraft, function( item, element) {
 					if ( element.update === false ) {
 // console.log( 'delete', element.data.callsign, item, element );
-						delete $.planes[ item ];
+						delete $.aircraft[ item ];
 					}
 					element.update = false;
 				});
@@ -116,7 +117,7 @@
 
 		$.setFlightLine = function( item ) {
 // console.log( item );
-			var flt = $.fltData.flights[ item ];
+			var flt = $.flightsData.flights[ item ];
 			$.elements.win[flt.callsign] = {
 				className: 'flt_window',
 				closer: "true",

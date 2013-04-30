@@ -22,6 +22,13 @@ For the latest updates please have a look at [FGx Open Source Projects](http://f
 
 ## Change log
 
+2013-04-30 ~ Thep
+* Load multiple types of planes
+* Eight types of modela
+* Improved call back hadling
+* Improved already loaded handling
+* more logical variable names
+
 2013-04-28 ~ Theo
 * Number of planes shows in window title bars
 * Planes are now all b777 3D models
