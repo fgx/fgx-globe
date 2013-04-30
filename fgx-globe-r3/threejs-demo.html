@@ -82,15 +82,18 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationY( Math.PI) );
 
 		var globeTextures = ["world.jpg", "earth_atmos_2048.jpg", "world-map.jpg", "ColorMap-World.png", "Elevation.jpg"];
-		texture = THREE.ImageUtils.loadTexture( '../textures/' + globeTextures[parent.$.elements.thm.mapGlobe] );
+		var index = ( parent.$ !== undefined ) ? parent.$.elements.thm.mapGlobe : 1;
+		texture = THREE.ImageUtils.loadTexture( '../textures/' + globeTextures[ index ] );
 		materialGlobe = new THREE.MeshBasicMaterial( { map: texture } );
 		mesh = new THREE.Mesh( geometry, materialGlobe );
 
 		world = new THREE.Object3D();
 		world.add( mesh );
 		scene.add( world );
-
-		parent.$.getCrossfeed();
+		
+		if ( parent.$ ) {
+			parent.$.getCrossfeed();
+		}
 	}
 
 	function animate() {
@@ -184,8 +187,11 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 			p.children[i].plane = plane;
 			planes.push( p.children[i] );
 		}
+		
+		plane.plane = p;
+		updatePlane( plane );
 
-		return p;
+		// return p;
 	}
 
 	function v(x,y,z){ return new THREE.Vector3(x,y,z); }

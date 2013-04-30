@@ -30,17 +30,15 @@
 						var pl = $.planes[ flt.callsign ] = {
 							model: flt.model.split("/")[1],
 							data: flt,
-							plane: null
+							plane: null,
+							update: true
 						};	
-						pl.plane = $.ifr.contentWindow.makePlane( pl );
-					}
-					var pl = $.planes[ flt.callsign ];				
-					pl.data = flt;
-					pl.update = true;
-					if ( pl.plane !== undefined ) {
-						$.ifr.contentWindow.updatePlane( pl );
+						$.ifr.contentWindow.makePlane( pl );
 					} else {
-						pl.plane = $.ifr.contentWindow.makePlane( pl );
+						var pl = $.planes[ flt.callsign ];				
+						pl.data = flt;
+						pl.update = true;
+						$.ifr.contentWindow.updatePlane( pl );
 					}
 				});
 				
