@@ -27,11 +27,17 @@
 	
 	var AIRCRAFT = {
 		"a380": {
-			name: "Boeing 737",
+			name: "A380",
 			url: "../../fgx-planes/a380/a380.js",
 			credits:"3D Via",
 			object: null			
 		},
+		"aerostar": {
+			name: "aerostar",
+			url: "../../fgx-planes/aerostar/aerostar.js",
+			credits:"FG",
+			object: null			
+		},		
 		"b737": {
 			name: "Boeing 737",
 			url: "../../fgx-planes/b737/b737.js",
@@ -152,6 +158,7 @@ light.shadowCameraVisible = true;
 			'Add: <select id="selectModel" onchange="console.log( this.value); loadAirplane( this.value ); ">' +
 				'<option>select model</option>' +
 				'<option>a380</option>' +
+				'<option>aerostar</option>' +
 				'<option>b737</option>' +
 				'<option>b777</option>' +
 				'<option>citation-x</option>' +
@@ -162,6 +169,7 @@ light.shadowCameraVisible = true;
 			' Remove: <select id="selectModelRemove" onchange="console.log( this.value); removeAirplane( this.value ); ">' +
 				'<option>select model</option>' +
 				'<option>a380</option>' +
+				'<option>aerostar</option>' +
 				'<option>b737</option>' +
 				'<option>b777</option>' +
 				'<option>citation-x</option>' +

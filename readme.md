@@ -22,7 +22,10 @@ For the latest updates please have a look at [FGx Open Source Projects](http://f
 
 ## Change log
 
-2013-04-30 ~ Thep
+2013-05-01 ~ Theo
+* Loaded Aerostarr model - exported from FlightGear
+
+2013-04-30 ~ Theo
 * Load multiple types of planes
 * Eight types of models now avalable
 * Improved call back handling

@@ -145,6 +145,9 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		var model = flight.data.model.split("/")[1];
 		if ( ! model ) { 
 			model = "seymour"; 	
+		} else if ( model.indexOf("Aerostar") > -1 ) {
+// console.log( model );	
+			model = "aerostar";			
 		} else if ( model.indexOf("777") > -1 || model.indexOf("747") > -1 || model.indexOf("787") > -1 ) {
 // console.log( model );	
 			model = "b777";
@@ -154,7 +157,7 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		} else if ( model.indexOf("A3") > -1 ) {
 //console.log( model );	
 			model = "a380";	
-		} else if ( model.indexOf("Citation") > -1 || model.indexOf("Aerostar") > -1) {
+		} else if ( model.indexOf("Citation") > -1 ) {
 //console.log( model );	
 			model = "citation-x";	
 		} else if ( model.indexOf("f16") > -1 || model.indexOf("f-") > -1 || model.indexOf("fighter") > -1 || model.indexOf("SR71") > -1 ) {
