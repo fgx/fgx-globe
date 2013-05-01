@@ -24,11 +24,11 @@ For the latest updates please have a look at [FGx Open Source Projects](http://f
 
 2013-04-30 ~ Thep
 * Load multiple types of planes
-* Eight types of modela
-* Improved call back hadling
+* Eight types of models now avalable
+* Improved call back handling
 * Improved already loaded handling
-* more logical variable names
-* Better deletio of terminated flights
+* More logical variable names
+* Better deletion of terminated flights
 * Aircraft scale changes with camera distance
 * Camera motion stops when you zoom in
 

@@ -120,7 +120,7 @@ $(function() {
 
 	$.getHash = function () {
 // defaults
-		$.defaultTitle = "FGx Globe r3.2";
+		$.defaultTitle = "FGx Globe r3.3";
 		if ( location.hash === "" ) {
 			e.thm = {
 				name: "smoothness",
