@@ -65,6 +65,7 @@
 				$.each( $.aircraft, function( item, element) {
 					if ( element.update === false ) {
 // console.log( 'delete', element.data.callsign, item, element );
+						$.ifr.contentWindow.removeAircraft( item );
 						delete $.aircraft[ item ];
 					}
 					element.update = false;

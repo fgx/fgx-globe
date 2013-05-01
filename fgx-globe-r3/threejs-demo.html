@@ -22,6 +22,7 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 	var world, materialGlobe, materialStars;
 	var airplane;
 	var planes = [];
+	var aircraftGeometry = {};
 	var mouse = { x: -1, y: -1 };
 	var projector = new THREE.Projector();
 	var moving = true;
@@ -59,6 +60,17 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		controls.minDistance = 58;
 		controls.maxDistance = 150;
 
+	controls.rotateSpeed = 1.0;
+	controls.zoomSpeed = 0.3;  // 1.2;;
+	controls.panSpeed = 0.3;
+
+	controls.noRotate = false;
+	controls.noZoom = false;
+	controls.noPan = false;
+
+	controlsstaticMoving = false;
+	controls.dynamicDampingFactor = 0.3;   //0.2;
+
 		stats = new Stats();
 		stats.domElement.style.cssText = 'position: absolute; top: 0px; zIndex: 100; ';
 		document.body.appendChild( stats.domElement );
@@ -66,11 +78,13 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		document.addEventListener( 'mousemove', onDocumentMouseMove, false );
 
 		loader = new THREE.JSONLoader();
+/*		
 		loader.load( '../fgx-planes/b777-200er/777-200er.js', function ( geometry ) {
 			airplane = geometry;
 			airplane.applyMatrix( new THREE.Matrix4().makeRotationX( -Math.PI / 2 ) );
 			airplane.applyMatrix( new THREE.Matrix4().makeRotationZ( Math.PI / 2 ) );
 		} );
+*/
 
 		geometry = new THREE.SphereGeometry( 155, 60, 30 );
 		texture = THREE.ImageUtils.loadTexture( '../textures/stars-2048x1024.png');
@@ -91,30 +105,40 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		world.add( mesh );
 		scene.add( world );
 		
-		if ( parent.$ ) {
-			parent.$.getCrossfeed();
-		}
+		//if ( parent.$ ) {
+		parent.$.getCrossfeed();
+		//}
 	}
-
+	
+	var camDistance, oldDistance = camera.position.distanceTo( v( 0, 0, 0 ) );
+	
 	function animate() {
 		requestAnimationFrame( animate );
 		controls.update();
 
 		if ( moving ) {
-			world.rotation.x = Date.now() * 0.00003;
-			world.rotation.y = Date.now() * 0.00002;
+			world.rotation.x += 0.0005; //Date.now() * 0.00003;
+			world.rotation.y += 0.001; // Date.now() * 0.00002;
+		}
+		
+		camDistance = camera.position.distanceTo( v( 0, 0, 0 ) );
+		
+		if ( camDistance !== oldDistance ) {
+// console.log ( 	camDistance );
+			oldDistance = camDistance;
 		}
 
 		if ( clock.getElapsedTime() - lastTime > 8 ){
 			lastTime = clock.getElapsedTime();
 			parent.$.getCrossfeed();
-			moving = true;
+			if ( camDistance > 140 ) {
+				moving = true;
+			}
 		}
 
 		renderer.render( scene, camera );
 		stats.update();
 	}
-
 	
 	function selectAircraft( flight ) {
 	// console.log( flight.data, flight.data.model );	
@@ -145,102 +169,50 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		flight.model = model;
 		flight.url = "../fgx-planes/" + model + "/" + model + ".js"; ;
 		
-		loadAirplane( flight );
+		loadAircraft( flight );
 	}
 	
-	var aircraftGeometry = {};
-	
-	
-	function loadAirplane( flight ) {
-
+	function loadAircraft( flight ) {
 		if ( ! flight.object ) {
-		
 			if ( ! aircraftGeometry[ flight.model ] ) {
 				loader.load( flight.url, function( geometry ) { 
 					geometry.applyMatrix( new THREE.Matrix4().makeRotationX( -Math.PI / 2 ) );
 					aircraftGeometry[ flight.model ] = geometry;
 					flight.object = geometry;
-					addAirplane( flight );
+					addAircraft( flight );
 				} );
 			} else {
 					flight.object = aircraftGeometry[ flight.model ]
-					addAirplane( flight );			
+					addAircraft( flight );			
 			}
 		} else {
-			addAirplane( flight )
+			addAircraft( flight )
 		}
 	}
 	
-	function addAirplane( flight ) {
+	function addAircraft( flight ) {
 		var p = new THREE.Object3D();
+		
 		var material = new THREE.MeshNormalMaterial();
-
-/*
-		// body
-		var geometry = new THREE.CubeGeometry( 100, 10, 10 );
-		var mesh = new THREE.Mesh( geometry, material );
-		p.add( mesh );
-
-		// wing
-		geometry = new THREE.CubeGeometry( 20, 100, 3 );
-		mesh = new THREE.Mesh( geometry, material );
-		mesh.position.set( 20, 0, 5);
-		p.add( mesh );
-
-		// tail
-		geometry = new THREE.CubeGeometry( 10, 40, 3 );
-		mesh = new THREE.Mesh( geometry, material );
-		mesh.position.set(-45, 0, 0);
-		p.add( mesh );
-
-		// rudder
-		geometry = new THREE.CubeGeometry( 10, 2, 20 );
-		mesh = new THREE.Mesh( geometry, material );
-		mesh.position.set(-45, 0, -12);
-		p.add( mesh );
-
-		// cockpit
-		geometry = new THREE.CubeGeometry( 20, 8, 6 );
-		mesh = new THREE.Mesh( geometry, material );
-		mesh.position.set( 15, 0, -8);
-		p.add( mesh );
-
-		// propeller #1
-		geometry = new THREE.CubeGeometry( 2, 30, 3 );
-		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( Math.PI / 4 ) );
-		mesh = new THREE.Mesh( geometry, material );
-		mesh.position.set( 52, 0, 0);
-		p.add( mesh );
-
-		// propeller #2
-		geometry = new THREE.CubeGeometry( 2, 30, 3 );
-		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( - Math.PI / 4 ) );
-		mesh = new THREE.Mesh( geometry, material );
-		mesh.position.set( 52, 0, 0);
-		p.add( mesh );
-*/
-
-
 		mesh = new THREE.Mesh( flight.object, material );
-		mesh.position.set( 50, 0, 0 );
-		mesh.scale.multiplyScalar( 20 );
+		mesh.scale.multiplyScalar( 3 );
 		p.add( mesh );
 
 		// placard
 		geometry = new THREE.PlaneGeometry( 150, 50, 1, 1 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( -Math.PI / 2 ) );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationZ( Math.PI ) );
-
 		material = canvasText( flight.data.callsign, flight.data.model.split("/")[1], { color: '#ff00ff', height: 50,  width: 150 });
 
 		mesh = new THREE.Mesh( geometry, material );
-		mesh.position.set( 0, 0, -50);
+		mesh.position.set( -75, 0, -50);
 		p.add( mesh );
 
-		p.scale.multiplyScalar(0.01);
+		p.scale.set( 0.1, 0.1, 0.1 );
 
 		world.add( p );
 
+// build list of aircraft and data for heads-up
 		for ( var i = 0; i < p.children.length; i++ ) {
 			p.children[i].flight = flight;
 			planes.push( p.children[i] );
@@ -248,8 +220,6 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		
 		flight.object = p;
 		updatePlane( flight );
-
-		// return p;
 	}
 
 	function v(x,y,z){ return new THREE.Vector3(x,y,z); }
@@ -269,16 +239,21 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		po = plane.object, plat = plane.data.lat, plon = plane.data.lon, i = plat.length - 1;
 		var rad = 51 + plane.data.alt_ft * 0.0003; // * globe.altitudeScale;
 		if ( po ) {
-		po.position = calcPosition( plat, plon, rad );
-		po.lookAt( v( 0, 0, 0 ) );
-		po.rotation.z = plane.data.hdg * Math.PI / 180;		
-		
+			po.position = calcPosition( plat, plon, rad );
+			po.lookAt( v( 0, 0, 0 ) );
+			po.rotation.z = plane.data.hdg * Math.PI / 180;	
+			var scl = 0.1 * camDistance / 150 * camDistance / 150; 
+			po.scale.set( scl, scl, scl);
 		} else {
-			console.log ( plane );
+console.log ( plane );
 		}
-
 	}
 
+	function removeAircraft( craft ) {
+console.log( 'removing', craft, craft.object );	
+		world.remove( craft.object ) ;
+	}
+	
 // placards drawn here
 	function canvasText ( text1, text2, parameters ) {
 		var canvas = document.createElement("canvas");
@@ -362,6 +337,7 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 			headsUp.style.display = 'none';
 		}
 	}
+	
 
 	function extractPath( model) {
 			var lio = model.lastIndexOf('/') + 1;

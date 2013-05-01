@@ -28,6 +28,9 @@ For the latest updates please have a look at [FGx Open Source Projects](http://f
 * Improved call back hadling
 * Improved already loaded handling
 * more logical variable names
+* Better deletio of terminated flights
+* Aircraft scale changes with camera distance
+* Camera motion stops when you zoom in
 
 2013-04-28 ~ Theo
 * Number of planes shows in window title bars
