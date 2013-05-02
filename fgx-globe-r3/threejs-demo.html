@@ -38,7 +38,8 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		headsUp = document.createElement( 'div' );
 		document.body.appendChild( headsUp );
 		headsUp.className = "basic ui-dialog ui-widget ui-widget-content ui-corner-all ui-front";
-		headsUp.style.cssText = 'background-color: #aaa; border-radius: 8px; font: 600 12pt monospace; display: none; left: 50px; opacity: 0.95; padding: 5px 5px 10px 5px; ' +
+		headsUp.style.cssText = 'background-color: #aaa; border-radius: 8px; font: 600 12pt monospace; display: none; left: 50px; ' +
+			'opacity: 0.95; padding: 5px 5px 10px 5px; ' +
 			'position: absolute; text-align: left;';
 		headsUp.innerHTML = '<h1>flight data</h1>';
 
@@ -119,14 +120,14 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		if ( moving ) {
 			world.rotation.x += 0.0005; //Date.now() * 0.00003;
 			world.rotation.y += 0.001; // Date.now() * 0.00002;
-		}
+		} else {
+			camDistance = camera.position.distanceTo( v( 0, 0, 0 ) );
 		
-		camDistance = camera.position.distanceTo( v( 0, 0, 0 ) );
-		
-		if ( camDistance !== oldDistance ) {
-// console.log ( 	camDistance );
-			oldDistance = camDistance;
-		}
+			if ( camDistance !== oldDistance ) {
+// console.log ( camDistance );
+				oldDistance = camDistance;
+			}
+		}	
 
 		if ( clock.getElapsedTime() - lastTime > 8 ){
 			lastTime = clock.getElapsedTime();
@@ -154,9 +155,9 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		} else if ( model.indexOf("737") > -1 || model.indexOf("707") > -1 || model.indexOf("767") > -1 || model.indexOf("757") > -1 ) {
 //console.log( model );	
 			model = "b737";			
-		} else if ( model.indexOf("A3") > -1 ) {
+		//} else if ( model.indexOf("A3") > -1 ) {
 //console.log( model );	
-			model = "a380";	
+		//	model = "a380";	
 		} else if ( model.indexOf("Citation") > -1 ) {
 //console.log( model );	
 			model = "citation-x";	
