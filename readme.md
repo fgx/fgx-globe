@@ -22,8 +22,15 @@ For the latest updates please have a look at [FGx Open Source Projects](http://f
 
 ## Change log
 
+/2013-05-03 ~ Theo
+* smaller file size models from FG via blender
+* fgx globe: seymour is pre-loaded
+
+2013-05-02 ~ Theo
+* fgx globe airports: lot of UI work
+
 2013-05-01 ~ Theo
-* Loaded Aerostarr model - exported from FlightGear
+* Loaded Aerostar model - exported from FlightGear
 
 2013-04-30 ~ Theo
 * Load multiple types of planes

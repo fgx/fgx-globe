@@ -102,7 +102,7 @@
 					'<img src="../textures/fg_generic_craft.png" ' +
 						'style="position:absolute; left: 45%; top: 50%; -webkit-transform: rotate(' + flt.hdg + 'deg)"/>' + 
 				'';	
-				// console.log( (flt.lon - zoomOSM),(flt.lat - zoomOSM),(flt.lon + zoomOSM),(flt.lat + zoomOSM));
+// console.log( (flt.lon - zoomOSM),(flt.lat - zoomOSM),(flt.lon + zoomOSM),(flt.lat + zoomOSM));
 				return txt;
 				
 			} else {
