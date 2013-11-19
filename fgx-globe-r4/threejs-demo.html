@@ -26,7 +26,8 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 	var mouse = { x: -1, y: -1 };
 	var projector = new THREE.Projector();
 	var moving = true;
-
+	var aircrafts;
+	
 	init();
 	animate();
 	
@@ -105,10 +106,24 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		world.add( mesh );
 		scene.add( world );
 		
+		aircrafts = requestFile( '../../fgx-aircraft/ac-01.csv' );
+// console.log( aircrafts );
+
 		if ( parent.$ ) {
 			parent.$.getCrossfeed();
 		}
+	
+		
 	}
+	
+	function requestFile( fname ) {
+		var xmlHttp = null;
+		xmlHttp = new XMLHttpRequest();
+		xmlHttp.open( 'GET', fname, false );
+		xmlHttp.send( null );
+		return xmlHttp.responseText;
+	}
+		
 	
 	var camDistance, oldDistance = camera.position.distanceTo( v( 0, 0, 0 ) );
 	
@@ -144,34 +159,34 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		var model = flight.data.model.split("/")[1];
 		if ( ! model ) { 
 			model = "seymour"; 	
-		
-		} else if ( model.indexOf("Aerostar") > -1 ) {
-// console.log( model );	
-			model = "aerostar";			
-		} else if ( model.indexOf("777") > -1 || model.indexOf("747") > -1 || model.indexOf("787") > -1 ) {
-// console.log( model );	
-			model = "b777";		
-		} else if ( model.indexOf("737") > -1 || model.indexOf("707") > -1 || model.indexOf("767") > -1 || model.indexOf("757") > -1 ) {
-//console.log( model );	
-			model = "b737";			
-		//} else if ( model.indexOf("A3") > -1 ) {
-//console.log( model );	
-		//	model = "a380";	
-		} else if ( model.indexOf("Citation") > -1 ) {
-//console.log( model );	
-			model = "citation-x";	
-		} else if ( model.indexOf("f16") > -1 || model.indexOf("f-") > -1 || model.indexOf("fighter") > -1 || model.indexOf("SR71") > -1 ) {
-//console.log( model );	
-			model = "f16";		
-		} else if ( model.indexOf("Osprey") > -1 ) {
-// console.log( model );	
-			model = "osprey";				
-		} else {
+		} else if ( model.indexOf("717") > -1 ) {
+			model = "717-200";			
+		} else if ( model.indexOf("737NG800") > -1 ) {
+			model = "737-200";	
+			
+		} else if ( model.indexOf("777") > -1 ) {	
+			model = "777-300";			
+		} else if ( model.indexOf("747") > -1 ) { 
+			model = "boeing747-200";					
+		} else if ( model.indexOf("787") > -1 ) {	
+			model = "787-8";			
+		} else if ( model.indexOf("Concorde") > -1 ) {
+			model = "concorde";	
+		} else if ( model.indexOf("f-14b") > -1 ) {
+			model = "f14";	
+		} else if ( model.indexOf("tu154b") > -1 ) {
+			model = "tu154B";				
+		} else if ( aircrafts.indexOf( model ) < 0 ) {
+console.log( model );	
+
+// console.log( "../../fgx-aircraft/" + model + ".js" );		
 			model = "seymour";
-		}
-		flight.model = model;
-		flight.url = "../fgx-planes/" + model + "/" + model + ".js"; ;
+		}		
 		
+		flight.model = model;
+		// flight.url = "../fgx-planes/" + model + "/" + model + ".js"; ;
+		// flight.url = ( "C:/Dropbox/Public/git-repos/fgx-repos/fgx-aircraft/ac-01/" + model + ".js" );
+		flight.url = ( "../../fgx-aircraft/ac-01/" + model + ".js" );
 		loadAircraft( flight );
 	}
 	
@@ -225,8 +240,6 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		updatePlane( flight );
 	}
 
-	function v(x,y,z){ return new THREE.Vector3(x,y,z); }
-	function cos(a){return Math.cos(a);} function sin(a){return Math.sin(a);}
 
 	function calcPosition( lat, lon, rad ) {
 		var pi = Math.PI, d2r = Math.PI / 180;
@@ -331,6 +344,9 @@ console.log( 'removing', craft, craft.object );
 			path = path.replace(/models\//i,'');
 			return 'http://gitorious.org/fg/fgdata/blobs/raw/master/' + path ;
 	}
+	
+	function v(x,y,z){ return new THREE.Vector3(x,y,z); }
+	function cos(a){return Math.cos(a);} function sin(a){return Math.sin(a);}	
 </script>
 </body>
 </html>
