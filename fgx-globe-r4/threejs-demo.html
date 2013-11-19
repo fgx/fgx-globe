@@ -170,6 +170,8 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 			model = "boeing747-200";					
 		} else if ( model.indexOf("787") > -1 ) {	
 			model = "787-8";			
+		} else if ( model.indexOf("Cessna337") > -1 || model.indexOf("cessna337") > -1 ) {	
+			model = "Cessna337_Skymaster";
 		} else if ( model.indexOf("Concorde") > -1 ) {
 			model = "concorde";	
 		} else if ( model.indexOf("f-14b") > -1 ) {
