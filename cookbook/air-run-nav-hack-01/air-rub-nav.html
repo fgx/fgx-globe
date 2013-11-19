@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang=en>
+<head>
+<title></title>
+<meta charset=utf-8>
+<meta name=author content='Theo Armour'>
+</head>
+<body>
+<script>
+
+	document.body.style.cssText = ' font: bold 12pt monospace; ';
+	var info = document.body.appendChild( document.createElement( 'div' ) );
+	
+	info.innerHTML = '<h1>Air Run Nav Hack 01</h1>' +
+		'<div id=data ></div>' +
+	'';
+
+	var airports = requestFile( 'https://gitorious.org/fgtools/map-test/blobs/raw/master/data.json' );
+	// var airports = requestFile( '../../apt1000/apt1000-icao.csv' );
+	data.innerHTML = airports;
+	
+	function requestFile( fname ) {
+		var xmlHttp = null;
+		xmlHttp = new XMLHttpRequest();
+		xmlHttp.open( 'GET', fname, false );
+		xmlHttp.send( null );
+		return xmlHttp.responseText;
+	}
+		
+</script>
+</body>
+</html>
