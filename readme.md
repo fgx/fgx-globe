@@ -9,12 +9,16 @@ Your world - in ways you have never seen before.
 You have two ways of viewing the FGx Globe files:  
 
 * Code hosted on GitHub: [fgx.github.io]( http://fgx.github.io/fgx-globe/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
-* Source code on GitHub: [github.com/fgx]( https://github.com/fgx/fgx.github.io/fgz-globe/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
+* Source code on GitHub: [github.com/fgx]( https://github.com/fgx/fgx.github.io/fgx-globe/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
 
 
 ## Updates ~ 2013-11-19
 
-See [Air Run Nav R1]( http://fgx.github.io/fgx-globe/tree/gh-pages/cookbook/air-run-nav-01/ )
+Hot stuff:
+
+[FGx Globe R4]( http://fgx.github.io/fgx-globe/fgx-globe-r4/ )/ )
+
+[Air Run Nav R1]( http://fgx.github.io/fgx-globe/cookbook/air-run-nav-01/ )
 
 * Release 1.0 ~ Many issues.
 * Takes too long to load. Once loaded you can pan, zoom and rotate with your mouse,
