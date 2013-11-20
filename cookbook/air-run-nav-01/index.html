@@ -101,7 +101,7 @@
 			'<select id=selPlace onchange="initElevations( places[this.selectedIndex][1], places[this.selectedIndex][2] );' + 
 				'inpLat.value = places[this.selectedIndex][1]; inpLng.value = places[this.selectedIndex][2]; " length=' + places.length + '></select> ~ ' +
 			'<select id=selAirport onchange=findData(); ></select>' + 
-			'<button onclick="getNearby();" >Get Nearby Airport</button> ' +
+			'<button onclick="getNearby();" >Get Nearby Airports</button> ' +
 			'<select id=selExagg onchange="exaggeration = this.selectedIndex; initElevations( places[ exaggeration ][1], places[exaggeration][2] );"></select> ' +
 			'<select id=selMapType onchange="mapType = this.selectedIndex; initElevations( places[mapType + 10][1], places[mapType + 10][2] );"><select>' +
 		'</div>' +

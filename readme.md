@@ -14,7 +14,22 @@ You have two ways of viewing the FGx Globe files:
 
 ## Updates ~ 2013-11-19
 
-See [Air Run Nav R1]( http://fgx.github.io/fgx-globe/tree/gh-pages/cookbook/air-run-nav-01/
+See [Air Run Nav R1]( http://fgx.github.io/fgx-globe/tree/gh-pages/cookbook/air-run-nav-01/ )
+
+* Release 1.0 ~ Many issues.
+* Takes too long to load. Once loaded you can pan, zoom and rotate with your mouse,
+* Edit the Latitude and the longitude to go to  new location
+* Or choose a different city from the drop down list.
+* Both of these actions take too long. We will have to learn how to cheat here,
+* Next is the list of 27,151 airports with 27,151 tooltips << Try that with PostGIS.
+* Click on an airport to paint the screen with data. GitHub data is behind Gitorious data - so many errors occur.
+* Error: Painted text can prevent you from rotating screen. Work-around: Click outside text area or load airport with no data.
+* Click 'Get Nearby Airports' to see all airports in the current tile. 
+* Airports with ILS display each ILS as a correctly headed but badly positioned green bar. All other airports just show a red cube.
+* Airport placards now uses Three.js Sprites. Placards will look toward you no matter where you move.
+* Some locations have moving 3D objects. These objects are inserted at specified locations by a Google Docs spreadsheet. Why? Just because we can.
+* Different map types got turned off, They will be back
+ 
 
 
 ## 
