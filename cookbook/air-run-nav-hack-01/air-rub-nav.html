@@ -12,12 +12,46 @@
 	var info = document.body.appendChild( document.createElement( 'div' ) );
 	
 	info.innerHTML = '<h1>Air Run Nav Hack 01</h1>' +
+		'<div id=ui></div>' +
 		'<div id=data ></div>' +
 	'';
 
-	var airports = requestFile( 'https://gitorious.org/fgtools/map-test/blobs/raw/master/data.json' );
-	// var airports = requestFile( '../../apt1000/apt1000-icao.csv' );
-	data.innerHTML = airports;
+	//var airports = requestFile( 'https://gitorious.org/fgtools/map-test/blobs/raw/master/data.json' );
+	var text = requestFile( '../../apt1000/apt1000-icao.csv' );
+	var lines = text.split(/\r\n|\n/);
+	var length = lines.length - 1;
+	var airports = [];
+	var sep = ',';
+	var output = '';
+	for ( var i = 0; i < length; i++ ) {
+		airports.push( lines[i].split( sep ) );
+		output += airports[i][0] + ' - ';
+	}
+			
+	var select = ui.appendChild( document.createElement( 'select' ) );
+	
+
+	for (var option, i = 0; i < airports.length; i++) {
+		option = document.createElement( 'option' );
+		option.innerText = airports[i][0];
+		select.appendChild( option );
+	}
+	select.selectedIndex = 13132;  // KSFO
+	
+	var button = ui.appendChild( document.createElement( 'input' ) );
+	button.onclick = findData;	
+	button.value = 'Get Data';
+	button.type = 'button';
+
+	data.innerHTML = 'Airport count: ' + airports.length + '<br>' ;
+	
+	var airportData
+	function findData( e ) {
+console.log( e, select.selectedIndex, select.value );
+		data.innerHTML += airports[ select.selectedIndex ] + '<br>';
+		airportData = requestFile( '../../apt1000/' +  airports[ select.selectedIndex ][0] + '.json' );
+		data.innerHTML  += airportData
+	}
 	
 	function requestFile( fname ) {
 		var xmlHttp = null;
