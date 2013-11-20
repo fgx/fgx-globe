@@ -14,19 +14,20 @@ You have two ways of viewing the FGx Globe files:
 
 ## Updates ~ 2013-11-19
 
-Hot stuff:
+This is the hot stuff:
 
-[FGx Globe R4]( http://fgx.github.io/fgx-globe/fgx-globe-r4/ )/ )
+[FGx Globe R4]( http://fgx.github.io/fgx-globe/fgx-globe-r4/ )
 
 [Air Run Nav R1]( http://fgx.github.io/fgx-globe/cookbook/air-run-nav-01/ )
 
 * Release 1.0 ~ Many issues.
-* Takes too long to load. Once loaded you can pan, zoom and rotate with your mouse,
-* Edit the Latitude and the longitude to go to  new location
+* Takes too long to load. But, once loaded, you can pan, zoom and rotate with your mouse,
+* Edit the Latitude and the longitude to go to new location
 * Or choose a different city from the drop down list.
-* Both of these actions take too long. We will have to learn how to cheat here,
+* Both of these actions take way too long. We will have to learn how to cheat here,
 * Next is the list of 27,151 airports with 27,151 tooltips << Try that with PostGIS.
-* Click on an airport to paint the screen with data. GitHub data is behind Gitorious data - so many errors occur.
+* Click on an airport to paint the screen with its data. GitHub data is behind Gitorious data - so many errors occur.
+* Clicking on an airport only shows its pariculars. Upcoming release will take you there
 * Error: Painted text can prevent you from rotating screen. Work-around: Click outside text area or load airport with no data.
 * Click 'Get Nearby Airports' to see all airports in the current tile. 
 * Airports with ILS display each ILS as a correctly headed but badly positioned green bar. All other airports just show a red cube.
@@ -36,7 +37,8 @@ Hot stuff:
  
 
 
-## 
+## Copyright Notice and License
+
 [ FGx copyright notice and license](https://github.com/fgx/fgx.github.com/blob/master/FGx%20copyright%20notice%20and%20license.md)
 
 ## Change log
