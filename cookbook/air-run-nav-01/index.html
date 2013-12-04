@@ -107,8 +107,9 @@
 		'</div>' +
 		'<div id=data></div>';
 
+		var selPlace = document.GetElementById('selPlace');
 		for (var option, i = 0; i < places.length; i++) {
-			option = document.createElement( 'option' )
+			option = document.createElement( 'option' );
 			selPlace.appendChild( option );
 			option.innerText = places[i][0];
 		}
@@ -357,7 +358,7 @@ material = new THREE.MeshNormalMaterial({ side: THREE.DoubleSide });
 			option.title = a[1];
 			selAirport.appendChild( option );
 		}
-		selAirport.selectedIndex = 13132;  // KSFO
+		selAirport.selectedIndex = id;  // KSFO
 		data.innerHTML += output;
 	}
 	

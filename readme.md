@@ -1,5 +1,5 @@
-FGx Globe Read Me
-=================
+![FGx Logo]( http://fgx.github.io/fgx-cap-40x30.png) FGx Globe Read Me
+======================================================================
 
 Your world - in ways you have never seen before.
 
@@ -11,6 +11,8 @@ You have two ways of viewing the FGx Globe files:
 * Code hosted on GitHub: [fgx.github.io]( http://fgx.github.io/fgx-globe/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
 * Source code on GitHub: [github.com/fgx]( https://github.com/fgx/fgx.github.io/fgx-globe/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
 
+## Road Map
+* Add paint the stars using their relative luminosity in their correct positions, see Marble
 
 ## Updates ~ 2013-11-19
 
@@ -42,6 +44,11 @@ This is the hot stuff:
 [ FGx copyright notice and license](https://github.com/fgx/fgx.github.com/blob/master/FGx%20copyright%20notice%20and%20license.md)
 
 ## Change log
+
+2013-11-24 ~ Theo
+
+* Added link and notes to info panel
+* Started adding auto-rotate checbox
 
 2013-11-19 ~ Theo
 
