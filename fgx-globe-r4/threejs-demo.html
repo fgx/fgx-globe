@@ -182,13 +182,13 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 			model = "dc-3";				
 		} else if ( model.indexOf("f-14b") > -1 ) {
 			model = "f14";	
+		} else if ( model.indexOf("F-16C") > -1 ) {
+			model = "f16";				
 		} else if ( model.indexOf("Lockheed1049h") > -1 ) {
 			model = "Lockheed1049";				
 		} else if ( model.indexOf("tu154b") > -1 ) {
 			model = "tu154B";				
 		} else if ( aircrafts.indexOf( model ) < 0 ) {
-	
-
 console.log( 'not found',  model );		
 			model = "seymour";
 		}		
@@ -237,15 +237,22 @@ console.log( 'not found',  model );
 		p.add( mesh );
 
 		// placard
+		
 		geometry = new THREE.PlaneGeometry( 150, 50, 1, 1 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( -Math.PI / 2 ) );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationZ( Math.PI ) );
 		material = canvasText( flight.data.callsign, flight.data.model.split("/")[1], { color: '#ff00ff', height: 50,  width: 150 });
+		var placard = new THREE.Mesh( geometry, material );
 
-		mesh = new THREE.Mesh( geometry, material );
-		mesh.position.set( -75, 0, -50);
-		p.add( mesh );
-
+/*		
+// placards that always face the camera. Difficult to tell which placard belongs to which plane
+		var spriteMaterial = canvasText2( flight.data.callsign );
+		var placard = new THREE.Sprite( spriteMaterial );
+		placard.scale.set( 50, 10, 1 );
+*/		
+		
+		placard.position.set( -75, 0, -50);
+		p.add( placard );
 		p.scale.set( 0.1, 0.1, 0.1 );
 
 		world.add( p );
@@ -317,6 +324,22 @@ console.log( 'removing', craft, craft.object );
 		return new THREE.MeshBasicMaterial( { map: map, opacity: 0.8, side: THREE.DoubleSide, transparent: true } );
 	}
 
+	function canvasText2( text ) {
+		var canvas = document.createElement( 'canvas' );
+		canvas.width = 150; // 480
+		canvas.height = 50; //204
+		var context = canvas.getContext( '2d' );
+		context.fillStyle = '#ff00ff';
+		context.lineWidth = 1 ;
+		context.strokeStyle = '#000000';
+		context.strokeRect(0, 0, 100, 20);
+		context.font = '16pt sans-serif';
+		context.fillText( text, 5, 15 );
+		var texture = new THREE.Texture( canvas );
+		texture.needsUpdate = true;	
+		return new THREE.SpriteMaterial( { map: texture, opacity: 0.8, useScreenCoordinates: false,  } );
+	}
+	
 	function onDocumentMouseMove( event ) {
 		moving = false;
 // event.preventDefault();
