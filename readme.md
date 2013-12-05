@@ -45,6 +45,13 @@ This is the hot stuff:
 
 ## Change log
 
+2013-12-04 ~ Theo
+
+* Updated so as to work with revised FGx Aircraft repo
+* Add logo/text to read me
+* Tried adding sprites that always camera as alternate to fixed postion placars for aircraft placards but result was confusing so reverted.
+ 
+
 2013-11-24 ~ Theo
 
 * Added link and notes to info panel
