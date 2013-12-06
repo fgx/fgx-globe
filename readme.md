@@ -45,6 +45,11 @@ This is the hot stuff:
 
 ## Change log
 
+2013-12-05 ~ Theo
+
+* New index.html
+* fixed lonks so works wth new Aircraft dirs
+
 2013-12-04 ~ Theo
 
 * Updated so as to work with revised FGx Aircraft repo

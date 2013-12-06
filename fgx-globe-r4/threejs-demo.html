@@ -107,7 +107,7 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		world.add( mesh );
 		scene.add( world );
 		
-		aircrafts = requestFile( '../../fgx-aircraft/aircraft/aircraft.csv' );
+		aircrafts = requestFile( '../../fgx-aircraft/data/aircraft.csv' );
 		aircraftsArr= aircrafts.split(/\r\n|\n/);
 // console.log( aircrafts );
 
@@ -206,7 +206,7 @@ console.log( 'not found',  model );
 // console.log( 'for', url );
 		} 
 // console.log( 'sel', model, url );		
-		flight.url = ( "../../fgx-aircraft/aircraft/" + model );
+		flight.url = ( "../../fgx-aircraft/data/" + model );
 		loadAircraft( flight );
 	}
 	
