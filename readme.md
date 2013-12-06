@@ -48,7 +48,7 @@ This is the hot stuff:
 2013-12-05 ~ Theo
 
 * New index.html
-* fixed lonks so works wth new Aircraft dirs
+* fixed links so works with new FGx Aircraft dirs
 
 2013-12-04 ~ Theo
 
