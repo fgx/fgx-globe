@@ -25,7 +25,7 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 	var aircraftGeometry = {};
 	var mouse = { x: -1, y: -1 };
 	var projector = new THREE.Projector();
-	var moving = true;
+	var moving = parent.$.elements.thm.moving;
 	var aircrafts;
 	var aircraftArr;
 	
@@ -80,11 +80,11 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 
 		document.addEventListener( 'mousemove', onDocumentMouseMove, false );
 		
-	scene.add(new THREE.AmbientLight(0x333333));
+		scene.add(new THREE.AmbientLight(0x333333));
 
-	var light = new THREE.DirectionalLight(0xffffff, 1);
-	light.position.set(500,300,500);
-	scene.add(light);		
+		var light = new THREE.DirectionalLight(0xffffff, 1);
+		light.position.set(500,300,500);
+		scene.add(light);		
 
 		loader = new THREE.JSONLoader();
 		
@@ -104,37 +104,40 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		geometry = new THREE.SphereGeometry( 50, 70, 30 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationY( Math.PI) );
 
-		//var globeTextures = ["world.jpg", "earth_atmos_2048.jpg", "world-map.jpg", "ColorMap-World.png", "Elevation.jpg"];
-		//var index = ( parent.$ !== undefined ) ? parent.$.elements.thm.mapGlobe : 2;
-		//texture = THREE.ImageUtils.loadTexture( '../textures/' + globeTextures[ index ] );		
-		// materialGlobe = new THREE.MeshBasicMaterial( { map: texture } );
-
+		var globeTextures = ["2_no_clouds_4k.jpg", "world.jpg", "earth_atmos_2048.jpg", "world-map.jpg", "ColorMap-World.png", "Elevation.jpg"];
+		var index = ( parent.$ !== undefined ) ? parent.$.elements.thm.mapGlobe : 0;
+		if ( index !== 0 ) {
+			texture = THREE.ImageUtils.loadTexture( '../textures/' + globeTextures[ index ] );		
+			materialGlobe = new THREE.MeshBasicMaterial( { map: texture } );
+		} else {
 		
-		materialGlobe =	new THREE.MeshPhongMaterial({
+			materialGlobe =	new THREE.MeshPhongMaterial({
 				map:         THREE.ImageUtils.loadTexture('2_no_clouds_4k.jpg'),
 				bumpMap:     THREE.ImageUtils.loadTexture('elev_bump_4k.jpg'),
 				bumpScale:   0.5,
 				specularMap: THREE.ImageUtils.loadTexture('water_4k.png'),
 				specular:    new THREE.Color('grey')								
 			})		
-
+		}
+		
 		mesh = new THREE.Mesh( geometry, materialGlobe );
 		
 		world = new THREE.Object3D();
 		world.add( mesh );
 		scene.add( world );		
 		
-		geometry = new THREE.SphereGeometry( 50.03, 70, 30 );
-		geometry.applyMatrix( new THREE.Matrix4().makeRotationY( Math.PI) );		
-		material = new THREE.MeshPhongMaterial({
-				map:         THREE.ImageUtils.loadTexture('fair_clouds_4k.png'),
-				transparent: true
-			})
-		mesh = new THREE.Mesh( geometry, material );
-		world.add( mesh );
-		
+		if ( index === 0 ) {		
+			geometry = new THREE.SphereGeometry( 50.03, 70, 30 );
+			geometry.applyMatrix( new THREE.Matrix4().makeRotationY( Math.PI) );		
+			material = new THREE.MeshPhongMaterial({
+					map:         THREE.ImageUtils.loadTexture('fair_clouds_4k.png'),
+					transparent: true
+				})
+			mesh = new THREE.Mesh( geometry, material );
+			world.add( mesh );
+		}
 		aircrafts = requestFile( '../../fgx-aircraft/data/aircraft.csv' );
-		aircraftsArr= aircrafts.split(/\r\n|\n/);
+		aircraftsArr = aircrafts.split(/\r\n|\n/);
 // console.log( aircrafts );
 
 		if ( parent.$ ) {
@@ -156,7 +159,7 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		requestAnimationFrame( animate );
 		controls.update();
 
-		if ( moving === true ) {
+		if ( moving === true &&  parent.$ && parent.$.elements.thm.moving ) {			
 			// world.rotation.x += 0.0005; //Date.now() * 0.00003;
 			world.rotation.y += 0.001; // Date.now() * 0.00002;
 		} //else {
@@ -399,10 +402,12 @@ console.log( 'removing', craft, craft.object );
 				'<tr><td>Lat: ' + p.lat.toFixed(4) + '&deg; </td><td>Lon: ' + p.lon.toFixed(4) + '&deg; </td></tr>' +
 				'<tr><td>Alt: ' + p.alt_ft + '\' </td><td>Hdg: ' + p.hdg + '&deg;</td></tr>' +
 				'<tr><td>Dst: ' + p.dist_nm + ' nm </td><td>Spd: ' + p.spd_kts + ' knots </td></tr>' +
-				'<tr><td><img src="' + extractPath( p.model ) + 'thumbnail.jpg' +
-				'" onerror="this.src=\'../textures/airplane.png\';"></td></tr>' +
+				// '<tr><td><img src="' + extractPath( p.model ) + 'thumbnail.jpg' +
+				'<tr><td><img width=171 src="../../fgx-aircraft/data/' + intersected.flight.model + '/thumbnail.jpg' +
+				'" onerror="this.src=\'../textures/airplane.png\';this.width=32"></td></tr>' +
 				'</tr></table>';
 			headsUp.innerHTML = htm;
+// console.log( intersected.flight );			
 		} else {
 			headsUp.style.display = 'none';
 		}
@@ -410,9 +415,11 @@ console.log( 'removing', craft, craft.object );
 	
 
 	function extractPath( model) {
+	
 		var lio = model.lastIndexOf('/') + 1;
 		var path = model.substr( 0, lio );
 		path = path.replace(/models\//i,'');
+		// return '../../fgx-aircraft/data/' + 
 		return 'http://gitorious.org/fg/fgdata/blobs/raw/master/' + path ;
 	}
 	

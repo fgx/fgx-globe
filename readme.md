@@ -12,7 +12,7 @@ You have two ways of viewing the FGx Globe files:
 * Source code on GitHub: [github.com/fgx]( https://github.com/fgx/fgx.github.io/fgx-globe/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
 
 ## Road Map
-* Add paint the stars using their relative luminosity in their correct positions, see Marble
+* Add paint the stars using their relative luminosity in their correct positions, see Marble. Data is available via x-plane .dat
 
 ## Updates ~ 2013-11-19
 
@@ -44,6 +44,13 @@ This is the hot stuff:
 [ FGx copyright notice and license](https://github.com/fgx/fgx.github.com/blob/master/FGx%20copyright%20notice%20and%20license.md)
 
 ## Change log
+
+2013-12-11 ~ Theo
+
+* R5 is up
+* Add new bump-map globe with clouds
+* Add ablity to stop globe rotating to Global Settings tab
+* Just about all thumbnails now appear correctly
 
 2013-12-05 ~ Theo
 
