@@ -3,6 +3,7 @@
 
 Your world - in ways you have never seen before.
 
+[FGx Globe R5]( http://fgx.github.io/fgx-globe/fgx-globe-r5/ )
 
 ## Project Links
 
@@ -18,7 +19,7 @@ You have two ways of viewing the FGx Globe files:
 
 This is the hot stuff:
 
-[FGx Globe R4]( http://fgx.github.io/fgx-globe/fgx-globe-r4/ )
+[FGx Globe R5]( http://fgx.github.io/fgx-globe/fgx-globe-r5/ )
 
 [Air Run Nav R1]( http://fgx.github.io/fgx-globe/cookbook/air-run-nav-01/ )
 
