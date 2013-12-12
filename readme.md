@@ -5,6 +5,10 @@ Your world - in ways you have never seen before.
 
 [FGx Globe R5]( http://fgx.github.io/fgx-globe/fgx-globe-r5/ )
 
+See also:
+
+[FGx Globe R5: New Globe type, More Aircraft, More thumbnails]( http://www.jaanga.com/2013/12/fgx-globe-r5-new-globe-type-more.html )
+
 ## Project Links
 
 You have two ways of viewing the FGx Globe files:  
