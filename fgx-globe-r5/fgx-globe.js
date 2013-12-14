@@ -57,7 +57,7 @@
 						var zoomOSM = $.elements.win[flt.callsign].zoomOSM;
 						element.innerHTML = $.setMap( flt, parseInt($.elements.thm.mapFlight), wid, hgt, zoom, zoomOSM);	
 // console.log('new', zoom, zoomOSM, $('#zoomOSM' + flt.callsign)[0] );							
-						$('#zoomOSM' + flt.callsign)[0].selectedIndex = zoomOSM;
+						if ( $('#zoomOSM' + flt.callsign)[0] ) $('#zoomOSM' + flt.callsign)[0].selectedIndex = zoomOSM;
 					} else {
 						element.innerHTML = element.id + " does not seem to be flying right now.";
 					}0
@@ -82,14 +82,20 @@
 				'<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select>';
 			
 			if (type === 0) {
-				return flt.model.split("/")[1] + '<br>' +
+				zoomOSM = 0.001 * Math.pow( (parseFloat(zoomOSM) + 1), 3 );
+				var txt = flt.model.split("/")[1] + ' t:' + type + '<br>' +
 					'Hdg: ' + flt.hdg + ' Alt: ' + flt.alt_ft + ' Spd: ' + flt.spd_kts + '<br>' +
 					'Lat: ' + flt.lat.toFixed(2) + '&deg Lon: ' +  flt.lon.toFixed(2) + '&deg<br>' +
 					// '<img src"http://www.openstreetmap.org/index.html?lat=' + flt.lat + '&lon=' + flt.lon + '&zoom=12" />' +
 					'<a href="http://maps.google.com/maps?z=14&t=k&q=loc:' + flt.lat + ',' + flt.lon + '" target="_blank">' +
-					'<img src="http://maps.googleapis.com/maps/api/staticmap?center=' + flt.lat + ',' + flt.lon + '&maptype=satellite&zoom="' + zoom + '"&size=' + wid + 'x' + hgt + '&sensor=false" >' +
+					'<img src="http://maps.googleapis.com/maps/api/staticmap?center=' + flt.lat + ',' + flt.lon + '&maptype=satellite&zoom=' + parseInt(zoom, 10)  + '&size=' + wid + 'x' + hgt + '&sensor=false" >' +
+					'<img src="../textures/fg_generic_craft.png" ' +
+						'style="position:absolute; left: 45%; top: 50%; -webkit-transform: rotate(' + flt.hdg + 'deg)"/>' + 					
+					
 					'</a>' + '<br>' +
 				'';			
+// console.log( txt );
+				return txt;
 			} else if (type === 1) {
 				zoomOSM = 0.001 * Math.pow( (parseFloat(zoomOSM) + 1), 3 );
 				var txt = flt.model.split("/")[1] + '<br>' +
@@ -97,7 +103,7 @@
 					'Lat: ' + flt.lat.toFixed(2) + '&deg Lon: ' +  flt.lon.toFixed(2) + '&deg<br>' +
 					'<iframe width="' + wid + '" height="' + hgt + '" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=' +
 					(flt.lon - zoomOSM) + ',' + (flt.lat - zoomOSM) + ',' + (flt.lon + zoomOSM) + ',' + (flt.lat + zoomOSM) + '&amp;layer=mapnik" style="border: 1px solid black"></iframe>' +
-					'<a href="http://www.openstreetmap.org/index.html?lat=' + flt.lat + '&lon=' + flt.lon + '&zoom=' + zoom + '" target="_blank"><br>link' +
+					'<a href="http://www.openstreetmap.org/index.html?lat=' + flt.lat + '&lon=' + flt.lon + '&zoom=' + parseInt(zoom, 10) + '" target="_blank"><br>link' +
 					'</a> zoom' + selOSM + '<br>' +
 					'<img src="../textures/fg_generic_craft.png" ' +
 						'style="position:absolute; left: 45%; top: 50%; -webkit-transform: rotate(' + flt.hdg + 'deg)"/>' + 
@@ -106,11 +112,11 @@
 				return txt;
 				
 			} else {
-				return flt.model.split("/")[1] + '<br>' +
+				return flt.model.split("/")[1] + ' type: other<br>' +
 					'Hdg: ' + flt.hdg + ' Alt: ' + flt.alt_ft + ' Spd: ' + flt.spd_kts + '<br>' +
 					'Lat: ' + flt.lat.toFixed(2) + '&deg Lon: ' +  flt.lon.toFixed(2) + '&deg<br>' +
 					'<a href="http://maps.google.com/maps?z=14&t=m&q=loc:' + flt.lat + ',' + flt.lon + '" target="_blank">' +
-					'<img src="http://maps.googleapis.com/maps/api/staticmap?center=' + flt.lat + ',' + flt.lon + '&maptype=roadmap&zoom="' + zoom + '"&size=' + wid + 'x' + hgt + '&sensor=false" >' +
+					'<img src="http://maps.googleapis.com/maps/api/staticmap?center=' + flt.lat + ',' + flt.lon + '&maptype=roadmap&zoom=' + parseInt(zoom, 10)  + '&size=' + wid + 'x' + hgt + '&sensor=false" >' +
 					'</a>' + '<br>' +
 				'';	
 			}
@@ -130,7 +136,7 @@
 				top: "100",
 				width: "370",
 				zoom: "14",
-				zoomOSM: 2,
+				zoomOSM: 2
 			};
 			$.newDialog( $.elements.win[flt.callsign]  );
 			$.getCrossfeed();

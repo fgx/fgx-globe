@@ -9,8 +9,8 @@
 <script src=http://mrdoob.github.com/three.js/examples/js/controls/TrackballControls.js></script>
 <script src=http://mrdoob.github.com/three.js/examples/js/libs/stats.min.js></script>
 <script>
-	var currentLat;
-	var currentLng;
+	//var currentLat;
+	//var currentLng;
 	
 	var tileZoom = 7; // 6;
 	var tileXLng; // 20;
@@ -139,7 +139,6 @@
 			selMapType.appendChild( option );
 			option.innerText = mapTypes[i][0];
 		}
-
 		selMapType.selectedIndex = mapType;
 		
 		renderer = new THREE.WebGLRenderer( { alpha: 1, antialias: true, clearColor: 0xffffff }  );
@@ -217,8 +216,8 @@
 			elevationsImage.onload = initCanvas;
 		}
 
-		currentLat = lat;
-		currentLng = lng;
+		//currentLat = lat;
+		//currentLng = lng;
 		tileYLat = lat2tile( lat, tileZoom );
 		tileXLng = long2tile( lng, tileZoom );
 		elevTileYLat = lat2tile( lat, elevZoom );
@@ -228,6 +227,7 @@
 	}
 
 	var ulLat, lrLat, ulLng, lrLng;
+	var z;
 	
 	function initCanvas() {
 		if ( plane != undefined ) {
@@ -262,8 +262,9 @@
 
 		geometry = new THREE.PlaneGeometry( 1000, 1000, pixelsLng - 1, pixelsLat - 1);
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( - Math.PI / 2 ) );
-material = new THREE.MeshNormalMaterial({ side: THREE.DoubleSide });
-// material = new THREE.MeshBasicMaterial( { map: mapTexture, side: THREE.DoubleSide } );
+		
+		material = new THREE.MeshNormalMaterial({ side: THREE.DoubleSide });
+		// material = new THREE.MeshBasicMaterial( { map: mapTexture, side: THREE.DoubleSide } );
 		
 		// var mapTexture = THREE.ImageUtils.loadTexture( "http://b.tile.openstreetmap.org/" + tileZoom + "/" + tileXLng + "/" + tileYLat + ".png" );
 		
@@ -288,6 +289,7 @@ material = new THREE.MeshNormalMaterial({ side: THREE.DoubleSide });
 		elevationsCanvas.width = elevationsImage.naturalWidth;
 		elevationsCanvas.height = elevationsImage.naturalHeight;
 // canvas.style.cssText = "outline:5px solid #d3d3d3; ";
+
 		var elevationsCtx = elevationsCanvas.getContext("2d");
 		elevationsCtx.drawImage( elevationsImage, 0, 0 );
 		var elevationsImgData = elevationsCtx.getImageData( elevDeltaPixelsLng, elevDeltaPixelsLat, pixelsLng, pixelsLat );
@@ -302,30 +304,42 @@ material = new THREE.MeshNormalMaterial({ side: THREE.DoubleSide });
 		zoomContext.putImageData( elevationsImgData, 0, 0 );
 		var zoomImgData = zoomContext.getImageData( 1, 0, pixelsLng, pixelsLat);
 		var color, id, len = zoomImgData.data.length / 4;
+		//var color, id, len = zoomImgData.data.length
 		
 		var scale = 0.01 * exaggeration;
-
+		
+		var scaleElevs = [];
+		for (var i = 0, lenU = uniElevations.length; i < lenU; i++) {
+			scaleElevs[i] = uniElevations[i] * scale;
+		}
+		z = zoomImgData.data;
+		var ii;
+// console.log( z)
 		for (var i = 0; i < len; i++) {
-			color = zoomImgData.data[ 4 * i] + ' ' + zoomImgData.data[ 4 * i + 1] + ' '  + zoomImgData.data[ 4 * i + 2];
-			id =  uniColors.indexOf( color );
-			geometry.vertices[ i ].y = scale * uniElevations[ id ];
+			ii = i * 4
+			id =  uniColors.indexOf( z[ii] + ' ' + z[ ++ii] + ' '  + z[ ++ii ] );
+			geometry.vertices[ i ].y = scaleElevs[ id ];
 		}
 		
 		plane = new THREE.Mesh( geometry, material );
-		scene.add( plane );
 		
 		plane.receiveShadow = true;
 		plane.castShadow = true;
-
 		plane.geometry.computeFaceNormals();
 		plane.geometry.computeVertexNormals();
 		plane.geometry.verticesNeedUpdate = true;
 		
-		getAirports( 13132 ) 
+		scene.add( plane );
 		
-		lookForAssets();
+		animate() ;
+		renderer.render( scene, camera );
+		
+		getAirports( 13132 );
+		// lookForAssets();
 	}
-
+	
+	
+	
 	function animate() {
 		requestAnimationFrame( animate );
 		controls.update();
@@ -338,6 +352,7 @@ material = new THREE.MeshNormalMaterial({ side: THREE.DoubleSide });
 	}
 	
 	var airports, airportData, airportObjs;
+	
 	
 	function getAirports( id ) {
 		//var airports = requestFile( 'https://gitorious.org/fgtools/map-test/blobs/raw/master/data.json' );
@@ -360,6 +375,8 @@ material = new THREE.MeshNormalMaterial({ side: THREE.DoubleSide });
 		}
 		selAirport.selectedIndex = id;  // KSFO
 		data.innerHTML += output;
+		
+		getNearby() 
 	}
 	
 	function getNearby() {
@@ -500,6 +517,8 @@ console.log( xmlHttp.responseText );
 			document.body.appendChild( js );
 		}
 	}
+	
+	
 </script>
 </body>
 </html>
