@@ -5,7 +5,7 @@ Your world - in ways you have never seen before.
 
 [FGx Globe R5]( http://fgx.github.io/fgx-globe/fgx-globe-r5/ )
 
-See also:
+See also this post on Jaanga.com:
 
 [FGx Globe R5: New Globe type, More Aircraft, More thumbnails]( http://www.jaanga.com/2013/12/fgx-globe-r5-new-globe-type-more.html )
 
@@ -29,7 +29,7 @@ This is the hot stuff:
 
 * Release 1.0 ~ Many issues.
 * Takes too long to load. But, once loaded, you can pan, zoom and rotate with your mouse,
-* Edit the Latitude and the longitude to go to new location
+* Edit the latitude and the longitude to go to new location
 * Or choose a different city from the drop down list.
 * Both of these actions take way too long. We will have to learn how to cheat here,
 * Next is the list of 27,151 airports with 27,151 tooltips << Try that with PostGIS.

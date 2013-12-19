@@ -49,9 +49,8 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 		if ( ! Detector.webgl ) {
 			renderer = new THREE.CanvasRenderer();
 		} else {
-			renderer = new THREE.WebGLRenderer( { antialias: true, preserveDrawingBuffer: true } );
+			renderer = new THREE.WebGLRenderer( { antialias: true } );
 		}
-		// renderer = new THREE.WebGLRenderer( { antialias: true } );
 		renderer.setSize( window.innerWidth, window.innerHeight );
 		document.body.appendChild( renderer.domElement );
 

@@ -437,7 +437,7 @@ console.log( a[0], data.ils );
 		var image = document.createElement( 'canvas' );
 		image.width = 100; // 480
 		image.height = 20; //204
-		imageContext = image.getContext( '2d' );
+		var imageContext = image.getContext( '2d' );
 		imageContext.lineWidth = 1 ;
 		imageContext.strokeStyle = '#000000';
 		imageContext.strokeRect(0, 0, 100, 20);
