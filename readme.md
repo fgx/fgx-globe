@@ -14,7 +14,7 @@ See also this post on Jaanga.com:
 You have two ways of viewing the FGx Globe files:  
 
 * Code hosted on GitHub: [fgx.github.io]( http://fgx.github.io/fgx-globe/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
-* Source code on GitHub: [github.com/fgx]( https://github.com/fgx/fgx.github.io/fgx-globe/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
+* Source code on GitHub: [github.com/fgx]( https://github.com/fgx/fgx-globe/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
 
 ## Road Map
 * Add paint the stars using their relative luminosity in their correct positions, see Marble. Data is available via x-plane .dat
