@@ -1,10 +1,7 @@
-FlightGear Tracker Reader Read Me
+FlightGear Tracker Display Read Me
 ===
 
 
-<http://theo-armour.github.io/cookbook/fg-tracker-reader/r1/fg-tracker-reader-r2.html>
+<http://fgx.github.io/fgx-globe/cookbook/fg-tracker-display/r3/fg-tracker-display-r3.html>
 
-<http://theo-armour.github.io/cookbook/fg-tracker-reader/r1/fg-tracker-reader-iframe-r1.html>
-
-<http://theo-armour.github.io/cookbook/fg-tracker-reader/r1/fg-tracker-reader-jquery-r1.html>
 
