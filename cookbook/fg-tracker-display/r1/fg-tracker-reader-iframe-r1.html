@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang=en >
+<head>
+<title>Howdy</title>
+<meta charset=utf-8 />
+<meta name=author content='Theo Armour' />
+</head>
+<body>
+<script>
+
+	document.body.style.cssText = ' font: bold 12pt monospace; ';
+
+	var info = document.body.appendChild( document.createElement( 'div' ) );
+	info.innerHTML = '<h1>' + document.title + '</h1>' +
+		'<div id=msg ></div>' +
+		'<iframe id=ifr src="http://mpserver15.flightgear.org/modules/fgtracker/interface.php?action=pilotlist" height=500 width=800 ></iframe>' +
+
+	'';
+
+</script>
+</body>
+</html>

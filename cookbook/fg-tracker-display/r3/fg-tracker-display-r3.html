@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang=en >
+<head>
+<title>FlightGear Tracker Display R3</title>
+<meta charset=utf-8 />
+<meta name=viewport content=width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0 >
+</head>
+<body>
+<script src=http://mrdoob.github.io/three.js/build/three.min.js ></script>
+<script src=http://mrdoob.github.io/three.js/examples/js/controls/TrackballControls.js ></script>
+<script src=http://mrdoob.github.io/three.js/examples/js/libs/stats.min.js ></script>
+</head>
+<body>
+<script>
+	var info, stats, renderer, scene, camera, controls;
+		var geometry, material, mesh;
+
+	var tim = Date.now();
+	var now = tim + 5000;
+	var pi = Math.PI, d2r = pi / 180;
+
+	var xmlhttp;
+	var flightFrame;
+
+	var projector;
+	var interescts;
+
+	init();
+	animate();
+
+	function init() {
+
+		document.body.style.cssText = ' font: bold 12pt monospace; margin: 0; overflow: hidden; ';
+
+		var info = document.body.appendChild( document.createElement( 'div' ) );
+		info.style.cssText = 'position: absolute; ';
+		info.innerHTML = '<a href="" ><h1>' + document.title + '</h1></a>' +
+			'<div id=update ></div>' +
+			'<div id=msg ></div>';
+
+		stats = new Stats();
+		stats.domElement.style.cssText = 'position: absolute; right: 0; top: 0; z-index: 100; ';
+		document.body.appendChild( stats.domElement );
+
+		renderer = new THREE.WebGLRenderer( { alpha: 1, antialias: true, clearColor: 0xffffff }  );
+		renderer.setSize( window.innerWidth, window.innerHeight );
+		document.body.appendChild( renderer.domElement );
+		scene = new THREE.Scene();
+
+		camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 50000 );
+		camera.position.set( 10000, 10000, 10000 );
+		controls = new THREE.TrackballControls( camera, renderer.domElement );
+
+		projector = new THREE.Projector();
+
+		var texture = THREE.ImageUtils.loadTexture( "../../../textures/Elevation.jpg" );
+		geometry = new THREE.SphereGeometry( 3959, 50, 30 );
+		geometry.applyMatrix( new THREE.Matrix4().makeRotationY( Math.PI) );
+
+		material = new THREE.MeshBasicMaterial( { map: texture, shading: THREE.SmoothShading } );
+		mesh = new THREE.Mesh( geometry, material );
+		mesh.position.set( 0, 0, 0 );
+		scene.add( mesh );
+
+		renderer.domElement.addEventListener( 'click', onDocumentMouseClick, false );
+
+		getData();
+
+	}
+
+	function getData() {
+		var file = requestFile( 'https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fmpserver15.flightgear.org%2Fmodules%2Ffgtracker%2Finterface.php%3Faction%3Dlivewaypoints%22&format=json&callback=' );
+	}
+
+	function parseFile() {
+		file = JSON.parse( xmlhttp.responseText );
+
+		var data = file.query.results.body.p;
+		data = JSON.parse( data );
+
+		var waypoints = data.data.wpt;
+
+		scene.remove( flightFrame );
+		flightFrame = new THREE.Object3D();
+		geometry = new THREE.BoxGeometry( 100, 100, 100 );
+		material = new THREE.MeshNormalMaterial( { shading: THREE.SmoothShading } );
+
+		for ( i = 0; i < waypoints.length; i++ ) {
+
+			mesh = new THREE.Mesh( geometry, material );
+			pos = convertPosition( waypoints[i].lat, waypoints[i].lon, 4100 );
+			mesh.position.set( pos.x, pos.y, pos.z );
+			mesh.userData = waypoints[i];
+			mesh.userData = waypoints[i];
+			flightFrame.add( mesh );
+
+		}
+		scene.add( flightFrame );
+
+		update.innerHTML = new Date();
+	}
+
+	function requestFile( fname ) {
+		xmlhttp = new XMLHttpRequest();
+		xmlhttp.open( 'GET', fname, true );
+		xmlhttp.send( null );
+		xmlhttp.onload = parseFile;
+	}
+
+	function convertPosition( lat, lon, radius ) {
+		var rc = radius * Math.cos( lat * d2r );
+		return v( rc * cos( pi - lon * d2r ), radius * sin( lat * d2r ), rc * sin( pi - lon * d2r) );
+	}
+
+	function animate() {
+		requestAnimationFrame( animate );
+
+		renderer.render( scene, camera );
+		controls.update();
+		stats.update();
+
+		now = Date.now();
+		if ( now - tim > 3000 ) {
+			getData();
+			tim = now;
+		}
+	}
+
+	function onDocumentMouseClick( event ) {
+
+console.log( 'onDocumentMouseClick', scene );
+		event.preventDefault();
+
+		var vector = new THREE.Vector3( ( event.clientX / window.innerWidth ) * 2 - 1, - ( event.clientY / window.innerHeight ) * 2 + 1, 0.5 );
+		projector.unprojectVector( vector, camera );
+		var raycaster = new THREE.Raycaster( camera.position, vector.sub( camera.position ).normalize() );
+		intersects = raycaster.intersectObjects( flightFrame.children );
+
+		if ( intersects.length > 0 ) {
+
+			scene.select = intersects[ 0 ].object;
+			var data = scene.select.userData;
+			var keys = Object.keys( data );
+
+			var txt = 'waypoint: ' + '<br>';
+			for ( var key in data ) {
+				txt += key + ' ' + data[ key ] + '<br>';
+			}
+
+			msg.innerHTML = txt;
+
+		}
+
+	};
+
+	function v( x, y, z ){ return new THREE.Vector3( x, y, z ); }
+	function cos(a){return Math.cos(a);} function sin(a){return Math.sin(a);}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang=en >
+<head>
+<title>FlightGear Tracker Reader R2</title>
+<meta charset=utf-8 />
+<meta name=author content='Theo Armour' />
+</head>
+<body>
+<script>
+
+	var tim = Date.now();
+	var now = tim + 5000;
+
+	init();
+	animate();
+
+	function init() {
+
+		document.body.style.cssText = ' font: bold 12pt monospace; ';
+
+		var info = document.body.appendChild( document.createElement( 'div' ) );
+		info.innerHTML = '<a href="" ><h1>' + document.title + '</h1></a>' +
+			'<div id=msg ></div>';
+
+	}
+
+	function getData() {
+		var file = requestFile( 'https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fmpserver15.flightgear.org%2Fmodules%2Ffgtracker%2Finterface.php%3Faction%3Dlivewaypoints%22&format=json&callback=' );
+		file = JSON.parse( file );
+
+		var data = file.query.results.body.p;
+		data = JSON.parse( data );
+
+		var waypoints = data.data.wpt;
+
+		var text = new Date() + '<br>';
+		var obj, keys, key;
+		var flying= {};
+		var flights = [];
+		for (var i = 0, len = waypoints.length; i < len; i++) {
+
+			obj = waypoints[i];
+/*
+			keys = Object.keys(obj);
+
+			for ( key in obj ) {
+				text += key + ':' + obj[ key ] + ' ';
+			}
+			text += '<br>';
+*/
+
+			callsign = obj.callsign;
+
+			if ( flying[ callsign ] ) {
+				flying[ callsign ].waypoints.push( obj );
+			} else {
+				flying[ callsign ] = {};
+				flying[ callsign ].waypoints = [];
+				flying[ callsign ].waypoints.push( obj );
+				flights.push( flying[ callsign ] );
+			}
+
+		}
+
+		for ( i = 0; i < flights.length; i++ ) {
+			text += flights[i].waypoints[0].callsign + ':' + flights[i].waypoints.length + '<br>';
+		}
+
+		text += '<br>';
+		msg.innerHTML = text;
+
+//console.log( flying, flights );
+	}
+
+	function requestFile( fname ) {
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.crossOrigin = "Anonymous"; 
+		xmlhttp.open( 'GET', fname, false );
+		xmlhttp.send( null );
+		return xmlhttp.responseText;
+	}
+
+	function animate() {
+		requestAnimationFrame( animate );
+
+		now = Date.now();
+
+		if ( now - tim > 3000 ) {
+			getData();
+
+// console.log( now, tim, now - tim );
+			tim = now;
+		}
+	}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>load demo</title>
+  <style>
+  body {
+    font-size: 12px;
+    font-family: Arial;
+  }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<b>Projects:</b>
+<ol id="new-projects"></ol>
+ 
+<script>
+$( "#new-projects" ).load( "http://mpserver15.flightgear.org/modules/fgtracker/interface.php?action=pilotlist #projects li" );
+</script>
+ 
+</body>
+</html>

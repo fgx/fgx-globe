@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang=en >
+<head>
+<title>Howdy</title>
+<meta charset=utf-8 />
+<meta name=author content='Theo Armour' />
+</head>
+<body>
+<script>
+
+	init()
+
+	function init() {
+
+		document.body.style.cssText = ' font: bold 12pt monospace; ';
+
+		var info = document.body.appendChild( document.createElement( 'div' ) );
+		info.innerHTML = '<h1>' + document.title + '</h1>' +
+			'<div id=msg ></div>';
+
+//		var data = requestFile( 'http://mpserver15.flightgear.org/modules/fgtracker/interface.php?action=livepilots' );
+
+		var data = requestFile( 'https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fmpserver15.flightgear.org%2Fmodules%2Ffgtracker%2Finterface.php%3Faction%3Drecentstateswitch%22&format=json&diagnostics=true&callback=' );
+
+		msg.innerHTML = data;
+
+	}
+
+
+	function requestFile( fname ) {
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.crossOrigin = "Anonymous"; 
+		xmlhttp.open( 'GET', fname, false );
+		xmlhttp.send( null );
+		return xmlhttp.responseText;
+	}
+</script>
+</body>
+</html>
