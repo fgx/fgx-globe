@@ -35,12 +35,12 @@
 		document.body.style.cssText = ' font: bold 12pt monospace; margin: 0; overflow: hidden; ';
 
 		var info = document.body.appendChild( document.createElement( 'div' ) );
-		info.style.cssText = 'left: 10px; position: absolute; ';
+		info.style.cssText = 'left: 10px; position: absolute; width: 250px;';
 		info.innerHTML = '<a href="" ><h1>' + document.title + '</h1></a>' +
 			'<div id=update ></div>' +
 			'<div id=msg1 ></div>' +
 			'<div id=msg2 ></div>' +
-			'<div id=msg3 ></div>' +
+			'<div id=msg3 >Click aircraft to view details</div>' +
 		'';
 
 		stats = new Stats();
@@ -105,6 +105,7 @@
 
 		for ( i = 0, len = waypoints.length; i < len; i++ ) {
 			wp = waypoints[i];
+
 			index = callsigns.indexOf( wp.callsign );
 
 			if ( index < 0 ) {
@@ -131,7 +132,7 @@
 			wp = flt.userData.waypoints[ 1 ];
 			pos = convertPosition( wp.lat, wp.lon, 4100 + wp.alt * 0.01 );
 			angle = flt.position.angleTo( pos );
-			txt += angle.toFixed(3) + ',';
+			txt += angle.toFixed(3) + ', ';
 			msg2.innerHTML = txt;
 // console.log( flt.position, pos, angle)
 		}
@@ -170,7 +171,6 @@
 	}
 
 	function onDocumentMouseClick( event ) {
-
 
 		event.preventDefault();
 
