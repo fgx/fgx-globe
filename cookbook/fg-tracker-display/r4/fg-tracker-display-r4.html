@@ -171,7 +171,7 @@
 
 	function onDocumentMouseClick( event ) {
 
-console.log( 'onDocumentMouseClick', scene );
+
 		event.preventDefault();
 
 		var vector = new THREE.Vector3( ( event.clientX / window.innerWidth ) * 2 - 1, - ( event.clientY / window.innerHeight ) * 2 + 1, 0.5 );
@@ -182,7 +182,10 @@ console.log( 'onDocumentMouseClick', scene );
 		if ( intersects.length > 0 ) {
 
 			scene.select = intersects[ 0 ].object;
-			var data = scene.select.userData;
+
+			var data = scene.select.userData.waypoints[0];
+// console.log( 'onDocumentMouseClick', data );
+
 			var keys = Object.keys( data );
 
 			var txt = 'waypoint: ' + '<br>';
