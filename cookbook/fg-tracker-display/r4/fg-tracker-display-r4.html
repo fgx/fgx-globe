@@ -125,7 +125,7 @@
 		}
 		scene.add( flightFrame );
 
-		var txt = '';
+		var txt = 'headings:';
 		for ( i = 0, len = flightFrame.children.length; i < len; i++) {
 			flt = flightFrame.children[i];
 			wp = flt.userData.waypoints[ 1 ];
@@ -139,7 +139,7 @@
 		var dt = new Date();
 		update.innerHTML = 'waypoints:' + waypoints.length + ' time:' + dt.toUTCString() + ' elapsed:' + ( dt - start ) ;
 
-		msg1.innerHTML = callsigns;
+		msg1.innerHTML = 'callsigns:' + callsigns;
 
 	}
 
