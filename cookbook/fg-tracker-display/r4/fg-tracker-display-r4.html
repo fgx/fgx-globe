@@ -140,7 +140,7 @@
 		var dt = new Date();
 		update.innerHTML = 'waypoints:' + waypoints.length + ' time:' + dt.toUTCString() + ' elapsed:' + ( dt - start ) ;
 
-		msg1.innerHTML = 'callsigns:' + callsigns;
+		msg1.innerHTML = 'callsigns:' + callsigns.toString().replace( /,/g,', ' );
 
 	}
 
