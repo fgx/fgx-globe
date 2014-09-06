@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang=en >
 <head>
-<title>FlightGear Tracker Display R5</title>
+<title>FlightGear Tracker Display R6</title>
 <meta charset=utf-8 />
 <meta name=viewport content=width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0 >
 </head>
@@ -26,6 +26,7 @@
 	var flightFrame;
 	var bearing;
 	var seymour;
+	var trail;
 
 	var projector;
 	var interescts;
@@ -39,7 +40,8 @@
 
 		var info = document.body.appendChild( document.createElement( 'div' ) );
 		info.style.cssText = 'left: 10px; position: absolute; width: 250px;';
-		info.innerHTML = '<a href="" ><h1>' + document.title + '</h1></a>' +
+		info.innerHTML = '<a href="" ><h1>' + document.title + '</a> ' +
+			'<a href=http://fgx.github.io/fgx-globe/cookbook/fg-tracker-display/ style=text-decoration:none; >&#x24D8;</a></h1>' +
 			'<div id=update ></div>' +
 			'<div id=msg1 ></div>' +
 			'<div id=msg2 ></div>' +
@@ -74,8 +76,11 @@
 
 		loader = new THREE.JSONLoader();
 		loader.load( '../seymour.js', function ( geometry ) {
+			geometry.applyMatrix( new THREE.Matrix4().multiplyScalar( 5 ) );
 			geometry.applyMatrix( new THREE.Matrix4().makeRotationX( -Math.PI / 2 ) );
-			geometry.applyMatrix( new THREE.Matrix4().multiplyScalar( 50 ) );
+			geometry.applyMatrix( new THREE.Matrix4().makeRotationZ( -Math.PI / 2 ) );
+			geometry.applyMatrix( new THREE.Matrix4().makeTranslation( 0, -75, 0 ) );
+
 			seymour = geometry;
 			getData();
 		} );
@@ -106,8 +111,8 @@
 		scene.remove( flightFrame );
 
 		flightFrame = new THREE.Object3D();
-		trail = new THREE.BoxGeometry( 50, 50, 50 );
-		plane = new THREE.SphereGeometry( 66 );
+		flightFrameTrails = new THREE.Object3D();
+		trail = new THREE.BoxGeometry( 5, 5, 5 );
 		material = new THREE.MeshNormalMaterial( { shading: THREE.SmoothShading } );
 
 		var wp;
@@ -134,11 +139,19 @@
 
 			} else {
 				flightFrame.children[ index ].userData.waypoints.push( wp );
+
+				mesh = new THREE.Mesh( trail, material );
+				pos = convertPosition( wp.lat, wp.lon, 4100 + 20 * Math.log( wp.alt ) );
+				mesh.position.set( pos.x, pos.y, pos.z );
+				mesh.lookAt( v( 0, 0, 0 ) );
+				flightFrameTrails.add( mesh );
+
 			}
 
 		}
 
 		scene.add( flightFrame );
+		scene.add( flightFrameTrails );
 
 		var txt = 'headings: ';
 
@@ -149,7 +162,21 @@
 			if ( flt.userData.waypoints.length > 1 ) {
 				wp1 = flt.userData.waypoints[ 0 ];
 				wp2 = flt.userData.waypoints[ 1 ];
+
+/*
 				bearing = Math.atan( ( wp1.lat - wp2.lat ) / ( wp1.lon - wp2.lon ) );
+
+				if ( Math.abs( wp1.lon - wp2.lon ) > pi ) {
+					if ( wp1.lon - wp2.lon > 0.0) {
+						bearing = -( pi2 - bearing );
+					} else {
+						bearing =  ( pi2 + bearing );
+					}
+				}
+*/
+
+				bearing = getBearing( wp1.lat, wp1.lon, wp2.lat, wp2.lon );
+
 			}
 
 			if ( !bearing || isNaN( bearing ) ) { bearing = 0; }
@@ -159,6 +186,29 @@
 			txt += ( bearing * r2d ).toFixed( 1 ) + ', ';
 
 		}
+
+	function getBearing( Lat1, Lon1, Lat2, Lon2 ) {
+		// convert to radians
+		var startLat = Lat1 * d2r;
+		var startLon = Lon1 * d2r;
+		var endLat   = Lat2 * d2r;
+		var endLon   = Lon2 * d2r;
+		var dLon = endLon - startLon;
+
+		var dPhi = Math.log( Math.tan( endLat / 2.0 ) / Math.tan( startLat / 2.0 ) );
+
+		if ( Math.abs( dLon ) > pi ) {
+			if ( dLon > 0.0) {
+				dLon = -( pi2 - dLon );
+			} else {
+				dLon =  ( pi2 + dLon );
+			}
+		}
+
+		var d = Math.atan2( dLon, dPhi );
+		return d; // (d + 360.0) % 360.0;
+	}
+
 
 		var dt = new Date();
 		update.innerHTML = 'waypoints: ' + waypoints.length + ' time:' + dt.toUTCString() + ' elapsed:' + ( dt - start ) + '<br><br>' ;
