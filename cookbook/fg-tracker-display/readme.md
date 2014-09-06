@@ -11,6 +11,13 @@ There is an `iframe` here. It is not visible when viewed on github.com. To view,
 </iframe>
 _FlightGear Tracker Display- latest revision_ / [Full Screen]( http://fgx.github.io/fgx-globe/cookbook/fg-tracker-display/latest/index.html )
 
+<http://fgx.github.io/fgx-globe/cookbook/fg-tracker-display/r6/fg-tracker-display-r6.html>
+
+* Adds a trail view and alters position of aircraft
+* Actual position of aircraft is between tail of 3D model and first box
+* Adds Geoff's getBearing function
+* Adds link to source code
+
 <http://fgx.github.io/fgx-globe/cookbook/fg-tracker-display/r5/fg-tracker-display-r5.html>
 
 <http://fgx.github.io/fgx-globe/cookbook/fg-tracker-display/r4/fg-tracker-display-r4.html>
