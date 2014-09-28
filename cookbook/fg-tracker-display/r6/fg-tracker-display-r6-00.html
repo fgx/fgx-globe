@@ -166,10 +166,10 @@
 				var diffLat = wp1.lat - wp2.lat;
 				var diffLon = wp1.lon - wp2.lon;
 
-				bearing = Math.atan( diffLon / diffLat );
+				bearing = Math.atan( diffLon / diffLon );
 
-				if ( Math.abs( diffLon ) > pi ) {
-					if ( bearing > 0 ) {
+				if ( Math.abs( wp1.lon - wp2.lon ) > pi ) {
+					if ( wp1.lon - wp2.lon > 0.0) {
 						bearing = -( pi2 - bearing );
 					} else {
 						bearing =  ( pi2 + bearing );
@@ -177,13 +177,13 @@
 				}
 
 
-//				bearing = getBearing( wp1.lat, wp1.lon, wp2.lat, wp2.lon );
+				bearing = getBearing( wp1.lat, wp1.lon, wp2.lat, wp2.lon );
 
 			}
 
 			if ( !bearing || isNaN( bearing ) ) { bearing = 0; }
 
-			flightFrame.children[i].rotation.z = ( bearing + pi2 ) % pi2 ;
+			flightFrame.children[i].rotation.z = bearing;
 
 			txt += ( bearing * r2d ).toFixed( 1 ) + ', ';
 

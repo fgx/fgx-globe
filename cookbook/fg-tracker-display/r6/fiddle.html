@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang=en >
+<head>
+<title>Howdy</title>
+<meta charset=utf-8 />
+<meta name=author content='Theo Armour' />
+</head>
+<body>
+<script>
+
+
+
+	var pi = Math.PI,
+	    pi05 = pi * 0.5,
+	    pi2 = pi + pi;
+	var d2r = pi / 180,
+	    r2d = 180 / pi;
+
+	init();
+
+	function init() {
+
+	    document.body.style.cssText = 'font: 600 12pt monospace; margin: 0; overflow: hidden';
+
+	    var info = document.body.appendChild(document.createElement('div'));
+
+	    var info.style.cssText = 'left: 20px; position: absolute; ';
+	    info.innerHTML = '<h1>GetBearing</h1>' +
+	        '<div id=msg></div>' +
+	        '<div id=msg2></div>' +
+	        '';
+
+	    var startLat = 43.6822;
+	    var startLon = -70.450769;
+
+	    var endLat = 43.682211;
+	    var endLon = -70.45070;
+
+	    var diffLat = endLat - startLat
+	    var diffLon = endLon - startLon
+
+	    bearing = Math.atan(diffLon / diffLat);
+
+	    msg1.innerHTML = 'bearing by lat/lon: ' + (bearing * r2d).toFixed(4);
+
+	    startLat = 43.6822 * d2r;
+	    startLon = -70.450769 * d2r;
+
+	    endLat = 43.682211 * d2r;
+	    endLon = -70.45070 * d2r;
+
+	    var bearing2 = getBearing(startLat, startLon, endLat, endLon);
+
+	    msg2.innerHTML = 'bearing by radians: ' + bearing2.toFixed(4);
+
+	}
+
+	function getBearing(Lat1, Lon1, Lat2, Lon2) {
+	    // convert to radians
+	    var startLat = Lat1 * d2r;
+	    var startLon = Lon1 * d2r;
+	    var endLat = Lat2 * d2r;
+	    var endLon = Lon2 * d2r;
+	    var dLon = endLon - startLon;
+
+	    var dPhi = Math.log(Math.tan(endLat / 2.0 + pi / 4.0) / Math.tan(startLat / 2.0 + pi / 4.0));
+
+	    if (Math.abs(dLon) > pi) {
+	        if (dLon > 0.0) {
+	            dLon = -(pi2 - dLon);
+	        } else {
+	            dLon = (pi2 + dLon);
+	        }
+	    }
+
+	    var d = Math.atan2(dLon, dPhi) * r2d;
+	    return (d + 360.0) % 360.0;
+	}
+
+</script>
+</body>
+</html>
