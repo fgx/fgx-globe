@@ -4,7 +4,7 @@
 
 // getCrossfeed called from threejs-demo.html every x seconds - because that is where Request Animation Frame is.	
 		$.getCrossfeed = function() {
-			$.getJSON('http://crossfeed.fgx.ch/flights.json', function(data) {
+			$.getJSON('http://crossfeed.freeflightsim.org/flights.json', function(data) {
 				$.flightsData = data;
 				$.lookup = {};
 				var flt;

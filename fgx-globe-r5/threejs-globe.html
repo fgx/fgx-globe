@@ -223,9 +223,10 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 console.log( 'not found',  model );
 			model = "seymour";
 		}
+			model = "seymour";
 
 		flight.model = model;
-		// flight.url = "../fgx-planes/" + model + "/" + model + ".js"; ;
+		//flight.url = "../fgx-planes/" + model + "/" + model + ".js"; ;
 		// flight.url = ( "C:/Dropbox/Public/git-repos/fgx-repos/fgx-aircraft/ac-01/" + model + ".js" );
 		var url;
 		for (var i = 0, len = aircrafts.length; i < len; i++) {
@@ -236,7 +237,7 @@ console.log( 'not found',  model );
 			}
 // console.log( 'for', url );
 		}
-// console.log( 'sel', model, url );
+//console.log( 'sel', model, url );
 		flight.url = ( "../../fgx-aircraft/data/" + model );
 		loadAircraft( flight );
 	}
