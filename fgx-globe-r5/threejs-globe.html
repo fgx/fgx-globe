@@ -9,8 +9,11 @@
 <script src="http://mrdoob.github.com/three.js/build/three.min.js"></script>
 <script src='http://mrdoob.github.com/three.js/examples/js/controls/TrackballControls.js'></script>
 <script src='http://mrdoob.github.com/three.js/examples/js/libs/stats.min.js'></script>
+<script src='http://mrdoob.github.com/three.js/examples/js/renderers/Projector.js'></script>
 <script>
-if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
+// use $.ifr.contentWindow for debugging
+
+	if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 	// workaround for chrome bug: http://code.google.com/p/chromium/issues/detail?id=35980#c12
 	if ( window.innerWidth === 0 ) { window.innerWidth = parent.innerWidth; window.innerHeight = parent.innerHeight; }
 
@@ -24,10 +27,10 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 	var planes = [];
 	var aircraftGeometry = {};
 	var mouse = { x: -1, y: -1 };
-	var projector = new THREE.Projector();
+//	var projector = new THREE.Projector();
 	var moving = true;
 	var aircrafts;
-	var aircraftArr;
+	var aircraftsArr;
 
 	init();
 	animate();
@@ -223,11 +226,10 @@ if ( ! Detector.webgl ) { Detector.addGetWebGLMessage(); }
 console.log( 'not found',  model );
 			model = "seymour";
 		}
-			model = "seymour";
 
 		flight.model = model;
-		//flight.url = "../fgx-planes/" + model + "/" + model + ".js"; ;
-		// flight.url = ( "C:/Dropbox/Public/git-repos/fgx-repos/fgx-aircraft/ac-01/" + model + ".js" );
+//		flight.url = "../fgx-planes/" + model + "/" + model + ".js"; ;
+//		// flight.url = ( "C:/Dropbox/Public/git-repos/fgx-repos/fgx-aircraft/ac-01/" + model + ".js" );
 		var url;
 		for (var i = 0, len = aircrafts.length; i < len; i++) {
 			url = aircraftsArr[i];
@@ -270,7 +272,7 @@ console.log( 'not found',  model );
 
 		// placard
 
-		geometry = new THREE.PlaneGeometry( 150, 50, 1, 1 );
+		geometry = new THREE.PlaneBufferGeometry( 150, 50, 1, 1 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( -Math.PI / 2 ) );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationZ( Math.PI ) );
 		material = canvasText( flight.data.callsign, flight.data.model.split("/")[1], { color: '#ff00ff', height: 50,  width: 150 });
@@ -302,11 +304,13 @@ console.log( 'not found',  model );
 
 	function calcPosition( lat, lon, rad ) {
 		var pi = Math.PI, d2r = Math.PI / 180;
-		return  new THREE.Vector3(
+		var pos =  new THREE.Vector3(
 			rad * cos( lat * d2r ) * cos( pi - lon * d2r),
 			rad * sin( lat * d2r ),
 			rad * cos( lat * d2r ) * sin( pi - lon * d2r)
 		);
+//console.log ( pos );
+		return pos;
 	}
 
 	function updatePlane( plane ) {
@@ -314,13 +318,14 @@ console.log( 'not found',  model );
 		po = plane.object, plat = plane.data.lat, plon = plane.data.lon, i = plat.length - 1;
 		var rad = 51 + plane.data.alt_ft * 0.0003; // * globe.altitudeScale;
 		if ( po ) {
-			po.position = calcPosition( plat, plon, rad );
+			pos = calcPosition( plat, plon, rad );
+			po.position.set( pos.x, pos.y, pos.z );
 			po.lookAt( v( 0, 0, 0 ) );
 			po.rotation.z = plane.data.hdg * Math.PI / 180;
 			var scl = 0.1 * camDistance / 150 * camDistance / 150;
 			po.scale.set( scl, scl, scl);
 		} else {
-// console.log ( 'no plane to update', plane );
+console.log ( 'no plane to update', plane );
 		}
 	}
 
@@ -382,7 +387,7 @@ console.log( 'removing', craft, craft.object );
 		mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
 
 		var vector = new THREE.Vector3( mouse.x, mouse.y, 0.5 );
-		projector.unprojectVector( vector, camera );
+		vector.unproject( camera );
 		var raycaster = new THREE.Raycaster( camera.position, vector.sub( camera.position ).normalize() );
 		intersects = raycaster.intersectObjects( planes );
 

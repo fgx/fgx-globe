@@ -135,7 +135,7 @@ $(function() {
 					closer: "false",
 					fname: "ajax/0fgx-globe.html",
 					height: window.innerHeight - 50,
-					id: "dialog_window_1",
+					id: "dialog_window_2",
 					left: window.innerWidth - 530, // "3000",
 					title: $.defaultTitle,
 					top: "20",
