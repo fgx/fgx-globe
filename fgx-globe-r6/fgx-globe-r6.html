@@ -7,15 +7,15 @@
 <meta name=viewport content='width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0' />
 </head>
 <body>
-<!--
+
 <script src=http://mrdoob.github.io/three.js/build/three.min.js ></script>
 <script src=http://mrdoob.github.io/three.js/examples/js/controls/OrbitControls.js ></script>
 <script src=http://mrdoob.github.io/three.js/examples/js/libs/stats.min.js ></script>
--->
+<!--
 <script src = http://rawgit.com/mrdoob/three.js/dev/build/three.js ></script>
 <script src = http://rawgit.com/mrdoob/three.js/dev/examples/js/controls/OrbitControls.js ></script>
 <script src = http://rawgit.com/mrdoob/three.js/dev/examples/js/libs/stats.min.js ></script>
-
+-->
 <script>
 
 	var fileName = 'http://crossfeed.freeflightsim.org/flights.json';
@@ -126,11 +126,8 @@
 		renderer = new THREE.WebGLRenderer( { alpha: 1, antialias: true }  );
 		renderer.setSize( window.innerWidth, window.innerHeight );
 
-//		renderer.shadowMap.enabled = true;
-//		renderer.shadowMap.cullFace = THREE.CullFaceBack;
 		renderer.gammaInput = true;
 		renderer.gammaOutput = true;
-//		renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 
 		document.body.appendChild( renderer.domElement );
 
@@ -166,10 +163,7 @@
 		lightDirectional.shadow.mapSize.width = 2048;  // default 512
 		lightDirectional.shadow.mapSize.height = 2048;
 
-//		lightDirectional.castShadow = true;
 		scene.add( lightDirectional );
-
-//		scene.add( new THREE.CameraHelper( lightDirectional.shadow.camera ) );
 
 		lightPoint = new THREE.PointLight( 0xffffff, 0.5 );
 		camera.add( lightPoint );
@@ -343,8 +337,6 @@
 
 			} else {
 
-// console.log( 'flight',  flight );
-
 				aircraft.userdata.push( flight );
 				getWaypoints( aircraft );
 
@@ -361,16 +353,6 @@
 		info.innerHTML = text + '</table>';
 
 		scene.add( waypoints );
-
-	}
-
-	function updateAicraftPosition( aircraft, position, heading ) {
-
-		aircraft.position.copy ( position );
-		aircraft.lookAt( v( 0, 0, 0 ) );
-		aircraft.rotation.z = heading;
-		var c = 0.00005 * camera.position.distanceTo( v( 0, 0, 0 ) );
-		aircraft.scale.set( c, c, c );
 
 	}
 
@@ -420,6 +402,16 @@
 
 	}
 
+	function updateAicraftPosition( aircraft, position, heading ) {
+
+		aircraft.position.copy ( position );
+		aircraft.lookAt( v( 0, 0, 0 ) );
+		aircraft.rotation.z = heading;
+		var c = 0.00005 * camera.position.distanceTo( v( 0, 0, 0 ) );
+		aircraft.scale.set( c, c, c );
+
+	}
+
 	function getWaypoints( aircraft ) {
 
 		data = aircraft.userdata;
@@ -459,9 +451,6 @@
 				}
 
 			}
-
-//			geometry.computeFaceNormals();
-//			geometry.computeVertexNormals();
 
 			var mesh = new THREE.Mesh( geometry, material );
 			waypoints.add( mesh );
@@ -583,11 +572,7 @@
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( -0.785 ) );
 		geo.merge( geometry );
 
-//		geo.applyMatrix( new THREE.Matrix4().makeRotationX( -pi05 ) );
 		geo.mergeVertices();
-
-//		var mesh = new THREE.Mesh( geo, material );
-//		mesh.scale.set( 8, 8, 8 );
 
 		return geo;
 
