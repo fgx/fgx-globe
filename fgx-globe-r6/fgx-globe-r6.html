@@ -329,7 +329,7 @@
 					aircraft.userdata = [ flight ];
 					fleet.add( aircraft );
 
-					updateAicraftPosition( aircraft, position, flight.hdg * d2r );
+					updateAicraftPosition( aircraft, position, pi_05 + flight.hdg * d2r );
 
 				}
 
@@ -338,7 +338,7 @@
 				aircraft.userdata.push( flight );
 				getWaypoints( aircraft );
 
-				updateAicraftPosition( aircraft, position, flight.hdg * d2r );
+				updateAicraftPosition( aircraft, position, pi_05 + flight.hdg * d2r );
 
 			}
 
@@ -394,7 +394,7 @@
 
 			fleet.add( aircraft );
 
-			updateAicraftPosition( aircraft, position, flight.hdg * d2r );
+			updateAicraftPosition( aircraft, position, pi_05 + flight.hdg * d2r );
 
 		}
 
