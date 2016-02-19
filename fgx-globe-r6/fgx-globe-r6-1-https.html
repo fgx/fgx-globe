@@ -2,15 +2,15 @@
 <html lang=en >
 <head>
 <meta charset=utf-8 />
-<title>FGx Globe R6</title>
+<title>FGx Globe R6.1</title>
 <meta charset=utf-8 />
 <meta name=viewport content='width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0' />
 </head>
 <body>
 
-<script src=https://mrdoob.github.io/three.js/build/three.min.js ></script>
-<script src=https://mrdoob.github.io/three.js/examples/js/controls/OrbitControls.js ></script>
-<script src=https://mrdoob.github.io/three.js/examples/js/libs/stats.min.js ></script>
+<script src=http://mrdoob.github.io/three.js/build/three.min.js ></script>
+<script src=http://mrdoob.github.io/three.js/examples/js/controls/OrbitControls.js ></script>
+<script src=http://mrdoob.github.io/three.js/examples/js/libs/stats.min.js ></script>
 <!--
 <script src = http://rawgit.com/mrdoob/three.js/dev/build/three.js ></script>
 <script src = http://rawgit.com/mrdoob/three.js/dev/examples/js/controls/OrbitControls.js ></script>
@@ -74,20 +74,19 @@
 
 		var css = document.head.appendChild( document.createElement( 'style' ) );
 		css.innerHTML =
-		`
 
-			body { font: 12pt monospace; margin: 0; overflow: hidden; }
-			a {text-decoration: none; }
-			h2 { margin: 0 }
-			td { font-size: 8pt; }
+			'body { font: 12pt monospace; margin: 0; overflow: hidden; }' +
+			'a {text-decoration: none; }' +
+			'h2 { margin: 0 }' +
+			'td { font-size: 8pt; }' +
 
-			input[type=button] { background-color: #eee; border: 2px #eee solid; color: #888; }
+			'input[type=button] { background-color: #eee; border: 2px #eee solid; color: #888; }' +
 
-			input[type=range] { -webkit-appearance: none; -moz-appearance: none; background-color: silver; height: 20px; width: 180px; }
-			input[type=range]::-moz-range-thumb { -moz-appearance: none; background-color: #888; height: 20px; width: 10px; }
-			input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; background-color: #888; height: 20px; opacity: 0.85; width: 10px; }
+			'input[type=range] { -webkit-appearance: none; -moz-appearance: none; background-color: silver; height: 20px; width: 180px; }' +
+			'input[type=range]::-moz-range-thumb { -moz-appearance: none; background-color: #888; height: 20px; width: 10px; }' +
+			'input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; background-color: #888; height: 20px; opacity: 0.85; width: 10px; }' +
 
-		`;
+		'';
 
 		hamburger = document.body.appendChild( document.createElement( 'div' ) );
 		hamburger.style.cssText = ' left: 320px; position: absolute; top: 0px; transition: left 1s; ';
@@ -97,18 +96,19 @@
 		menu.style.cssText = ' background-color: #eee; border: 1px #ccc solid; left: -320px;  max-height: ' + ( window.innerHeight - 50 ) + 'px; ' +
 			'opacity: 0.8; overflow: auto; padding: 0 10px; position: absolute; top: 0px; transition: left 1s; max-width: 300px; ';
 		menu.innerHTML =
-		`
-			<h2>
-				<a href="" > ${ document.title } </a> 
-				<a id=i href=http://fgx.github.io/ >❦</a>
-			</h2>
-			<p>Overlay: <select id=selOverlay onchange=selectOverlay(); ></select>
-			<p>Vertical Scale <input type=range id=inpScale min=0 max=3 step=0.05 value=2 onchange=selectScale(this.valueAsNumber); /></p>
-			<p><input type=checkbox id=inpHelpers onchange=axis.visible=!axis.visible; checked /> Display axis</p>
-			<p><input type=checkbox id=chkGradient onchange=toggleGradientBackground(); checked /> Display gradient</p>
-			<p><input type=checkbox id=chkRotate checked /> Auto Rotation</p>
-			<p id=info ></p>
-		`;
+
+			'<h2>' +
+			'	<a href="" >' + document.title + '</a>' +
+			'	<a id=i href=http://fgx.github.io/ >❦</a>' +
+			'</h2>' +
+			'<p><a href="http://wiki.flightgear.org" >FlightGear</a> <a href="http://wiki.flightgear.org/Howto:Multiplayer" >Multiplayer<a> tracker</p>' +
+			'<p>Overlay: <select id=selOverlay onchange=selectOverlay(); ></select>' +
+			'<p>Vertical Scale <input type=range id=inpScale min=0 max=3 step=0.05 value=2 onchange=selectScale(this.valueAsNumber); /></p>' +
+			'<p><input type=checkbox id=inpHelpers onchange=axis.visible=!axis.visible; checked /> Display axis</p>' +
+			'<p><input type=checkbox id=chkGradient onchange=toggleGradientBackground(); checked /> Display gradient</p>' +
+			'<p><input type=checkbox id=chkRotate checked /> Auto Rotation</p>' +
+			'<p id=info ></p>' +
+		'';
 
 		for (var i = 0; i < overlays.length; i++) {
 				selOverlay.appendChild( document.createElement( 'option' ) );
