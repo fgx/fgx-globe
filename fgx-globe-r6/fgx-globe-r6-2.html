@@ -101,6 +101,7 @@
 			'	<a href="" >' + document.title + '</a>' +
 			'	<a id=i href=http://fgx.github.io/ >❦</a>' +
 			'</h2>' +
+			'<p>Rotate|Zoom|Pan = 1|2|3 fingers</p>' +
 			'<p><a href="http://wiki.flightgear.org" >FlightGear</a> <a href="http://wiki.flightgear.org/Howto:Multiplayer" >Multiplayer<a> tracker</p>' +
 			'<p>Overlay: <select id=selOverlay onchange=selectOverlay(); ></select>' +
 			'<p>Vertical Scale <input type=range id=inpScale min=0 max=3 step=0.05 value=2 onchange=selectScale(this.valueAsNumber); /></p>' +
@@ -365,6 +366,7 @@
 		model = model.replace( 'Aircraft/', '../../fgx-aircraft/data/' );
 
 		if ( model.indexOf( '137' ) !== -1 ) { model = '../../fgx-aircraft/data/ec135/ec135.js'; 
+		} else if ( model.indexOf( '707' ) !== -1 ) { model = '../../fgx-aircraft/data/707/707.js'; 
 		} else if ( model.indexOf( '747' ) !== -1 ) { model = '../../fgx-aircraft/data/747-8i/747-8i.js'; 
 		} else if ( model.indexOf( '737-700' ) !== -1 ) { model = '../../fgx-aircraft/data/737-300/737-300.js'; 
 		} else if ( model.indexOf( '777' ) !== -1 ) { model = '../../fgx-aircraft/data/777/777-200.js';
@@ -372,8 +374,12 @@
 		} else if ( model.indexOf( '340' ) !== -1 ) { model = '../../fgx-aircraft/data/A340-600/A340.js';
 		} else if ( model.indexOf( '319' ) !== -1 ) { model = '../../fgx-aircraft/data/A340-600/A340.js';
 		} else if ( model.toLowerCase().indexOf( 'b29' ) !== -1 ) { model = '../../fgx-aircraft/data/b29/b29.js';
+		} else if ( model.toLowerCase().indexOf( 'buccaneer' ) !== -1 ) { model = '../../fgx-aircraft/data/Buccaneer/buccaneer.js';
 		} else if ( model.toLowerCase().indexOf( 'c130' ) !== -1 ) { model = '../../fgx-aircraft/data/C130/c130.js';
+		} else if ( model.toLowerCase().indexOf( 'cessna337' ) !== -1 ) { model = '../../fgx-aircraft/data/Cessna337/Cessna337_Skymaster.js';
 		} else if ( model.toLowerCase().indexOf( 'dc3' ) !== -1 ) { model = '../../fgx-aircraft/data/dc3/dc-3.js';
+		} else if ( model.toLowerCase().indexOf( 'f-14' ) !== -1 ) { model = '../../fgx-aircraft/data/f-14b/f14.js';
+		} else if ( model.toLowerCase().indexOf( 'f-15' ) !== -1 ) { model = '../../fgx-aircraft/data/f15c/f15c.js';
 		}
 
 		var loader = new THREE.JSONLoader();
