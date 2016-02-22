@@ -2,6 +2,29 @@
 ===
 
 
+## 2016-02-20
+
+might be able to get g=data from flight radar // another app - lu?? has
+
+
+Keep talking with Geoff about aircraft
+Go on to Reddit
+
+Get Blender to JSON process going << three.js export broken??
+
+Use OBJ fies instead?
+
+
+http://forum.flightgear.org/viewtopic.php?f=10&t=28793
+
+* The script is a heavy user of computing resources. A fast CPU and good graphics adaptor really helps ( just as with FlightGear )
+* You can rotate, zoom and pan as you wish with fingers or pointing device
+* Everything is under a GPL license and hosted on GitHub
+* It all runs in your browser and loads in a few seconds
+* Should work on Chrome, FF, Edge and Safari and on Android, iOS and Chromebooks
+
+
+## 2016-02-16?
 Complete code re-write
 
 A FlightGear MultiPlayer Viewer

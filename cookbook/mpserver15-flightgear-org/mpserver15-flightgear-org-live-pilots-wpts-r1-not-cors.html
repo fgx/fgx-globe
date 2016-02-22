@@ -34,7 +34,7 @@
 		css.innerHTML =
 		`
 
-			body { font: 12pt monospace; margin: 0; overflow: hidden; }
+			body { font: 12pt monospace; margin: 0; /* overflow: hidden; */ }
 			a {text-decoration: none; }
 			h2 { margin: 0 }
 
@@ -100,9 +100,9 @@
 		scene.add( axisHelper );
 
 // assets
-		requestPilotsWPoints();
+//		requestPilotsWPoints();
 
-//		loadIframe();
+		loadIframe();
 
 	}
 
@@ -110,10 +110,14 @@
 	function loadIframe() {
 
 		scr = document.body.appendChild( document.createElement( 'iframe' ) );
-		scr.srcdoc = mpserver15PilotsWPoints;
+		scr.onload = function() { console.log( '', scr.contentWindow ); };
+		scr.src = mpserver15PilotsWPoints;
+
 
 	}
 
+
+	
 	function requestPilotsWPoints() {
 
 		xhr = new XMLHttpRequest();

@@ -147,7 +147,7 @@
 
 		lightDirectional = new THREE.DirectionalLight( 0xffffff, 0.5 );
 		lightDirectional.position.set( -size, size, size );
-
+/*
 		var d = size;
 		lightDirectional.shadow.camera.left = -d;
 		lightDirectional.shadow.camera.right = d;
@@ -161,6 +161,7 @@
 
 		lightDirectional.shadow.mapSize.width = 2048;  // default 512
 		lightDirectional.shadow.mapSize.height = 2048;
+*/
 
 		scene.add( lightDirectional );
 
@@ -332,7 +333,7 @@
 					aircraft.userdata = [ flight ];
 					fleet.add( aircraft );
 
-					updateAicraftPosition( aircraft, position, pi_05 + flight.hdg * d2r );
+					updateAircraftPosition( aircraft, position, pi_05 + flight.hdg * d2r );
 
 				}
 
@@ -341,7 +342,7 @@
 				aircraft.userdata.push( flight );
 				getWaypoints( aircraft );
 
-				updateAicraftPosition( aircraft, position, pi_05 + flight.hdg * d2r );
+				updateAircraftPosition( aircraft, position, pi_05 + flight.hdg * d2r );
 
 			}
 
@@ -367,19 +368,25 @@
 
 		if ( model.indexOf( '137' ) !== -1 ) { model = '../../fgx-aircraft/data/ec135/ec135.js'; 
 		} else if ( model.indexOf( '707' ) !== -1 ) { model = '../../fgx-aircraft/data/707/707.js'; 
-		} else if ( model.indexOf( '747' ) !== -1 ) { model = '../../fgx-aircraft/data/747-8i/747-8i.js'; 
 		} else if ( model.indexOf( '737-700' ) !== -1 ) { model = '../../fgx-aircraft/data/737-300/737-300.js'; 
+		} else if ( model.indexOf( '747' ) !== -1 ) { model = '../../fgx-aircraft/data/747-8i/747-8i.js'; 
+		} else if ( model.indexOf( '757' ) !== -1 ) { model = '../../fgx-aircraft/data/757-200/757-200.js';
 		} else if ( model.indexOf( '777' ) !== -1 ) { model = '../../fgx-aircraft/data/777/777-200.js';
 		} else if ( model.indexOf( '787' ) !== -1 ) { model = '../../fgx-aircraft/data/787/787-8.js';
 		} else if ( model.indexOf( '340' ) !== -1 ) { model = '../../fgx-aircraft/data/A340-600/A340.js';
 		} else if ( model.indexOf( '319' ) !== -1 ) { model = '../../fgx-aircraft/data/A340-600/A340.js';
+		} else if ( model.indexOf( '330' ) !== -1 ) { model = '../../fgx-aircraft/data/A330/A330.js';
+		} else if ( model.indexOf( '380' ) !== -1 ) { model = '../../fgx-aircraft/data/A380/a380.js';
 		} else if ( model.toLowerCase().indexOf( 'b29' ) !== -1 ) { model = '../../fgx-aircraft/data/b29/b29.js';
 		} else if ( model.toLowerCase().indexOf( 'buccaneer' ) !== -1 ) { model = '../../fgx-aircraft/data/Buccaneer/buccaneer.js';
 		} else if ( model.toLowerCase().indexOf( 'c130' ) !== -1 ) { model = '../../fgx-aircraft/data/C130/c130.js';
 		} else if ( model.toLowerCase().indexOf( 'cessna337' ) !== -1 ) { model = '../../fgx-aircraft/data/Cessna337/Cessna337_Skymaster.js';
+		} else if ( model.toLowerCase().indexOf( 'cessna-208' ) !== -1 ) { model = '../../fgx-aircraft/data/Cessna-208-Caravan/caravan.js';
+		} else if ( model.toLowerCase().indexOf( 'concorde' ) !== -1 ) { model = '../../fgx-aircraft/data/Concorde/concorde.js';
 		} else if ( model.toLowerCase().indexOf( 'dc3' ) !== -1 ) { model = '../../fgx-aircraft/data/dc3/dc-3.js';
 		} else if ( model.toLowerCase().indexOf( 'f-14' ) !== -1 ) { model = '../../fgx-aircraft/data/f-14b/f14.js';
 		} else if ( model.toLowerCase().indexOf( 'f-15' ) !== -1 ) { model = '../../fgx-aircraft/data/f15c/f15c.js';
+		} else if ( model.toLowerCase().indexOf( 'viggen' ) !== -1 ) { model = '../../fgx-aircraft/data/viggen/viggen.json';
 		}
 
 		var loader = new THREE.JSONLoader();
@@ -415,13 +422,13 @@
 
 			fleet.add( aircraft );
 
-			updateAicraftPosition( aircraft, position, pi_05 + flight.hdg * d2r );
+			updateAircraftPosition( aircraft, position, pi_05 + flight.hdg * d2r );
 
 		}
 
 	}
 
-	function updateAicraftPosition( aircraft, position, heading ) {
+	function updateAircraftPosition( aircraft, position, heading ) {
 
 		aircraft.position.copy ( position );
 		aircraft.lookAt( v( 0, 0, 0 ) );
@@ -643,15 +650,15 @@
 
 	function animate( timestamp ) {
 
-		controls.autoRotate = timestamp - rotateTime > delayTime && chkRotate.checked ? true : false;
+//		controls.autoRotate = timestamp - rotateTime > delayTime && chkRotate.checked ? true : false;
 
-		if ( timestamp - startTime > 8000 ) {
+//		if ( timestamp - startTime > 8000 ) {
 
-			startTime = performance.now();
+//			startTime = performance.now();
 
-			requestCrossfeed();
+//			requestCrossfeed();
 
-		}
+//		}
 
 		renderer.render( scene, camera );
 		controls.update();
