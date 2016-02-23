@@ -100,9 +100,9 @@
 		scene.add( axisHelper );
 
 // assets
-//		requestPilotsWPoints();
+		requestPilotsWPoints();
 
-		loadIframe();
+//		loadIframe();
 
 	}
 
@@ -132,7 +132,9 @@
 			text = JSON.parse( xhr.responseText );
 //			var lines = text.split(/\r\n|\n/);
 
-			console.log( text );
+			console.log( text.data.pilot[0].wpt );
+			info.innerHTML = text.data.pilot[0].wpt
+
 
 		}
 

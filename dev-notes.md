@@ -1,10 +1,14 @@
 ﻿Dev Notes
 ===
 
+## 2016-02-21
+
+* delete terminated flights
+* keep planes above land
 
 ## 2016-02-20
 
-might be able to get g=data from flight radar // another app - lu?? has
+might be able to get data from flight radar // another app - lu?? has
 
 
 Keep talking with Geoff about aircraft
@@ -12,7 +16,7 @@ Go on to Reddit
 
 Get Blender to JSON process going << three.js export broken??
 
-Use OBJ fies instead?
+Use OBJ fies instead? <<
 
 
 http://forum.flightgear.org/viewtopic.php?f=10&t=28793
