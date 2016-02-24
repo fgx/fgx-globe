@@ -3,7 +3,7 @@
 
 Your world - in ways you have never seen before.
 
-[FGx Globe R5]( http://fgx.github.io/fgx-globe/fgx-globe-r5/ )
+[FGx Globe ~ Full Screen]( http://fgx.github.io/fgx-globe/index.htmll )
 
 See also this post on Jaanga.com:
 
@@ -16,10 +16,21 @@ You have two ways of viewing the FGx Globe files:
 * Code hosted on GitHub: [fgx.github.io]( http://fgx.github.io/fgx-globe/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
 * Source code on GitHub: [github.com/fgx]( https://github.com/fgx/fgx-globe/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
 
-## Road Map
-* Add paint the stars using their relative luminosity in their correct positions, see Marble. Data is available via x-plane .dat
 
-## Updates ~ 2013-11-19
+## 2016-02-23
+
+[FGx Globe R7]( http://fgx.github.io/fgx-globe/fgx-globe-r7/fgx-globe-r7.html )
+
+Major update!
+
+* Adds waypoint tracking data from [mpserver15.flightgear.org]( http://mpserver15.flightgear.org/modules/fgtracker/ )
+* Code is still in its infancy
+* Can use a lot of cleaning up and streamlining
+
+
+
+
+## 2013-11-19
 
 This is the hot stuff:
 
@@ -34,7 +45,7 @@ This is the hot stuff:
 * Both of these actions take way too long. We will have to learn how to cheat here,
 * Next is the list of 27,151 airports with 27,151 tooltips << Try that with PostGIS.
 * Click on an airport to paint the screen with its data. GitHub data is behind Gitorious data - so many errors occur.
-* Clicking on an airport only shows its pariculars. Upcoming release will take you there
+* Clicking on an airport only shows its particulars. Upcoming release will take you there
 * Error: Painted text can prevent you from rotating screen. Work-around: Click outside text area or load airport with no data.
 * Click 'Get Nearby Airports' to see all airports in the current tile. 
 * Airports with ILS display each ILS as a correctly headed but badly positioned green bar. All other airports just show a red cube.
@@ -56,6 +67,9 @@ This is the hot stuff:
 * Add new bump-map globe with clouds
 * Add ablity to stop globe rotating to Global Settings tab
 * Just about all thumbnails now appear correctly
+
+Road Map << outdated
+* Add paint the stars using their relative luminosity in their correct positions, see Marble. Data is available via x-plane .dat
 
 2013-12-05 ~ Theo
 
