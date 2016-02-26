@@ -23,11 +23,16 @@ You have two ways of viewing the FGx Globe files:
 
 Major update!
 
-* Adds waypoint tracking data from [mpserver15.flightgear.org]( http://mpserver15.flightgear.org/modules/fgtracker/ )
+* Adds waypoint tracking data from mpserver15.flightgear.org
+* Data gathered at load time from mpserver15 in yellow
+* Runtime updates are red
 * Code is still in its infancy
 * Can use a lot of cleaning up and streamlining
+* Many features still to be added 
 
+But it's certainly already fun to watch the peeps flying around.
 
+Thanks Hazuki!
 
 
 ## 2013-11-19
