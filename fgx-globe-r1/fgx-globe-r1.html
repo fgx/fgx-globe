@@ -23,13 +23,13 @@
 	var renderer, scene, camera, controls, light, stats;
 	var geometry, material, mesh;
 	var clock = new THREE.Clock();
-	
+
 	var headsUp;
 	var mouse = { x: -1, y: -1 };
-	projector = new THREE.Projector();	
-	
+	projector = new THREE.Projector();
+
 	var globe;
-	
+
 	var Shaders = {
 		'earth' : {
 			uniforms: {
@@ -56,22 +56,22 @@
 				'}'
 			].join('\n')
 		},
-	};	
+	};
 
 	var stars;
-	
+
 	var info, baseText, updateText = '', scalesText = '';
 	var startTime, file, data, string;
 	var updates = 0;
 	var fileName = 'http://crossfeed.fgx.ch/data';
-	
+
 	var objects = [];
 	var planeScale = 10
 	var altitudeScale = 10;
-	
+
 	init();
 	animate();
-  
+
 	function init() {
 		if ( ! Detector.webgl ) {
 			renderer = new THREE.CanvasRenderer( { antialias: true } );
@@ -92,7 +92,7 @@
 
 		stats = new Stats();
 		stats.domElement.style.cssText = 'position: absolute; top: 0px; zIndex: 100; ';
-		document.body.appendChild( stats.domElement );    
+		document.body.appendChild( stats.domElement );
 
 		window.addEventListener( 'resize', onWindowResize, false );
 		document.addEventListener( 'mousemove', onDocumentMouseMove, false );
@@ -104,7 +104,7 @@
 		css.innerHTML = 'a { color: #f8f; text-decoration: none;}' +
 			'input[type=range] { -webkit-appearance: none; background-color: silver; height:20px; opacity: 0.5; width: 80px;}' +
 			'input[type="range"]::-webkit-slider-thumb {-webkit-appearance: none; background-color: #666; opacity: 0.5; width: 10px; height: 26px; }' ;
-		
+
 		document.body.appendChild( css );
 
 		info = document.createElement( 'div' );
@@ -114,15 +114,15 @@
 		headsUp = document.createElement( 'div' );
 		document.body.appendChild( headsUp );
 		headsUp.style.cssText = 'background-color: #ddd; border-radius: 8px; display: none; left: 50px; opacity: 0.85; padding: 5px 5px 10px 5px; ' +
-			'position: absolute; text-align: left;';	
+			'position: absolute; text-align: left;';
 		headsUp.innerHTML = '<h1>Stuff</h1>';
-		
+
 		baseText = '<p>data globe - fgx globe - r1 - flight data courtesy of ' +
 		'<a href="http://www.fgx.ch/" title="add-ons hosted in Switzerland for FlightGear - FOSS flight simulator" target="_blank">FGX</a>\'s ' +
-		'<a href="http://crossfeed.fgx.ch/data" title="near real-time data feed" target="_blank">Crossfeed</a></p>' +				
+		'<a href="http://crossfeed.fgx.ch/data" title="near real-time data feed" target="_blank">Crossfeed</a></p>' +
 		'<p>Sizes and altitudes: exaggerated. Headings: broken.</p>';
-		info.innerHTML = baseText; 
-		
+		info.innerHTML = baseText;
+
 		geometry = new THREE.SphereGeometry( 50, 50, 50 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationY( Math.PI) );
 
@@ -132,13 +132,13 @@
 			resolution: { type: "v2", value: new THREE.Vector2() },
 			texture: { type: "t", value: THREE.ImageUtils.loadTexture( "world.jpg" ) }
 		};
-		
+
 		if ( Detector.webgl ) {
 			material = new THREE.ShaderMaterial({
 				  uniforms: uniforms,
 				  vertexShader: shader.vertexShader,
 				  fragmentShader: shader.fragmentShader
-			});			
+			});
 		} else {
 			var texture = THREE.ImageUtils.loadTexture( "world.jpg" );
 			material = new THREE.MeshBasicMaterial( { map: texture, shading: THREE.SmoothShading } );
@@ -146,9 +146,9 @@
 
 		globe = new THREE.Mesh( geometry, material );
 		scene.add( globe );
-		
+
 		var radius = 80;
-		
+
 		var i, r = radius, starsGeometry = [ new THREE.Geometry(), new THREE.Geometry() ];
 
 		for ( i = 0; i < 250; i ++ ) {
@@ -188,18 +188,18 @@
 			stars.matrixAutoUpdate = false;
 			stars.updateMatrix();
 			scene.add( stars );
-		}	
-		
-// pole for the poles		
+		}
+
+// pole for the poles
 		geometry = new THREE.CylinderGeometry( 1, 1, 120 );
 		material = new THREE.MeshBasicMaterial( {color: 0xcccccc } );
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.position.set(0, 0, 0);
 		scene.add(mesh);
-		
+
 		requestFile(fileName);
 	}
-	
+
 	function updateScale( p, a ) {
 		planeScale = p;
 		altitudeScale = a;
@@ -208,9 +208,9 @@
 			'</p>';
 		info.innerHTML = baseText + updateText + scalesText;
 	}
-	
+
 	var lastTime = clock.getElapsedTime();;
-	
+
 	function animate() {
 		requestAnimationFrame( animate );
 		controls.update();
@@ -230,7 +230,7 @@
 		renderer.setSize( window.innerWidth, window.innerHeight );
 		time = clock.getElapsedTime();
 	}
-	
+
 	function requestFile( fname ) {
 		startTime = new Date();
 		file = new XMLHttpRequest();
@@ -238,17 +238,17 @@
 		file.onreadystatechange = callbackFile;
 		file.send(null);
 	}
-	
+
 	function callbackFile() {
 		if (file.readyState == 4) {
 			string = file.responseText;
-			data = JSON.parse( string );		
+			data = JSON.parse( string );
 			processFlightsData();
-		} else { 
+		} else {
 			// console.log('waiting...');
 		}
-	}	
-	
+	}
+
 	var OBJ = OBJ || {};
 
 	OBJ.planeId = function () {
@@ -264,21 +264,21 @@
 		this.spd_kts = [];
 		this.skywriting = new THREE.Object3D();
 	}
-	
-	var planes = {};	
+
+	var planes = {};
 	var flight, plane;
 
-	
+
 	function processFlightsData() {
 		var flights = data.flights;
 		for (var i = 0, l = flights.length; i < l; i++) {
 // console.log( flights[i].callsign );
-			flight = flights[i];	
-			
+			flight = flights[i];
+
 			if ( planes[flight.callsign] == undefined) {
-				planes[flight.callsign]  = new OBJ.planeId();			
+				planes[flight.callsign]  = new OBJ.planeId();
 				plane = planes[flight.callsign];
-				
+
 				plane.alt_ft.push(flight.alt_ft);
 				plane.callsign = flight.callsign;
 				plane.dist_nm = flight.dist_nm
@@ -290,96 +290,96 @@
 				makePlane( plane );
 				// plane.obj.scale.set( planeScale, planeScale, planeScale);
 				plane.obj.scale.set( planeScale * 0.01, planeScale * 0.01, planeScale * 0.01  );
-				scene.add( plane.obj );	
-				
-				updatePlane( plane );	
+				scene.add( plane.obj );
+
+				updatePlane( plane );
 			} else {
 				plane = planes[flight.callsign];
 				plane.alt_ft.push(flight.alt_ft);
 				plane.dist_nm = flight.dist_nm
 				plane.hdg.push(flight.hdg);
 				plane.lat.push(flight.lat);
-				plane.lon.push(flight.lon);		
+				plane.lon.push(flight.lon);
 				plane.obj.scale.set( planeScale * 0.01, planeScale * 0.01, planeScale * 0.01  );
 				plane.spd_kts = flight.spd_kts;
 				updatePlane( plane );
-			}			
+			}
 		}
 		updates++;
 		updateText = '<p>Update: ' + new Date() + ' ~ flights: ' + (flights.length - 1) + ' ~ updates: ' + updates + '</p>';
-		
+
 		updateScale( planeScale, altitudeScale );
-		
+
 		info.innerHTML = baseText + updateText + scalesText;
-	}	
+	}
 
 	function v(x,y,z){ return new THREE.Vector3(x,y,z); }
 	function cos(a){return Math.cos(a);} function sin(a){return Math.sin(a);}
-	
+
 	var ribbon;
-	
+
 	function updatePlane( plane ) {
 		var pi = Math.PI, d2r = Math.PI / 180;
 		var po = plane.obj, plat = plane.lat, plon = plane.lon, i = plat.length - 1;
-		var r = 51 + plane.alt_ft[i] * 0.00005 * altitudeScale;		
+		var r = 51 + plane.alt_ft[i] * 0.00005 * altitudeScale;
 		po.position.set(
-			r * cos( plat[i] * d2r ) * cos( pi - plon[i] * d2r), 
+			r * cos( plat[i] * d2r ) * cos( pi - plon[i] * d2r),
 			r * sin( plat[i] * d2r ),
 			r * cos( plat[i] * d2r ) * sin( pi - plon[i] * d2r)
 		);
 
 		po.lookAt( new THREE.Vector3(0,0,0) );
 		po.rotation.z = plane.hdg[i] * Math.PI / 180;
-		
-		plane.obj.children[7].material = canvasText( plane.callsign, 'H:' + plane.hdg[i], 'A:' + plane.alt_ft[i], 'La:' + plane.lat[i], 'Lo:' + plane.lon[i], { color: '#ff00ff', height: 105,  width: 150 }); 
 
-// ugliness		
+		plane.obj.children[7].material = canvasText( plane.callsign, 'H:' + plane.hdg[i], 'A:' + plane.alt_ft[i], 'La:' + plane.lat[i], 'Lo:' + plane.lon[i], { color: '#ff00ff', height: 105,  width: 150 });
+
+// ugliness
 		if ( plane.alt_ft[i] <= 1 ) {
 			console.log(plane);
 			for (var i = 0, l = plane.obj.children.length; i < 7; i++) {
 				plane.obj.children[i].material = new THREE.MeshBasicMaterial( {color: 0xcccccc } );
-			} 
+			}
 		} else {
 			for (var i = 0, l = plane.obj.children.length; i < 7; i++) {
 				plane.obj.children[i].material = new THREE.MeshNormalMaterial( );
 			}
 		}
-/*		
+/*
 		material = new THREE.MeshBasicMaterial( { color: 0xffffff, side: THREE.DoubleSide } );
 		var ribbonGeo = new THREE.Geometry();
 
 		// think about saving the positions...
 		for ( var i = 0, l = plat.length; i < l; i++ ) {
-			vector = v( 
-				r * cos( plat[i] * d2r ) * cos( pi - plon[i] * d2r), 
+			vector = v(
+				r * cos( plat[i] * d2r ) * cos( pi - plon[i] * d2r),
 				r * sin( plat[i] * d2r ) - 1,
-				r * cos( plat[i] * d2r ) * sin( pi - plon[i] * d2r)	
+				r * cos( plat[i] * d2r ) * sin( pi - plon[i] * d2r)
 			);
 			ribbonGeo.vertices.push( vector );
-			vector = v( 
-				r * cos( plat[i] * d2r ) * cos( pi - plon[i] * d2r), 
+			vector = v(
+				r * cos( plat[i] * d2r ) * cos( pi - plon[i] * d2r),
 				r * sin( plat[i] * d2r ) - 3,
-				r * cos( plat[i] * d2r ) * sin( pi - plon[i] * d2r)	
+				r * cos( plat[i] * d2r ) * sin( pi - plon[i] * d2r)
 			);
 			ribbonGeo.vertices.push( vector );
-		}	
-		scene.remove( plane.skywriting );		
+		}
+		scene.remove( plane.skywriting );
 		plane.skywriting = new THREE.Ribbon(ribbonGeo, material);
 		scene.add( plane.skywriting );
-*/				
+*/
 	}
 
-	function makePlane( plane ) {	
+	function makePlane( plane ) {
 		var p = plane.obj;
 		material = new THREE.MeshNormalMaterial();
-		
+
 		// body
 		geometry = new THREE.CubeGeometry( 100, 10, 10 );
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.plane = plane;
 		objects.push(mesh);
 		p.add( mesh );
-		
+
 		// wing
 		geometry = new THREE.CubeGeometry( 20, 100, 3 );
 		mesh = new THREE.Mesh( geometry, material );
@@ -387,29 +387,29 @@
 		mesh.plane = plane;
 		objects.push(mesh);
 		p.add( mesh );
-			
+
 		// tail
 		geometry = new THREE.CubeGeometry( 10, 40, 3 );
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.position.set(-45, 0, 0);
 		mesh.plane = plane;
 		objects.push(mesh);
-		p.add( mesh );		
-	
+		p.add( mesh );
+
 		// rudder
 		geometry = new THREE.CubeGeometry( 10, 2, 20 );
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.position.set(-45, 0, -12);
 		mesh.plane = plane;
 		objects.push(mesh);
-		p.add( mesh );	
-	
+		p.add( mesh );
+
 		// cockpit
 		geometry = new THREE.CubeGeometry( 20, 8, 6 );
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.position.set( 15, 0, -8);
 		objects.push(mesh);
-		p.add( mesh );	
+		p.add( mesh );
 
 		// propeller #1
 		geometry = new THREE.CubeGeometry( 2, 30, 3 );
@@ -418,7 +418,7 @@
 		mesh.position.set( 52, 0, 0);
 		objects.push(mesh);
 		p.add( mesh );
-		
+
 		// propeller #2
 		geometry = new THREE.CubeGeometry( 2, 30, 3 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( - Math.PI / 4 ) );
@@ -426,38 +426,38 @@
 		mesh.position.set( 52, 0, 0);
 		objects.push(mesh);
 		p.add( mesh );
-		
+
 		// placard
 		geometry = new THREE.PlaneGeometry( 150, 105, 1, 1 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( -Math.PI / 2 ) );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationZ( Math.PI ) );
-		material = canvasText( plane.callsign, 'H:' + plane.hdg[0], 'A:' + plane.alt_ft[0], 'La:' + plane.lat[0], 'Lo:' + plane.lon[0], { color: '#ff00ff', height: 105,  width: 150 }); 
+		material = canvasText( plane.callsign, 'H:' + plane.hdg[0], 'A:' + plane.alt_ft[0], 'La:' + plane.lat[0], 'Lo:' + plane.lon[0], { color: '#ff00ff', height: 105,  width: 150 });
 		mesh = new THREE.Mesh( geometry, material );
 		mesh.position.set( 0, 0, -80);
 		mesh.plane = plane;
 		objects.push(mesh);
 		p.add( mesh );
-		
+
 		// p.rotation.z = plane.hdg[0] * Math.PI / 180;
 }
-	
+
 	function canvasText ( text1, text2, text3, text4, text5, parameters ) {
 // console.log(parameters, text1, text2);
 		var canvas = document.createElement("canvas");
-		
+
 		var width = ( parameters['width'] ) ? parameters['width'] : 300 ;
 		canvas.width = width;
 		var height = ( parameters['height'] ) ? parameters['height'] : 150 ;
-		canvas.height = height; 
-		
+		canvas.height = height;
+
 		var context = canvas.getContext("2d");
 		context.globalAlpha = 0.8;
 		context.fillStyle =  ( parameters['backgroundColor'] !== undefined ) ? parameters['backgroundColor'] : '#444444';
 		context.fillRect( 0, 0, width, height );
 		context.lineWidth = 2;
-		context.strokeRect(0, 0, width, height);	
+		context.strokeRect(0, 0, width, height);
 		context.fillStyle = ( parameters['color']) ? parameters['color'] : '#000000';
-		
+
 		context.font = ( parameters['fontSize'] !== undefined ) ? parameters['fontSize'] + "pt Arial bold" : '16pt Arial bold';
 		context.textAlign = "left";
 		context.fillText(text1, 5, 20);
@@ -465,28 +465,28 @@
 		context.fillText(text3, 5, 60);
 		context.fillText(text4, 5, 80);
 		context.fillText(text5, 5, 100);
-		
+
 		map = new THREE.Texture( canvas );
 		map.needsUpdate = true;
 		return new THREE.MeshBasicMaterial( { map: map, opacity: 0.8, side: THREE.DoubleSide, transparent: true } );
-	}	
-	
+	}
+
 	var interescts, intersected;
-	
+
 	function onDocumentMouseMove( event ) {
 		// event.preventDefault();
 		mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
 		mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
-		
+
 		var vector = new THREE.Vector3( mouse.x, mouse.y, 0.5 );
 		projector.unprojectVector( vector, camera );
-		var raycaster = new THREE.Raycaster( camera.position, vector.sub( camera.position ).normalize() );			
+		var raycaster = new THREE.Raycaster( camera.position, vector.sub( camera.position ).normalize() );
 		intersects = raycaster.intersectObjects( objects );
 
 		if ( intersects.length > 0 ) {
 			if ( intersected != intersects[ 0 ].object ) { // not same one
-				intersected = intersects[ 0 ].object;	
-			}		
+				intersected = intersects[ 0 ].object;
+			}
 			headsUp.style.left = 10 + 0.5 * window.innerWidth + mouse.x * 0.5 * window.innerWidth + 'px';
 			headsUp.style.bottom = 10 + 0.5 * window.innerHeight + mouse.y * 0.5 * window.innerHeight+ 'px';
 			headsUp.style.display = 'block';
@@ -496,7 +496,7 @@
 		} else {
 			headsUp.style.display = 'none';
 		}
-	}	
+	}
 </script>
 </body>
 </html>
