@@ -3,7 +3,10 @@
 
 Your world - in ways you have never seen before.
 
-[FGx Globe ~ Full Screen]( http://fgx.github.io/fgx-globe/index.htmll )
+### [FGx Globe R7 ~ Full Screen]( http://fgx.github.io/fgx-globe/index.html )
+
+### [FGx Globe R5 ~ Full Screen]( http://fgx.github.io/fgx-globe/fgx-globe-r5/index.html )
+
 
 See also this post on Jaanga.com:
 
